@@ -1,92 +1,65 @@
 ---
-description: >-
-  A good-natured adventurer from Mondstadt who's unfortunately extremely
-  unlucky.
+description: The Tianquan of the Liyue Qixing. Her wealth is unsurpassed in all of Teyvat.
 ---
 
-# Bennett
+# Ningguang
 
-## ![](../../.gitbook/assets/element_pyro.png) Bennett
+## ![](../../.gitbook/assets/image.png) Ningguang
 
-![](../../.gitbook/assets/bennett.png)
+![](../../.gitbook/assets/2020031619540911246.png)
 
 ## **Attacks**
 
 {% tabs %}
-{% tab title="Strike of Fortune" %}
+{% tab title="Sparkling Scatte" %}
 **Normal Attacks**  
-Bennett performs up to 5 consecutive attacks.
+Shoots gems that deal Geo DMG. Upon hit, grants Ningguang 1 Star Jade.
 
-| String | Talent 6% | Frames | Motion Value |
-| :--- | :--- | :--- | :--- |
-| 1-Hit | 64.75% |  |  |
-| 2-Hit | 62.13% |  |  |
-| 3-Hit | 79.38% |  |  |
-| 4-Hit | 86.75% |  |  |
-| 5-Hit | 104.5% |  |  |
+| String | Talent 6% | GU | Frames | Motion Value |
+| :--- | :--- | :--- | :--- | :--- |
+| Normal Attack | 39.2% | 1U |  |  |
 
 **Charged Attack**  
-Consumes 20 stamina to unleash 2 consecutive strikes.
+Consumes 50 stamina to fire off a giant gem that deals Geo DMG. If Ningguang has any Star Jades, unleashing a Charged Attack will cause the Star Jades to be fired at the enemy as well, dealing additional Geo DMG.
 
 | String | Talent 6% | Frames | Motion Value |
 | :--- | :--- | :--- | :--- |
-| N1C | 234.25 |  |  |
-
-Enemies struck by Bennett's charged attack will be staggered or launched.
+| Charged Attack DMG | 243.71% |  |  |
+| DMG per Star Jade | 69.44% |  |  |
 
 **Plunge**
 
 | Damage Type | Talent 6% |
 | :--- | :--- |
-| Plunge Impact | 92.93% |
-| Low Plunge DMG | 185.81% |
-| High Plunge DMG | 232.09% |
+| Plunge Impact | 82.6% |
+| Low Plunge DMG | 165.17% |
+| High Plunge DMG | 206.3% |
+
+Ningguang's Normal Attacks can be casted much faster via animation canceling. Refer to the evidence vault at the bottom of the page. 
 {% endtab %}
 
-{% tab title="Passion Overload" %}
-**Press**  
-Bennett strikes once, dealing Pyro DMG.
+{% tab title="Jade Screen" %}
+Ningguang creates a **Jade Screen** that deals AoE Geo DMG and possess the following properties:
 
-**Hold \(Short\)**
-
-* Level 1: Charges up to strike twice dealing Pyro DMG and launching enemies.
-* Level 2: Charges up to strike two times dealing Pyro DMG, with the last attack triggering an explosion that knocks away Bennett and the enemy.
+*  Jade Screen can block opponents' projectiles scaling off of Ningguang’s Max HP. 
+* Jade Screen is considered a Geo Constructs and can be used to block certain attacks. However, it cannot be climbed.
+* Only one Jade Screen may exist at a time. 
 
 | Type | Talent 6% | Cooldown | GU | Particles | Frames | Motion Value |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| E Press | 192.64% | 5s | 2U | 2 |  |  |
-| Level 1 | 117.6% + 128.8% | 7.5s | 2 x 1U | 3 |  |  |
-| Level 2 | 123.2% + 134.4% | 10s | 2 x 1U | 3 |  |  |
-| Explosion |  |  | 1U |  |  |  |
-
-* Max hold duration is x seconds, after which Bennett will use a Level 2 Passion Overload by default. 
-* Having knockback resistance will prevent the explosion from knocking back Bennett after casting a Level 2 Passion Overload.
+| Skill DMG | 322.56% | 12s | 1U |  |  |  |
+| HP | 66% |  |  |  |  |  |
 {% endtab %}
 
-{% tab title="Fantastic Voyage" %}
-Bennett performs a jumping attack to create **Inspiration Field**, dealing Pyro DMG.
+{% tab title="Starshatter" %}
+Gathering a great number of gems, Ningguang scatters them all at once, sending **SIX** homing projectiles at her opponents that deal massive Geo DMG. If Starshatter is casted when a Jade Screen is nearby, the Jade Screen will fire an additional **SIX** gem projectiles at the same time.
 
-**Inspiration Field**
-
-* If the health of a character within the AoE of **Inspiration Field** is less than or equal to 70%, their HP will continuously regenerate based on Bennett’s max HP. 
-* However, if the health of the character is greater than 70%, gain an ATK bonus based on Bennett’s base ATK.
-* Continuously imbues characters within the AoE with Pyro.
-
-| Effect | Talent 6% / Data |
-| :--- | :--- |
-| DMG | 325.92% |
-| HP Regeneration | 8.4% Bennett Max HP + 914 |
-| ATK Bonus Ratio | 78.4% Bennett **Base ATK** |
-| Duration | 12s |
-| Cooldown | 15s \(non-scaling\) |
-| Energy Cost | 60 |
-| GU | 2U |
-| Imbue | 1U |
-| Frames |  |
-
-* Bennett field does not apply the buffs instantaneously on swap. **Inspiration Field** applies the ATK bonus and healing on the same tick every second. If you swap after the tick occurs, you will need to wait for the next tick to receive the ATK bonus.
-* **Inspiration Field** will apply the ATK Bonus and **C6: Fire Ventures with Me** will also apply the Pyro DMG bonus immediately on cast.
-* The bonus ATK from **Inspiration Field** ONLY scales with Bennett's base attack, including buffs like Noblesse Oblige \(2\).
+| Effect | Talent 6% / Data |  |  |
+| :--- | :--- | :--- | :--- |
+| DMG per Gem | 121.74% |  |  |
+| Energy Cost | 40 |  |  |
+| GU | 1U |  |  |
+| Frames |  |  |  |
 {% endtab %}
 {% endtabs %}
 
@@ -94,24 +67,21 @@ Bennett performs a jumping attack to create **Inspiration Field**, dealing Pyro 
 
 {% tabs %}
 {% tab title="Passive" %}
-### It should be safe...
+**Trove of Marvelous Treasures**
 
-When dispatched on an expedition in Mondstadt, time consumed is reduced by 25%
+Displays the locations of nearby ore veins on the mini-map.
 {% endtab %}
 
 {% tab title="Ascension 2" %}
-### Rekindle
+### Backup Plan
 
-Decrease passion overload’s cooldown by 20%.
+When Ningguang is in possession of Star Jades, her Charged Attack does not consume Stamina
 {% endtab %}
 
 {% tab title="Ascension 4" %}
-### Fearnaught
+### Strategic Reserve
 
-Within the Inspiration Field created by Fantastic Voyage, Passion Overload takes the following effects:
-
-* CD is reduced by 50%
-* Bennett will not be launched by the explosion of Passion Overload: Charge Level 2.
+A character that passes through the Jade Screen will gain a 12% Geo DMG Bonus for 10s
 {% endtab %}
 {% endtabs %}
 
@@ -119,47 +89,39 @@ Within the Inspiration Field created by Fantastic Voyage, Passion Overload takes
 
 {% tabs %}
 {% tab title="C1" %}
-### Grand Expectation
+### Piercing Fragments
 
-Fantastic Voyage’s ATK increase no longer has an HP restriction, and gains an additional 20% of Bennett’s Base ATK.
+When a normal attack hits, it deals AoE Geo DMG.
 {% endtab %}
 
 {% tab title="C2" %}
-### Impasse Conqueror
+### Shock Effect
 
-When Bennett’s HP falls below 70%, his Energy Recharge is increased by 30%.
+When Jade Screen is shattered, its CD will reset. This effect can occur once every 6s.
 {% endtab %}
 
 {% tab title="C3" %}
-### Unstoppable Fervor
+### **Majesty be the Array of Stars**
 
-Increases the level of Passion Overload by 3.
+Increases the level of Starshatter by 3.
 {% endtab %}
 
 {% tab title="C4" %}
-### Unexpected Odyssey
+**Exquisite be the Jade, Outshining All Beneath**
 
-Using a Normal Attack when executing the second attack of Passion Overload’s Charge Level 1 allows an additional attack to be performed. This additional attack does 135% of the second attack’s DMG.
-
-| Attack | Talent 6% | Talent 9% | Motion Value |
-| :--- | :--- | :--- | :--- |
-| Passion Overload Level 1 + Normal Attack | 117.6% + 128.8% + 173.88% | 149.6% + 163.2% + 220.3% |  |
+Jade Screen increases nearby characters’ Elemental Resistance by 10%
 {% endtab %}
 
 {% tab title="C5" %}
-### True Explorer
+**Invincible be the Jade Screen**
 
-Increases the Level of Fantastic Voyage by 3.
+Increases the Level of Jade Screen by 3.
 {% endtab %}
 
 {% tab title="C6" %}
-### **Fire Ventures with Me**
+### **Grandeu be the Seven Stars**
 
-Sword, Claymore, or Polearm-wielding characters inside Fantastic Voyage’s radius gain a 15% Pyro DMG Bonus and their weapons are infused with Pyro.
-
-* Pyro Infusion lasts 2 seconds upon leaving **Inspiration Field**.
-* The Pyro DMG bonus will apply to the Fantastic Voyage damage.
-* Pyro infused autos have 1U worth of Pyro applcation.
+When Starshatter is used, Ningguang gains 7 Star Jades.
 {% endtab %}
 {% endtabs %}
 
@@ -171,7 +133,7 @@ Sword, Claymore, or Polearm-wielding characters inside Fantastic Voyage’s radi
 
 **Tags:** [Field Buffs](https://library.keqingmains.com/mechanics/combat/field-buffs), [Elemental Gauge Theory](https://library.keqingmains.com/mechanics/combat/elemental-reactions/elemental-gauge-theory)
 
-**Evidence Vault:**
+**Evidence Vault:** [**https://docs.google.com/document/d/1P5mXN25mTsf2b9FzNDAe8DqJ29sTBxHaDWkamAD5rvo/edit\#heading=h.gfpju5v3el40**](https://docs.google.com/document/d/1P5mXN25mTsf2b9FzNDAe8DqJ29sTBxHaDWkamAD5rvo/edit#heading=h.gfpju5v3el40)\*\*\*\*
 
 {% page-ref page="../../evidence/characters/pyro/bennett.md" %}
 
