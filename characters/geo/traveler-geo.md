@@ -8,7 +8,7 @@ description: >-
 
 ## ![](../../.gitbook/assets/element_geo.png) Traveler \(Geo\)
 
-![](../../.gitbook/assets/traveler-geo-.png)
+![](../../.gitbook/assets/travelergeo.png)
 
 ## **Attacks** Perform up to 5 rapid strikes.
 
