@@ -4,7 +4,7 @@ description: The Tianquan of the Liyue Qixing. Her wealth is unsurpassed in all 
 
 # Ningguang
 
-## ![](../../.gitbook/assets/geo-icon.png) Ningguang
+## ![](../../.gitbook/assets/image.png) Ningguang
 
 ![](../../.gitbook/assets/2020031619540911246.png)
 
@@ -35,19 +35,19 @@ Consumes 50 stamina to fire off a giant gem that deals Geo DMG. If Ningguang has
 | Low Plunge DMG | 165.17% |
 | High Plunge DMG | 206.3% |
 
-Ningguang's Normal Attacks can be casted much faster via animation canceling. Refer to the evidence vault at the bottom of the page. 
+Ningguang's Normal Attacks can be casted much faster via animation canceling. Refer to the evidence vault at the bottom of the page.
 {% endtab %}
 
 {% tab title="Jade Screen" %}
 Ningguang creates a **Jade Screen** that deals AoE Geo DMG and possess the following properties:
 
-*  Jade Screen can block opponents' projectiles scaling off of Ningguang’s Max HP. 
+* Jade Screen can block opponents' projectiles scaling off of Ningguang’s Max HP. 
 * Jade Screen is considered a Geo Constructs and can be used to block certain attacks. However, it cannot be climbed.
 * Only one Jade Screen may exist at a time. 
 
 | Type | Talent 6% | Cooldown | GU | Particles | Frames | Motion Value |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Skill DMG | 322.56% | 12s | 1U |  |  |  |
+| Skill DMG | 322.56% | 12s | 1U | 3~4 |  |  |
 | HP | 66% |  |  |  |  |  |
 {% endtab %}
 
