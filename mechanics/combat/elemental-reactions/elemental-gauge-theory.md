@@ -28,13 +28,13 @@ Why is 2U = 12s, but 1U isn’t 6s? This is because a 2U aura has a **higher dec
 
 ## Notation
 
-Units \(U\) are reported as the type of aura they apply, but elemental applications have to account for decay rate and reactions so the notation for Elemental Gauge Theory should be appended. 
+Units \(U\) are reported as the type of aura they apply, but elemental applications have to account for decay rate and reactions so the notation for Elemental Gauge Theory should be appended.
 
 When extending auras with stronger attacks with higher U or consuming auras via elemental reactions, **the resulting auras are not simply an addition of the unit U**. Therefore, Gauge Units \(GU\) and the decay rate have to be separated from each other to make good general use of the theory.
 
 Gauge Units are used to calculate the remaining aura on for elemental reactions. The decay rate of the remaining aura will be the first applied aura and should be written as stated below.
 
-The decay notation number indicates the original system of elemental units that are applied \(1U, 2U, or 4U\), while the new notation \(A, B, or C\) notes the decay rate of the aura. 
+The decay notation number indicates the original system of elemental units that are applied \(1U, 2U, or 4U\), while the new notation \(A, B, or C\) notes the decay rate of the aura.
 
 | Original Notation | Reaction Notation | Decay Notation | Decay Rate Conversion |
 | :--- | :--- | :--- | :--- |
