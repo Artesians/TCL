@@ -43,7 +43,7 @@
   * [Xingqiu](characters/hydro/xingqiu.md)
 * [Pyro](characters/pyro/README.md)
   * [Amber](characters/pyro/amber.md)
-  * [Ningguang](characters/pyro/bennett.md)
+  * [Ningguang](characters/pyro/ningguang.md)
   * [Diluc](characters/pyro/diluc.md)
   * [Hu Tao](characters/pyro/hu-tao.md)
   * [Klee](characters/pyro/klee.md)
