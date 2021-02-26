@@ -6,7 +6,7 @@ description: >-
 
 # Traveler \(Geo\)
 
-## ![](../../.gitbook/assets/element_geo%20%281%29.png) Traveler \(Geo\)
+## ![](../../.gitbook/assets/element_geo.png) Traveler \(Geo\)
 
 ![](../../.gitbook/assets/traveler-geo-.png)
 
