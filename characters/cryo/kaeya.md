@@ -62,3 +62,69 @@ Coalescing the frost in the air, Kaeya summons 3 icicles that revolve around him
 | GU | 1A |
 {% endtab %}
 {% endtabs %}
+
+## **Ascension Passives**
+
+{% tabs %}
+{% tab title="Passive" %}
+### Hidden Strength
+
+Decreases sprinting stamina consumption for your own party members by 20%. Not stackable with passive talents that provide the exact same effects.
+{% endtab %}
+
+{% tab title="Ascension 2" %}
+### Cold-Blooded Strike
+
+Every hit with **Frostgnaw** regenerates HP for Kaeya equal to 15% of his ATK.
+{% endtab %}
+
+{% tab title="Ascension 4" %}
+### Glacial Heart
+
+Opponents frozen by **Frostgnaw** will drop additional elemental particles. **Frostgnaw** may only produce a maximum of 2 additional elemental particles per use.
+{% endtab %}
+{% endtabs %}
+
+## Constellations
+
+{% tabs %}
+{% tab title="C1" %}
+### Excellent Blood
+
+The CRIT Rate of Kaeya's Normal and Charge Attacks against opponents affected by Cryo is increased by 15%.
+{% endtab %}
+
+{% tab title="C2" %}
+### Never-Ending Performance
+{% endtab %}
+
+Every time **Glacial Waltz** defeats an opponent during its duration, its duration is increased by 2.5s, up to a maximum of 15s.
+{% tab title="C3" %}
+### Dance of Frost
+
+Increases the Level of **Frostgnaw** by 3.
+{% endtab %}
+
+{% tab title="C4" %}
+### Frozen Kiss
+
+Triggers automatically when Kaeya's HP falls below 20%: Creates a shield that absorbs damage equal to 30% of Kaeya's Max HP. Lasts for 20s. This shield absorbs Cryo DMG with 250% effiicency. Can only occur once every 60s.
+{% endtab %}
+
+{% tab title="C5" %}
+### Frostbiting Embrace
+
+Increases the level of **Glacial Waltz** by 3.
+{% endtab %}
+
+{% tab title="C6" %}
+### Glacial Whirlwind
+
+**Glacial Waltz** will generate 1 additional icicle, and will regenerate 15 Energy when cast.
+{% endtab %}
+{% endtabs %}
+
+## **External Links**
+
+* [**Honey Hunter**](https://genshin.honeyhunterworld.com/db/char/kaeya/)
+* [**Genshin Impact Fandom**](https://genshin-impact.fandom.com/wiki/Kaeya)
