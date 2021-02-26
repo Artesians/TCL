@@ -66,6 +66,14 @@ Coalescing the frost in the air, Kaeya summons 3 icicles that revolve around him
 ## **Ascension Passives**
 
 {% tabs %}
+{% tab title="Ascension Stat" %}
+| Level | Energy Recharge% |
+| :--- | :--- |
+| 60+ | 13.3% |
+| 70+ | 20% |
+| 80+ | 26.7% |
+{% endtab %}
+
 {% tab title="Passive" %}
 ### Hidden Strength
 
