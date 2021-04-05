@@ -85,7 +85,7 @@ Fischl summons **Oz** a short distance in front of herself and deals Electro DMG
 
 * **Oz** has a duration of 10s.
 * **Oz** normal attacks a total of 10 times over the duration.
-* **Oz** has an elemental application ICD of 3-4s, so every 4th hit will apply Electro. Additionally hits 1-6 are considered a separate elemental source from hits 7-10. Thus, against a single target, hits 1, 5, 7 apply electro to the target.
+* **Oz** will apply electro every 4 hits or when a timer reaches 5 seconds after the first electro application. When the 5 second timer reaches zero, the oz's next hit will apply electro regardless of the hit counter and the timer is reset. Thus, against a single target, hits 1, 5, 7 apply electro to the target.
 * Additionally, when **Oz’s** normal attack triggers an Overload or Superconduct reaction, it generates 1 particle per enemy hit by the reaction.
 {% endtab %}
 
