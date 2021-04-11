@@ -25,3 +25,6 @@ By destroying artifacts, you either can get XP or Mora, it is the same for each.
 
 Destroying weapons is not efficient and causes you to lose weapon XP. Destroying artifacts although has no "real downside," the rewards given are lackluster and are better used as fodder. There is no reason to destroy items that give no rewards. Those items are better used for the Parametric Transformer if they need to be disposed of. The only upside is to mass clear inventory space, but due to the size of the inventory and the loss of XP, it does not warrant using the feature.
 
+## Bush droprates
+
+Bushes have a 8% chance to drop loot at day they will drop a mix of lizards, eggs and matsutakes. At night fireflies are added into the loot table and you can use this together with the [Bushes respawn infinitely](../../evidence/mechanics/gameplay-mechanics/bugs.md#infinite-bushes) to farm these materials.
