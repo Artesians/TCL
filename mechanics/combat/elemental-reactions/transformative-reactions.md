@@ -4,7 +4,29 @@ description: 'Overload, Superconduct, Electro-Charged, Shatter, Swirl, and Cryst
 
 # Transformative Reactions
 
-![](../../../.gitbook/assets/image.png)
+$$
+\begin{align}
+TransformativeReaction = &
+\begin{cases}
+4 & \text{if, } triggering\ Overloaded\\
+3 & \text{if, } triggering\ Shatter\\
+2.4 \times ECTriggers & \text{if, } triggering\ ElectroCharged\\
+1.2 & \text{if, } triggering\ Swirl\\
+1 & \text{if, } triggering\ Superconduct\\
+0 & \text{otherwise}
+\end{cases}
+\\
+& \times \biggl( 1 + \frac{6.66 \times EM}{1400 + EM} + ReactionBonus \biggr)\\
+& \times LevelMultiplier \times EnemyResistanceMultiplier
+\end{align}
+$$
+
+$$
+\begin{align}
+LevelMultiplier \approx &\ 0.0002325 \times LvlCharacter^{3} + 0.05547 \times LvlCharacter^{2} \\
+& - 0.2523 \times LvlCharacter + 14.74
+\end{align}
+$$
 
 Transformative reactions scale based on Elemental Mastery and character level, meaning they don't scale very well compared to amping reactions \(melt/vaporize\) in current late-game content.
 
