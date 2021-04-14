@@ -147,7 +147,7 @@ $$
 
 $$
 \begin{align}
-LevelMultiplier \approx & 0.0002325 \times LvlCharacter^{3} + 0.05547 \times LvlCharacter^{2} \\
+LevelMultiplier \approx &\ 0.0002325 \times LvlCharacter^{3} + 0.05547 \times LvlCharacter^{2} \\
 & - 0.2523 \times LvlCharacter + 14.74
 \end{align}
 $$
