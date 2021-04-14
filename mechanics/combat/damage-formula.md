@@ -1,3 +1,8 @@
+---
+description: >-
+An explanation as to how damage is calculated.
+---
+
 # Damage Formula
 
 ## **General Formula for Damage**
@@ -59,7 +64,6 @@ $$
 
 ## Enemy Defense
 
-![](https://lh5.googleusercontent.com/XhXkMOeRep9gAktBxQN6VecPOQDwDcuyVL6jVRvyCvRpu5y55uG9_Wf1NLrm9rd6pAu1QEYfgdlIzHfjJRWZ1K3zL6glorl4Fojq98hLHY1YtUwdlcPBeADLqXnWGryTk_YJzNo)
 $$
 EnemyDefenseModifier = \frac{LvlCharacter + 100}{(LvlCharacter + 100) + (LvlEnemy + 100) \times (1-DefReduction)}
 $$
@@ -70,8 +74,6 @@ $$
 | **DefReduction** | The total defense \(but not resistance\) reduction from effects such as Razor's Constellation 4, Lisa Ascension 4, and Klee Constellation 2. |
 
 ## Enemy Resistance
-
-![](https://lh5.googleusercontent.com/cxfHRkejG6vheJgQcYtEMkFRvhR_HyX7joH_aoPl5YxzKl-CIZ2TVsP2ojrnKINLbALXwQBdETrmh-7GmK6QxDljuUNypffw00cI_nOgLGfTuiI9imzWdD941Lr-OIBdYJZl-kk)
 
 $$
 Enemy Resistance Modifier =
@@ -113,7 +115,6 @@ $$
 
 ## Other Bonus
 
-![](https://lh4.googleusercontent.com/jUt7AhNKkro5XfTSG3V8XfXvOTFV1_yoQpwPBbz0dkGaC8QiazdbnaHtYw6WHT-E6YfSKSspwGeL5lMK_qCe9xG6hiOI6m9fiJVS2A2zUWs_lV0KIOYoaQI4EdaIn98gOeBSiCU)
 $$
 OtherBonus =
 \begin{cases}
