@@ -96,8 +96,12 @@ $$
 $$
 AmplifyingReactionBonus =
 \begin{cases}
-2 \times (1 + \frac{2.78 \times EM}{1400 + EM} + ReactionBonus) & \text{if, } triggering\ Vaporize\ with\ Hydro\ or\ Melt\ with\ Pyro\\
-1.5 \times (1 + \frac{2.78 \times EM}{1400 + EM} + ReactionBonus) & \text{if, } triggering\ Vaporize\ with\ Pyro\ or\ Melt\ with\ Cryo\\
+2 \times (1 + \frac{2.78 \times EM}{1400 + EM} + ReactionBonus) & \text{if, } triggering\\ 
+                                                                & Vaporize\ with\ Hydro\ or\\ 
+                                                                & Melt\ with\ Pyro\\
+1.5 \times (1 + \frac{2.78 \times EM}{1400 + EM} + ReactionBonus) & \text{if, } triggering\\
+                                                                &Vaporize\ with\ Pyro\ or\\
+                                                                & Melt\ with\ Cryo\\
 1 & \text{otherwise}
 \end{cases}
 $$
@@ -127,28 +131,30 @@ $$
 ![](https://lh5.googleusercontent.com/RIjoNwqG5NP-KTKkIhVPzdhlhPC5K1DeE1WKZSPXjbc5aJ_BUc67ZznDRR8OL03lSLkCVRXrfWozd9yx3qPRYXhG8AxU-PZT4FL5oWKjvM8E_LuQX1UcUc1uG8IHPlwjxsroUJo)
 $$
 \begin{multline*}
-TransformativeReaction = (
+TransformativeReaction = 
+\biggl(
 \begin{cases}
 4 & \text{if, } triggering\ Overloaded\\
 3 & \text{if, } triggering\ Shatter\\
-2.4 \times ElectroChargedTriggers & \text{if, } triggering\ ElectroCharged\\
+2.4 \times ECTriggers & \text{if, } triggering\ ElectroCharged\\
 1.2 & \text{if, } triggering\ Swirl\\
 1 & \text{if, } triggering\ Superconduct\\
 0 & \text{otherwise}
 \end{cases}
-)\\
-\times (1 + \frac{6.66 \times EM}{1400 + EM} + ReactionBonus)\\
+\biggr)
+\\
+\times \bigl( 1 + \frac{6.66 \times EM}{1400 + EM} + ReactionBonus `bigr)\\
 \times LevelMultiplier \times EnemyResistanceMultiplier
 \end{multline*}
 $$
 
 $$
-LevelMultiplier $\approx$ 0.0002325 \times LvlCharacter^{3} + 0.05547 \times LvlCharacter^{2} - 0.2523 \times LvlCharacter + 14.74
+LevelMultiplier \approx 0.0002325 \times LvlCharacter^{3} + 0.05547 \times LvlCharacter^{2} - 0.2523 \times LvlCharacter + 14.74
 $$
 
 | Formula Variable | Explanation |
 | :--- | :--- |
-| **ElectroCharged Triggers** | The number of times Electro-Charged triggers, and depends on the elemental gauge strength of the hydro and electro elements applied to the enemy. |
+| **ECTriggers** | The number of times Electro-Charged triggers, and depends on the elemental gauge strength of the hydro and electro elements applied to the enemy. |
 | **EM** | The character's total Elemental Mastery. |
 | **ReactionBonus** | Includes reaction damage bonuses from the Thundering Fury and Viridescent Venerer 4-piece sets and from Mona's Constellation 1. |
 | **LevelMultiplier** | Check the [Genshin Wikia](https://genshin-impact.fandom.com/wiki/Damage#Transformative_Reaction_Damage). |
