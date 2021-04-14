@@ -1,6 +1,6 @@
 ---
 description: >-
-An explanation as to how damage is calculated.
+  An explanation as to how damage is calculated.
 ---
 
 # Damage Formula
