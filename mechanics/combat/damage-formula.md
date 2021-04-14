@@ -128,11 +128,9 @@ $$
 
 ## Transformative Reaction Bonus
 
-![](https://lh5.googleusercontent.com/RIjoNwqG5NP-KTKkIhVPzdhlhPC5K1DeE1WKZSPXjbc5aJ_BUc67ZznDRR8OL03lSLkCVRXrfWozd9yx3qPRYXhG8AxU-PZT4FL5oWKjvM8E_LuQX1UcUc1uG8IHPlwjxsroUJo)
 $$
-\begin{multline*}
-TransformativeReaction = 
-\biggl(
+\begin{align}
+TransformativeReaction = &
 \begin{cases}
 4 & \text{if, } triggering\ Overloaded\\
 3 & \text{if, } triggering\ Shatter\\
@@ -141,15 +139,17 @@ TransformativeReaction =
 1 & \text{if, } triggering\ Superconduct\\
 0 & \text{otherwise}
 \end{cases}
-\biggr)
 \\
-\times \bigl( 1 + \frac{6.66 \times EM}{1400 + EM} + ReactionBonus `bigr)\\
-\times LevelMultiplier \times EnemyResistanceMultiplier
-\end{multline*}
+& \times \biggl( 1 + \frac{6.66 \times EM}{1400 + EM} + ReactionBonus \biggr)\\
+& \times LevelMultiplier \times EnemyResistanceMultiplier
+\end{align}
 $$
 
 $$
-LevelMultiplier \approx 0.0002325 \times LvlCharacter^{3} + 0.05547 \times LvlCharacter^{2} - 0.2523 \times LvlCharacter + 14.74
+\begin{align}
+LevelMultiplier \approx & 0.0002325 \times LvlCharacter^{3} + 0.05547 \times LvlCharacter^{2} \\
+& - 0.2523 \times LvlCharacter + 14.74
+\end{align}
 $$
 
 | Formula Variable | Explanation |
