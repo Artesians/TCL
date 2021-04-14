@@ -10,8 +10,8 @@ description: >-
 $$
 \begin{multline*}
 Damage = BaseDamage \times  (1 + DamageBonus) \times Crit\\
-\times EnemyDefenseModifier\times EnemyResistanceModifier\\
-\times AmplifyingReactionBonus\times OtherBonus+TransformativeReaction+Proc
+\times EnemyDefenseMultiplier\times EnemyResistanceMultiplier\\
+\times AmplifyingReaction\times OtherBonus+TransformativeReaction+Proc
 \end{multline*}
 $$
 ## **Base Damage**
@@ -65,7 +65,7 @@ $$
 ## Enemy Defense
 
 $$
-EnemyDefenseModifier = \frac{LvlCharacter + 100}{(LvlCharacter + 100) + (LvlEnemy + 100) \times (1-DefReduction)}
+EnemyDefenseMultiplier = \frac{LvlCharacter + 100}{(LvlCharacter + 100) + (LvlEnemy + 100) \times (1-DefReduction)}
 $$
 | Formula Variable | Explanation |
 | :--- | :--- |
@@ -76,7 +76,7 @@ $$
 ## Enemy Resistance
 
 $$
-Enemy Resistance Modifier =
+EnemyResistanceMultiplier =
 \begin{cases}
 1 - \frac{Resistance}{2} & \text{if, } Resistance \lt 0\\
 1 - Resistance & \text{if, } 0 \le Resistance \lt 0.75\\
@@ -96,7 +96,7 @@ $$
 ## Amplifying Reaction Bonus
 
 $$
-AmplifyingReactionBonus =
+AmplifyingReaction =
 \begin{cases}
 2 \times (1 + \frac{2.78 \times EM}{1400 + EM} + ReactionBonus) & \text{if, } triggering\\ 
                                                                 & Vaporize\ with\ Hydro\ or\\ 
@@ -159,7 +159,7 @@ $$
 | **EM** | The character's total Elemental Mastery. |
 | **ReactionBonus** | Includes reaction damage bonuses from the Thundering Fury and Viridescent Venerer 4-piece sets and from Mona's Constellation 1. |
 | **LevelMultiplier** | Check the [Genshin Wikia](https://genshin-impact.fandom.com/wiki/Damage#Transformative_Reaction_Damage). |
-| **EnemyResistance Multiplier** | Uses the formula above, but for the element of the transformative reaction \(pyro for overloaded, physical for shattered, electro for electro-charged, cryo for superconduct, and the element being swirled for swirl\). |
+| **EnemyResistanceMultiplier** | Uses the formula above, but for the element of the transformative reaction \(pyro for overloaded, physical for shattered, electro for electro-charged, cryo for superconduct, and the element being swirled for swirl\). |
 | **Proc** | The damage dealt by weapon and ability procs when they trigger, such as Prototype Archaic or Xiangling's constellation 2. To calculate this damage, substitute the proc percentage \(e.g. 240% for Prototype Archaic R1\) for Talent in the damage formula. Note that weapon proc effects always deal physical damage, and are therefore affected by physical damage bonuses and physical resistance, even if an elemental attack is used to trigger them. |
 
 By Zakharov\#5645 and \[Neko\]\#3521
