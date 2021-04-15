@@ -1,6 +1,6 @@
 ---
 description: >-
-An explanation of enemy resistances and defense
+  An explanation of enemy resistances and defense
 ---
 
 # Enemy Resistances
@@ -10,13 +10,15 @@ There's two mitigating factors for damage dealt to enemies, Resistances and Defe
 Here we introduce the concepts of both.
 
 ## Resistance
+
 $$
 Resistance = BaseResistance + BonusResistance - ResistanceDebuffs \\
 ResistanceMultiplier = 
 \begin{cases}
 1 - \frac{Resistance}{2} & \text{if, } Resistance \lt 0 \\
 1 - Resistance & \text{if, } 0 \le Resistance \lt 0.75 \\
-\frac{1}{4 \times Resistance + 1} & \text{if, } Resistance \ge 0.75 
+\frac{1}{4 \times Resistance + 1} & \text{if, } Resistance \ge 0.75
+\end{cases} 
 $$
 
 All enemies have some innate base level of resistance. Resistance is elemental based and reduces damage from a certain type of element.
