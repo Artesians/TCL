@@ -62,12 +62,13 @@ Kaeya unleashes a frigid blast, dealing Cryo DMG to opponents in front of him.
 | Skill DMG | 267.68% |
 | CD | 6s |
 | GU | 2B |
-| Particles | 4~5 \(1:1\) |
+| Particles | 2~3 (3~5 with A4 Talent) \(1:1\) |
 | Frames | 58 |
 
 * **Frostgnaw** does not have any hitlag.
 * While casting **Frostgnaw**, Kaeya can start dashing on frame 29, and start casting **Glacial Waltz** on frame 52.
 * The cooldown of **Frostgnaw** starts on frame 28.
+* While the skill reads "Opponents Frozen by Frostgnaw will drop additional Elemental Particles," Kaeya does not need to trigger Freeze to gain the additional particles; he only needs to hit a frozen target with his skill.
 {% endtab %}
 
 {% tab title="Glacial Waltz" %}
