@@ -8,7 +8,7 @@
 {% tab title="Description" %}
 | Attribute | Description |
 | :--- | :--- |
-| Sky-ripping Dragon Spine | Increases all DMG by **8/10/12/14/16**%. After using an Elemental Burst, Normal or Charged Attack, on hit, creates a vacuum blade that does **80/100/120/140/160**% of ATK as DMG to opponents along its path. Lasts for 20s or 8 vacuum blades. |
+| Sky-ripping Dragon Spine | Increases all DMG by **8/10/12/14/16**%. After using an Elemental Burst, Normal or Charged Attacks, on hit, create a vacuum blade that does **80/100/120/140/160**% of ATK as DMG to opponents along its path. Lasts for 20s or 8 vacuum blades. |
 | Base ATK | 48 - 674 |
 | ER% | 8% - 36.8% |
 
