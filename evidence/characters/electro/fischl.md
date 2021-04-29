@@ -50,11 +50,11 @@ Overload does 1077 damage
 
 Fischl \(with no 4 set\) proccing overload both while present and not present
 
-Overload does 1476 damage regardless of whether Fischl is on field or not
+Overload does 1476 damage regardless of whether fischl is on field or not
 
-Evidence \(for Fischl on field\)
+Evidence \(for fischl on field\)
 
-Evidence \(for Fischl not on field\)
+Evidence \(for fischl not on field\)
 
 **Significance**
 
@@ -84,13 +84,13 @@ In the video you can see that at roughly 2.33s into the video guoba is summoned 
 
 2 overloads occur \(at 4s and 6s\)
 
-At 8s into the video Xiangling is switched back in and guoba has a 6.2s CD
+At 8s into the video xiangling is switched back in and guoba has a 6.2s CD
 
 In total, roughly 5.33s has passed and guoba has only gone down in 5.7s
 
 2s has not been reduced and the 0.37s can be equated to just human error in measuring timings.
 
-This result also confirmed by Lix-\#3417 using Barbara E and then switching to Keqing, no CD reduction occurred.
+This result also confirmed by Lix-\#3417 using Barbara E and then switching to keqing, no CD reduction occurred.
 
 **Significance**
 
@@ -174,7 +174,7 @@ despite the difference seemingly being around 2.5% more damage dealt, the latter
 
 **Significance:**
 
-Overall better animation cancel for AA Fischl found.
+Overall better animation cancel for AA fischl found.
 
 ## Can Sucrose's Normal Attacks \(and by extension, Swirl reactions\) trigger Fischl's Lightning Smite?
 
@@ -235,7 +235,7 @@ Note that as play-styles for Fischl differs between individuals \(some people on
 
 **Editors Note:** These MV/s are not replicable by a normal player thus will not be accounted for in real world scenarios, but they do not invalidate the findings by alyk99\#2776.
 
-## Fischl C6 + Innate Elemental Attacks in Turbo (Turbo fixed in 1.5)
+## Fischl C6 + Innate Elemental Attacks in Turbo
 
 **By:** Vye\#9195  
 **Added:** 04/05/2021
@@ -268,7 +268,7 @@ Setup for double electro with innate pyro NA or infused pyro NA:
 
 In turbo compositions, using a pyro character with either innate pyro NA or infused pyro NA will not trigger Fischl A4. The same applies when adding an additional electro source like Beidou burst. We still cannot observe any overload reactions triggered by the on-field character through use of 4 TF.
 
-## Fischl Turbo Superconduct Exploration (Turbo fixed in 1.5)
+## Fischl Turbo Superconduct Exploration
 
 **By:** Vye\#9195  
 **Added:** 04/05/2021
@@ -322,78 +322,3 @@ Determining Fischl's Elemental skill's ICD. Fischl's E \(Oz\) will apply electro
 
 **Significance:** A better understanding of ICDs.
 
-## Fischl A4 Proc Rate
-
-**By:** Terrapin\#8603  
-**Added:** 4/26/2021  
-[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/835441879801004042/836654942710267944/transcript-fischl-a4-proc-rate.html)
-
-**Finding:**
-
-Fischl's a4 proc rate appears to be less than 1 second, and instead seems to be 0.5s.
-
-**Evidence:**
-
-[\[Video\] Appears to be about 0.5s-0.6s cooldown](https://www.youtube.com/watch?v=48Dg_i8PcYY) \(0.5s if judging from the first frame of each damage number appearing, 0.6s if judging from the first frame of the lightning bolt animation\)
-
-[\[\Video\] Using swirl + electro-charged to proc Fischl's A4, there appears to be a 0.5s cooldown](https://www.youtube.com/watch?v=bbUtQICnEkQutilizing) \(judging from the first frame of the lightning bolt animation\)
-
-**Significance:**
-
-Team building around enabling Fischl's damage output
-
-## Fischl A4 Range tests
-
-**By:** Aluminum\#5462  
-**Added:** 04/26/2021  
-[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/834234321971183616/836410164386988092/transcript-possible-oz-issues-with-hutao.html)
-
-**Theory:**  
-Fischl's A4 has a range centered around the triggering character, which is generally greater for characters with ranged attacks. When an attack at the edge of the range triggers an electro-related reaction Fischl's A4 can fail to trigger. Deployables are factored in to the range as well, such as Beidou Q or Oz himself.
-
-**Evidence:**  
-This was tested with Hu Tao's charge attack, the end of Noelle's greatsword swings under burst, and the end of Xiangling's Charge attack infused by Chongyun. A demonstration of how the range is variable by character is shown using Diluc's burst.
-
-[Playlist of all videos](https://youtube.com/playlist?list=PLPByPR2TubV5rcNbhKBrWyk9hChRWV9cn)
-
-**Significance:**  
-An understanding of the underlying mechanics of Fischl's A4 passive and possibly future similar effects
-
-## Fischl Support Weapon Rankings
-
-**By:** itsjaeYOU\#2868  
-**Added:** 4/27/2021  
-[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/807360498034802758/836785156605870120/transcript-fischl-weps-ozsupport.html)
-
-**Theory:**  
-Fischl's weapons rankings for Oz-only bot support. (Fischl only ever goes on field to summon Oz, then switches off.)
-
-**Evidence:** [Google Sheets](https://docs.google.com/spreadsheets/d/1cyxc8ZCIi8f9FqYDFZS0j3Jjd6nnWJ8l0LLnkCZUAOQ/edit#gid=0)
-
-Rankings (patch 1.4, subject to change):
-
-| Rank  | Weapon | %Difference | Damage |
-| ----- | ------ | ----------- | ------ |
-| 1 | Alley Hunter R5 | 123.5% | 55,486 |
-| 2 | Skyward Harp R1 | 123.0% | 55,280 |
-| 3 | Stringless R5 | 118.3% | 53,178 |
-| 4 | Alley Hunter R1 | 112.3% | 50,463 |
-| 5 | Amos\' Bow | 112.2% | 50,440 |
-| 6 | Elegy for the End | 107.9% | 48,484 |
-| 7 | Stringless R1 | 106.8% | 47,995 |
-| 8 | Windblue Ode R5 | 103.1% | 46,334 |
-| 9 | Blackcliff Bow R1 (0 stacks) | 102.0% | 45,864 |
-| 10 | Viridescent Hunt | 102.0% | 45,839 |
-| 11 | Rust | 100.0% | 44,945 |
-| 12 | Prototype Crescent | 100.0% | 44,945 |
-| 13 | Sacrificial Bow | 92.9% | 41,738 |
-| 14 | Favonius Warbow | 84.0% | 37,882 |
-
-Recommended Artifact Mainstats:
-
-* Sands: ATK%
-* Goblet: Electro%
-* Circlet: Crit Rate/Crit Damage
-
-**Significance:**  
-Better weapon selection for support Fischl.
