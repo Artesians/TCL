@@ -54,3 +54,17 @@ similar melt% as n1 with around 30%, but vape% approximately halves compared to 
 **Significance:** Dragon's bane (potentially confirmed?) to have much more power than initially thought. Not everyone has a staff of homa, and many thought it would only work in vape teams. Potentially her best 4 star weapon, would be interesting if someone could compare dps vs deathmatch in melt comps. Also interesting that this melt team is also 3x 4 star supports, and kaeya is f2p with both diona and xingqiu available free from events (as of 1.5). If this is all accepted by an editor then these findings would be good to promote to f2p/low spenders.
 
 Also melt comps might have an even higher ceiling than expected, as afaik melt% uptime isn't expected to be around 50%.
+
+## Mona Q bubble pops with Hu tao E
+
+**By:** Tryhardosaurus\#0007
+**Added:** 5/25/2021
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/841629546008018955/846705904598777886/transcript-mona-q-bubble-pops-with-hutao-e-cast.html)
+
+**Finding:** Mona Q can be popped by Hutao E cast animation even if this doesn’t deal any damage 
+
+**Evidence:** See vid below, Hutao E have a knockback upon cast this might be the reason for the bubble pop. [Youtube](https://youtu.be/tbSi0AzP0ew) 
+
+**Significance:** if you're using a Vape comp with Mona + Hutao, you can squeeze more Omen debuff duration if you can try to not pop the Omen with Hutao E cast assuming you'll use Q after E since Q duration takes 130 frames = 2.1 sec = ~40%-50% Omen duratio. 
+
+This also might disapprove Mona Q description that says when an opponent affected by Illusory Bubble sustains DMG. 
