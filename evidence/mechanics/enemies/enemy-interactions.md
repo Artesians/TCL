@@ -65,6 +65,32 @@ Ability to apply a pyro aura immediately after means that there is no invisible 
 **Significance:**  
 Freeze teams and melt/vape teams that function off the freeze aura will perform significantly worse in boss scenarios. Considering that freeze teams typically run Blizzard Strayer set, triggering a freeze on a boss not only does not produce a freeze aura, but also consumes cryo aura. The end result is that freeze only functions to remove cryo aura from bosses, making the Blizzard Strayer 4PC effect useless if you are triggering freeze often. For melt/vape teams, they will be unable to trigger melts off the frozen aura \(since it cannot exist on bosses\). This also results in the inability to take advantage of underlying hydro aura after a melt reaction on a frozen entity.
 
+### Regisvines Have Weak Spots
+
+**By:** Ramen#5124  
+**Added:** 6/23/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/854639605219590204/857351091711508480/transcript-regisvine-weak-spot.html)
+
+**Finding:**  
+Both Regisvines have a weak spot, which is its corolla, and it can trigger Prototype Crescent’s passive.
+
+**Evidence:**  
+Video evidences are linked after stats and some math.  
+Lvl 80/80 Ganyu ATK stat w/o Crescent passive:  
+Base 622 + Lv60/60 R5 Crescent (ATK% 30.4) 189 = 811.088, which is shown in the video as 812  
+
+After the regisvine is stunned twice, a noticeable visual difference is seen on its corolla, which is what I assume makes its weak spot appear.
+
+As shown in the video, the ATK stat after it hit the weak spot shot up to a total of 1,260.  
+Math: 622 x 72% = 447.84  
+Pre-buff ATK + Buff = 812 + 447.84 = 1,259.84, which is shown in video as 1,260.
+
+Pyro Regisvine: [Video](https://www.youtube.com/watch?v=LXlP3TBiDo4)  
+Cryo Regisvine: [Video](https://www.youtube.com/watch?v=8uqzSvDvk04)
+
+**Significance:**  
+This is proof that Regisvines do indeed have a weak spot (at corolla) , as well as it being able to trigger Prototype Crescent’s weak spot passive. However, it does require the player to stun the Regisvines twice for it to be a weak spot. This weak spot is then able to be used to trigger Crescent’s passive consistently past the first 2 stuns, as long as the aimed shot hits the corolla, despite it being not stunned. This may also indicate possible future enemies that may function similarly: i.e. weak spots that appear only after stunning certain amount of times.
+
 ## Ruin Guards
 
 ### Polearm Charge Attacks Don't Register On Stunned Ruin Guards
