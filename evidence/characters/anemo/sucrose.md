@@ -156,3 +156,7 @@ This very slightly makes on field enabler Sucrose comps better, as swapping on S
 
 **Significance:** Sucrose's Burst can be used in conjunction with freeze or petrify to group enemies very tightly together without knocking them away from the center.
 
+## I am bad at git
+
+**By:** 3b00d
+yes haha!
