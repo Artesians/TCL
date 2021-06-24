@@ -91,7 +91,7 @@ If the **Wind Spirit** comes into contact with **Hydro/Pyro/Cryo/Electro,** it w
 {% tab title="Passive" %}
 ### Astable Invention
 
-When Sucrose crafts Character and Weapon Enhancement Materials, she has a 10% chance to obtain double the product.
+When Sucrose crafts Character and Weapon Enhancement Materials, she has a 100% chance to obtain double the product.
 {% endtab %}
 
 {% tab title="Ascension 2" %}
