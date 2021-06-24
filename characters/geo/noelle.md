@@ -24,6 +24,8 @@ description: >-
 
 ## **Attacks**
 
+* Jonah Dumbo rickroll
+
 {% tabs %}
 {% tab title="Favonious Bladework - Maid" %}
 **Normal Attacks**  
