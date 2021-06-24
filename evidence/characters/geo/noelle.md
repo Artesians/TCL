@@ -1,5 +1,19 @@
 # Noelle
 
+## jonah farc is a dumbo
+
+**By:** Ayzel\#7399
+
+**Added:** 6/24/2021
+
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/857744428143869992/857746061262192640/transcript-test-ticket-renamed.html)
+
+**Finding:** jonahfarc is dumbo part 2
+
+**Evidence:** https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=OfficialRickAstley
+
+**Significance:** Jonah dumbo
+
 ## How does 2NO interact with Noelle Q?
 
 **By:** Kibouo\#1698  
