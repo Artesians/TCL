@@ -339,6 +339,20 @@ Truncating decimals aside, the dmg number of "If additive" is the same as in-gam
 * Relevant examples in the overworld only: environmental damage
 * Relevant examples: Ruin guard missiles or the cryo gun attack from the cryo fatui \([https://youtu.be/qaxgPjY78YE](https://youtu.be/qaxgPjY78YE)\)
 
+#### Serpent Spine Damage Taken affects Shields
+
+**By:** Greyhound\#7836
+**Added:** 6/26/2021
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/855433084420489252/858194419470303252/transcript-library-completion-2.html)
+
+**Finding:** the damage taken increase from Serpent Spine's passive does affect the damage shields take.
+
+**Evidence:** https://www.youtube.com/watch?v=EjYpIBPmNSQ
+
+Explanation: The crystalize shield is created by a level 50 character with 0 EM, thus creating a ~786 health shield which has 2.5x effectiveness against its own element, meaning that it will block ~1965 pyro damage. Both flower stamens are dealing the same damage, and give the same results, with Beidou equipped with SS (with 5 stacks) taking 1045 damage per tick, and with fav sword taking 908 damage per tick. Beidou with SS 5 stack's shield lasted for 2 ticks allowed Beidou to take 123 damage additional damage, while the shield with favonius greatsword equipped lasted for 3 ticks and allowed Beidou to take 759 additional damage.
+
+**Significance:** Explanation of how shields interaction with negative damage reduction
+
 ### Skyward Blade
 
 #### Skyward Blade Description Clarification
