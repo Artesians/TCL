@@ -447,6 +447,24 @@ Explanation: The crystalize shield is created by a level 50 character with 0 EM,
 
 **Evidence:** [https://imgur.com/a/kWhXThT](https://imgur.com/a/kWhXThT)
 
+### The Alley Flash
+
+#### Alley Flash's Disable Timer can be Reset by Damage
+
+**By:** kol\#1593  
+**Added:** 6/26/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/855433084420489252/858194419470303252/transcript-library-completion-2.html)
+
+**Finding:** Taking damage while The Alley Flash's DMG% increase passive is disabled will reset the disable timer.
+
+**Evidence:** https://youtu.be/9qbp8g0zJsY
+
+Bennett takes hit 1 at 124 frames (2.083 seconds)
+Bennett takes hit 2 at 261 frames (4.35 seconds)
+The Alley Flash's passive symbol fully materializes at 561 frames (9.35 seconds)
+
+**Significance:** Every time you take damage with Alley Flash equipped, you reset the timer and thus extend the downtime of the passive.
+
 ### Wolf's Gravestone
 
 #### Wolf's Gravestone Procs Don't Stack
