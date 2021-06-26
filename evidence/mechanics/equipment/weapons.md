@@ -63,25 +63,25 @@ Test 3: Vaporize
 
 ## Blackcliff Series
 
-### BlackCliff Sword effect Persists through a Character Swap
+### Blackcliff Sword effect Persists through a Character Swap
 
 **By:** Cenpi\#3224
 
 [https://youtu.be/lqB9ifbFTLI](https://youtu.be/lqB9ifbFTLI)
 
-### BlackCliff Sword effect doesn’t activate if a Support takes the Kill
+### Blackcliff Sword effect doesn’t activate if a Support takes the Kill
 
 **By:** Cenpi\#3224
 
 [https://youtu.be/drij7iIl\_Tg](https://youtu.be/drij7iIl_Tg)
 
-### BlackCliff Sword effect doesn’t activate if a CO-OP Member takes the Kill
+### Blackcliff Sword effect doesn’t activate if a CO-OP Member takes the Kill
 
 **By:** Cenpi\#3224
 
 [https://youtu.be/YFyRpQF\_fcY](https://youtu.be/YFyRpQF_fcY) \(refer to link above for original atk values\)
 
-### BlackCliff Sword Effect Persists Even if the Holder Switches Off-Field
+### Blackcliff Sword Effect Persists Even if the Holder Switches Off-Field
 
 **By:** Lix-\#3417  
 **Added:** 12/7/2020
@@ -341,8 +341,8 @@ Truncating decimals aside, the dmg number of "If additive" is the same as in-gam
 
 #### Serpent Spine Damage Taken affects Shields
 
-**By:** Greyhound\#7836
-**Added:** 6/26/2021
+**By:** Greyhound\#7836  
+**Added:** 6/26/2021  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/855433084420489252/858194419470303252/transcript-library-completion-2.html)
 
 **Finding:** the damage taken increase from Serpent Spine's passive does affect the damage shields take.
@@ -403,6 +403,20 @@ Explanation: The crystalize shield is created by a level 50 character with 0 EM,
 **Evidence:** https://www.youtube.com/watch?v=S7EN0Kl3l9A
 
 **Significance:** Calculations should account for the crit possibility of skyward pride's blades.
+
+### Skyward Atlas
+
+#### Skyward Atlas effect can crit
+
+**By:** Phana\#0420  
+**Added:** 6/26/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/855433084420489252/858194419470303252/transcript-library-completion-2.html)
+
+**Finding:** Skyward Atlas' weapon proc can crit.
+
+**Evidence:** https://www.youtube.com/watch?v=PcVPrTAAdu0&ab_channel=Arco
+
+**Significance:** calculations should account for the crit possibility of weapon procs.
 
 ### The Bell
 
