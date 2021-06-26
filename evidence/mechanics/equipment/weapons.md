@@ -392,6 +392,18 @@ Explanation: The crystalize shield is created by a level 50 character with 0 EM,
 
 **Note:** The glad goblet had a bit of def, so the video of 4 pc Glad had a bit more atk than the bottom from Noelle C6 Q, resulting in 25 more vacuum blade damage.
 
+#### Vacuum Blades can crit
+
+**By:** Phana\#0420  
+**Added:** 6/26/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/855433084420489252/858194419470303252/transcript-library-completion-2.html)
+
+**Finding:** Skyward Pride's vacuum blades can crit.
+
+**Evidence:** https://www.youtube.com/watch?v=S7EN0Kl3l9A
+
+**Significance:** Calculations should account for the crit possibility of skyward pride's blades.
+
 ### The Bell
 
 #### Bell’s %Increased Damage Passive Works With Any Shield
