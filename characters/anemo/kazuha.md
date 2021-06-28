@@ -7,7 +7,7 @@ description: >-
 
 ## ![](../../.gitbook/assets/element_anemo.png) Kaedehara Kazuha
 
-## ![](../../.gitbook/assets/character_kazuha_wish.png)
+![](../../.gitbook/assets/character_kazuha_wish.png)
 
 ## **Base Stats**
 
@@ -166,14 +166,18 @@ After using Chihayaburu or Kazuha Slash, Kaedehara Kazuha gains an Anemo Infusio
 
 |  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Charged Attack DMG | 62.5% + 108.5 | 68% + 118.05 | 73.5% + 127.6 | 79% + 137.14 | 85% + 147.56 | 91.88% + 159.5 |
+| Charged Attack 1 DMG | 62.5 | 685 | 73.5 | 79 | 856 | 91.88 |
+| Charged Attack 2 DMG | 108.5 | 118.05 | 127.6 | 137.14 | 147.56 | 159.5 |
+
+**Stamina Cost**: 20
 
 ### Plunge 
 
 |  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | Plunge DMG | 118.94 | 129.41 | 139.88 | 150.35 | 161.76 | 173.18 |
-| Low/High Plunge DMG | 237.84% / 297.07 | 258.77% / 323.21 | 279.7% / 349.36 | 300.63% / 375.5 | 323.46% / 404.02 | 346.29% / 432.54 |
+| Low Plunge DMG | 237.847 | 258.77 | 279.7 | 300.63 | 323.46 | 346.29 |
+| High Plunge DMG | 297.07 | 323.21 | 349.36 | 375.5 | 404.02 | 432.54 |
 {% endtab %}
 
 {% tab title="Chihayaburu" %}
