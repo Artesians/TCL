@@ -724,14 +724,14 @@ More data would be needed to reach stronger conclusions. As of right now, there'
 
 **Significance:** The artifact grind is real and artifacts with good substats are rarer than you'd naively expect since you'll see ones with flat substats much more often.
 
-## Breakpoints for 2 WT Set Bonus vs 4TF/CW Set Bonus
+## Breakpoints for 2 WT Set Bonus vs +40% Reaction Damage From 4TF/CW Set Bonus
 
 **By:** ProfHugo#6478  
 **Added:** 6/26/2021  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/856901008667443211/858418320973365258/transcript-breakpoints-for-2inst2wt-vs-4tfcw.html)
 
 **Finding:**  
-For transformative reactions, +80 EM is better than 4TF/CW bonus at <=490 EM without set bonus, while +160 EM is better than 4TF/CW bonus at <=1498 EM without set bonus
+For transformative reactions, +80 EM is better than the reaction damage bonus from 4TF/CW at <=490 EM (before set bonus), while +160 EM is better than 4TF/CW bonus at <=1498 EM (before set bonus).
 
 **Evidence:** 
 - 4TF/CW provides a flat, additive bonus to the total % increase in the formula.
