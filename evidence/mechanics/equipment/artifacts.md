@@ -731,7 +731,7 @@ More data would be needed to reach stronger conclusions. As of right now, there'
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/856901008667443211/858418320973365258/transcript-breakpoints-for-2inst2wt-vs-4tfcw.html)
 
 **Finding:**  
-For transformative reactions, +80 EM is better than the reaction damage bonus from 4TF/CW at <=490 EM (before set bonus), while +160 EM is better than 4TF/CW bonus at <=1498 EM (before set bonus).
+For transformative reactions, +80 EM is better than the reaction damage bonus from 4TF/CW at <=490 EM (before set bonus), while +160 EM is better than the reaction damage bonus from 4TF/CW at <=1498 EM (before set bonus).
 
 **Evidence:** 
 - 4TF/CW provides a flat, additive bonus to the total % increase in the formula.
