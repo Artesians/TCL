@@ -1,6 +1,6 @@
 ---
 description: >-
-A wandering samurai from Inazuma who is currently with Liyue's Crux Fleet. A gentle and carefree soul whose heart hides a great many burdens from the past.
+  A wandering samurai from Inazuma who is currently with Liyue's Crux Fleet. A gentle and carefree soul whose heart hides a great many burdens from the past.
 ---
 
 # Kaedehara Kazuha
@@ -25,7 +25,7 @@ A wandering samurai from Inazuma who is currently with Liyue's Crux Fleet. A gen
 
 {% tabs %}
 {% tab title="Garyuu Bladework" %}
-**Normal Attacks**
+**Normal Attacks**  
 Perform up to 5 rapid strikes.
 
 | String | Talent 6% | Frames | Motion Value |
@@ -34,16 +34,16 @@ Perform up to 5 rapid strikes.
 | 2-Hit DMG | 65.75% | -- | -- |
 | 3-Hit DMG | 37.5% + 45% | -- | -- |
 | 4-Hit DMG | 88.25% | -- | -- |
-| 5-Hit DMG | 36.88%×3 | -- | -- |
+| 5-Hit DMG | 36.88% x3 (110.64%) | -- | -- |
 
-**Charged Attacks**
+**Charged Attacks**  
 Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.
 
 | String | Talent 6% | Frames | Motion Value |
 | :--- | :--- | :--- | :--- |
 | Charged Attack DMG | 62.5% + 108.5% | -- | -- |
 
-**Plunge Attacks**
+**Plunge Attacks**  
 Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact. If this Plunging Attack is triggered by Chihayaburu, it will be converted to Plunging Attack: Midare Ranzan. Plunging Attack: Midare Ranzan When a Plunging Attack is performed using the effects of the Elemental Skill Chihayaburu, Plunging Attack DMG is converted to Anemo DMG and will create a small wind tunnel via a secret blade technique that pulls in nearby objects and opponents.
 
 | String | Talent 6% |
@@ -55,12 +55,12 @@ Plunges from mid-air to strike the ground below, damaging opponents along the pa
 {% tab title="Chihayaburu" %}
 Unleashes a secret technique as fierce as the rushing wind that pulls objects and opponents towards Kazuha's current position before launching opponents within the AoE, dealing Anemo DMG and lifting Kazuha into the air on a rushing gust of wind. Within 10s of remaining airborne after casting Chihayaburu, Kazuha can unleash a powerful Plunging Attack known as Midare Ranzan. Press Can be used in mid-air. Hold Charges up before unleashing greater Anemo DMG over a larger AoE than Press Mode. Plunging Attack: Midare Ranzan When a Plunging Attack is performed using the effects of the Elemental Skill Chihayaburu, Plunging Attack DMG is converted to Anemo DMG. On landing, Kazuha creates a small wind tunnel via a secret blade technique that pulls in nearby objects and opponents. Midare Ranzan's DMG is considered Plunging Attack DMG.
 
-| Type | Talent 6% | Cooldown | U | Particles | Frames | Motion Value |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Press Skill DMG | 268.8% | -- | -- | -- | --| -- |
-| Press CD | 6s | -- | -- | -- | --| -- |
-| Hold Skill DMG | 365.12% | -- | -- | -- | --| -- |
-| CD (hold) | 9s | -- | -- | -- | --| -- |
+| Type | Talent 6% | U | Particles | Frames | Motion Value |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Press Skill DMG | 268.8% | -- | -- | --| -- |
+| Press CD | 6s | -- | -- | --| -- |
+| Hold Skill DMG | 365.12% | -- | -- | --| -- |
+| CD (hold) | 9s | -- | -- | --| -- |
 {% endtab %}
 
 {% tab title="Kazuha Slash" %}
@@ -157,9 +157,10 @@ After using Chihayaburu or Kazuha Slash, Kaedehara Kazuha gains an Anemo Infusio
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1-Hit DMG | 65.38 | 71.13 | 76.88 | 82.63 | 88.91 | 96.1 |
 | 2-Hit DMG | 65.75 | 71.54 | 77.32 | 83.11 | 89.42 | 96.65 |
-| 3-Hit DMG | 37.5% + 45 | 40.8% + 48.96 | 44.1% + 52.92 | 47.4% + 56.88 | 51% + 61.2 | 55.13% + 66.15 |
+| 3-Hit 1 DMG | 37.5 | 40.8 | 44.1 | 47.4 | 51 | 55.13 |
+| 3-Hit 2 DMG | 45 | 48.96 | 52.92 | 56.88 | 61.2 | 66.15 |
 | 4-Hit DMG | 88.25 | 96.02 | 103.78 | 111.55 | 120.02 | 129.73 |
-| 5-Hit DMG | 36.88%× | 40.12%× | 43.37%× | 46.61%× | 50.15%× | 54.21%× |
+| 5-Hit DMG (x3) | 36.88 | 40.12 | 43.37 | 46.61 | 50.15 | 54.21 |
 
 ### Charged Attack
 
