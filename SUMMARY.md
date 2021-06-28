@@ -6,8 +6,9 @@
 
 ## Newsletter
 
-* [Patch 1.5b](newsletter/patch-1.5b.md)
+* [Patch 1.6a](newsletter/patch-1.6a.md)
 * [Archive](newsletter/archive/README.md)
+  * [Patch 1.5b](newsletter/archive/patch-1.5b.md)
   * [Patch 1.5a](newsletter/archive/patch-1.5a.md)
   * [March 2021](newsletter/archive/march-2021.md)
   * [February 2021](newsletter/archive/february-2021.md)
@@ -95,6 +96,7 @@
     * [Energy](mechanics/gameplay-mechanics/attributes/energy.md)
   * [Bugs](mechanics/gameplay-mechanics/bugs.md)
   * [Constructs and Summons](mechanics/gameplay-mechanics/constructs-and-summons.md)
+  * [Elemental Absorption](mechanics/gameplay-mechanics/elemental-absorption.md)
   * [Field Buffs](mechanics/gameplay-mechanics/field-buffs.md)
   * [Hitlag Extension](mechanics/gameplay-mechanics/hitlag-extension.md)
   * [Housing](mechanics/gameplay-mechanics/housing.md)
@@ -106,6 +108,17 @@
   * [Cards](mechanics/spiral/cards.md)
   * [Tech](mechanics/spiral/tech/README.md)
     * [Plunge](mechanics/spiral/tech/plunge.md)
+
+## Resources
+
+* [Calculators](resources/calculators.md)
+* [Links](resources/links.md)
+
+## Fluff
+
+* [Miscellaneous Entries](fluff/miscellaneous-entries.md)
+* [Overworld](fluff/overworld.md)
+
 
 ## Enemy Data
 
@@ -229,16 +242,6 @@
     * [Cryo Whopperflower](enemy-data/other/whopperflowers/cryo-whopperflower.md)
     * [Pyro Whopperflower](enemy-data/other/whopperflowers/pyro-whopperflower.md)
 
-## Fluff
-
-* [Miscellaneous Entries](fluff/miscellaneous-entries.md)
-* [Overworld](fluff/overworld.md)
-
-## Resources
-
-* [Calculators](resources/calculators.md)
-* [Links](resources/links.md)
-
 ---
 
 * [Evidence Vault](evidence/README.md)
@@ -314,6 +317,7 @@
         * [Energy](evidence/mechanics/gameplay-mechanics/attributes/energy.md)
       * [Bugs](evidence/mechanics/gameplay-mechanics/bugs.md)
       * [Constructs and Summons](evidence/mechanics/gameplay-mechanics/constructs-and-summons.md)
+      * [Elemental Absorption](evidence/mechanics/gameplay-mechanics/elemental-absorption.md)
       * [Field Buffs](evidence/mechanics/gameplay-mechanics/field-buffs.md)
       * [Hitlag Extension](evidence/mechanics/gameplay-mechanics/hitlag-extension.md)
       * [Housing](evidence/mechanics/gameplay-mechanics/housing.md)
