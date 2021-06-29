@@ -70,7 +70,7 @@
 | Base ATK | 48 - 674 |
 | ATK% | 7.2% - 33.1% |
 
-* Skyward Atlas' passive can crit.
+* Skyward Atlas's passive can crit.
 {% endtab %}
 
 {% tab title="Details" %}
