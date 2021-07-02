@@ -101,7 +101,7 @@ Decreases sprinting Stamina consumption for your own party members by 20%. Not s
 ### Soumon Swordsmanship
 
 If Chihayaburu comes into contact with Hydro/Pyro/Cryo/Electro when cast, Chihayaburu will absorb that element and if Plunging Attack: Midare Ranzan is used before the effect expires, it will deal an additional 200% ATK of the absorbed elemental type as DMG. This will be considered Plunging Attack DMG. Elemental Absorption may only occur once per use of Chihayaburu.
-* The elemental damage is applied before Midare Ranzan, allowing it to swirl without a pre-existing aura on enemies.  
+* The elemental damage is applied before Midare Ranzan, allowing it to swirl without a pre-existing aura on enemies, additionally this also means that the applied aura can react with pre-existing aura, potentially resulting in no swirl.  
 {% endtab %}
 
 {% tab title="Ascension 4" %}
