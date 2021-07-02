@@ -41,7 +41,7 @@
 * Infusion priority order is [Pyro](https://imgur.com/a/3FsxwG9) > [Hydro > Electro](https://imgur.com/a/3tFexju) > [Cryo](https://imgur.com/a/CJ5feqy).  - HappyGL\#0523  
 
 ### Ascension Mechanics  
-* Kazuha's 1st ascension passive applies aura before the plunge damage, allowing kazuha to swirl off of no aura on enemies. - [Vherax\#5321]  
+* Kazuha's 1st ascension passive applies aura before the plunge damage, allowing kazuha to swirl off of no aura on enemies. - [Vherax\#5321](https://i.imgur.com/7n0rlWE.mp4)  
 * Kazuha's 4th ascension passive works off-field and only gives bonus damage on swirled elements. - [kingjohn23\#8694](https://youtu.be/3ryW4jG38y0)  
 * Kazuha's 4th ascension passive overrides&refreshes buff each swirl. - [kol\#1593](https://youtu.be/-D8IMtMAt48)  
 
