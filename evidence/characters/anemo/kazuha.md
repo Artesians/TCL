@@ -34,6 +34,8 @@
 * Kazuha's interruption resistance is greatly increased when mid-air. - [Bubba\#4619](https://imgur.com/a/BWEjMxq)  
 * Skill can be slightly held for a minimal suction increase while keeping tap E's cooldown. - [helba\#0777](https://imgur.com/a/55baYSz)  
 * Kazuha's elemental skill is an incredible tool for gathering loot in the overworld. - [Greyhound\#7836](https://www.youtube.com/watch?v=7ELY1kTC7AI)  
+* Kazuha's hold E can jump over primo vishap's breath attack. - [jstern25\#1399](https://imgur.com/a/QSvOkph)  
+* Kazuha's E jump does not have iframes. - [jstern25\#1399](https://imgur.com/a/4X56XWS)
 
 ### Burst Mechanics
 * Kazuha Slash snapshots. - [MysticalMerlin\#5020](https://imgur.com/a/MC9nEnq)
@@ -41,7 +43,7 @@
 * Infusion priority order is [Pyro](https://imgur.com/a/3FsxwG9) > [Hydro > Electro](https://imgur.com/a/3tFexju) > [Cryo](https://imgur.com/a/CJ5feqy).  - HappyGL\#0523  
 
 ### Ascension Mechanics  
-* Kazuha's 1st ascension passive applies aura before the plunge damage, allowing kazuha to swirl off of no aura on enemies. - [Vherax\#5321](https://i.imgur.com/7n0rlWE.mp4)  
+* Kazuha's 1st ascension passive applies aura before the plunge damage, allowing kazuha to swirl off of no aura on enemies, but also adding the risk of not swirling if the applied aura reacts with an existing aura and removing. - [Vherax\#5321](https://i.imgur.com/7n0rlWE.mp4)  
 * Kazuha's 4th ascension passive works off-field and only gives bonus damage on swirled elements. - [kingjohn23\#8694](https://youtu.be/3ryW4jG38y0)  
 * Kazuha's 4th ascension passive overrides&refreshes buff each swirl. - [kol\#1593](https://youtu.be/-D8IMtMAt48)  
 
