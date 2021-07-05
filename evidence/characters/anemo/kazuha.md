@@ -44,3 +44,17 @@
 * C4: The energy gained from C4 while gliding is not affected by energy recharge, it takes 23 ticks to cap after using a burst. - [Jilanow\#9252](https://youtu.be/V0o_-DF0DiA)
 * C6: Kazuha's Anemo Infusion can be overriden by other infusion effects. - [anema\#0006](https://imgur.com/vNyOiFt)  
 * C6: The anemo infusion from C6 can react with infusion field triggering a swirl reaction based on the field maker's EM. - [Jilanow\#9252](https://www.youtube.com/watch?v=7YoyUKu-cPY)  
+  
+## Kazuha Self Freeze Collision  
+  
+**By:** Mcpie\#8672  
+**Added:** 07/06/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/859579881984360469/861373731200827392/transcript-self-freeze-collission.html)  
+  
+**Finding:**  
+When frozen in Chihayabaru's plunging attack position, Kazuha will constantly deal Plunge DMG until you're no longer frozen. This works the same as when you're stuck on an vein mining in plunge animation.  
+  
+**Evidence:** [Video](https://www.youtube.com/watch?v=6HmaIk-MloM)  
+
+**Significance:**  
+If performed by a pro player vs cryo hilichurl shooter / cryo aura disorder this could generate huge amount of damage for few seconds.  
