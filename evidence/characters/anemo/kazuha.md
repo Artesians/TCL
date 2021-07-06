@@ -24,6 +24,7 @@
 * Kazuha's normal attacks cannot strike enemies lifted by Venti's Elemental Burst. - [RayXD\#7790](https://imgur.com/a/mHxRQjF)  
 * N5 persists after Kazuha cancels his animation or leaves the field. - [GottaGoFast\#7876](https://www.youtube.com/watch?v=Mmcma8d4z6o)  
 * While under the influence of Chihayaburu, plunge attacks will always deal anemo damage despite infusion. - [GottaGoFast\#7876](https://www.youtube.com/watch?v=U8rDXpz4gTo)  
+* NA and CA share ICD. - [xTuki\#4893](https://imgur.com/qsD7hgT)  
 
 ### Skill Mechanics
 * Tap E particle count is fixed [3 anemo orbs](https://i.imgur.com/KDeL4wp.png). Hold E particle count is fixed [4 anemo orbs](https://i.imgur.com/0oulfFW.png). -  Steph\#3614
@@ -35,7 +36,9 @@
 * Skill can be slightly held for a minimal suction increase while keeping tap E's cooldown. - [helba\#0777](https://imgur.com/a/55baYSz)  
 * Kazuha's elemental skill is an incredible tool for gathering loot in the overworld. - [Greyhound\#7836](https://www.youtube.com/watch?v=7ELY1kTC7AI)  
 * Kazuha's hold E can jump over primo vishap's breath attack. - [jstern25\#1399](https://imgur.com/a/QSvOkph)  
-* Kazuha's E jump does not have iframes. - [jstern25\#1399](https://imgur.com/a/4X56XWS)
+* Kazuha's E jump does not have iframes. - [jstern25\#1399](https://imgur.com/a/4X56XWS)  
+* Kazuha's E vertical reach is strangely long. - [Phana\#0420](https://imgur.com/1Sio3TA)  
+* Chihayaburu's infused element can be seen as a small circle around kazuha. - [Mcpie\#8672](https://youtu.be/rHSRe-IRrv8)  
 
 ### Burst Mechanics
 * Kazuha Slash snapshots. - [MysticalMerlin\#5020](https://imgur.com/a/MC9nEnq)
@@ -49,6 +52,7 @@
 
 ### Constellation Mechanics  
 * C2: Effects stack with Diona's C6. - [jd baby\#6541](https://imgur.com/a/F1qGWD4)  
-* C4: The energy gained from C4 while gliding is not affected by energy recharge, it takes 23 ticks to cap after using a burst. - [Jilanow\#9252](https://youtu.be/V0o_-DF0DiA)
+* C4: The energy gained from C4 while gliding is not affected by energy recharge, it takes 23 ticks to cap after using a burst. - [Jilanow\#9252](https://youtu.be/V0o_-DF0DiA)  
+* C4: Kazuha can gain his energy back through gliding before abyss chamber. - [xTuki#4893](https://imgur.com/EFeCgB2)  
 * C6: Kazuha's Anemo Infusion can be overriden by other infusion effects. - [anema\#0006](https://imgur.com/vNyOiFt)  
 * C6: The anemo infusion from C6 can react with infusion field triggering a swirl reaction based on the field maker's EM. - [Jilanow\#9252](https://www.youtube.com/watch?v=7YoyUKu-cPY)  
