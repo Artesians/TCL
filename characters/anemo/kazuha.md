@@ -68,7 +68,8 @@ Unleashes a secret technique as fierce as the rushing wind that pulls objects an
 | Press CD | 6s | -- | -- | --| -- |
 | Hold Skill DMG | 365.12% | 2U | 4 | 69 | -- |
 | CD (hold) | 9s | -- | -- | --| -- |
-* Plunging Attack: Midare Ranzan will add 55 frames on Press: Chihayaburu, and add 63 frames on Hold: Chihayaburu.
+* Plunging Attack: Midare Ranzan will add 55 frames on Press: Chihayaburu, and add 63 frames on Hold: Chihayaburu.  
+* Infusion priority: Pyro > Hydro > Electro > Cryo  
 {% endtab %}
 
 {% tab title="Kazuha Slash" %}
@@ -84,6 +85,7 @@ The signature technique of Kazuha's self-styled bladework — a single slash tha
 | Energy Cost | 60 |
 | Initial Slash |2U | 
 | Additional Elemental |1U | 
+* Infusion priority: Pyro > Hydro > Electro > Cryo  
 {% endtab %}
 {% endtabs %}
 
