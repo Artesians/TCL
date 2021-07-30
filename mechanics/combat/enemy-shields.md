@@ -64,6 +64,17 @@ The following is a table consisting of different types of **Elemental Shields** 
 | Geo | 24GU |
 {% endtab %}
 
+{% tab title="Electro Abyss Mage" %}
+| Elemental Source | Gauge Units Required |
+| :--- | :--- |
+| Electro | Null |
+| Cryo | 8GU |
+| Hydro | 8GU |
+| Pyro | 8GU |
+| Anemo | 16GU |
+| Geo | 16GU |
+{% endtab %}
+
 {% tab title="Slimes" %}
 | Cryo Slime | Geo Slimes |
 | :--- | :--- |
@@ -136,6 +147,16 @@ The following is a table consisting of different types of **Elemental Armor** as
 |  |  |
 
 Note that both **Stonehide Lawachrul** and **Frostarm Lawachurl** armor decays each second for up to 90 seconds.
+{% endtab %}
+
+{% tab title="Thunderhelm Lawachurl" %}
+| Elemental Source | Gauge Units Required |
+| :-- | :-- |
+| Hydro | 16GU |
+| Pyro | 16GU |
+| Cryo | 16GU |
+| Anemo | 32GU |
+| Geo | 32GU |
 {% endtab %}
 
 {% tab title="Regisvine" %}
