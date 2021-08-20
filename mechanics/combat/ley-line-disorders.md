@@ -34,7 +34,7 @@ Ley Line Disorders operate by setting your party's gauge to the following charac
 
 Other auras applied to your characters beforehand are removed entirely and do not affect the resulting gauges in any way. Aura duration can be reduced by applying gauges to your own characters through elemental skills and bursts, specific resonances, and artifact set bonuses. The first application of the disorder occurs 3 seconds after starting the challenge and every 30 seconds thereafter.
 
-### Black Aura
+### Black Aura  
 There exists a "**Black Aura**" that can be found in Abyss and Inazuma Bounties. It releases a shockwave of a random element (although just like with Geovishaps, the type of element is determined beforehand).  
 So far, only **Hydro**, **Electro** and **Cryo** have appeared as Black Aura in the game.
 
