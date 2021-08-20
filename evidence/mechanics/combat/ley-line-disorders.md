@@ -63,7 +63,7 @@ After seeing several factors that could affect the result, such as the Protectiv
 Cooldown and Gauge Units are easy to test, as you only need a timer, and avoid getting another element on you.  
 The 400% multiplier was somewhat easy to get, as the black aura damage always matches the one dealt by the cryo one, and since the cryo aura has a multiplier of 400%, then black auras should too.
 
-Datamined datas also comfirm this finding *(credit to Carrier5by5#8394 for pointing out)*:  
+Datamined datas also comfirm this finding (*credit to Carrier5by5#8394 for pointing out*):  
 Black Cryo Aura comes from Energy Amplifier Initiation (1.5 event): [GitHub](https://github.com/Dimbreath/GenshinData/blob/97ec5bf557d7dd301beac19ab72cdf4edf9def0a/ExcelBinOutput/MonsterAffixExcelConfigData.json#L3082)  
 Damage multiplier is 400%: [GitHub](https://github.com/Dimbreath/GenshinData/blob/97ec5bf557d7dd301beac19ab72cdf4edf9def0a/BinOutput/Ability/Temp/MonsterAffixAbilities/ConfigAbility_MonsterAffix_GeneralSkill.json#L4452)  
 
