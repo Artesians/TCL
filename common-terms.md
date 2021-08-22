@@ -59,6 +59,8 @@ For a more in-depth look at reactions, there is a whole [section](https://librar
 
 **Aura Tax** = The aura tax reduces the gauge application from elemental sources by a multiplier of 0.8.
 
+**Coexisting/Underlying Aura** = In certain situations (e.g. Electro-Charged) multiple auras of different elements may exist on the same entity.
+
 **Elemental Decay** = An aura will persist a certain duration depending on the type of elemental source. Think of the duration as a gauge that can decay or be reduced in 2 ways:
 
 * Via time \(A, B, C\)
