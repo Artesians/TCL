@@ -14,7 +14,7 @@ If any words are unfamiliar, we have a entry on [common terms](../../../common-t
 
 ## Notation
 
-When an elemental source is used to apply an **aura**, it applies a number of elemental units onto the enemy. The [Gauge Unit Database](https://docs.google.com/spreadsheets/d/1uiJje5yqv7v2UKrWoBAgBMrHrrNemtkooo8JqAGJpP8/edit?usp=sharing) should be referenced to see how many U each source applies.
+When an elemental source is used to apply an element, it applies a number of elemental **units** onto the enemy. The [Gauge Unit Database](https://docs.google.com/spreadsheets/d/1uiJje5yqv7v2UKrWoBAgBMrHrrNemtkooo8JqAGJpP8/edit?usp=sharing) should be referenced to see how many U each source applies. However, this alone is not enough. It must also be combined with the **unit modifier** specific to the situation.
 
 Units \(U\) are reported as the type of aura they apply, but elemental applications have to account for both decay rate and reactions so the notation for Elemental Gauge Theory has been appended to reflect that.
 
@@ -26,28 +26,42 @@ The decay notation number indicates the original system of elemental units that 
 
 | Original Notation | Reaction Notation | Decay Notation | Decay Rate Conversion |
 | :--- | :--- | :--- | :--- |
-| 1U | 1GU | 1A | 9.5s per A |
-| 2U | 2GU | 2B | 6.0s per B |
-| 4U | 4GU | 4C | 4.25s per C |
+| 1U | 1GU | 1A | 11.875s per A |
+| 2U | 2GU | 2B | 7.5s per B |
+| 4U | 4GU | 4C | 5.3125s per C |
 
 **Example of New Notation:**
 
-> Kaeya’s E applies 2B Cryo aura and is triggered by Fischl’s charged shot, applying 1A Electro. Superconduct occurs, 0.75B cryo aura remains, and the decay rate is still 6.0s per B.
+> Kaeya’s E applies 2B * 0.8 = 1.6B Cryo aura and is triggered by Fischl’s charged shot, applying 1A Electro. Superconduct occurs, 0.6B cryo aura remains, and the decay rate is still 7.5s per B.
+
+## Aura Application
+
+Aura application has a 0.8x modifier. This is also referred to as **Aura Tax**.
+
+| Elemental Gauge of Source | After Unit Modifier |
+| :--- | :--- |
+| 1GU | 0.8GU |
+| 2GU | 1.6GU |
+| 4GU | 3.2GU |
+
+In addition, neither Anemo nor Geo may be applied as an aura.  
+Hereinafter, all aura applications will be referred to with this unit modifier already applied.
+
 
 ## Decay Rate
 
 Decay rate is determined by the **first aura** applied. This decay rate is always in effect, until the aura is fully consumed/decayed.
 
-![](../../../.gitbook/assets/simple_decayv2%20%281%29.png)
+![](../../../.gitbook/assets/tax_simple_decay.png)
 
 * **Y-Axis** = amount of elemental gauge
 * **X-Axis** = duration in seconds
 
-Additional applications of the aura element will apply their own respective gauges, but follow the decay rate of the original aura. Meaning, a 2B or 4C gauge elemental sources can be decaying at the rate of an A gauge. To do this, apply a 1A gauge, then apply a 2B or 4C gauge of the same element to get 2A or 4A gauges.
+Additional applications of the aura element will apply their own respective gauges, but follow the decay rate of the original aura. Meaning, a 2B or 4C gauge elemental sources can be decaying at the rate of an A gauge. To do this, apply a 1A gauge, then apply a 2B or 4C gauge of the same element to get 1.6A or 3.2A auras.
 
-> Fischl's Charged Shot to applies 1A Electro, the use of Beidou's Q will add 4C Electro to the gauge, resulting in a 4A Electro aura persisting for 38 seconds from the time of Beidou Q.
+> Fischl's Charged Shot applies 0.8A Electro, the use of Beidou's Q will add 3.2C Electro to the gauge, resulting in a 3.2A Electro aura persisting for 38 seconds from the time of Beidou Q.
 
-![](../../../.gitbook/assets/advanced_decay%20%281%29.png)
+![](../../../.gitbook/assets/tax_advanced_decay.png)
 
 * **Y-axis** = amount of elemental gauge
 * **X-axis** = duration in seconds
@@ -57,26 +71,27 @@ Additional applications of the aura element will apply their own respective gaug
 
 ## Overload and Superconduct
 
-These transformative reactions have a 1.25x modifier.
+These transformative reactions have a 1x modifier.
 
 | Elemental Gauge of Source | After Unit Modifier |
 | :--- | :--- |
-| 1GU | 1.25GU |
-| 2GU | 2.5GU |
+| 1GU | 1GU |
+| 2GU | 2GU |
+| 4GU | 4GU |
 
-When an elemental trigger is applied, it subtracts the corresponding number of elemental units times 1.25 from the enemy’s existing gauge.
+When an elemental trigger is applied, it subtracts the corresponding number of elemental units times 1 from the enemy’s existing gauge.
 
-> Kaeya’s E applies 2B Cryo aura and is triggered by Fischl’s charged shot, which applies 1A Electro. Superconduct occurs, 0.75B Cryo aura remains.
+> Kaeya’s E applies 1.6B Cryo aura and is triggered by Fischl’s charged shot, which applies 1A Electro. Superconduct occurs, 0.6B Cryo aura remains.
 
 If the Trigger Gauge is greater than the Aura Gauge, a reaction will still occur and the aura will be fully consumed and no element will be left behind because **gauges cannot go below zero**.
 
-> Fischl’s charged shot applies 1A Electro aura and is triggered by Kaeya’s E, applying 2B Cryo. Superconduct occurs, and no aura is left behind as triggers can only remove units, they can’t add aura/gauge.
+> Fischl’s charged shot applies 0.8A Electro aura and is triggered by Kaeya’s E, applying 2B Cryo. Superconduct occurs, and no aura is left behind as triggers can only remove units, they can’t add aura/gauge.
 
 ## Freeze
 
-Once freeze is triggered, an enemy will be afflicted by a **frozen aura**. This aura hides the hydro aura, and any elements applied to a frozen enemy will react with cryo. Removing the frozen aura, either through melt or shatter, will also remove cryo and expose the hydro aura, allowing any elemental sources to react with hydro again. Even while the hydro aura is hidden under the frozen aura, hydro will continue to decay as normal.
+Once freeze is triggered, an enemy will be afflicted by a **frozen aura**. Reactions with frozen are equivalent to those with cryo, though the gauge of a frozen aura is often significantly higher. In addition, cryo and hydro are my exist alongside the frozen aura. Removing the frozen aura, either through melt or shatter, will also remove cryo and expose the **underlying** cryo/hydro aura, allowing any elemental sources to react with cryo/hydro. Even while the cryo/hydro aura is hidden under the frozen aura, it will continue to decay as normal.
 
-Freeze is not extended when reapplying Hydro on a Frozen target.
+Freeze is extended when the cryo or hydro is applied to freeze with an underlying hydro or cryo aura respectively.
 
 ## Melt and Vaporize
 
@@ -93,48 +108,49 @@ Freeze is not extended when reapplying Hydro on a Frozen target.
 
 ### **Unit Modifiers to Gauge Consumption**
 
-Weak amping elemental triggers have a 0.625x modifier**.**
+Weak amping elemental triggers have a 0.5x modifier.
 
 | Elemental Gauge of Source | After Unit Modifier |
 | :--- | :--- |
-| 1GU | 0.625GU |
-| 2GU | 1.25GU |
+| 1GU | 0.5GU |
+| 2GU | 1GU |
 
-> An enemy affected by Amber’s Charged Shot has 2B Pyro. Using Kaeya’s E \(2B Cryo\) only removes 1.25GU Pyro because weak melt occurs when the trigger is Cryo.
+> An enemy affected by Amber’s Charged Shot has 1.6B Pyro. Using Kaeya’s E \(2B Cryo\) only removes 1GU Pyro because weak melt occurs when the trigger is Cryo.
 
-Strong amping elemental triggers have a 2.5x modifier.
+Strong amping elemental triggers have a 2x modifier.
 
 | Elemental Gauge of Source | After Unit Modifier |
 | :--- | :--- |
-| 1GU | 2.5GU |
-| 2GU | 5GU |
+| 1GU | 2GU |
+| 2GU | 4GU |
 
-> An enemy affected by Kaeya’s E has 2B Cryo. Using Diluc’s E \(1A\) removes 2.5GU worth of Cyro aura because strong melt occurs when the trigger is Pyro. This leaves us with 0GU Cryo as gauges cannot go below zero.
+> An enemy affected by Kaeya’s E has 1.6B Cryo. Using Diluc’s E \(1A\) removes 2GU worth of Cyro aura because strong melt occurs when the trigger is Pyro. This leaves us with 0GU Cryo as gauges cannot go below zero.
 
 ## Crystallize and Swirl
 
-Geo and Anemo can only be used as the trigger for crystallize and swirl reactions respectively. All Geo/Anemo triggers have a 0.625x modifier. Because Geo and Anemo cannot be applied as auras, they do not have an associated decay rate, so Geo and Anemo sources will only be refered to in GU.
+Geo and Anemo can only be used as the trigger for crystallize and swirl reactions respectively. All Geo/Anemo triggers have a 0.5x modifier. Because Geo and Anemo cannot be applied as auras, they do not have an associated decay rate, so Geo and Anemo sources will only be refered to in GU.
 
 | Elemental Gauge of Source | After Unit Modifier |
 | :--- | :--- |
-| 1GU | 0.625GU |
-| 2GU | 1.25GU |
-| 4GU | 2.5GU |
+| 1GU | 0.5GU |
+| 2GU | 1GU |
+| 4GU | 2GU |
 
-> Using a 1GU Geo trigger on a 1A Electro aura will result in Crystallize, subtracting 0.625GU and leaving 0.375A of Electro aura.
+> Using a 1GU Geo trigger on a 0.8A Electro aura will result in Crystallize, subtracting 0.5GU and leaving 0.3A of Electro aura.
 
-## Swirled Auras
+## Swirl Application
 
-Swirled Auras are auras applied to an enemy through the use of swirl spreading an element. Swirled Auras have their own unique decay notation that only applies to them, which can be seen in this table here:
+Swirl application occurs when an elemental source applied to an enemy through the use of swirl spreading an element. Swirled Auras have their own unique decay notation that only applies to them, a few examples which can be seen in this table here:
 
-| Anemo GU | Swirled Aura GU | Decay Notation | Decay Rate Conversion |
-| :--- | :--- | :--- | :--- |
-| 1GU | 2.25GU | 2.25S | 5.6s per S |
-| 2GU | 3.25GU | 3.25V | 4.5s per V |
+| TABLE |
+| :--- |
+| HERE |
 
-The aura of the element getting swirled has no bearing on the gauge or decay rate of the swirled aura. However, you can extend the duration of a swirled aura by already having an aura of the same element on an enemy.
+The units of the swirl application depend on both the aura of the entity on which swirl triggered as well as the gauge of the anemo trigger. The specifics are beyond the scope of this document.
 
-> Barbara attacks an enemy and applies 1A Hydro. Venti's E \(2GU Anemo\) swirls a hydro abyss mage, spreading 3.25V Hydro to the enemy with 1A Hydro. Now, that enemy has 3.25A hydro, which will last a maximum of 30.875s.
+Like all other applied auras, you can extend the duration of a swirled aura by already having an aura of the same element on an enemy.
+
+> EXTENSION EXAMPLE HERE
 
 ## Electro-Charged
 
@@ -160,6 +176,8 @@ Furthermore, Self Auras have a particular interaction with Elemental Absorptions
 
 * Neptunya\#8291
 * Artesians\#0002
+* Aluminum\#5462
+* Faranight\#0001
 
 ### Theorycrafters:
 
