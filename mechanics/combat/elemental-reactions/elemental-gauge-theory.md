@@ -14,25 +14,21 @@ If any words are unfamiliar, we have a entry on [common terms](../../../common-t
 
 ## Notation
 
-When an elemental source is used to apply an element, it applies a number of elemental **units** onto the enemy. The [Gauge Unit Database](https://docs.google.com/spreadsheets/d/1uiJje5yqv7v2UKrWoBAgBMrHrrNemtkooo8JqAGJpP8/edit?usp=sharing) should be referenced to see how many U each source applies. However, this alone is not enough. It must also be combined with the **unit modifier** specific to the situation.
+When an elemental source is used to apply an element, it applies a number of elemental **units** onto the enemy. The respective character page should be referenced to see how many U each source applies. However, this alone is not enough. It must also be combined with the **unit modifier** specific to the situation.
 
 Units \(U\) are reported as the type of aura they apply, but elemental applications have to account for both decay rate and reactions so the notation for Elemental Gauge Theory has been appended to reflect that.
 
 When extending auras with stronger attacks with higher U or consuming auras via elemental reactions, **the resulting auras are not simply an addition of the unit U**. Therefore, Gauge Units \(GU\) and the decay rate have to be separated from each other to make good general use of the theory.
 
-Gauge Units are used to calculate the remaining aura on for elemental reactions. The decay rate of the remaining aura will be the first applied aura and should be written as stated below.
+Gauge Units are used to calculate the remaining aura for elemental reactions. The decay rate of the remaining aura will be the first applied aura and should be written as stated below.
 
-The decay notation number indicates the original system of elemental units that are applied \(1U, 2U, or 4U\), while the new notation \(A, B, or C\) notes the decay rate of the aura.
+The decay notation number indicates the original system of elemental units that are applied \(1U, 2U, or 4U\), while the letter notation \(A, B, or C\) notes the decay rate of the aura.
 
 | Original Notation | Reaction Notation | Decay Notation | Decay Rate Conversion |
 | :--- | :--- | :--- | :--- |
 | 1U | 1GU | 1A | 11.875s per A |
 | 2U | 2GU | 2B | 7.5s per B |
 | 4U | 4GU | 4C | 5.3125s per C |
-
-**Example of New Notation:**
-
-> Kaeya’s E applies 2B * 0.8 = 1.6B Cryo aura and is triggered by Fischl’s charged shot, applying 1A Electro. Superconduct occurs, 0.6B cryo aura remains, and the decay rate is still 7.5s per B.
 
 ## Aura Application
 
@@ -43,6 +39,10 @@ Aura application has a 0.8x modifier. This is also referred to as **Aura Tax**.
 | 1GU | 0.8GU |
 | 2GU | 1.6GU |
 | 4GU | 3.2GU |
+
+**Example of Aura Application:**
+
+> Kaeya’s E applies 2B * 0.8 = 1.6B Cryo aura and the decay rate is 7.5s per B.
 
 In addition, neither Anemo nor Geo may be applied as an aura.  
 Hereinafter, all aura applications will be referred to with this unit modifier already applied.
@@ -89,20 +89,22 @@ If the Trigger Gauge is greater than the Aura Gauge, a reaction will still occur
 
 ## Freeze
 
-Once freeze is triggered, an enemy will be afflicted by a **frozen aura**. Reactions with frozen are equivalent to those with cryo, though the gauge of a frozen aura is often significantly higher. In addition, cryo and hydro are my exist alongside the frozen aura. Removing the frozen aura, either through melt or shatter, will also remove cryo and expose the **coexisting** cryo/hydro aura, allowing any elemental sources to react with cryo/hydro. Even while the cryo/hydro aura is hidden under the frozen aura, it will continue to decay as normal.
+Once freeze is triggered, an enemy will be afflicted by a **frozen aura**. Reactions with frozen are equivalent to those with cryo, though the gauge of a frozen aura is often significantly higher. In addition, cryo and hydro may exist alongside the frozen aura. Removing the frozen aura, either through melt or shatter, will also remove frozen and expose the **coexisting** cryo/hydro aura, allowing any elemental sources to react with cryo/hydro. Even while the cryo/hydro aura is hidden under the frozen aura, it will continue to decay as normal.
 
 Freeze is extended when the cryo or hydro is applied to freeze with a coexisting hydro or cryo aura respectively.
+
+More details on the frozen aura, including duration, coexisting cryo/hydro, and extension may be found in the advanced guide.
 
 ## Melt and Vaporize
 
 ### Reaction Basics
 
 * Melt and Vaporize have weak and strong elements
-* Using a weak element as the trigger results in a 1.5x dmg multiplier
+* Using a weak element as the trigger results in a 1.5x dmg multiplier. This is referred to as a **forward** vape/melt
 
   > Cryo triggering Melt and Pyro triggering Vaporize
 
-* Using a strong element as the trigger results in a 2.0x dmg multiplier
+* Using a strong element as the trigger results in a 2.0x dmg multiplier. This is referred to as a **reverse** vape/melt
 
   > Pyro triggering Melt and Hydro triggering Vaporize
 
@@ -146,7 +148,7 @@ Swirl application occurs when an elemental source applied to an enemy through th
 | :--- |
 | HERE |
 
-The units of the swirl application depend on both the aura of the entity on which swirl triggered as well as the gauge of the anemo trigger. The specifics are beyond the scope of this document.
+The units of the swirl application depend on both the aura of the entity on which swirl triggered as well as the gauge of the anemo trigger. The specifics are beyond the scope of this document and may be found in the advanced guide.
 
 Like all other applied auras, you can extend the duration of a swirled aura by already having an aura of the same element on an enemy.
 
@@ -168,8 +170,6 @@ Self Auras are elements applied to the player character. This can be from source
 
 These all have the ability to react with a slightly different ruleset from standard Gauge Theory. When a reaction is triggered and the trigger application has a higher U value than the Self Gauge, the Self Aura transitions directly to the other element.
 
-Furthermore, Self Auras have a particular interaction with Elemental Absorptions where it absorbs the Self Aura element and applies that element. This allows for using elements that are not present within the player's team.
-
 ## **Credits**
 
 ### **Writers:**
@@ -190,6 +190,9 @@ Furthermore, Self Auras have a particular interaction with Elemental Absorptions
 * Monochrom9\#8058
 * Some Proselytizer\#8340
 * Aetherpon\#5730
+* srl\#2712  
+* sigurd\#3854
+* Isu\#6867
 
 ## Media
 
