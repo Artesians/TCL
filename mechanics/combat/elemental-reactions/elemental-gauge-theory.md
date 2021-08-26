@@ -71,15 +71,9 @@ Additional applications of the aura element will apply their own respective gaug
 
 ## Overload and Superconduct
 
-These transformative reactions have a 1x modifier.
+These transformative reactions have a 1x modifier (effectively no modifier).
 
-| Elemental Gauge of Source | After Unit Modifier |
-| :--- | :--- |
-| 1GU | 1GU |
-| 2GU | 2GU |
-| 4GU | 4GU |
-
-When an elemental trigger is applied, it subtracts the corresponding number of elemental units times 1 from the enemy’s existing gauge.
+When an elemental trigger is applied, it subtracts the corresponding number of elemental units from the enemy’s existing gauge.
 
 > Kaeya’s E applies 1.6B Cryo aura and is triggered by Fischl’s charged shot, which applies 1A Electro. Superconduct occurs, 0.6B Cryo aura remains.
 
