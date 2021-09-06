@@ -169,6 +169,7 @@
 {% tab title="Findings" %}  
 * The effect cannot be refreshed.  
 * Energy will not be drained by using elemental skill while the effect is active.  
+* The Energy drain effect has a 7-frame delay from when Elemental Skill is cast to when you actually lose energy.  
 {% endtab %}
 {% endtabs %}
 
@@ -230,6 +231,7 @@
 * 4 piece Viridescent Venerer only shreds if the wearer is onfield during a swirl that they trigger.
 * 4 piece Viridescent Venerer’s RES shred passive only buffs Swirl DMG against an enemy with a pre-existing aura.
 * 4 piece Viridescent Venerer’s RES shred passive also works on surrounding enemies after being affected by Swirl’s AoE. 
+* The 4 piece set effect's duration can be extended by hitlag.
 {% endtab %}
 {% endtabs %}
 

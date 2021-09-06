@@ -309,3 +309,46 @@ Mona Empty Domain (End):
 
 **Significance:**  
 Not much as DPS Mona's optimal Attack string combo is 2AA + CA + JC. However, in the case of low-stamina scenarios, sequences that utilize her 3rd AA may be used. In these moments, how Mona jumps after her attack may provide positional advantages/disadvantages. Additionally, Mona is the only character that has two differing animations in her AA-sequence.
+
+## Mona A4 passive only shows when she's active
+
+**By:** 2ri#0945  
+**Added:** 08/31/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/880394893699211274/882076120403574784/transcript-mona-a4-passive-only-shows-when-shes-active.html)
+
+**Finding:**  
+Mona's A4 Passive is not shown on the stats page when she's inactive.
+
+**Evidence:**  
+[Youtube](https://youtu.be/8pLM8X_-kYI) - Removing Mona from the team removes her A4 passive on the stats page.
+
+**Significance:**  
+Don't freak out if checking out Mona's stats when she isn't in your party
+
+## Mona Omen Extension extended
+
+**By:** Gibbigobo#9750  
+**Added:** 09/04/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/880972206451064842/883492803945041920/transcript-omen-extension-mechanics-video.html)
+
+**Finding:**  
+Mona's Omen damage bonus can be extended due to a certain enemy's state(s). These states are divided into three categories. Stagger/poise resistant, Elemental shields and Elemental/Hyper armor. These enemy states are what influence Mona's omen extension outside of freeze.
+
+**Stagger resistant** - During a certain enemy's animation(s) state, the enemy is completely immune to stagger/poise damage. (Object shield enemies have a block animation state which is associated with stagger resistance.)  
+For example, a Crackling axe Mitachurl has a stagger resistance animation window that extends for about 4 seconds. During this window, Mona's Illusory bubble will not pop. Once the animation ends, the enemy returns into an idle state, this then allows the enemy to take poise damage. Resulting in Mona's Illusory bubble also open to taking poise damage.  
+
+**Elemental shields** - Enemies that apply an elemental shield, for example, Abyss Mages. Mona's Illusory bubble will not pop while an enemy is in this state. Mona's Omen damage bonus on a shielded enemy can provide a small benefit for all party members shield damage.
+
+**Elemental/hyper armor** - An enemy's ability that infuses itself with an elemental/hyper armor. Enemies within this state can take damage and Mona's Illusory bubble will not pop on-demand, it will only time out. 
+
+Some enemies can possess more than one state. For example. Abyss Lector and Herald have one stagger resistant state and a Elemental shield state.
+
+**Evidence:**  
+[Spreadsheet](https://docs.google.com/spreadsheets/d/1AENU1fu_pChwc8b0nDPmsCo2qvfi4MXycme4JqjmstA/edit?usp=sharing): The Stagger immunity spreadsheet by Myuwi#0001 from Mona Mains. A list of all enemy states that causes the extension to Mona's omen duration.
+
+[Youtube](https://youtu.be/QhRptxHANm8): Video from LACola. Explains the enemy categories that influence Omen Extension
+
+[Doc](https://docs.google.com/document/d/1SUc9A7O5C7CX0qYHmCqB44uhpHYY-Txgv6rdibM8Jw4) Shield Damage in Genshin Impact by vibechecker#5502 
+
+**Significance:**  
+An Estimated 29% of all enemies in 2.0 have at least one of these states. The majority of these enemies are either Elite enemies or bosses. Understanding these states can help players to utilize the Omen extension more effectively.

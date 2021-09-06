@@ -339,6 +339,31 @@ Stacking 4 ToM on 2 characters on the same team has consequences.
 
 Evidence: [1](https://i.imgur.com/M5nK6Ne.jpeg) [2](https://imgur.com/a/cscnlJM)
 
+### Shimenawa energy drain delay  
+
+**By:** Episodde#8962  
+**Added:** 08/28/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/876725060554080287/880927102097055764/transcript-energy-drain-effects-have-a-delay.html)
+
+**Theory:**  
+Shimenawa Set energy drain also do not happen immediately. There is about a 7-frame delay (can be more depend on latency) from the moment your character elemental skill is used to when you character actually lose energy.
+
+**Evidence:**  
+Frame count (from beginning till 2:00): [Youtube](https://www.youtube.com/watch?v=3esuFmKuwo0)
+
+Extra Razor, lisa, sayu, chongyun framecount: [Youtube](https://www.youtube.com/watch?v=BSztCPB5leY)
+
+[Imgur](https://imgur.com/a/pmYsziS) - Childe using Shimenawa, still able to cast E into Q while getting the auto attack damage buff. I attack at the beginning to showcase the dmg difference after the buff.
+
+[Imgur](https://imgur.com/a/4nqmqud) - Another example of Childe (credit to Seres from ChildeMains for this clip)  
+
+[Imgur](https://imgur.com/a/S3F6onZ) - Example of Ning using SR and doing E into Q at high ping (thanks to SilverHawk#5880)  
+
+[Youtube](https://www.youtube.com/watch?v=V9HhHNffa7c) - Example of Keqing at high ping (thanks to ProfHugo#6478)
+
+**Significance:**  
+If a character can cast their elemental skill and then burst in about less than 7 frame, they can spend the energy before being drained, bypassing the large cost of using Shimenawa set. Childe walking E (thanks to Amadurim#8925) is currently the only skill found to be fast enough for this tech to work, so this remains largely impractical in gameplay, but maybe future character can benefit more from Shimenawa with this finding. Also, with high ping (400-600ms) it is possible to extend the energy drain delay long enough so other character can burst before the drain.
+
 ## Thundering Fury
 
 ### **How 4pc Thundering Fury Interacts with Elemental Mastery**
@@ -769,6 +794,22 @@ List of tests:
 **Conclusion:** 4p vv wearers can only shred if they fulfil the 2 requirements of being the trigger of the swirl and being onfield during the swirl. Other elements like pyro/cryo can also shred with 4p vv with the same 2 requirements.
 
 **Significance:** Rotations to include 4p vv users is more strict and 4p vv can shred those with an innate Anemo aura with other elements as the trigger.
+
+### VV Duration Extended by Hitlag
+
+**By:** Greyhound#7836  
+**Added:** 08/21/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/878612062195036220/878613567186825266/transcript-vv-extended-by-hitlag.html)
+
+**Theory:**  
+The 4pc set effect's duration can be extended by hitlag.
+
+**Evidence:**  
+[Video](https://www.youtube.com/watch?v=U82ec4qQrxw): Chongyun extending VV duration via hitlag  
+[Imgur](https://imgur.com/a/k0yDLwc): Jean applies VV at ~1565, chongyun's VV-ed attacks deal N1 = 148, N2 = 134, N3 =170, until frame 2315 where the N3 deals 143 damage as the VV shred wears off, resulting in ~12 seconds of VV shred, 2 seconds of hitlag past the intended 10s duration.
+
+**Significance:**
+VV use optimization.
 
 # Wanderer's Troupe
 

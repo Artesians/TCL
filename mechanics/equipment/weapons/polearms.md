@@ -2,6 +2,33 @@
 
 ## 5 Stars
 
+### Grasscutter's Light
+
+{% tabs %}
+{% tab title="Description" %}
+| Attribute | Description |
+| :--- | :--- |
+| Timeless Dream: Eternal Stove | ATK increased by **28/35/42/49/55**% of Energy Recharge over the base 100%. You can gain a maximum bonus of **80/90/100/110/120**% ATK. Gain **30/35/40/45/50**% Energy Recharge for 12s after using an Elemental Burst. |
+| Base ATK | 46 - 608 |
+| ER% | 12% - 55.1% |
+{% endtab %}
+
+{% tab title="Details" %}
+| Level | Base Atk | ER% |
+| :--- | :--- | :--- |
+| 60 | 382 | 40.6 |
+| 60+ | 414 | 40.6 |
+| 65 | 435 | 43 |
+| 70 | 457 | 45.4 |
+| 70+ | 488 | 45.4 |
+| 75 | 510 | 47.9 |
+| 80 | 532 | 50.3 |
+| 80+ | 563 | 50.3 |
+| 85 | 586 | 52.7 |
+| 90 | 608 | 55.1 |
+{% endtab %}
+{% endtabs %}
+
 ### Primordial Jade Winged-Spear
 
 {% tabs %}
@@ -42,7 +69,7 @@
 | :--- | :--- |
 | Blackwing | Increases CRIT Rate by **8/10/12/14/16**% and increases Normal ATK SPD by 12%. Additionally, Normal and Charged Attacks hits on opponents have a 50% chance to trigger a vaccuum blade that deals **40/55/70/85/100**% of ATK as DMG in a small AoE. This effect can occur no more than once every 2s. |
 | Base ATK | 48 - 674 |
-| ER% | 7.2% - 33.1% |
+| ER% | 8% - 36.8% |
 {% endtab %}
 
 {% tab title="Details" %}
@@ -213,7 +240,7 @@
 
 * Passive applies to all incoming damage - [Doug\#8888](../../../evidence/mechanics/equipment/weapons.md#lions-roar-passive-applies-to-all-forms-of-dmg-inflicted-on-electro-debuffed-enemy)
 * Passive works, even if wielder is off-field - [mikan\#2834 and IonFox\#8887](../../../evidence/mechanics/equipment/weapons.md#lions-roar-passive-works-while-the-holder-is-off-field)
-* Passive applies for amplifying reactions, but not transformative reactions - [Lix-\#3417](../../../evidence/mechanics/equipment/weapons.md#weapons-with-bane-of-passive-applies-for-amplifying-reactions-but-not-transformative-ones)
+* Passive applies for amplifying reactions, but not transformative reactions - [Lix-\#3417](../../../evidence/mechanics/equipment/weapons.md#weapons-with-bane-passive-applies-to-amplifying-reactions-but-not-transformative-ones)
 {% endtab %}
 
 {% tab title="Details" %}
@@ -298,6 +325,7 @@
 | Base ATK | 44 - 565 |
 | EM | 24 - 110 |  
 * Effect can be activated at 0 energy without going into the negative.  
+* Samurai Conduct has a 22 to 24-frame delay from when your Elemental Skill hits an enemy to when you actually lose Energy. 
 {% endtab %}
 
 {% tab title="Details" %}
@@ -400,6 +428,33 @@
 | 80+ | 523 | 25.1 |
 | 85 | 544 | 26.4 |
 | 90 | 565 | 27.6 |
+{% endtab %}
+{% endtabs %}
+
+### The Catch
+
+{% tabs %}
+{% tab title="Description" %}
+| Attribute | Description |
+| :--- | :--- |
+| Shanty | Increases Elemental Burst DMG by **16/20/24/28/32**% and Elemental Burst CRIT Rate by **6/7.5/9/10.5/12**%. |
+| Base ATK | 42 - 510 |
+| ER% | 10% - 45.9% |
+{% endtab %}
+
+{% tab title="Details" %}
+| Level | Base Atk | Energy Recharge% |
+| :--- | :--- | :--- |
+| 60 | 327 | 33.8 |
+| 60+ | 353 | 33.8 |
+| 65 | 370 | 35.9 |
+| 70 | 388 | 37.9 |
+| 70+ | 414 | 37.9 |
+| 75 | 431 | 39.9 |
+| 80 | 449 | 41.9 |
+| 80+ | 475 | 41.9 |
+| 85 | 492 | 43.9 |
+| 90 | 510 | 45.9 |
 {% endtab %}
 {% endtabs %}
 

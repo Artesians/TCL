@@ -101,6 +101,7 @@ When Sucrose crafts Character and Weapon Enhancement Materials, she has a 10% ch
 ### Catalyst Conversion
 
 When Sucrose triggers a **Swirl** reaction, all characters in the part with the matching element, excluding Sucrose herself, gain 50 **Elemental Mastery** for 8s.
+* This effect can be triggered even when Sucrose is not on the field.
 {% endtab %}
 
 {% tab title="Ascension 4" %}
@@ -110,6 +111,7 @@ When **Astable Anemohypostasis Creation-6308** or **Forbidden Creation- Isomer 7
 
 * A4 snapshots Sucrose's **Elemental Mastery**.
 * A4 also always activates *after* **Instructor** 4pc set bonus within the same proc.
+* A4 effect can be triggered even when Sucrose is not on the field.
 {% endtab %}
 {% endtabs %}
 
@@ -144,6 +146,7 @@ Every 7 Normal and Charged Attacks, Sucrose will reduce the CD of **Astable Anem
   * This counter lasts for over 30s, the exact time cap is still unknown
 * The cooldown reduction hard caps at each charge's cooldown. 
   * If you get a higher reduction than the current E charge CD, it will reset, and not carry over to potentially 2nd charge's cooldown
+
 {% endtab %}
 
 {% tab title="C5" %}
@@ -158,6 +161,7 @@ Increases the level of **Forbidden Creation-Isomer 75/Type II** by 3.
 If **Forbidden Creation-Isomer 75/Type II** triggers an Elemental Absorption, all part members gain a 20% Elemental DMG Bonus for the corresponding absorbed elemental during its duration.
 
 * This buff lasts for 10 seconds.
+* C6 effect can be triggered even when Sucrose is not on the field.
 {% endtab %}
 {% endtabs %}
 
@@ -211,7 +215,8 @@ If **Forbidden Creation-Isomer 75/Type II** triggers an Elemental Absorption, al
 
 * [Genshin Impact Fandom](https://genshin-impact.fandom.com/wiki/Sucrose)
 * [Sucrose Mains Discord](https://discord.gg/SRgmCt4)
-* [Sucrose Guide](https://keqingmains.com/full-sucrose-guide/)
+* [Full Sucrose Written Guide](https://keqingmains.com/sucrose/)
+* [Sucrose Youtube Quick Guide](https://youtu.be/paUqUTmcf-Y)
 
 **Evidence Vault**
 

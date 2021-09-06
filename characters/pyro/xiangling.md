@@ -119,7 +119,8 @@ Opponents hit by **Guoba's** attacks have their **Pyro RES** reduced by 15% for 
 
 The last attack in a Normal Attack sequence applies the **Implode** status onto the opponent for 2s. An explosion will occur once this duration ends, dealing 75% of Xiangling's ATK as AoE **Pyro** DMG.
 
-* C2 damage instance has no ability type scaling tags. 
+* C2 DMG instance has no ability type scaling tags.  
+* C2 DMG also does not snapshot.
 {% endtab %}
 
 {% tab title="C3" %}
@@ -144,6 +145,7 @@ Increase the Level of **Guoba Attack** by 3
 **Condensed Pyro**
 
 For the duration of **Pyronado**, all party members receive a 15% **Pyro** DMG Bonus.
+* Pyronado itself does not benefit from C6, but the third hit of her initial swings can receive the 15% **Pyro** DMG Bonus.
 {% endtab %}
 {% endtabs %}
 

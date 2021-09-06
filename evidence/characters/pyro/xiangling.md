@@ -46,7 +46,7 @@ Credit to Risuke\#6743 for suggesting the idea.
 Xiangling's pyronado applies only 1U to Cryo Regisvine's shield over it's duration.
 
 **Evidence:**  
-[Video Download](https://cdn.discordapp.com/attachments/855560609491320843/855561083536015390/2021-06-18_23-17-40.mp40)
+[Video Download](https://cdn.discordapp.com/attachments/855560609491320843/855561083536015390/2021-06-18_23-17-40.mp4)
 
 **Significance:**  
 Don't rely on pyronado alone to destroy Cryo Regisvine's shield
@@ -99,3 +99,38 @@ Damage is consistent with and without 2NO bonus - [Video](https://www.youtube.co
 
 **Significance:**  
 Damage calculations for Xiangling.
+
+## XL pyronado does not benefit from her c6
+
+**By:** Sayline#5959  
+**Added:** 08/28/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/879354525109092393/880924273764618240/transcript-xl-no-c6-buff.html)
+
+**Theory:**  
+Pyronado does not benefit from XL C6.  
+The 3rd hit of the initial swings & Guoba, however, does benefit from her C6.
+
+**Evidence:**  
+Using iwintolose's damage calculator, Pyronado ticks were expected to do 248 damage to a level 85 Ruin Guard after C6 buffs are applied (unbuffed Pyronado ticks are at 228).  
+[Imgur](https://imgur.com/a/Dvo4D9T) (some rounding errors, but should be close enough)  
+Looking at in-game numbers however, we see that Pyronado ticks deal the same amount of damage even after C6 buffs are applied.  
+[Youtube](https://youtu.be/7ikm7JC2ueY)
+
+**Significance:**  
+Guoba > Pyronado
+
+## Xiangling C2 does not snapshot
+
+**By:** yeow#5090  
+**Added:** 09/03/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/881815299911991327/883372595184037918/transcript-xiangling-c2-no-snapshot.html)
+
+**Theory:**  
+Xianglings c2 does not snapshot
+
+**Evidence:**  
+[Youtube](https://www.youtube.com/watch?v=C1pjlzS56eI)
+
+
+**Significance:**  
+DMG calculation.

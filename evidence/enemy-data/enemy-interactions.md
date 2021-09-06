@@ -140,6 +140,21 @@ Context: The Ruin Hunter does not reveal a weak spot until it enters artillery m
 **Significance:**  
 God forbid, a ruin hunter in the abyss but with this mechanic learned he's the easiest mob to beat since there's no delay after he recovers, just spam and take him down.  
 
+### Ruin Hunter Weakspot abuse   
+
+**By:** deRykcihC#0621  
+**Added:** 08/28/2020  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/878715141431115796/880934050624327800/transcript-abyss-map-time-delay-bug.html)
+
+**Finding:**  
+Mobs internal countdown can be used to activate weak spot on Ruin Hunter (same theory as Vegabond Event) in Spiral Abyss.
+
+**Evidence:**  
+[Youtube](https://youtu.be/Q3yzdJpC9S8): Mobs internal countdown will trigger time gated effects like Ruin Hunter: Bombardment mode and Primo Geovishap: Primordial Shower (works from Vegabond event). Such effect can be triggered if you have a long fight (ex. Ruin Hunter) in overworld.
+
+**Significance:**  
+Might be useful for people who can't follow up Ruin Hunter agile attack pattern in Spiral Abyss.
+
 ## Primo Geovishap
 
 ### Shield Reflection Mechanic
@@ -277,6 +292,26 @@ Amall Anemo Slimes test: [Video](https://youtu.be/T3v7y7-NqTE)
 
 **Significance:**  
 If anemo slimes are ever introduced to the abyss, this information could be useful.
+
+### Slime Balloon  
+
+**By:** ariose#3891  
+**Added:** 08/31/2020  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/881262532914974720/882077997841133618/transcript-slime-balloon-mechanics.html)
+
+**Finding:**  
+Slime Balloons from commissions can only receive a cryo aura similar to Amber’s Baron Bunny. Cryo swirl, superconduct, freeze, forward melt, shatter, and crystallize reactions can be triggered on them. However, superconduct does not reduce physical resistance, cryo swirl with 4pc VV does not reduce cryo resistance, and freeze does not actually stop the Slime Balloon from moving. 
+
+**Evidence:**  
+[Youtube](https://youtu.be/ohQrwzEiTUE) - Kazuha’s skill cannot infuse pyro, hydro, or electro off of the Slime Balloon:
+
+Reactions: [Youtube](https://youtu.be/2W-3D2muB9c), [Youtube](https://youtu.be/Yj0XMOYfNCI)
+
+Kaeya’s skill (noncrit) does 1339 damage both before and after cryo is swirled with Kazuha. His N1 does not deal increased damage after superconduct is triggered: [Youtube](https://youtu.be/fbWZhi2WRLE).  
+Zhongli's universal res shred also has no effect (tested Barbara's N1 and Kaeya's skill): [Youtube](https://youtu.be/8p57ILh8YVg)
+
+**Significance:**  
+With this knowledge you can finish your commissions 2 seconds faster.
 
 ## General Enemy Interactions
 
