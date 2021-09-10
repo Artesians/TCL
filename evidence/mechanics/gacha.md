@@ -59,3 +59,19 @@ Note that this is for WL7 drop rates, and only includes permanent sources of mat
 20/40 to 50/60 is actually an investment of ~427.2 resin for the fate.  
 50/60 to 70/80 is 5 days worth of F2P resin budget. Consider if you have no other uses for resin.  
 
+## Battle Pass Value in Resins
+
+**By:** Peekays#2722  
+**Added:** 09/10/2020  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/882273258806849627/885691065707925514/transcript-battle-pass-value-for-resin.html)
+
+**Finding:**  
+The $10 BP gives resources worth approximately 1800 resin = 45 condensed resin = 30 fragile resins in the form of exp books, mora, and talent books.  
+This does not include the weapon enhancement ores, fates, primogems, and bp exclusive weapon.
+
+
+**Evidence:**  
+[Spreadsheet](https://docs.google.com/spreadsheets/d/1Xe-9r2IQXVZ4E0-jl6xRvJEim-18n1pe7bcA-AjA6jQ)
+
+**Significance:**  
+Data for min/maxing resources.
