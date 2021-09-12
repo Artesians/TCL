@@ -28,14 +28,14 @@ Lisa can easily abuse this knowledge in tightly packed groups to quickly and eff
 
 ## The Mechanics of Lisa's C1
 
-By: ArchedNosi\#1484  
-Added: 4/18/2021
+**By:** ArchedNosi\#1484  
+**Added:** 4/18/2021  
+**Updated:** 9/10/2021
 
 **Findings:**
 
 The current description for Lisa's first constellation is currently limited, it states that:  
 _"Lisa recovers 2 Energy for every opponent hit while holding Violet Arc. A maximum of 10 Energy can be regenerated in this manner at any one time"_  
-However, upon investigation, the generation of energy from Violet Arc is not limited to its Held variant, but can also work with the press variant.
 
 Additionally, other mechanics with regards to the generated energy from this constellation are as follows:
 
@@ -45,12 +45,13 @@ Additionally, other mechanics with regards to the generated energy from this con
 
 **Evidence:**
 
+**UPDATE:** As of 2.1, [Lisa's C1 no longer works with her Tap E](https://youtu.be/HsD2_HZdVNU).  
+While the videos below demonstrate C1's mechanics with Lisa's Tap E pre-2.1, Hold E functions the same way.
+
 * [Example of Lisa gaining Energy in a delay](https://youtu.be/afcHsZ9wUM0)
   * Clip has Lisa at 78/80 Energy
 * [Example of Energy not being provided to Lisa or her allies due to being swapped out before the delay](https://youtu.be/JTEGQ0Scz3k)
   * Clip has Lisa at 78/80 Energy
-* [Example of its true elusive effectiveness](https://youtu.be/FSR7y-RcK3Y)
-  * Clip has Solo Lisa at 0% Energy Recharge
 
 **Significance:**
 
@@ -113,3 +114,17 @@ Can also work in conjunction with the effect described in a previous entry: [Vio
 
 Lisa can easily abuse this tech to quickly and efficiently stack Conductive. This allows for smoother and more rapid gameplay and very much opens up a Burst Carry archetype.
 
+## Lisa final AA has two different animations
+
+**By:** Sayline#5959  
+**Added**: 09/10/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/882407170161922088/885681198775550042/transcript-lisa-aa-like-mona-aa.html)  
+
+**Findings:**  
+Just like Mona, Lisa can have two different normal animations depending on the distance from the target.
+
+**Evidence:**  
+[Youtube](https://youtu.be/swYPk57M3R8): First normal string has Lisa teleporting forward to the ruin guard, second normal string has her teleporting backward.
+
+**Significance:**  
+Combat positioning for Lisa

@@ -41,17 +41,18 @@ The overworld map is split into multiple zones that affect enemy level and envir
 Liyue(TBD)  
 Inazumuma(TBD)  
 
+### Bush Elemental Interactions
+
+Elemental applications can be used to destroy or/and damage bushes. However not all elements are equal in this regard.
+
 ## Other world maps  
-- The current world state & character position is saved between different world maps.  
+
+The current world state & character position is saved between different world maps.  
 
 ## Coordinates
 
 * Coordinates from in-game could be translated into the Official Teyvat Interactive Map and vice versa for easier navigation.
 * Character coordinates change whenever the game state is not frozen (unpaused single player).
-
-## Burning damage Scaling  
-
-- Burning damage scales with the affected target's EM and Level
 
 ## Evidence Vault
 

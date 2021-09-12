@@ -137,6 +137,27 @@ Fluff, and a deeper understanding of how the overworld is programmed
 with that, I consider this completed. 
 I have nothing but regrets.
 
+### Bush Elemental Interaction
+
+**By:** deaf#0246  
+**Added:** 09/06/2021  
+[Disscussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/880603421873418362/884484706299686942/transcript-elemental-interactions-with-bushes.html)
+
+**Theory:**  
+Elemental applications can be used to destroy and damage bushes, however not all elements are equal in this regard. Additionally, there are several other abilities such as Jean's E, the cast of Kaeya's burst, Albedo's burst, etc... which can be used to both damage and destroy bushes.
+
+**Evidence:**  
+Hydro: [Video](https://www.youtube.com/watch?v=6H6xNgeF3Gg)  
+Cryo: [Video](https://www.youtube.com/watch?v=ovouxX4fj3o)  
+Pyro: [Video](https://www.youtube.com/watch?v=HERln1tRCsg)  
+Anemo: [Video](https://www.youtube.com/watch?v=5DQUZUvzHmk)  
+Electro + Geo: [Video](https://www.youtube.com/watch?v=ZU1ANOdkjG8)
+
+Burst knock back: [Video](https://www.youtube.com/watch?v=Lf-34SS5b-8)
+
+**Significance:**  
+Optimizing your bush harvesting game.
+
 ## 4-piece set bonuses on environment reactions
 
 **By:** Aluminum#5462  
@@ -399,7 +420,7 @@ It's possible to extract your current coordinates through feedback url.
 Go to Paimon Menu -> Feedback. They're stored in the generated url. Under query value called `ext`.  
 ```javascript
 ext=%7b%22loc%22%3a%7b%22x%22%3a713.8189697265625%2c%22y%22%3a120.84298706054688%2c%22z%22%3a275.4739074707031%7d%2c%22platform%22%3a%22WinST%22%7d
-```  
+```
 Running `decodeURIComponent` on this value will yield a valid JSON.  
 See attached image on how to decode it in vanillaJS.
 
@@ -481,30 +502,6 @@ Which upon closer inspection, differ at 3rd decimal value in x and z axis. Lower
 
 **Significance:**  
 Fluff. This could also explain the fact that when you switch from child to adult male, your camera "target" goes up because the head is higher by ~0.4m.
-
-## Burning damage scaling  
-
-**By:** ceeeleste#3568  
-**Added:** 08/09/2021  
-[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/869136453517574195/874164618136797184/transcript-burning-scales-off-of-active-char-em.html)  
-
-**Theory:**  
-- Burning DMG scales with the affected target's EM and Level.  
-It's also not affected by HP or DEF.
-
-- Burning DMG does not snapshot EM
-
-- Both Burning and WL dmg are reduced by Pyro RES
-
-**Evidence:**  
-Abyss floor 10 WL tick dmg - 236  
-[Imgur](https://imgur.com/TVtnOvw)
-
-Burning does not snapshot EM  
-[Imgur](https://imgur.com/mOSWwij)
-
-**Significance:**  
-Just don't get burnt.
 
 ## Burning grass has standard ICD  
 

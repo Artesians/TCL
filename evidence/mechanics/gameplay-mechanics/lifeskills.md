@@ -345,3 +345,37 @@ Area covered by black thick border shows the vicinity of where I was past 100th 
 A test whether already rendered investigation spots get removed from your memory if you go too far or not - if it was allowed then it would be possible to walk through the entire inazuma (if you're some freaking absolute minmaxer), render all investigation spots at least once and then pick all of them up because everything is stored in your memory.
 
 The above video displays that investigation spots are stored in your memory, and if you go too far then they are removed as it should be, because memory leaks are a horrible thing.
+
+## Ice Bridge
+
+### Ayaka infinite ice bridge
+
+**By:** Serenity#3372  
+**Added:** 09/06/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/880089241252667452/884462363280035900/transcript-ayaka-na-infinite-ice-bridge.html)  
+
+**Theory:**  
+Ayaka can infinitely sprint across large bodies of water using her dash and infused basic attacks to freeze the water for herself. Anemo Resonance is recommended, I'm pretty sure, for adequate stamina regeneration; Ayaka has time for about four basic attacks before you should dash again to avoid falling into the water.
+
+**Evidence:**  
+[Video](https://youtu.be/n475K-3MN50)
+
+**Significance:**  
+Exploration.
+
+## Wait for mora before TP
+
+**By** ZyronX#0001  
+**Added:** 09/11/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/885894005987115060/886300876791218216/transcript-wait-for-mora-before-tp.html)  
+
+**Finding:**  
+If you teleport before the mora going into the character's body, you will not gain any mora.  
+
+**Evidence:**  
+[Artifact spots example](https://youtu.be/dkvXti9LRns)  
+[Elite example](https://youtu.be/XlanpPrNCNw)  
+
+**Significance:**  
+When you're speedrunning artifact route or elite route, you should wait for the mora to go into your character's body then teleport.  
+

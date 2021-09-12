@@ -148,7 +148,8 @@ If the **tornado** comes into contact with Hydro/Pyro/Cryo/Electro, it will deal
 
 The last hit of a Normal Attack combo unleashes a wind blade, dealing 60% of ATK as Anemo DMG to all opponents in its path.
 
-This damage bonus is also considered Normal Attack Damage.
+* This damage bonus is also considered Normal Attack Damage that also deals Elemental DMG.
+* This allows Anemo Traveler to activate 3 stacks of Mistsplitter Reforged without requiring infusion.
 {% endtab %}
 
 {% tab title="Ascension 4" %}

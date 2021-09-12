@@ -244,3 +244,35 @@ Damage is consistent with and without 2NO bonus - [VIdeo](https://www.youtube.co
 
 **Significance:**  
 Damage calculations for Beidou.
+
+## Beidou C4 interaction with Sara
+
+**By:** Bobrokrot#0111  
+**Added** 09/06/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/883625161058844702/884468275151511612/transcript-sara-beidou-c4-interaction.html)
+
+**Finding:**  
+Sara's Tengou Juurai: Ambush activates Beidou's C4 when it hits (buffs) Beidou.
+
+**Evidence:**  
+[Video](https://youtu.be/oYDHcC2prLY): In this video you can see that Beidou's weapon is normal and after she gets hit by Tengou Juurai: Ambush her weapon starts sparking with electro, indicating that C4 has been activated. 
+
+**Significance:**  
+Neat interaction for Beidou
+
+## Beidou C4 is on hit not damage
+
+**By:** Bobrokrot#0111  
+**Added** 09/10/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/884807649869324348/885685498985738240/transcript-beidou-c4-is-on-hit-not-damage.html)
+
+**Finding:**  
+Beidou's C4 is actually on hit, not damage. It does activate when you get hit but don't take damage (if you are shielded).
+
+**Evidence:**  
+[Youtube](https://youtu.be/_C0Xp0gROk0): Here Beidou blocks rockets with her parry, C4 is activated.
+
+[Youtube](https://youtu.be/VrRdG2NUv4Q): It applies not just to Beidou's shield but presumably all shields. In this instance it does work with Noelle's shield.
+
+**Significance:**  
+C4 pretty good
