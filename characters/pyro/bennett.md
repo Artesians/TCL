@@ -131,6 +131,7 @@ Within the Inspiration Field created by Fantastic Voyage, Passion Overload takes
 
 * CD is reduced by 50%
 * Bennett will not be launched by the explosion of Passion Overload: Charge Level 2.
+* This effect is tied to bennett's buff, not the field it's self.  
 {% endtab %}
 {% endtabs %}
 
