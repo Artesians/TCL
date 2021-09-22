@@ -30,11 +30,11 @@ Performs up to 5 consecutive spear strikes.
 
 | String | Talent 6% | Frames | MV/s |
 | :--- | :--- | :--- | :--- |
-| 1-Hit DMG | 57.63% | 14 | 335.87% |
-| 2-Hit DMG | 57.75% | 31 | 303.70% |
-| 3-Hit DMG | 72.5% | 56 | 273.76% |
-| 4-Hit DMG | 42.13% + 42.13% | 102 | 217.7% |
-| 5-Hit DMG | 95.13% | 151 | 198% |
+| 1-Hit DMG | 57.63% | 14 | 246.98% |
+| 2-Hit DMG | 57.75% | 31 | 223.31% |
+| 3-Hit DMG | 72.5% | 56 | 201.3% |
+| 4-Hit DMG | 42.13% + 42.13% | 102 | 160.08% |
+| 5-Hit DMG | 95.13% | 151 | 145.93% |
 | Recovery | -- | 172 | -- |
 
 **Charged Attacks**  
