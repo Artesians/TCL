@@ -130,6 +130,10 @@
 * 2 Piece Set Bonus: Elemental Burst DMG +20%
 * Using an Elemental Burst increases all party members' ATK by 20% for 12s. This effect cannot stack.
 {% endtab %}
+
+{% tab title="Findings" %}
+* There are inconsistencies whether a character Burst DMG can receive the 4-pc Set Bonus or not. Check the Evidence Vault for more details.
+{% endtab %}
 {% endtabs %}
 
 ### Pale Flame
