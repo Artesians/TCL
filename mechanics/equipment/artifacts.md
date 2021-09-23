@@ -132,7 +132,7 @@
 {% endtab %}
 
 {% tab title="Findings" %}
-* There are inconsistencies whether a character Burst DMG can receive the 4-pc Set Bonus or not. Check the Evidence Vault for more details.
+* There are inconsistencies in whether a character wielding 4NO can receive the 4-pc Set Bonus on their Elemental Burst or not. Check the Evidence Vault for more details.
 {% endtab %}
 {% endtabs %}
 
