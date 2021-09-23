@@ -40,14 +40,11 @@ Shows how Qiqi's talisman interacts with sources of damage.
 Qiqi healing from applying talisman is dynamically based on current atk, and cannot snapshot atk buffs
 
 **Evidence:**  
-Qiqi baseline healing: [Youtube](https://www.youtube.com/watch?v=gIx8FpS2BIM)
-
+Qiqi baseline healing: [Youtube](https://www.youtube.com/watch?v=gIx8FpS2BIM)  
 Qiqi buffed healing amount (Sara feather): [Youtube](https://www.youtube.com/watch?v=dzanV9B5Xjs)
 
-Unbuffed: 2598 hp healed
-
-Buffed by Sara: 3365 hp healed
-
+Unbuffed: 2598 hp healed  
+Buffed by Sara: 3365 hp healed  
 Buffed and wait for bonus to wear off: 2598 hp healed
 
 **Significance:**  
