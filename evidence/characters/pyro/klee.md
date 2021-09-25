@@ -172,3 +172,29 @@ Spam pressing Klee's E button will trigger 2 stacks of Crimson Witch with one ch
 
 **Significance:**  
 4CW is better than expected for Klee.
+
+## Klee C6 mechanics
+
+**By:** solo#3333  
+**Added:** 09/25/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/887165577691529226/891209626396266516/transcript-klee-c6-mechanics.html)  
+ 
+**Finding:**  
+- Klee C6 does not stack with itself (e.g., casting burst again during the 25s will not increase the pyro bonus to +20% total).  
+- Klee C6 does snapshot to her own burst, unlike Xiangling.
+
+**Evidence:**  
+No stack: [Imgur](https://imgur.com/i7yYGwi)  
+Damage calc for burst: (stats screen: [Imgur](https://imgur.com/BxSiIXT)) (set bonus 2pc proof: [Imgur](https://imgur.com/Xn6WOqq))  
+(damage screenshot 1277 - [Imgur](https://imgur.com/MqMJuFV)
+
+869 * 1.588 * 0.5 * 0.9 * 2.681 * .768 = 1278.61 (rounding error in game?)  
+869 = attack  
+1.588 = damage bonus (ascension + c6 active + noblesse 2pc)  
+0.5 = enemy defense multiplier  
+0.9 = enemy resist multiplier  
+2.681 = crit  
+.768 = burst lvl 10
+
+**Significance:**  
+No value in chain casting burst shenanigans, and Klee C6 does apply to her own burst despite some people saying otherwise. 
