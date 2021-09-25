@@ -79,10 +79,14 @@ The fact that Mona's particle gen is seemingly random means there's an RNG aspec
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/890797348635156531/891163963356758086/transcript-mona-hold-e-iframe.html)
 
 **Finding:**  
-Mona hold E has iframes
+Mona hold E has iframes.
 
 **Evidence:**  
 [Imgur](https://i.imgur.com/3oln5zw.mp4)
+
+***Extra findings by BowTae#0141:***  
+Oddly enough, dodging with mona hold E will still have auras applied to her: [Imgur](https://imgur.com/QZ9laRu)  
+Also strangely, you can sometimes take knockback but no damage: [Imgur](https://imgur.com/pIFiaBt)
 
 **Significance:**  
 Utilizing for dodging.
