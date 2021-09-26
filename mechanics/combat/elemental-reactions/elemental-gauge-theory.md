@@ -94,11 +94,11 @@ More details on the frozen aura, including duration, coexisting cryo/hydro, and 
 ### Reaction Basics
 
 * Melt and Vaporize have weak and strong elements
-* Using a weak element as the trigger results in a 1.5x dmg multiplier. This is referred to as a **forward** vape/melt
+* Using a weak element as the trigger results in a 1.5x dmg multiplier. This is referred to as a **reverse** vape/melt
 
   > Cryo triggering Melt and Pyro triggering Vaporize
 
-* Using a strong element as the trigger results in a 2.0x dmg multiplier. This is referred to as a **reverse** vape/melt
+* Using a strong element as the trigger results in a 2.0x dmg multiplier. This is referred to as a **forward** vape/melt
 
   > Pyro triggering Melt and Hydro triggering Vaporize
 
@@ -187,6 +187,7 @@ These all have the ability to react with a slightly different ruleset from stand
 * srl\#2712  
 * sigurd\#3854
 * Isu\#6867
+* Kourinn\#6001
 
 ## Media
 
