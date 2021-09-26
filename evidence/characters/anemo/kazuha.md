@@ -43,6 +43,27 @@
 * Chihayaburu's infused element can be seen as a small circle around kazuha. - [Mcpie\#8672](https://youtu.be/rHSRe-IRrv8)  
 * Kazuha can perform a 180 very quickly mid air. - [Mcpie\#8672](https://youtu.be/kfneyG6r4yA)  
 
+### Burst Mechanics
+* Kazuha Slash snapshots. - [MysticalMerlin\#5020](https://imgur.com/a/MC9nEnq)
+* Kazuha Slash can self-infuse auras. - [HappyGL\#0523](https://imgur.com/a/VfCg2cA)  
+* Infusion priority order is [Pyro](https://imgur.com/a/3FsxwG9) > [Hydro > Electro](https://imgur.com/a/3tFexju) > [Cryo](https://imgur.com/a/CJ5feqy).  - HappyGL\#0523  
+
+### Ascension Mechanics  
+* Kazuha's 1st ascension passive applies aura before the plunge damage, allowing kazuha to swirl off of no aura on enemies, but also adding the risk of not swirling if the applied aura reacts with an existing aura and removing. - [Vherax\#5321](https://i.imgur.com/7n0rlWE.mp4)  
+* Kazuha's 4th ascension passive works off-field and only gives bonus damage on swirled elements. - [kingjohn23\#8694](https://youtu.be/3ryW4jG38y0)  
+* Kazuha's 4th ascension passive overrides&refreshes buff each swirl. - [kol\#1593](https://youtu.be/-D8IMtMAt48)  
+
+### Constellation Mechanics  
+* C2: Effects stack with Diona's C6. - [jd baby\#6541](https://imgur.com/a/F1qGWD4)  
+* C2: Affects Kazuha on initial cast, but is lost upon leaving the field or skill range. - [xTuki\#4893](https://imgur.com/HmiW7nT)
+* C4: The energy gained from C4 while gliding is not affected by energy recharge, it takes 23 ticks to cap after using a burst. - [Jilanow\#9252](https://youtu.be/V0o_-DF0DiA)  
+* C4: Kazuha can gain his energy back through gliding before abyss chamber. - [xTuki\#4893](https://imgur.com/EFeCgB2)  
+* C6: Kazuha's Anemo Infusion can be overriden by other infusion effects. - [anema\#0006](https://imgur.com/vNyOiFt)  
+* C6: The anemo infusion from C6 can react with infusion field triggering a swirl reaction based on the field maker's EM. - [Jilanow\#9252](https://www.youtube.com/watch?v=7YoyUKu-cPY)  
+* C6: Damage bonus works regardless of infusion overlap, but only during infusion duration. - [xTuki\#4893](https://imgur.com/eJJc5K6)  
+  
+## Skill Mechanics
+
 ### Kazuha Hold E can cause fall DMG  
 
 **By:** CQLQRS#7853  
@@ -67,26 +88,6 @@ It is not complicated to trigger this as it activates by just simply tapping/hol
 
 **Significance:**  
 This feature is most likely unintended, but not a bug due to the janky nature of fall damage. Unlike jean and sucrose who can consistently cause fall damage due to the stronger downward pull and yeet function on their kits, kazuha's skill only has a weak vortex that causes the accelerated pull in specific situations. Hence he is unable to proc fall damage as consistent and as well as the 2 other characters mentioned.
-
-### Burst Mechanics
-* Kazuha Slash snapshots. - [MysticalMerlin\#5020](https://imgur.com/a/MC9nEnq)
-* Kazuha Slash can self-infuse auras. - [HappyGL\#0523](https://imgur.com/a/VfCg2cA)  
-* Infusion priority order is [Pyro](https://imgur.com/a/3FsxwG9) > [Hydro > Electro](https://imgur.com/a/3tFexju) > [Cryo](https://imgur.com/a/CJ5feqy).  - HappyGL\#0523  
-
-### Ascension Mechanics  
-* Kazuha's 1st ascension passive applies aura before the plunge damage, allowing kazuha to swirl off of no aura on enemies, but also adding the risk of not swirling if the applied aura reacts with an existing aura and removing. - [Vherax\#5321](https://i.imgur.com/7n0rlWE.mp4)  
-* Kazuha's 4th ascension passive works off-field and only gives bonus damage on swirled elements. - [kingjohn23\#8694](https://youtu.be/3ryW4jG38y0)  
-* Kazuha's 4th ascension passive overrides&refreshes buff each swirl. - [kol\#1593](https://youtu.be/-D8IMtMAt48)  
-
-### Constellation Mechanics  
-* C2: Effects stack with Diona's C6. - [jd baby\#6541](https://imgur.com/a/F1qGWD4)  
-* C2: Affects Kazuha on initial cast, but is lost upon leaving the field or skill range. - [xTuki\#4893](https://imgur.com/HmiW7nT)
-* C4: The energy gained from C4 while gliding is not affected by energy recharge, it takes 23 ticks to cap after using a burst. - [Jilanow\#9252](https://youtu.be/V0o_-DF0DiA)  
-* C4: Kazuha can gain his energy back through gliding before abyss chamber. - [xTuki\#4893](https://imgur.com/EFeCgB2)  
-* C6: Kazuha's Anemo Infusion can be overriden by other infusion effects. - [anema\#0006](https://imgur.com/vNyOiFt)  
-* C6: The anemo infusion from C6 can react with infusion field triggering a swirl reaction based on the field maker's EM. - [Jilanow\#9252](https://www.youtube.com/watch?v=7YoyUKu-cPY)  
-* C6: Damage bonus works regardless of infusion overlap, but only during infusion duration. - [xTuki\#4893](https://imgur.com/eJJc5K6)  
-  
 
 ## Burst Mechanics
 
