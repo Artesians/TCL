@@ -7,10 +7,10 @@ All abyss mages share the same weakspot on their **Head**, not that this weakspo
 
 ## Energy drops  
 
-75% HP: 1 elemental particle
-50% HP: 1 elemental particle
-25% HP: 1 elemental particle
-Death: 1 elemental orb
+75% HP: 1 elemental particle  
+50% HP: 1 elemental particle  
+25% HP: 1 elemental particle  
+Death: 1 elemental orb  
 
 ## Resistance Table
 
