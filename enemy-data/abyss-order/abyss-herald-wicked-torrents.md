@@ -12,6 +12,12 @@ These silent figures are the vanguard of the Abyss, brandishing Tidal Blades tha
 
 The Herald's **Head** is the weakspot.  
 
+## Energy drops
+
+66% HP: 1 elemental orb  
+33% HP: 1 elemental orb  
+Death: 1 elemental particle  
+
 ## Shield 
 
 | Elemental Source | Gauge Units Required |
