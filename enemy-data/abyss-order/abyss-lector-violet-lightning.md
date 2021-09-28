@@ -12,6 +12,12 @@ These are the evangelists and the scholars of the Abyss. Their violent lightning
 
 The Lector's **Head** is the weakspot. 
 
+## Energy drops
+
+66% HP: 1 elemental orb  
+33% HP: 1 elemental orb  
+Death: 1 elemental particle  
+
 ## Shield
 
 | Elemental Source | Gauge Units Required |
