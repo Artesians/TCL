@@ -10,7 +10,7 @@ First, enter aim mode via aim toggle (R on PC, aim button on Mobile, L2/LT/ZL on
 
 ARCC is easier to do at 30 fps, as the frame window lengths are longer.  
 
-ARCC shots have some quirks that are different from normal charged shots:  
+ARCC shots have some quirks that are different from normal Charged Attacks:  
 * When out of Normal Attack range from the target, ARCC shots have a fixed height, regardless of how high or low the player aims.
 * When within Normal Attack range of a target, ARCC shots will fire toward the target.
 * Non-C6 Ganyu, Yoimiya, and Aloy CANNOT fire a fully-charged ARCC shot. They will always get a physical charged shot, regardless of charge level before release.
