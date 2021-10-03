@@ -48,9 +48,15 @@ Death: 1 common orb
 ## Attacks
 
 * Transforms into a rocket and targets the player's position before slamming down.
+
 * Targets the player's current position with a reticle that focuses before striking down.
+
 * Transforms into a Cube and rolls repeatedly with high speed. Only uses this move at long ranges. 
+
 * Transforms into a giant sword and slashes from the Right to Left. Only uses this move at Melee ranges. 
+ 
 * Transforms into a giant spinning blade and does a zig-zag pattern before slashing fom the Left to Right. Only uses this move at Melee ranges. 
+
 * Charges up for a short time before firing a beam of pure energy that does fast moderate physical damage to those touching the beam. The beam follows the player.
+
 * Assumes a defensive stance and launches four cubes that transform into Ruin Sentinels. One of the 4 Ruin Sentinels will be marked and ha to be killed for the Array to be targettable again. After the Sentinel has been killed the Array will momentarily enter a weakened state, being temporarily stunned and having it's resistance lowered by -50% for all damage types. This attack can only occur once, either once the health of the array has reached the require threshold or enough time in the fight has passed.
