@@ -10,7 +10,13 @@ Legend has it that they were war machines left behind by a nation that had been 
 
 ## Weakspot Details
 
-> todo
+Core inside the head.
+
+## Energy drops
+
+66% HP: 1 common particle
+33% HP: 1 common particle
+Death: 1 common particle
 
 ## Resistance Table
 
@@ -41,3 +47,14 @@ Legend has it that they were war machines left behind by a nation that had been 
 
 ## Attacks
 
+* Opening its' head, the Destroyer spins its' whole head on the ground and flails it across. Its' core is protected during this attack.
+
+* By firing a charged beam of pure energy at the ground, the Destroyer creates an energy field centered on its' target. The field has a large AoE that deals Damage for the duration of this attack. Its' core is exposed during this attack.
+
+* Borrowing into the ground and planting its roots, the core gathers energy and creates a Vacuum Field that sucks the player in. After charging, it will overload its' core, exploding anything in a medium AoE around itself. Its' core is exposed during this attack.
+
+* Using its' core, it fires small energy orbs two to five times. Its' core is protected during this attack.
+
+* Digs into the ground before it reemerges close to its' target. Similar to the Geovishap Hatchling, it cannot be damaged while it's burrowing.
+
+* After hitting its' weak spot twice, it becomes deactivated. During this short time it will not attack.
