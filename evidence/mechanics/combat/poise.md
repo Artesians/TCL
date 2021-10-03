@@ -63,7 +63,7 @@ Before launching an opponent with Jean E, reduce its poise to 0 and stagger them
 
 ## Poise stack
 
-**By:** Ccucunter#5971  
+**By:** cucunter#5971  
 **Added:** 10/03/2021  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/893523719295750194/894208146581618688/transcript-interrupt-resistance-stacking.html)
 
