@@ -14,9 +14,9 @@ Core inside the head.
 
 ## Energy drops
 
-66% HP: 1 common particle
-33% HP: 1 common particle
-Death: 1 common particle
+66% HP: 1 common particle  
+33% HP: 1 common particle  
+Death: 1 common particle  
 
 ## Resistance Table
 
