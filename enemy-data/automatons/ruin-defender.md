@@ -10,7 +10,7 @@ Legend has it that they were war machines left behind by a nation that had been 
 
 ## Weakspot Details
 
-Core inside the head.
+None.
 
 ## Energy drops
 
