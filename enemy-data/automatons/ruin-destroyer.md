@@ -10,7 +10,7 @@ Legend has it that they were war machines left behind by a nation that had been 
 
 ## Weakspot Details
 
-Core inside the head.
+Core inside the head. For unknown reasons this core counts as a weakspot but will not trigger certain effects related to it (ex. prototype crescent).
 
 ## Energy drops
 
