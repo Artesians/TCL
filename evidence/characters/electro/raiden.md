@@ -39,7 +39,28 @@
    * Pyro Swirl - [Nass008#8577](https://imgur.com/HooDf8l)
 * Raiden's Elemental Skill cannot be triggered by:
    * Electro-charged
-   * Cryo/Hydro swirls
+   * Hydro swirls
+   
+#### Raiden E transformative interactions  
+
+**Added:** 09/28/2021  
+**By:** Tech#6257  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/885440525438685204/891171141287297095/transcript-raiden-e-transformative-interaction.html)  
+
+**Finding:**  
+Raiden's elemental skill will trigger on transformative reactions if 2 condition are met:  
+1. Inflicting damage to an enemy.  
+2. The damaging reaction has AOE.  
+This means that only superconduct, overload, and all AOE swirls except for hydro will activate it, while electro-charged, shatter, single target and hydro swirl won't.
+
+**Evidence:**  
+Working:  
+[superconduct](https://imgur.com/l8HTpLS), [overload](https://imgur.com/BFp3mF7), [pyro swirl](https://imgur.com/HooDf8l), [cyro swirl](https://imgur.com/3KwFiLr), [electro swirl](https://imgur.com/ElVwEd6), [multi-target swirls](https://imgur.com/ocEzBjq)  
+Not Working:  
+[hydro swirl](https://imgur.com/Bqk9QQB), [single target swirl](https://imgur.com/IIXvCca), [aoe hydro swirl](https://imgur.com/Fa9YZgL), [shatter](https://imgur.com/vExbdig), [electro-charged](https://imgur.com/qnuieNX)  
+
+**Significance:**  
+Better understanding of Raiden's elemental skill.  
 
 ### Burst Mechanics  
 * Raiden's Elemental Burst restores flat energy to herself. - [CC\#5588](https://youtu.be/__PPdiQqMx4)  
@@ -75,27 +96,25 @@ Raiden's DEF ignore effect does not stack additively with other sources of DEF s
 **Significance:**  
 Better understanding of Raiden C2, less gain from stacking defense shred.  
 
+## Energy findings:
 
-## Attack findings  
-
-### Raiden E transformative interactions  
+### Raiden self energy recharge formula  
 
 **Added:** 09/28/2021  
-**By:** Tech#6257  
-[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/885440525438685204/891171141287297095/transcript-raiden-e-transformative-interaction.html)  
+**By:** Sir_pick_the_prick#2209  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/883997943387029504/892422852458983474/transcript-raiden-minimum-er-formula.html)  
 
 **Finding:**  
-Raiden's elemental skill will trigger on transformative reactions if 2 condition are met:  
-1. Inflicting damage to an enemy.  
-2. The damaging reaction has AOE.  
-This means that only superconduct, overload, and all AOE swirls except for hydro will activate it, while electro-charged, shatter, single target and hydro swirl won't.
+Formula that describes minimum ER% for Raiden to use elemental burst off cooldown.  
 
 **Evidence:**  
-Working:  
-[superconduct](https://imgur.com/l8HTpLS), [overload](https://imgur.com/BFp3mF7), [pyro swirl](https://imgur.com/HooDf8l), [cyro swirl](https://imgur.com/3KwFiLr), [electro swirl](https://imgur.com/ElVwEd6), [multi-target swirls](https://imgur.com/ocEzBjq)  
-Not Working:  
-[hydro swirl](https://imgur.com/Bqk9QQB), [single target swirl](https://imgur.com/IIXvCca), [aoe hydro swirl](https://imgur.com/Fa9YZgL), [shatter](https://imgur.com/vExbdig), [electro-charged](https://imgur.com/qnuieNX)  
+Y = Raiden's total ER%  
+Z = Flat energy gained (NOT INCLUDING RAIDEN'S Q ENERGY)  
+W = talent level (THE NUMBER NOT VALUE, ex. 1-13)  
+X = energy gained (before ER calculations)  
+Formula:  
+Y = (87-0.2W-Z)/(X+4.5+0.3W)  
 
 **Significance:**  
-Better understanding of Raiden's elemental skill.  
+Calculating Raiden's self energy requirements.  
 
