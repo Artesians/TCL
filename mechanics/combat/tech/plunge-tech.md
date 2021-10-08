@@ -19,24 +19,35 @@ _Popularized by the name Dragon Strike, players were unfamiliar with the origina
 
 ## Media
 
-{% tabs %}
-{% tab title="Claymore" %}
-
-{% tab title="Polearm" %}
-
-{% tab title="Sword" %}
-
-{% tab title="Diluc Searing Onslaught" %}
-{% embed url="https://imgur.com/a/t3hNR2V" caption="" %}
-{% endtab %}
-{% endtabs %}
+{% embed url="https://imgur.com/BvuqB5g" caption="Basic ARCC demonstration" %}
 
 
 # Stepstool  
 
 It's possible to use hitbox collision off of enemies to push yourself higher which allows average and tall height characters to perform a plunge attack.  
 
+# Standing Plunge
 
-## Evidence Vault:  
+Tall characters are able to jump high enough on flat ground to plunge or glide. This can be done with all current tall characters (patch 2.1) and does not require any movement speed buffs. Works while in landing, idle, and jogging animation, with no specific frames that guarantee a plunge.
+
+Does not work while canceling an attack with jump, as the jump height is lower.
+
+## Media
+
+{% embed url="https://www.youtube.com/watch?v=ZuXTD-lDX5M" caption="Standing Plunge All Tall Characters 2.1" %}
+
+# Switch Plunge
+
+It is possible to jump in the window that occurs before a character switches. Depending on the ping, this window is large enough to gain enough height for the entering character to then jump again and plunge.
+
+It is also doable at 28ms to 130ms ping, but should be possible at higher pings too. Works on PC, Console, and Mobile.
+
+## Media
+
+{% embed url="https://imgur.com/aUpxPk0" caption="Press switch, then jump as soon as possible" %}
+
+{% embed url="https://imgur.com/l4CxYj8" caption="Do an action that lets you buffer a switch" %}
+
+# Evidence Vault:  
 
 {% page-ref page="../../../evidence/mechanics/combat/tech/Plunge.md" %}  
