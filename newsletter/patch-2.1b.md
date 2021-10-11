@@ -10,6 +10,7 @@ description: 'Raiden Banner ft. Xiangling, Sucrose, and Sara'
 * [Qiqi Guide](https://keqingmains.com/qiqi/)
 * [Sangonomiya Kokomi: Pearl of Wisdom](https://keqingmains.com/kokomi/)
 * [優雅のおどり: Kamisato Ayaka Full Guide](https://keqingmains.com/ayaka/)
+* [Full Noelle Guide: The One Maid Army](https://keqingmains.com/noelle/)
 
 ## Theorycrafting Library Submissions
 
