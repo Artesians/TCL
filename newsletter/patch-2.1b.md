@@ -1,5 +1,5 @@
 ---
-description: 'Raiden Banner ft. Xiangling, Sucrose, and Sara'
+description: 'Kokomi Banner ft. Beidou, Xingqiu, and Rosaria'
 ---
 
 # Patch 2.1b
