@@ -16,7 +16,7 @@ None.
 
 66% HP: 1 common orb  
 33% HP: 1 common orb  
-Death: 1 common orb  
+Death: 1 common orb
 
 ## Resistance Table
 
@@ -51,11 +51,11 @@ Death: 1 common orb
 
 * Targets the player's current position with a reticle that focuses before striking down.
 
-* Transforms into a Cube and rolls repeatedly with high speed. Only uses this move at long ranges. 
+* Transforms into a Cube and rolls repeatedly with high speed. Only uses this move at long ranges.
 
-* Transforms into a giant sword and slashes from the Right to Left. Only uses this move at Melee ranges. 
- 
-* Transforms into a giant spinning blade and does a zig-zag pattern before slashing fom the Left to Right. Only uses this move at Melee ranges. 
+* Transforms into a giant sword and slashes from the Right to Left. Only uses this move at Melee ranges.
+
+* Transforms into a giant spinning blade and does a zig-zag pattern before slashing fom the Left to Right. Only uses this move at Melee ranges.
 
 * Charges up for a short time before firing a beam of pure energy that does fast moderate physical damage to those touching the beam. The beam follows the player.
 
