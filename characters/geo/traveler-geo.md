@@ -98,7 +98,8 @@ Summons a **meteorite** that deals Geo damage and launches small enemies
 
 * The **meteorite** is considered a **Geo Construct** and can be climbed or use to block attacks
 * Holding allows you to aim where the **meteorite** appears and has a faster animation time.
-* **Starfell Sword** can be manually detonated by over-capping the Geo construct limit (3 constructs).
+* **Starfell Sword** can be manually detonated by over-capping the Geo construct limit (3 constructs).  
+* **Starfell Sword** can be used to speed up fights against Geo Hypostasis.
 
 | Type | Talent 6% |
 | :--- | :--- |
