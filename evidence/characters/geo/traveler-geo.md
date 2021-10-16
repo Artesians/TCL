@@ -19,6 +19,21 @@
 
 ## Skill Mechanics
 
+### Geo Traveler E can break geo hypostasis pillar
+
+**By:** TarZ\#6365  
+**Added:** 16/10/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/897646550963093554/898812202541281320/transcript-geo-mc-boulder-can-break-pillar-and-cause-hammer-attack-to-occur-with-geo-hypostasis.html)  
+
+**Finding:**  
+Placing a boulder underneath the geo hypostasis at the start of the battle will cause the middle pillar to break. This then has a chance to cause the hypostasis to do a hammer attack on the player.
+
+**Evidence:**  
+[Video](https://www.youtube.com/watch?v=DJdk_zOrl-Q&ab_channel=TarZBlammo)
+
+**Significance:**  
+Allows for the fight to progress faster without having to spend much effort in breaking the pillars with auto attacks, though it must be noted that vulnerability windows are shorter with this method.
+
 
 
 ### Geo Traveler E can be manually detonated
