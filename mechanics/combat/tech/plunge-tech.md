@@ -36,6 +36,13 @@ _Popularized by the name Dragon Strike, players were unfamiliar with the origina
 
 It's possible to use hitbox collision off of enemies to push yourself higher which allows average and tall height characters to perform a plunge attack.  
 
+# Switch Plunge
+
+Depending on your ping, it is possible to gain height by jumping right before a character switch occurs, allowing the entering character to jump again and plunge.  
+
+## Media
+
+{% embed url="https://imgur.com/AxrVICa" caption="Consecutive Switch Plunge demonstration" %}  
 
 ## Evidence Vault:  
 
