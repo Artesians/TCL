@@ -60,11 +60,11 @@ Fire a shower of arrows from mid-air before falling striking the ground, dealing
 {% tab title="Skyward Sonnet" %}
 **Press**
 
-Summons an Wind Domain at the opponent's location, dealing AoE Anemo DMG and launching opponents into the air.
+Summons an **Wind Domain** at the opponent's location, dealing AoE Anemo DMG and launching opponents into the air.
 
 **Hold**
 
-Summons a larger Wind Domain at Venti's location, dealing AoE Anemo DMG and launching opponents into the air. Venti then rides the winds into the air.
+Summons a larger **Wind Domain** at Venti's location, dealing AoE Anemo DMG and launching opponents into the air. Venti then rides the winds into the air.
 
 * Opponents launched by **Skyward Sonnet** will fall to the ground slowly.
 
@@ -74,6 +74,7 @@ Summons a larger Wind Domain at Venti's location, dealing AoE Anemo DMG and laun
 | Hold | 532% | 15s | 70 | 2U | 4 \(-\) |
 
 * Doing an auto attack as soon as possible after using the press version of **Skyward Sonnet** allows the user to swap to a different character faster.
+
 {% endtab %}
 
 {% tab title="Wind\'s Grand Ode" %}
@@ -101,12 +102,13 @@ Venti fires off an arrow made of countless coalesced winds, creating a huge **St
   * Maximum of 16 ticks of Additional Elemental DMG
     * Elemental absorption can occur at soonest, **after the 4th Anemo tick**
     * This number of ticks will always be reached in the original burst area, no matter the time of infusion.
-  * Every third Anemo DoT tick applies 2U Anemo, for a maximum of 7 swirls.
+  * Every third Anemo DoT tick applies 1U Anemo, for a maximum of 7 swirls.
     * this number can be increased to 14 swirls per enemy if there's more than one enemy in Venti's Burst
 * Every third infused elemental tick applies 1U of the absorbed element, for a maximum of 6 applications.
 * Venti's burst snapshots.
 * Venti's vortex can be fired on top of Zhongli's pillar, allowing Venti to pull in targets whilst keeping them just low enough for melee units to hit.  
 * Infusion priority: Pyro > Hydro > Electro > Cryo  
+
 {% endtab %}
 {% endtabs %}
 
@@ -121,18 +123,18 @@ Decreases gliding Stamina consumption for your own party members by 20%.
 * Not stackable with Passive Talents that provide the exact same effects.
 {% endtab %}
 
-{% tab title="Ascension 2" %}
+{% tab title="Ascension 1" %}
 ### Embrace of Winds
 
-Holding Skyward Sonnet creates an upcurrent that lasts for 20s.
+Holding **Skyward Sonnet** creates an upcurrent that lasts for 20s.
 {% endtab %}
 
 {% tab title="Ascension 4" %}
 ### Stormeye
 
-Regenerates 15 Energy for Venti after the effects of Wind's Grand Ode end.
+Regenerates 15 Energy for Venti after the effects of **Wind's Grand Ode** end.
 
-If an Elemental Absorption occurred, this also regenerates 15 Energy for all characters of that corresponding element in the party.
+If an **Elemental Absorption** occurred, this also regenerates 15 Energy for all characters of that corresponding element in the party.
 {% endtab %}
 {% endtabs %}
 
@@ -150,15 +152,15 @@ Fires 2 additional arrows per Aimed Shot, each dealing 33% of the original arrow
 {% tab title="C2" %}
 ### Breeze of Reminiscence
 
-Skyward Sonnet decreases opponents' Anemo RES and Physical RES by 12% for 10s.
+**Skyward Sonnet** decreases opponents' Anemo RES and Physical RES by 12% for 10s.
 
-Opponents launched by Skyward Sonnet suffer an additional 12% Anemo RES and Physical RES decrease while airborne.
+Opponents launched by **Skyward Sonnet** suffer an additional 12% Anemo RES and Physical RES decrease while airborne.
 {% endtab %}
 
 {% tab title="C3" %}
 ### **Ode to Thousand Winds**
 
-Increases the Level of Wind's Grand Ode by 3.
+Increases the Level of **Wind's Grand Ode** by 3.
 {% endtab %}
 
 {% tab title="C4" %}
@@ -170,7 +172,7 @@ When Venti picks up an Elemental Orb or Particle, he receives a 25% Anemo DMG Bo
 {% tab title="C5" %}
 ### Concerto dal Cielo
 
-Increases the Level of Skyward Sonnet by 3.
+Increases the Level of **Skyward Sonnet** by 3.
 {% endtab %}
 
 {% tab title="C6" %}
@@ -178,9 +180,10 @@ Increases the Level of Skyward Sonnet by 3.
 
 Targets who take DMG from **Wind's Grand Ode** have their Anemo RES decreased by 20%.
 
-If an Elemental Absorption occurred, then their RES towards the corresponding Element is also decreased by 20%.
+If an **Elemental Absorption** occurred, then their RES towards the corresponding Element is also decreased by 20%.
 
 * The resistance reduction from Venti C6 lasts 10 seconds from the last tick of damage taken. Anemo res reduction duration can only be refreshed by anemo dmg ticks, while the infused element's res reduction duration is refreshed by that element's DOT ticks.
+
 {% endtab %}
 {% endtabs %}
 

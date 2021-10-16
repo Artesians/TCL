@@ -49,7 +49,7 @@ Out of 1,174 Bushes:
 * 32 Matsutakes
 * 32 Eggs
 
-It seems like the drop is chosen randomly. Testing was done during the day, because at night, fireflies are added to the pool. They do not replace anything in the loot table, because at night all four itesm were dropped. There has never been an instance of getting more than one drop out of a bush.
+It seems like the drop is chosen randomly. Testing was done during the day, because at night, fireflies are added to the pool. They do not replace anything in the loot table, because at night all four items were dropped. There has never been an instance of getting more than one drop out of a bush.
 
 **Evidence:** [Google Docs](https://docs.google.com/document/d/1-mopokLcAiOwz9I7NS8LZnmNUhz57RStiXdyYN_yNc8/edit)
 
@@ -176,40 +176,40 @@ There are two types of artifact spots:
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/856083274458857493/858443928244322334/transcript-2-star-artifact-value.html)
 
 **Finding:**  
-Buying 2* artifacts from vendors is more worth than running a domain for artifact exp (Once a week)
+Buying 2-star artifacts from vendors is more worth than running a domain for artifact exp (Once a week)
 
 **Evidence:**  
-There are 3 artifact vendors, each selling five 2* artifacts for 2k mora each. Shop refreshes once a week. [Wiki Link.](https://genshin-impact.fandom.com/wiki/Shops#Artifacts)
+There are 3 artifact vendors, each selling five 2-star artifacts for 2k mora each. Shop refreshes once a week. [Wiki Link.](https://genshin-impact.fandom.com/wiki/Shops#Artifacts)
 
 Artifact vendors:  
-Mora/Resin cost: 15 * 2k =  30k mora (10 resin)  
-Total artifact exp: 15 * 840 = 12600 exp  
-Resin worth: 12600/10 = 1260 exp/resin  
+Mora/Resin cost: `15 * 2k =  30k mora (10 resin)`  
+Total artifact exp: `15 * 840 = 12600 exp`  
+Resin worth: `12600/10 = 1260 exp/resin`  
 
 Domain Run (20 resin):  
 Drop rates: [Wiki Link](https://genshin-impact.fandom.com/wiki/Loot_System/Artifact_Drop_Distribution)  
-Average artifact exp: (1.068 * 3780) + (2.486 * 2520) + (3.546 * 1260) = 14769.72 exp  
-Best case artifact exp: (2 * 3780) + (3 * 2520) + (4 * 1260) = 20160 exp  
-2525 Mora: 2525/60000 = ~0.0421 resin   
-Average resin worth: 14769.72/20.0421 = ~736.9 exp/resin  
-Best case resin worth: 20160/20.0421 = ~1005.9 exp/resin
+Average artifact exp: `(1.068 * 3780) + (2.486 * 2520) + (3.546 * 1260) = 14769.72 exp`  
+Best case artifact exp: `(2 * 3780) + (3 * 2520) + (4 * 1260) = 20160 exp`  
+2525 Mora: `2525/60000 = ~0.0421 resin`   
+Average resin worth: `14769.72/20.0421 = ~736.9 exp/resin`  
+Best case resin worth: `20160/20.0421 = ~1005.9 exp/resin`
 
 Vendor vs Domain:  
-Average: 1260/736.9 = ~1.7099 (vendor 70.99% more worth)  
-Best case: 1260/1005.9 = ~1.2526 (vendor 25.26% more worth)
+Average: `1260/736.9 = ~1.7099` (vendor 70.99% more worth)  
+Best case: `1260/1005.9 = ~1.2526` (vendor 25.26% more worth)
 
 **Significance:**  
 Buying out the 3 artifact vendors once a week is more worth than running a domain for artifact exp.
 Vendor is 70.99% more worth your resin on average, and 25.26% more worth for a best case domain run scenario.
-  
+
 ## Vendor Artifacts vs Housing Sanctifying Essence  
-  
+
 **By:** K \឵឵#4000  
 **Added:** 07/07/2021  
   [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/855808417447804938/858443909838929940/transcript-the-two-star-artifacts-you-buy-from-the-npc-shops-is-actually-still-worth-it.html)  
 **Finding:**  
 NPC artifact shops are a better deal than the sanctifying essence in terms of artifact experience.  
-  
+
 **Evidence:**  
 12600=360  
 10000=360  
@@ -379,3 +379,54 @@ If you teleport before the mora going into the character's body, you will not ga
 **Significance:**  
 When you're speedrunning artifact route or elite route, you should wait for the mora to go into your character's body then teleport.  
 
+## Bait & Switch
+
+**By** wiremash#0433  
+**Added:** 09/14/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/884979127260680212/887102831771922482/transcript-bait-and-switch.html)  
+
+**Finding:**  
+You can switch fishing baits in mid-air.
+
+Note that bait cannot be switched once the bobber enters the water.
+
+**Evidence:**  
+[Youtube](https://youtu.be/S5MWl6yO5V8): Skip to 1:50 for a somewhat practical demonstration
+
+**Significance:**  
+Unnecessarily advanced fishing technique for those trying to catch multiple species of fish.
+
+## BP Resin Value
+
+**By** Peekays#2722  
+**Added:** 09/14/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/882273258806849627/885691065707925514/transcript-battle-pass-value-for-resin.html)  
+
+**Finding:**  
+The $10 BP gives resources worth approximately 1800 resin = 45 condensed resin = 30 fragile resins in the form of exp books, mora, and talent books.  
+This does not include the weapon enhancement ores, fates, primogems, and bp exclusive weapon.
+
+**Evidence:**  
+[Spreadsheet](https://docs.google.com/spreadsheets/d/1Xe-9r2IQXVZ4E0-jl6xRvJEim-18n1pe7bcA-AjA6jQ)  
+
+Also average talent domain rewards sheet (credit to carrier/Data Gathering): [Spreadsheet](https://docs.google.com/spreadsheets/d/14Y3aqKvnxSeuox3RF1Bg6kQwKzVDPEPqy8aXacSIHMs)
+
+**Significance:**  
+Buy the BP if you have the money.
+
+## The Walking Dead Impact
+
+**By** Mcpie#8672  
+**Added:** 09/17/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/887034163725746226/888244472746487818/transcript-autowalk-with-dead-chars.html)  
+
+**Finding:**  
+It's possible to perform autowalk if you have dead character in party. Simply click on dead character while walking so that it will bring up the revival interface for your character to continue walking forward.  
+You cannot do sprint with this, it automatically converts to "W".
+
+**Evidence:**  
+[Imgur](https://i.imgur.com/6uyJrUN.mp4)  
+[Imgur](https://i.imgur.com/LSdr8yo.mp4)
+
+**Significance:**  
+You can go to the toilet while traversing through Teyvat using your new autowalk skills.

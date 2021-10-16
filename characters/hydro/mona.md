@@ -63,6 +63,7 @@ Plunge from mid-air to the ground, dealing AoE Hydro DMG.
 | Plunge DMG | 82.6% | 1A |
 | Low Plunge DMG | 165.1% | 1A |
 | High Plunge DMG | 206.3% | 1A |
+
 {% endtab %}
 
 {% tab title="Mirror Reflection of Doom" %}
@@ -74,9 +75,10 @@ Creates an illusory **Phantom of Fate** with the following special properties:
 * When its duration expires, the **Phantom** explodes, dealing AoE Hydro DMG.
 
 **Hold**  
-Mona dashes backwards before placing a Phantom of Fate down.
+Mona dashes backwards before placing a **Phantom of Fate** down.
 
 * Only one **Phantom** created by **Mirror Reflection of Doom** can exist at any time.
+* Mona's Holding version of **Mirror Reflection of Doom** has invincibility frames that can be utilized for dodging.
 
 | **Type** | **Talent 6%** | Frames | MV/s | **GU** | Particles |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -86,12 +88,14 @@ Mona dashes backwards before placing a Phantom of Fate down.
 | CD | 12s | ~ | ~ | ~ | ~ |
 
 * Mona can dash before **Mirror Reflection of Doom** finishes casting, which leads to no **Phantom** being created.
-{% endtab %}
 * **Mirror Reflection of Doom** will cause five instances of damage. It will tick 4 times, dealing DoT damage, then explode to deal Explosion DMG.
+
+{% endtab %}
 
 {% tab title="Illusory Torrent" %}
 **Alternate Sprint**  
-Mona cloaks herself within the water’s flow, consuming Stamina to move rapidly.
+Mona cloaks herself within the water’s flow, consuming Stamina to move rapidly.  
+* Her alternate sprint has the same iframes as other characters' normal sprint.
 
 * When under the effect of **Illusory Torrent**, Mona can sprint on water.
 * Applies Hydro aura to nearby opponents when she reappears.
@@ -106,6 +110,7 @@ Mona cloaks herself within the water’s flow, consuming Stamina to move rapidly
 * **Illusory Torrent** holds priority over Mona's skill, meaning that if you dash before Mona's skill is finished casting, the skill cast will be cancelled and Mona will dash instead.
 * Rosaria's Passive, **Night Walk**, increases Mona's sprint speed
   * the same goes for Anemo Resonance
+
 {% endtab %}
 
 {% tab title="Stellaris Phantasm" %}
@@ -132,8 +137,9 @@ Traps opponents inside a pocket of destiny and also makes them Wet. Renders weak
   * See: [Damage Formula](https://library.keqingmains.com/mechanics/combat/damage-formula#base-damage)
 * **Illusory Bubble**'s duration can be extended under specific circumstances:
   * Enemies that were applied Cryo beforehand, thus got Frozen after receiving the **Illusory Bubble** status.
-  * Enemies that are in a stagger-resistant state, i.e., performing an attack animation, having an elemental shield/armor,...
+  * Enemies that are in a stagger-resistant state, i.e., performing an attack animation, having an elemental shield/armor, etc.
 * Certain skill/bursts cannot trigger the **Illusory Bubble** (Zhongli E, Klee Q).
+
 {% endtab %}
 {% endtabs %}
 
@@ -153,6 +159,7 @@ After she has used **Illusory Torrent** for 2s, if there are any opponents nearb
 
 * A **Phantom** created in this manner lasts for 2s, and its explosion DMG is equal to 50% of **Mirror Reflection of Doom**.
 * Damage dealt by this **Phantom** is considered elemental skill damage, and can thus trigger related artifact effects.
+
 {% endtab %}
 
 {% tab title="Ascension 4" %}
@@ -161,6 +168,7 @@ After she has used **Illusory Torrent** for 2s, if there are any opponents nearb
 Increases Mona’s Hydro DMG Bonus by a degree equivalent to 20% of her Energy Recharge rate.
 
 * The Hydro DMG Bonus increase only shows when Mona is in an active party.
+
 {% endtab %}
 {% endtabs %}
 
@@ -277,7 +285,9 @@ Upon entering **Illusory Torrent**, Mona gains a 60% increase to the DMG of her 
 
 * [Genshin Impact Fandom](https://genshin-impact.fandom.com/wiki/Mona)
 * [Mona Mains Discord](https://discord.gg/uxVEDkTyRe)
-* [The Astrological Guide to Mona Megistus](https://keqingmains.com/mona/)
+* [Full Mona Written Guide: The Astrological Guide to Mona Megistus](https://keqingmains.com/mona/)
+* [Optimal Mona Attack String](https://library.keqingmains.com/evidence/characters/hydro/mona#what-attack-string-combo-outputs-the-highest-dps-for-mona) by Baezal#0868
+* [Mona Omen Extension Explained](https://library.keqingmains.com/evidence/characters/hydro/mona#mona-omen-extension-extended) by Gibbigobo#9750(aka LACola)
 
 **Evidence Vault:**
 

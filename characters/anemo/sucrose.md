@@ -85,6 +85,7 @@ If the **Wind Spirit** comes into contact with **Hydro/Pyro/Cryo/Electro,** it w
 
 * Freeze and Petrify will allow Sucrose to group enemies together without launching them into the air.  
 * Infusion priority: Pyro > Hydro > Electro > Cryo  
+
 {% endtab %}
 {% endtabs %}
 
@@ -97,7 +98,7 @@ If the **Wind Spirit** comes into contact with **Hydro/Pyro/Cryo/Electro,** it w
 When Sucrose crafts Character and Weapon Enhancement Materials, she has a 10% chance to obtain double the product.
 {% endtab %}
 
-{% tab title="Ascension 2" %}
+{% tab title="Ascension 1" %}
 ### Catalyst Conversion
 
 When Sucrose triggers a **Swirl** reaction, all characters in the part with the matching element, excluding Sucrose herself, gain 50 **Elemental Mastery** for 8s.
@@ -216,7 +217,7 @@ If **Forbidden Creation-Isomer 75/Type II** triggers an Elemental Absorption, al
 * [Genshin Impact Fandom](https://genshin-impact.fandom.com/wiki/Sucrose)
 * [Sucrose Mains Discord](https://discord.gg/SRgmCt4)
 * [Full Sucrose Written Guide](https://keqingmains.com/sucrose/)
-* [Sucrose Youtube Quick Guide](https://youtu.be/paUqUTmcf-Y)
+* [8 Minute Quick Guide to Sucrose](https://youtu.be/paUqUTmcf-Y)
 
 **Evidence Vault**
 

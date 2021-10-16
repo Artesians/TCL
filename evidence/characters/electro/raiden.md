@@ -39,7 +39,28 @@
    * Pyro Swirl - [Nass008#8577](https://imgur.com/HooDf8l)
 * Raiden's Elemental Skill cannot be triggered by:
    * Electro-charged
-   * Cryo/Hydro swirls
+   * Hydro swirls
+   
+#### Raiden E transformative interactions  
+
+**Added:** 09/28/2021  
+**By:** Tech#6257  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/885440525438685204/891171141287297095/transcript-raiden-e-transformative-interaction.html)  
+
+**Finding:**  
+Raiden's elemental skill will trigger on transformative reactions if 2 condition are met:  
+1. Inflicting damage to an enemy.  
+2. The damaging reaction has AOE.  
+This means that only superconduct, overload, and all AOE swirls except for hydro will activate it, while electro-charged, shatter, single target and hydro swirl won't.
+
+**Evidence:**  
+Working:  
+[superconduct](https://imgur.com/l8HTpLS), [overload](https://imgur.com/BFp3mF7), [pyro swirl](https://imgur.com/HooDf8l), [cyro swirl](https://imgur.com/3KwFiLr), [electro swirl](https://imgur.com/ElVwEd6), [multi-target swirls](https://imgur.com/ocEzBjq)  
+Not Working:  
+[hydro swirl](https://imgur.com/Bqk9QQB), [single target swirl](https://imgur.com/IIXvCca), [aoe hydro swirl](https://imgur.com/Fa9YZgL), [shatter](https://imgur.com/vExbdig), [electro-charged](https://imgur.com/qnuieNX)  
+
+**Significance:**  
+Better understanding of Raiden's elemental skill.  
 
 ### Burst Mechanics  
 * Raiden's Elemental Burst restores flat energy to herself. - [CC\#5588](https://youtu.be/__PPdiQqMx4)  
@@ -53,8 +74,11 @@
 * Raiden's attacks during Elemental Burst, except for N5 can hit within Venti's vortex. - [LittleFox#0906](https://youtu.be/hQaK8AjIq7k) & [Sayline#5959](https://youtu.be/byDltFQ2X2I)  
 * Raiden's Resolve Stacks apply to each damage instance of her multi strings during Elemental burst (N4 & CA) - Reens#9389 & Greyhound#7836 [1](https://i.imgur.com/L4Ysc1f.png) [2](https://imgur.com/6bXq47R) [3](https://imgur.com/l9mGtEj) [4](https://imgur.com/0ADt5yQ)  
 
+## Constellation Mechanics
 
-## C2 defense ignore is multiplicative
+### C2: Steelbreaker
+
+#### C2 defense ignore is multiplicative
 
 **Added:** 09/11/2021  
 **By:** Javier#1000  
@@ -64,9 +88,33 @@
 Raiden's DEF ignore effect does not stack additively with other sources of DEF shred. Rather, they are multiplied. For example, if Klee shreds 23% DEF, then Raiden will ignore 60% of the shredded target's DEF, or `(1-60%) * (1-23%)`, or `0.4 * 0.77 = 0.308` for 69.2% DEF Shred, not 83% DEF Shred.  
 
 **Evidence:**  
+
 [Video](https://imgur.com/5mfhG33). Raiden 0 Resolve plus C2, deals 24070 on a crit, about matching up with the calculated value of 24086 (Genshin has rounding that cause damage diffs from calcs)  
+
 [Video](https://imgur.com/a/KKcAHJb). Raiden 2 Resolve stacks (from Klee) deals 10320 damage on a non-crit. If the two sources stacked additively, we would expect her to deal `1886.3 * (1+0.616) * (0.9) * ((100+59)/((100+59)+(100+85) * 0.17)) * 5.01 = 11475 damage`, which doesn't occur. However, multiplying the two sources of DEF shred, we would get `1886.3 * (1+0.616) * (0.9) * ((100+59)/((100+59)+(100+85) * 0.308)) * (5.01+0.0486 * 2) = 10315 damage`, which about matches up with the in-game value.
 
 **Significance:**  
 Better understanding of Raiden C2, less gain from stacking defense shred.  
+
+## Energy findings:
+
+### Raiden self energy recharge formula  
+
+**Added:** 09/28/2021  
+**By:** Sir_pick_the_prick#2209  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/883997943387029504/892422852458983474/transcript-raiden-minimum-er-formula.html)  
+
+**Finding:**  
+Formula that describes minimum ER% for Raiden to use elemental burst off cooldown.  
+
+**Evidence:**  
+Y = Raiden's total ER%  
+Z = Flat energy gained (NOT INCLUDING RAIDEN'S Q ENERGY)  
+W = talent level (THE NUMBER NOT VALUE, ex. 1-13)  
+X = energy gained (before ER calculations)  
+Formula:  
+Y = (87-0.2W-Z)/(X+4.5+0.3W)  
+
+**Significance:**  
+Calculating Raiden's self energy requirements.  
 

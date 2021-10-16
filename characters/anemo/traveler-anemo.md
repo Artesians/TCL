@@ -57,7 +57,6 @@ The Traveler consumes 20 stamina to unleash 2 rapid sword strikes.
 | Low Plunge DMG | 185.81% |
 | High Plunge DMG | 230.09% |
 
-If performing a Jump and coming into contact with certain enemies Aether can gain enough height to use a plunge attack.
 {% endtab %}
 
 {% tab title="Foreign Ironwind Aether" %}
@@ -92,7 +91,6 @@ The Traveler consumes 20 stamina to unleash 2 rapid sword strikes.
 | Low Plunge DMG | 185.81% |
 | High Plunge DMG | 230.09% |
 
-If performing a Jump and coming into contact with certain enemies Aether can gain enough height to use a plunge attack.
 {% endtab %}
 
 {% tab title="Palm Vortex" %}
@@ -131,6 +129,7 @@ If the **tornado** comes into contact with Hydro/Pyro/Cryo/Electro, it will deal
 | Energy Cost | 60 |  
 | Frames | 41 |  
 * Infusion priority: Cryo > Pyro > Hydro > Electro  
+
 {% endtab %}
 {% endtabs %}
 
@@ -155,7 +154,7 @@ The last hit of a Normal Attack combo unleashes a wind blade, dealing 60% of ATK
 {% tab title="Ascension 4" %}
 ### Second Wind
 
-Palm Vortex kills regenerate 2% HP for 5s. This effect can only occur once every 5s.
+**Palm Vortex** kills regenerate 2% HP for 5s. This effect can only occur once every 5s.
 {% endtab %}
 {% endtabs %}
 
@@ -165,7 +164,7 @@ Palm Vortex kills regenerate 2% HP for 5s. This effect can only occur once every
 {% tab title="C1" %}
 ### Raging Vortex
 
-Palm Vortex pulls in enemies within a 5m radius.
+**Palm Vortex** pulls in enemies within a 5m radius.
 {% endtab %}
 
 {% tab title="C2" %}
@@ -177,29 +176,30 @@ Increases Energy Recharge by 16%.
 {% tab title="C3" %}
 ### Sweeping Gust
 
-Increases the level of Gust Surge by 3.
+Increases the level of **Gust Surge** by 3.
 {% endtab %}
 
 {% tab title="C4" %}
 ### Cherishing Breezes
 
-Reduces DMG taken while casting Palm Vortex by 10%.
+Reduces DMG taken while casting **Palm Vortex** by 10%.
 {% endtab %}
 
 {% tab title="C5" %}
 ### Vortex Stellaris
 
-Increases the level of Palm Vortex by 3.
+Increases the level of **Palm Vortex** by 3.
 {% endtab %}
 
 {% tab title="C6" %}
 ### Intertwined Winds
 
-Targets who take DMG from Gust Surge have their Anemo RES decreased by 20%.
+Targets who take DMG from **Gust Surge** have their Anemo RES decreased by 20%.
 
 If an Elemental Absorption occurred, then their RES towards the corresponding Element is also decreased by 20%.
 
 * This effect lasts 10 seconds
+
 {% endtab %}
 {% endtabs %}
 
