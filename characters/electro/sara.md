@@ -71,7 +71,7 @@ Retreats rapidly with the speed of a tengu, summoning the protection of the Crow
 | ATK Bonus Duration | 6s         |
 | CD                 | 10s        |
 
-* **Tengu Stormcall** only buffs the on-field characters upon Crowfeather Explosion, this also applies to coop members.
+* **Tengu Stormcall** only buffs the on-field characters the frame before the Crowfeather Explosion, this also applies to coop members.
 * Triggering **Tengu Juurai: Ambush** doesn't require hitting an enemy, just a fully-charged aimed shot.
 * **Tengu Juurai: Ambush** DMG is snapshot upon **Tengu Stormcall** cast.
 * Sara does not lose the effects of **Crowfeather Cover** if swapped off.
@@ -127,7 +127,8 @@ While in the **Crowfeather Cover** state provided by **Tengu Stormcall**, Aimed 
 
 When **Tengu Juurai: Ambush** hits opponents, Kujou Sara will restore 1.2 Energy to all party members for every 100% Energy Recharge she has. This effect can be triggered once every 3s.
 
-* The weaker Crowfeather from C2 can also trigger this effect.
+* The weaker Crowfeather from C2 can also trigger this effect.  
+* The amount of Energy Sara restores with Decorum scales directly with her Energy Recharge. You do not need to hit 100% Energy Recharge increments to restore more Energy.
 
 {% endtab %}
 {% endtabs %}

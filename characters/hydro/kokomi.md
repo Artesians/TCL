@@ -82,7 +82,7 @@ Deals Hydro DMG to surrounding opponents and heal nearby active characters once 
 * **Bake-Kurage**'s range has a radius of ~2.5 tiles.
 * Kokomi is limited to one **Bake-Kurage** on-field at a time.
 * **Bake-Kurage** snapshots on **Kurage's Oath** cast and gets resnapshot upon **Nereid's Ascension** procing the duration refresh effect from her Ascension 1.
-* The damage bonus from **Ceremonial Garment** is a dynamic stat and thus does not get snapshot by **Bake-Kurage**.
+* In most cases, the damage bonus from **Ceremonial Garment** is a dynamic stat and thus does not get snapshot by **Bake-Kurage**. However, if Kokomi immediately switches after casting **Kurage's Oath**, the damage bonus from **Ceremonial Garment** is snapshot by **Bake-Kurage**.
 
 {% endtab %}
 
@@ -160,7 +160,7 @@ While donning the **Ceremonial Garment** created by **Nereid's Ascension**, the 
 
 While donning the **Ceremonial Garment** created by **Nereid's Ascension**, the final Normal Attack in Sangonomiya Kokomi's combo will unleash a **Swimming Fish** to deal 30% of her Max HP as Hydro DMG. This DMG is not considered Normal Attack DMG.
 
-* The **Swimming Fish** from **At Water's Edge** shares ICD with her NA string.
+* The **Swimming Fish** from **At Water's Edge** does not have ICD and isn't shared with her Normal Attack string.
 
 {% endtab %}
 

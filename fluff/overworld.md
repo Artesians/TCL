@@ -32,7 +32,8 @@
 
 ### Burning Grass
 
-Burning grass has standard ICD - 3 hits/2.5 seconds.  
+Overworld grass generally takes 2 units of pyro to ignite. However, some abilities do not interact with grass.\
+Burning grass has standard ICD - 3 hits/2.5 seconds. 
 
 ### Zone Levels:
 
@@ -45,14 +46,31 @@ Inazumuma(TBD)
 
 Elemental applications can be used to destroy or/and damage bushes. However not all elements are equal in this regard.
 
-## Other world maps  
+### Structures Aren't Considered Enemies
 
-The current world state & character position is saved between different world maps.  
+Structures do not count as "opponents" for the purposes of triggering abilities like Albedo's Elemental Skill.
 
 ## Coordinates
 
 * Coordinates from in-game could be translated into the Official Teyvat Interactive Map and vice versa for easier navigation.
 * Character coordinates change whenever the game state is not frozen (unpaused single player).
+
+### Other world maps  
+
+The current world state & character position is saved between different world maps.  
+
+## Revive Mechanics  
+
+* The game will revives the player's party at 35% Max HP when all party members die.
+* The revival happens at the closest Teleport Waypoint, Domain, or Statue of The Seven relative to where the last member died.
+* Drowning or falling into the void only removes 10% of Max HP during revival.
+
+## Chests
+
+### Treasure Compass Range
+
+* Treasure Compass detection depends on the chest rendering. Chest rendering suffers from an ItDepends™ .
+* Chest rendering seems to be square, off-set from chest, 360m x 360m for some while 180m x 180m for others.
 
 ## Evidence Vault
 

@@ -4,7 +4,7 @@
 
 {% page-ref page="../../../characters/hydro/kokomi.md" %}
 
-## Basic Mechanics
+## Basic Mechanics  
 
 ### Attack Attributes
 
@@ -63,4 +63,25 @@
 
 #### C1: At Water's Edge
 
-* Kokomi's C1 shares ICD with her NA string.
+* Kokomi's C1 has no ICD and isn't shared with her Normal Attacks - [Carrier5by5#8394](https://youtu.be/E9e3pPEuI1Q) and [Aetherpon#5730](https://www.youtube.com/watch?v=mHwAE58CZc8)  
+
+## Skill Mechanics
+
+### Snapshot Burst DMG Bonus onto Bake-Kurage by switching
+
+**By:** awe778#1618  
+**Added:** 10/16/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/891097097078730823/899138392359583824/transcript-kokomi-q-snapshot.html)  
+
+**Finding:**  
+Bake-Kurage can snapshot the DMG Bonus from Kokomi's Burst if Kokomi switches immediately after casting Kurage's Oath.
+
+**Evidence:**  
+Kokomi Burst -> Kokomi Skill -> immediate switch (snapshot successful): [Imgur](https://imgur.com/co0tAzR)  
+Kokomi Burst -> Kokomi Skill -> N1 into switch (snapshot successful): [Imgur](https://imgur.com/LJ6SZHY)  
+Kokomi Burst -> Kokomi Skill -> delayed switch (snapshot failed): [Imgur](https://imgur.com/M9zs1Yg)  
+Kokomi Skill at end of Burst mode vs. multiple enemies (snapshot successful): [Imgur](https://imgur.com/z8IHQIB)  
+Kokomi Skill at end of Burst mode vs. a single enemy (snapshot successful): [Imgur](https://imgur.com/OwBlUnT)  
+
+**Significance:**  
+This can potentially change Kokomi's Burst rotations due to the ability to snapshot and keep the Bake-Kurage DMG Bonus even after her Burst duration ends.

@@ -50,6 +50,7 @@ A fully charged shot will deal Cryo DMG.
 
 * Aimed Shot frame counts are done using M1 Spams.
 * Fully Charged frame counts are done using ARCC Shots.
+* Diona can cancel her dash early with Aim Toggle. Thus allows her to do quick Charged Attack while still retaining the ability to aim, unlike ARCC which cannot be aimed.
 
 **Plunge Attack**  
 Fire a shower of arrows from mid-air before falling striking the ground, dealing AoE DMG.
@@ -88,6 +89,7 @@ The shield’s DMG Absorption scales based on Diona’s Max HP, and its duration
 
 * In specific circumstances, Diona's shield will apply 2U of Cryo on swap.
   * For more details see the [full entry](../../evidence/characters/cryo/diona.md#bug-dionas-shield-is-2u-under-specific-circumstances-that-are-guaranteed-on-swap) in Diona's Evidence Vault.
+* Icy Paws will not generate a shield if they do not hit something. They will also despawn after a certain amount of time.
 * A deep-dive into how Icy paws work can be found [here](https://docs.google.com/document/d/1GZrscI-X_-CgzavXUbCeELrSumbAqlLqVkkJN1vWKwk/edit?usp=sharing)
 {% endtab %}
 
