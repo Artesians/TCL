@@ -46,6 +46,6 @@ Death: 1 common particle
 
 ## Attacks
 
-* Attempts to light up it's torch, infusing it with pyro. If failing to light it up (for reasons such as raining) it will continue attempting to.
-* Slowly closes in on the player, once in range, it will take a jab with it's torch.
+* Attempts to light up its' torch, infusing it with pyro. If failing to light it up (for reasons such as raining) it will continue attempting to.
+* Slowly closes in on the player, once in range, it will take a jab with its' torch.
 * Enters berserk rage, continously charing in the direction of the player while furiously swining his torch.
