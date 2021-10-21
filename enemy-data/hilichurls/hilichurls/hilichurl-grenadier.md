@@ -10,7 +10,12 @@ These sneaky fellows are skilled in the use of Pyro Slimes, using them as weapon
 
 ## Weakspot Details
 
-> todo
+Head.
+
+## Energy drops
+
+60% HP: 1 common particle  
+Death: 1 common particle  
 
 ## Resistance Table
 
