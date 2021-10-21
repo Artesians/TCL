@@ -367,3 +367,131 @@ When MM uses her teleport move, she will randomly teleport in front of the activ
 
 **Significance:**  
 Don't be an ape. Don't get hit by attacks with clear visual indication and clear 'tells'. Don't be greedy. MM in "weak" state deals significantly less damage and is much easier to control.
+
+### Escape Mirror Maiden trap
+
+**By:** gengar#8426  
+**Added:** 10/09/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/888324080648982558/896137220493299802/transcript-escape-mirror-maiden-trap.html)
+
+**Finding:**  
+Some characters and abilities can escape the Fatui mirror maiden's trap.
+
+- Albedo (elevator up, elevator despawn)
+- Ayaka (N5, alternate sprint)
+- Bennett (skill at charge level 2)
+- Fischl (burst)
+- Geo MC (climb pre-placed meteorite, meteorite despawn)
+- Hu Tao (charged attack, unique sprint)
+- Kaeya (N5)
+- Kazuha (skill)
+- Keqing (N5, skill recast)
+- Lisa (N3/N4 teleport)
+- Mona (N3, hold skill, alternate sprint)
+- Rosaria (charged attack, skill)
+- Sara (skill)
+- Sayu (hold skill)
+- Venti (hold skill)
+- Xiangling (charged attack)
+- Xiao (skill, enhanced jump during burst)
+- Zhongli (charged attack, climb pre-placed pillar, pillar despawn)
+- Overworld (climb object, get knocked out by enemy)
+
+**Evidence:**  
+All evidence uploaded to Imgur and listed here: [Spreadsheet](https://docs.google.com/spreadsheets/d/1HB2M6yAFfSy3IdP-qtsNmb5Gd5dTHWnXk-dfDa-PC90/edit?usp=sharing)
+
+**Significance:**  
+Helpful for Spiral Abyss floor 12
+
+## Azdaha
+
+### Azhdaha in his Tail Form has Two Independent Hitboxes
+
+**By:** ArchedNosi#1484  
+**Added:** 10/09/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/891904835862020127/896133877683351662/transcript-azhdaha-has-two-independent-hitboxes.html)
+
+**Finding:**  
+Azhdaha's Tail Form has Two Independent Hitboxes
+
+**Evidence:**  
+[Youtube](https://youtu.be/6_NpOfDYfIo)  
+C4 Lisa Ult, which has a large verticality, tags Two Hitboxes of Azhdaha during his Tail Phase, the Tail and, presumably, his Body underground, causing multiple damage values due to Lisa C4 allowing multiple entities to be tagged.
+
+**Significance:**  
+Abilities that have large verticality and the property of being able to tag multiple entities, notably Lisa C4 Lightning Rose, can expedite Azhdaha killtimes.
+
+## Geo Hypostasis  
+
+### Geo Traveler's E can break Geo Hypostasis Pillar  
+
+**By:** TarZ\#6365  
+**Added:** 17/10/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/897646550963093554/898812202541281320/transcript-geo-mc-boulder-can-break-pillar-and-cause-hammer-attack-to-occur-with-geo-hypostasis.html)  
+
+**Finding:**  
+Placing a boulder underneath the geo hypostasis at the start of the battle will cause the middle pillar to break. This then has a chance to cause the hypostasis to do a hammer attack on the player.  
+
+**Evidence:**  
+[Youtube](https://www.youtube.com/watch?v=DJdk_zOrl-Q&ab_channel=TarZBlammo)  
+
+**Significance:**  
+This speeds up the fight by making the Geo Hypostasis vulnerable, without having to spend extra effort to break the pillars. Keep in mind though that the vulnerability windows derived from using this method is shorter.
+
+
+## Corrosion
+
+### Corrosion damage mechanics
+
+**By:** Dooners#6709  
+**Added:** 10/17/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/898253461924249600/899178914545532958/transcript-corrosion-damage-mechanics.html)
+
+**Finding:**  
+Corrosion damage stacks are independent of each other, lasts for 10 seconds, deals 10 total ticks of damage, and are linearly dependent on your unit's max HP
+
+**Evidence:**  
+**Evidence 1:** Tests were done with the exact same units being inflicted with 1, 2, and 3 stacks of corrosion and the difference in health were recorded. Not all data points were recorded to reduce testing time, but the data points we do have shows that:  
+1. Each tick damage is constant for each character as long as no additional stacks are acquired when stacks already exist  
+2. Characters with higher HP take more tick damage  
+3. Tick damage is unrelated to current HP unless off-field and below the HP threshold in corrosion description  
+4. Proportionally, characters with lower max hp lose more % of their max hp per second  
+5. Tick damage is additive based on stacks, for example the tick damage from 3 stacks is 3 times the amount of the damage from 1 stack  
+
+Raw data is attached as an excel file and videos are included below:  
+[Imgur](https://i.imgur.com/Z5calgE.gifv)  
+[Imgur](https://i.imgur.com/2I54yBP.gifv)  
+[Imgur](https://i.imgur.com/DFchs8Z.gifv)  
+[Imgur](https://i.imgur.com/HOOT8a0.gifv)  
+[Imgur](https://i.imgur.com/GSObOxQ.gifv)  
+
+Corrosion DMG Calc: [Spreadsheet](https://docs.google.com/spreadsheets/d/1MwTJoMBaK2zowbJtAkoFFYo-i2S4J43ItY30AF6Qk58)
+
+**Evidence 2:** Since tick damage has been established as constant, I've included data from @Lindon and transcribed max hp vs tick damage into a table (attached). These values were used in a linear regression using the following R code:
+```R
+require(dplyr)
+require(ggplot2)
+
+data = read.table(file = "tick_damage.tsv", header = TRUE)
+summary(lm(tick_damage ~ max_hp, data = data))
+ggplot(data, aes(x = max_hp, y = tick_damage)) + geom_point() + theme_bw()
+```
+
+This produces a linear equation of `tick_damage = 75.09 + 0.004993 * max_hp`
+
+Decimal points here are likely due to rounding issues, since there can be a variation of 1 HP in the corrosion ticks. Rounded to a reasonable number, the equation will instead be `tick_damage = 75 + 0.005 * max_hp` or 75 + 0.5% max hp
+
+Tick DMG: [Spreadsheet](https://docs.google.com/spreadsheets/d/1jsALb7bEzAqzaZ_AZ2S3ZdLjlVCeo-e1009kmZWn7V8)
+
+**Significance:**  
+Proves that max HP is the only variable that determines the amount of damage you take from each tick of corrosion, and that tick damage from corrosion stacks is completely independent of each other. Characters with higher HP will take more damage overall, while characters with lower max HP take lower tick damage but loses a higher proportion of their health.
+
+Bonus: Predicted HP loss per stack based on character max hp using the equation above  
+1k HP -> 800hp/stack  
+5k HP -> 1000hp/stack  
+10k HP -> 1250hp/stack  
+20k HP -> 1750hp/stack  
+30k HP -> 2250hp/stack  
+50k HP -> 3250hp/stack  
+
+These values are total loss per stack, for damage per tick simply divide each number by 10. 

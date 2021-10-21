@@ -6,8 +6,9 @@
 
 ## Newsletter
 
-* [Patch 2.1a](newsletter/patch-2.1a.md)
+* [Patch 2.1b](newsletter/patch-2.1b.md)
 * [Archive](newsletter/archive/README.md)
+  * [Patch 2.1a](newsletter/archive/patch-2.1a.md)
   * [Patch 2.0b](newsletter/archive/patch-2.0b.md)
   * [Patch 2.0a](newsletter/archive/patch-2.0a.md)
   * [Patch 1.6b](newsletter/archive/patch-1.6b.md)
@@ -83,6 +84,7 @@
   * [Shields](mechanics/combat/shields.md)
   * [Tech](mechanics/combat/tech/README.md)
     * [ARCC](mechanics/combat/tech/arcc.md)
+    * [Collision Cancel](mechanics/combat/tech/collision-cancel.md)
     * [Glide Cancel](mechanics/combat/tech/glide-cancel.md)
     * [Plunge](mechanics/combat/tech/plunge-tech.md)
     * [Zoom Cancel](mechanics/combat/tech/zoom-cancel.md)
@@ -314,6 +316,7 @@
       * [Shields](evidence/mechanics/combat/shields.md)
       * [Tech](evidence/mechanics/combat/tech/README.md)
         * [ARCC](evidence/mechanics/combat/tech/arcc.md)
+        * [Collision Cancel](evidence/mechanics/combat/tech/collision-cancel.md)
         * [Glide Cancel](evidence/mechanics/combat/tech/glide-cancel.md)
         * [Plunge](evidence/mechanics/combat/tech/plunge.md)
         * [Zoom Cancel](evidence/mechanics/combat/tech/zoom-cancel.md)
