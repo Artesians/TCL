@@ -111,6 +111,7 @@ Electro Slimes can undergo mutations to become bright yellow. Due to the abundan
 ## Attacks
 * Bump into the target, dealing electro damage.  
 * Jump high into the air, then land at the player's location after a short delay, stomping on the landing spot.
+* Creates a small field of electricity around the player.
 
 {% endtab %}
 
