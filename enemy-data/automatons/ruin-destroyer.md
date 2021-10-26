@@ -14,9 +14,11 @@ Core inside the head. For unknown reasons this core counts as a weakspot but wil
 
 ## Energy drops
 
-66% HP: 1 common particle  
-33% HP: 1 common particle  
-Death: 1 common particle  
+| HP Threshold | Type | Element |
+| :--- | :--- | :--- |
+| 66% HP | 1 particle | Common | 
+| 33% HP | 1 particle | Common |
+| Death | 1 particle | Common | 
 
 ## Resistance Table
 
