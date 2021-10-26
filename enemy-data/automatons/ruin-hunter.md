@@ -14,10 +14,12 @@ While in Bombardment Mode (Flying), the core inside him will be exposed. For unk
 
 ## Energy drops
 
-75% HP: 1 common particle + 1 common orb  
-50% HP: 1 common particle + 1 common orb  
-25% HP: 1 common particle + 1 common orb  
-Death: 1 common orb  
+| HP Threshold | Type | Element |
+| :--- | :--- | :--- |
+| 75% HP | 1 particle+1orb | common   
+| 50% HP | 1 particle+1orb | common   
+| 25% HP | 1 particle+1orb | common  
+| Death | 1 orb | common | 
 
 ## Resistance Table
 
