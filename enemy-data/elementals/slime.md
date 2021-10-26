@@ -12,8 +12,10 @@ No weakspot.
 
 ## Energy drops
 
-60% HP: 1 elemental particle  
-Death: 1 elemental particle  
+| HP Threshold | Type | Element |
+| :--- | :--- | :--- |
+| 60% HP | 1 particle |  Own element |
+| Death | 1 particle | Own element |
 
 ## Resistance Table
 All slimes are immune to their respective element.
