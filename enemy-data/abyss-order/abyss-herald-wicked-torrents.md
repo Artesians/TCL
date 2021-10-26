@@ -14,9 +14,11 @@ Head.
 
 ## Energy drops
 
-66% HP: 1 elemental orb  
-33% HP: 1 elemental orb  
-Death: 1 elemental particle  
+| HP Threshold | Type | Element |
+| :--- | :--- | :--- |
+| 66% HP | 1 orb | Hydro |  
+| 33% HP | 1 orb | Hydro |
+| Death | 1 particle | Hydro | 
 
 ## Shield 
 
