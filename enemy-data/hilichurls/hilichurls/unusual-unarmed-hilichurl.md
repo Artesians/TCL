@@ -10,7 +10,14 @@ description: "Homu, homu, mimi domu!".
 
 ## Weakspot Details
 
-> todo
+Head.
+
+## Energy drops
+
+| HP Threshold | Type | Element |
+| :--- | :--- | :--- |
+| 60% HP | 1 particle |  common |
+| Death | 1 particle | common | 
 
 ## Resistance Table
 
