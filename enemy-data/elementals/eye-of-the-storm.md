@@ -16,9 +16,11 @@ No weakspot.
 
 ## Energy Drops  
 
-66% HP: 1 elemental orb  
-33% HP: 1 elemental orb  
-Death: 1 elemental orb  
+| HP Threshold | Type | Element |
+| :--- | :--- | :--- |
+| 66% HP | 1 orb | Anemo | 
+| 33% HP | 1 orb | Anemo | 
+| Death | 1 orb | Anemo |
 
 ## Resistance Table
 
