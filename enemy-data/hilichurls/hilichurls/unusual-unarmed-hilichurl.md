@@ -48,3 +48,6 @@ Head.
 
 ## Attacks
 
+* Swings at the player using either its' claws or suitcase.
+* Rummages through its' suitcase, then throws projectiles at the player that look like primogems and cabbage.
+* Rummages through its' suitcase, then throws a doll at the player that will explode on impact into confetti, dealing AOE damage.
