@@ -14,8 +14,10 @@ Head.
 
 ## Energy drops
 
-60% HP: 1 common particle  
-Death: 1 common particle  
+| HP Threshold | Type | Element |
+| :--- | :--- | :--- |
+| 60% HP | 1 particle |  common |
+| Death | 1 particle | common | 
 
 ## Resistance Table
 
