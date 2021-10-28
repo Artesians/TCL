@@ -14,7 +14,7 @@ When you have a full party, you will receive bonus effects, known as Elemental R
 | Enduring Rock | 2 Geo | Increases shield strength by 15%. Additionally, characters protected by a shield will have the following special characteristics: DMG dealt increased by 15%, dealing DMG to enemies will decrease their Geo RES by 20% for 15s. |
 | Protective Canopy | Any 4 Unique Elements | All Elemental RES +15%, Physical RES +15%. |
 
-## Trial Character Resonance
+## Trial Character Resonances
 
 All Trial Characters in Story Quests and Hangouts do not contribute to or benefit from the party's Elemental Resonances.
 
