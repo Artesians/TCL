@@ -1,6 +1,6 @@
 # Elemental Resonance  
 
-## Trial Character Resonance
+## Trial Character Resonances
 
 **By:** Veggie#0581  
 **Added:** 10/28/2021  
