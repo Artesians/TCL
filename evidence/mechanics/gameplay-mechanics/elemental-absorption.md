@@ -89,7 +89,7 @@ Understanding how elemental infusion operates allows for more extensive use of t
 
 ## Absorption Aura Check Inflicts Self Damage
 
-**By:** Nass008\#8577, CQLQRS\#7853, Sayline\#5959, vinsette\#0293, NZPIEFACE\#8439, Aluminum\#5462, Adra | Beats by Ei\#0024, Greyhound\#7836, elijam\#7142, Kourinn\#6001  
+**By:** Nass008\#8577, CQLQRS\#7853, Sayline\#5959
 **Added:** 10/28/2021  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/902503398396538891/903470600062902332/transcript-absorption-aura-check-count-as-self-dmg.html)
 
