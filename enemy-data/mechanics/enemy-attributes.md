@@ -2,7 +2,7 @@
 
 ## Monster Skill Effects
 
-**By:** Steno\#6940 and Yurina Maekawa#6585  
+**By:** Steno\#6940 and Yurina Maekawa#6585  Cancel changes
 See [Evidence Vault](../../evidence/enemy-data/enemy-attributes.md#in-depth-look-at-monster-skill-effects-in-domains-abyss) for Videos, as well as [Discharge Aura Data](../../evidence/enemy-data/enemy-attributes.md#black-aura-data) for more details.
 
 These are the damaging effects that are tied to specific enemies within domains/abyss. As of patch 2.2, there are 7 of these effects, tied to one or multiple elements in the game. Below is a table from the [Genshin Wiki](https://genshin-impact.fandom.com/wiki/Auras) that details the effects:
@@ -25,7 +25,7 @@ However, damage from monster skill effects is affected by character resistance a
 
 Monster skill effects can be taunted. In general, these skill effects target the same thing that the corresponding monster is also targeting. In some cases the target will "snapshot" \(i.e. if the monster changes its target during the effect, the effect will not update\) and in other cases it will not. This mechanic will require further testing, it seems to be inconsistent as of now.
 
-**Discharge** (also known as Black Aura) is an aura that appears around certain enemies. The aura was introduce in Patch 2.0 and it was the first aura to be tied to more than one element. While it is active, a Black Aura will apply the enemy's element in question to the players in-range, dealing elemental DMG.
+**Discharge** (also known as Black Aura) is an aura that appears around certain enemies. The aura was introduced in Patch 2.0 and it was the first aura to be tied to more than one element. While it is active, a Black Aura will apply the enemy's element in question to the players in-range, dealing elemental DMG.
 
 ## Mist Bubble
 
