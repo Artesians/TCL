@@ -50,7 +50,7 @@ Face.
 
 ## Attacks
 
-* Uses a large geo hand shield. The shield can be destroyed using geo or blunt attacks, or dealing enough damage to it.
+* Uses a large geo hand shield. The shield can be destroyed using geo or blunt attacks, or dealing enough damage to it. If the shield is left undamaged for a short while, it will slowly regenerate its' health.
 * Charges in a set direction until colliding with the player or a solid structure.
 * Blocks attacks in the way of its' shields. Attacks from the side and back can still go through. If the shield is destroyed, it will be unable to perform this attack.
 * If the player character strays too close, it can deliver a punch.
