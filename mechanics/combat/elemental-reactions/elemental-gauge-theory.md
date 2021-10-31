@@ -69,6 +69,8 @@ Additional applications of the aura element will apply their own respective gaug
 * **Red** = B decay rate
 * **Green** = A decay rate
 
+Also see a much better graph by Kourinn\#6001 [Google Sheet](https://docs.google.com/spreadsheets/d/1VDOg9eRh7075T5x1kK5tKtiB9E6eFcA07USqPXfc2lo/edit#gid=601754041)
+
 ## Overload and Superconduct
 
 These transformative reactions have a 1x modifier (effectively no modifier).
