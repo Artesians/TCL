@@ -22,7 +22,7 @@ For Diona, who's charged shot ICD is higher than the time it takes to fire a sec
 ### Diona Dash Aim Cancel
 
 **By:** BowTae#0141  
-**Added:** 11/17/2021
+**Added:** 10/17/2021
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/895937565956378625/899199225462657064/transcript-diona-dash-aim-cancel.html)
 
 **Finding:**  
