@@ -91,6 +91,7 @@ Beidou creates a **Thunderbeast's Targe** around herself, dealing Electro DMG to
 * When Normal and Charged Attacks hit, they create a lightning **discharge** that can jump between opponents, dealing Electro DMG.
 * Increases active character’s resistance to interruption and decreases DMG taken.
 * A maximum of 1 lightning **discharge** can be triggered per second.
+* Lightning discharge can bounce off Mitachurl Shields but will deal no damage.
 * Snapshot on cast.
   * However, if you swap to Beidou and cast her Burst too quick (Left Alt + Switch Character), her Lightning DMG might fail to snapshot certain buffs.
 
@@ -181,7 +182,7 @@ Within 10s of taking DMG, Beidou’s Normal Attacks and Charged Attacks gain 20%
 | Stunning Revenge | 1A |
 
 * Use N2 cancels to maximize Electro DMG.
-* Beidou’s C4 damage instance is considered skill damage. 
+* C4 DMG instance has no ability type scaling tags. 
 * C4 can be activated by certain teammate's hit, i.e., Kujou Sara's Tengou Juurai.
 * C4 is activated on hit, regardless taking damage or not. So it can be activated through shields, either her own or allies'.
 

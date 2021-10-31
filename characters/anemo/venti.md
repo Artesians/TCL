@@ -74,6 +74,7 @@ Summons a larger **Wind Domain** at Venti's location, dealing AoE Anemo DMG and 
 | Hold | 532% | 15s | 70 | 2U | 4 \(-\) |
 
 * Doing an auto attack as soon as possible after using the press version of **Skyward Sonnet** allows the user to swap to a different character faster.
+* Venti can shorten the starting animation of the press version of **Skyward Sonnet** by holding Elemental Skill for 9 frames, which starts the animation for the hold version of **Skyward Sonnet**, and then releasing, which cancels the hold version into a press version of **Skyward Sonnett**. This allows Venti to perform an action immediately after. In total, the **Skyward Sonnet** cast can be cancelled to be only 10 frames.
 
 {% endtab %}
 
