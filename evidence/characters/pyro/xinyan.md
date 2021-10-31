@@ -28,7 +28,7 @@ The most common amount of additional pulses is 2, between 30 and 60 FPS. Lower f
 At 60 FPS, without prior shield, it has extra pulses: [YouTube](https://www.youtube.com/watch?v=TlIXuNzeqzo)  
 At 60 FPS, with prior Lv1/2 shield, it has extra pulses: [YouTube](https://www.youtube.com/watch?v=VGpt3l8PTF4)  
 At 60 FPS, with prior Lv3 shield, it has extra pulses: [YouTube](https://www.youtube.com/watch?v=ZnjFrjQcct4)  
-At 60 FPS it pulses 3 times during her Burst: [YouTube](https://www.youtube.com/watch?v=tZcOfUPlFxo)  
+At 60 FPS, it pulses 3 times during her Burst: [YouTube](https://www.youtube.com/watch?v=tZcOfUPlFxo)  
 At 30 FPS, it pulses once during her Burst: [YouTube](https://www.youtube.com/watch?v=dFddHesfwZQ)  
 At 30 FPS, it may pulse twice during her burst: [YouTube](https://youtu.be/RfAgpS-mD2U)  
 Further evidence showing FPS is not the only deciding factor (15 FPS, usually pulses once, rarely pulses twice): [YouTube](https://www.youtube.com/watch?v=F1oQq3SZfDg)  
