@@ -81,6 +81,8 @@ If the Trigger Gauge is greater than the Aura Gauge, a reaction will still occur
 
 > Fischl’s charged shot applies 0.8A Electro aura and is triggered by Kaeya’s E, applying 2B Cryo. Superconduct occurs, and no aura is left behind as triggers can only remove units, they can’t add aura/gauge.
 
+The AOE of these reactions have zero elemental gauge.
+
 ## Freeze
 
 Once freeze is triggered, an enemy will be afflicted by a **frozen aura**. Reactions with frozen are equivalent to those with cryo, though the gauge of a frozen aura is often significantly higher. In addition, cryo and hydro may exist alongside the frozen aura. Removing the frozen aura, either through melt or shatter, will also remove frozen and expose the **coexisting** cryo/hydro aura, allowing any elemental sources to react with cryo/hydro. Even while the cryo/hydro aura is hidden under the frozen aura, it will continue to decay as normal.
@@ -134,19 +136,25 @@ Geo and Anemo can only be used as the trigger for crystallize and swirl reaction
 
 > Using a 1GU Geo trigger on a 0.8A Electro aura will result in Crystallize, subtracting 0.5GU and leaving 0.3A of Electro aura.
 
+Unlike other transformative reactions which have an AOE, the AOE of swirl has a non-zero gauge, which shall be explored in the following
+section.
+
 ## Swirl Application
 
-Swirl application occurs when an elemental source applied to an enemy through the use of swirl spreading an element. Swirled Auras have their own unique decay notation that only applies to them, a few examples which can be seen in this table here:
+Swirl application occurs when an elemental source applied to an enemy through the use of swirl spreading an element. This may trigger additional reactions and or apply an aura following the same rules as any other elemental source. Notably, tax is applied to any swirl application that becomes an aura.
 
-| TABLE |
-| :--- |
-| HERE |
+The gauge amount and decay rate of the swirl application depend on both the aura of the entity on which swirl triggered as well as the gauge of the anemo trigger. The specifics are beyond the scope of this document and may be found in the advanced guide. A few basic examples may be seen in the table here:
 
-The units of the swirl application depend on both the aura of the entity on which swirl triggered as well as the gauge of the anemo trigger. The specifics are beyond the scope of this document and may be found in the advanced guide.
+
+| Elemental Gauge of Aura | Anemo Gauge | Gauge of Swirl | Aura Applied After Tax | Decay Rate Conversion |
+| :--- | :--- | :--- | :--- | :--- |
+| 0.8U | 1U | 2.2U | 1.76U | ~7.10227s per U |
+| 0.8U | 2U | 1.95U | 1.56U | ~7.61218s per U |
+| 1.6U | 2U | 3.45U | 2.76U | ~5.66123s per U |
 
 Like all other applied auras, you can extend the duration of a swirled aura by already having an aura of the same element on an enemy.
 
-> EXTENSION EXAMPLE HERE
+Barbara attacks an enemy and applies 1A Hydro. Venti's E (2GU Anemo) swirls a hydro abyss mage, spreading 3.45U Hydro to the enemy with 1A Hydro. Now, after that enemy has 2.76A hydro, which will last a maximum of 32.775s.
 
 ## Electro-Charged
 
@@ -157,6 +165,8 @@ EC is triggered when an enemy with a Hydro or Electro aura has the other aura ap
 > When either the Electro or Hydro gauge completely decays, the next EC tick will prematurely occur at the moment when the gauge is completely decayed. However, if one of the gauges empties within 0.5s of the last EC tick, there will not be another tick of EC.
 
 Each tick of EC **consumes 0.4GU from both gauges**. Once a gauge is empty, the element will disappear from the enemy’s status, but the other element will remain available to further reactions.
+
+AOE ticks of Electro-Charged have zero gauge.
 
 ## Self Aura
 
