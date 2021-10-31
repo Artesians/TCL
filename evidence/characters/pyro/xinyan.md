@@ -32,7 +32,7 @@ At 60 FPS it pulses 3 times during her Burst: [YouTube](https://www.youtube.com/
 At 30 FPS, it pulses once during her Burst: [YouTube](https://www.youtube.com/watch?v=dFddHesfwZQ)  
 At 30 FPS, it may pulse twice during her burst: [YouTube](https://youtu.be/RfAgpS-mD2U)  
 Further evidence showing FPS is not the only deciding factor (15 FPS, usually pulses once, rarely pulses twice): [YouTube](https://www.youtube.com/watch?v=F1oQq3SZfDg)  
-Further evidence showing one pulse with cryo shield melts at 30fps: [YouTube](https://www.youtube.com/watch?v=dUnJg6940ws)  
-Further evidence showing three pulses with cryo shield melts at 60fps: [YouTube](https://www.youtube.com/watch?v=cYc0MLsZh-Y)
+Further evidence showing one pulse causing one cryo shield melt at 30fps: [YouTube](https://www.youtube.com/watch?v=dUnJg6940ws)  
+Further evidence showing three pulses causing three cryo shield melts at 60fps: [YouTube](https://www.youtube.com/watch?v=cYc0MLsZh-Y)
 
 **Significance:** This causes Xinyan's Q to deal a tiny bit more damage than expected at C2, and thanks to her shield pulses not having an ICD, may allow players that are able to play at a higher frame-rate to overtake other elemental auras more easily. For calculations, 2 pulses should be assumed as that is the most common. Additionally, this shows that differences in frame rate can have an effect on individual skills, which may warrant further investigation. 
