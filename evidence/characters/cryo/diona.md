@@ -179,7 +179,7 @@ Diona's Burst does not heal when the Burst AoE is far below the character: [YouT
 Diona's Burst does not heal when Burst AoE is above the character, unlike Bennett's Burst: [YouTube](https://youtu.be/EZzy92RlDKQ)  
 Diona's Burst does heal above its visual AoE within a vertical range slightly shorter than the height of the Shrines of Depths: [YouTube](https://youtu.be/CcBbVWLWMXA)  
 Diona's Burst does heal below its visual AoE within a small vertical range: [YouTube](https://youtu.be/czZ_QRqK4O4)  
-Diona's Burst may not heal Xiao in his Burst because his jumping height is higher than Diona's Burst vertical range: [imgur](https://imgur.com/Fkow2LI)
+Diona's Burst may not heal Xiao in his Burst because his jumping height is higher than Diona's Burst vertical range: [Imgur](https://imgur.com/Fkow2LI)
 
 **Significance:**  
 Diona's Burst healing has a limited range in contrast to all other known healing fields that have infinite vertical range.  
