@@ -232,10 +232,7 @@
   * [Geovishaps](enemy-data/mystical-beasts/geovishaps/README.md)
     * [Hatchling](enemy-data/mystical-beasts/geovishaps/geovishap-hatchling.md)
     * [Adult Geovishap](enemy-data/mystical-beasts/geovishaps/geovishap.md)
-  * [Whopperflowers](enemy-data/mystical-beasts/whopperflowers/README.md)
-    * [Cryo Whopperflower](enemy-data/mystical-beasts/whopperflowers/cryo-whopperflower.md)
-    * [Electro Whopperflower](enemy-data/mystical-beasts/whopperflowers/electro-whopperflower.md)
-    * [Pyro Whopperflower](enemy-data/mystical-beasts/whopperflowers/pyro-whopperflower.md)
+  * [Whopperflowers](enemy-data/mystical-beasts/whopperflowers.md)
 
 ---
 
