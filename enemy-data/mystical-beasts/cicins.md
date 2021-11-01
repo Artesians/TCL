@@ -17,6 +17,7 @@ None.
 
 ## Resistance Table
 
+All Cicins have +40% (50% total) resistance to their own element.
 | Damage Type | Resistance |
 | :--- | :--- |
 | Physical | -50% |
