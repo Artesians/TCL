@@ -71,6 +71,8 @@ Additional applications of the aura element will apply their own respective gaug
 
 Also see a much better graph by Kourinn\#6001 [Google Sheet](https://docs.google.com/spreadsheets/d/1VDOg9eRh7075T5x1kK5tKtiB9E6eFcA07USqPXfc2lo/edit#gid=601754041)
 
+Something to note is that without extending auras, the total duration of an aura applied to the enemy is equivalent to 2.5 times the gauge of the elemental source in GU plus 7 seconds. This alongside the post-tax gauge may be used to calculate the decay rate. The letter notation makes it easier to refer to a few standard decay rates.
+
 ## Overload and Superconduct
 
 These transformative reactions have a 1x modifier (effectively no modifier).
@@ -143,20 +145,22 @@ section.
 
 ## Swirl Application
 
-Swirl application occurs when an elemental source applied to an enemy through the use of swirl spreading an element. This may trigger additional reactions and or apply an aura following the same rules as any other elemental source. Notably, tax is applied to any swirl application that becomes an aura.
+Swirl application occurs when an elemental source is applied to an enemy through the use of swirl spreading an element. This may trigger additional reactions and or apply an aura following the same rules as any other elemental source. Notably, tax is applied to any swirl application that becomes an aura.
 
 The gauge amount and decay rate of the swirl application depend on both the aura of the entity on which swirl triggered as well as the gauge of the anemo trigger. The specifics are beyond the scope of this document and may be found in the advanced guide. A few basic examples may be seen in the table here:
 
 
 | Elemental Gauge of Aura | Anemo Gauge | Gauge of Swirl | Aura Applied After Tax | Decay Rate Conversion |
 | :--- | :--- | :--- | :--- | :--- |
-| 0.8U | 1U | 2.2U | 1.76U | ~7.10227s per U |
-| 0.8U | 2U | 1.95U | 1.56U | ~7.61218s per U |
-| 1.6U | 2U | 3.45U | 2.76U | ~5.66123s per U |
+| 0.8GU | 1GU | 2.2GU | 1.76GU | ~7.10227s per GU |
+| 0.8GU | 2GU | 1.95GU | 1.56GU | ~7.61218s per GU |
+| 1.6GU | 2GU | 3.45GU | 2.76GU | ~5.66123s per GU |
+
+We have dropped the usage of unique letter notation to represent the decay rate of auras applied by swirl, due to their non-standard gauge (and thus decay) values.
 
 Like all other applied auras, you can extend the duration of a swirled aura by already having an aura of the same element on an enemy.
 
-Barbara attacks an enemy and applies 1A Hydro. Venti's E (2GU Anemo) swirls a hydro abyss mage, spreading 3.45U Hydro to the enemy with 1A Hydro. Now, after that enemy has 2.76A hydro, which will last a maximum of 32.775s.
+Barbara attacks an enemy and applies 1A Hydro. Venti's E (2GU Anemo) swirls a hydro abyss mage, spreading 3.45GU Hydro to the enemy with 1A Hydro. Now, after that enemy has 2.76A hydro, which will last a maximum of 32.775s.
 
 ## Electro-Charged
 
