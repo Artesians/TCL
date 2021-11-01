@@ -139,7 +139,7 @@ Upon scoring a CRIT hit, increases ATK SPD of Xinyan's Normal and Charged Attack
 Riff Revolution Physical DMG has its Crit rate increased by 100%, and will form a shield at Shield Level 3: Rave when cast.
 
 * The shield created can proc Sacrificial Greatsword's passive
-* The Rave shield creation may trigger extra pulses of Pyro DMG to nearby opponents. The count of extra pulses is strongly correlated to client frame rate.
+* The shield created may trigger extra pulses of Pyro DMG to nearby opponents. The number of extra pulses depends on the client's frame rate.
 {% endtab %}
 
 {% tab title="C3" %}
