@@ -16,6 +16,7 @@ Face.
 
 # Resistance Table
 
+All samachurls have +40% (50% total) resistance to their own element.
 | Damage Type | Resistance |
 | :--- | :--- |
 | Physical | 10% |
@@ -23,7 +24,7 @@ Face.
 | Dendro | 10% |
 | Hydro | 10% |
 | Electro | 10% |
-| Anemo | 50% |
+| Anemo | 10% |
 | Cryo | 10% |
 | Geo | 10% |
 
