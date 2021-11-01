@@ -50,7 +50,7 @@ All resistances +100% additive increase while armored.
 
 ## Attacks
 
-* Infues itself with an electro armor, gaining great resistance and empowering certain attacks.
+* Infues itself with an electro armor, gaining great resistance and empowering certain attacks. The armor will have its' resistance against most elements increased, but has a great weakness to cryo elemental application.
 * Charges up for a medium interval, then smashes its' hammer into the ground.
   * While armored: the smash creates a shock in a medium radius around it.
 * Upwards swings its' hammer, into a follow up attack of smashing it in the ground, and after a short delay a wide swing.
