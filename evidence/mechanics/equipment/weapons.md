@@ -241,7 +241,7 @@ If crit didn't "snapshot" and instead was calculated one by one, then after the 
 In the above tests, not a single event of non-crit has been observed which allows us with a reasonable amount of confidence claim that AoE abilities do "snapshot" crit rate.
 
 **Significance:** For Royal weapons it means that they can potentially have an increased efficiency given a right rotation. Although you can't gain multiple stacks with an AoE ability, what you can do is take advantage of the stacks you already gained through single target attacks. Damage dealt to all targets is guaranteed to have an increased constant crit rate, although it requires further analysis whether it actually yields better efficient crit rate or not for different rotations and combinations of base crit rate and Royal refinements.
-One particular charcter that could take advantage of this that comes to mind is Yanfei since her typical attack pattern consists of 2-3 single target attacks followed by an AoE attack (which coincidentally cares about critting).
+One particular character that could take advantage of this that comes to mind is Yanfei since her typical attack pattern consists of 2-3 single target attacks followed by an AoE attack (which coincidentally cares about critting).
 
 **Finding:** Mechanics of Royal weapon stacks:
 
