@@ -236,7 +236,7 @@ This also raises the question of other royal weapon use cases with off screen DP
 
 **Finding:** AoE abilities do "snapshot" crit rate.
 
-**Evidence:** https://youtu.be/cUd-kFqAOSU and https://youtu.be/eJijOEJs4L0 The tests were conducted as follows: gain 5 stacks of a Royal weapon, exit combat and then raise crit rate up to >100%. Then use an AoE ability and counter the number of non-crits.
+**Evidence:** [https://youtu.be/cUd-kFqAOSU](https://youtu.be/cUd-kFqAOSU) and [https://youtu.be/eJijOEJs4L0](https://youtu.be/eJijOEJs4L0) The tests were conducted as follows: gain 5 stacks of a Royal weapon, exit combat and then raise crit rate up to >100%. Then use an AoE ability and counter the number of non-crits.
 If crit didn't "snapshot" and instead was calculated one by one, then after the first crit the crit rate would drop to ~60% due to losing 5 stacks of a R1 Royal weapon and the 2nd instanse of damage would have a reasonable chance to not crit.
 In the above tests, not a single event of non-crit has been observed which allows us with a reasonable amount of confidence claim that AoE abilities do "snapshot" crit rate.
 
@@ -259,14 +259,14 @@ For an AoE ability, damage instances dealt by the ability, including damage deal
 Stacks can be gained when the character equipped with the Royal weapon is off-field. 
 
 **Evidence:** 
-1) Sucrose's quick N1-N2 gaining 1 stack instead of 2 and multiple evidence of an AoE ability gaining no more than 1 stack when it non-crits multiple times.
-https://youtu.be/PrXV4em0ssc
+1) Sucrose's quick N1-N2 gaining 1 stack instead of 2 and multiple evidence of an AoE ability gaining no more than 1 stack when it non-crits multiple times. 
+[https://youtu.be/PrXV4em0ssc](https://youtu.be/PrXV4em0ssc)  
 2) After a single-target ability crits and causes a Swirl, the number of stacks is reset to 1 instead of 0 implying that damage from a Swirl is taken into account and is considered as non-crit. 
-https://youtu.be/mTEGm35iLmI
+[https://youtu.be/mTEGm35iLmI](https://youtu.be/mTEGm35iLmI)  
 3) Superconduct and Swirl chain reactions 
-https://youtu.be/hWfeeU6b9tM
-4) Overload and Electro-charged
-https://youtu.be/PrXV4em0ssc
+[https://youtu.be/hWfeeU6b9tM](https://youtu.be/hWfeeU6b9tM)  
+4) Overload and Electro-charged 
+[https://youtu.be/PrXV4em0ssc](https://youtu.be/PrXV4em0ssc)  
 
 **Significance:** Royal weapons have an increased efficiency in situations when the holder triggers Overload, Swirl or Superconduct due to the fact that they can potentially always have at least 1 stack.
 
