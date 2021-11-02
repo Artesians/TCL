@@ -2,7 +2,10 @@
 
 Snapshot and Dynamic are properties assigned to skills and bursts that last over time. Most summons in the game snapshot, dynamic skills are the exception, and if they aren't listed in the Dynamic Skills section, they can be assumed to snapshot.
 
-Summons that **snapshot** use the character's stats when cast, and will continue to use those stats regardless of buffs gained or lost in that timeframe. However there are certain buffs that that do not get snapshotted and thus can still effect the damage output after a snapshotting skill/burst is cast, such as 4pc [Blizzard Strayer](../equipment/artifacts.md#blizzard-strayer) passive.
+Summons that **snapshot** use the character's stats when cast, and will continue to use those stats regardless of buffs gained or lost in that timeframe. However there are certain buffs that that do not get snapshotted and thus can still effect the damage output after a snapshotting skill/burst is cast, such as 4pc [Blizzard Strayer](../equipment/artifacts.md#blizzard-strayer) passive.  
+In general, stats that are **not** in a Character's "Details" page **do not snapshot**.
+
+Healing effects also snapshot based on the user's stats at the time of activation.
 
 **Dynamic** summons continuously update based on the character's stats in real time.
 
@@ -23,6 +26,7 @@ Transformative reactions include: overload, superconduct, electro-charged, shatt
 * Tartaglia's [Riptide](../../characters/hydro/tartaglia.md#attacks)
 * Xingqiu's [Guhua Sword: Raincutter](../../characters/hydro/xingqiu.md#attacks)
 * Yoimiya's [Ryuukin Saxifrag](../../characters/pyro/yoimiya.md#attacks)
+* Qiqi's [Adeptus Art: Preserver of Fortune](../../characters/cryo/qiqi.md#attacks) Healing
 * Raidens' [Transcendence: Baleful Omen](../../characters/electro/raiden.md#attacks)
 
 ## Evidence Vault

@@ -57,7 +57,9 @@ For a more in-depth look at reactions, there is a whole [section](https://librar
 
 **Aura** = If a targetable entity is currently not affected by any element, the next elemental source will apply an aura.
 
-**Aura Tax** = The aura tax increases the gauge reduction from reactions by a multiplier of 1.25. This multiplier has been integrated into the unit modifier system already.
+**Aura Tax** = The aura tax reduces the gauge application from elemental sources by a multiplier of 0.8.
+
+**Coexisting/Underlying Aura** = In certain situations (e.g. Electro-Charged) multiple auras of different elements may exist on the same entity.
 
 **Elemental Decay** = An aura will persist a certain duration depending on the type of elemental source. Think of the duration as a gauge that can decay or be reduced in 2 ways:
 
@@ -88,9 +90,9 @@ For a more in-depth look at reactions, there is a whole [section](https://librar
 
 **Trigger** = If a targetable entity has an existing aura, the next elemental source will act as a trigger for a reaction.
 
-**Unit Modifier** = A system of modifiers that apply to the triggers of reactions.
+**Unit Modifier** = A system of modifiers that apply to elemental sources.
 
-* This modifier can increase or decrease how much of the aura is consumed in said reactions.
+* This modifier can increase or decrease how much of the aura is consumed in reactions.
 
 ## Mechanics
 
@@ -127,17 +129,13 @@ For more information see our page on [poise](mechanics/combat/poise.md).
 
 **Vulnerability** = A modifier that affects the amount of poise damage taken from an attack
 
-## Combo Tech Terms
+## Attack String Notation
 
 Terms used to describe combos, they’re stitched together to describe the string of inputs used to execute a combo.
 
 **C** = Charged Attack
 
 **D** = Dash
-
-\*\*\*\*[**DS** = DougStrike](https://app.gitbook.com/@artesians/s/genshin/mechanics/combat/gameplay-mechanics/dougstrike)
-
-* When a unit hits -&gt; dashes -&gt; jumps -&gt; plunges
 
 **E** = Elemental Skill
 

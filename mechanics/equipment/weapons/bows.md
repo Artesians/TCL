@@ -6,6 +6,7 @@
 
 {% tabs %}
 {% tab title="Description" %}
+
 | Attribute | Description |
 | :--- | :--- |
 | Strong-Willed | Increases Normal Attack and Charged Attack DMG by **12/15/18/21/24**%. After a Normal or Charged Attack is fired, DMG dealt increases by a further **8/10/12/14/16**% every 0.1 seconds up to 5 times. |
@@ -14,6 +15,7 @@
 {% endtab %}
 
 {% tab title="Details" %}
+
 | Level | Base Atk | ATK% |
 | :--- | :--- | :--- |
 | 60 | 382 | 36.5 |
@@ -33,6 +35,7 @@
 
 {% tabs %}
 {% tab title="Description" %}
+
 | Attribute | Description |
 | :--- | :--- |
 | The Parting Refrain | A part of the "Millennial Movement" that wanders amidst the winds. Increases Elemental Mastery by **60/75/90/105/120**. When the Elemental Skills or Elemental Bursts of the character wielding this weapon hit opponents, that character gains a **Sigil of Remembrance**. This effect can be triggered once every 0.2s and can be triggered even if said character is not on the field. When you possess **4** Sigils of Remembrance, all of them will be consumed and all nearby party members will obtain the "**Millennial Movement: Farewell Song**" effect for 12s. "Millennial Movement: Farewell Song" increases Elemental Mastery by **100/125/150/175/200** and increases ATK by **20/25/30/35/40**%. Once this effect is triggered, you will not gain Sigils of Remembrance for 20s. Of the many effects of the "**Millennial Movement**," buffs of the same type will not stack. |
@@ -43,6 +46,7 @@
 {% endtab %}
 
 {% tab title="Details" %}
+
 | Level | Base Atk | Energy Recharge% |
 | :--- | :--- | :--- |
 | 60 | 382 | 40.6 |
@@ -58,10 +62,41 @@
 {% endtab %}
 {% endtabs %}
 
+### Polar Star
+
+{% tabs %}
+{% tab title="Description" %}
+
+| Attribute | Description |
+| :--- | :--- |
+| Daylight's Augury | Elemental Skill and Elemental Burst DMG increased by **12/15/18/21/24**%. After a Normal Attack, Charged Attack, Elemental Skill or Elemental Burst hits an opponent, 1 stack of Ashen Nightstar will be gained for 12s. When 1/2/3/4 stacks of Ashen Nightstar are present, ATK is increased by **(10/20/30/48)/(12.5/25/37.5/60)/(15/30/45/72)/(17.5/35/52.5/84)/(20/40/60/96)**%. The stack of Ashen Nightstar created by the Normal Attack, Charged Attack, Elemental Skill or Elemental Burst will be counted independently of the others. |
+| Base ATK | 46 - 608 |
+| CR% | 7.2% - 3.1% |
+
+{% endtab %}
+
+{% tab title="Details" %}
+
+| Level | Base Atk | CRIT Rate% |
+| :--- | :--- | :--- |
+| 60 | 382 | 24.4 |
+| 60+ | 414 | 24.4 |
+| 65 | 435 | 25.8 |
+| 70 | 457 | 27.3 |
+| 70+ | 488 | 27.3 |
+| 75 | 510 | 28.7 |
+| 80 | 532 | 30.2 |
+| 80+ | 563 | 30.2 |
+| 85 | 586 | 31.6 |
+| 90 | 608 | 33.1 |
+{% endtab %}
+{% endtabs %}
+
 ### Skyward Harp
 
 {% tabs %}
 {% tab title="Description" %}
+
 | Attribute | Description |
 | :--- | :--- |
 | Echoing Ballad | Increases CRIT DMG by **20/25/30/35/40**%. Hits have a **60/70/80/90/100**% chance to inflict a small AoE attack, dealing 125% Physical ATK DMG. Can only occur once every **4/3.5/3/2.5/2**s. |
@@ -70,6 +105,7 @@
 {% endtab %}
 
 {% tab title="Details" %}
+
 | Level | Base Atk | CRIT Rate% |
 | :--- | :--- | :--- |
 | 60 | 423 | 16.2 |
@@ -89,6 +125,7 @@
 
 {% tabs %}
 {% tab title="Description" %}
+
 | Attribute | Description |
 | :--- | :--- |
 | Rule By Thunder | Increases ATK by **20/25/30/35/40**% and grants the might of the Thunder Emblem. At stack levels 1/2/3, the Thunder Emblem increases Normal Attack DMG by **(12/24/40)/(15/30/50)/(18/36/60)/(21/42/70)/(24/48/80)**%. The character will obtain 1 stack of Thunder Emblem in each of the following scenarios: Normal Attack deals DMG (stack lasts 5s), casting Elemental Skill (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently. | 
@@ -97,6 +134,7 @@
 {% endtab %}
 
 {% tab title="Details" %}
+
 | Level | Base Atk | CRIT DMG% |
 | :--- | :--- | :--- |
 | 60 | 382 | 48.7 |
@@ -118,6 +156,7 @@
 
 {% tabs %}
 {% tab title="Description" %}
+
 | Attribute | Description |
 | :--- | :--- |
 | Urban Guerrilla | While the character equipped with this weapon is in the party but not on the field, their DMG increases by **2/2.5/3/3.5/4**% every second up to a max of **20/25/30/35/40**%. When the character is on the field for more than 4s, the aforementioned DMG buff decreases by **4/5/6/7/8**% per second until it reaches 0%. |
@@ -126,6 +165,7 @@
 {% endtab %}
 
 {% tab title="Details" %}
+
 | Level | Base Atk | ATK% |
 | :--- | :--- | :--- |
 | 60 | 361 | 20.3 |
@@ -145,6 +185,7 @@
 
 {% tabs %}
 {% tab title="Description" %}
+
 | Attribute | Description |
 | :--- | :--- |
 | Press the Advantage | After defeating an opponent, ATK is increased by **12/15/18/21/24**% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others. |
@@ -156,6 +197,7 @@
 {% endtab %}
 
 {% tab title="Details" %}
+
 | Level | Base Atk | CRIT DMG% |
 | :--- | :--- | :--- |
 | 60 | 361 | 27.1 |
@@ -175,6 +217,7 @@
 
 {% tabs %}
 {% tab title="Description" %}
+
 | Attribute | Description |
 | :--- | :--- |
 | Infusion Arrow | Normal Attack and Charged Attack hits increase ATK by **4/5/6/7/8**% and Normal ATK SPD by **1.2/1.5/1.8/2.1/2.4**% for 6s. Max 4 stacks. Can only occur once every 0.3s. |
@@ -183,6 +226,7 @@
 {% endtab %}
 
 {% tab title="Details" %}
+
 | Level | Base Atk | Phys DMG% |
 | :--- | :--- | :--- |
 | 60 | 293 | 50.8 |
@@ -202,9 +246,10 @@
 
 {% tabs %}
 {% tab title="Description" %}
+
 | Attribute | Description |
 | :--- | :--- |
-| Windfall | CRIT hits have a **60/70/80/90/100**% chance to generate 1 Elemental Orb, which will regenerate 6 Energy for the character. Can only occur once every **12/10.5/9/7.5/6**s. |
+| Windfall | CRIT hits have a **60/70/80/90/100**% chance to generate a small amount of Clear Particles. Can only occur once every **12/10.5/9/7.5/6**s. |
 | Base ATK | 41 - 454 |
 | ER% | 13.3% - 61.3% |
 
@@ -212,6 +257,7 @@
 {% endtab %}
 
 {% tab title="Details" %}
+
 | Level | Base Atk | Energy Recharge% |
 | :--- | :--- | :--- |
 | 60 | 293 | 45.1 |
@@ -231,6 +277,7 @@
 
 {% tabs %}
 {% tab title="Description" %}
+
 | Attribute | Description |
 | :--- | :--- |
 | Full Draw | Increases Normal Attack DMG by **16/20/24/28/32**% and Charged Attack DMG by **12/15/18/21/24**%. When the equipping character's Energy reaches 100%, this efect is increased by 100%. |
@@ -239,6 +286,7 @@
 {% endtab %}
 
 {% tab title="Details" %}
+
 | Level | Base Atk | ATK% |
 | :--- | :--- | :--- |
 | 60 | 293 | 40.6 |
@@ -258,6 +306,7 @@
 
 {% tabs %}
 {% tab title="Description" %}
+
 | Attribute | Description |
 | :--- | :--- |
 | Evernight Duet | Normal Attack hits on opponents increase Elemental Skill DMG by **20/25/30/35/40**% for 5s. Elemental Skill hits on opponents increase Normal Attack DMG by **20/25/30/35/40**% for 5s. |
@@ -266,6 +315,7 @@
 {% endtab %}
 
 {% tab title="Details" %}
+
 | Level | Base Atk | ATK% |
 | :--- | :--- | :--- |
 | 60 | 327 | 38.1 |
@@ -286,6 +336,7 @@
 {% tabs %}
 {% tab title="Description" %}
 
+
 | Attribute | Description |
 | :--- | :--- |
 | Strong Strike | Effective only on the following platform: "PlayStation Network"<br>Dealing Cryo DMG to opponents increases this character's Normal and Charged Attack DMG by 10% for 6s. This effect can have a maximum of 2 stacks. Additionally, when Aloy equips Predator, ATK is increased by 66. |
@@ -294,6 +345,7 @@
 {% endtab %}
 
 {% tab title="Details" %}
+
 | Level | Base Atk | ATK% |
 | :--- | :--- | :--- |
 | 60 | 327 | 30.4 |
@@ -313,6 +365,7 @@
 
 {% tabs %}
 {% tab title="Description" %}
+
 | Attribute | Description |
 | :--- | :--- |
 | Unreturning | Charged Attack hits on weak points increase Movement SPD by 10% and ATK by **36/45/54/63/72**% for 10s. |
@@ -321,6 +374,7 @@
 {% endtab %}
 
 {% tab title="Details" %}
+
 | Level | Base Atk | ATK% |
 | :--- | :--- | :--- |
 | 60 | 327 | 30.4 |
@@ -340,6 +394,7 @@
 
 {% tabs %}
 {% tab title="Description" %}
+
 | Attribute | Description |
 | :--- | :--- |
 | Focus | Upon dealing damage to an opponent, increases CRIT Rate by **8/10/12/14/16**%. Max 5 stacks. A CRIT hit removes all existing stacks. |
@@ -350,9 +405,11 @@
 * The passive also procs even when the unit is off-field - [Pleinair\#8321 and IonFox\#8887](../../../evidence/mechanics/equipment/weapons.md#how-royal-longswords-passive-works)
 * Skills that snapshot will maintain low crit rate while still increasing stacks, reducing the chance of losing stacks. This allows high damaging abilities to be cast and fully capitalize on the increased crit rate. - [sunnyd\#5916](../../../evidence/mechanics/equipment/weapons.md#royal-series-dynamic-stacking-on-snapshot-dot-skills)
 * AoE abilities snapshot the crit rate increase from Royal Weapons - [Bobrokrot\#0111](../../../evidence/mechanics/equipment/weapons.md#royal-series-aoe-abilities-and-mechanics)
+* Mathematical analysis shows that Royal Weapons have less effective crit rate the more crit rate you build - [NZPIEFACE\#8439](../../../evidence/mechanics/equipment/weapons.md#mathematical-analysis-of-royal-weapon-effective-crit-rate)
 {% endtab %}
 
 {% tab title="Details" %}
+
 | Level | Base Atk | ATK% |
 | :--- | :--- | :--- |
 | 60 | 327 | 30.4 |
@@ -372,6 +429,7 @@
 
 {% tabs %}
 {% tab title="Description" %}
+
 | Attribute | Description |
 | :--- | :--- |
 | Rapid Firing | Increases Normal Attack DMG by **40/50/60/70/80**% but decreases Charged Attack DMG by 10%. |
@@ -382,6 +440,7 @@
 {% endtab %}
 
 {% tab title="Details" %}
+
 | Level | Base Atk | ATK% |
 | :--- | :--- | :--- |
 | 60 | 327 | 30.4 |
@@ -401,6 +460,7 @@
 
 {% tabs %}
 {% tab title="Description" %}
+
 | Attribute | Description |
 | :--- | :--- |
 | Composed | After dealing damage to an opponent with an Elemental Skill, the skill has a **40/50/60/70/80**% chance to end its own CD. Can only occur once every **30/26/22/19/16**s. |
@@ -412,6 +472,7 @@
 {% endtab %}
 
 {% tab title="Details" %}
+
 | Level | Base Atk | Energy Recharge% |
 | :--- | :--- | :--- |
 | 60 | 361 | 22.6 |
@@ -431,6 +492,7 @@
 
 {% tabs %}
 {% tab title="Description" %}
+
 | Attribute | Description |
 | :--- | :--- |
 | Arrowless Song | Increases Elemental Skill and Elemental Burst DMG by **24/30/36/42/48**%. |
@@ -439,6 +501,7 @@
 {% endtab %}
 
 {% tab title="Details" %}
+
 | Level | Base Atk | Elemental Mastery |
 | :--- | :--- | :--- |
 | 60 | 327 | 122 |
@@ -458,6 +521,7 @@
 
 {% tabs %}
 {% tab title="Description" %}
+
 | Attribute | Description |
 | :--- | :--- |
 | Verdant Wind | Upon hit, Normal and Aimed Shot Attacks have a 50% chance to generate a Cyclone, which will continuously attract surrounding opponents, dealing **40/50/60/70/80**% of ATK as DMG to these opponents every 0.5s for 4s. This effect can only occur once every **14/13/12/11/10**s. |
@@ -466,6 +530,7 @@
 {% endtab %}
 
 {% tab title="Details" %}
+
 | Level | Base Atk | CRIT Rate% |
 | :--- | :--- | :--- |
 | 60 | 327 | 20.3 |
@@ -485,11 +550,28 @@
 
 {% tabs %}
 {% tab title="Description" %}
+
 | Attribute | Description |
 | :--- | :--- |
-| ? | After using an Elemental Skill, receive a boon from the ancient wish of Windblume, increasing ATK by **16/20/24/28/32**% for 6s |
+| Windblume Wish | After using an Elemental Skill, receive a boon from the ancient wish of Windblume, increasing ATK by **16/20/24/28/32**% for 6s |
 | Base ATK | 42 - 510 |
 | EM | 36 - 165 |
+{% endtab %}
+
+{% tab title="Details" %}
+
+| Level | Base Atk | EM |
+| :--- | :--- | :--- |
+| 60 | 327 | 122 |
+| 60+ | 353 | 122 |
+| 65 | 370 | 129 |
+| 70 | 388 | 136 |
+| 70+ | 414 | 136 |
+| 75 | 431 | 144 |
+| 80 | 449 | 151 |
+| 80+ | 475 | 151 |
+| 85 | 492 | 158 |
+| 90 | 510 | 176 |
 {% endtab %}
 {% endtabs %}
 
@@ -499,6 +581,7 @@
 
 {% tabs %}
 {% tab title="Description" %}
+
 | Attribute | Description |
 | :--- | :--- |
 | Archer's Message | Charged Attack hits on weak spots deal an additional **100/125/150/175/200**% ATK DMG as CRIT DMG. Can only occur once every 10s. |
@@ -507,6 +590,7 @@
 {% endtab %}
 
 {% tab title="Details" %}
+
 | Level | Base Atk | CRIT DMG% |
 | :--- | :--- | :--- |
 | 60 | 292 | 23 |
@@ -526,6 +610,7 @@
 
 {% tabs %}
 {% tab title="Description" %}
+
 | Attribute | Description |
 | :--- | :--- |
 | Bane of Flame and Water | Increases DMG against opponents affected by Hydro or Pyro by **12/15/18/21/24**%. |
@@ -538,6 +623,7 @@
 {% endtab %}
 
 {% tab title="Details" %}
+
 | Level | Base Atk | Elemental Mastery |
 | :--- | :--- | :--- |
 | 60 | 292 | 69 |
@@ -557,6 +643,7 @@
 
 {% tabs %}
 {% tab title="Description" %}
+
 | Attribute | Description |
 | :--- | :--- |
 | Cull the Weak | Defeating an opponent restores **8/10/12/14/16**% HP. |
@@ -565,6 +652,7 @@
 {% endtab %}
 
 {% tab title="Details" %}
+
 | Level | Base Atk | HP% |
 | :--- | :--- | :--- |
 | 60 | 234 | 34.6 |
@@ -584,6 +672,7 @@
 
 {% tabs %}
 {% tab title="Description" %}
+
 | Attribute | Description |
 | :--- | :--- |
 | Precise | Increases DMG against weak spots by **24/30/36/42/48**% |
@@ -592,6 +681,7 @@
 {% endtab %}
 
 {% tab title="Details" %}
+
 | Level | Base Atk | CRIT DMG% |
 | :--- | :--- | :--- |
 | 60 | 263 | 34.5 |
@@ -611,6 +701,7 @@
 
 {% tabs %}
 {% tab title="Description" %}
+
 | Attribute | Description |
 | :--- | :--- |
 | Slingshot | If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by **36/42/48/54/60**%. Otherwise, decreases DMG by 10%. |
@@ -619,6 +710,7 @@
 {% endtab %}
 
 {% tab title="Details" %}
+
 | Level | Base Atk | CRIT Rate% |
 | :--- | :--- | :--- |
 | 60 | 234 | 23 |
@@ -636,7 +728,7 @@
 
 ## Range Cap for Arrows
 
-**By:** [Poyo\#6921](../../../evidence/mechanics/equipment/weapons.md#range-cap-for-arrows)
+**By:** Poyo\#6921
 
 **Finding**:
 

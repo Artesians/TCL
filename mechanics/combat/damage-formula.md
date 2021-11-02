@@ -41,7 +41,7 @@ $$
 | **FlatAttack** | Sum of all non-percentage-based attack bonuses from the feather and other sources. |
 | **DefenseCharacter** | Charcter's base defense. |
 | **DefenseBonus** | Sum of all percentage-based defense bonuses from artifacts and other sources. |
-| **FlatDamage** | Extra damage from Zhongli's A4 passive. |
+| **FlatDamage** | Extra damage from sources such as Zhongli's A4 passive or Kokomi's Elemental Burst. |
 | **DamageBonus** | Sum of all damage increases from elemental goblets, Gladiator's Finale 4-piece bonus, etc, excluding Xingqiu's constellation 4 effect Evilsoother. |
 
 ## Critical Hits
@@ -171,6 +171,13 @@ $$
 | **Proc** | The damage dealt by weapon and ability procs when they trigger, such as Prototype Archaic or Xiangling's constellation 2. To calculate this damage, substitute the proc percentage \(e.g. 240% for Prototype Archaic R1\) for Talent in the damage formula. Note that weapon proc effects always deal physical damage, and are therefore affected by physical damage bonuses and physical resistance, even if an elemental attack is used to trigger them. |
 
 By Zakharov\#5645 and \[Neko\]\#3521
+
+## Additional Notes
+
+Any effect that scales off of a certain stat will not count any buffs that also scale themselves off of someone else's stat in their calculation.  
+" In order to avoid infinite stacking of in-game bonuses, when an effect confers one attribute as a certain percentage of another attribute, this effect will not then factor into calculations of other similar percentage-based effects. " - [Mihoyo](https://www.hoyolab.com/article/503042)  
+
+Examples of such buffs: Sucrose's Ascension 4:Mollis Favonius EM share; Kaedehara Kazuha's Ascension 4:Poetics of Fuubutsu DMG% buff, Electro Main Character's Ascension 4:Resounding Roar Energy Recharge buff; etc.
 
 ## Evidence Vault
 

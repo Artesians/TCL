@@ -4,25 +4,9 @@
 
 {% page-ref page="../../../characters/pyro/klee.md" %}
 
-## Klee Burst Waves Mechanics
+## Skill Mechanics
 
-**By:** Ayzel\#7399  
-**Added:** 6/11/2021  
-[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/851923227819114496/852776649149513748/transcript-klee-burst-mechanics.html)
-
-**Finding:** Klee's burst has 6 waves, and on each wave, there is a 35% chance for 3 hits to occur, 50% chance for 4 hits to occur, and 15% chance for 5 hits to occur.
-
-**Evidence:**
-
-1] youtube video of 6 waves occurring: [https://youtu.be/ObwKAFrc548](https://youtu.be/ObwKAFrc548)
-
-2] *Has been lost to the sands of time*
-
-3] some data collected that about matches the expected distribution of 35%, 50%, 15%: [https://docs.google.com/spreadsheets/d/17grLuz_AbmmpJf3khVSE82p16VADqq1MFU4UWyO1h0c/edit?usp=sharing](https://docs.google.com/spreadsheets/d/17grLuz_AbmmpJf3khVSE82p16VADqq1MFU4UWyO1h0c/edit?usp=sharing)
-
-**Significance:** Explanining how Klee's burst works
-
-## Klee Mine ICD
+### Klee Mine ICD
 
 **By:** Sakuno\#7950 and Steph\#3614  
 **Added:** 03/16/2021
@@ -84,7 +68,58 @@ Both of these conditions lines up with the current ICD theory.
 **Significance:**  
 Klee's jumpty dumpty's split mine might steal some reactions away from Klee's normal string by activating the timer and hit count before normal string lands, or it might also allow Klee to do more reaction using her normal strings by advancing the counter number.
 
-## Failure to proc Klee's talent 'Pounding Surprise' \(Explosive Spark\), if she is swapped out immediately after attacking.
+### Klee Skill Gauge
+
+**By:** jamie\#9248, Scavenger\#6510  
+**Added:** 10/19/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/895409296140013619/900158764689272842/transcript-klee-e-gauge.html)
+
+**Finding:** Tcl entry for klee's jumpty dumpty might have the wrong bounce gu entry, which is currently in at 2b. Bounces are not all the same.  
+1st bounce = 1u 2nd bounce = 1u 3rd bounce = 2u
+
+**Evidence:**
+
+1. first bounce test = chongyun only melts 2 swords [Youtube](https://www.youtube.com/watch?v=wY-0DKfV3sw)  
+2. second bounce test = chongyun only melts 2 swords [Youtube](https://youtu.be/ielZ3K7EiDQ)  
+3. final bounce = grass sets on fire [Youtube](https://www.youtube.com/watch?v=iulXOvubb4A)  
+
+**Significance:** Updated tcl
+
+## Burst Mechanics
+
+### Klee’s Q is snapshotted on Cast
+
+**By:** stellar\#7066  
+**Added:** 12/7/2020
+
+**Finding:**  
+Klee's burst \(Q\) is snapshotted.
+
+**Evidence:**  
+[https://imgur.com/a/8TQUkYU](https://imgur.com/a/8TQUkYU)
+
+**Significance:**  
+You can leave Bennett Q after using Klee burst and you also keep other atk% buffs that were enabled before Klee burst.
+
+### Klee Burst Waves Mechanics
+
+**By:** Ayzel\#7399  
+**Added:** 6/11/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/851923227819114496/852776649149513748/transcript-klee-burst-mechanics.html)
+
+**Finding:** Klee's burst has 6 waves, and on each wave, there is a 35% chance for 3 hits to occur, 50% chance for 4 hits to occur, and 15% chance for 5 hits to occur.
+
+**Evidence:**
+
+ youtube video of 6 waves occurring: [https://youtu.be/ObwKAFrc548](https://youtu.be/ObwKAFrc548)
+
+ some data collected that about matches the expected distribution of 35%, 50%, 15%: [https://docs.google.com/spreadsheets/d/17grLuz_AbmmpJf3khVSE82p16VADqq1MFU4UWyO1h0c/edit?usp=sharing](https://docs.google.com/spreadsheets/d/17grLuz_AbmmpJf3khVSE82p16VADqq1MFU4UWyO1h0c/edit?usp=sharing)
+
+**Significance:** Explanining how Klee's burst works
+
+## Ascension Mechanics
+
+### Failure to proc Klee's talent 'Pounding Surprise' \(Explosive Spark\), if she is swapped out immediately after attacking.
 
 **By:** fid\#6253  
 **Added:** 12/22/2020  
@@ -109,22 +144,80 @@ Should the reverse be true, two grounded walk-cancel AA1s from Klee would allow 
 * Klee Charge Attack
 * Repeat.
 
-## Klee’s Q is snapshotted on Cast
+## Constellation Mechanics
 
-**By:** stellar\#7066  
-**Added:** 12/7/2020
+### Klee C4 damage
 
+**By:** elijam#7142  
+**Added:** 08/07/2021  
+ [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/866108653634846780/873536676675338280/transcript-tcl-damage-type-completion.html)  
+ 
 **Finding:**  
-Klee's burst \(Q\) is snapshotted.
+Klee’s C4 damage instance has no ability type scaling tags. 
 
 **Evidence:**  
-[https://imgur.com/a/8TQUkYU](https://imgur.com/a/8TQUkYU)
+Testing done by bloodreign616#4766  
+Damage is consistent with and without 2NO bonus - [Video](https://www.youtube.com/watch?v=lfrtwB9mZTc)  
+No further tests were done given that it is highly unlikely that Klee’s C4 damage is considered NA/CA or skill damage and given that Monochrom9#8058 could find no ability type scaling tags for it in Klee’s ability configs. 
 
 **Significance:**  
-You can leave Bennett Q after using Klee burst and you also keep other atk% buffs that were enabled before Klee burst.
+Damage calculations for Klee.
+
+### Klee C6 mechanics
+
+**By:** solo#3333  
+**Added:** 09/25/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/887165577691529226/891209626396266516/transcript-klee-c6-mechanics.html)  
+ 
+**Finding:**  
+- Klee C6 does not stack with itself (e.g., casting burst again during the 25s will not increase the pyro bonus to +20% total).  
+- Klee C6 does snapshot to her own burst, unlike Xiangling.
+
+**Evidence:**  
+No stack: [Imgur](https://imgur.com/i7yYGwi)  
+Damage calc for burst: (stats screen: [Imgur](https://imgur.com/BxSiIXT)) (set bonus 2pc proof: [Imgur](https://imgur.com/Xn6WOqq))  
+(damage screenshot 1277 - [Imgur](https://imgur.com/MqMJuFV)
+
+869 * 1.588 * 0.5 * 0.9 * 2.681 * .768 = 1278.61 (rounding error in game?)  
+869 = attack  
+1.588 = damage bonus (ascension + c6 active + noblesse 2pc)  
+0.5 = enemy defense multiplier  
+0.9 = enemy resist multiplier  
+2.681 = crit  
+.768 = burst lvl 10
+
+**Significance:**  
+No value in chain casting burst shenanigans, and Klee C6 does apply to her own burst despite some people saying otherwise. 
+
+### Klee C1 mechanics
+
+**By:** solo\#3333  
+**Added:** 10/23/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/887125796379050076/901561241552695326/transcript-klee-c1-mechanics.html)  
+ 
+**Finding:**  
+- Klee's C1, like her burst, has a (very) small aoe.  
+- Klee's C1 has a 10% chance to spawn, increasing by 8% per failed attempt until it successfully procs. Expected number of attempts before a proc is ~3.92.  
+- Klee's C1 has no ICD for its proc chance, and has 6 different triggers: N1, N2, N3, CA, pressing E, and pressing Q. Self explanatory, but perhaps the only unusual trigger is pressing Q.  
+- When nearby 3+ enemies, Klee's C1 has a rare chance to "misfire" causing it to aim in a strange direction (almost always missing the target) or despawn before it even fires. It seems happens consecutively: once a trigger misfires, the next trigger is likely to despawn.  
+- Klee's C1 appears to have a standard icd for its aura, and is shared with her burst.  
+
+**Evidence:**  
+Aoe - [Imgur](https://imgur.com/mfLfo5n)  
+Proc math & data - [Google docs](https://docs.google.com/spreadsheets/d/1zixb0exCxBaSDXcxWcNw-Kl6qKUaiQuN/edit?usp=sharing)  
+Misfire example 1 - [Imgur](https://imgur.com/n7RfhaQ)  
+Misfire example 2 - [Imgur](https://imgur.com/p4ploRl)  
+C1 proc chance: *Has been lost to the sands of time*  
+Pressing Q can proc C1 (and ICD is shared with burst)- [Imgur](https://imgur.com/QB3McRB)  
+C1 standard icd - [Imgur](https://imgur.com/sUa4xwQ), swirl damage = 911
+
+**Significance:**  
+Better understanding of Klee's C1.
 
 
-## How does 2 set Noblesse Oblige interact with C1 Klee?
+## Synergies/Interactions
+
+### How does 2 set Noblesse Oblige interact with C1 Klee?
 
 **By:** fin\#1623  
 **Added:** 12/6/2020
@@ -141,19 +234,17 @@ Yes they do.
 **Significance:**  
 2NO + 2 witch might be a viable set for an at least C1 Klee and makes animation cancelling more worth it as it triggers \(Klee’s C1\) by AAing and skills.
 
-## Klee C4 damage
+### Klee 4CW 3 stacks
 
-**By:** elijam#7142  
-**Added:** 08/07/2021  
- [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/866108653634846780/873536676675338280/transcript-tcl-damage-type-completion.html)  
+**By:** solo#3333  
+**Added:** 09/17/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/887521548049715200/888239532028354630/transcript-klee-4cw-3-stacks.html)  
  
 **Finding:**  
-Klee’s C4 damage instance has no ability type scaling tags. 
+Spam pressing Klee's E button will trigger 2 stacks of Crimson Witch with one charge of Jumpty Dumpty. Therefore using the second charge within 10s will bring the total CW stacks to 3.
 
 **Evidence:**  
-Testing done by bloodreign616#4766  
-Damage is consistent with and without 2NO bonus - [Video](https://www.youtube.com/watch?v=lfrtwB9mZTc)  
-No further tests were done given that it is highly unlikely that Klee’s C4 damage is considered NA/CA or skill damage and given that Monochrom9#8058 could find no ability type scaling tags for it in Klee’s ability configs. 
+[Imgur](https://imgur.com/RsnPT4c)
 
 **Significance:**  
-Damage calculations for Klee.
+4CW is better than expected for Klee.

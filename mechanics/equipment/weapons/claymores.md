@@ -6,6 +6,7 @@
 
 {% tabs %}
 {% tab title="Description" %}
+
 | Attribute | Description |
 | :--- | :--- |
 | Sky-ripping Dragon Spine | Increases all DMG by **8/10/12/14/16**%. After using an Elemental Burst, Normal or Charged Attack, on hit, creates a vacuum blade that does **80/100/120/140/160**% of ATK as DMG to opponents along its path. Lasts for 20s or 8 vacuum blades. |
@@ -17,6 +18,7 @@
 {% endtab %}
 
 {% tab title="Details" %}
+
 | Level | Base Atk | Energy Recharge% |
 | :--- | :--- | :--- |
 | 60 | 423 | 27.1 |
@@ -36,6 +38,7 @@
 
 {% tabs %}
 {% tab title="Description" %}
+
 | Attribute | Description |
 | :--- | :--- |
 | Rebel's Banner Hymn | A part of the "Millennial Movement" that wanders amidst the winds. Increases ATK by **16/20/24/28/32%**, and when Normal or Charged Attacks hit opponents, the character gains a Sigil of Whispers. This effect can be triggered once every 0.3s. When you possess four Sigils of Whispers, all of them will be consumed and all nearby party members will obtain the "Millennial Movement: Banner-Hymn" effect for 12s. "Millennial Movement: Banner-Hymn" increases Normal ATK SPD by **12/15/18/21/25%** and increases ATK by **20/25/30/35/40%**. Once this effect is triggered, you will not gain Sigils of Whispers for 20s. Of the many effects of the "Millennial Movement", buffs of the same type will not stack. |
@@ -46,6 +49,7 @@
 {% endtab %}
 
 {% tab title="Details" %}
+
 | Level | Base Atk | Phys DMG% |
 | :--- | :--- | :--- |
 | 60 | 464 | 15.2 |
@@ -62,6 +66,7 @@
 
 {% tabs %}
 {% tab title="Description" %}
+
 | Attribute | Description |
 | :--- | :--- |
 | Golden Majesty | Increases Shield Strength by **20/25/30/35/40**%. Scoring hits on opponents increases ATK by **4/5/6/7/8**% for 8s. Max 5 stacks. Can only occur once every 0.3s. While protected by a shield, this ATK increase effect is increased by 100%. |
@@ -70,6 +75,7 @@
 {% endtab %}
 
 {% tab title="Details" %}
+
 | Level | Base Atk | ATK% |
 | :--- | :--- | :--- |
 | 60 | 382 | 36.5 |
@@ -89,6 +95,7 @@
 
 {% tabs %}
 {% tab title="Description" %}
+
 | Attribute | Description |
 | :--- | :--- |
 | Wolfish Tracker | Increases ATK by **20/25/30/35/40**%. On hit, attacks against opponents with less than 30% HP increase all party members' ATK by **40/50/60/70/80**% for 12s. Can only occur once every 30s. |
@@ -99,6 +106,7 @@
 {% endtab %}
 
 {% tab title="Details" %}
+
 | Level | Base Atk | ATK% |
 | :--- | :--- | :--- |
 | 60 | 382 | 36.5 |
@@ -116,10 +124,40 @@
 
 ## 4 Stars
 
+### Akuoumaru
+
+{% tabs %}
+{% tab title="Description" %}
+
+| Attribute | Description |
+| :--- | :--- |
+| Watatsumi Wavewalker | For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by **0.12/0.15/0.18/0.21/0.24**%. A maximum of **40/50/60/70/80**% increased Elemental Burst DMG can be achieved this way. |
+| Base ATK | 42 - 510 |
+| ATK% | 9% - 41.3% |
+{% endtab %}
+
+{% tab title="Details" %}
+
+| Level | Base Atk | ATK% |
+| :--- | :--- | :--- |
+| 60 | 327 | 30.4 |
+| 60+ | 353 | 30.4 |
+| 65 | 370 | 32.3 |
+| 70 | 388 | 34.1 |
+| 70+ | 414 | 34.1 |
+| 75 | 431 | 35.9 |
+| 80 | 449 | 37.7 |
+| 80+ | 475 | 37.7 |
+| 85 | 492 | 39.5 |
+| 90 | 510 | 41.3 |
+{% endtab %}
+{% endtabs %}
+
 ### Blackcliff Slasher
 
 {% tabs %}
 {% tab title="Description" %}
+
 | Attribute | Description |
 | :--- | :--- |
 | Press the Advantage | After defeating an opponent, ATK is increased by **12/15/18/21/24**% for 30s. This effect has a maximum of 3 stacks, and the duration of each stack is independent of the others. |
@@ -131,6 +169,7 @@
 {% endtab %}
 
 {% tab title="Details" %}
+
 | Level | Base Atk | CRIT DMG% |
 | :--- | :--- | :--- |
 | 60 | 327 | 40.6 |
@@ -150,9 +189,10 @@
 
 {% tabs %}
 {% tab title="Description" %}
+
 | Attribute | Description |
 | :--- | :--- |
-| Windfall | CRIT hits have a **60/70/80/90/100**% chance to generate a small amount of Elemental Particles, which will regenerate 6 Energy for the character. Can only occur once every **12/10.5/8/7.5/6**s. |
+| Windfall | CRIT hits have a **60/70/80/90/100**% chance to generate a small amount of Clear Particles. Can only occur once every **12/10.5/9/7.5/6**s. |
 | Base ATK | 41 - 454 |
 | ER% | 13.3% - 61.3% |
 
@@ -160,6 +200,7 @@
 {% endtab %}
 
 {% tab title="Details" %}
+
 | Level | Base Atk | Energy Recharge% |
 | :--- | :--- | :--- |
 | 60 | 293 | 45.1 |
@@ -179,6 +220,7 @@
 
 {% tabs %}
 {% tab title="Description" %}
+
 | Attribute | Description |
 | :--- | :--- |
 | Samurai Conduct | Increases Elemental Skill DMG by **6/7.6/9/10.5/12**% After Elemental Skill hits an opponent, the character loses 3 Energy but regenerates **3/3.5/4/4.5/5** Energy every 2s for the next 6s. This effect can occur once every 10s. Can be triggered even when the character is not on the field. |
@@ -189,6 +231,7 @@
 {% endtab %}
 
 {% tab title="Details" %}
+
 | Level | Base Atk | Energy Recharge% |
 | :--- | :--- | :--- |
 | 60 | 327 | 33.8 |
@@ -208,6 +251,7 @@
 
 {% tabs %}
 {% tab title="Description" %}
+
 | Attribute | Description |
 | :--- | :--- |
 | Lithic Axiom - Unity | For every character in the party who hails from Liyue, the character who equips this weapon gains **7/8/9/10/11**% ATK increase and **3/4/5/6/7**% CRIT Rate increase. This effect stacks up to 4 times. |
@@ -216,6 +260,7 @@
 {% endtab %}
 
 {% tab title="Details" %}
+
 | Level | Base Atk | ATK% |
 | :--- | :--- | :--- |
 | 60 | 327 | 30.4 |
@@ -235,14 +280,19 @@
 
 {% tabs %}
 {% tab title="Description" %}
+
 | Attribute | Description |
 | :--- | :--- |
 | Oceanic Victory | Increases Elemental Burst DMG by **12/15/18/21/24**%. When Elemental Burst hits opponents, there is a 100% chance of summoning a titanic tuna that charges and deals **100/125/150/175/200**% ATK as AoE DMG. This effect an occur once every 15s. |
 | Base ATK | 41 - 454 |
 | ATK% | 12% - 55.1% |
+
+* **Oceanic Victory** only procs when the wielder is on the field.
+
 {% endtab %}
 
 {% tab title="Details" %}
+
 | Level | Base Atk | ATK% |
 | :--- | :--- | :--- |
 | 60 | 293 | 40.6 |
@@ -262,6 +312,7 @@
 
 {% tabs %}
 {% tab title="Description" %}
+
 | Attribute | Description |
 | :--- | :--- |
 | Crush | On hit, Normal or Charged Attacks have a 50% chance to deal an additional **240/300/360/420/480**% ATK DMG to opponents within a small AoE. Can only occur once every 15s. |
@@ -270,6 +321,7 @@
 {% endtab %}
 
 {% tab title="Details" %}
+
 | Level | Base Atk | ATK% |
 | :--- | :--- | :--- |
 | 60 | 361 | 20.3 |
@@ -289,6 +341,7 @@
 
 {% tabs %}
 {% tab title="Description" %}
+
 | Attribute | Description |
 | :--- | :--- |
 | Bane of Storm and Tide | Increases DMG against opponents affected by Hydro or Electro by **20/24/28/32/36**%. |
@@ -301,6 +354,7 @@
 {% endtab %}
 
 {% tab title="Details" %}
+
 | Level | Base Atk | Elemental Mastery |
 | :--- | :--- | :--- |
 | 60 | 327 | 122 |
@@ -320,19 +374,22 @@
 
 {% tabs %}
 {% tab title="Description" %}
+
 | Attribute | Description |
 | :--- | :--- |
 | Focus | Upon dealing damage to an opponent, increases CRIT Rate by **8/10/12/14/16**%. Max 5 stacks. A CRIT hit removes all existing stacks. |
 | Base ATK | 44 - 565 |
 | ATK% | 6% - 27.6% |
 
-* Royal Weapons have more effective crit rate the less crit rate rolls you have - [Cola\#6861](../../../evidence/mechanics/equipment/weapons.md#the-effective-crit-rate-of-royal-weapons)
+* Royal Weapons have more effective crit rate the less crit rate rolls you have - [Cola\#6861](../../../evidence/mechanics/equipment/weapons.md#the-effective-crit-rate-of-royal-weapons)  
 * The passive also procs even when the unit is off-field - [Pleinair\#8321 and IonFox\#8887](../../../evidence/mechanics/equipment/weapons.md#how-royal-longswords-passive-works)
 * Skills that snapshot will maintain low crit rate while still increasing stacks, reducing the chance of losing stacks. This allows high damaging abilities to be cast and fully capitalize on the increased crit rate. - [sunnyd\#5916](../../../evidence/mechanics/equipment/weapons.md#royal-series-dynamic-stacking-on-snapshot-dot-skills)
 * AoE abilities snapshot the crit rate increase from Royal Weapons - [Bobrokrot\#0111](../../../evidence/mechanics/equipment/weapons.md#royal-series-aoe-abilities-and-mechanics)
+* Mathematical analysis shows that Royal Weapons have less effective crit rate the more crit rate you build - [NZPIEFACE\#8439](../../../evidence/mechanics/equipment/weapons.md#mathematical-analysis-of-royal-weapon-effective-crit-rate)
 {% endtab %}
 
 {% tab title="Details" %}
+
 | Level | Base Atk | ATK% |
 | :--- | :--- | :--- |
 | 60 | 361 | 20.3 |
@@ -352,6 +409,7 @@
 
 {% tabs %}
 {% tab title="Description" %}
+
 | Attribute | Description |
 | :--- | :--- |
 | Composed | After dealing damage to an opponent with an Elemental Skill, the skill has a **40/50/60/70/80**% chance to end its own CD. Can only occur once every **30/26/22/19/16**s. |
@@ -363,6 +421,7 @@
 {% endtab %}
 
 {% tab title="Details" %}
+
 | Level | Base Atk | Energy Recharge% |
 | :--- | :--- | :--- |
 | 60 | 361 | 22.6 |
@@ -382,6 +441,7 @@
 
 {% tabs %}
 {% tab title="Description" %}
+
 | Attribute | Description |
 | :--- | :--- |
 | Wavesplitter | Every 4s a character is on the field, they will deal **6/7/8/9/10**% more DMG and take **3/2.7/2.4/2.1/1.8**% more DMG. This effect has a maximum of 5 stacks and will not be reset if the character leaves the field, but will be reduced by 1 stack when the character takes DMG. |
@@ -397,6 +457,7 @@
 {% endtab %}
 
 {% tab title="Details" %}
+
 | Level | Base Atk | CRIT Rate% |
 | :--- | :--- | :--- |
 | 60 | 327 | 20.3 |
@@ -416,6 +477,7 @@
 
 {% tabs %}
 {% tab title="Description" %}
+
 | Attribute | Description |
 | :--- | :--- |
 | Frost Burial | Hitting an opponent with Normal and Charged Attacks has a **60/70/80/90/100**% chance of forming and dropping an Everfrost Icicle above them, dealing **80/95/110/125/140**% AoE ATK DMG. Opponents affected by Cryo are dealt **200/240360**% ATK DMG instead by the icicle. Can only occur once every 10s. |
@@ -424,6 +486,7 @@
 {% endtab %}
 
 {% tab title="Details" %}
+
 | Level | Base Atk | Phys DMG% |
 | :--- | :--- | :--- |
 | 60 | 361 | 25.4 |
@@ -443,6 +506,7 @@
 
 {% tabs %}
 {% tab title="Description" %}
+
 | Attribute | Description |
 | :--- | :--- |
 | Rebellious Guardian | Taking DMG generates a shield which absorbs DMG up to **20/23/26/29/32**% of max HP. This shield lasts for 10s or until broken, and can only be triggered once every 45s. While protected by the shield, the character gains **12/15/18/21/24**% increased DMG. |
@@ -454,6 +518,7 @@
 {% endtab %}
 
 {% tab title="Details" %}
+
 | Level | Base Atk | HP% |
 | :--- | :--- | :--- |
 | 60 | 327 | 30.4 |
@@ -473,6 +538,7 @@
 
 {% tabs %}
 {% tab title="Description" %}
+
 | Attribute | Description |
 | :--- | :--- |
 | Infusion Blade | On hit, Normal or Charged Attacks increase ATK and DEF by **6/7.5/9/10.5/12**% for 6s. Max 4 stacks \(**24/30/36/42/48**% total\). Can only occur once every 0.5s. |
@@ -481,6 +547,7 @@
 {% endtab %}
 
 {% tab title="Details" %}
+
 | Level | Base Atk | DEF% |
 | :--- | :--- | :--- |
 | 60 | 327 | 38.1 |
@@ -502,6 +569,7 @@
 
 {% tabs %}
 {% tab title="Description" %}
+
 | Attribute | Description |
 | :--- | :--- |
 | Bane of Fire and Thunder | Increases DMG against opponents affected by Pyro or Electro by **12/15/18/21/24**%. |
@@ -514,6 +582,7 @@
 {% endtab %}
 
 {% tab title="Details" %}
+
 | Level | Base Atk | Elemental Mastery |
 | :--- | :--- | :--- |
 | 60 | 234 | 138 |
@@ -533,6 +602,7 @@
 
 {% tabs %}
 {% tab title="Description" %}
+
 | Attribute | Description |
 | :--- | :--- |
 | Blunt Conclusion | After using an Elemental Skill, Normal or Charged Attacks, on hit, deal an additional **60/75/90/105/120**% ATK DMG in a small area. Effect lasts 15s. DMG can only occur once every 3s. |
@@ -541,6 +611,7 @@
 {% endtab %}
 
 {% tab title="Details" %}
+
 | Level | Base Atk | ATK% |
 | :--- | :--- | :--- |
 | 60 | 263 | 25.9 |
@@ -560,6 +631,7 @@
 
 {% tabs %}
 {% tab title="Description" %}
+
 | Attribute | Description |
 | :--- | :--- |
 | Unbending | When HP falls below **70/75/80/85/90**%, increases Charged Attack DMG by **30/35/40/45/50**%, and Charged Attacks become much harder to interrupt. |
@@ -568,6 +640,7 @@
 {% endtab %}
 
 {% tab title="Details" %}
+
 | Level | Base Atk | HP% |
 | :--- | :--- | :--- |
 | 60 | 263 | 25.9 |
@@ -587,6 +660,7 @@
 
 {% tabs %}
 {% tab title="Description" %}
+
 | Attribute | Description |
 | :--- | :--- |
 | Courage | On hit, Normal or Charged Attacks increase ATK by **6/7/8/9/10**% for 6s. Max 4 stacks. Can only occur once every 0.5s. |
@@ -595,6 +669,7 @@
 {% endtab %}
 
 {% tab title="Details" %}
+
 | Level | Base Atk | Phys DMG% |
 | :--- | :--- | :--- |
 | 60 | 263 | 32.3 |
@@ -614,6 +689,7 @@
 
 {% tabs %}
 {% tab title="Description" %}
+
 | Attribute | Description |
 | :--- | :--- |
 | Cull the Weak | Defeating an opponent restores **8/10/12/14/16**% HP. |
@@ -622,6 +698,7 @@
 {% endtab %}
 
 {% tab title="Details" %}
+
 | Level | Base Atk | DEF% |
 | :--- | :--- | :--- |
 | 60 | 263 | 32.3 |

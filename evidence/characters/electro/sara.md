@@ -46,6 +46,34 @@
   * [Imgur](https://imgur.com/a/VLtVaOd): does not trigger enemy aggro/combat mode if sara's initial charged shot does not hit an opponent
   * [Imgur](https://imgur.com/a/x227kWK): the range from which you can trigger enemy aggro (and enter combat mode) with crowfeather is different from a regular charged shot
 
+### Crow feather interactions
+
+**By:** George#0766  
+**Added:** 09/25/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/884708643151446026/891204580174610442/transcript-sara-feather-interaction-with-on-damage-effects.html)
+
+**Finding:**  
+Sara's ambush is the first 0 damage hit in the game for the purpose of triggering its buff on the player character (also AFAIK the first instance of friendly fire). This is exposing the difference between what skills care about being hit versus what skills care about taking damage. One (hard financially cause needs Jean c6) avenue to test this is to try out the 100% damage reduction team
+
+**Evidence:**  
+Does trigger:  
+- Diluc C2 and Beidou C4  even with shield on. Diluc vids: [Youtube](https://youtu.be/Xgh6EvQGX_k), Beidou vids: [Imgur](https://imgur.com/a/VwD3jNS)  
+- Zhongli A1 talent: [Imgur](https://imgur.com/a/VwD3jNS)
+
+Doesn't trigger:  
+- Serpent Spine: [Imgur](https://imgur.com/YVFJnqI)  
+- Beidou parry: [Imgur](https://imgur.com/Fsh9oii)  
+- Aquila: [Imgur](https://imgur.com/yAJWPC2)  
+- The Bell: [Imgur](https://imgur.com/JtILNvC)  
+- XQ rainswords: [Imgur](https://imgur.com/a/I64v06w)  
+- Noelle A1: [Youtube](https://youtu.be/BgT_gpg288o)
+
+Unknown:  
+Alley flash
+
+**Significance:**  
+Insights into feather application mechanics (maybe first 0 damage and friendly fire in game?) as well as clarification on what skills are actually on hit vs. taking damage.
+
 ### Burst Mechanics
 
 * For Sara's ATK buff to apply on burst, a character has to be in a radius of the initial hit equal to the range of the Stormcluster hits. - Bobrokrot#0111
@@ -85,25 +113,101 @@
 
 ### Fluff
 
-* Crowfeather doesn't alarm wild animals. - [gengar#8426](https://imgur.com/a/qkHJaOv)
+* Crowfeather doesn't alarm wild animals. - [gengar#8426](https://imgur.com/a/qkHJaOv)  
 
-## Double Snapshot with Sara's Burst
+## Skill Mechanics  
 
-**By:** Wishiwashi#2548  
-**Added:** 9/7/2021  
-Discussion in Basic Mechanics
+### Sara Skill Patch 2.2 Update  
+
+**By:** NZPIEFACE#8439 and Dooners#6709  
+**Added:** 10/28/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/897677391546163210/903468029562732565/transcript-sara-e.html)  
 
 **Finding:**  
-It's possible to have two different characters snapshot Sara’s burst ATK buff by following Stormcluster with precise positioning/timing. See evidence below for video of 3 attempts.
+After the v2.2 update, Sara's Elemental Skill is much more consistent and predictable in its behaviour now:  
+* The skill will move her almost 3m away from the point of origin.  
+  * Without nearby enemies, it will teleport her backwards. This direction can be controlled with inputs.  
+  * If an enemy is within 15m, she will teleport away from them. She teleports away from the closest enemy.  
+* The movement can generally be predicted by "if it can be walked onto/over, she can teleport onto/over it". There are still a few rare issues with geometry, but that shouldn't be an issue in Abyss.  
+* A functional change from how it worked in v2.1 is that her C2 now places the Crowfeather in the direction of the teleport. This will be placed behind her regardless if Sara actually moved or not.  
+  * The Crowfeather will be placed 1m behind her.  
+  * The Crowfeather will be placed on top of any geometry. It will hang in mid-air if the height of where Sara is and the closest ground is too large.  
+* The AoE of Sara E's buff is a bit over 6m.  
+* The buff from her Crowfeather can also be extended by hitlag.  
+* C1 works off-field.  
 
-**Evidence:** [Imgur](https://imgur.com/a/DIYQPrQ)
+**Evidence:**  
+* Elevation changes are ok unless very drastic, generally if she can walk up a ledge she can teleport over it:
+  * [Slight incline](https://imgur.com/SpPXRsk)  
+  * [Steeper incline](https://imgur.com/6Kp1FiU)  
+  * [Stairs](https://imgur.com/9ofurI0)  
+  * [Ledge](https://imgur.com/wHnyw1y)  
+  * [Ledge again](https://imgur.com/plRd8po)  
+  * [Ledge again, but failed](https://imgur.com/uHxfTVp)  
+* [For walls that she can walk along diagonally, she will also teleport in that direction parallel to the wall](https://imgur.com/Q4nsiXM)  
+* [Direction of skill can be controlled right after skill cast](https://imgur.com/nCyOemw)  
+* Direction cannot be controlled with nearby enemies:  
+  * [Nearby enemies, in combat](https://youtu.be/Cxr58A4gLk8)  
+  * [Nearby enemies, no combat](https://imgur.com/PT1BEHa)  
+  * [Enemies out of range](https://youtu.be/Zb8cPYHIHP4)  
+* [Teleport distance is (1.14 tiles) 2.9m](https://youtu.be/amuRix98c_k)  
+* [Teleporting away from nearest enemy](https://youtu.be/EcKOqG_nnO4)  
+* Weird geometry:
+  * [Tents](https://youtu.be/z1KRGOWs7GY)  
+  * [C2 1m](https://youtu.be/ITKvuRdElHU)
+  * [Onto air](https://youtu.be/36iJ6mA8Aak)
+* Crowfeather buff range:  
+  * [Crowfeather no buff (~2.4 tiles)](https://youtu.be/Oi-jHRFw18E)  
+  * [Crowfeather buffs (~2.35 tiles)](https://youtu.be/o2RzwMrok8Y)  
+* Hitlag Extension:
+  * [Without hitlag](https://youtu.be/g45pC3ZeIP8)  
+  * [With hitlag (around 7s)](https://youtu.be/Mu61tiopAlY)  
+* [Cooldown without C1](https://youtu.be/GQxJAkVRGpY)  
+* [Cooldown with C1](https://youtu.be/wadJvqicW9w)
+* [Fluff](https://youtu.be/JrfYaCUFKwY): It is possible to use her skill in water, even at a depth that she would normally be swimming in. This is because the recovery animation from her skill stops stops her from swimming. Sadly, this cannot be used to go beneath water. Switching to another character will only cause them to start swimming.
 
 **Significance:**  
-This technique is too difficult to pull off consistently to be recommended for normal gameplay purposes. Also, this only worked because I used Fischl/Beidou, who have short animation times here. This is more of an exercise in pushing Sara’s limits.
+We can actually predict what pressing E will do now.  
 
-It may be easier to pull off double snapshots with C2, or at C0/C1 with a rotation like Sara ECA > Swap to Fischl > Wait for Ambush buff > Fischl E > Burst-Quickswap Sara Q > Swap to Beidou > Wait for Stormcluster buff > Beidou Q
+## Ascension Mechanics
 
-## Double Buff with Sara C2
+### A4: Decorum
+
+#### Decorum Energy Regen
+
+**By:** Laurent#2608  
+**Added:** 10/16/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/894240156104659045/899148824566722580/transcript-sara-a4-passive-energy-gen.html)  
+
+**Finding:**  
+Decorum restores 0.012 flat Energy per 1% of Energy Recharge.
+
+**Evidence:**  
+* Sara at 116% ER. Zhongli starts with 0 Energy, the Energy he gains from Sara is unnoticeable. There is little to no change in the Burst gauge: [YouTube](https://youtu.be/QhVRCLq0hqM)  
+* Sara at 184% ER. Zhongli starts with 0 Energy, The Energy he gains from Sara is slightly more.. There is a noticeable spike in the Burst gauge: [YouTube](https://youtu.be/6GQI9p5JwcA)  
+
+**Math Evidence:**  
+Number of A4 procs (from Sara E with C2) it would take to completely fill Burst on its own:  
+* 180% ER Sara:  
+  * 40 Energy: 40 / (0.012 x 180) = 18.5 E procs  
+  * 60 Energy: 60 / (0.012 x 180) = 27.7 E procs  
+  * 80 Energy: 80 / (0.012 x 180) = 37 E procs  
+* 150% ER Sara:  
+  * 40 Energy: 40 / (0.012 x 150) = 22.2 E procs  
+  * 60 Energy: 60 / (0.012 x 150) = 33.3 E procs  
+  * 80 Energy: 80 / (0.012 x 150) = 44.4 E procs  
+ 
+265.3% ER Sara filling Zhongli's Burst in 13 procs: [YouTube vid by Zasshu.#4509](https://youtu.be/wQWrC6JLDJY)
+* 40 / (0.012 x 265.3) = 12.6 E procs, so the video confirms the math.
+
+**Significance:**  
+Decorum's wording implies that you need to hit 100% ER increments to restore more Energy, but this is not true. Sara restores Energy directly based on her ER, so for every 1% of ER, you generate 0.012 flat Energy from Decorum.
+
+## Constellation Mechanics
+
+### C2: Dark Wings
+
+#### Double Buff with Sara C2
 
 **By:** NZPIEFACE#8439 and BowTae#0141
 **Added:** 9/7/2021  
@@ -120,3 +224,57 @@ It's possible to buff 2 different characters, with one Crowfeather from C2 and a
 
 **Significance:**  
 This is possible to perform without cancels but the timing is extremely difficult.
+
+## Synergies/Interactions
+
+### Double Snapshot with Sara's Burst
+
+**By:** Wishiwashi#2548  
+**Added:** 9/7/2021  
+Discussion in Basic Mechanics
+
+**Finding:**  
+It's possible to have two different characters snapshot Sara’s burst ATK buff by following Stormcluster with precise positioning/timing. See evidence below for video of 3 attempts.
+
+**Evidence:** [Imgur](https://imgur.com/a/DIYQPrQ)
+
+**Significance:**  
+This technique is too difficult to pull off consistently to be recommended for normal gameplay purposes. Also, this only worked because I used Fischl/Beidou, who have short animation times here. This is more of an exercise in pushing Sara’s limits.
+
+It may be easier to pull off double snapshots with C2, or at C0/C1 with a rotation like Sara ECA > Swap to Fischl > Wait for Ambush buff > Fischl E > Burst-Quickswap Sara Q > Swap to Beidou > Wait for Stormcluster buff > Beidou Q
+
+### Exact Crowfeather Buff Timing  
+**By:** NZPIEFACE\#8439  
+**Added:** 10/16/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/893285828858630164/899026156769124392/transcript-sara-e-buff-targetting.html)
+
+**Finding:**  
+Tengu Stormcall only buffs the on-field characters the frame before the Crowfeather Explosion.
+
+**Evidence:** [Youtube](https://youtu.be/YjWPpL-4TKw)
+
+**Significance:**  
+Exact timing of the Crowfeather buff.
+
+### Pre-A4 EMC Skill ER Buff with Sara A4
+
+**By:** WellWell#2868 and Nass008#8577  
+**Added:** 11/1/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/903958677164294204/904776894841507850/transcript-emc-er-buff-interaction-with-saras-a4.html)  
+
+**Finding:**  
+Pre-A4 EMC’s E’s skill ER buff does not affect Sara’s A4 passive.  
+
+**Evidence:**   
+2 trials were conducted with Keqing, Sara, and pre-A4 EMC. Keqing starts at 0 energy and always stays off-field. Both trials have Sara E + EMC E done 13 times:  
+- [Trial 1](https://youtu.be/-KujlEHy24I): Sara takes EMC’s E amulets every time before doing Sara’s E.  
+- [Trial 2](https://youtu.be/Bn3tlTtNtIE): Sara does not take any amulets at all.  
+
+Testing:  
+After 12 procs, the off-field Keqing should have 39.6 energy. If EMC’s ER buff actually affects Sara’s A4, one of the Keqings with EMC buffed Sara should have 20% * 1.2 * 12 (procs) = 2.88 more extra energy compared to the non-buffed Sara, and therefore should have her burst up after 12 procs.  
+
+Results:  
+Both Keqings got their burst after 13 procs, regardless of if Sara was buffed by EMC ER buff or not. This would not happen if the interaction actually worked.  
+
+**Significance:**  
+Pre-A4 EMC Skill’s ER buff doesn’t make Sara’s A4 passive generate more energy.  

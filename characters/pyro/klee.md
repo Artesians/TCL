@@ -67,13 +67,15 @@ Klee throws an explosive that bounces three times dealing AoE Pyro DMG. On the l
 | Mine Duration | 15s |
 | Particles | 4 \(-\) |
 | Cooldown | 20s |
-| Bounce GU | 2B |
+| 1st and 2nd Bounce GU | 1A |
+| 3rd Bounce GU | 2B |
 | Mine GU | 1A |
 | Frames | 67 |
 
 * Each mine has its own ICD on Pyro application however if they explode on the same frame the Pyro application will be inconsistent \(max 2A per frame\).
 * Jean, Sucrose and Anemo MC can gather the mines with their vacuum effects, however, Venti cannot do this.
 * Klee's **Jumpty Dumpty**'s split mines shares an ICD on Pyro application with her Normal Attacks.
+* **Jumpy Dumpty** can trigger 2 stacks of the Crimson Witch of Flames 4-Piece Bonus by repeatedly pressing E. This is a bug that has not yet been fixed since Klee's first release.
 {% endtab %}
 
 {% tab title="Sparks \'n\' Splash" %}
@@ -135,6 +137,11 @@ Attacks and Skills have a certain chance to summon sparks that bombard opponents
 | Chained Reactions | 1A | Elemental Burst |
 
 * This is effected by Elemental Burst DMG% from Noblesse Oblige.
+* Has a very small AOE
+* Has a 10% chance to spawn, increasing by 8% per failed attempt until it successfully procs.
+  * Has no ICD for its proc chance, and has 6 different triggers: N1, N2, N3, CA, pressing E, and pressing Q.
+* When nearby 3+ enemies, Klee's C1 has a rare chance to "misfire" causing it to aim in a strange direction (almost always missing the target) or despawn before it even fires.
+* Klee's C1 appears to have a standard ICD for elemental application, and is shared with her burst.
 {% endtab %}
 
 {% tab title="C2" %}
@@ -171,6 +178,9 @@ Increases the Level of Sparks 'n' Splash by 3.
 ### Blazing Delight
 
 While under the effects of Sparks 'n' Splash, other members of the party will continuously regenerate Energy. When Sparks 'n' Splash is used, all party members will gain a 10% Pyro DMG Bonus for 25s.
+
+* Blazing Delight does not stack with itself.
+* Blazing Deligh can snapshot Klee's own Elemental Burst. 
 {% endtab %}
 {% endtabs %}
 

@@ -1,5 +1,9 @@
 # Artifacts
 
+**Main Page:**
+
+{% page-ref page="../../../mechanics/equipment/artifacts.md" %}
+
 ## Archaic Petra
 
 ### Geovishap Hatchling Shields with 4 Petra
@@ -66,6 +70,40 @@ Only 3 out of 46 hits crit, which is statistically improbable with a theoretical
 
 **Significance**:  
 Blizzard Strayer litterally abbreviates to BS.
+
+### 4pc Blizzard Strayer on frozen aura
+
+**By:** Nass008#8577  
+**Added:** 09/14/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/884444524951273523/887180645799960586/transcript-4pc-bs-on-frozen-aura.html)
+
+**Findings**:  
+Blizzard Strayer does not gain full crit rate bonus against frozen aura
+
+**Evidence**:  
+**Preface:**  
+* It is known that some enemies in the game can have innate “frozen” auras.
+* This can be observed in both data-mined files and in-game UI.
+
+1. Data-mined files for Frostarm Lawachurl and Cryo Hypostasis (test subjects for this ticket). Their element type is defined as “Frozen”.  
+[Github](https://github.com/Dimbreath/GenshinData/blob/d633c8cfe5f1f383413a1f65f44d9bd018e5f9be/BinOutput/Ability/Temp/MonsterAbilities/ConfigAbility_Monster_Brute_Ice.json#L926)  
+[Github](https://github.com/Dimbreath/GenshinData/blob/d633c8cfe5f1f383413a1f65f44d9bd018e5f9be/BinOutput/Ability/Temp/MonsterAbilities/ConfigAbility_Monster_Effigy_Ice.json#L351)  
+2. Element symbols shown in-game. The two enemies both have same symbol as frozen enemies instead of cryo element symbol.  
+[Imgur](https://imgur.com/iWVdbrC)
+
+**Testing:**  
+Frostarm Lawachurl : [Youtube](https://youtu.be/8wz8pq8T2hc)  
+Cryo Hypostasis : [Youtube](https://youtu.be/6zyHjbnft4Y)
+
+Against both target:  
+* 60% crit rate + 4pc BS resulted in some non-crit hits, meaning ganyu didn’t get full 40% bonus from 4pc BS set.  
+* 80% crit rate + 4pc BS resulted in all attacks being crit hits, suggesting 20% crit rate bonus on cryo aura being active.
+
+**Conclusion:**  
+Enemies with the “Frozen” aura do not count as “being frozen” for Blizzard Strayer set bonus. Instead, it’s treated like cryo aura and you get only 20% crit rate.
+
+**Significance**:  
+Clarification of interaction between frozen aura and Blizzard Strayer set bonus. Also, Blizzard Strayer still pretty much is bs.
 
 ## Bloodstained Chivalry
 
@@ -239,6 +277,46 @@ Triggering another reaction during 4pc instructor buff extends duration of buff
 **Significance:**  
 The buff time can be extended by swapping back into the carrier and triggering a reaction.
 
+### Instructor Doesn't Apply To Triggering hit
+
+**By:** NZPIEFACE#8439  
+**Added:** 10/17/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/894835774149779546/899112347862433822/transcript-4in-doesnt-apply-to-triggering-hit.html)
+
+**Finding:**  
+4pc Instructor set doesn't apply to the hit/reaction that causes it.
+
+**Evidence:**  
+Non-4pc Instructor on Amber: [Video](https://youtu.be/v9gwgpX45_0)  
+4pc Instructor on Amber: [Video](https://youtu.be/Tav18kHMF3g)
+
+Non-4pc Instructor on Sara: [Video](https://youtu.be/PvuF_mMG0jo)  
+4pc Instructor on Sara: [Video](https://youtu.be/TZll51tVIyM)
+
+Result: The damage is the same for both CAs in both tests.
+
+**Significance:**  
+Damage calculation
+
+### Instructor Ignores Environmental Target And Your Characters
+
+**By:** elijam#7142  
+**Added:** 10/17/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/898398553783799848/899200243520917524/transcript-4ins-doesnt-proc-on-environmental-or-self-rxns.html)
+
+**Finding:**  
+The 4pc Instructors set bonus will not be activated by reactions with non enemies triggered by the holder, including reactions triggered on characters.
+
+**Evidence:**  
+[Video](https://youtu.be/WBJCFpqSP1s): Sara has 97 EM before and after triggering overload on a stove fire.  
+[Video](https://youtu.be/Sv_sMy5EM1g): Chongyun has 110 EM before and after triggering freeze on a river.  
+[Video](https://youtu.be/wecoNW3Y8RQ): Barbara has 141 EM before and after triggering vaporize on a stove fire.  
+[Video](https://youtu.be/mkcNgkjgpAA): Bennett and Razor (both wearing 4ins bc I cba figuring out who triggers) have the same EM before and after triggering overload on themselves.  
+[Video](https://youtu.be/_BehqMrC0jw): Bennett and Razor (both wearing 4ins) have the same EM before and after triggering overload on themselves with an enemy within range to take damage. 
+
+**Significance:**  
+Can't use environmental reactions to set up screenshots. Can't use self reactions to trigger 4ins for sunfire/Razor-Bennett self OL/other self reaction cheese teams. 
+
 ## Maiden Beloved
 
 ### **4pc Maiden's Beloved Increases the Healing Effectiveness of Prototype Amber**
@@ -273,6 +351,29 @@ Healing bonus of 30.8%
 Ningguang was used due to her low burst energy cost \(40\)
 
 Above numbers have being subtracted from 150 \(started with that hp before healing\)
+
+## Noblesse Oblige
+
+### Self 4NO Interactions
+
+**By:** gtrain#9987  
+**Added:** 09/22/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/876190240774172692/890105896015912960/transcript-self-4no-interactions.html)
+
+**Finding:**  
+Documentation for all units on whether their own 4no set affects their burst.
+
+* Previously known inconsistencies: Beidou, Ningguang
+* Newly documented as inconsistent: AMC, Sayu, Aloy
+* Does not receive 4NO: Ganyu
+
+Non snapshot units are still tested to see if the buff applies in time for the first instance of damage from their burst (like Eula, Keq), since there are other on-burst effects, like MSR, that do not consistently apply in time.
+
+**Evidence:**  
+[Spreadsheet](https://docs.google.com/spreadsheets/d/1jhIP3C6B16nL1unX9DL_-LhSNaOy_wwhdr29pzikpcg/edit#gid=0)
+
+**Significance:**  
+Whether you should run 4NO.
 
 ## Pale Flame
 
@@ -719,9 +820,9 @@ Proc hydro swirl, and then electro swirl. Check if both hydro resist debuff AND 
 
 **Results:**
 
-\_\*\*\_Theory was confirmed. See video for evidence.
+Theory was confirmed. See video for evidence.
 
-[**https://youtu.be/FUnEjxmgJx4**](https://youtu.be/FUnEjxmgJx4)
+[https://youtu.be/FUnEjxmgJx4](https://youtu.be/FUnEjxmgJx4)
 
 **Conclusion:** This means that anemo supports that can proc multiple swirl infused with different elements rapidly can have multiple elements resist debuffs applied at the same time. Venti Burst OP
 
@@ -862,7 +963,7 @@ For characters building around triggering transformative reactions, if they do n
 
 **Finding:**  
 4VV swirl damage set bonus is more valuable than 104 EM at 304 initial EM from artifact main stats, artifact subs, weapon secondary stats and passives, and ascension; 160EM at 842 initial EM; and 200EM at 1168 initial EM; when only swirl damage is taken into account.  
-These numbers were chosen to represent the value of 2WT2Ins, 4Ins with 4pc bonus active, and 4Ins with 4pc bonus active but set bonus discounted by 96EM to account for the loss of EM from downgrading two 5* main stat artifacts to 4* artifacts.
+These numbers were chosen to represent the value of 2WT2Ins, 4Ins with 4pc bonus active, and 4Ins with 4pc bonus active but set bonus discounted by 96EM to account for the loss of EM from downgrading two 5-star main stat artifacts to 4-star artifacts.
 
 **Evidence:**  
 Desmos chart for calculations: [Desmos Link](https://www.desmos.com/calculator/yeeskwsw42)
@@ -908,7 +1009,7 @@ Substats are distributed evenly except for flat Def for some reason, which is si
 
 **Theory:** Substats for artifacts are unevenly distributed, with flat substats weighted higher than other substats, and crit substats weighted lower than other substats.
 
-**Evidence:** TL;DR - We have the datamined substat probabilities from this link: [Dimbreath's datamine](https://github.com/Dimbreath/GenshinData/blob/main/Excel/ReliquaryAffixExcelConfigData.json)
+**Evidence:** TL;DR - We have the datamined substat probabilities from this link: *Link lost to the sands of time*
 
 Image summarizing this data is here: [Imgur](https://imgur.com/k2d3S3J)
 
@@ -925,6 +1026,3 @@ I pulled out data for 4 substat and 3 substat artifacts to analyze separately si
 More data would be needed to reach stronger conclusions. As of right now, there's only enough data to get a sense of the right substat probabilities, but the ones assumed below are highly subject to change.
 
 **Significance:** The artifact grind is real and artifacts with good substats are rarer than you'd naively expect since you'll see ones with flat substats much more often.
-
-
-

@@ -116,11 +116,38 @@ Test 3: Vaporize
 
 Testing was done using Diona @ around 40% crit rate spamming normal attacks with an R1 favonius warbow, and a Xingqiu @ around 40% crit rate using normal attacks with an R1 favonius sword. 3 minutes on average I attacked a hydro abyss mage and a shielded cyro slime, on both characters. All 4 tests resulted in 0 procs. When shields were broken, favonius proc'd as expected \(60% chance per crit\). Shielded fatui skirmishers on the other hand, does not prevent favonius from working since it does not block dmg completely like the others.
 
-**Short demonstration**: [https://streamable.com/l87jqj](https://streamable.com/l87jqj)
+**Short demonstration**: *Streamable link lost to the sands of time*
 
 **Significance**:
 
 Favonius weapons suffer the same drawback as sacrificial and does not provide itself as an alternative weapon choice against shielded enemies. This leaves favonius where it was before, the inferior option against sacrificial unless you have no better.
+
+### Favonius Weapons Procs On Multiple Enemies
+
+**By:** Nass008#8577  
+**Added:** 10/26/2021  
+[Disscussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/885554549983678475/890088612354478150/transcript-sac-and-fav-weapons-against-multi-targets.html)
+
+**Finding:**  
+Favonius weapons passive proc per enemy against multiple targets
+
+**Evidence:**  
+Tested with R2 Favonius Sword (70% proc chance) and 100% crit rate  
+Using Xinyan E (duration 12s) to time passive cooldown  
+
+Expected proc chance if the passive proc per enemy : 91%  
+1 - 0.3^2 = 0.91
+
+Result : 134 attempts, 123 proc, 11 non-proc  
+91.8% proc chance
+
+[Video 1](https://youtu.be/ZimedXXk07w) (21 attempts)  
+[Video 2](https://youtu.be/zanvJ9V9K0U) (48 attempts)  
+[Video 3](https://youtu.be/UyUWYnMFCCE) (65 attempts)
+
+
+**Significance:**  
+Favonius Weapons are more effective on character with large AOE abilities/against multiple targets 
 
 ## Millennial Movement Series
 
@@ -243,6 +270,33 @@ https://youtu.be/PrXV4em0ssc
 
 **Significance:** Royal weapons have an increased efficiency in situations when the holder triggers Overload, Swirl or Superconduct due to the fact that they can potentially always have at least 1 stack.
 
+### Mathematical Analysis of Royal Weapon Effective Crit Rate
+
+**By:** NZPIEFACE\#8439  
+**Added:** 10/28/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/896590252930633728/903505119679750204/transcript-royal-weapons-have-extremely-diminishing-returns.html)  
+
+**Finding:**  
+A mathematical formula to find the effective crit rate of Royal weapons is not yet in the library, there is only a table and a simulation.
+
+Use the following equation to analytically calculate for the final Crit Rate after using Royal Weapons:  
+```
+a = 1 - base_cr
+b = 1 - base_cr - cr_from_royal
+c = 1 - base_cr - cr_from_royal * 2
+d = 1 - base_cr - cr_from_royal * 3
+e = 1 - base_cr - cr_from_royal * 4
+f = 1 - base_cr - cr_from_royal * 5
+effective_cr = 1/(1 + a + a*b + a*b*c + a*b*c*d + a*b*c*d*e/(1-f))
+```
+
+**Evidence:**  
+Math and explanation in here: [Google Doc](https://docs.google.com/document/d/1m1SLYcYBJVwCH_CpEgJgvnQOMB39iLAJZ9iNyT9EeLQ/)  
+There is a python function in the doc to calculate effective crit rate from character crit rate and weapon refinement level. It's a useful tool if anyone ever wants to get this to work with fringe snapshot builds.
+
+**Significance:**  
+It was found that the crit rate that the weapons’ passive had decreased the higher the crit rate of the character was. The passive of the weapons performs poorly in comparison to other crit value stat sticks (Blackcliff series that is also from the shop, Harbinger of Dawn, etc.), and is only really comparable at extremely low values of investment into crit rate. While there is an argument that these would have value in the hands of new players who cannot invest into crit rate that much, it would also be a terrible long term investment for them as the weapon would naturally become worse and worse as they play.  
+
 ## Sacrificial Series
 
 ### Sacrificial Weapons do not proc on Shielded Enemies
@@ -252,7 +306,7 @@ https://youtu.be/PrXV4em0ssc
 
 **Evidence:** Testing was done with Diona hold E with R1 sacrificial bow and XQ E with R1 sacrificial sword. Both units used 50 E skills on shielded pyro abyss mages and shielded geo slimes with 0 procs for both cases. When shields were broken, sac weapon procs were as expected. \(40% chance per hit on R1\)
 
-**Short Demonstration:** [https://streamable.com/nm57p6](https://streamable.com/nm57p6)
+**Short Demonstration:** *Streamable video lost to the sands of time*
 
 **Significance:** This has many applications in combat, especially in abyss where timed trials will be affected by proc frequency and subsequently burst uptime. Sacrificial weapons are among the best support options so understanding their mechanics are necessary.
 
@@ -288,6 +342,32 @@ I documented every Sacrificial Weapons' interactions with characters that have E
 **Significance:**  
 Helpful for character building, documents which characters are able to proc sacrificial weapons with multi-hit skills
 
+### Sacrificial Weapons Procs On Multiple Enemies
+
+**By:** Nass008#8577  
+**Added:** 10/26/2021  
+[Disscussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/885554549983678475/890088612354478150/transcript-sac-and-fav-weapons-against-multi-targets.html)
+
+**Finding:**  
+Sacrificial weapons passive proc per enemy against multiple targets
+
+**Evidence:**  
+Tested with R3 Sacrificial Sword (60% chance to proc) against two targets  
+Using Noelle E (cooldown 24s) to time passive cooldown  
+
+Expected proc chance if the passive proc per enemy : 84%  
+1 - 0.4^2 = 0.84　
+
+Result : 137 attempts, 114 proc, 23 non-proc  
+83.2% proc chance
+
+[Video 1](https://youtu.be/vHiuD6Sw0os) (32 attempts)  
+[Video 2](https://youtu.be/q2rRpkOizWo) (49 attempts)  
+[Video 3](https://youtu.be/K7lhvmV2-ZM) (56 attempts)  
+
+**Significance:**  
+Sacrificial Weapons are more effective on character with large AOE skills/against multiple targets
+
 ## Specific Weapon Mechanics
 
 ### Amenoma Kageuchi  
@@ -304,6 +384,23 @@ Helpful for character building, documents which characters are able to proc sacr
 
 [100% ER](https://imgur.com/5qW7jew) [232% ER](https://imgur.com/6yVUgt7)
 
+### Engulfing Lightning
+
+#### 4 ESF Interractions
+
+**By:** Vye#9195  
+**Added:** 09/11/2021  
+[Discussions 1](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/882481705213108255/886295072927277096/transcript-engulfing-lightning-4esf-interaction.html) [Discussion 2](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/882486597130547260/886295126341742602/transcript-engulfing-lightning-4esf-snapshot.html)  
+
+**Finding:**  
+4ESF DMG% bonus works with the ER% from Engulfing Lightning's effect but does not snapshot.  
+
+**Evidence:**  
+[Buff Evidence](https://www.youtube.com/watch?v=esmABsiaOjY) Vye's stats, shown in video, are calculated for burst damage here assuming that the ER passive from Grasscutter does affect the 4-piece ESF set: (804+899) * (1+1.098) * (1+0.466+0.582) * (0.9) * ((100+70)/((100+70)+(100+85))) * 2.508 = 7909 Which about matches up with the damage number of 7906 in the video.  
+[No snapshot evidence](https://www.youtube.com/watch?v=asYD3tzpvC0) In the video, Engulfing Lightning is being used. The ending hits of Xiangling's burst are lower damage, indicating that the Burst DMG% from Engulfing Lightning's additional ER bonus on burst cast has worn off. 
+
+**Significance:**  
+Grasscutter + 4ESF have better synergy.  
 
 ### Hakushin Ring  
 
@@ -401,24 +498,6 @@ Switched to a character with Lost Prayer, observed 0% DMG Bonus. Went into comba
 
 **Significance**: Potential implication for unforged? And you can't get a free shield for memory of dust in your Klee/Xingqiu team.
 
-### Engulfing Lightning
-
-#### 4 ESF Interractions
-
-**By:** Vye#9195  
-**Added:** 09/11/2021  
-[Discussions 1](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/882481705213108255/886295072927277096/transcript-engulfing-lightning-4esf-interaction.html) [Discussion 2](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/882486597130547260/886295126341742602/transcript-engulfing-lightning-4esf-snapshot.html)  
-
-**Finding:**  
-4ESF DMG% bonus works with the ER% from Engulfing Lightning's effect but does not snapshot.  
-
-**Evidence:**  
-[Buff Evidence](https://www.youtube.com/watch?v=esmABsiaOjY) Vye's stats, shown in video, are calculated for burst damage here assuming that the ER passive from Grasscutter does affect the 4-piece ESF set: (804+899) * (1+1.098) * (1+0.466+0.582) * (0.9) * ((100+70)/((100+70)+(100+85))) * 2.508 = 7909 Which about matches up with the damage number of 7906 in the video.  
-[No snapshot evidence](https://www.youtube.com/watch?v=asYD3tzpvC0) In the video, Engulfing Lightning is being used. The ending hits of Xiangling's burst are lower damage, indicating that the Burst DMG% from Engulfing Lightning's additional ER bonus on burst cast has worn off. 
-
-**Significance:**  
-Grasscutter + 4ESF have better synergy.  
-
 ### Mistsplitter Reforged  
 
 #### Mistsplitter's stacks upon burst usage:  
@@ -459,7 +538,7 @@ Damage calculation
 
 ### Primordial Jade-Winged Spear
 
-#### **PJWS On Hit Definision**
+#### **PJWS On Hit Definition**
 
 **By:** Vye\#9195  
 **Added:** 04/15/2021
@@ -483,6 +562,28 @@ New gained stacks on PJWS will extend the duration of existing stacks, beyond th
 [Video](https://www.youtube.com/watch?v=z7c06AGCjsI)
 
 **Significance:** XBDIT can stack PJWS for her second pyronado.
+
+### Prototype Amber  
+
+#### Prototype Amber Healing Clarification  
+
+**By:** Reens#9389  
+**Added:** 10/26/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/902702182086868993/902796682113204314/transcript-prototype-amber-healing-clarification.html)  
+
+**Finding:**  
+Prototype Amber's heal (4% rounded down) is based off the Max HP of the character being healed, not the max HP of the character equipped with the catalyst.  
+
+**Evidence:**  
+[Imgur](https://imgur.com/hof4TQg)  
+Sucrose equipped with R1 Prototype Amber - max HP 15082 (4% rounded down is 603 hp):  
+* Tartaglia Max HP 21466, Healed 858  
+* Beidou Max HP 20162, Healed 806  
+* Bennett Max HP 16163 Healed 646  
+
+**Significance:**  
+Stacking HP on a Prototype Amber wielder will not increase its healing.
+
 
 ### Prototype Starglitter
 
@@ -661,6 +762,31 @@ Explanation: The crystalize shield is created by a level 50 character with 0 EM,
 
 **Significance:** Although there's better claymores, this makes The Bell significantly better than the passive description lets on. Makes for an ok Noelle weapon if prototypes are being used on another character.
 
+### Luxurious Sea-Lord
+
+#### Luxurious Sea-Lord interactions
+
+**By:** CQLQRS#7853  
+**Added:** 10/09/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/892193182488621126/896129073586241586/transcript-fish-claymore-interactions.html)
+
+**Finding:**  
+Fishmore aka Luxurious Sea Lord has a passive that summons a titanic tuna to deal damage once every 15 seconds when the character's burst hits a target. Like other similar passives such as the ones in Prototype Archaic and Star Tombed Starsilver, it only procs when the wielder is on field.
+
+**Evidence:**  
+CBeidou on field part 1: [Imgur](http://imgur.com/a/UwKuXS5)  
+Beidou on field part 2: [Imgur](http://imgur.com/a/wF9gBqe)  
+Beidou off field: [Imgur](http://imgur.com/a/vTsp1nk)  
+Eula A4 (by ZyronX#2720): [Imgur](https://imgur.com/NGaENqc)  
+Eula off field (by ZyronX#2720): [Imgur](https://imgur.com/o9pwCEU)  
+Sayu on field (by ZyronX#2720): [Imgur](https://imgur.com/eWbY6Oo)  
+Sayu off field (by ZyronX#2720): [Imgur](https://imgur.com/wSb0g3M)  
+AOE finding part 1: [Youtube](https://youtu.be/oNb9mnl2aXA)  
+AOE finding part 2: [Youtube](https://youtu.be/GH2EAS-rcus)
+
+**Significance:**  
+The passive procs as intended similar to the other mentioned previously. However, ZyronX has confirmed that the passive has an aoe that can affect multiple targets with a single proc. It should be easier to do this if an anemo cc such as venti burst was used.
+
 ### The Flute
 
 #### The Flute’s AOE can CRIT
@@ -706,7 +832,70 @@ WGS procs do not stack and the most recent proc overwrites the existing proc, ev
 **Significance:**  
 Multiple WGS can kinda suck if they're not equal refine
 
+### Aquila Favonia
+
+#### Aquila Favonia Proc And Shield Interaction
+
+**By:** gvo#4200  
+**Added:** 10/26/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/884586464292261949/902500308381495326/transcript-aquila-proc-and-shield-interaction.html)
+
+**Finding:**  
+There is some inconsistency with shielded sword characters and aquila favonia procs.
+
+**Evidence:**  
+[YouTube](https://youtu.be/mEgcnveyTrg): Bennett with Diona's shield
+
+[YouTube](https://youtu.be/ZSd-3ke6YmQ): Xingqiu with Diona's shield
+
+The videos show:  
+1/ How aquila does not proc when protected by a shield  
+2/ How aquila can proc while in burst iframes, without a shield  
+3/ How aquila can proc while in burst iframes, while protected by a shield
+
+**Significance:**  
+This interaction may affect other "triggers on taking dmg" + shield interactions. The only other ability I can think of that could be similarly affected would be Zhongli A2.
+
 ## General Mechanics
+
+### Event Weapons Cannot be Foddered
+
+**By:** CQLQRS\#7853  
+**Added:** 16/10/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/894750392875876352/898918637547696128/transcript-event-weapons-cannot-be-foddered.html) 
+
+**Finding:**  
+Event weapons, locked or not, will not appear in the enhance menu of other weapons.  
+
+**Evidence:**  
+* [Dodoco Tales](https://imgur.com/a/Oh1ICPz)
+* [Luxurious Sea Lord](https://imgur.com/a/jIEmG1f)
+* [Windblume Ode](https://imgur.com/a/bfCBVJd)
+* [Festering Desire](https://imgur.com/FI743Gq)
+
+**Significance:**  
+Prevents accidental foddering of once in a lifetime event weapons.
+
+### Weapon Stats for Inactive Characters
+
+**By:** Reens\#9389
+
+**Added:** 16/10/2021
+
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/896218177569194004/898767346217398282/transcript-weapon-stats-for-inactive-characters.html)
+
+**Finding**: Certain weapon passives do not apply their effect on character stat pages for out-of-party characters. This only applies to weapons that either: 1) have a conditional stat buff or 2) provide one stat in relation to another. 
+
+**Evidence**:
+* [Deathmatch (conditional ATK%)](https://imgur.com/gOIr6g4)
+* [Harbinger of Dawn (conditional crit rate)](https://imgur.com/CfL8jtd)
+* [Lithic Series:  Spear & Blade (conditional ATK% and Crit %)](https://imgur.com/a/g7XHSXo)
+* [Sword of Descension (conditional ATK)](https://imgur.com/0LnBMth)
+* [Engulfing Lightning (ER to ATK %)](https://imgur.com/JReI6Ii)
+* [Jade Cutter (HP to ATK)](https://imgur.com/Nf5F426)
+* [Staff of Homa  (HP to ATK)](https://youtu.be/WhlTPu7A59o)
+
+**Significance**: Characters using these weapons must be in your active party when their stats are viewed to get active numbers.
 
 ### Attack Speed Buffs on Claymores
 
@@ -744,55 +933,6 @@ The spreadsheet has three main columns - for low, medium, and high stats. Each o
 **Significance**
 
 Memory of dust can actually be strong, even without a shield doubling its effect. Widsith is around ~20% weaker than 5\* catalysts in general outside its burst window, and ~10% stronger during the burst window at R1 and ~30% stronger at R5.
-
-### Does a Weapon’s ATK% Substat Compensate for a Lower Base ATK
-
-**Added:** 11/9/2020
-
-**Methodology:** Comparing between ALL characters Base Atk at lv80/80 with ALL 4 Star Weapon at lv80/80.
-
-**At level 1/20:**
-
-* Weapons with Base Atk of 41 will have a \(hypothetical\) atk% of 12%
-* Weapons with Base Atk of 42 will have a \(hypothetical\) atk% of 9%
-* Weapons with Base Atk of 44 will have a \(hypothetical\) atk% of 6%
-
-**At level 80/80:**
-
-* Weapons with Base Atk of 41 will have a 401 Base Atk and \(hypothetical\) atk% of 50.3%
-* Weapons with Base Atk of 42 will have a 449 Base Atk and \(hypothetical\) atk% of 37.7%
-* Weapons with Base Atk of 44 will have a 497 Base Atk and \(hypothetical\) atk% of 25.1%
-
-Characters do not include 1.1 characters.
-
-I made a [calculator](https://docs.google.com/spreadsheets/d/1OoxHIZ1rOxvIke2DI8GVCHP1qSDTuzXQgZKB1zslqCE/copy) that takes into account Artifact Stats \(Feather Atk, Flat Atk substat, and Atk%\)
-
-![Evidence at 46.6% \(From ATK% Sands\)](https://github.com/Artesians/TCL/tree/f8b25754c0edfaad6bd1708c2f5a2d2d346d63d6/.gitbook/assets/atk-compensate1.png)
-
-![Evidence at 70% \(From Artifact Substats\)](https://github.com/Artesians/TCL/tree/f8b25754c0edfaad6bd1708c2f5a2d2d346d63d6/.gitbook/assets/atk-compensate2.png)
-
-Editor’s Note: Jiangling = Xiangling, Explosion = Klee, Zinc Chew = Xingqiu
-
-**Conclusion:** Since different characters have different base stats, there exist a different OPTIMUM point where a weapon is objectively better than the other.
-
-**Significance:**
-
-* 4 Star Characters will perform BETTER when equipped with weapons that has HIGHER Base Atk if you are running a 46.6% Atk% Timepiece Artifact.
-* 5 Star Characters have higher Base Atk, and instead performs BETTER when equipped with weapons that has MEDIUM Base Atk if you are running a 46.6% Atk% Timepiece Artifact. However, as ATK% increases \(from artifact substats\) to roughly 70%, weapons that has HIGHER Base Atk will perform BETTER.
-
-### Range Cap for Arrows
-
-**By:** Poyo\#6921  
-**Added:** 2/4/2021
-
-**Finding**: There is a cap range for an arrow - the further you go after that cap the lower damage you deal.
-
-**Evidence**:
-
-* [https://streamable.com/pnfumf](https://streamable.com/pnfumf) \(Amos test\) 
-* [https://streamable.com/cq83a6](https://streamable.com/cq83a6) \(Sac Bow test\) 
-
-**Significance**: Damage just falls off after a certain range, and it got lower the further I went, so you don't have to try to snipe stuff so far away
 
 ### Refinement Costs
 

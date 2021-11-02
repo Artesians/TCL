@@ -29,6 +29,7 @@
 {% tab title="Findings" %}
 * The 4p set bonus does not snapshot. The Crit Rate increase is Dynamic, and changes your Crit Rate in real time.
 * The 4p set bonus does not apply on the hit that applies Frozen.
+* Enemies with the “Frozen” aura do not count as “being frozen” for the 4p set bonus. They need to be literally frozen. Otherwise, it will be treated as just a cryo aura, and you get only 20% crit rate.
 {% endtab %}
 {% endtabs %}
 
@@ -128,6 +129,10 @@
 {% tab title="Description" %}
 * 2 Piece Set Bonus: Elemental Burst DMG +20%
 * Using an Elemental Burst increases all party members' ATK by 20% for 12s. This effect cannot stack.
+{% endtab %}
+
+{% tab title="Findings" %}
+* There are inconsistencies in whether a character wielding 4NO can receive the 4-pc Set Bonus on their Elemental Burst or not. Check the Evidence Vault for more details.
 {% endtab %}
 {% endtabs %}
 
@@ -297,7 +302,9 @@
 
 {% tab title="Findings" %}
 * The 4pc set bonus requires its user to be on the field when the Elemental Reaction is triggered.
+* The 4pc set bonus doesn't apply to the 1st hit/reaction that triggers it.
 * Triggering another reaction during 4pc set buff extends its duration.
+* The 4pc set bonus will not be activated by reactions on non-enemy entities (environmental objects, self-infused,...).
 {% endtab %}
 {% endtabs %}
 

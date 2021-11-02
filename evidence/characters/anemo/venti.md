@@ -16,15 +16,22 @@
 
 **Evidence:** [Video](https://cdn.discordapp.com/attachments/834085780611137607/842113118805295134/Venti-E-N-Swap.mp4)
 
-**Significance:** Allows you to save a second of animation time when switching character after using Venti's elemental skill.
+**Significance:** Allows you to save a second of animation time when switching character after using Venti's elemental skill.  
+
+### Venti 10 Frame Elemental Skill
+
+**By:** Charliex3000#9403  
+**Added:** 10/18/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/894423798416310304/899832505866289192/transcript-10-frame-venti-e.html)
+
+**Finding:** Venti Elemental Skill can consistently be cancelled at 10 frames.
+
+**Evidence:** [YouTube](https://youtu.be/PWJ7Z-Gb-KE)  
+The inputs are: Hold E for 9 frames. Release E. Press Q.  
+
+**Significance:** Saves around 10 frames on E-Q combo (20 frames E -> 10 frames E).  
 
 ## Burst Mechanics
-
-### Venti Burst Analysis
-
-**By:** KleefulFrames\#6735
-
-Link [here](https://docs.google.com/spreadsheets/d/18SqSQzSyfQP4X2NGcXkubQ9NzC0BdT1Jxt0I1TL_zGs/edit#gid=2088924426).
 
 ### Venti Q Absorbed Element ICD
 
@@ -69,6 +76,26 @@ When elemental absorption happens late into a Venti Q, the damage from elemental
 The last tick of the hydro damage caused by Venti's burst elemental infusion is at about 18 seconds. The hydro aura fully disappears at about 27 seconds, which means that the damage caused is 1U.
 
 **Significance:** Can help calculate the elemental application rate of Venti's burst, along with determining how reactions should work against enemies caught in an infused Venti burst.
+
+### Venti Burst Anemo Gauge Units
+
+**By:** Charliex3000#9403  
+**Added:** 09/17/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/887526029508354099/888246550936043610/transcript-venti-ult-anemo-gauge.html)
+
+**Finding:**  
+Venti ult anemo gauge is 1U.
+
+**Evidence:**  
+[Youtube](https://youtu.be/Arq_x6nFs6s)
+
+[Imgur](https://imgur.com/a/QK1y6oa): From this screenshot, we see that the shield has taken about 10 or 11 pixels of damage, out of a total 111 pixel shield.  
+Lector shields have need 72 anemo units worth of guage to break.  
+So we conclude that around 7 anemo units were applied from the 7 swirls/applications from Venti's ult.  
+Thus each application is 1U.
+
+**Significance:**  
+Venti ult anemo gauge is 1U.
 
 ## Constellation Mechanics
 

@@ -26,6 +26,7 @@ description: >-
 
 {% tabs %}
 {% tab title="Ancient Sword Art" %}
+
 **Normal Attack**  
 Perform up to 5 rapid strikes.
 
@@ -55,6 +56,7 @@ Plunge from mid-air to strike the ground below dealing AoE DMG.
 | Plunge DMG | 92.93% |
 | Low Plunge DMG | 185.81% |
 | High Plunge DMG | 232.09% |
+
 {% endtab %}
 
 {% tab title="Adeptus Art: Herald of Frost" %}
@@ -78,6 +80,7 @@ Qiqi brings forth the **Herald of Frost**, dealing Cryo DMG to surrounding oppon
 | CD | 30s |
 | Frames | 57 |
 | MV/s | 141.5%/s |
+
 {% endtab %}
 
 {% tab title="Adeptus Art: Preserver of Fortune" %}
@@ -85,7 +88,7 @@ Marks nearby opponents with a **Fortune-Preserving Talisman** that deals Cryo DM
 
 **Fortune-Preserving Talisman**
 
-* When opponents affected by this Talisman take DMG, the character that dealt this DMG regenerates HP.
+* When opponents affected by this **Talisman** take DMG, the character that dealt this DMG regenerates HP.
 
 | Effect | Talent 6% |
 | :--- | :--- |
@@ -98,9 +101,11 @@ Marks nearby opponents with a **Fortune-Preserving Talisman** that deals Cryo DM
 | Frames | 112 |
 | MV/s | 213.6%/s |
 
-* Qiqi's Talisman will heal characters attacking the target to which the talisman is applied as long as the damage dealt to the target is **BOTH**
-  * based on the attacking character's stats
-  * dealt by a character which is currently on-field
+* **Fortune-Preserving Talisman** is dynamic and does not snapshot any ATK bonus.
+  * The healing scales off Qiqi's ATK, not the active character's ATK.
+  * The healing will occur as long as the attack hits, regardless dealing any DMG or not.
+  * The healing has an ICD of approximately 1 second
+  
 {% endtab %}
 {% endtabs %}
 
@@ -132,7 +137,7 @@ When Qiqi hits opponents with hey Normal and Charged Attacks, she has a 50% chan
 {% tab title="C1" %}
 ## Ascetics of Frost
 
-When the Herald of Frost hits an opponent marked by a **Fortune-Preserving Talisman**, Qiqi regenerates 2 Energy.
+When the **Herald of Frost** hits an opponent marked by a **Fortune-Preserving Talisman**, Qiqi regenerates 2 Energy.
 {% endtab %}
 
 {% tab title="C2" %}
@@ -144,7 +149,7 @@ Qiqi’s Normal and Charge Attack DMG against opponents affected by Cryo is incr
 {% tab title="C3" %}
 ## Ascendant Praise
 
-Increases the Level of Adeptus Art: Preserver of Fortune by 3.
+Increases the Level of **Adeptus Art: Preserver of Fortune** by 3.
 {% endtab %}
 
 {% tab title="C4" %}
@@ -156,7 +161,7 @@ Targets marked by the **Fortune-Preserving Talisman** have their ATK decreased b
 {% tab title="C5" %}
 ## Crimson Lotus Bloom
 
-Increases the Level of Adeptus Art: Herald of Frost by 3.
+Increases the Level of **Adeptus Art: Herald of Frost** by 3.
 {% endtab %}
 
 {% tab title="C6" %}
@@ -229,8 +234,7 @@ Using **Adeptus Art: Preserver of Fortune** revives all fallen party members nea
 
 ## **External Links**
 
-* [**Genshin Impact Fandom**](https://genshin-impact.fandom.com/wiki/Qiqi)
-* [**Qiqi Mains Discord**](https://discord.gg/VjsGaVbWre)
+* [Genshin Impact Fandom](https://genshin-impact.fandom.com/wiki/Qiqi)
 
 **Evidence Vault:**
 

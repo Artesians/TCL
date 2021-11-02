@@ -4,7 +4,39 @@
 
 {% page-ref page="../../../characters/geo/zhongli.md" %}
 
-## Zhongli's Ascension 1 broken down
+## Skill Mechanics
+
+### Construct Resonance Mechanics
+
+**By:** TunaPotato\#9114  
+**Added:** 9/24/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/891048091225038888/891127648288383026/transcript-zhongli-pillar-mechanics.html)
+
+**Finding 1:**  
+Construct resonance hits as many times as there are constructs
+
+**Evidence:**  
+[Video:](https://youtu.be/6mUqRTjVgBE) With 1 Stele and 2 geo constructs, there are 3 instances of geo damage on the ruin guard per pulse
+
+**Significance:**  
+The greater the number of geo constructs on the field the more damage resonance will deal (of course counting on the fact that each resonance hits the target)
+
+**Finding 2:**  
+The resonance produced by each Stele is independant of each other
+
+**Evidence**  
+This was tested using two steles and one geo construct. As can be seen clearly from the [targetless example](https://youtu.be/5tU76Qn7V_U), the geo construct pulses twice in 2s - once for each steele.
+This is further shown in the [example with a target](https://youtu.be/naC-dy0jECw). There are two Steles present, A and B as well as one geo construct C. As shown, the pulses AC and BC hit separately in a 2s window, each doing two instances of damage for a total of 4 instances of damage in 2s.
+
+**Significance:**  
+This shows that with c1 Zhongli or during co-op, the presence of more than one Zhongli pillar allows more resonance damage within a given window. With b being the resonance damage with one seele in one 2s window and n being the number of steeles, the total resonance damage would be nb.
+In other words having two pillars from c1 will double the damage from resonance
+
+## Ascension Mechanics
+
+### A1: Resonant Waves
+
+#### Zhongli's Ascension 1 broken down
 
 **By:** 3b00d\_09\#2235  
 **Added:** 4/28/2021  
@@ -43,7 +75,7 @@ On a side note, recasting Jade Screen before it breaks will reset the Fortificat
 
 **Significance:** This allows for more accurate Zhongli shield calculations, as well as any future characters with a similar mechanic.
 
-## Zhongli A1 Has No/Negligible ICD
+#### Zhongli A1 Has No/Negligible ICD
 
 **By:** JonahFarc\#7056  
 **Added:** 4/26/2021  
@@ -53,32 +85,42 @@ On a side note, recasting Jade Screen before it breaks will reset the Fortificat
 
 **Evidence:**
 
-[\[Video\] Walked into dendro samachurl burn and immediately checked character window to see shield strength maxed](https://youtu.be/nrML_xrMJPc)
+[Video:](https://youtu.be/nrML_xrMJPc) Walked into dendro samachurl burn and immediately checked character window to see shield strength maxed
 
 **Significance:**
 
 Zhongli's shield is ridiculously effective against DoT as it stacks immediately to maximum.
 
-## Fischl C6 does not always Proc on Zhongli's first Normal Attack
+#### Zhongli A1 Persists on Swap
 
-**By:** muakasan\#2792  
-**Added:** 01/07/2021
+**By:** Latiwings\#3308  
+**Added:** 10/16/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/893176410301141012/899029975208964147/transcript-zhongli-shield-tech.html)
 
-**Bug/Finding:**
+**Finding:**
+Zhongli's shield tech  
+1. Shield Strength from gained from A4 persist upon swap  
 
-Fischl C6 does not always proc on Zhongli's first normal attack. When chaining multiple Zhongli attack sequences together, after the first sequence, the c6 does not proc on the first normal of the subsequent sequences.
+2. However, it does not persist upon refresh.  
+2b. Above also applies if it's refresh from C2.
 
 **Evidence:**
 
-[https://youtu.be/\_hEXbDqPtfo](https://youtu.be/_hEXbDqPtfo), as we can see Zhongli's first normal attack in the second and third attack sequence does not proc a fischl c6 proc
+Shield Strength from gained from A4 persist upon swap [Imgur](https://imgur.com/LBixuhT)
 
-Pausing between sequences \([https://youtu.be/QmN3a94XPBI](https://youtu.be/QmN3a94XPBI)\), and dash canceling after the sequence \([https://youtu.be/JBQUbJp0hks](https://youtu.be/JBQUbJp0hks)\) seems to avoid the problem and the c6 proc occurs as normal.
+Shield Strength doesn't persist upon refresh [Imgur](https://imgur.com/AtSNAE3)
+
+Shield Strength doesn't persist upon C2 refresh [Imgur](https://imgur.com/m8tRdZY)
 
 **Significance:**
 
-Allows for more accurate DPS calculations when using Zhongli and c6 fischl together.
+Shield management.
 
-## Zhongli C2 Mechanics
+## Constellation Mechanics
+
+### C2: Stone, the Cradle of Jade
+
+#### Zhongli C2 Mechanics
 
 **By:** Midori\#2173  
 **Added:** 04/21/2021  
@@ -97,7 +139,28 @@ Allows for more accurate DPS calculations when using Zhongli and c6 fischl toget
 
 **Significance:** For the highest damage apply the Geo res down before pressing Burst.
 
-## 4 TOM Passive on Zhongli Procs With Other Geo Constructs
+## Interactions/Synergies
+
+### Fischl C6 does not always Proc on Zhongli's first Normal Attack
+
+**By:** muakasan\#2792  
+**Added:** 01/07/2021
+
+**Bug/Finding:**
+
+Fischl C6 does not always proc on Zhongli's first normal attack. When chaining multiple Zhongli attack sequences together, after the first sequence, the c6 does not proc on the first normal of the subsequent sequences.
+
+**Evidence:**
+
+[https://youtu.be/\_hEXbDqPtfo](https://youtu.be/_hEXbDqPtfo), as we can see Zhongli's first normal attack in the second and third attack sequence does not proc a fischl c6 proc
+
+Pausing between sequences \([https://youtu.be/QmN3a94XPBI](https://youtu.be/QmN3a94XPBI)\), and dash canceling after the sequence \([https://youtu.be/JBQUbJp0hks](https://youtu.be/JBQUbJp0hks)\) seems to avoid the problem and the c6 proc occurs as normal.
+
+**Significance:**
+
+Allows for more accurate DPS calculations when using Zhongli and c6 fischl together.
+
+### 4 TOM Passive on Zhongli Procs With Other Geo Constructs
 
 **By:** Lowy\#7647  
 **Added:** 5/6/2021  
@@ -107,10 +170,10 @@ Allows for more accurate DPS calculations when using Zhongli and c6 fischl toget
 4pc ToM passive can be triggered by other geo constructs when it is in range of zhongli's pillar
 
 **Evidence:**  
-[\[Video\] Test with Geo MC](https://www.youtube.com/watch?v=N8yJ_4LHQxY)  
-[\[Video\] Test with Albedo](https://www.youtube.com/watch?v=R56dA5SOpyk)  
-[\[Video\] Test with Ningguang](https://www.youtube.com/watch?v=J7fJY0Q3Iqs)
+
+* [Test with Geo MC](https://www.youtube.com/watch?v=N8yJ_4LHQxY)  
+* [Test with Albedo](https://www.youtube.com/watch?v=R56dA5SOpyk)  
+* [Test with Ningguang](https://www.youtube.com/watch?v=J7fJY0Q3Iqs)
 
 **Significance:**  
 This make triggering the 4pc ToM passive easier with Zhongli when playing with other geo characters
-

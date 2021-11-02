@@ -41,7 +41,7 @@
 * Chillwater Bomblets snapshot on Frozen Wilds cast - [Nass008#8577](https://imgur.com/oo2npIc)
 * Sacrificial bow interactions - [Vherax#5321](https://imgur.com/1NGlqTp)
   * Chillwater Bomblets are able to trigger Sacrificial Bow's elemental skill cooldown reset.
-  * Recasting Frozen Wilds will make the remaining Chillwater Bomblets from the previous Frozen Wilds cast disappear.
+  * Recasting Frozen Wilds will make the remaining Chillwater Bomblets from the previous Frozen Wilds cast ~~disappear~~ explode. - [Raven#9205](https://library.keqingmains.com/evidence/characters/cryo/aloy#aloy-and-sac-bow-interaction)
 * Walls do not block Chillwater Bomblets - BowTae#0141
   * [Imgur](https://imgur.com/Rtkxko2): it's possible to push them through walls
   * [Imgur](https://imgur.com/CfQRY9d): they may also spawn inside the wall upon skill cast
@@ -62,3 +62,23 @@
 
 * Unlike Sayu's passive animals still get startled if you get too close to them. - [Nass008#8577](https://imgur.com/BGo264W)
   * Animals still get startled if you kill one of them in a group.
+
+### Additional Skill Mechanics
+
+#### Aloy and Sac bow interaction
+
+**By:** Raven\#9205  
+**Added:** 10/16/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/896016732412596244/899099498595364894/transcript-aloy-and-sac-bow.html)  
+
+**Finding:**  
+The wording in the Aloy Section of the Theorycrafting Library was incorrect, if Frozen Wilds is recasted after Sacrificial Bow has activated while there are bombs still on the field, the last round of bombs will explode rather than disappear.
+
+**Evidence:**  
+1. Original evidence from the 'Sacrificial bow Interactions' section by Vherax\#5321  
+[Imgur](https://imgur.com/1NGlqTp)
+2. The author's own testing to corroborate Vherax's original footage  
+[Youtube](https://youtu.be/G8GhOOIwIXQ)
+
+**Significance:**  
+The bombs explode rather than disappear, and Aloy can still recieve Coil stacks from the previous round of bombs exploding upon skill recast.

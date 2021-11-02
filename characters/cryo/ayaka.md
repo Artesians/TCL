@@ -72,7 +72,9 @@ Summons blooming ice to launch nearby opponents, dealing AoE Cryo DMG.
 
 {% tab title="Kamisato Art: Senho" %}
 **Alternate Sprint**  
-Ayaka consumes Stamina and cloaks herself in a frozen fog that moves with her. In Senho form, she moves swiftly upon water. 
+Ayaka consumes Stamina and cloaks herself in a frozen fog that moves with her. In Senho form, she moves swiftly upon water.  
+* Her alternate sprint has the same iframes as other characters' normal sprint.
+
 When she reappears, the following effects occur: 
 * Ayaka unleashes frigid energy to apply Cryo on nearby opponents.
   * 1A Cryo is applied when Ayaka exits from her sprint.
@@ -88,9 +90,10 @@ When she reappears, the following effects occur:
 
 {% tab title="Kamisato Art: Soumetsu" %}
 
-Summons forth a snowstorm with flawless poise, unleashing a Frostflake Seki no To that moves forward continuously.
+Summons forth a snowstorm with flawless poise, unleashing a **Frostflake Seki no To** that moves forward continuously.
 
 **Frostflake Seki no To** 
+
 * A storm of whirling icy winds that slashes repeatedly at every enemy it touches, dealing Cryo DMG.
 * The snowstorm explodes after its duration ends, dealing AoE Cryo DMG.
 
@@ -104,6 +107,7 @@ Summons forth a snowstorm with flawless poise, unleashing a Frostflake Seki no T
 | Energy Cost | 80 | -- |
 * **Kamisato Art: Soumetsu** snapshots
 * The whirl generated will stay in place for large enemies and frozen enemies
+* **Frostflake Seki no To** pushes away all nearby enemies. The extent to which enemies are pushed away depends on their weights & size.
 * **Kamisato Art: Soumetsu** deals 20 ticks of damage
   * 19 ticks of **Cutting DMG** and 1 final tick of **Bloom DMG**
 
@@ -123,13 +127,13 @@ When Ayaka crafts Weapon Ascension Materials, she has a 10% chance to receive do
 {% tab title="Ascension 1" %}
 ### Amatsumi Kunitsumi Sanctification
 
-After using Kamisato Art: Hyouka, Kamisato Ayaka's Normal and Charged Attacks deal 30% increased DMG for 6s.
+After using **Kamisato Art: Hyouka**, Kamisato Ayaka's Normal and Charged Attacks deal 30% increased DMG for 6s.
 {% endtab %}
 
 {% tab title="Ascension 4" %}
 ### Kanten Senmyou Blessing
 
-When the Cryo application at the end of Kamisato Art: Senho hits an opponent, Kamisato Ayaka gains the following effects: 
+When the Cryo application at the end of **Kamisato Art: Senho** hits an opponent, Kamisato Ayaka gains the following effects: 
 * Restores 10 Stamina 
 * Gains 18% Cryo DMG Bonus for 10s.
 {% endtab %}
@@ -141,41 +145,41 @@ When the Cryo application at the end of Kamisato Art: Senho hits an opponent, Ka
 {% tab title="C1" %}
 ### Snowswept Sakura
 
-When Kamisato Ayaka's Normal or Charged Attacks deal Cryo DMG to opponents, it has a 50% chance of decreasing the CD of Kamisato Art: Hyouka by 0.3s. This effect can occur once every 0.1s.
+When Kamisato Ayaka's Normal or Charged Attacks deal Cryo DMG to opponents, it has a 50% chance of decreasing the CD of **Kamisato Art: Hyouka** by 0.3s. This effect can occur once every 0.1s.
 {% endtab %}
 
 {% tab title="C2" %}
 ### Blizzard Blade Seki no To
 
-When casting Kamisato Art: Soumetsu, unleashes 2 smaller additional **Frostflake Seki no To**, each dealing 20% of the original storm's DMG.
+When casting **Kamisato Art: Soumetsu**, unleashes 2 smaller additional **Frostflake Seki no To**, each dealing 20% of the original storm's DMG.
 
 * All three **Frostflake Seki no To** (one from burst and the two from C2) can hit the same target.
-* The additional **Frostflake Seki no To** have their own separate ICD that follows standard ICD rules.
+* The additional **Frostflake Seki no To** share ICD with the main storm.
 
 {% endtab %}
 
 {% tab title="C3" %}
 ### Frostbloom Kamifubuki
 
-Increases the Level of Kamisato Art: Soumetsu by 3. Maximum upgrade level is 15.
+Increases the Level of **Kamisato Art: Soumetsu** by 3. Maximum upgrade level is 15.
 {% endtab %}
 
 {% tab title="C4" %}
 ### Ebb and Flow
 
-Opponents damaged by Kamisato Art: Soumetsu's Frostflake Seki no To will have their DEF decreased by 30% for 6s.
+Opponents damaged by **Kamisato Art: Soumetsu's Frostflake Seki no To** will have their DEF decreased by 30% for 6s.
 {% endtab %}
 
 {% tab title="C5" %}
 ### Blossom Cloud Irutsuki
 
-Increases the Level of Kamisato Art: Hyouka by 3. Maximum upgrade level is 15.
+Increases the Level of **Kamisato Art: Hyouka** by 3. Maximum upgrade level is 15.
 {% endtab %}
 
 {% tab title="C6" %}
 ### Dance of Suigetsu
 
-Kamisato Ayaka gains Usurahi Butou every 10s, increasing her Charged Attack DMG by 298%. This buff will be cleared 0.5s after Ayaka's Charged ATK hits an opponent, after which the timer for this ability will restart.
+Kamisato Ayaka gains **Usurahi Butou** every 10s, increasing her Charged Attack DMG by 298%. This buff will be cleared 0.5s after Ayaka's Charged ATK hits an opponent, after which the timer for this ability will restart.
 
 * This effect is additive with other sources of DMG%.
 
@@ -237,6 +241,8 @@ Kamisato Ayaka gains Usurahi Butou every 10s, increasing her Charged Attack DMG 
 ## **External Links**
 
 * [Genshin Impact Fandom](https://genshin-impact.fandom.com/wiki/Ayaka)
+* [Ayaka Written Guide](https://keqingmains.com/ayaka/)
+* [7 Minute Quick Guide to Ayaka](https://youtu.be/G_gQ0P9s6BU)
 
 **Evidence Vault:**
 

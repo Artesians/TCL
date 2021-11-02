@@ -39,19 +39,39 @@
     * Hilichurl - [2ri#0945](https://imgur.com/WB4b1ej)
 * The vertical hitbox is tall enough to hit Oceanid Birds - [Lowy#0119](https://imgur.com/a/gw47yBc)
 
+### Ayaka Q Pushes Away Enemies  
+
+**By:** Tsym#2586  
+**Added:** 10/17/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/890817514794266664/899133874968354866/transcript-ayaka-q-pushing-away-enemies-of-different-weights.html)  
+
+**Finding:**  
+Upon cast, Ayaka Q pushes away all nearby enemies. It appears through several tests (see video), that the extent to which enemies are pushed away are dependent upon their weight and/or their size. Light/small enemies are pushed away the most, and heavy/big enemies are pushed away the least (relative to the size of their overall hitbox). There also appear to be some instances where enemies are not pushed away at all (see the last clip), which I believe can occur when enemies are stuck within an animation.
+
+Two additional notes about the pushing effect:  
+1) The distance of the pushing effect appears to be lessened if the enemies are pushed against the wall (see the first clip), so you can stand a little ways away from the wall so small enemies aren't pushed as far.  
+2) The pushing effect occurs equally in all directions away from Ayaka's character model, so you really don't want to stand in the middle of a pack of enemies while casting her Q. Repositioning to one side is generally a better idea.
+
+**Evidence:**  
+[Video](https://www.youtube.com/watch?v=oFTAa9vMehw)  
+
+**Significance:**  
+Better understanding of Ayaka Q's mechanics to land more hits from her burst. 
+
 ### Constellation Mechanics
 
 #### C2: Blizzard Blade Seki no To
 
 * The two additional Frostflake Seki no To formed can hit the same target. - [HailCorporate#2970](https://imgur.com/a/nlOHZBU)
-* The additional whirls have their own separate ICD that follows standard ICD rules. - [Phana#0420](https://imgur.com/a/NPQFhPn)
+* The additional whirls share ICD with the main one. - [Phana#0420](https://imgur.com/a/NPQFhPn)
 
 #### C6: Dance of Suigetsu
 
 * C6 is additive - [ClawofBeta#4125](https://cdn.discordapp.com/attachments/866109693101211648/867518314337927239/unknown.png)
 
+## Attack Mechanics
 
-## Ayaka CA Hitscan  
+### Ayaka CA Hitscan  
 
 **By:** Knospmoht\#9211 , Mcpie\#8672, LittleFox\#0906, Greyhound\#7836  
 **Added:** 08/09/2021  
@@ -64,20 +84,21 @@
 * Fourth: The gadget will only be created if an enemy is within range/ triggers it, meaning Ayaka's CA range without an enemy to tag is much shorter than previously assumed, as only an initial cut is created without the gadget.
 
 **Evidence:**  
-[Clip showing Ayaka's 1 singular frame at the start of CA](https://gyazo.com/5ae155cde0664ccb6755dd5531a3950b)  
-[Frame by frame image comparison](https://imgur.com/a/KWHSEIq)  
-Clips showing the Gadget following enemy: [1](https://imgur.com/FW4FleU) [2](https://imgur.com/LzjML5V)  
-[Clip showing the gadget being spawned at the top of Venti's Burst](https://youtu.be/uc9awg5vnD8)  
-Clips showing the gadget being stuck to the initial target as they get pulled by Venti's Burst: [1](https://youtu.be/9MeUjPq5Cvo) [2](https://youtu.be/_yBeitqBw5E)  
-[Clips showing Ayaka's CA range being "extended" due to the gadget](https://youtu.be/ffXYcwRrccc)  
-[Clip showing Ayaka's CA hight having a limit](https://www.youtube.com/watch?v=Yw9Wi4-QVY0)  
-[Clips showing Ayaka's CA having a hitbox without gadget](https://www.youtube.com/watch?v=D08yx7p1iHo)  
+
+* [Clip showing Ayaka's 1 singular frame at the start of CA](https://gyazo.com/5ae155cde0664ccb6755dd5531a3950b)
+* [Frame by frame image comparison](https://imgur.com/a/KWHSEIq)
+* Clips showing the Gadget following enemy: [1](https://imgur.com/FW4FleU) [2](https://imgur.com/LzjML5V)
+* [Clip showing the gadget being spawned at the top of Venti's Burst](https://youtu.be/uc9awg5vnD8)
+* Clips showing the gadget being stuck to the initial target as they get pulled by Venti's Burst: [1](https://youtu.be/9MeUjPq5Cvo) [2](https://youtu.be/_yBeitqBw5E) 
+* Clips showing Ayaka's CA range being "extended" due to the gadget (*Video lost to the sands of time*)  
+* [Clip showing Ayaka's CA height having a limit](https://www.youtube.com/watch?v=Yw9Wi4-QVY0)
+* [Clips showing Ayaka's CA having a hitbox without gadget](https://www.youtube.com/watch?v=D08yx7p1iHo)  
 
 **Significance:**  
 Significance: Knowing how Ayaka's Charge Attack works can help players come up with strats for specific situtaions to maximize damage output.  
 For example, the gadget is smaller than Geovishap's large collision box which means that even though they're standing side by side, they cannot both be hit by Ayaka's CA.  However, if the Geovishaps are frozen while clipped inside one another they can both be hit.  
 
-## Ayaka CA conclusion  
+### Ayaka CA Conclusion  
 
 **By:** wiremash#0433  
 **Added:** 09/05/2021  
@@ -107,4 +128,19 @@ Because the gadget stops following the enemy when it begins its hitscans, it may
 
 In addition, because enemies can exit the hitscan area early, using her charged attack right as an enemy is about to jump, dash or teleport away can also result in potential damage loss.
 
+## Dash Mechanics
 
+### Ayaka Dash Iframe  
+
+**By:** aui#3690  
+**Added:** 09/17/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/885753886823055421/888239660407599134/transcript-alt-vs-dash-iframe.html)  
+
+**Finding:**  
+Alternative dash and typical dash have very similar if not exact same i-frame mechanics.
+
+**Evidence:**  
+[Video](https://www.youtube.com/watch?v=DeBpnKDYUQo)  
+
+**Significance:**  
+Alt and typical sprint i-frame mechanics are extremely similar, many people likely thought that alt dash i-frames were shorter than before due to alt dash animation changes in 2.0

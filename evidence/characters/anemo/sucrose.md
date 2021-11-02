@@ -38,7 +38,40 @@ Upon testing, as expected: it works, and yes Lightning Smite also crits!
 
 One more reason to get Sucrose out in the field more often, at least for this use case
 
-## Ascension Mechanics
+## Ascension Mechanics  
+
+### Sucrose's A1 talent does not proc on swirling environmental objects and guoba  
+
+**By:** Katsune\#4691  
+**Added:** 17/10/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/898471465438027806/898489236662132756/transcript-sucrose-a1-doesnt-proc-on-swirling-guobaenvironmental-objects.html)  
+
+**Findings:**  
+Sucrose's A1 talent, Catalyst Conversion, does not proc on Swirling Guoba or environmental objects.  
+
+**Evidence:**  
+* [Swirling off Guoba](https://youtu.be/D-ifIdU1Z6c)  
+* [Swirling off Cooking Pot](https://youtu.be/RWBMCpfH47E)  
+
+**Significance:**  
+For double swirl setups involving Guoba (Sucrose/Bennett/XL/XQ or Sucrose/Bennett/XL/Childe), Sucrose's A1 talent will not benefit Xiangling unless you swirl pyro off of the enemy.
+
+### Sucrose's EM share on multiswirl is dynamic  
+
+**By:** Rainfury\#8343  
+**Added:** 16/10/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/894468808285225000/898898697084108830/transcript-sucrose-em-share-on-multiswirl-is-dynamic.html)  
+
+**Findings:**  
+The amount of EM shared by Sucrose's A4 Talent, Mollis Favonius in multiple swirl scenarios is dynamic.
+
+**Evidence:**  
+In the video, Yanfei has 0 EM while Sucrose has 706 EM. If Sucrose's EM share is snapshotted based on the amount of EM she had on Q cast, then Yanfei should have 141+120=261 EM. However, Yanfei had 141+120+24=285 EM instead, whereby the extra 24 EM was derived from 20% of the Instructor 4-piece bonus. [Instructor 4-Piece](https://youtu.be/QX2_CBysbU8)  
+
+In the video, Yanfei has 0 EM while Sucrose has 525 EM. If Sucrose's EM share is snapshotted, Yanfei will have 105+50=155 EM. However, Yanfei had 105+50+48=203 EM instead, whereby the extra 48 EM was derived from 20% of the 240 EM Widsth Buff. [Widsth R1 Buff](https://youtu.be/LwzfGdJHICs)
+
+**Significance:**  
+More flexible rotations and Sucrose does not need to be buffed before using her Q.
 
 ### Sucrose passives off-field triggering
 

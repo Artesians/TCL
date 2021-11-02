@@ -78,6 +78,7 @@ Summon a **Melody Loop**, dealing Hydro DMG to surrounding opponents and applyin
 | Frames | 52 |
 
 * Cast time can be reduced by performing a swap cancel.
+
 {% endtab %}
 
 {% tab title="Shining Miracle♪" %}
@@ -104,13 +105,13 @@ When a Perfect Cooking is achieved on a dish with restorative effects, there is 
 {% tab title="Ascension 1" %}
 ## Glorious Season
 
-The Stamina Consumption of characters within Let the Show Begin♪’s **Melody Loop** is reduced by 12%**.**
+The Stamina Consumption of characters within **Let the Show Begin♪**’s **Melody Loop** is reduced by 12%**.**
 {% endtab %}
 
 {% tab title="Ascension 4" %}
 ## Encore
 
-When your active character gains an Elemental Ord/Particle, the duration of Melody Loop is extended by 1s. The maximum extension is 5s.
+When your active character gains an Elemental Orb/Particle, the duration of **Melody Loop** is extended by 1s. The maximum extension is 5s.
 {% endtab %}
 {% endtabs %}
 
@@ -126,14 +127,14 @@ Barbara regenerates 1 Energy every 10s.
 {% tab title="C2" %}
 ## **Vitality Burst**
 
-Decreases the CD of Let the Show Begin♪ by 15%.  
+Decreases the CD of **Let the Show Begin♪** by 15%.  
 During the ability’s duration, your active character gains a 15% Hydro DMG Bonus.
 {% endtab %}
 
 {% tab title="C3" %}
 ## Star of Tomorrow
 
-Increases the Level of Shining Miracle♪ by 3.
+Increases the Level of **Shining Miracle♪** by 3.
 {% endtab %}
 
 {% tab title="C4" %}
@@ -146,7 +147,7 @@ A maximum of 5 energy can be regenerated in this manner with any one Charged Att
 {% tab title="C5" %}
 ## The Purest Companionship
 
-Increases the Level of Let the Show Begin♪ by 3.
+Increases the Level of **Let the Show Begin♪** by 3.
 {% endtab %}
 
 {% tab title="C6" %}
@@ -157,6 +158,7 @@ When Barbara is in the party but not on the field, and one of your own party mem
 * Automatically revives the fallen character.
 * Fully restores the revived character’s HP to 100%
 * This effect can only occur once every 15 mins.
+* This effect will not occur if the character's fallen animation is canceled by switching to another character. For more details, see: [C6 Revive Can Be Canceled by Switching](../../evidence/characters/hydro/barbara.md#c6-revive-can-be-canceled-by-switching)
 {% endtab %}
 {% endtabs %}
 
@@ -218,8 +220,8 @@ When Barbara is in the party but not on the field, and one of your own party mem
 
 ## **External Links**
 
-* [**Genshin Impact Fandom**](https://genshin-impact.fandom.com/wiki/Barbara)
-* [**Barbara Mains Discord**](https://discord.gg/6vVQcsrAgN)
+* [Genshin Impact Fandom](https://genshin-impact.fandom.com/wiki/Barbara)
+* [Barbara Mains Discord](https://discord.gg/6vVQcsrAgN)
 
 **Evidence Vault:**
 

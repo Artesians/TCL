@@ -98,6 +98,9 @@ Zhongli channels for 2 seconds causing the following effects:
 | GU | 1 |
 | Press Frames | 39 |
 | Hold Frames | 97 |
+
+* Resonation can overlap to deal multiple instances of damage
+* Steles resonate independently and do not resonate with each other
 {% endtab %}
 
 {% tab title="Planet Befall" %}
@@ -130,11 +133,12 @@ Refunds 15% of the ores used when crafting Polearm-type weapons.
 {% tab title="Ascension 1" %}
 ### Resonant Waves
 
-When the Jade Shield takes DMG it will Fortify:
+When the **Jade Shield** takes DMG it will Fortify:
 
 * Fortified characters have 5% increased Shield Strength, stacking up to 5 times and lasts until the Jade Shield disappears.
   * This Shield Strength increase occurs after damage is calculated.
 * There is no observable ICD on obtaining Shield Strength stacks.
+* Persists upon swap but not upon refresh.
 {% endtab %}
 
 {% tab title="Ascension 4" %}
@@ -155,6 +159,8 @@ Zhongli deals bonus DMG based on his Max HP:
 ### Rock, the Backbone of Earth
 
 Increase the maximum amount of **Stone Steles** created by Dominus Lapidis that may exist simultaneously to 2.
+
+* Steles resonate independently and do not resonate with each other
 {% endtab %}
 
 {% tab title="C2" %}
@@ -168,19 +174,19 @@ Planet Befall grants nearby characters on the field a **Jade Shield** when it de
 {% tab title="C3" %}
 ### Jade, Shimmering through Darkness
 
-Increases the Level of Dominus Lapidis by 3.
+Increases the Level of **Dominus Lapidis** by 3.
 {% endtab %}
 
 {% tab title="C4" %}
 ### Topaz, Unbreakable and Fearless
 
-Increases Planet Befall’s AoE by 20% and increases the duration of **Petrification** by 2 seconds.
+Increases **Planet Befall**’s AoE by 20% and increases the duration of **Petrification** by 2 seconds.
 {% endtab %}
 
 {% tab title="C5" %}
 ### Lazuli, Herald of the Order
 
-Increases the Level of Planet Befall by 3.
+Increases the Level of **Planet Befall** by 3.
 {% endtab %}
 
 {% tab title="C6" %}
@@ -254,7 +260,7 @@ When **Jade Shield** takes DMG, 40% of that incoming DMG is converted to HP for 
 
 * [Genshin Impact Fandom](https://genshin-impact.fandom.com/wiki/Zhongli)
 * [Zhongli Mains Discord](https://github.com/Artesians/TCL/tree/add5a5e094b1754e073bd265527e5f3194661ecf/characters/geo/discord.gg/Zhongli/README.md)
-* [Zhongli Guide](https://keqingmains.com/zhong-li/)
+* [Full Zhongli Written Guide](https://keqingmains.com/zhong-li/)
 
 **Evidence Vault:**
 

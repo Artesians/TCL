@@ -282,7 +282,7 @@ One step closer to understanding EC I guess.
 
 **Finding:** Electro-charged + heavy hit instances can stagger lock.
 
-**Evidence:** [Youtube](https://www.youtube.com/watch?v=LsBwNPbN6lk)
+**Evidence:** *Youtube video lost to the sands of time*
 
 1. Apply electro-charged and deal heavy hits to target
 2. Stagger resistance will be reduced
@@ -336,6 +336,136 @@ With an excessive amount of hydro application and a lot of hitlag, 4 electro cha
 **Significance:**  
 This is not expected by the current Elemental Gauge Theory. EGT currently states that: "*Each tick of EC consumes 0.4GU from both Hydro and Electro gauges.*"  
 The amount of Electro gauge should therefore not be enough to support 4 ticks of EC. Thus, this is either a bug, or EC has additional mechanics that we are unaware of. This finding is similar to [How Hitlag affects EC](https://library.keqingmains.com/evidence/mechanics/combat/elemental-reactions/transformative-reactions#how-hitlag-affects-ec). Though, it notably shows that the bug may be based both on hitlag as well as another factor, as one of the triple EC ticks (still strange) is done without hitlag (Lisa and orbitals and melody loop).
+
+### Electro-Charged ticks are not affected by hitlag
+
+**By:** BowlSoldier#3528  
+**Added:** 09/22/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/887433546665447454/890108328393465876/transcript-electrocharged-ticks-ignore-hitlag.html)
+
+**Finding:**  
+Electrocharged ticks are not affected by hitlag, and happen every 60 frames. The actual Electro and Hydro auras' decay rates, however, are affected by hitlag. Therefore causing lots of hitlag during Electrocharged effectively reduces the decay rate of the elements.
+
+**Evidence:**  
+[Video](https://youtu.be/CCTZ21dpV_E): 2B Duration with no hitlag: 728 frames
+
+[Video](https://youtu.be/uDmnx3mGaH0): 2B Duration with 3 Beidou Normal's hitlag: 749 frames  
+Hitlag extension: 21 frames
+
+[Video](https://youtu.be/Zj_dfxLKnB4): EC Tick timing with no hitlag  
+1288 (1st tick's damage text is always late to appear)  
+1343  
+1404  
+1465
+
+[Video](https://youtu.be/qaJuHyAUZcU): EC Tick timing with 3 Beidou Normal's hitlag  
+1518  
+1572  
+1633  
+1695
+
+[Video](https://youtu.be/dgexv45RicM): EC Tick timing with Xiangling hitlag, for maximum hitlag  
+1152  
+1209  
+1269  
+1329  
+1389
+
+All EC ticks, in cases with and without hitlag, were either exactly 60 frames apart, or 1 or 2 frames late at most. While the Aura duration with a similar amount of hitlag in the Beidou case was a whole 21 frames late. The Xiangling case should have had even more hitlag.
+
+This seems like an extension of the TCL finding that Deployables' attack speed, duration etc are not affected by hitlag. EC is not caused directly by your character, it's almost like a deployable damage source attached to the enemy, so it appears to follow similar rules.
+
+**Significance:**  
+You can extend the duration of auras involved in EC by using hitlag. This also technically improves the DPS of EC comps very slightly, as even if your character's DPS slows down slightly due to hitlag, EC continues to damage the enemy at the same rate.  
+However keep in mind the limiting factor for EC is usually the reduction per-tick, not the duration of the involved auras. Also, most EC teams apply more Electro and Hydro than they need to maintain Electrocharged, and so never require the additional tick.
+
+### Electro-Charged Snapshots EM Until Reapplying
+
+**By:** NZPIEFACE#8439  
+**Added:** 10/17/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/896132765072900146/899187533542481971/transcript-ec-snapshots-em-until-re-apply.html)
+
+**Abstract:**  
+Electro-charged is one of the most popular reactions, and due to its nature of dealing damage over time, its interactions with changes in elemental mastery deserve investigation. This ticket will demonstrate possible interactions of characters applying electro and hydro with changing elemental mastery.
+
+**Summary:**  
+Electro-charge deals damage over time and its snapshot interactions with changing elemental mastery hasn't been noted in the library.
+This method used was C2 Sara with 4-piece Instructors to apply elemental electro twice alongside Barbara hydro reactions to the Ruin Guard at Yaoguang Shaol.
+The electro-charge reaction snapshots the elemental mastery value at the time of reaction, but the value is updated when aura is re-applied by any character to that of the applying character's.
+
+**Introduction:**  
+Electro-charged (EC) is one of the most popular reactions, being a key component behind many teams, such as the teams in the taser archetype. As it is a transformative reaction, its damage mainly scales with the elemental mastery (EM) stat. While it's known to some that the reaction snapshots the EM stat of whoever reacted, it's not listed anywhere in the library (specifically the Transformative Reactions page, the Elemental Gauge Theory page, and the egt-rewrite draft). This ticket aims to remedy that and investigate its interactions deeper.
+
+**Hypothesis:** 
+Electro-charged snapshots the EM value of the character that caused the reaction or re-applied aura.
+
+**Method:**  
+To investigate this there are four tests that need to be completed.  
+1) EC damage when EM changes. No re-applying from characters.  
+2) EC damage when EM changes. Same source re-applying.  
+3) EC damage when a different source re-applies an element.  
+4) EC damage when a source re-applies then changes EM without re-applying.  
+
+While the above tests don't specify an element, and they should be done with both elements for both reaction and re-applying, that would quadruple the number of tests. The current elements are used for brevity and ease of testing (written in the format of reacting and re-application):  
+1) Electro.  
+2) Electro, electro.  
+3) Electro, hydro.  
+4) Electro, hydro.  
+
+A fifth test was also considered:  
+5) EC damage when a source re-applies then changes EM then re-applies.  
+This is a follow-on from 4 by adding 2.  
+
+For test 4, the original character causing the reaction doesn't need have their EM change, so the Instructor set on Sara can be removed to reduce any changes. This is not a concern for test 3, where changing EM values for the second applier is not an issue. While this test should logically follow that the EM value of the second applier will be snapshotted, this is a game from Mihoyo and we cannot be sure of anything.
+
+The enemy chosen to do these tests on is the ruin guard at Yaoguang Shaol, as it is usually already wet from the water around it. This water is not a concern as it only acts as a source of hydro to get the reaction started, and cannot cause the electro-charged reaction itself.
+
+Sara was chosen to apply electro, as she has an easy source of two electro applications with her E at C2 and her CA. The explosion of the feather from her CA will be a third application of electro, but that doesn't factor.
+
+Barbara was chosen to re-apply hydro. This is because she can apply it off-field consistently, and she can also use Widsith to increase her own EM simply by switching in.
+
+What causes EM changes will be 4-piece Instructors and Widsith. Instructors triggers on a reaction allowing for easy testing, and Widsith triggers on switching in (a third of the time).
+
+If test 5 is to be done, Razor will be applying electro with his E as Sara's electro application is only 1A for all her attacks.
+
+**Result:**  
+1) [Youtube](https://youtu.be/TZll51tVIyM) (from the finding of 4pc Instructor not apply to the triggering hit)  
+2) [Youtube](https://youtu.be/Zr2sEeo1F3c)  
+3) [Youtube](https://youtu.be/owNlEaHSyc8)  
+4) [Youtube](https://youtu.be/wjUuGLOiyoE) (forgot stat screen, but 5 basically has the first half of this but with different equipment)  
+5) [Youtube](https://youtu.be/bni5cI1P-Cg)
+
+From 1, we can see that the damage was constant despite the EM of Sara being increased from 4-pc In.
+
+Comparing 2 to 1, we see that re-applying the element from the same source increases the damage as EM increased.
+
+From 3, we see that the damage increased when a difference source applied an aura, even if the words "electro-charged" didn't appear.
+
+While the stat screen of 4 isn't shown, the damage doesn't change even after Barbara gets an increase in EM from Widsith. Even though that may not seem clear at a first viewing, going through the video frame-by-frame will show that the first 3352 EC ticks appears when Beidou is on the field.
+
+Test 5 aligns with the results of 4 and 2. When Barbara re-applies hydro, it updates to the new (and higher) EM value that she has.
+
+**Interpretation:**  
+The current interpretation is that the electro-charged reaction snapshots the elemental mastery value of whoever last applied an element to the enemy when they applied it.
+
+**Conclusion:**  
+This ticket has thoroughly explored how electro-charged interacts with changing EM values, for both on- and off-field characters. The main finding is that it snapshots the EM of whoever last applied an element for the reaction. This information can be used to more effectively build and play team comps that revolve around electro-charged, and this can be added to the library.
+
+**Limitations:**  
+A major concern would be that the water messes with reactions. While water cannot cause the electro-charged reaction, it still applies hydro to the Ruin Guard. This can be fixed by testing on different enemies.
+
+An example would be the ruin guard by the teleport marker at Luhua Pool. However, this runs into the issue of keeping hydro gauge filled consistently with few applications is difficult. Childe or Mona would be ideal, as Childe can apply 2B from entering his melee stance and Mona applies 2B on the pop of her Q's bubble.
+
+A hydro slime can be used for purposes of always having hydro, but that encounters similar issues as using water. 
+
+**Further Investigations:**  
+Swirls:  
+What happens if we have a hydro slime with electro-charged on it, with a ruin guard with hydro a bit away from it, then use Sucrose to swirl the hydro onto the electro-charged slime.
+Does that re-apply hydro and update the EM values? Before this is even tested, I'll say it's probably "yes".
+
+**Other Findings (by Dooners#6709):**  
+Barbara (and likely other characters with similar abilities) can apply hydro to hydro slimes, even if they're immune to hydro damage. The relevancy here is that characters can up-date the EM snapshot of EC as long as they apply the element.  
+Evidence: [Imgur](https://imgur.com/ZNKpRnt)
 
 ## Frozen + Shatter
 
@@ -618,6 +748,30 @@ Evidence for Anemo triggers defying this array is already provided in the ticket
 
 **Significance:** Allows for better (but still incomplete) understanding of when double reactions can be utilized and how to set them up. Additionally, both the previous [freeze table](https://library.keqingmains.com/evidence/mechanics/combat/elemental-reactions/transformative-reactions#freeze-aura-mechanics) and the [EC interactions with other elements ticket](https://library.keqingmains.com/evidence/mechanics/combat/elemental-reactions/transformative-reactions#interaction-of-other-elements-with-electrocharged-targets) are found to be inaccurate.
 
+### Multi Shatter
+
+**By:** BowlSoldier#3528  
+**Added:** 10/17/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/887402348580859964/899169099240833064/transcript-shatter-bug.html)
+
+**Finding:**  
+In some situations, Shattering a Frozen enemy removes less than the normal 8GU. This allows multiple Shatters to occur on a single Freeze, or Shatter + Melt at the same time. This also allows Claymore characters such as Chongyun or Eula to benefit from 4 Blizzard Strayer's extra crit on Frozen enemies.
+
+**How does this happen?**  
+This appears to be a bug, as it's not a consistent change. It is triggered by entering any domain, including the Spiral Abyss. However only on PC. Mobile and console players cannot trigger this. Once you have entered a Domain, the bug will remain active even in the overworld until you restart your game.
+
+**How much Frozen aura is removed by a Shatter?**  
+This has not yet been tested. It's theorized that it works the same way as Frozen shields on enemies; the reduction in Frozen gauge is proportional to the poise damage done by the attack. However this has not been confirmed.
+
+**Evidence:**  
+Multi Shatter Evidence: [Video](https://youtu.be/Dt1kNwlLF9M)  
+Shatter + Melt Evidence: [Video](https://youtu.be/yxTISikxnf4)
+
+**Significance:**  
+Bug discovering
+
+### **Crystallize on an Electro-Charged Enemy**
+
 ## Swirl
 
 ### How to get Double Swirls
@@ -727,34 +881,34 @@ Swirl after instructor=25828
 EM before instructor=755 (97.4%)  
 EM after instructor=875(106.9%) 
 
-Swirl induced amp = swirl * reaction mult * amp_em  
+`Swirl induced amp = swirl * reaction mult * amp_em`  
 For video 1 of a 101k swirl melt proc, where instructor was applied after snapshot.  
-Vap=76465  
-Melt=101953  
+Vape = 76465  
+Melt = 101953  
 
 For video 2 of a 106k swirl melt proc, where instructor was applied before snapshot.  
-Vap=80157  
-Melt=106876
+Vape = 80157  
+Melt = 106876
 
 Since swirl is dynamic, a swirl value of 25828 is taken.
 
-If snapshot on amp_em, for vap,  
-Swirl induced amp=25828\*1.5\*(1+0.974) = 76476.708  
+If snapshot on amp_em, for vape,  
+`Swirl induced amp = 25828 * 1.5 * (1 + 0.974) = 76476.708`  
 Which matches with observed 76465 value.
 
-If no snapshot on amp_em, for vap,  
-Swirl induced amp=25828\*1.5\*(1+1.069) = 80157.198  
+If no snapshot on amp_em, for vape,  
+`Swirl induced amp = 25828 * 1.5 * (1 + 1.069) = 80157.198`  
 Which does not match with video 1, but it matches with video 2 where instructor is snapshotted at 80157.  
 
 If snapshot on amp_em, for melt,  
-Swirl induced amp=258282(1+0.974) = 101968.944  
+`Swirl induced amp = 258282 * (1+0.974) = 101968.944`  
 Which matches with observed 101953 value.
 
 If no snapshot on amp_em, for vap,  
-Swirl induced amp=25828*2*(1+1.069) = 106876.264  
+`Swirl induced amp = 25828 * 2 * (1+1.069) = 106876.264`  
 Which does not match with video 1, but it matches with video 2 where instructor is snapshotted at 106876.
 
-Thus it can be concluded that amp_em of the swirl induced amp reaction is snapshotted and the rest are dynamic.
+Thus it can be concluded that `amp_em` of the swirl induced amp reaction is snapshotted and the rest are dynamic.
 
 **Significance:**  
 Vape/Melt triggered by swirls are still considered as amp reactions and are snapshotted, not dynamic.
@@ -807,5 +961,4 @@ The player should only pick up correct-element crystallize crystals when fightin
 I electro charged in different orders with different application strengths. The result was always an Electro crystal.
 
 **Significance:** Don't expect a Hydro crystal for petra buff on Electro-Charged opponents.
-
 

@@ -50,6 +50,7 @@ A fully charged shot will deal Cryo DMG.
 
 * Aimed Shot frame counts are done using M1 Spams.
 * Fully Charged frame counts are done using ARCC Shots.
+* Diona can cancel her dash early with Aim Toggle. Thus allows her to do quick Charged Attack while still retaining the ability to aim, unlike ARCC which cannot be aimed.
 
 **Plunge Attack**  
 Fire a shower of arrows from mid-air before falling striking the ground, dealing AoE DMG.
@@ -88,6 +89,7 @@ The shield’s DMG Absorption scales based on Diona’s Max HP, and its duration
 
 * In specific circumstances, Diona's shield will apply 2U of Cryo on swap.
   * For more details see the [full entry](../../evidence/characters/cryo/diona.md#bug-dionas-shield-is-2u-under-specific-circumstances-that-are-guaranteed-on-swap) in Diona's Evidence Vault.
+* Icy Paws will not generate a shield if they do not hit something. They will also despawn after a certain amount of time.
 * A deep-dive into how Icy paws work can be found [here](https://docs.google.com/document/d/1GZrscI-X_-CgzavXUbCeELrSumbAqlLqVkkJN1vWKwk/edit?usp=sharing)
 {% endtab %}
 
@@ -109,6 +111,9 @@ Tosses out a special cold brew that deals AoE Cryo DMG and creates a **Drunken M
 | CD | 20s |
 | Energy Cost | 80 |
 | Frames | 49 |
+
+* The Drunken Mist AoE has a finite vertical range. Characters above or below this vertical range will not receive healing.
+
 {% endtab %}
 {% endtabs %}
 
@@ -154,7 +159,7 @@ Increases **Icy Paws**’ DMG by 15%, and increases its shield’s DMG Absorptio
 {% tab title="C3" %}
 ## A-Another Round?
 
-Increases the Level of Signature Mix by 3.
+Increases the Level of **Signature Mix** by 3.
 {% endtab %}
 
 {% tab title="C4" %}
@@ -166,7 +171,7 @@ Within the radius of **Signature Mix**, Diona’s charge time for Aimed Shots is
 {% tab title="C5" %}
 ## Double Shot, On The Rocks
 
-Increases the Level of Icy Paws by 3.
+Increases the Level of **Icy Paws** by 3.
 {% endtab %}
 
 {% tab title="C6" %}
@@ -245,6 +250,8 @@ The Elemental Mastery bonus will apply immediately on swap and linger for 2 seco
 * [Genshin Impact Fandom](https://genshin-impact.fandom.com/wiki/Diona)
 * [Diona Mains Discord](https://discord.gg/JkeJWTtzGT)
 * [Full Diona Guide](https://keqingmains.com/diona/)
+* [4 Minute Quick Guide to Diona](https://youtu.be/IWoSkeAFY4o)
+* [Icy Paws Deep Dive](https://docs.google.com/document/d/1GZrscI-X_-CgzavXUbCeELrSumbAqlLqVkkJN1vWKwk/edit?usp=sharing)
 
 **Evidence Vault:**
 
