@@ -203,29 +203,6 @@ Number of A4 procs (from Sara E with C2) it would take to completely fill Burst 
 **Significance:**  
 Decorum's wording implies that you need to hit 100% ER increments to restore more Energy, but this is not true. Sara restores Energy directly based on her ER, so for every 1% of ER, you generate 0.012 flat Energy from Decorum.
 
-#### Pre-A4 EMC Skill ER Buff with Sara A4
-
-**By:** WellWell#2868 and Nass008#8577  
-**Added:** 11/1/2021  
-[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/903958677164294204/904776894841507850/transcript-emc-er-buff-interaction-with-saras-a4.html)  
-
-**Finding:**  
-Pre-A4 EMC’s E’s skill ER buff does not affect Sara’s A4 passive.  
-
-**Evidence:**   
-2 trials were conducted with Keqing, Sara, and pre-A4 EMC. Keqing starts at 0 energy and always stays off-field. Both trials have Sara E + EMC E done 13 times:  
-- [Trial 1](https://youtu.be/-KujlEHy24I): Sara takes EMC’s E amulets every time before doing Sara’s E.  
-- [Trial 2](https://youtu.be/Bn3tlTtNtIE): Sara does not take any amulets at all.  
-
-Testing:  
-After 12 procs, the off-field Keqing should have 39.6 energy. If EMC’s ER buff actually affects Sara’s A4, one of the Keqings with EMC buffed Sara should have 20% * 1.2 * 12 (procs) = 2.88 more extra energy compared to the non-buffed Sara, and therefore should have her burst up after 12 procs.  
-
-Results:  
-Both Keqings got their burst after 13 procs, regardless of if Sara was buffed by EMC ER buff or not. This would not happen if the interaction actually worked.  
-
-**Significance:**  
-Pre-A4 EMC Skill’s ER buff doesn’t make Sara’s A4 passive generate more energy.  
-
 ## Constellation Mechanics
 
 ### C2: Dark Wings
@@ -278,3 +255,26 @@ Tengu Stormcall only buffs the on-field characters the frame before the Crowfeat
 
 **Significance:**  
 Exact timing of the Crowfeather buff.
+
+### Pre-A4 EMC Skill ER Buff with Sara A4
+
+**By:** WellWell#2868 and Nass008#8577  
+**Added:** 11/1/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/903958677164294204/904776894841507850/transcript-emc-er-buff-interaction-with-saras-a4.html)  
+
+**Finding:**  
+Pre-A4 EMC’s E’s skill ER buff does not affect Sara’s A4 passive.  
+
+**Evidence:**   
+2 trials were conducted with Keqing, Sara, and pre-A4 EMC. Keqing starts at 0 energy and always stays off-field. Both trials have Sara E + EMC E done 13 times:  
+- [Trial 1](https://youtu.be/-KujlEHy24I): Sara takes EMC’s E amulets every time before doing Sara’s E.  
+- [Trial 2](https://youtu.be/Bn3tlTtNtIE): Sara does not take any amulets at all.  
+
+Testing:  
+After 12 procs, the off-field Keqing should have 39.6 energy. If EMC’s ER buff actually affects Sara’s A4, one of the Keqings with EMC buffed Sara should have 20% * 1.2 * 12 (procs) = 2.88 more extra energy compared to the non-buffed Sara, and therefore should have her burst up after 12 procs.  
+
+Results:  
+Both Keqings got their burst after 13 procs, regardless of if Sara was buffed by EMC ER buff or not. This would not happen if the interaction actually worked.  
+
+**Significance:**  
+Pre-A4 EMC Skill’s ER buff doesn’t make Sara’s A4 passive generate more energy.  
