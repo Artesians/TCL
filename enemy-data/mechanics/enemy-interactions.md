@@ -55,7 +55,7 @@ The bubble from the Hydro Abyss Mages and their hydro bubble spawning mechanic c
 
 * Corrosion stacks apply to the whole party, and their damage ignores shields.
 * Corrosion stacks are independent of each other, last for 10 seconds, and deal 10 total ticks of damage scaling linearly with each character's max HP.
-* Corrosion applied by a Rifthound or Rifthound Whelp deals 0.5% max HP damage per tick per stack.
+* Corrosion stacks applied by a Rifthound or Rifthound Whelp deal 0.5% max HP damage per tick.
 
 ### Evidence Vault
 
