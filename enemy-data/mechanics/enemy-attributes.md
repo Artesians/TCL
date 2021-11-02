@@ -2,7 +2,7 @@
 
 ## Monster Skill Effects
 
-**By:** Steno\#6940 and Yurina Maekawa#6585  Cancel changes
+**By:** Steno\#6940 and Yurina Maekawa#6585  
 See [Evidence Vault](../../evidence/enemy-data/enemy-attributes.md#in-depth-look-at-monster-skill-effects-in-domains-abyss) for Videos, as well as [Discharge Aura Data](../../evidence/enemy-data/enemy-attributes.md#black-aura-data) for more details.
 
 These are the damaging effects that are tied to specific enemies within domains/abyss. As of patch 2.2, there are 7 of these effects, tied to one or multiple elements in the game. Below is a table from the [Genshin Wiki](https://genshin-impact.fandom.com/wiki/Auras) that details the effects:
