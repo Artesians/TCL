@@ -8,7 +8,6 @@ description: 'Tartaglia Banner ft. Yanfei, Ningguang, and Chongyun'
 
 * [Noblesse Oblige: A Treatise on Eula](https://keqingmains.com/eula/)
 * [Albedo Guide](https://keqingmains.com/albedo/)
-* [Sayu: A Guide to Shuumatsuban’s Resident Ninja](https://keqingmains.com/sayu/)
 * [Hu Tao: PP Slidin’ Into Our Hearts](https://keqingmains.com/hu-tao/)
 
 ## Theorycrafting Library Submissions
@@ -78,3 +77,10 @@ description: 'Tartaglia Banner ft. Yanfei, Ningguang, and Chongyun'
 |  | [Auto Targetting Mechanics](../evidence/enemy-data/enemy-attributes.md#targeting-ignores-enemy-hitbox-location) | Kourinn#6001 |
 |  | [Fish Respawn Mechanics](../evidence/mechanics/gameplay-mechanics/lifeskills.md#fish-replacement) | Kenneth (Ellaevans)#6329 |
 |  | [Kamuijima Cannon Friendly Fire](../evidence/fluff/miscellaneous-entries.md#kamuijima-cannon-friendly-fire) | Goden#2155 |
+| November 1 | [Black Aura Data](../evidence/enemy-data/enemy-attributes.md#black-aura-data) | Yurina Maekawa#6585 |
+|  | [Kokomi E Interactions with Artifact Set Effects](../evidence/characters/hydro/kokomi.md#kokomi-skill-triggers-artifact-effects-even-when-interrupted) | Tibo#4309 |
+|  | [Sara E Interaction with Electro MC Skill](../evidence/characters/electro/sara.md#pre-a4-emc-skill-er-buff-with-sara-) | WellWell#2868, Nass008#8577 |
+|  | [Swirl Chain Reaction can Trigger Electro Resonance](../evidence/mechanics/gameplay-mechanics/elemental-resonance.md#swirl-chain-reactions-can-trigger-electro-resonance) | vinsette#0293 |
+|  | [Corrosion Damage Mechanics Update](../evidence/enemy-data/enemy-interactions.md#corrosion-damage-mechanics-update) | Dooners#6709 |
+|  | [Mathematical Analysis of Royal Weapon Effective Crit Rate](../evidence/mechanics/equipment/weapons.md#mathematical-analysis-of-royal-weapon-effective-crit-rate) | NZPIEFACE#8439 |
+|  | [Barbara C6 Revive Can Be Canceled by Switching](../evidence/characters/hydro/barbara.md#c6-revive-can-be-canceled-by-switching) | yolitme0#0579 |
