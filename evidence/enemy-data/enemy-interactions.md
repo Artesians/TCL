@@ -558,7 +558,7 @@ Bonus: Predicted HP loss per stack based on character max hp using the equation 
 
 These values are total loss per stack, for damage per tick simply divide each number by 10. 
 
-### Corrosion damage mechanics
+### Corrosion damage mechanics update
 
 **By:** Dooners\#6709  
 **Added:** 11/01/2021  
