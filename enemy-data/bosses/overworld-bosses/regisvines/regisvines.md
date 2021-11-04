@@ -74,14 +74,14 @@ In this initial phase, it can attack you with the following attacks:
   * Indicated by raising its' body upwards and a glow travelling up its' stem.
 * Slashes itself into the ground and attacks with its' vines.
 
-Transitioning Phase
+### Transitioning Phase
 
 Upon breaking its' shield, the Cryo Regisvine will curl itself up and lay on the ground unmoving. During this time, the Regisvine will lose its' resistances and be unnable to move. This phase lasts about 10 to 15 seconds.  
 * After recovering, it will raise itself up and continue to flail around its' body, dealing a huge amount of damage and knocking away any character in melee range.
   * This does not knock away summons such as Amber's baron bunny.
 * After its' flail, the Regisvine will then return to its' normal combat patterns. Depending on what shield has last been broken, it will transition into the Outer or Inner Ring phases.
 
-Inner Ring Phase
+### Inner Ring Phase
 * This phase is started if the last weak spot has been the gem on its base. Upon start, Cryo Regisvine will start to channel Cryo particles and blast it outwards, covering the outer ring of the arena in Cryo and dealing damage to the player should they not dodge. Standing on the Cryo on the outer side of the arena will quickly deplete the player's health.
 * Flails its' body with deadly force.
   * This attack is triggered if a player is too close to the Regisvine.
@@ -89,7 +89,7 @@ Inner Ring Phase
 * Channels for a moment before smashing its' body onto the last position of the player, three times. 
   * Afterwards, it will remain still for a moment.
 
-Outer Ring Phase
+### Outer Ring Phase
 * This phase is started if the last weak spot has been the gem in its stem. Nothing of note will happen during this phase.
 * Creates two ice beams that hone in on the player.
 * Shoots homing icicles that will follow the player for a few seconds before losing their homing attribute.
@@ -118,14 +118,14 @@ In this initial phase, it can attack you with the following attacks:
 * Slams its' head on the ground and sweeps it 180 degrees.
 * After a short charge-up, hurls a fireball at the player.
 
-Transitioning Phase
+### Transitioning Phase
 
 Upon breaking its' shield, the Pyro Regisvine will curl itself up and lay on the ground unmoving. During this time, the Regisvine will lose its' resistances and be unnable to move. This phase lasts about 10 to 15 seconds.  
 * After recovering, it will raise itself up and continue to flail around its' body, dealing a huge amount of damage and knocking away any character in melee range.
   * This does not knock away summons such as Amber's baron bunny.
 * After its' flail, the Regisvine will then return to its' normal combat patterns. Depending on what shield has last been broken, it will transition into the Outer or Inner Ring phases.
 
-Inner Ring Phase & Outer Ring Phase  
+### Inner Ring Phase & Outer Ring Phase  
 Share the same attacks:
 * Points its' corolla upwads, along with its' buds, causing Pyro energy to erupt from the ground in multiple locations, including the player's feet.
   * This attack can only be used once in this phase.
