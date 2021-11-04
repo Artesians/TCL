@@ -6,8 +6,9 @@
 
 ## Newsletter
 
-* [Patch 2.1b](newsletter/patch-2.1b.md)
+* [Patch 2.2a](newsletter/patch-2.2a.md)
 * [Archive](newsletter/archive/README.md)
+  * [Patch 2.1b](newsletter/archive/patch-2.1b.md)
   * [Patch 2.1a](newsletter/archive/patch-2.1a.md)
   * [Patch 2.0b](newsletter/archive/patch-2.0b.md)
   * [Patch 2.0a](newsletter/archive/patch-2.0a.md)
@@ -64,6 +65,7 @@
   * [Diluc](characters/pyro/diluc.md)
   * [Hu Tao](characters/pyro/hu-tao.md)
   * [Klee](characters/pyro/klee.md)
+  * [Thoma](characters/pyro/thoma.md)
   * [Xiangling](characters/pyro/xiangling.md)
   * [Xinyan](characters/pyro/xinyan.md)
   * [Yanfei](characters/pyro/yanfei.md)
@@ -298,6 +300,7 @@
       * [Diluc](evidence/characters/pyro/diluc.md)
       * [Hu Tao](evidence/characters/pyro/hu-tao.md)
       * [Klee](evidence/characters/pyro/klee.md)
+      * [Thoma](evidence/characters/pyro/thoma.md)
       * [Xiangling](evidence/characters/pyro/xiangling.md)
       * [Xinyan](evidence/characters/pyro/xinyan.md)
       * [Yanfei](evidence/characters/pyro/yanfei.md)

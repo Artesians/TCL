@@ -331,6 +331,35 @@
 {% endtab %}
 {% endtabs %}
 
+### Mouun's Moon
+
+{% tabs %}
+{% tab title="Description" %}
+
+| Attribute | Description |
+| :--- | :--- |
+| Watatsumi Wavewalker | For every point of the entire party's combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by **0.12/0.15/0.18/0.21/0.24**%. A maximum of **40/50/60/70/80**% increased Elemental Burst DMG can be achieved this way. |
+| Base ATK | 44 - 565 |
+| ATK% | 6% - 27.6% |
+{% endtab %}
+
+{% tab title="Details" %}
+
+| Level | Base Atk | ATK% |
+| :--- | :--- | :--- |
+| 60 | 361 | 20.3 |
+| 60+ | 387 | 20.3 |
+| 65 | 408 | 21.5 |
+| 70 | 429 | 22.7 |
+| 70+ | 455 | 22.7 |
+| 75 | 476 | 23.9 |
+| 80 | 497 | 25.1 |
+| 80+ | 523 | 25.1 |
+| 85 | 544 | 26.4 |
+| 90 | 565 | 27.6 |
+{% endtab %}
+{% endtabs %}
+
 ### Predator
 
 {% tabs %}
@@ -405,6 +434,7 @@
 * The passive also procs even when the unit is off-field - [Pleinair\#8321 and IonFox\#8887](../../../evidence/mechanics/equipment/weapons.md#how-royal-longswords-passive-works)
 * Skills that snapshot will maintain low crit rate while still increasing stacks, reducing the chance of losing stacks. This allows high damaging abilities to be cast and fully capitalize on the increased crit rate. - [sunnyd\#5916](../../../evidence/mechanics/equipment/weapons.md#royal-series-dynamic-stacking-on-snapshot-dot-skills)
 * AoE abilities snapshot the crit rate increase from Royal Weapons - [Bobrokrot\#0111](../../../evidence/mechanics/equipment/weapons.md#royal-series-aoe-abilities-and-mechanics)
+* Mathematical analysis shows that Royal Weapons have less effective crit rate the more crit rate you build - [NZPIEFACE\#8439](../../../evidence/mechanics/equipment/weapons.md#mathematical-analysis-of-royal-weapon-effective-crit-rate)
 {% endtab %}
 
 {% tab title="Details" %}

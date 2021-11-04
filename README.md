@@ -10,7 +10,7 @@ The newsletter is a way to catch up on the latest submissions to the Theorycraft
 
 **Most Recent Newsletter:**
 
-{% page-ref page="newsletter/patch-2.1b.md" %}
+{% page-ref page="newsletter/patch-2.2a.md" %}
 
 ## Submissions
 
@@ -25,4 +25,4 @@ If you're interested in submitting information/findings to be published in the T
 
 ## Feedback
 
-If you have feedback about the TCL, join the KQM Discord at [discord.gg/keqing](https://discord.com/invite/keqing) and leave your feedback in **#site-library-feedback**.
+If you have feedback about the TCL, join the KQM Discord at [discord.gg/keqing](https://discord.com/invite/keqing) and leave your feedback in **#website-feedback**.
