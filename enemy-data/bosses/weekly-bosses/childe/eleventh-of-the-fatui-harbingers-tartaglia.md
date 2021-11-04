@@ -1,5 +1,6 @@
 ---
-description: "Childe" Tartaglia, Eleventh of the Fatui Harbingers..
+description: >-
+  "Childe" Tartaglia, Eleventh of the Fatui Harbingers..
 ---
 
 # Weekly Bosses
