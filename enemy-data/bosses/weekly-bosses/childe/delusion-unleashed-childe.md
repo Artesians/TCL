@@ -69,4 +69,5 @@ Upon transitioning to this phase, Childe will dash to the center of the arena, c
 * Childe performs 2 to 5 consecutive dash attacks, dealing Electro DMG in his wake.
 * Marks the player with a circle of black lightning. Charges for a while, then leaps and instantly strikes at the player current location, dealing massive amount of Electro DMG around the landing point.
   * This attack is only performed if a target is marked with riptide.
+
 Upon depleting Childe's health bar, a cutscene will play for the third form transition.
