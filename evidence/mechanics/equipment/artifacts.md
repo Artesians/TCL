@@ -1034,7 +1034,7 @@ More data would be needed to reach stronger conclusions. As of right now, there'
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/905591237363507230/906363383505379348/transcript-interruption-can-cause-artifact-stacks.html)  
 
 **Finding:**  
-You can gain artifact stacks or trigger artifact set effects that trigger on Elemental Skill cast, even while getting interruped during the cast.  
+You can gain artifact stacks or trigger artifact set effects that occur on Elemental Skill cast, even while getting interrupted during the cast.  
 Heart of Depth, Shimenawa's Reminiscence, and Crimson Witch of Flames were tested.  
 
 **Evidence:**  
