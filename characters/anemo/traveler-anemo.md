@@ -110,6 +110,7 @@ If the **Vortex** comes into contact with Hydro/Pyro/Cryo/Electro, it will deal 
 | Base Cooldown | 5s | 27 | ~ | 2 |
 | Max Charge Cooldown | 8s | 61 | ~ | 3~4 \(2:1\) |  
 * Infusion priority: Cryo > Pyro > Hydro > Electro  
+* The additional elemental damage dealt upon contact with Hydro/Pyro/Cryo/Electro is 0.25x the anemo damage dealt.
 {% endtab %}
 
 {% tab title="Gust Surge" %}
