@@ -977,7 +977,7 @@ Current Burning Mechanics: Applies 2U Pyro in a small AoE, which replenish the P
 
 *Burning deals damage every 0.25 sec. Burning does not stun.*
 
-https://youtu.be/p8uba11ZGus (120 FPS)
+[https://youtu.be/p8uba11ZGus (120 FPS)](https://youtu.be/p8uba11ZGus)
 
 |Tick \#|Frame \#|
 |-------|-----|
@@ -1006,28 +1006,38 @@ https://youtu.be/p8uba11ZGus (120 FPS)
 ---
 *Burning is contagious. Applies Pyro in AOE around burning person/object*
 
-Can light the fire of a dendro state subject if lay it near dendro burning subject ( Perfect for trolling… and more) 
-https://youtu.be/3lRUAASRuTY
+Can light the fire of a dendro state subject if lay it near dendro burning subject ( Perfect for trolling… and more)
+
+[https://youtu.be/3lRUAASRuTY](https://youtu.be/3lRUAASRuTY)
+
 ---
 *Burning can be maintained for an infinite amount of time, as long as there is a supply of Dendro. (Does not consume Pyro)*
 
-https://youtu.be/eEcWMDQYFNM
+[https://youtu.be/eEcWMDQYFNM](https://youtu.be/eEcWMDQYFNM)
+
 This makes the task of maintaining burning-state full-time so much easier.
+
 ---
 *Dendro state object coated with hydro can be used as a medium for electro-charge/mist freeze because dendro hydro and electro can all exist at the same time, the same with dendro hydro cryo.*
 
-https://youtu.be/56ahHrt0rX8 U can see in this video that the super-conduct appears after we apply both cryo and electro. 
+[https://youtu.be/56ahHrt0rX8](https://youtu.be/56ahHrt0rX8)
+
+You can see in this video that the super-conduct appears after we apply both cryo and electro. 
+
 At the end of this video, there's something about the layer of reaction. When 3 elements exist at the same time( In this case Electro/Dendro/Hydro) interact with Pyro, we can only see Evaporate and Overload, no burning reaction was sighted.
-https://www.youtube.com/watch?v=gzKLXN9RIrw
+
+[https://www.youtube.com/watch?v=gzKLXN9RIrw](https://www.youtube.com/watch?v=gzKLXN9RIrw)
+
 Notice the moment when the pyro flower trap activated when the vine is infused with cryo mist, it causes some reaction looks just like shatter, or melt. 
+
 ---
 * Constant Hydro apply to prolong the duration of dendro (double the duration)*
 
-Normal dendro duration: https://youtu.be/IUUGKHKzIBo
+Normal dendro duration: [https://youtu.be/IUUGKHKzIBo](https://youtu.be/IUUGKHKzIBo)
 
-https://youtu.be/uyvo_tj4hKE
+[https://youtu.be/uyvo_tj4hKE](https://youtu.be/uyvo_tj4hKE)
 
-https://youtu.be/flraVyag7Rw
+[https://youtu.be/flraVyag7Rw](https://youtu.be/flraVyag7Rw)
 
 ```
 Normal 543 out                  1286 => duration 743
@@ -1036,7 +1046,7 @@ Raining heavily   504 out       1988 => duration 1484
 Raining heavily   367 out       1854 => duration 1487
 ```
 
-https://youtu.be/0JLT9C-UAdc
+[https://youtu.be/0JLT9C-UAdc](https://youtu.be/0JLT9C-UAdc)
 ```
 Dendro applied: 456
 662 wet
@@ -1059,50 +1069,51 @@ Duration : 869 ~ 7.2 s
 
 1. Apply 1A
     
-    https://youtu.be/VoGbzR3AdjE
+    [https://youtu.be/VoGbzR3AdjE](https://youtu.be/VoGbzR3AdjE)
     ```
-702 pyro only
-2981 pyro end 
-2279 pyro duration   >> 19 sec
-```
-https://youtu.be/T_nI2hIzM_c
+    702 pyro only
+    2981 pyro end 
+    2279 pyro duration   >> 19 sec
     ```
-413 pyro only
-2742 pyro end >> 19,408 sec ( this video bring up the subject that even though Klee apply 2U pyro at the last hit, the change is insignificant.
-The duration of pyro after burning doesn’t depend on the unit gauge apply)
-```
-https://youtu.be/eOJ2tc4KNwU
+    [https://youtu.be/T_nI2hIzM_c](https://youtu.be/T_nI2hIzM_c)
     ```
-692 pyro only
-2981 pyro end
-2289 duration >> 19.075s 
- ```
+    413 pyro only
+    2742 pyro end >> 19,408 sec ( this video bring up the subject that even though Klee apply 2U pyro at the last hit, the change is insignificant.
+    The duration of pyro after burning doesn’t depend on the unit gauge apply)
+    ```
+    [https://youtu.be/eOJ2tc4KNwU](https://youtu.be/eOJ2tc4KNwU)
+    ```
+    692 pyro only
+    2981 pyro end
+    2289 duration >> 19.075s 
+    ```
  
 2. Apply 2B
     
-    https://youtu.be/hvj5X4_3LT0
+    [https://youtu.be/hvj5X4_3LT0](https://youtu.be/hvj5X4_3LT0)
     ```
-First part 2B test
-2B pyro apply
-440 pyro only
-1931 pyro end
-1491 duration >> 12.425s
-.
-Second part 2B test
-2B pyro apply
-4953 pyro only
-6416 pyro end
-1463 duration >> 12.2 s
-.
-Third part 2B test
-This test is testing with 2B pyro with dendro applied twice
-10720 pyro only
-12145 pyro end
-1425 duration >> 11.875s >> the change is insignificant >>
-the pyro unit gauge was somehow maintained even if there’s an interruption of dendro supply in the middle,
-and the duration won’t change even if we apply pyro first
-```
+    First part 2B test
+    2B pyro apply
+    440 pyro only
+    1931 pyro end
+    1491 duration >> 12.425s
+    
+    Second part 2B test
+    2B pyro apply
+    4953 pyro only
+    6416 pyro end
+    1463 duration >> 12.2 s
+    
+    Third part 2B test
+    This test is testing with 2B pyro with dendro applied twice
+    10720 pyro only
+    12145 pyro end
+    1425 duration >> 11.875s >> the change is insignificant >>
+    the pyro unit gauge was somehow maintained even if there’s an interruption of dendro supply in the middle,
+    and the duration won’t change even if we apply pyro first
+    ```
 These times are consistent with 1.6A and 1.6B decay times. So Burning "boosts" the aura strength to 1.6U
+
 ---
 *Decay rate of dendro while burning is the sum of the natural decay rates of Dendro and Pyro auras*
 
@@ -1139,11 +1150,11 @@ Proof:
 The result is close enough (0.62 and 0.63) to be deemed insignificant. Proved. 
 ```
 ---
-*All the pyro hilichurls immune to dendro burning*
+*All the pyro hilichurls are immune to dendro burning*
 
-https://www.youtube.com/watch?v=7_9180fqy7s
+[https://www.youtube.com/watch?v=7_9180fqy7s](https://www.youtube.com/watch?v=7_9180fqy7s)
 
-Notice the hilichurl takes no burning dmg but still burns any grass it stepped on. The icon on his head is a burning aura(very much like a freezing aura of freeze reaction). (This video is my experiment about the impact of EM on burning dmg, but it unexpected turn out like that, lol). Only this kind of hilichurl have this odd ability was sighted so far.
+Notice the hilichurl takes no burning dmg but still burns any grass it stepped on. The icon on his head is a burning aura (very much like a freezing aura of freeze reaction). (This video is my experiment about the impact of EM on burning dmg, but it unexpected turn out like that). Only this kind of hilichurl have this odd ability was sighted so far.
 
 ---
 
