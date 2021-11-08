@@ -102,6 +102,41 @@ Can also work in conjunction with the effect described in a previous entry: [Vio
 
 Lisa can easily abuse this tech to quickly and efficiently stack Conductive. This allows for smoother and more rapid gameplay and very much opens up a Burst Carry archetype.
 
+## Burst Mechanics
+
+### Lisa's Lightning Rose Stagger/Knockback Mechanics
+
+By: ArchedNosi\#1484  
+Added: 11/07/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/906461616621641728/907097696148520990/transcript-lisa-stagger-knockback-mechanics-lightning-rose.html)
+
+**Findings:**
+
+Unlike as Lightning Rose's description implies, Lightning Rose does not always induce a knockback. Discharges sent from the Arcs of Lightning Rose only induce knockback if the opponent is caused to be come airborne or staggered while airborne. Otherwise, Discharge connections on grounded or stable opponents act as stagger effects.
+
+**Evidence:**
+
+Grounded Discharges Staggering, not inducing Knockback: [YouTube](https://youtu.be/1S3l65iVU5Y?t=20)  
+Taking advantage of the Staggering effect to attack from behind Shields: [YouTube](https://youtu.be/xRG9hSiuS9E?t=10)  
+
+Below are common sources of Airborne Causation into Lightning Rose knocking back:  
+* Breaking Poise via Lifting Effects: [YouTube](https://youtu.be/Dg8PPKxu4ZU?t=10)
+* Breaking Poise via Lifting Effects (Larger Enemy): [YouTube](https://youtu.be/ZUaonpt8opg?t=6)
+* Breaking Poise via Overloaded: [YouTube](https://youtu.be/aZnTDTrBDWg)
+* Breaking Poise via Attacks: [YouTube](https://youtu.be/e2xrifyqGO0)
+
+Below are some "airborne" enemies, notice how they only become knocked back when weakened, despite them being "airborne" innately:  
+* Spectre(s) not being knocked back when stable: [YouTube](https://youtu.be/hcg7nKZZ-Pc)
+* Spectre(s) being knocked back when their Poise has broken: [YouTube](https://youtu.be/8utyTb6Eftk)
+* Rifthound Whelp not being knocked back when stable: [YouTube](https://youtu.be/T8Sx6vhRfqo)
+* Rifthound Whelp being knocked back when their Poise has broken: [YouTube](https://youtu.be/mMjK-JBWy0M)
+* Rifthound not being knocked back when stable: [YouTube](https://youtu.be/9AizjcmhftA)
+* Rifthound being knocked back when their Poise has broken: [YouTube](https://youtu.be/N9S7RKqOkfE)
+
+**Significance:**
+
+Acts as clarification on the Knockback/Stagger Mechanics on Lightning Rose as well as how it can be controlled, avoided, and/or utilized in-game.
+
 ## Constellation Mechanics
 
 ### C1: Infinite Circuit
