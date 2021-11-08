@@ -113,6 +113,8 @@ The **Lightning Rose** will continuously emit lightning to knock back opponents 
 | Energy Cost | 80 | ~ | ~ |
 | GU | 1A | ~ | ~ |
 
+* The initial summon damage of **Lightning Rose** does not apply an Electro Aura.
+
 {% endtab %}
 {% endtabs %}
 
