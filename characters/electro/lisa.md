@@ -113,6 +113,9 @@ The **Lightning Rose** will continuously emit lightning to knock back opponents 
 | Energy Cost | 80 | ~ | ~ |
 | GU | 1A | ~ | ~ |
 
+* The Lightning Rose shoots lightning 29 times in total, every 0.5s after the initial summon blast.
+* Enemy targeting seems fully randomized between all opponents in-range.
+
 {% endtab %}
 {% endtabs %}
 
