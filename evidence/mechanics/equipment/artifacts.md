@@ -933,6 +933,41 @@ The 4pc set effect's duration can be extended by hitlag.
 **Significance:**
 VV use optimization.
 
+### VV RES Shred Applies after Talent Damage
+
+Recommended reading: [Simultaneous Reaction Priority](https://docs.google.com/document/d/1nz2SNxzzeujDnWQdrKEvJbECHASmwZk53On84BOymTQ/)
+
+**Evidence:**
+[3vv on Anemo Hypostasis](https://youtu.be/ZxfHWL-W-7s)
+[4vv on Anemo Hypostasis](https://youtu.be/qilUEhPL0xQ)
+
+First vid shows Barbara's normals without res shred.
+Second vid shows that res shred happens for the second attack. (The slight increase in N1 was from a slight increase in ATK.)
+
+[4vv on raining Anemo Hypostasis](https://youtu.be/4k8CpitDLQw)
+
+Calculations by ItzSomebody#0029
+
+![With VV shred](https://i.imgur.com/6DLqdet.png)
+
+![Without VV shred](https://i.imgur.com/4esRviv.png)
+
+N1 vaped. Did not get VV shred.
+CA vaped. Did get VV shred.
+
+[Kazuha absorbed Q with 4vv](https://youtu.be/eFwXOyAPLgk)
+First two absorbed hits don't get VV shred. Third does.
+
+[Sucrose absorbed Q with 4vv](https://youtu.be/jOa4eTDXm5k)
+First hit doesn't get VV shred. Second hit does.
+
+**Significance:**
+For the first two examples with Barbara and Hu Tao, we see talent damage, both non-reacting and amp-reactions are calculated before VV debuff, thus before reaction damage.
+
+For Kazuha, this is more or less expected since we know his talent damage is simultaneous.
+
+For Sucrose, all this tells us there is some other stuff about, since we still don't know if her talent damage is sequential or simultaneous. (See sucrose-absorbed-damage-simultaneous-or-sequential for more details.)
+
 ## Wanderer's Troupe
 
 ### Breakpoints for 2 WT Set Bonus vs +40% Reaction Damage From 4TF/CW Set Bonus
