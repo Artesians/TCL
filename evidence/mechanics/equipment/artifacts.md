@@ -935,10 +935,19 @@ VV use optimization.
 
 ### VV RES Shred Applies after Talent Damage
 
+**By:** NZPIEFACE#8439
+**Added:** 11/08/2021
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/903474489038348329/907446935747715102/transcript-talent-damage-and-vv-debuff-pepega-stuff.html)
+
+**Theory:**  
+VV RES Shred Applies after Talent Damage
+
 Recommended reading: [Simultaneous Reaction Priority](https://docs.google.com/document/d/1nz2SNxzzeujDnWQdrKEvJbECHASmwZk53On84BOymTQ/)
 
 **Evidence:**
+
 [3vv on Anemo Hypostasis](https://youtu.be/ZxfHWL-W-7s)
+
 [4vv on Anemo Hypostasis](https://youtu.be/qilUEhPL0xQ)
 
 First vid shows Barbara's normals without res shred.
@@ -953,6 +962,7 @@ Calculations by ItzSomebody#0029
 ![Without VV shred](https://i.imgur.com/4esRviv.png)
 
 N1 vaped. Did not get VV shred.
+
 CA vaped. Did get VV shred.
 
 [Kazuha absorbed Q with 4vv](https://youtu.be/eFwXOyAPLgk)
@@ -962,11 +972,12 @@ First two absorbed hits don't get VV shred. Third does.
 First hit doesn't get VV shred. Second hit does.
 
 **Significance:**
+
 For the first two examples with Barbara and Hu Tao, we see talent damage, both non-reacting and amp-reactions are calculated before VV debuff, thus before reaction damage.
 
 For Kazuha, this is more or less expected since we know his talent damage is simultaneous.
 
-For Sucrose, all this tells us there is some other stuff about, since we still don't know if her talent damage is sequential or simultaneous. (See sucrose-absorbed-damage-simultaneous-or-sequential for more details.)
+For Sucrose, all this tells us there is some other stuff about, since we still don't know if her talent damage is sequential or simultaneous.
 
 ## Wanderer's Troupe
 
