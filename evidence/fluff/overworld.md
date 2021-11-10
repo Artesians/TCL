@@ -218,6 +218,24 @@ Rain Max Strength:
 **Significance:**  
 Better understanding of how overworld hydro works for aura and reaction testing.
 
+### Fountain Water Cannot Cause Electrified
+
+**By:** Sayline#5959  
+**Added:** 11/10/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/906575280053837904/907925042443194428/transcript-fountaine-water-isnt-water.html)  
+
+**Finding:**  
+Fountain water does not react with Electro and cause Electrified water.  
+
+**Evidence:**  
+* [Mondstadt fountain](https://youtu.be/cU4DO-pp11Q)
+* [Teapot fish pool](https://youtu.be/PTSyuzGuyDA)
+* [Teapot Klee pool](https://youtu.be/Jlk-ZWWperE)
+* [Liyue canal](https://youtu.be/ue7hWcQNr8o)
+
+**Significance:**  
+Overworld spaghetti. Overworld bodies of water are not all the same.
+
 ## 4-piece set bonuses on environment reactions
 
 **By:** Aluminum#5462  
