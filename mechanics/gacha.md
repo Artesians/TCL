@@ -46,7 +46,7 @@ Before 63 Pulls \(Soft Pity\), the following chart details the probabilities of 
 
 After the soft pity, the probability of the 5\* increases by a currently unknown value, making it significantly more probable to receive a 5\*.
 
-The featured characters also have increased rates of pulling. The next 5\* is guaranteed to be a featured weapon if you roll a 5\* that is not featured. Similarly, for the 4\* weapons, a featured 4\* is guaranteed if a 4\* is rolled that is not featured. This guarantee will carry over banner changes. With Epitomized Path, a selected specific featured 5\* weapon is guaranteed only on the 3rd 5\* pull following 2 other 5\* pulls which were not the selected 5\* weapon. Epitomized Path progress does **not** carry over each banner, resetting every 3 weeks.
+The featured characters also have increased rates of pulling. The next 5\* is guaranteed to be a featured weapon if you roll a 5\* that is not featured. Similarly, for the 4\* weapons, a featured 4\* is guaranteed if a 4\* is rolled that is not featured. This guarantee will carry over across banner changes. With Epitomized Path, a selected specific featured 5\* weapon is guaranteed only on the 3rd 5\* pull following 2 other 5\* pulls which were not the selected 5\* weapon. Epitomized Path progress does **not** carry over across banner changes (resetting every 3 weeks).
 
 Thus, the rates before pity weighting are as follows:
 
