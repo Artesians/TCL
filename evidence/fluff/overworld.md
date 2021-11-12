@@ -1,3 +1,7 @@
+---
+search: false
+---
+
 # Overworld
 
 **Main Page:**
@@ -105,7 +109,7 @@ Electro is awful for the overworld because you can electrocharge water which res
 
 ### Environment Reactions Base
 
-**By:** Greyhound#7836  
+**By:** Greyhound\#7836  
 **Added:** 6/23/2021  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/852322096528228372/857338163654557716/transcript-environment-reaction-base.html)
 
@@ -119,27 +123,66 @@ The video shows a level 84 electro-charged tick of the pre 1.6 base (1243)
 **Significance:**  
 We're getting ever so closer to figuring out the cursed world of teyvat's code
 
-### Zone levels: Mondstadt  
+### Zone Levels
 
-**By:** deaf#0246  
+
+#### Mondstadt
+
+**By:** deaf\#0246  
 **Added** 08/26/2021  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/872856833835036723/878915593116454932/transcript-zone-levels.html)  
 
 **Finding:**  
-The overworld in Genshin is split into multiple zones which can be distinguished by how much damage overworld reactions deal.  
+The overworld in Genshin is split into multiple zones which can be distinguished by how much damage overworld reactions deal. These are the zones for Mondstadt.  
 
 **Evidence:**  
 [Zones](https://i.imgur.com/E0oN0B6.jpg)  
 A lot of painful testing was done via monitoring: enemy levels, Burning grass and Electrified, all of which can be found in the image above.  
 
 **Significance:**  
-Fluff, and a deeper understanding of how the overworld is programmed
-with that, I consider this completed. 
-I have nothing but regrets.
+Fluff, and a deeper understanding of how the overworld is programmed.  
+With that, I consider this completed.  
+I have nothing but regrets.  
+
+#### Liyue
+
+**By:** Vladone ツ\#9281  
+**Added** 11/11/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/905965525027414056/908513612430184458/transcript-zone-levels-liyue.html)  
+
+**Finding:**  
+The overworld map is split into multiple zones that effect damage dealt by environmental reactions. These are the zones for Liyue.  
+
+**Evidence:**  
+[Imgur Map](https://imgur.com/a/8KAMXuE)  
+[Full Resolution Map](https://photos.app.goo.gl/rcB9Tt3avWNwJALN6)  
+Video representation of how I test/search borders: [YouTube](https://www.youtube.com/watch?v=V1rD-cR8aCA)  
+Zone levels are usually very intuitive, Liyue has very messed up borders and a lot of bugs. Because of this, the borders are really weird and in some areas, the representation might not be very accurate.  
+[Bug Example](https://www.youtube.com/watch?v=6c57An_PDCw)  
+
+**Significance:**  
+Fluff and overworld documentation.  
+
+#### Inazuma
+
+**By:** deaf\#0246  
+**Added** 11/11/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/905984755986726972/908513380455809084/transcript-zone-levels-inazuma.html)  
+
+**Finding:**  
+The overworld map is split into multiple zones that effect damage dealt by environmental reactions. These are the zones for Inazuma.  
+
+**Evidence:**  
+[Map](https://imgur.com/a/Qmhh5Po)  
+My methodology for the borders in the water can be seen in [this video](https://www.youtube.com/watch?v=5pZlI0e7J1w).  
+Also, I think we can all agree that trying to document anything in the ocean between Inazuma and Liyue is unreasonable, so the northern borders are completely made up.  
+
+**Significance:**  
+Fluff, and overworld documentation I guess.  
 
 ### Bush Elemental Interaction
 
-**By:** deaf#0246  
+**By:** deaf\#0246  
 **Added:** 09/06/2021  
 [Disscussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/880603421873418362/884484706299686942/transcript-elemental-interactions-with-bushes.html)
 
@@ -160,7 +203,7 @@ Optimizing your bush harvesting game.
 
 ### Structures aren't enemies
 
-**By:** anonpuffs#2537  
+**By:** anonpuffs\#2537  
 **Added:** 10/09/2021  
 [Disscussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/885127802570039336/896138078912135228/transcript-structures-are-not-enemies.html)
 
@@ -180,9 +223,65 @@ Other random structures:
 **Significance:**  
 Overworld is hard.
 
+### Overworld Hydro Gauge and ICD  
+
+**By:** BowlSoldier\#3528 and p.pineapple\#1129  
+**Added:** 11/5/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/879642528046002176/903470522577326110/transcript-overworld-hydro-gauge-and-icd.html)  
+
+**Finding:**  
+Overworld Hydro can be split into 2 types:  
+* Water (eg. seas, rivers, lakes, etc)  
+  * ICD = 0.25s
+  * Strength = 10 durability per tick, stacks up to a max of 50
+  * Duration = 8s, regardless of durability  
+* Rain (unknown whether normal rain and thunderstorm rain work the same)  
+  * ICD = 0.5s
+  * Strength = 10 durability per tick, stacks up to a max of 30
+  * Duration = Unknown, could not manage to test 
+
+**Evidence:**  
+[Water ICD and per-tick strength](https://youtu.be/x2yf3COJR0M): Ticks happened every 0.25s. Number of ticks indicates that each tick was 10 durability.  
+
+[Water Duration](https://youtu.be/f2j6qEDQSl8): Hydro aura disappears 8 seconds after leaving the water.  
+
+[Water Max Strength, and Stacking](https://youtu.be/r7W9h75ct2U):  
+* The duration the Hillichurl was frozen for indicates they had 48-50 durability
+* They were re-frozen 43 frames after falling into the water. Since water ticks every 15 frames, they should have had 3 ticks applied to them for 30 durability. * Their frozen duration matches 28-30 durability
+
+Rain Max Strength:  
+* Tested by freezing with both 25 and 50 Cryo, then comparing the duration to the Freeze duration formula
+* Freeze duration formula: t = 24 * ( 5^0.5 * ((x) + 20)^0.5 - 10 )
+* Where t is the freeze duration in frames, and x is the freeze aura durability, which is 2x the minimum of the Cryo and Hydro gauges.
+  * [25 Cryo test](https://youtu.be/xnmioJca29g): Lasted 210 frames. This is the number for min(25, Hydro) = 25, so Hydro durability is at least 25
+  * [50 Cryo test](https://youtu.be/Lw2wvGbpY-0): Lasted 240 frames. This is the number for min(50, Hydro) = 30, so Hydro durability is 30
+
+[Rain ICD and Per-tick Strength](https://youtu.be/Kjx3EFqfdrE): The reductions in the Pyro shield happened every 30 frames, or 0.5s. The number of ticks it took to remove the Pyro shield indicates 10 durability per tick. The first reduction was 30 durability's worth, since the mage already had fully stacked rain on them when they applied their shield.  
+
+**Significance:**  
+Better understanding of how overworld hydro works for aura and reaction testing.
+
+### Fountain Water Cannot Cause Electrified
+
+**By:** Sayline\#5959  
+**Added:** 11/10/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/906575280053837904/907925042443194428/transcript-fountaine-water-isnt-water.html)  
+
+**Finding:**  
+Fountain water does not react with Electro and cause Electrified water.  
+
+**Evidence:**  
+* [Mondstadt fountain](https://youtu.be/cU4DO-pp11Q)
+* [Teapot fish pool](https://youtu.be/PTSyuzGuyDA)
+* [Teapot Klee pool](https://youtu.be/Jlk-ZWWperE)
+* [Liyue canal](https://youtu.be/ue7hWcQNr8o)
+
+**Significance:**  
+Overworld spaghetti. Overworld bodies of water are not all the same.
+
 ## 4-piece set bonuses on environment reactions
 
-**By:** Aluminum#5462  
+**By:** Aluminum\#5462  
 **Added:** 6/22/2021  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/845422859467489390/856750287548710912/transcript-4tf-environmental-damage.html)
 
@@ -208,7 +307,7 @@ Overworld is hard.
 
 ### Coordinates translation methods  
 
-**By:** Mcpie#8672  
+**By:** Mcpie\#8672  
 **Added:** 07/21/2021  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/865345502047764490/867159298671640616/transcript-coordinates-translation-methods.html)  
 
@@ -299,7 +398,7 @@ due to IEEE 754, the result will be off at epsilon level.
 
 ### Coordinates Units Descriptions  
 
-**By:** Mcpie#8672  
+**By:** Mcpie\#8672  
 **Added:** 08/09/2021  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/865345650060689480/874179525771165706/transcript-coordinates-units-descriptions.html)  
 
@@ -431,7 +530,7 @@ Estimating distance between points is now easier due to known values in differen
 
 ### Extracting coordinates while in game
 
-**By:** Mcpie#8672  
+**By:** Mcpie\#8672  
 **Added:** 08/09/2021  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/861913559231102996/874183553099903016/transcript-extracting-coords-while-in-game.html)  
 
@@ -461,7 +560,7 @@ This provides an easy way to calculate the distance between two points in game.
 
 ### Coordinates axises descriptions
 
-**By:** Mcpie#8672  
+**By:** Mcpie\#8672  
 **Added:** 08/09/2021  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/865345828439719966/874184378148855809/transcript-coordinates-axises-descriptions.html)  
 
@@ -494,7 +593,7 @@ If someone is going to rely on in-game coordinates from feedback url, they might
 
 ### Coordinates change when idle
 
-**By:** Mcpie#8672  
+**By:** Mcpie\#8672  
 **Added:** 08/09/2021  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/861913032152842250/874185169110704198/transcript-coordinates-change-when-idle.html)  
 
@@ -527,7 +626,7 @@ Fluff. This could also explain the fact that when you switch from child to adult
 
 ## Burning grass has standard ICD  
 
-**By:** Greyhound#7836  
+**By:** Greyhound\#7836  
 **Added:** 08/20/2021  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/877914693396758528/878182609329463306/transcript-burning-grass-icd.html)  
 
@@ -607,7 +706,7 @@ Applying pyro on grass is not a foolproof method for testing elemental gauge sin
 
 ### Treasure Compass Chest Rendering
 
-**By:** Tibo#4309  
+**By:** Tibo\#4309  
 **Added:** 10/17/2021  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/894036451740766218/899191434735943730/transcript-treasure-compass-range-chest-rendering.html)  
 

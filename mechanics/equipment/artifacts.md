@@ -63,6 +63,7 @@
 * Bonus Reaction damage is still applied even if the set holder is off-field. However, the set holder does need to trigger the Reaction. 
 * Gaining a stack refreshes the duration of previous stacks.
 * Stacks are maintained after swapping characters.
+* A stack is still gained even if the player is interrupted during Elemental Skill cast.
 {% endtab %}
 {% endtabs %}
 
@@ -95,6 +96,10 @@
 * 2 Piece Set Bonus: Increases Hydro DMG by 15%
 * 4 Piece Set Bonus: After using an Elemental Skill, Normal Attack and Charged Attack DMG is increased by 30% for 15s. 
 {% endtab %}
+
+{% tab title="Findings" %}  
+* The effect will still trigger even if the player is interrupted during Elemental Skill cast.
+{% endtab %}  
 {% endtabs %}
 
 ### Lavawalker
@@ -176,6 +181,7 @@
 * The effect cannot be refreshed.  
 * Energy will not be drained by using elemental skill while the effect is active.  
 * The Energy drain effect has a 7-frame delay from when Elemental Skill is cast to when you actually lose energy.  
+* The effect, including the Energy drain, will still trigger even if the player is interrupted during Elemental Skill cast.  
 {% endtab %}
 {% endtabs %}
 
@@ -238,6 +244,7 @@
 * 4 piece Viridescent Venerer’s RES shred passive only buffs Swirl DMG against an enemy with a pre-existing aura.
 * 4 piece Viridescent Venerer’s RES shred passive also works on surrounding enemies after being affected by Swirl’s AoE. 
 * The 4 piece set effect's duration can be extended by hitlag.
+* The attack that triggered the Swirl does not benefit from 4 piece Viridescent Venerer's RES shred passive.
 {% endtab %}
 {% endtabs %}
 

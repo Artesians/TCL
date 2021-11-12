@@ -1,3 +1,7 @@
+---
+search: false
+---
+
 # Weapons
 
 ## Bane of ... Series
@@ -236,12 +240,12 @@ This also raises the question of other royal weapon use cases with off screen DP
 
 **Finding:** AoE abilities do "snapshot" crit rate.
 
-**Evidence:** https://youtu.be/cUd-kFqAOSU and https://youtu.be/eJijOEJs4L0 The tests were conducted as follows: gain 5 stacks of a Royal weapon, exit combat and then raise crit rate up to >100%. Then use an AoE ability and counter the number of non-crits.
+**Evidence:** [https://youtu.be/cUd-kFqAOSU](https://youtu.be/cUd-kFqAOSU) and [https://youtu.be/eJijOEJs4L0](https://youtu.be/eJijOEJs4L0) The tests were conducted as follows: gain 5 stacks of a Royal weapon, exit combat and then raise crit rate up to >100%. Then use an AoE ability and counter the number of non-crits.
 If crit didn't "snapshot" and instead was calculated one by one, then after the first crit the crit rate would drop to ~60% due to losing 5 stacks of a R1 Royal weapon and the 2nd instanse of damage would have a reasonable chance to not crit.
 In the above tests, not a single event of non-crit has been observed which allows us with a reasonable amount of confidence claim that AoE abilities do "snapshot" crit rate.
 
 **Significance:** For Royal weapons it means that they can potentially have an increased efficiency given a right rotation. Although you can't gain multiple stacks with an AoE ability, what you can do is take advantage of the stacks you already gained through single target attacks. Damage dealt to all targets is guaranteed to have an increased constant crit rate, although it requires further analysis whether it actually yields better efficient crit rate or not for different rotations and combinations of base crit rate and Royal refinements.
-One particular charcter that could take advantage of this that comes to mind is Yanfei since her typical attack pattern consists of 2-3 single target attacks followed by an AoE attack (which coincidentally cares about critting).
+One particular character that could take advantage of this that comes to mind is Yanfei since her typical attack pattern consists of 2-3 single target attacks followed by an AoE attack (which coincidentally cares about critting).
 
 **Finding:** Mechanics of Royal weapon stacks:
 
@@ -259,14 +263,14 @@ For an AoE ability, damage instances dealt by the ability, including damage deal
 Stacks can be gained when the character equipped with the Royal weapon is off-field. 
 
 **Evidence:** 
-1) Sucrose's quick N1-N2 gaining 1 stack instead of 2 and multiple evidence of an AoE ability gaining no more than 1 stack when it non-crits multiple times.
-https://youtu.be/PrXV4em0ssc
+1) Sucrose's quick N1-N2 gaining 1 stack instead of 2 and multiple evidence of an AoE ability gaining no more than 1 stack when it non-crits multiple times. 
+[https://youtu.be/PrXV4em0ssc](https://youtu.be/PrXV4em0ssc)  
 2) After a single-target ability crits and causes a Swirl, the number of stacks is reset to 1 instead of 0 implying that damage from a Swirl is taken into account and is considered as non-crit. 
-https://youtu.be/mTEGm35iLmI
+[https://youtu.be/mTEGm35iLmI](https://youtu.be/mTEGm35iLmI)  
 3) Superconduct and Swirl chain reactions 
-https://youtu.be/hWfeeU6b9tM
-4) Overload and Electro-charged
-https://youtu.be/PrXV4em0ssc
+[https://youtu.be/hWfeeU6b9tM](https://youtu.be/hWfeeU6b9tM)  
+4) Overload and Electro-charged 
+[https://youtu.be/PrXV4em0ssc](https://youtu.be/PrXV4em0ssc)  
 
 **Significance:** Royal weapons have an increased efficiency in situations when the holder triggers Overload, Swirl or Superconduct due to the fact that they can potentially always have at least 1 stack.
 
@@ -950,3 +954,23 @@ Memory of dust can actually be strong, even without a shield doubling its effect
 
 **Significance:** If refining a weapon from R1 to R5, it's cheaper to constantly use the R1 weapon to refine. Also, if you're refining your levelled weapon multiple times, make the other refines first \(EX: For an R3 weapon, combine others to R2 before refining with the R3\)
 
+### Weapon Stacks On Hit
+
+**By:** CQLQRS\#7853 and Dunia\#2481  
+**Added:** 11/5/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/898239421558685757/906327045561258084/transcript-gaining-stacks-on-hit.html)  
+
+**Finding:**  
+Weapon passives with the description "on hit" or "scoring hits on opponents" can trigger on Normal Attack, Charged Attack, Elemental Skill, and Elemental Burst.
+
+**Evidence:**  
+* [Wolf's Gravestone - Rzctx#9737](https://youtu.be/1PBHhkYv3D8)  
+* [Primordial Jade Winged-Spear](https://imgur.com/a/aq6Fg53)  
+* [Vortex Vanquisher](https://www.youtube.com/watch?v=heKzSDurFPc)  
+* [Memory of Dust](https://youtu.be/DoDRg3OCY14)  
+* [The Unforged - pai#3602](https://youtu.be/90FgVKrFyFI)  
+
+The evidence for Summit Shaper is missing, but it should behave the same way as the other weapons in the same series.  
+
+**Significance:**  
+Documentation of how the ambiguous description of such weapon passives work.
