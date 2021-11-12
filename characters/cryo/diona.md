@@ -1,10 +1,16 @@
 ---
 description: >-
-  A young lady who has inherited trace amounts of non-human blood. She is the
-  incredibly popular bartender of the Cat’s Tail tavern.
+A young lady who has inherited trace amounts of non-human blood. She is the
+incredibly popular bartender of the Cat’s Tail tavern.
 ---
 
 # Diona
+
+{% hint style="info" %}
+[Full Diona Guide](https://keqingmains.com/diona/)  
+[4 Minute Quick Guide to Diona](https://youtu.be/IWoSkeAFY4o)  
+[Icy Paws Deep Dive](https://docs.google.com/document/d/1GZrscI-X_-CgzavXUbCeELrSumbAqlLqVkkJN1vWKwk/edit?usp=sharing)
+{% endhint %}
 
 ## ![](../../.gitbook/assets/element_cryo.png) Diona
 
@@ -42,12 +48,12 @@ Perform up to 5 consecutive shots with a bow.
 Perform a precise Aimed Shot with increased DMG.  
 A fully charged shot will deal Cryo DMG.
 
-| Type | Talent 6% | Frames | MV/s |
-| :--- | :--- | :--- | :--- |
-| Aimed Shot | 63.75% | 26 | 147.1%/s |
-| Fully Charged | 173.6% | 84 | 124%/s |
-| GU | 1A | ~ | ~ |
+| Type | Talent 6% | Frames | MV/s | GU |
+| :--- | :--- | :--- | :--- | :--- |
+| Aimed Shot | 63.75% | 26 | 147.1%/s | ~ |
+| Fully Charged | 173.6% | 84 | 124%/s | 1A |
 
+* Diona's Fully Charged shots follow a 3 hit/2.5s ICD.
 * Aimed Shot frame counts are done using M1 Spams.
 * Fully Charged frame counts are done using ARCC Shots.
 * Diona can cancel her dash early with Aim Toggle. Thus allows her to do quick Charged Attack while still retaining the ability to aim, unlike ARCC which cannot be aimed.
@@ -77,21 +83,30 @@ The shield’s DMG Absorption scales based on Diona’s Max HP, and its duration
 * The shield has a 250% Cryo DMG Absorption bonus.
 * Applies a 1A Cryo Aura for a short duration upon formation and upon swap to a different active character.
 
-| Effect | Talent 6% | GU | Frames | MV/s |
-| :--- | :--- | :--- | :--- | :--- |
-| Shield Scaling | 10.08% Max HP + 1097 | ~ | ~ | ~ |
-| Duration | 2.3s per Claw | ~ | ~ | ~ |
-| Press | 58.69% x 2 | 1A | 15 | 469.5%/s |
-| Hold | 58.69% x 5 | 1A x 2 | 24 | 733.6%/s |
-| Press Cooldown | 6s | ~ | ~ | ~ |
-| Hold Cooldown | 15s | ~ | ~ | ~ |
-| Particles | 0~1 \(1:4\) check per paw |  
+| Attribute | Tap | Hold |
+| :--- | :--- | :--- |
+| Skill DMG (T6%) | 58.69% x 2 | 58.69% x 5 |
+| Particles | 0~1 \(1:4\) check per paw | 0~1 \(1:4\) check per paw|
+| Frames | 15 | 24 |
+| GU | 1A | 1A x 2 | 
+| ICD | 3 hit / 2.5s | 3 hit / 2.5s |
+| Snapshot | Snapshot(?) | Snapshot(?) |
+| Damage Element | Cryo | Cryo | 
+| Damage Type | Elemental Skill | Elemental Skill |
+| Cooldown | 6s | 15s |
+
+| Attribute | Shield | 
+|:--- | :--- |
+| Base Scaling | 10.08% Max HP + 1097 | 
+| Elemental Type | Cryo | 
+| Duration | 2.3s per paw |
+
 
 * In specific circumstances, Diona's shield will apply 2U of Cryo on swap.
   * For more details see the [full entry](../../evidence/characters/cryo/diona.md#bug-dionas-shield-is-2u-under-specific-circumstances-that-are-guaranteed-on-swap) in Diona's Evidence Vault.
 * Icy Paws will not generate a shield if they do not hit something. They will also despawn after a certain amount of time.
 * A deep-dive into how Icy paws work can be found [here](https://docs.google.com/document/d/1GZrscI-X_-CgzavXUbCeELrSumbAqlLqVkkJN1vWKwk/edit?usp=sharing)
-{% endtab %}
+  {% endtab %}
 
 {% tab title="Signature Mix" %}
 Tosses out a special cold brew that deals AoE Cryo DMG and creates a **Drunken Mist**:
@@ -101,17 +116,26 @@ Tosses out a special cold brew that deals AoE Cryo DMG and creates a **Drunken M
 * Deals continuous Cryo DMG to opponents within the AoE.
 * Continuously regenerates HP of the characters within the AoE.
 
-| Effect | Talent 6% |
+| Attribute | Burst |
 | :--- | :--- |
-| Skill DMG | 112% |
-| Field DMG | 73.7% |
+| Skill DMG (T6%) | 112% |
+| Frames | 49 | 
 | GU | 1A |
-| HP Regen | 7.47% Max HP + 813 |
-| Duration | 12s |
 | CD | 20s |
 | Energy Cost | 80 |
-| Frames | 49 |
 
+| Attribute | Field |
+| :--- |:---|
+| Field DMG (T6%) | 73.7% |
+| GU | 1A |
+| ICD | 3 hits / 2.5s |
+| HP Regen | 7.47% Max HP + 813 |
+| Duration | 12s |
+| Tick Rate| 2s | 
+| C6 Buff Duration | 2s |
+
+* C6 buff applies on swap
+* Her field shares an ICD with the initial hit.
 * The Drunken Mist AoE has a finite vertical range. Characters above or below this vertical range will not receive healing.
 
 {% endtab %}
@@ -154,7 +178,7 @@ Regenerates 15 Energy for Diona after the effects of **Signature Mix** end.
 Increases **Icy Paws**’ DMG by 15%, and increases its shield’s DMG Absorption by 15%. Additionally, when paws hit their targets, creates a shield for other nearby characters on the field with 50% of the **Icy Paws** shield’s DMG Absorption for 5s.
 
 * This DMG increase is **Additive**.
-{% endtab %}
+  {% endtab %}
 
 {% tab title="C3" %}
 ## A-Another Round?
@@ -245,15 +269,7 @@ The Elemental Mastery bonus will apply immediately on swap and linger for 2 seco
 {% endtab %}
 {% endtabs %}
 
-## **External Links**
-
-* [Genshin Impact Fandom](https://genshin-impact.fandom.com/wiki/Diona)
-* [Diona Mains Discord](https://discord.gg/JkeJWTtzGT)
-* [Full Diona Guide](https://keqingmains.com/diona/)
-* [4 Minute Quick Guide to Diona](https://youtu.be/IWoSkeAFY4o)
-* [Icy Paws Deep Dive](https://docs.google.com/document/d/1GZrscI-X_-CgzavXUbCeELrSumbAqlLqVkkJN1vWKwk/edit?usp=sharing)
-
-**Evidence Vault:**
+## Evidence Vault
 
 {% page-ref page="../../evidence/characters/cryo/diona.md" %}
 
