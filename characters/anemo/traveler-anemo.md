@@ -253,10 +253,6 @@ If an Elemental Absorption occurred, then their RES towards the corresponding El
 | Initial Storm Elemental DMG | 61.60 | 66 | 70.40 | 74.80 | 79.20 | 83.60 | 88 | 93.50 |
 | Max Storm Elemental DMG | 67.20 | 72 | 76.80 | 81.60 | 86.40 | 91.20 | 96 | 102 |
 
-
-
-
-
 **Cooldown**: 5s  
 **Max Charge Cooldown**: 8s
 {% endtab %}
