@@ -221,7 +221,7 @@ Factors that do not affect the result (assuming shield will sustain)
 Additionally, in coop, if all characters have the same type of shield (C2 Diona, 4x Noelle with E up), the damage reflected is still the same. However, should there be more than one type of shields during reflect then the damage is summed. For example using Beidou E + Zhongli E on hydro Primo Geovishap reflect will result with 20% reflected damage.
 
 **Evidence:**  
-Based on datamined files, for level 93 primo geovishap, it has:
+Level 93 primo geovishap, it has:
 `(407.5199890136719 * 1930.0469970703125) = 786532.731042` HP
 Therefore, 15% is `117979.909656` and 5% is `39326.6365521`.
 
@@ -579,7 +579,7 @@ Big and small Rifthounds deal the same damage: [imgur](https://imgur.com/BIg8Lki
 Multiple stacks deal damage with independent durations and independent damage tick intervals: [imgur](https://imgur.com/JcgR54Z)  
 
 **Significance:**  
-Better understanding of Corrosion status.
+Better understanding of Corrosion status.  
 
 ## Specters
 
@@ -626,3 +626,33 @@ Defeating a specter does not proc any of the kill-based effects in the game.
 
 **Significance:**  
 This implies that specters aren't actually killed by the player. Weapons, particularly the Blackcliff series, are less effective in floors that contain Specters. Current characters interactions that require kills (notably Kaeya C2) may be affected, as well as future characters with a similar kill-requirement.  
+
+
+## Stormterror  
+
+### Stormterror DoT Damage Cap
+
+**By:** ᗪᗩᖇᛕ ᕼᗴᖇᗩᒪᗪ#0209  
+**Added:** 11/5/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/904754824304787466/906425965872291860/transcript-the-dmg-increase-dvalins-dot-does-will-eventually-stop-increasing.html)  
+
+**Finding:**  
+Stormterror's DoT floor attack has a damage cap. The damage is not based on the active character's HP. However, it does take into account the active character's DEF, anemo RES, and any Damage Reduction buffs.  
+
+**Evidence:**  
+[25121 Max HP and 789 DEF](https://youtu.be/YZV5Zr4DR5U)  
+[22928 Max HP and 789 DEF](https://youtu.be/Mse-099L78I)  
+* In both videos, the DoT maxes out at 3455 damage per tick, showing that Max HP does not affect the damage.  
+
+[20970 Max HP and 733 DEF](https://youtu.be/ZOlc5e9PWqc)  
+[20970 Max HP and 681 DEF](https://youtu.be/TxQ0We4_Vyc)  
+* The DoT deals 3590 damage in the first video, and 3725 damage in the second, showing that DEF affects damage.  
+
+[20970 Max HP, 733 DEF, Protective Canopy Elemental Resonance](https://youtu.be/lVLpSTf2jz4)  
+* The DoT deals 3051 damage, showing that elemental RES affects damage.  
+
+[Xingqiu with and without Rainswords](https://youtu.be/mHUs0j-7vmQ)  
+* The DoT first deals 3031 damage. After casting Xingqiu's Skill, the DoT deals 2152 damage until all Rainswords break, then deals 3031 damage again.  
+
+**Significance:**  
+Better understanding of Dvalin's DoT attack and how it calculates damage.
