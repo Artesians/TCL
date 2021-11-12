@@ -6,7 +6,7 @@
 
 ## Skill Mechanics
 
-### 
+### AMC E Additional Elemental Damage
 
 **By:** Neptunya\#8291, phaZ\#6461, and Bobrokrot\#0111  
 **Added:** 11/5/2021  
