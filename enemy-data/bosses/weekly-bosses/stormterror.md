@@ -61,4 +61,4 @@ None.
 
 ## Interactions  
 
-* The damage from cracked platforms is based on the active character's DEF, anemo RES, and any Damage Reduction buffs. It is not based on the active character's max or current HP.
+* The damage from cracked platforms is normal Anemo damage and is not based on the active character's HP.
