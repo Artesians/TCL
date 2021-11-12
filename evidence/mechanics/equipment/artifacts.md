@@ -222,7 +222,7 @@ Actual ratio: 947/1257=.75
 
 ### 4p Gambler procs without Skill on CD  
 
-**By:** Mcpie#8672  
+**By:** Mcpie\#8672  
 **Added:** 08/17/2021  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/876370102969327646/877095662821449748/transcript-4p-gambler-procs-without-skill-on-cd.html)
 
@@ -242,7 +242,7 @@ Knowledge.
 
 ### 4pc Instructor only procs on field
 
-**By:** NZPIEFACE#8439  
+**By:** NZPIEFACE\#8439  
 **Added:** 07/14/2021  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/864564549817597983/864796626060443658/transcript-4pc-instructor-only-procs-on-field.html)
 
@@ -264,7 +264,7 @@ Make sure to land the reaction before swapping off the Instructor user.
 
 ### Instructor duration extend
 
-**By:** ItzSomebody#0029  
+**By:** ItzSomebody\#0029  
 **Added:** 07/21/2021  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/866197006732754945/867165516417335296/transcript-instructor-duration-extend.html)
 
@@ -279,7 +279,7 @@ The buff time can be extended by swapping back into the carrier and triggering a
 
 ### Instructor Doesn't Apply To Triggering hit
 
-**By:** NZPIEFACE#8439  
+**By:** NZPIEFACE\#8439  
 **Added:** 10/17/2021  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/894835774149779546/899112347862433822/transcript-4in-doesnt-apply-to-triggering-hit.html)
 
@@ -300,7 +300,7 @@ Damage calculation
 
 ### Instructor Ignores Environmental Target And Your Characters
 
-**By:** elijam#7142  
+**By:** elijam\#7142  
 **Added:** 10/17/2021  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/898398553783799848/899200243520917524/transcript-4ins-doesnt-proc-on-environmental-or-self-rxns.html)
 
@@ -356,7 +356,7 @@ Above numbers have being subtracted from 150 \(started with that hp before heali
 
 ### Self 4NO Interactions
 
-**By:** gtrain#9987  
+**By:** gtrain\#9987  
 **Added:** 09/22/2021  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/876190240774172692/890105896015912960/transcript-self-4no-interactions.html)
 
@@ -391,7 +391,7 @@ Whether you should run 4NO.
 
 ### 4pc Pale Flame Duration Refresh
 
-**By:** Zozer#1782
+**By:** Zozer\#1782
 
 **Added:** 6/22/2021
 
@@ -405,7 +405,7 @@ Whether you should run 4NO.
 
 ### 4pc Pale Flame Buff Activation Timing  
 
-**By:** Adra | Beats by Ei#0024 and Agent_Eon#8245  
+**By:** Adra | Beats by Ei\#0024 and Agent_Eon\#8245  
 **Added:** 11/5/2021  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/903457737843806259/906417456615153694/transcript-4-pf-dmg-window.html)  
 
@@ -458,7 +458,7 @@ Values were tested and compared with sheet calcs at multiple ping levels, but I 
 
 ### 4pc ToM does not stack and resets duration
 
-**By:** WinJ#9420  
+**By:** WinJ\#9420  
 **Added:** 08/20/2021  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/877837766946357279/878174472325169173/transcript-multiple-tom-wielder-interactions.html)
 
@@ -485,7 +485,7 @@ Evidence: [1](https://i.imgur.com/M5nK6Ne.jpeg) [2](https://imgur.com/a/cscnlJM)
 
 ### Shimenawa energy drain delay  
 
-**By:** Episodde#8962  
+**By:** Episodde\#8962  
 **Added:** 08/28/2021  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/876725060554080287/880927102097055764/transcript-energy-drain-effects-have-a-delay.html)
 
@@ -941,7 +941,7 @@ List of tests:
 
 ### VV Duration Extended by Hitlag
 
-**By:** Greyhound#7836  
+**By:** Greyhound\#7836  
 **Added:** 08/21/2021  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/878612062195036220/878613567186825266/transcript-vv-extended-by-hitlag.html)
 
@@ -979,7 +979,7 @@ For characters building around triggering transformative reactions, if they do n
 
 ## Breakpoints for 2WT2Ins Set Bonus vs. 4VV Set Bonus
 
-**By:** elijam#7142  
+**By:** elijam\#7142  
 **Added:** 07/15/2021  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/860290744102158356/865148427524636672/transcript-breakpoints-for-2wt2ins-vs-4vv.html)
 
