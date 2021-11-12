@@ -16,7 +16,7 @@
 **Theory:**  
 Overload and Superconduct have a maximum number of times \(twice\) that it can be triggered on an enemy within a short period of time.
 
-**Evidence:** 
+**Evidence:**  
 See the two below screenshots and comments. We already know that Swirl can only proc twice on each enemy maximum from a translated document, which looks in line with these results.
 
 [https://imgur.com/a/yNQ3Ccn](https://imgur.com/a/yNQ3Ccn)
@@ -973,8 +973,7 @@ I electro charged in different orders with different application strengths. The 
 **Finding:**  
 Current Burning Mechanics: Applies 2U Pyro in a small AoE, which replenish the Pyro for Burning. Decay rate of Dendro in Burning is the sum of natural decay rate of the Pyro aura and the natural decay rate of the Dendro aura.
 
-**Evidence:** 
-
+**Evidence:**  
 *Burning deals damage every 0.25 sec. Burning does not stun.*
 
 [Evidence (120 FPS)](https://youtu.be/p8uba11ZGus)
