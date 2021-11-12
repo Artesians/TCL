@@ -4,11 +4,10 @@ description: A young lady who has inherited trace amounts of non-human blood. Sh
 
 # Diona
 
-{% hint style="info" %}
+## Resources
 [Full Diona Guide](https://keqingmains.com/diona/)  
 [4 Minute Quick Guide to Diona](https://youtu.be/IWoSkeAFY4o)  
 [Icy Paws Deep Dive](https://docs.google.com/document/d/1GZrscI-X_-CgzavXUbCeELrSumbAqlLqVkkJN1vWKwk/edit?usp=sharing)
-{% endhint %}
 
 ## ![](../../.gitbook/assets/element_cryo.png) Diona
 
