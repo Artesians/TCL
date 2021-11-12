@@ -394,7 +394,7 @@ Food is not infinite.
 
 ## Narukami Shrine Fortune Slip Probabilities
 
-**By:** mmjacobs#9588  
+**By:** mmjacobs\#9588  
 **Added:** 11/11/2021  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/896487806543724604/908520683506630697/transcript-narukami-shrine-fortune-slip-probabilities.html)  
 
