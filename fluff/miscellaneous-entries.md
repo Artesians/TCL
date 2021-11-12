@@ -18,13 +18,13 @@ description: For entries that have little practical use.
   * This can also be performed by interacting with an NPC or a poster instead of a chair.
 * Aiming with the Harpastum Ball gadget allow character to quickly cancel their animation in combat. This cancel is slightly faster than jump/dash cancels. However, this doesn't work for charge attacks.
 
-
 ## Environment
 
 * Bushes take one unit of pyro elemental application to light on fire.
 * If it's raining and you approach Mondstadt, the rain will stop, even though the rain will continue outside Mondstadt.
 * Lighting grass on fire will sometimes only take 1 unit of pyro in a friend's teapot.
 * Electro Crystals have levels
+* You can light torches and melt Ice Flowers with 0 gauge pyro hits, such as Overload, Hu Tao's Skill cast, and Yoimiya's Skill cast.
 
 ## Tanking
 
@@ -59,6 +59,16 @@ Original Resin can go past the cap of 160, up to a cap of around 2000 Resin.
 
 ### Crafted Food Item Limit  
 Crafted food items have a limit of 2000 per unique item.  
+
+## Narukami Shrine Fortune Slip Probabilities  
+
+* There are 16 possible fortune slip results, each with a unique lucky item. The probability of each fortune slip result (and therefore each lucky item) is equal. However, some fortune slips share the same fortune type. The likelihood of each fortune type is the following:  
+    * Great Misfortune = 1/16 = 6.25%
+    * Misfortune = 2/16 = 12.5%
+    * Rising Fortune = 2/16 = 12.5%
+    * Modest Fortune = 4/16 = 25%
+    * Good Fortune = 3/16 = 18.75%
+    * Great Fortune = 4/16 = 25%
 
 ## Evidence Vault
 

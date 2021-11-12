@@ -1,3 +1,7 @@
+---
+search: false
+---
+
 # Lisa
 
 **Main Page:**
@@ -128,6 +132,64 @@ In practice, the initial Summon Damage from Lisa's Lightning Rose does not apply
 Demonstrates that the Initial Summon DMG of Lightning Rose does not apply an Electro Aura. 
 For Lisa specifically, knowing this is more useful than not as she would be able to not proc Overloaded/Superconduct from casting Lightning Rose and be able to quickly cast a Tap E after to proc the reaction instead, causing Multiple Conductive Stacks to occur due to her Multi-Stacking.
 
+
+### Lisa's Lightning Rose is Random when Targeting Entities + Total Count
+
+**By:** ArchedNosi\#1484  
+**Added:** 11/09/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/906461792132284426/907623932083970088/transcript-lisa-lightning-rose-targeting-and-total-count.html)
+
+**Findings:**
+
+Lisa's Lightning Rose shoots out Arcs 29 times in total, every 0.5s after the Initial Summon Blast.  
+Unlike some other static AoE field deployables, namely Albedo's Tectonic Tide's Fatal Blossoms and Ganyu's Celestial Shower's Ice Shards, Lisa's Lightning Rose does not have any guaranteed properties like those mentioned do. Instead, the method by which Lightning Rose targets opponents is seemly fully randomized between all opponents.
+
+**Evidence:**
+
+60 Lightning Rose Trials among 3 Opponents: [Google Sheets](https://docs.google.com/spreadsheets/d/1r7H3Tbqhz2fViV5qHuycP-Hmy3GSI8Wi1PdIxtvWSDc/edit?usp=sharing) | [YouTube](https://youtube.com/playlist?list=PLYUuVozQgGzFcprW_Xa6IzQfrPg6Xrgpb)
+
+Within the sheet, 60 Trials were conducted and recorded consecutively on a set of 3 Hilichurls, each being marked as 1, 2, or 3, respectively. Discharge connections were recorded along the way and no patterns and near equal targeting occurances were present, indicating there is randomness and no guaranteed sequencing. Similarly, outliers of varying frequencies were present as well due to the nature of randomness.
+
+All trials also revealed there are 29 total Arcs and each had 0.5s intervals beginning after the Initial Summon Blast.
+
+**Significance:**
+
+Confirms how Lightning Rose shoots a total of 29 times for every 0.5s after the Initial Summon Blast.  
+Also acts as a better understanding of how Lightning Rose functions, which is more random than some sequences like Celestial Shower's Ice Shards or Tectonic Tide's Fatal Blossoms.
+
+### Lightning Rose has Limited Quadratic Properties and Impact AoE
+
+**By:** ArchedNosi\#1484  
+**Added:** 11/10/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/906462271125995530/907915774545526834/transcript-lisa-aoe-properties-lightning-rose.html)  
+
+**Finding:**  
+Lisa's Lightning Rose connections have an impact AoE.  
+Somewhat like other abilities with the potential to Quadratically Scale in output, C4 Lightning Rose is also able to as well, varying on the Entity count, the count of Discharges released at a time, and the proximity of Entities. However, as the scaling is dependent with how C4 works, her Quadratic Scaling is capped and limited at 3 Discharges/Entities, and will return to Linear Multiplicative Scaling in higher Entity Counts or lower Discharge Counts.  
+
+**Evidence:**  
+* [1 Entity](https://youtu.be/ZDknULX1M7o)  
+  * 1 Damage Value occured in each Arc containing 1 Discharge \(1 Entity × 1 Discharge\) \[technically Quad\]
+* [2 Entities](https://youtu.be/d8vx7AsubU0)
+  * When 1 Discharge occured, there were 2 resulting Damage Values \(2 Entities × 1 Discharge\) 
+  * When 2 Discharges occured, there were 4 resulting Damage Values \(2 Entities × 2 Discharges\) \[Quad\]
+* [3 Entities](https://youtu.be/ewk7a9NdDkw)
+  * When 1 Discharge occured, there were 3 resulting Damage Values \(3 Entities × 1 Discharge\)
+  * When 2 Discharges occured, there were 6 resulting Damage Values \(3 Entities × 2 Discharges\)
+  * When 3 Discharges occured, there were 9 resulting Damage Values \(3 Entities × 3 Discharges\) \[Quad\]
+* [4 Entities](https://youtu.be/kql4C6_Wq90)
+  * When 1 Discharge occured, there were 4 resulting Damage Values \(4 Entities × 1 Discharge\)
+  * When 2 Discharges occured, there were 8 resulting Damage Values \(4 Entities × 2 Discharges\)
+  * When 3 Discharges occured, there were 12 resulting Damage Values \(4 Entities × 3 Discharges\) 
+
+Hypothetical N Entities (assuming all are condensed enough to be tagged by all Discharges):  
+* If 1 Discharge occurs, there will be \(N × 1\) resulting Damage Value(s) 
+* If 2 Discharges occur, there will be \(N × 2\) resulting Damage Values
+* If 3 Discharges occur, there will be \(N × 3\) resulting Damage Values
+
+**Significance:**  
+Proves that Lisa's Lightning Rose can have AoE properties as well as very limited Quadratic potential. In turn, one may be able to condense a group of mobs close enough to accentuate Lightning Rose's total damage output.  
+
 ## Constellation Mechanics
 
 ### C1: Infinite Circuit
@@ -162,3 +224,42 @@ While the videos below demonstrate C1's mechanics with Lisa's Tap E pre-2.1, Hol
 **Significance:**
 
 In knowing how C1 actually works, Lisa, when she is on-field, can effectively run much less Energy Recharge on her artifacts and still recharge her Elemental Burst off cooldown given enough enemies and how they are grouped.
+
+### C4: Plasma Eruption
+
+#### C4 Description and Actual Effects are Miscommunicated
+
+**By:** ArchedNosi\#1484  
+**Added:** 11/10/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/906461937536217088/907909745048944700/transcript-lisa-c4-actual-effects-miscommunicated.html)  
+
+**Finding:**  
+The current description for Lisa's fourth constellation is currently falsely misleading, it states that it:  
+* Increases the number of lightning bolts released by Lightning Rose by 1-3.
+By this description, the assumed effect is that Arcs may release a potential of 2-4 Bolts/Discharges.  
+However, Lisa's C4 affects Lightning Rose by making it release 1-3 Discharges, not add 1-3 Discharges.  
+
+Additionally, the frequency at which how many Discharges are released per Arc also alters on enemy/entity count and has its own quirks:  
+* If there is only 1 Enemy/Entity within the field, Lightning Rose will only release 1 Discharge with and without C4. (100% Rate)
+* If there are 2 Enemies/Entities within the field, Lightning Rose will release 1 or 2 Discharges with C4.
+  * Each Arc has a ~17.5% chance of releasing 1 Discharge and a ~82.5% chance of releasing 2 Discharges.
+* If there are 3 or more Enemies/Entities within the field, Lightning Rose will release 1, 2, or 3 Discharges with C4.
+  * Interestingly, this scenario carries two sets of randomizations:
+    * One that randomizes between shooting 1 or 2 Discharges, following a 50% and 50% occurance rate, and the other randomizing between 1, 2, and 3 Discharges, following a 25%, 50%, and 25% occurance rate, respective to the number of Discharges.
+    * The first Arc released from a Lightning Rose will never release 3 Discharges, rather it will either release 1 or 2 Discharges, with a 50:50 rate.
+    * After the first Arc, following Arcs will follow either releasing 1 (25%), 2 (50%), or 3 Discharges (25%). 
+    * However, if an Arc ever releases 3 Discharges, the subsequent Arc will release 1 or 2 Discharges, with the 50:50 ratio as described prior.
+    * Overall, the average distribution between all occurances within 3 or 3+ Entities is around 30% of Arcs releasing 1 Discharge, 50% releasing 2 Discharges, and 20% releasing 3 Discharges.
+
+**Evidence:**  
+[Google Sheet](https://docs.google.com/spreadsheets/d/1k9m3ZWt0MdExphNuuc0OBTwSKwBXUDFGzxzljjyERGc/edit?usp=sharing) containing 241 total documented and recorded Trials between 1 Entity, 2 Entity, 3 Entity, and 3+ Entity situations.  
+* [Video](https://youtu.be/QwSxT6SyCbM) of the 1 Entity Trial.  
+* [Video A](https://youtu.be/GriXfqKfWLQ) and [Video B](https://youtu.be/WP02MEn8Qn4) of all 120 2 Entity Trials.  
+* [Video](https://youtu.be/1liVFrHDfX8) of all 60 3 Entity Trials.  
+* [Video](https://youtu.be/7WQgnKWCmj8) of all 60 3+ Entity Trials.  
+
+120 Trials were done for 2 Entities as to provide a possibly more accurate ratio (17.5% for 1, and 82.5% for 2).  
+Throughout all 3 and 3+ Entity Trials, all have showcased how the First Arc and Arcs following a 3 Discharge Arc occur in realeasing either 1 or 2 Discharges (50:50) and never in 3 Discharges.  
+
+**Significance:**  
+Clears up what the actual effects are of Lisa's C4 and the frequencies of each occurance within 1, 2, and 3+ entity scenarios. Also, if one is attempting to calculate how much C4 impacts Lightning Rose, on average and without taking account for possible AoE hits, in 1 Entity scenarios, there is no effect, in 2 Entity scenarios, it is around an 82.5% effectiveness increase, and in 3 or 3+ Entity scenarios, it is around a 90% effectiveness increase `(0.30*1 + 0.50*2 + 0.20*3)`.  
