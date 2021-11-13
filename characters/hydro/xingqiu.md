@@ -165,7 +165,7 @@ Increases the Level of **Guhua Sword: Raincutter** by 3.
 Throughout the duration of **Guhua Sword: Raincutter**, the DMG dealt by Guhua Sword: Fatal Rainscreen is increased by 50%.
 
 * This effect is multiplicative. 
-  * See: [Damage Formula](https://library.keqingmains.com/mechanics/combat/damage-formula#evilsoother)
+  * See: [Damage Formula](../../combat-mechanics/damage/damage-formula.md#evilsoother)
 
 {% endtab %}
 

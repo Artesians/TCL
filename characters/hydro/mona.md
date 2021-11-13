@@ -134,7 +134,7 @@ Traps opponents inside a pocket of destiny and also makes them Wet. Renders weak
 
 * Bubble Burst DMG is determined at the time the Bubble is actually triggered, rather than snapshotting on immediate cast.
 * **Omen** DMG Bonus is additive to the damage calculation and is classified as **DamageBonus**
-  * See: [Damage Formula](https://library.keqingmains.com/mechanics/combat/damage-formula#base-damage)
+  * See: [Damage Formula](../../combat-mechanics/damage/damage-formula.md#base-damage)
 * **Illusory Bubble**'s duration can be extended under specific circumstances:
   * Enemies that were applied Cryo beforehand, thus got Frozen after receiving the **Illusory Bubble** status.
   * Enemies that are in a stagger-resistant state, i.e., performing an attack animation, having an elemental shield/armor, etc.
@@ -187,7 +187,7 @@ When any of your own party members hit an opponent affected by an **Omen**, Hydr
 * Frozen duration is extended by 15%
 
 This bonus effect is additive and classified as **ReactionBonus.**  
-See: [Damage Formula](https://library.keqingmains.com/mechanics/combat/damage-formula#amplifying-reaction-bonus)
+See: [Damage Formula](../../combat-mechanics.damage/damage-formula.md#amplifying-reaction-bonus)
 
 Teammates in Co-op are not counted as "your own party members" and will not obtain the effects of **Prophecy of Submersion.**
 {% endtab %}
@@ -287,8 +287,8 @@ Upon entering **Illusory Torrent**, Mona gains a 60% increase to the DMG of her 
 * [Genshin Impact Fandom](https://genshin-impact.fandom.com/wiki/Mona)
 * [Mona Mains Discord](https://discord.gg/uxVEDkTyRe)
 * [Full Mona Written Guide: The Astrological Guide to Mona Megistus](https://keqingmains.com/mona/)
-* [Optimal Mona Attack String](https://library.keqingmains.com/evidence/characters/hydro/mona#what-attack-string-combo-outputs-the-highest-dps-for-mona) by Baezal#0868
-* [Mona Omen Extension Explained](https://library.keqingmains.com/evidence/characters/hydro/mona#mona-omen-extension-extended) by Gibbigobo#9750(aka LACola)
+* [Optimal Mona Attack String](../../evidence/characters/hydro/mona.md#what-attack-string-combo-outputs-the-highest-dps-for-mona) by Baezal#0868
+* [Mona Omen Extension Explained](../../evidence/characters/hydro/mona.md#mona-omen-extension-extended) by Gibbigobo#9750(aka LACola)
 
 **Evidence Vault:**
 

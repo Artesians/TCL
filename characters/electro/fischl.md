@@ -294,8 +294,8 @@ Extends **Oz’s** duration on field by 2s \(12s\). Additionally, when **Oz** is
 * [Genshin Impact Fandom](https://genshin-impact.fandom.com/wiki/Fischl)
 * [Fischl Mains Discord](https://discord.gg/JSN9Rk2sWe)
 * [5 Minute Quick Guide to Fischl](https://youtu.be/_9PPaCczgTo)
-* [Fischl Support Weapon Rankings](https://library.keqingmains.com/evidence/characters/electro/fischl#fischl-support-weapon-rankings) by itsjaeYOU#2868
-* [Fischl Build Comparison](https://library.keqingmains.com/evidence/characters/electro/fischl#fischl-build-comparison) by Paraszczak#0148
+* [Fischl Support Weapon Rankings](https../../evidence/characters/electro/fischl.md#fischl-support-weapon-rankings) by itsjaeYOU#2868
+* [Fischl Build Comparison](../../evidence/characters/electro/fischl.md#fischl-build-comparison) by Paraszczak#0148
 
 **Evidence Vault:**
 

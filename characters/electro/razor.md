@@ -252,10 +252,10 @@ Every 10s, Razor's sword charges up, causing the next Normal Attack to release l
 * [Genshin Impact Fandom](https://genshin-impact.fandom.com/wiki/Razor)
 * [Razor Mains Discord](https://discord.gg/6qGZNQkWBX)
 * [Legend of Wolvendom: Razor In-Depth Written Guide](https://keqingmains.com/razor/)
-* [Tap E vs Hold E in Single Target](https://library.keqingmains.com/evidence/characters/electro/razor#tap-e-vs-hold-e-against-single-enemy) by Tetragram#6983
-* [3-hit vs 4-hit Combo Outside of Burst](https://library.keqingmains.com/evidence/characters/electro/razor#3-hit-combo-or-4-hit-combo) by Tetragram#6983 and Shifu02#7738
-* [Razor Frame Data](https://library.keqingmains.com/evidence/characters/electro/razor#razor-frame-data) 
-* [Razor Dragonstrike MV/s](https://library.keqingmains.com/evidence/characters/electro/razor#razor-dragonstrike-mv-s) by SwiftySwoo#0930
+* [Tap E vs Hold E in Single Target](../../evidence/characters/electro/razor.md#tap-e-vs-hold-e-against-single-enemy) by Tetragram#6983
+* [3-hit vs 4-hit Combo Outside of Burst](../../evidence/characters/electro/razor.md#3-hit-combo-or-4-hit-combo) by Tetragram#6983 and Shifu02#7738
+* [Razor Frame Data](../../evidence/characters/electro/razor.md#razor-frame-data) 
+* [Razor Dragonstrike MV/s](../../evidence/characters/electro/razor.md#razor-dragonstrike-mv-s) by SwiftySwoo#0930
 
 **Evidence Vault:**
 

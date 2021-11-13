@@ -211,7 +211,7 @@ Serpent stacks still boost damage when off-field.
 
 ### The Bell
 
-Tidecaller is affected by [The Bell's](../../mechanics/equipment/weapons/claymores.md#the-bell) 12% increased DMG on every cast.
+Tidecaller is affected by [The Bell's](../../equipment/weapons/claymores.md#the-bell) 12% increased DMG on every cast.
 
 ### Rainslasher
 

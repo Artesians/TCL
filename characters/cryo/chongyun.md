@@ -167,7 +167,7 @@ Increases the level of **Chonghua’s Layered Frost** by 3.
 **Spirit Blade: Cloud-parting Star** deals 15% more DMG to opponents with a lower percentage of their Max HP remaining than Chongyun. This skill will also summon 1 additional **Spirit Blade**.
 
 * This DMG Bonus is **Additive**.
-* See: [Damage Formula](https://library.keqingmains.com/mechanics/combat/damage-formula#base-damage)
+* See: [Damage Formula](../../combat-mechanics/damage/damage-formula.md#base-damage)
 {% endtab %}
 {% endtabs %}
 

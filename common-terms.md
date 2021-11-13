@@ -51,7 +51,7 @@ For a more in-depth look at team compositions + roles, take a look at this [guid
 
 ## Reaction Terms
 
-For a more in-depth look at reactions, there is a whole [section](https://library.keqingmains.com/mechanics/combat/elemental-reactions) dedicated to them in the TCL.
+For a more in-depth look at reactions, there is a whole [section](./combat-mechanics/elemental-effects) dedicated to them in the TCL.
 
 **Amplified\(Amped\)** = A category for reactions, which melt and vaporize fall into. Amped reactions multiply the trigger by a specific multiplier, for more details go to General Reaction Mechanics .
 
@@ -74,7 +74,7 @@ For a more in-depth look at reactions, there is a whole [section](https://librar
 
 **Elemental Source** = An element-imbued attack or skill that will apply an element on the enemy. All elemental sources should have the decay and GU appended.
 
-**Internal Cooldown \(ICD\)** = A hidden timer that occurs when an elemental source applies an aura or trigger to an enemy. For more details, see our page on [ICDs](https://library.keqingmains.com/mechanics/combat/elemental-reactions/internal-cooldown-of-elemental-application).
+**Internal Cooldown \(ICD\)** = A hidden timer that occurs when an elemental source applies an aura or trigger to an enemy. For more details, see our page on [ICDs](combat-mechanics/elemental-effects/internal-cooldown-of-elemental-application).
 
 * During this ICD, repeated use of that specific elemental source WILL do elemental damage, but WILL NOT apply an aura/trigger
 
@@ -115,7 +115,7 @@ As the theorycrafting library is being migrated, many of these terms do not have
 
 ### Poise
 
-For more information see our page on [poise](mechanics/combat/poise.md).
+For more information see our page on [poise](combat-mechanics/poise.md).
 
 **Force** = Determines what level stagger will occur
 

@@ -253,8 +253,8 @@ After using **Chihayaburu** or **Kazuha Slash**, Kaedehara Kazuha gains an Anemo
 * [Kazuha Mains Discord](https://discord.gg/kazuhamains)
 * [Kazuha Written Guide: Scarlet Leaves Pursue Wild Waves](https://keqingmains.com/kazuha/)
 * [6 Minute Quick Guide to Kazuha](https://youtu.be/QpaxtAxTJuA)
-* [EM vs ADC Kazuha](https://library.keqingmains.com/evidence/characters/anemo/kazuha#em-vs-adc-kazuha) by Zakharov#5645
-* [EM vs ADC Kazuha Team Damage Calculation](https://library.keqingmains.com/evidence/characters/anemo/kazuha#em-vs-adc-kazuha-team-dmg-calculation) by Ayzel#7399
+* [EM vs ADC Kazuha](../../evidence/characters/anemo/kazuha.md#em-vs-adc-kazuha) by Zakharov#5645
+* [EM vs ADC Kazuha Team Damage Calculation](../../evidence/characters/anemo/kazuha.md#em-vs-adc-kazuha-team-dmg-calculation) by Ayzel#7399
 
 **Evidence Vault:**
 

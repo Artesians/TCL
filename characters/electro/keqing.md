@@ -253,7 +253,7 @@ When initiating a Normal Attack, a Charged Attack, Elemental Skill or Elemental 
 * [Keqing Mains Discord](https://discord.gg/Keqing)
 * [Full Keqing Written Guide](https://keqingmains.com/keqing/)
 * [8 Minute Quick Guide to Keqing](https://youtu.be/A9_k6p52N1o)
-* [Frame by Frame Analysis of Keqing's Attack Combos](https://library.keqingmains.com/evidence/characters/electro/keqing#frame-by-frame-analysis-of-keqings-attack-combos) by HailCorporate#2970
+* [Frame by Frame Analysis of Keqing's Attack Combos](../../evidence/characters/electro/keqing.md#frame-by-frame-analysis-of-keqings-attack-combos) by HailCorporate#2970
 
 **Evidence Vault:**
 
