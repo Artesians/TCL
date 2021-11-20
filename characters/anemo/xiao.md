@@ -68,10 +68,17 @@ Xiao lunges forward, dealing Anemo DMG to opponents in his path.
 Can be used mid-air.  
 Starts with 2 charges.
 
-| Type | Talent 6 DMG% | Frames | Motion Value | Particles |
-| :--- | :--- | :--- | :--- | :--- |
-| Skill DMG | 353.92% | 36 | 589.9%/s | 3 \(-\) |
-| CD | 10s | ~ | ~ | ~ |
+| Attribute | Skill |
+| :--- | :--- |
+| Skill DMG (T6%) | 353.92% | 36 |
+| Particles | 3 |
+| Frames | 36 | 
+| GU | 2B |
+| ICD | 7 hit / 0.1s |
+| Snapshot? | Snapshot |
+| DMG Element | Anemo |
+| DMG Type | Skill |
+| CD | 10s |
 
 * A Double E Cast is only 60 frames long.
 {% endtab %}
@@ -88,14 +95,15 @@ Xiao dons the **Yaksha Mask** that set gods and demons trembling a millennia ago
 * Xiao's attacks will be infused with 1GU Anemo.  
 * While the effects of **Elemental Burst: Bane of All Evil** are active, the energy particle generation of **Elemental Skill: Lemniscatic Wind Cycling** is disabled.  
 
-| Effect | Talent 6% |
+| Attribute | Burst (T6%) |
 | :--- | :--- |
-| Normal, Charged, and Plunge DMG bonus | 77% |
+| Normal, Charged, Plunge DMG bonus | 77% |
 | Life Drain | 2.5% Current HP/s |
+| Frames | 58 |  
+| Energy Cost | 70 |
 | Duration | 15s |
 | CD | 18s |
-| Energy Cost | 70 |
-| Frames | 58 |  
+
 {% endtab %}
 {% endtabs %}
 
