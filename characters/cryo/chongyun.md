@@ -1,6 +1,5 @@
 ---
-description: A young exorcist from a family of exorcists. He does everything he can to 
-suppress his abundance of yang energy.
+description: A young exorcist from a family of exorcists. He does everything he can to suppress his abundance of yang energy.
 ---
 
 # Chongyun
