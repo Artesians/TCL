@@ -1,10 +1,13 @@
 ---
-description: >-
-  A young exorcist from a family of exorcists. He does everything he can to
-  suppress his abundance of yang energy.
+description: A young exorcist from a family of exorcists. He does everything he can to 
+suppress his abundance of yang energy.
 ---
 
 # Chongyun
+
+## Resources
+
+* [Chongyun Mains Discord](https://discord.gg/FT4ZFmgf8T)
 
 ## ![](../../.gitbook/assets/element_cryo.png) Chongyun
 
@@ -36,6 +39,8 @@ Perform up to 4 consecutive strikes.
 | 3-Hit | 116.75% | 124 | 150.1%/s |
 | 4-Hit | 147.13% | 204 | 134.5%/s |
 
+* ICD is 3 hits / 2.5s, shared with Charged Attacks.
+
 **Charged Attack**  
 Drains Stamina over time to perform a continuous spinning attack for up to 5s.  
 Perform a powerful slash at the end of the sequence.
@@ -47,6 +52,7 @@ Perform a powerful slash at the end of the sequence.
 | Stamina Cost | 40/s | ~ | ~ |
 
 * All frame counts are done against Ruin Guards.
+* ICD is 3 hits / 2.5s, shared with Normal Attacks.
 
 **Plunge Attack**  
 Plunge from midair to strike the ground below dealing AoE DMG.
@@ -62,7 +68,6 @@ Plunge from midair to strike the ground below dealing AoE DMG.
 Chongyun strikes the ground in front of him dealing AoE Cryo DMG. After a short delay, a **Chonghua Frost Field** will form:
 
 * Within this field, all Sword, Claymore and Polearm-wielding character’s Normal and Charged Attacks will be infused with Cryo.
-* The field works as a cylinder with a large height.  
 
 | Effect | Talent 6% |
 | :--- | :--- |
@@ -72,9 +77,12 @@ Chongyun strikes the ground in front of him dealing AoE Cryo DMG. After a short 
 | Cooldown | 15s |
 | Particles | 4 \(-\) |
 | Cast GU | 2B |
+| ICD | None |
 | Infused Attack GU | 1A |
 | Frames | 57 |
 | MV/s | 253.5%/s |
+
+* The field works as a cylinder with a large height.  
 {% endtab %}
 
 {% tab title="Spirit Blade: Cloud-Parting Star" %}
@@ -86,6 +94,7 @@ Summon 3 giant **Spirit Blades** to fall down one by one after a short delay, de
 | CD | 12s |
 | Energy Cost | 40 |
 | GU | 1A per hit |
+| ICD | None |
 | Frames | 135 |
 | MV/s | 265.8%/s |
 {% endtab %}
@@ -115,6 +124,7 @@ When the field created by Chonghua’s Layered Frost disappears, another **Spiri
 * Decreases Cryo Res of opponents hit by 10%  
 * The **Spirit Blade** is considered as elemental skill damage.  
 * The **Spirit Blade** snapshots any buffs received upon **Chonghua’s Layered Frost** use.  
+* No ICD on elemental application
 {% endtab %}
 {% endtabs %}
 
@@ -126,8 +136,11 @@ When the field created by Chonghua’s Layered Frost disappears, another **Spiri
 
 The last attack of Chongyun’s Normal Attack combo releases 3 **Ice Blades.**
 
-* Each **Ice Blade** deals 50% of Chongyun’s ATK as Cryo DMG to all opponents in its path.
-* Each **Ice Blade** has a GU of 1A.
+| Effect | Talent% |
+| :--- | :--- |
+| DMG | 50% \* 3 |
+| GU | 1A |
+
 * C1 damage instance has no ability type scaling tags.
 {% endtab %}
 
@@ -225,11 +238,6 @@ Increases the level of **Chonghua’s Layered Frost** by 3.
 **Cooldown**: 12s
 {% endtab %}
 {% endtabs %}
-
-## **External Links**
-
-* [Genshin Impact Fandom](https://genshin-impact.fandom.com/wiki/Chongyun)
-* [Chongyun Mains Discord](https://discord.gg/FT4ZFmgf8T)
 
 **Evidence Vault:**
 
