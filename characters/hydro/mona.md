@@ -1,11 +1,16 @@
 ---
-description: >-
-  A mysterious young astrologer who proclaims herself to be “Astrologist Mona
-  Megistus,” and who possesses abilities to match the title. Erudite, but
-  prideful.
+description: A mysterious young astrologer who proclaims herself to be “Astrologist Mona Megistus,” and who possesses abilities to match the title. Erudite, but prideful.
 ---
 
 # Mona
+
+## Resources
+
+* [Mona Mains Discord](https://discord.gg/uxVEDkTyRe)
+* [Full Mona Written Guide: The Astrological Guide to Mona Megistus](https://keqingmains.com/mona/)
+* [Optimal Mona Attack String](../../evidence/characters/hydro/mona.md#what-attack-string-combo-outputs-the-highest-dps-for-mona) by Baezal#0868
+* [Mona Omen Extension Explained](../../evidence/characters/hydro/mona.md#mona-omen-extension-extended) by Gibbigobo#9750(aka LACola)
+
 
 ## ![](../../.gitbook/assets/element_hydro.png) Mona
 
@@ -30,30 +35,30 @@ description: >-
 **Normal Attack**  
 Perform up to 4 water splash attacks that deal Hydro DMG.
 
-| String | Talent 6% | Frames | MV/s |
-| :--- | :--- | :--- | :--- |
-| 1-Hit | 52.64% | 18 | 175.5%/s |
-| 2-Hit | 50.4% | 41 | 150.8%/s |
-| 3-Hit | 62.72% | 74 | 134.4%/s |
-| 4-Hit | 78.62% | 113 | 129.8%/s |
-| With Recovery | 244.38% | 154 | 95.2%/s |
-| GU | 1A | ~ | ~ |
+| String | Talent 6% | Frames | MV/s | GU |
+| :--- | :--- | :--- | :--- | :--- |
+| 1-Hit | 52.64% | 18 | 175.5%/s | 1A |
+| 2-Hit | 50.4% | 41 | 150.8%/s | 1A |
+| 3-Hit | 62.72% | 74 | 134.4%/s | 1A |
+| 4-Hit | 78.62% | 113 | 129.8%/s | 1A |
+| With Recovery | 244.38% | 154 | 95.2%/s | 1A |
 
 * Frame counts are done using M1 Spams.
 * Mona's 3rd Normal Attack has 2 different animations. She will either jump backwards or forward depending on the position of her target.
+* 3 hits / 2.5s ICD
 
 **Charged Attack**  
 Consume 50 Stamina to deal AoE Hydro damage after a short casting time.
 
-| String | Talent 6% | Frames | MV/s |
-| :--- | :--- | :--- | :--- |
-| Charged Attack | 209.61% | 107 | 117.5% |
-| N2C | 312.65% | 141 | 133% |
-| N3C | 375.37% | 197 | 114.3% |
-| GU | 1A | ~ | ~ |
+| String | Talent 6% | Frames | MV/s | GU |
+| :--- | :--- | :--- | :--- | :--- |
+| Charged Attack | 209.61% | 107 | 117.5% | 1A |
+| N2C | 312.65% | 141 | 133% | ~ |
+| N3C | 375.37% | 197 | 114.3% | ~ |
 
 * Charged Attack frame counts are done using Timed M1 Spams
 * N2C and N3C frame counts are done using the same method without Jump Cancels.
+* 0.5s ICD
 
 **Plunge Attack**  
 Plunge from mid-air to the ground, dealing AoE Hydro DMG.
@@ -80,22 +85,25 @@ Mona dashes backwards before placing a **Phantom of Fate** down.
 * Only one **Phantom** created by **Mirror Reflection of Doom** can exist at any time.
 * Mona's Holding version of **Mirror Reflection of Doom** has invincibility frames that can be utilized for dodging.
 
-| **Type** | **Talent 6%** | Frames | MV/s | **GU** | Particles |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| Cast | ~ | 42 | ~ | 1A | ~ |
-| DoT | 44.8% | 60 | 44.8%/s | 1A | ~ |
-| Explosion DMG | 185.92% | ~ | ~ | 1A | 3~4 \(2:1\) |
-| CD | 12s | ~ | ~ | ~ | ~ |
+| Attribute | Skill (Talent 6%) |
+| :--- | :--- |
+| Cast Frames | 42 |
+| DoT (1/s) | 44.8% |
+| Explosion DMG | 185.92% |
+| Particles | 3~4 \(2:1\) |
+| GU | 1A |
+| ICD | 3 hits / 2.5s |
+| CD | 12s |
 
 * Mona can dash before **Mirror Reflection of Doom** finishes casting, which leads to no **Phantom** being created.
 * **Mirror Reflection of Doom** will cause five instances of damage. It will tick 4 times, dealing DoT damage, then explode to deal Explosion DMG.
+* Applies Hydro on cast
 
 {% endtab %}
 
 {% tab title="Illusory Torrent" %}
 **Alternate Sprint**  
 Mona cloaks herself within the water’s flow, consuming Stamina to move rapidly.  
-* Her alternate sprint has the same iframes as other characters' normal sprint.
 
 * When under the effect of **Illusory Torrent**, Mona can sprint on water.
 * Applies Hydro aura to nearby opponents when she reappears.
@@ -105,9 +113,11 @@ Mona cloaks herself within the water’s flow, consuming Stamina to move rapidly
 | Activation Stamina Cost | 10 |
 | Stamina Drain | 15/s |
 | Hydro Application GU | 1A |
+| ICD | 3 hits / 2.5s |
 
 * **Illusory Torrent** isn't affected by stamina reduction passives from Kaeya or Razor
 * **Illusory Torrent** holds priority over Mona's skill, meaning that if you dash before Mona's skill is finished casting, the skill cast will be cancelled and Mona will dash instead.
+* Her alternate sprint has the same iframes as other characters' normal sprint.
 * Rosaria's Passive, **Night Walk**, increases Mona's sprint speed
   * the same goes for Anemo Resonance
 
@@ -122,15 +132,18 @@ Traps opponents inside a pocket of destiny and also makes them Wet. Renders weak
 * Applies an **Omen** to the opponent, which gives a DMG Bonus, also increasing the DMG of the attack that causes it.
 * Removes the **Illusory Bubble** dealing Hydro DMG in the process.
 
-| **Effect** | **Talent 6%** | **GU** |
-| :--- | :--- | :--- |
-| Bubble Duration | 8s | 1A |
-| Bubble DMG | 619.39% | 2B |
-| Omen DMG Bonus | 52% \(scaling\) | ~ |
-| Omen Duration | 4.5s | ~ |
-| CD | 15s | ~ |
-| Energy Cost | 60 | ~ |
-| Frames | 125 | ~ |
+| Attribute | Burst (Talent 6%) |
+| :--- | :--- |
+| Bubble Duration | 8s |
+| Bubble DMG | 619.39% |
+| Omen DMG Bonus | 52% \(scaling\) |
+| Omen Duration | 4.5s |
+| Frames | 125 |
+| GU (Cast) | 1A |
+| GU (Pop) | 2B |
+| ICD | 3 hits / 2.5s, shared between cast and pop |
+| CD | 15s |
+| Energy Cost | 60 |
 
 * Bubble Burst DMG is determined at the time the Bubble is actually triggered, rather than snapshotting on immediate cast.
 * **Omen** DMG Bonus is additive to the damage calculation and is classified as **DamageBonus**
@@ -159,6 +172,7 @@ When Mona crafts Weapon Ascension Materials, She has a 25% chance to refund a po
 After she has used **Illusory Torrent** for 2s, if there are any opponents nearby, Mona will automatically create a **Phantom**:
 
 * A **Phantom** created in this manner lasts for 2s, and its explosion DMG is equal to 50% of **Mirror Reflection of Doom**.
+* No ICD
 * Damage dealt by this **Phantom** is considered elemental skill damage, and can thus trigger related artifact effects.
 
 {% endtab %}
@@ -198,6 +212,7 @@ Teammates in Co-op are not counted as "your own party members" and will not obta
 When a **Normal Attack** hits, there is a 20% chance that it will be automatically followed by a **Charged Attack**. This effect can only occur once every 5s.
 
 * This Charged Attack is not fast enough to do an automatic double Vaporize.
+* No ICD
 {% endtab %}
 
 {% tab title="C3" %}
@@ -281,14 +296,6 @@ Upon entering **Illusory Torrent**, Mona gains a 60% increase to the DMG of her 
 **Cooldown**: 15s
 {% endtab %}
 {% endtabs %}
-
-## **External Links**
-
-* [Genshin Impact Fandom](https://genshin-impact.fandom.com/wiki/Mona)
-* [Mona Mains Discord](https://discord.gg/uxVEDkTyRe)
-* [Full Mona Written Guide: The Astrological Guide to Mona Megistus](https://keqingmains.com/mona/)
-* [Optimal Mona Attack String](../../evidence/characters/hydro/mona.md#what-attack-string-combo-outputs-the-highest-dps-for-mona) by Baezal#0868
-* [Mona Omen Extension Explained](../../evidence/characters/hydro/mona.md#mona-omen-extension-extended) by Gibbigobo#9750(aka LACola)
 
 **Evidence Vault:**
 
