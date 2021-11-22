@@ -6,6 +6,12 @@ description: >-
 
 # Tartaglia
 
+## **Resources**
+
+* [Childe Mains Discord](https://discord.gg/Childe)
+* [7 Minute Quick Guide to Tartaglia](https://youtu.be/QERML_Jy1DE)
+* [Childe Guide](https://keqingmains.com/tartaglia/)
+
 ## ![](../../.gitbook/assets/element_hydro.png) Tartaglia
 
 ![](../../.gitbook/assets/character_tartaglia_wish.png)
@@ -69,15 +75,20 @@ Fires off a shower of arrows in mid-air before falling and striking the ground, 
 | Plunge Impact | 92.93% |
 | Low Plunge DMG | 185.81% |
 | High Plunge DMG | 232.09% |
+
 {% endtab %}
 
 {% tab title="Foul Legacy: Raging Tide" %}
 Unleashes a set of weaponry made of pure water, dealing Hydro DMG to surrounding opponents and entering **Melee Stance**.
 
-| Type | Talent 6% | GU |
-| :--- | :--- | :--- |
-| Stance Change DMG | 100.8% | 2B |
-| Frames | 28 | ~ |
+| Attribute | Skill (T6%)|
+| :--- | :--- | 
+| Stance Change DMG | 100.8% |
+| Frames | 28 |
+| GU | 2B |
+| ICD | None |
+| Damage Element | Hydro |
+| Damage Type | Skill |
 
 * **Melee Stance:**
   * Converts Tartaglia’s Normal and Charged Attacks into Hydro DMG.
@@ -119,15 +130,19 @@ Consume 20 Stamina to unleash a cross slash, dealing Hydro DMG.
 **Riptide Slash**  
 Hitting an opponent affected by **Riptide** with a melee attack unleashes a **Riptide Slash**, dealing AoE Hydro DMG.
 
-* This DMG is considered as Elemental Skill DMG.
 * This DMG can only occur once every 1.5s.
 * Gives 1 Hydro Particle upon proc. However, this particle generation has an ICD of 3 seconds.
-* **Riptide Slash** does not snapshot
 
-| Type | Talent 6% |
+| Type | Riptide Slash (T6%) |
 | :--- | :--- |
-| Riptide Slash | 86.5% |
+| Skill DMG | 86.5% |
+| Particles | 1 per proc |
 | GU | 1A |
+| ICD | None |
+| Snapshot | No |
+| Damage Element | Hydro |
+| Damage Type | Skill |
+
 {% endtab %}
 
 {% tab title="Havoc: Obliteration" %}
@@ -142,11 +157,14 @@ Performs a different attack depending on the stance in which it is cast.
 | Effect | Talent 6% |
 | :--- | :--- |
 | DMG | 529.76% |
+| Frames | 52 |
+| GU | 2B |
+| ICD | None |
+| Damage Element | Hydro |
+| Damage Type | Burst |
 | Energy Cost | 60 |
 | Energy Refund | 20 |
 | CD | 15s |
-| GU | 2B |
-| Frames | 52 |
 | MV/s | 611.3%/s |
 
 **Melee Stance: Light of Obliteration**
@@ -158,17 +176,39 @@ Performs a different attack depending on the stance in which it is cast.
   * DMG Dealt is considered Elemental Burst Damage.
   * **Riptide Blast** does not snapshot
 
-| Effect | Talent 6% |
-| :--- | :--- |
-| Cast DMG | 649.6% |
-| Riptide Blast | 168% |
-| Energy Cost | 60 |
-| CD | 15s |
-| Cast GU | 2B |
-| Riptide Blast GU | 2B |
-| Frames | 97 |
-| MV/s | 505.7%/s |
+| Effect | Melee Burst | Riptide Blast |
+| :--- | :--- | :--- |
+| Skill DMG | 649.6% | 168% |
+| Frames | 97 | -- |
+| GU | 2B | 2B |
+| ICD | None | None |
+| Damage Element | Hydro | Hydro |
+| Damage Type | Burst | Burst |
+| Energy Cost | 60 | -- |
+| CD | 15s | -- |
+| MV/s | 505.7%/s | -- |
+
 {% endtab %}
+{% tab title="Riptides" %}
+
+**Riptides**  
+A chart of Tartgalia's different Riptide effects
+
+| | Riptide Flash | Riptide Slash | Riptide Burst | Riptide Blast |
+| :--- | :--- | :--- | :--- | :--- |
+| Source | Charge shot on mark | Melee hit on mark | Enemy death with mark | Melee Burst with mark |
+| Skill DMG | 17.63% \* 3 | 86.5% | 86.8%  | 168% |
+| Particles | -- | 1 per proc | -- | -- |
+| GU | 1A | 1A | 2B | 2B |
+| ICD | 3 Hit / 2.5s | None | None | None |
+| Snapshot | -- | Dynamic | -- | -- |
+| Damage Element | Hydro | Hydro | Hydro | Hydro |
+| Damage Type | Normal Attack | Elemental Skill | Normal Attack | Elemental Burst
+
+* **Riptide** has a 10s duration (without Ascenscion 1).
+
+{% endtab %}
+
 {% endtabs %}
 
 ## **Ascension Passives**
@@ -334,12 +374,6 @@ When **Havoc: Obliteration** is cast in Melee Stance, the CD of **Foul Legacy: R
 **Cooldown**: 15s
 {% endtab %}
 {% endtabs %}
-
-## **External Links**
-
-* [Genshin Impact Fandom](https://genshin-impact.fandom.com/wiki/Tartaglia)
-* [Childe Mains Discord](https://discord.gg/Childe)
-* [7 Minute Quick Guide to Tartaglia](https://youtu.be/QERML_Jy1DE)
 
 **Evidence Vault:**
 
