@@ -4,6 +4,11 @@ description: 'An alchemist based in Mondstadt, in the service of the Knights of 
 
 # Albedo
 
+## **Resources**
+
+* [Albedo Mains Discord](https://discord.gg/JKkam3umnn)
+* [Albedo Written Guide](https://keqingmains.com/albedo/)
+
 ## ![](../../.gitbook/assets/element_geo%20%281%29.png) Albedo
 
 ![](../../.gitbook/assets/character_albedo_wish.png)
@@ -77,12 +82,15 @@ When a character is located on the **Solar Isotoma**, the **Solar Isotoma** will
 |  | Solar Isotoma | Transient Blossom |
 | :--- | :--- | :--- |
 | Talent 6% | 182.56% | 184.04% DEF |
-| Cooldown | 4s |  |
-| Duration | 30s |  |
-| GU | 1U | 1U |
 | Particles | 0 | 0~1 \(1:2\) |
-| Frames | 32 | 0 |
-| Motion Value | 342.3%/s | 93.52%/s |
+| Frames | 32 | ~ |
+| GU | 1U | 1U |
+| ICD | None | 3 hit / 2.5s |
+| Snapshot | Snapshot | Snapshot |
+| Damage Element | Geo | Geo |
+| Damage Type | Skill | Skill |
+| Duration | 30s | ~ |
+| Cooldown | 4s | ~ |
 
 * The area of **Solar Isotoma** that can generate **Transient Blossoms** is cylindrical and has a maximum height just above the elevator's maximum lift. 
 * The DMG dealt by **Transient Blossoms** is snapshotted, so any buffs gained/lost after casting **Abiogenesis: Solar Isotoma** will not affect its damage.
@@ -92,15 +100,17 @@ When a character is located on the **Solar Isotoma**, the **Solar Isotoma** will
 {% tab title="Rite of Progeniture: Tectonic Tide" %}
 Albedo commands a wave of Geo crystals to burst, dealing AoE Geo DMG in front of him. If a **Solar Isotoma** is on the field, 7 **Fatal Blossoms** will be generated in the **Solar Isotoma** field, dealing AoE Geo DMG.
 
-| Effect | Talent 6% / Data |
-| :--- | :--- |
-| Burst DMG | 514.08% |
-| Fatal Blossom DMG | 100.8% each Blossom |
-| Cooldown | 12s |
-| Energy Cost | 40 |
-| Cast GU | 1U |
-| Fatal Blossom GU | 1U |
-| Cast Frames | 96 |
+| Attribute | Burst Cast | Fatal Blossom |
+| :--- | :--- | :--- |
+| Talent 6% | 514.08% | 100.8% per Blossom
+| Frames | 96 | ~ |
+| GU | 1U | 1U |
+| ICD | None | 3 hit / 2.5s |
+| Snapshot | Snapshot | Snapshot |
+| Damage Element | Geo | Geo |
+| Damage Type | Burst | Burst |
+| Energy Cost | 40 | ~ |
+| Cooldown | 12s | ~ |
 
 * **Tectonic Tide** DMG and **Fatal Blossom** DMG will not generate **Transient Blossoms**.
 * The 7 **Fatal Blossoms** that are generated will each target one enemy each and excess blossoms will spawn randomly within the **Solar Isotoma** field with more weighting toward the center. 
@@ -228,12 +238,6 @@ If active party members within the AoE are protected by a shield created by Crys
 **Cooldown**: 12s
 {% endtab %}
 {% endtabs %}
-
-## **External Links**
-
-* [Genshin Impact Fandom](https://genshin-impact.fandom.com/wiki/Albedo)
-* [Albedo Mains Discord](https://discord.gg/JKkam3umnn)
-* [Albedo Written Guide](https://keqingmains.com/albedo/)
 
 **Evidence Vault:**
 
