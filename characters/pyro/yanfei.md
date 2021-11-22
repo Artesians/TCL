@@ -1,10 +1,12 @@
 ---
-description: >-
-  A well-known legal adviser active in Liyue Harbor. A briliant young lady in
-  whose veins runs the blood of an illuminated beast.
+description: A well-known legal adviser active in Liyue Harbor. A briliant young lady in whose veins runs the blood of an illuminated beast.
 ---
 
 # Yanfei
+
+## External Links
+
+* [Yanfei Full Guide](https://keqingmains.com/yanfei/)
 
 ## ![](../../.gitbook/assets/element_pyro.png) Yan Fei
 
@@ -70,14 +72,18 @@ Summons flames that deal AoE Pyro DMG. Opponents hit by the flames will grant Ya
 
 * **Signed Edict** shatters frozen targets.
 
-| Effect | Talent 6 DMG% |
+| Effect | Skill (Talent 6%) |
 | :--- | :--- |
 | Skill DMG | 237.44% |
-| Cooldown | 9s |
 | Particles | 3 \(-\) |
-| Gauge Units | 1A |
 | Frames | 46 |
-| Motion Value | 309.70%/s |
+| GU | 1A |
+| ICD | None |
+| Snapshot | Snapshot |
+| Damage Element | Pyro |
+| Damage Type | Skill |
+| Cooldown | 9s |
+
 {% endtab %}
 
 {% tab title="Done Deal" %}
@@ -89,17 +95,21 @@ The following effects of Brilliance last until Yan Fei leaves the field or falls
 * Grants Yanfei a Scarlet Seal at fixed intervals
 * Increases the DMG dealt by her Charged Attacks
 
-| Effect | Talent 6 DMG% |
+| Effect | Burst (Talent 6%) |
 | :--- | :--- |
 | Skill DMG | 255.36% |
 | Charged Attack DMG Bonus | 44% |
 | Scarlet Seal Grant Interval | 1s |
+| Frames | 65 |
+| GU | 2B |
+| ICD | 3 hit / 2.5s |
+| Snapshot | Snapshot |
+| Damage Element | Pyro |
+| Damage Type | Burst |
+| Energy Cost | 80 |
 | Duration | 15s |
 | Cooldown | 20s |
-| Energy Cost | 80 |
-| Gauge Units | 2B |
-| Frames | 65 |
-| Motion Value | 235.72%/s |
+
 {% endtab %}
 {% endtabs %}
 
@@ -235,10 +245,6 @@ Increases the maximum number of Scarlet Seals by 1.
 **CD:** 20s
 {% endtab %}
 {% endtabs %}
-
-## **External Links**
-
-* [Genshin Impact Fandom](https://genshin-impact.fandom.com/wiki/Yanfei)
 
 **Evidence Vault:**
 
