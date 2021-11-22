@@ -1,6 +1,5 @@
 ---
-description: An explosives expert and a regular at the Knights of Favonius' confinement 
-room. Also known as Fleeing Sunlight.
+description: An explosives expert and a regular at the Knights of Favonius' confinement room. Also known as Fleeing Sunlight.
 ---
 
 # Klee
