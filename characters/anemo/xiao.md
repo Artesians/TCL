@@ -1,10 +1,13 @@
 ---
-description: >-
-  A Yaksha Adeptus who defends Liyue. Also heralded as the "Conquer of Demons"
-  or "Vigilant Yaksha"
+description: A Yaksha Adeptus who defends Liyue. Also heralded as the "Conquer of Demons" or "Vigilant Yaksha"
 ---
 
 # Xiao
+
+## **External Links**
+
+* [Xiao Mains Discord](https://discord.gg/Xiao)
+* [Full Xiao Written Guide: Adeptal Guide to Conquering Xiao](https://keqingmains.com/xiao/)
 
 ## ![](../../.gitbook/assets/element_anemo.png)Xiao
 
@@ -68,10 +71,17 @@ Xiao lunges forward, dealing Anemo DMG to opponents in his path.
 Can be used mid-air.  
 Starts with 2 charges.
 
-| Type | Talent 6 DMG% | Frames | Motion Value | Particles |
-| :--- | :--- | :--- | :--- | :--- |
-| Skill DMG | 353.92% | 36 | 589.9%/s | 3 \(-\) |
-| CD | 10s | ~ | ~ | ~ |
+| Attribute | Skill (Talent 6%) |
+| :--- | :--- |
+| Skill DMG | 353.92% | 36 |
+| Particles | 3 |
+| Frames | 36 | 
+| GU | 2B |
+| ICD | 7 hit / 0.1s |
+| Snapshot | Snapshot |
+| Damage Element | Anemo |
+| Damage Type | Skill |
+| CD | 10s |
 
 * A Double E Cast is only 60 frames long.
 {% endtab %}
@@ -88,14 +98,15 @@ Xiao dons the **Yaksha Mask** that set gods and demons trembling a millennia ago
 * Xiao's attacks will be infused with 1GU Anemo.  
 * While the effects of **Elemental Burst: Bane of All Evil** are active, the energy particle generation of **Elemental Skill: Lemniscatic Wind Cycling** is disabled.  
 
-| Effect | Talent 6% |
+| Attribute | Burst (T6%) |
 | :--- | :--- |
-| Normal, Charged, and Plunge DMG bonus | 77% |
+| Normal, Charged, Plunge DMG bonus | 77% |
 | Life Drain | 2.5% Current HP/s |
+| Frames | 58 |  
+| Energy Cost | 70 |
 | Duration | 15s |
 | CD | 18s |
-| Energy Cost | 70 |
-| Frames | 58 |  
+
 {% endtab %}
 {% endtabs %}
 
@@ -211,13 +222,6 @@ While under the effect of **Bane of All Evil**, hitting at least 2 opponents wit
 
 {% endtab %}
 {% endtabs %}
-
-## **External Links**
-
-* [Genshin Impact Fandom](https://genshin-impact.fandom.com/wiki/Xiao)
-* [Xiao Mains Discord](https://discord.gg/Xiao)
-* [Full Xiao Written Guide: Adeptal Guide to Conquering Xiao](https://keqingmains.com/xiao/)
-* [Xiao Mastersheet V2.0](../../evidence/characters/anemo/xiao.md#xiao-mastersheet-v-2-0) by Pichu#0002 & shdwbld#8103
 
 **Evidence Vault:**
 
