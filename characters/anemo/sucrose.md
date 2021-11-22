@@ -1,10 +1,14 @@
 ---
-description: >-
-  An alchemist filled with curiosity about all things. She researches
-  bio-alchemy.
+description: An alchemist filled with curiosity about all things. She researches bio-alchemy.
 ---
 
 # Sucrose
+
+## Resources
+
+* [Sucrose Mains Discord](https://discord.gg/SRgmCt4)
+* [Full Sucrose Written Guide](https://keqingmains.com/sucrose/)
+* [8 Minute Quick Guide to Sucrose](https://youtu.be/paUqUTmcf-Y)
 
 ## ![](../../.gitbook/assets/element_anemo.png)Sucrose
 
@@ -59,13 +63,17 @@ Sucrose plunges from mid-air to the ground, dealing AoE **Anemo** DMG.
 {% tab title="Astable Anemohypostasis Creation-6308" %}
 Creates a small **Wind Spirit** that pulls opponents and objects towards its location, launches opponents within its AoE, and deals **Anemo** DMG.
 
-| Effect | Talent 6 DMG% |
+| Attribute | Skill (Talent 6%) |
 | :--- | :--- |
 | Skill DMG | 295.68% |
-| Cooldown | 15s |
-| GUs | 1GU |
 | Particles | 4 \(-\) |
 | Frames | 10 |
+| GU | 1A |
+| ICD | None |
+| DMG Element | Anemo |
+| DMG Type | Skill |
+| Cooldown | 15s |
+
 {% endtab %}
 
 {% tab title="Forbidden Creation-Isomer 75/Type II" %}
@@ -73,15 +81,19 @@ Sucrose hurls an unstable concoction that creates a **Large Wind Spirit.** While
 
 If the **Wind Spirit** comes into contact with **Hydro/Pyro/Cryo/Electro,** it will deal additional elemental DMG of that type. This can only occur once per use.
 
-| Effect | Talent 6 DMG% |
+| Attribute | Burst (Talent 6%) |
 | :--- | :--- |
-| Damage-Over-Time | 207.2% |
+| DoT | 207.2% |
 | Additional Elemental DMG | 61.6% |
+| Frames | 67 |
+| GU | 1A |
+| ICD | None |
+| Snapshot? | Snapshot |
+| DMG Element | Anemo |
+| DMG Type | Burst |
+| Energy Cost | 80 |
 | Duration | 6s |
 | Cooldown | 20s |
-| Energy Cost | 80 |
-| Gauge Units | 1GU |
-| Frames | 67 |
 
 * Freeze and Petrify will allow Sucrose to group enemies together without launching them into the air.  
 * Infusion priority: Pyro > Hydro > Electro > Cryo  
@@ -213,13 +225,6 @@ If **Forbidden Creation-Isomer 75/Type II** triggers an Elemental Absorption, al
 | Additional Elemental DMG | 61.6 | 66 | 70.4 | 74.8 | 79.2 | 83.6 | 88 | 93.5 |
 {% endtab %}
 {% endtabs %}
-
-## External Links
-
-* [Genshin Impact Fandom](https://genshin-impact.fandom.com/wiki/Sucrose)
-* [Sucrose Mains Discord](https://discord.gg/SRgmCt4)
-* [Full Sucrose Written Guide](https://keqingmains.com/sucrose/)
-* [8 Minute Quick Guide to Sucrose](https://youtu.be/paUqUTmcf-Y)
 
 **Evidence Vault**
 
