@@ -1,9 +1,12 @@
 ---
-description: >-
-  Owner of Naganohara Fireworks. Known as "Queen of the Summer Festival," she excels in her craft of creating fireworks that symbolize people's hopes and dreams.
+description: Owner of Naganohara Fireworks. Known as "Queen of the Summer Festival," she excels in her craft of creating fireworks that symbolize people's hopes and dreams.
 ---
 
 # Yoimiya
+
+## **Resources**
+* [6 Minute Yoimiya Quick Guide](https://www.youtube.com/watch?v=FjDsbxPbk50)
+* [Yoimiya Full Guide](https://keqingmains.com/yanfei/)
 
 ## ![](../../.gitbook/assets/element_pyro.png) Yoimiya
 
@@ -71,16 +74,23 @@ Yoimiya waves a sparkler and causes a ring of saltpeter to surround her.
 **Niwabi Enshou**  
 During this time, arrows fired by Yoimiya's Normal Attack will be **Blazing Arrows**, and their DMG will be increased and converted to Pyro DMG. During this time, Normal Attack: Firework Flare-Up will not generate Kindling Arrows at Charge Level 2. This effect will deactivate when Yoimiya leaves the field.
 
-| Type | Talent 6% | Duration | Cooldown | Particles | U | Cast Frames |
-| --- | --- | --- | --- | --- | --- | --- |
-| Blazing Arrow DMG | 149.94% Normal Attack DMG | 10s | 18s | 1 (-) per proc | 1A |  23 |
+| Attribute | Skill (Talent 6%) | 
+| :--- | :--- |
+| Blazing Arrow DMG | 149.94% Normal Attack DMG |
+| Particles | 1 (-) per proc |
+| Cast Frames | 23 |
+| GU | 1A |
+| ICD | 3 hit / 2.5s |
+| Damage Element | Pyro |
+| Damage Type | Normal Attack |
+| Duration | 10s |
+| CD | 18s |
 
 * The Damage Bonus from **Niwabi Fire-Dance** is multiplicative.
 * Yoimiya's particle generation triggers on infused arrow hit and has an ICD of 2s on particle generation.
   * Yoimiya's particle generation procs cannot be buffered, so Yoimiya will ideally generate 4 particles over the duration of **Niwabi Fire-Dance**
 * Charged Shots during the duration of **Niwabi Fire-Dance** do not generate particles.
 * Yoimiya can still produce energy even after **Niwabi Fire-Dance** expires as long as the ICD is off CD and the infused normal attack string arrow lands.
-* The infused arrows from **Niwabi Fire-Dance** follow standard ICD (3-hit/2.5s).
 
 {% endtab %}
 
@@ -90,16 +100,18 @@ Yoimiya leaps into the air along with her original creation, the "**Ryuukin Saxi
 **Aurous Blaze**  
 All Normal/Charged/Plunging Attacks, Elemental Skills, and Elemental Bursts by any party member other than Yoimiya that hit an opponent marked by **Aurous Blaze** will trigger an explosion, dealing AoE Pyro DMG. When an opponent affected by **Aurous Blaze** is defeated before its duration expires, the effect will pass on to another nearby opponent, who will inherit the remaining duration. One **Aurous Blaze** explosion can be triggered every 2s. When Yoimiya is down, **Aurous Blaze** effects created through her skills will be deactivated.
 
-| Effect | Talent 6% / Data | GUs |
+| Attribute | Burst | Aurous Blaze Explosion |
 | :--- | :--- | ---- |
-| Skill DMG | 178.08% | 2B |
-| Aurous Blaze Explosion DMG | 170.8% | 1A |
-| Cast Frames | 115 | -- |
-| Duration | 10s | -- |
-| CD | 15s | -- |
-| Energy Cost | 60 | -- |
-* **Ryuukin Saxifrage** does not snapshot.
-* **Aurous Blaze Explosions** from **Ryuukin Saxifrage** follow standard ICD (3-hit/2.5s).
+| DMG (T6%) | 178.08% | 170.8% |
+| Cast Frames | 115 | ~ |
+| GU | 2B | 1A |
+| ICD | None | 3 hit / 2.5s |
+| Snapshot? | Dynamic | Dynamic |
+| DMG Element | Pyro | Pyro |
+| DMG Type | Burst | Burst |
+| Energy Cost | 60 | ~ |
+| CD | 15s | ~ |
+| Duration | 10s | ~ |
 
 {% endtab %}
 {% endtabs %}
@@ -229,10 +241,6 @@ During Niwabi Fire-Dance, Yoimiya's Normal Attacks have a 50% chance of firing a
 **Cooldown**: 15s
 {% endtab %}
 {% endtabs %}
-
-## **External Links**
-
-* [Genshin Impact Fandom](https://genshin-impact.fandom.com/wiki/Yoimiya)
 
 **Evidence Vault:**
 
