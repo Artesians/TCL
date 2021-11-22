@@ -1,10 +1,12 @@
 ---
-description: >-
-  A renowned chef from Liyue. She's extremely passionate about cooking and
-  excels at making her signature hot and spicy dishes.
+description: A renowned chef from Liyue. She's extremely passionate about cooking and excels at making her signature hot and spicy dishes.
 ---
 
 # Xiangling
+
+## External links
+
+* [Xiangling Guide](https://keqingmains.com/xiangling/)
 
 ## ![](../../.gitbook/assets/element_pyro.png) Xiangling
 
@@ -58,13 +60,18 @@ Xiangling consumes 25 stamina to lunge forward dealing damage to enemies along t
 {% tab title="Guoba Attack" %}
 Xiangling summons **Guoba the Panda** to continuously breath fire at opponents, dealing AoE **Pyro** DMG. **Guoba** fires for a total of 4 times.
 
-| Effect | Talent 6% |
+| Attribute | Skill (Talent 6%) |
 | :--- | :--- |
 | Skill DMG | 155.79% |
-| CD | 12s |
-| GU | 1A |
-| Particles | Up to 4 particles |
+| Particles | 1 per hit |
 | Frames | 18 |
+| GU | 1A |
+| ICD | None |
+| Snapshot | Snapshot |
+| Damage Element | Pyro |
+| Damage Type | Elemental Skill |
+| Duration | 7s |
+| CD | 12s |
 
 * Multiple Guobas can exist on-field at a time if Xiangling has enough Cooldown Reduction
 * Guoba self applies pyro aura when he attacks. This aura can be swirled.
@@ -74,17 +81,22 @@ Xiangling summons **Guoba the Panda** to continuously breath fire at opponents, 
 {% tab title="Pyronado" %}
 Xiangling sends a **Pyronado** whirling around her that moves with your character for the ability's duration, dealing **Pyro** DMG to all opponents in its path.
 
-| Effect | Talent 6% Values |
+| Attribute | Burst (Talent 6%) |
 | :--- | :--- |
 | 1-Hit Swing DMG | 100.8% |
 | 2-Hit Swing DMG | 123.2% |
 | 3-Hit Swing DMG | 153.44% |
 | Pyronado DMG | 156.8% |
-| GU | 1A |
-| Duration | 10s |
-| Cooldown | 20s |
-| Energy Cost | 80 |
 | Frames | 99 |
+| GU | 1A |
+| 3 Swings ICD | 3 hit / 2.5s |
+| Pyronado ICD | None |
+| Snapshot | Snapshot |
+| Damage Element | Pyro |
+| Damage Type | Burst |
+| Energy Cost | 80 |
+| Duration | 10s |
+| CD | 20s |
 
 * Moving in the opposite direction of **Pyronado's** spin will increase the number of hits.
 {% endtab %}
@@ -205,9 +217,6 @@ For the duration of **Pyronado**, all party members receive a 15% **Pyro** DMG B
 {% endtab %}
 {% endtabs %}
 
-## External links
-
-* [Genshin Impact Fandom](https://genshin-impact.fandom.com/wiki/Xiangling)
 
 {% page-ref page="../../evidence/characters/pyro/xiangling.md" %}
 
