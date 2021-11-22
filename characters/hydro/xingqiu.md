@@ -1,10 +1,13 @@
 ---
-description: >-
-  A young man carrying a longsword who is frequently seen at book booths. He
-  has  a chivalrous heart and yearns for justice and fairness for all.
+description: A young man carrying a longsword who is frequently seen at book booths. He has a chivalrous heart and yearns for justice and fairness for all.
 ---
 
 # Xingqiu
+
+## Resources
+[Xingqiu Mains Discord](https://discord.gg/5MKsJyhkQv)
+[Written Guide: Xingqiu Handbook](https://keqingmains.com/xingqiu/)
+[5 Minute Quick Guide to Xingqiu](https://youtu.be/EiOP60N4p58)
 
 ## ![](../../.gitbook/assets/element_hydro.png) Xingqiu
 
@@ -33,9 +36,9 @@ Perform up to 5 rapid strikes.
 | :--- | :--- | :--- | :--- |
 | 1-Hit | 67.75% | 9 | 451.7%/s |
 | 2-Hit | 69.25% | 34 | 241.8%/s |
-| 3-Hit | 41.5% + 41.5% | 59 + 78 | 169.2%/s |
+| 3-Hit | 41.5% \(x2\) | 59 / 78 | 169.2%/s |
 | 4-Hit | 81.38% | 116 | 155.9%/s |
-| 5-Hit | 52.13% + 52.13% | 160 + 195 | 124.8%/s |
+| 5-Hit | 52.13% \(x2\) | 160 / 195 | 124.8%/s |
 
 **Charged Attack**  
 Consumes 20 stamina to unleash 2 consecutive strikes.
@@ -58,28 +61,34 @@ Enemies struck by Xingqiu's charged attack will be staggered or launched.
 {% tab title="Guhua Sword: Fatal Rainscreen" %}
 Xingqiu performs two strikes with his sword, dealing Hydro DMG. At the same time, this ability creates the maximum number of **Rain Swords**, which will orbit your active character.
 
-* **The Rain Swords have the following properties:**
-  * When a character takes DMG, a **Rain Sword** will shatter, reducing the amount of DMG Taken. 20% of his Hydro DMG will be converted to additional DMG Reduction, maximum additional DMG Reduction gained cannot exceed 24%.
-  * The DMG Reduction does not take the Hydro DMG% bonus gained from Kazuha's A4 into account.
-  * Increases active character’s resistance to interruption.
-  * The initial maximum number of **Rain Swords** is 3.
-  * **Rain Sword** orbitals apply Hydro to surrounding enemies once every 2.25s.
 * Using this ability applies a very brief 1U Hydro aura onto the character.
 
-| Type | Talent 6% |
+| Attribute | Skill |
 | :--- | :--- |
-| Skill DMG | 235.2% + 267.68% |
-| DMG Reduction | 25% |
-| Duration | 15s |
-| Cooldown | 21s |
-| GU | 2 x 1A |
+| Skill DMG (T6%) | 235.2% + 267.68% |
 | Particles | 5 \(-\) |
 | Frames | 82 |
-| MV/s | 368%/s |
+| GU | 1A \(x2\) |
+| ICD | None |
+| Damage Element | Hydro |
+| Damage Type | Elemental Skill |
+| Cooldown | 21s |
 
-* **Rain Sword's** damage reduction is a snapshot.
-* **Rain Sword's** interruption resistance can stack with other skills of similar effects.
 * While casting **Guhua Sword: Fatal Rainscreen**, Xingqiu can start dashing on frame 36 and start casting **Guhua Sword: Raincutter** on frame 58.
+
+| Attribute | Rain Swords |
+| :--- | :--- |
+| DMG Reduction (T6%) | 20% Hydro DMG + 25% |
+| Snapshot | Snapshot
+| GU | 1A |
+| ICD | 2.25s |
+| Duration | 15s |
+
+* **The Rain Swords have the following properties:**
+  * When a character takes DMG, a **Rain Sword** will shatter, reducing the amount of DMG Taken. 20% of Xingqiu's Hydro DMG will be converted to additional DMG Reduction, maximum additional DMG Reduction gained cannot exceed 24%.
+    * The DMG Reduction does not take the Hydro DMG% bonus gained from Kazuha's A4 into account.
+  * Increases active character’s resistance to interruption, stacking with other skills of similar effects.
+  * The initial maximum number of **Rain Swords** is 3.
 * After the **Rain Swords** pop, there is a small window of time where Xingqiu can apply hydro to enemies, even if the rain swords aren't visible
   * this occurs with the orbitals created by both Xingqiu's Skill and Burst
 * Only one **Rain Sword** can be shattered at a time, and the shattering has a cooldown of 1.5s. 
@@ -90,26 +99,28 @@ Xingqiu performs two strikes with his sword, dealing Hydro DMG. At the same time
 Push back nearby enemies and activate **Rainbow Bladework**. While under the effect of **Rainbow Bladework**:
 
 * Active character’s Normal Attacks will trigger a wave of **Sword Rain** attacks, dealing Hydro DMG.
-  * **Sword Rain** waves can be triggered at most once a second. However, so long as you are in an normal attack animation, even if you attack slightly before 1 second has passed, the next **Sword Rain** wave will be triggered as soon as possible.
-  * The Normal Attack may be cancelled, but **Sword Rain** wave will still be triggered.
 * The number of **Sword Rain** attacks in each wave cycles in a 2-3 sequence, with the first wave having 2 Sword Rain attacks.
 * **Rain Swords** remain at the maximum number.
 * **Rain Swords** will not shatter.
 * **Rain Swords** DMG Reduction created by **Guhua Sword: Raincutter** also snapshots.
-  * **Guhua Sword: Raincutter**'s Rain Swords will always override **Guhua Sword: Fatal Rainscreen**'s before swapping.
-  * After swapping, the DMG Reduction will base on the most recently cast Rain Swords.
+  * Before swapping, **Guhua Sword: Raincutter**'s Rain Swords will always override **Guhua Sword: Fatal Rainscreen**'s .
+  * After swapping, the DMG Reduction is based on the most recently cast Rain Swords.
 
-| Type | Talent 6% |
+| Attribute | Burst |
 | :--- | :--- |
-| Sword Rain DMG | 75.98% |
+| Sword Rain DMG (T6%) | 75.98% |
+| Frames | 29 |
+| GU | 1A |
+| ICD | 3 hit / 2.5s |
+| Snapshot | Dynamic |
+| Damage Element | Hydro |
+| Damage Type | Elemental Burst |
+| Energy Cost | 80 |
 | Duration | 15s |
 | CD | 20s |
-| Energy Cost | 80 |
-| GU | 1A |
-| Frames | 29 |
 
-* **Sword Rain** damage calculation does not snapshot.
-* Each **Sword Rain** wave follows common ICD theory, so waves with 2 and 3 swords will apply Hydro once and waves with 5 swords\(C6\) will apply Hydro twice.
+* **Sword Rain** waves can be triggered at most once a second. However, so long as you are in an normal attack animation, even if you attack slightly before 1 second has passed, the next **Sword Rain** wave will be triggered as soon as possible.
+* The Normal Attack may be cancelled, but **Sword Rain** wave will still be triggered.
 
 {% endtab %}
 {% endtabs %}
@@ -224,7 +235,8 @@ Energy regeneration is not affected by Energy Recharge.
 | Damage Reduction Ratio | 25 | 26 | 27 | 28 | 29 | 29 | 29 | 29 |
 
 **Duration**: 15s  
-**Cooldown**: 21s
+ 
+ **Cooldown**: 21s
 {% endtab %}
 
 {% tab title="Guhua Sword: Raincutter" %}
@@ -233,17 +245,13 @@ Energy regeneration is not affected by Energy Recharge.
 | Sword Rain DMG | 75.98 | 81.41 | 86.84 | 92.26 | 97.69 | 103.12 | 108.54 | 115.33 |
 
 **Energy Cost**: 80  
+
 **Duration**: 15s  
+
 **Cooldown**: 20s
 {% endtab %}
 {% endtabs %}
 
-## **External Links**
-
-* [Genshin Impact Fandom](https://genshin-impact.fandom.com/wiki/Xingqiu)
-* [Xingqiu Mains Discord](https://discord.gg/5MKsJyhkQv)
-* [Written Guide: Xingqiu Handbook](https://keqingmains.com/xingqiu/)
-* [5 Minute Quick Guide to Xingqiu](https://youtu.be/EiOP60N4p58)
 
 **Evidence Vault:**
 

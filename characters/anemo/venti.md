@@ -96,27 +96,24 @@ Venti fires off an arrow made of countless coalesced winds, creating a huge **St
 * If the **Stormeye** comes into contact with **Hydro/Pyro/Cryo/Electro,** it will deal additional elemental DMG of that type.
 * This can only occur once per use.
 
-| Attribute | Burst |
-| :--- | :--- |
-| DoT DMG (T6%) | 52.64% x 20|
-| Absorption DMG (T6%) | 26.32% x 16|
-| Frames | 94 |
-| GU | 1U |
-| Absorption GU | 1A |
-| ICD | 1s |
-| Absorption ICD | 1s |
-| Duration | 8s |
-| Snapshot | Snapshot |
-| Damage Element | Anemo |
-| Absorption Element | Pyro/Hydro/Electro/Cryo |
-| Damage Type | Elemental Burst |
-| CD | 15s |
-| Energy Cost | 60 |
+| Attribute | Burst DoT | Burst Additional Elemental DMG |
+| :--- | :--- | :--- |
+| Skill DMG (T6%) | 52.64% | 26.32% |
+| Frames | 94 | \(-\) |
+| GU | 1U | 1A |
+| ICD | 3 hits / 2.5s | 3 hits / 2.5s |
+| Duration | 8s | 6.4s |
+| Total Ticks | 20 | 16 |
+| Snapshot | Snapshot | Snapshot |
+| Damage Element | Anemo | Absorbed Element | 
+| Damage Type | Elemental Burst | Elemental Burst |
+| CD | 15s | \(-\) |
+| Energy Cost | 60 | \(-\) |
 
 * The **Stormeye** is elevated above the ground. Some attacks are unable to hit enemies that are lifted.
 * Venti cannot lift enemies that are more than 20 levels above his level.
 * Elemental absorption can occur at soonest, **after the 4th Anemo tick**
-    * The absorption DMG will always deal 16 ticks of damage in the original burst area, no matter the time of absorption.
+    * The additional elemental DMG will always deal 16 ticks of damage in the original burst area, no matter the time of absorption.
     * The absorption DMG does not share ICD with the DoT DMG
 * Venti's vortex can be fired on top of Zhongli's pillar, allowing Venti to pull in targets whilst keeping them just low enough for melee units to hit.  
 * Absorption priority: Pyro > Hydro > Electro > Cryo  
