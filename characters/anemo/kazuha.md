@@ -3,6 +3,11 @@ description: >-
   A wandering samurai from Inazuma who is currently with Liyue's Crux Fleet. A gentle and carefree soul whose heart hides a great many burdens from the past.
 ---
 
+## External Links
+
+* [Kazuha Written Guide: Scarlet Leaves Pursue Wild Waves](https://keqingmains.com/kazuha/)
+* [6 Minute Quick Guide to Kazuha](https://youtu.be/QpaxtAxTJuA)
+
 # Kaedehara Kazuha
 
 ## ![](../../.gitbook/assets/element_anemo.png) Kaedehara Kazuha
@@ -25,6 +30,7 @@ description: >-
 
 {% tabs %}
 {% tab title="Garyuu Bladework" %}
+
 **Normal Attacks**  
 Perform up to 5 rapid strikes.
 
@@ -40,7 +46,7 @@ Perform up to 5 rapid strikes.
 * Kazuha cannot strike enemies that are lifted by Venti's Elemental Burst.
 
 **Charged Attacks**  
-Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.
+Consumes a certain amount (20) of Stamina to unleash 2 rapid sword strikes.
 
 | String | Talent 6% | Frames | Motion Value |
 | :--- | :--- | :--- | :--- |
@@ -51,17 +57,10 @@ Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.
 **Plunge Attacks**  
 Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact. If this Plunging Attack is triggered by **Chihayaburu**, it will be converted to **Plunging Attack: Midare Ranzan**. 
 
-**Plunging Attack: Midare Ranzan**
-
-When a Plunging Attack is performed using the effects of the Elemental Skill **Chihayaburu**, Plunging Attack DMG is converted to Anemo DMG and will create a small wind tunnel via a secret blade technique that pulls in nearby objects and opponents.
-
 | String | Talent 6% |
 | :--- | :--- |
 | Plunge DMG | 118.94% |
 | Low/High Plunge DMG | 237.84% / 297.07% |
-| Plunging Attack: Midare Ranzan | 237.84% / 297.07% |
-
-* Midare Ranzan applies 1U gauge.
 
 {% endtab %}
 
@@ -74,16 +73,28 @@ Unleashes a secret technique as fierce as the rushing wind that pulls objects an
 * **Hold:** Charges up before unleashing greater Anemo DMG over a larger AoE than Press Mode. 
   * Kazuha's Hold **Chihayaburu** can cause certain enemies to take Fall DMG.
 
-**Plunging Attack: Midare Ranzan**  
-When a Plunging Attack is performed using the effects of the Elemental Skill **Chihayaburu**, Plunging Attack DMG is converted to Anemo DMG. On landing, Kazuha creates a small wind tunnel via a secret blade technique that pulls in nearby objects and opponents. **Midare Ranzan**'s DMG is considered Plunging Attack DMG.
+| Type | Tap (Talent 6%) | Hold (Talent 6%) |
+| :--- | :--- | :--- |
+| Skill DMG | 268.8% | 365.12% |
+| Particles | 3 | 4 |
+| Frames | 36 | 69 |
+| GU | 1U | 2U |
+| ICD | None | None |
+| Damage Element | Anemo | Anemo |
+| CD | 6s | 9s | 
 
-| Type | Talent 6% | U | Particles | Frames | Motion Value |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| Press Skill DMG | 268.8% | 1U | 3 | 36 | -- |
-| Press CD | 6s | -- | -- | --| -- |
-| Hold Skill DMG | 365.12% | 2U | 4 | 69 | -- |
-| CD (hold) | 9s | -- | -- | --| -- |
-* **Plunging Attack: Midare Ranzan** will add 55 frames on **Press: Chihayaburu**, and add 63 frames on **Hold: Chihayaburu**.  
+**Plunging Attack: Midare Ranzan**  
+When a Plunging Attack is performed using the effects of the Elemental Skill **Chihayaburu**, Plunging Attack DMG is converted to Anemo DMG. On landing, Kazuha creates a small wind tunnel via a secret blade technique that pulls in nearby objects and opponents.
+
+| Type | Talent 6% |
+| Plunge Collision DMG | 118.94% |
+| Low/High Plunge DMG | 237.84% / 297.07% |
+| Frames | 55 / 63 |
+| GU | 1 U |
+| ICD | None |
+| Damage Element | Anemo |
+| Damage Type | Plunge |
+
 * Infusion priority: Pyro > Hydro > Electro > Cryo  
 
 {% endtab %}
@@ -94,15 +105,21 @@ The signature technique of Kazuha's self-styled bladework — a single slash tha
 **Elemental Absorption**  
 If **Autumn Whirlwind** comes into contact with Hydro/Pyro/Cryo/Electro, it will deal additional elemental DMG of that type. Elemental Absorption may only occur once per use.
 
-| Effect | Talent 6% / Data | GUs |
+| Effect | Base (Talent 6%) | DoT (Talent 6%) |
 | :--- | :--- | ---- |
-| Slashing DMG | 367.36% | 2GU |
-| DoT | 168% | 1GU |
-| Additional Elemental DMG | 50.4% | 1GU |
+| Slash DMG | 367.36% | -- |
+| DoT DMG | 168% | 50.4% |
+| Frames | 93 | -- |
+| Slash GU | 2U | -- |
+| DoT GU | 1U | 1U |
+| ICD | None | None |
+| Snapshot | Snapshot | Snapshot |
+| Damage Element | Anemo | Infused Element |
+| Damage Type | Elemental Burst | Elemental Burst |
+| Energy Cost | 60 | -- |
 | Duration | 8s | -- |
 | CD | 15s | -- |
-| Energy Cost | 60 | -- |
-| Frames | 93 | -- |
+
 * Infusion priority: Pyro > Hydro > Electro > Cryo  
 
 {% endtab %}
@@ -122,8 +139,16 @@ Decreases sprinting Stamina consumption for your own party members by 20%. Not s
 ### Soumon Swordsmanship
 
 If **Chihayaburu** comes into contact with Hydro/Pyro/Cryo/Electro when cast, **Chihayaburu** will absorb that element and if **Plunging Attack: Midare Ranzan** is used before the effect expires, it will deal an additional 200% ATK of the absorbed elemental type as DMG. This will be considered Plunging Attack DMG. Elemental Absorption may only occur once per use of Chihayaburu.
-* The elemental damage is applied before Midare Ranzan, allowing it to swirl without a pre-existing aura on enemies, additionally this also means that the applied aura can react with pre-existing aura, potentially resulting in no swirl.  
-* The elemental gauge applied is 1A.  
+
+| Type | Soumon Swordsmanship |
+| :--- | :--- |
+| Skill DMG | 200% |
+| GU | 1A |
+| Damage Element | Infused element |
+| Damage Type | Plunge |
+
+* The elemental damage is applied before Midare Ranzan, allowing it to swirl without a pre-existing aura on enemies, additionally this also means that the applied aura can react with pre-existing aura, potentially resulting in no swirl. 
+* Infusion priority: Pyro > Hydro > Electro > Cryo   
 {% endtab %}
 
 {% tab title="Ascension 4" %}
@@ -247,14 +272,6 @@ After using **Chihayaburu** or **Kazuha Slash**, Kaedehara Kazuha gains an Anemo
 **Cooldown**: 15s
 {% endtab %}
 {% endtabs %}
-
-## External Links
-
-* [Kazuha Mains Discord](https://discord.gg/kazuhamains)
-* [Kazuha Written Guide: Scarlet Leaves Pursue Wild Waves](https://keqingmains.com/kazuha/)
-* [6 Minute Quick Guide to Kazuha](https://youtu.be/QpaxtAxTJuA)
-* [EM vs ADC Kazuha](../../evidence/characters/anemo/kazuha.md#em-vs-adc-kazuha) by Zakharov#5645
-* [EM vs ADC Kazuha Team Damage Calculation](../../evidence/characters/anemo/kazuha.md#em-vs-adc-kazuha-team-dmg-calculation) by Ayzel#7399
 
 **Evidence Vault:**
 
