@@ -372,6 +372,94 @@ Result : 137 attempts, 114 proc, 23 non-proc
 **Significance:**  
 Sacrificial Weapons are more effective on character with large AOE skills/against multiple targets
 
+## Skyward Series
+
+### Skyward Harp
+
+#### **Skyward Harp’s passive has the ability to crit**
+
+**By:** \(Cola\#6861\)  
+**Added:** 01/31/2021
+
+**Finding:**
+
+When shooting with the Skyward Harp, it is possible to achieve a critical hit on the passive ability.
+
+**Evidence:**
+
+User Cola Sen was discussing in theory crafting about the Skyward Harp when its ability to crit came into the conversation. Afterwards they decided to test out their hypothesis and reported on their findings:
+
+[\[video\] Skyward Harp passive critting](https://www.youtube.com/watch?v=0ZGKgwEZ0Ww)
+
+**Significance:**
+
+When using the Skyward Harp, it is now apparent that it is slightly better then we originally thought as its own passive gains benefits from the crit rate and crit damage that the Harp provides.
+
+### Skyward Blade
+
+#### Skyward Blade Description Clarification
+
+**By:** Special\#1775  
+**Added:** 12/6/2020
+
+**Finding**:
+
+* Skyward blade does not increase your damage after Elemental Burst but adds an additional line as bonus damage using the values on the description.
+* Its separate line of damage crits individually from the normal attacks.
+
+**Current Description:** "Increases the DMG of Normal and Charged Attack hits by 20% for 12s."
+
+**More Accurate Description:** "Normal and Charged Attacks deal an additional 20% of Normal/Charged ATK as DMG for 12s" \(this additional damage is dealt separately\)
+
+**Evidence:** [https://youtu.be/nn4\_xNJqsCA](https://youtu.be/nn4_xNJqsCA)
+
+**Significance**
+
+* Less synergy with electro builds since the bonus damage is a separate instance of white damage
+* Synergises well with physical builds
+
+### Skyward Pride
+
+#### Skyward Pride Damage Interaction with 4 Set Gladiators
+
+**By:** Chiefy\#2036  
+**Added:** 3/30/2021
+
+**Theory:** Skyward Pride's vacuum blades count as raw physical damage and not as normal or charged attacks for the purpose of 4 set Gladiators.
+
+**Evidence**: Abyss 7-1 with 3 gladiator pieces vs 4 gladiator pieces
+
+* 3 pc Glad: [2001 dmg](https://i.imgur.com/nsdFaA9.mp4)
+* 4 pc Glad: [2026 dmg](https://i.imgur.com/ugbvgCB.mp4)
+
+**Note:** The glad goblet had a bit of def, so the video of 4 pc Glad had a bit more atk than the bottom from Noelle C6 Q, resulting in 25 more vacuum blade damage.
+
+#### Vacuum Blades can crit
+
+**By:** Phana\#0420  
+**Added:** 6/26/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/855433084420489252/858194419470303252/transcript-library-completion-2.html)
+
+**Finding:** Skyward Pride's vacuum blades can crit.
+
+**Evidence:** https://www.youtube.com/watch?v=S7EN0Kl3l9A
+
+**Significance:** Calculations should account for the crit possibility of skyward pride's blades.
+
+### Skyward Atlas
+
+#### Skyward Atlas effect can crit
+
+**By:** Phana\#0420  
+**Added:** 6/26/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/855433084420489252/858194419470303252/transcript-library-completion-2.html)
+
+**Finding:** Skyward Atlas' weapon proc can crit.
+
+**Evidence:** https://www.youtube.com/watch?v=PcVPrTAAdu0&ab_channel=Arco
+
+**Significance:** calculations should account for the crit possibility of weapon procs.
+
 ## Specific Weapon Mechanics
 
 ### Amenoma Kageuchi  
@@ -681,71 +769,6 @@ Truncating decimals aside, the dmg number of "If additive" is the same as in-gam
 Explanation: The crystalize shield is created by a level 50 character with 0 EM, thus creating a ~786 health shield which has 2.5x effectiveness against its own element, meaning that it will block ~1965 pyro damage. Both flower stamens are dealing the same damage, and give the same results, with Beidou equipped with SS (with 5 stacks) taking 1045 damage per tick, and with fav sword taking 908 damage per tick. Beidou with SS 5 stack's shield lasted for 2 ticks allowed Beidou to take 123 damage additional damage, while the shield with favonius greatsword equipped lasted for 3 ticks and allowed Beidou to take 759 additional damage.
 
 **Significance:** Explanation of how shields interaction with negative damage reduction
-
-### Skyward Blade
-
-#### Skyward Blade Description Clarification
-
-**By:** Special\#1775  
-**Added:** 12/6/2020
-
-**Finding**:
-
-* Skyward blade does not increase your damage after Elemental Burst but adds an additional line as bonus damage using the values on the description.
-* Its separate line of damage crits individually from the normal attacks.
-
-**Current Description:** "Increases the DMG of Normal and Charged Attack hits by 20% for 12s."
-
-**More Accurate Description:** "Normal and Charged Attacks deal an additional 20% of Normal/Charged ATK as DMG for 12s" \(this additional damage is dealt separately\)
-
-**Evidence:** [https://youtu.be/nn4\_xNJqsCA](https://youtu.be/nn4_xNJqsCA)
-
-**Significance**
-
-* Less synergy with electro builds since the bonus damage is a separate instance of white damage
-* Synergises well with physical builds
-
-### Skyward Pride
-
-#### Skyward Pride Damage Interaction with 4 Set Gladiators
-
-**By:** Chiefy\#2036  
-**Added:** 3/30/2021
-
-**Theory:** Skyward Pride's vacuum blades count as raw physical damage and not as normal or charged attacks for the purpose of 4 set Gladiators.
-
-**Evidence**: Abyss 7-1 with 3 gladiator pieces vs 4 gladiator pieces
-
-* 3 pc Glad: [2001 dmg](https://i.imgur.com/nsdFaA9.mp4)
-* 4 pc Glad: [2026 dmg](https://i.imgur.com/ugbvgCB.mp4)
-
-**Note:** The glad goblet had a bit of def, so the video of 4 pc Glad had a bit more atk than the bottom from Noelle C6 Q, resulting in 25 more vacuum blade damage.
-
-#### Vacuum Blades can crit
-
-**By:** Phana\#0420  
-**Added:** 6/26/2021  
-[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/855433084420489252/858194419470303252/transcript-library-completion-2.html)
-
-**Finding:** Skyward Pride's vacuum blades can crit.
-
-**Evidence:** https://www.youtube.com/watch?v=S7EN0Kl3l9A
-
-**Significance:** Calculations should account for the crit possibility of skyward pride's blades.
-
-### Skyward Atlas
-
-#### Skyward Atlas effect can crit
-
-**By:** Phana\#0420  
-**Added:** 6/26/2021  
-[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/855433084420489252/858194419470303252/transcript-library-completion-2.html)
-
-**Finding:** Skyward Atlas' weapon proc can crit.
-
-**Evidence:** https://www.youtube.com/watch?v=PcVPrTAAdu0&ab_channel=Arco
-
-**Significance:** calculations should account for the crit possibility of weapon procs.
 
 ### The Bell
 
