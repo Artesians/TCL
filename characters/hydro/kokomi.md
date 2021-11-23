@@ -114,7 +114,7 @@ These effects will be cleared once Sangonomiya Kokomi leaves the field.
 | ICD | None |
 | Snapshot | Snapshot |
 | Damage Element | Hydro |
-| Damage Type | Elemental Skill |
+| Damage Type | Elemental Burst |
 | Energy Cost | 70 |
 | Cooldown | 18s |
 
