@@ -4,6 +4,9 @@ description: >-
   beast, flows within her veins.
 ---
 
+## **External Links**
+* [Short Ganyu Guide](https://keqingmains.com/ganyu/)
+
 # Ganyu
 
 ## ![](../../.gitbook/assets/element_cryo.png) Ganyu
@@ -44,28 +47,27 @@ Perform a precise Aimed Shot with increased DMG.
 * Charge Level 1: Fires off an arrow that deals Cryo DMG.
 * Charge Level 2: Ganyu fires a **Frostflake Arrow** that deals Cryo DMG. The Frostflake Arrow on impact will unleash a **Frostflake Bloom,** dealing AoE Cryo DMG.
 
-| Type | Talent 6% | Frames | MV/s |
-| :--- | :--- | :--- | :--- |
-| Aimed Shot | 63.75% |  |  |
-| Charge Level 1 | 173.6% | 94 | 110.80% |
-| Frostflake Arrow | 179.2% | 115 |  |
-| Frostflake Bloom | 304.64% | 115 | 252.44% |
+| Type | Talent 6% | Frames | MV/s | GU |
+| :--- | :--- | :--- | :--- | :--- |
+| Aimed Shot | 63.75% |  |  |   |
+| Charge Level 1 | 173.6% | 94 | 110.80% | 1A |
+| Frostflake Arrow | 179.2% | 115 | 93.49% | 1A |
+| Frostflake Bloom | 304.64% | 115 | 158.94% | 1A |
 
-* **Frostflake Bloom** will scale with Charged Attack DMG bonuses.
+* **Frostflake Bloom** is considered a Charged Attack.
 * Both **Frostflake Arrow** and **Frostflake Bloom** will apply 1A Cryo.
 * **Frostflake Bloom** will damage enemies within a cylinder regardless of distance from the **Frostflake Arrow** on the same frame.
 * Ganyu's Charged Attacks snapshot on release, including the bloom.
-* **Frostflake Bloom** will damage enemies that are frozen even if they have a shield.
 * Ganyu cannot perform the "ARCC" aimed shot animation cancel without Constellation 6.
 
 **Plunge Attack**  
 Fire a shower of arrows from mid-air before falling striking the ground, dealing AoE DMG.
 
-| Type | Talent 6% | Frames | MV/s |
-| :--- | :--- | :--- | :--- |
-| Plunge DMG | 82.6% |  |  |
-| Low Plunge DMG | 165.17% |  |  |
-| High Plunge DMG | 206.3% |  |  |
+| Type | Talent 6% |
+| :--- | :--- |
+| Plunge DMG | 82.6% |
+| Low Plunge DMG | 165.17% |
+| High Plunge DMG | 206.3% |
 {% endtab %}
 
 {% tab title="Trail of the Qilin" %}
@@ -77,19 +79,23 @@ Ganyu dashes backward, leaving an **Ice Lotus** behind and dealing AoE Cryo DMG.
   * This taunt applies to all enemies in the game that are not considered bosses.
 * The health of **Ice Lotus** scales based on Ganyu's max HP..
 * **Ice Lotus** will generate particles on cast and when it expires or is destroyed.
-* Multiple **Ice Lotuses** can be spawned without C2 Ganyu when using cooldown reduction effects.
 
 | Effect | Talent 6% |
 | :--- | :--- |
+| Skill DMG | 184.8% * 2 |
 | Inherited HP | 168% max HP |
-| Skill DMG | 184.8% |
-| Duration | 6s |
-| Cooldown | 10s |
 | Cast Particles | 2 |
 | Expiration/Destroyed Particles | 2 |
-| GU | 1A |
 | Frames | 34 |
-| MV/s | 326.1%/s |
+| GU | 1A |
+| ICD | None |
+| Snapshot | Snapshot |
+| Damage Element | Cryo |
+| Damage Type | Elemental Skill |
+| Duration | 6s |
+| Cooldown | 10s |
+
+* Multiple **Ice Lotuses** can be spawned without C2 Ganyu when using cooldown reduction effects.
 {% endtab %}
 
 {% tab title="Celestial Shower" %}
@@ -101,17 +107,22 @@ Ganyu summons a **Sacred Cryo Pearl** that continuously rains down **Ice Shards*
 * The **Sacred Cryo Pearl** will drop a shard **on a random enemy within the field that has not been targeted by a shard in the last 4** **Ice Shards**.
 * If there are no enemies that have not been targeted by the last 4 shards, they will randomly drop within the field where the shard AoE can still strike a target.
 * Ganyu's icicles follow standard ICD (3-hit/2.5s).
-* Ganyu's icicles are more likely to hit targets that are larger in size.
+
 
 | Effect | Talent 6% |
 | :--- | :--- |
-| Ice Shard DMG | 98.38% |
+| Ice Shard DMG | 98.38% * 50 |
+| Frames | 102 |
+| Ice Shard GU | 1A |
+| ICD | 3 hit / 2.5s |
+| Snapshot | Snapshot |
+| Damage Element | Cryo |
+| Damage Type | Elemental Burst |
+| Energy Cost | 60 |
 | Duration | 15s |
 | Cooldown | 15s |
-| Ice Shard GU | 1A |
-| Energy Cost | 60 |
-| Frames | 102 |
 
+* Ganyu's icicles are more likely to hit targets that are larger in size.
 * If **Celestial Shower** is cast before the previous one ends through the use of cooldown reduction, the existing field will end prematurely.
 {% endtab %}
 {% endtabs %}
@@ -192,16 +203,6 @@ Using **Trail of the Qilin** causes the next **Frostflake Arrow** shot within 30
 {% endtab %}
 {% endtabs %}
 
-## Weapons
-
-### Amos' Bow
-
-Ganyu's **Frostflake Bloom** is subject to the Charged Attack bonus from **Amos' Bow**. The **Frostflake Bloom** will always have a travel time of 0.3s.
-
-### The Viridescent Hunt
-
-**The Viridescent Hunt** passive, **Verdant Wind**, can be activated by either the **Frostflake Arrow** or **Frostflake Bloom**.
-
 ## **Full Talent Values**
 
 {% tabs %}
@@ -247,7 +248,7 @@ Ganyu's **Frostflake Bloom** is subject to the Charged Attack bonus from **Amos'
 {% endtab %}
 
 {% tab title="Celestial Shower" %}
-| FIELD1 | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 | Lv12 | Lv13 |
+|  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 | Lv12 | Lv13 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | Ice Shard DMG | 98.38 | 105.41 | 112.44 | 119.46 | 126.49 | 133.52 | 140.54 | 149.33 |
 
@@ -258,22 +259,6 @@ Ganyu's **Frostflake Bloom** is subject to the Charged Attack bonus from **Amos'
 **Cooldown**: 15s
 {% endtab %}
 {% endtabs %}
-
-## Media
-
-{% tabs %}
-{% tab title="Unlimited Ganyu Works" %}
-[Google Docs](https://docs.google.com/document/d/e/2PACX-1vSMDSJ_Jbb0tzTtWsZWkfxVBTLOPwOv66EmzOV_J30Ppi7lh9OsgpiWmRvMM_Y-7C6Ym25V0uzJQIXl/pub)
-
-{% embed url="https://www.youtube.com/watch?v=vYTy9lNnVEw" caption="Unlimited Ganyu Works: The Movie" %}
-{% endtab %}
-{% endtabs %}
-
-## **External Links**
-
-* [Genshin Impact Fandom](https://genshin-impact.fandom.com/wiki/Ganyu)
-* [Ganyu Mains Discord](https://discord.gg/uV4uaBm8aS)
-* [Full Ganyu Written Guide](https://keqingmains.com/ganyu/)
 
 **Evidence Vault:**
 
