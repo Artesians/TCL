@@ -4,7 +4,7 @@ description: A well-known legal adviser active in Liyue Harbor. A briliant young
 
 # Yanfei
 
-## External Links
+## Resources
 
 * [Yanfei Full Guide](https://keqingmains.com/yanfei/)
 
