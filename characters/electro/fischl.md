@@ -115,7 +115,7 @@ Fischl transforms into **Oz** and gains movement speed. Deals Electro damage to 
 | Skill DMG (T6%) | 291.2% |
 | Frames | 20 |
 | GU | 2B |
-| Duration | ????s |
+| Duration | 2s |
 | Cooldown | 15s |
 | Energy Cost | 60 |
 
@@ -160,7 +160,7 @@ When Fischl hits **Oz** with a fully charged Aimed Shot, **Oz** will strike a ne
 | Attribute | A4 |
 | :--- | :--- |
 | Skill DMG | 80% |
-| GU | 2B |
+| GU | 1A |
 | ICD | None |
 | Damage Elemental | Electro |
 | Damage Type | Elemental Skill |
