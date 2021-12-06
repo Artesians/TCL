@@ -54,7 +54,6 @@ There is a limit to how much movement speed decreases one can do onto an enemy. 
 
 Character hitboxes extend beyond their model until the weapon floating behind their back. Their front hitbox is of roughly equal size to their back hitbox, the exact bounds are just a bit larger at a similar dimension to Zhongli's Shield radius.
 
-
 ## Swimming
 
 Tapping shift while swimming has a stamina cost that is only a little higher than not holding shift, but the swimming speed is almost as fast as holding shift.

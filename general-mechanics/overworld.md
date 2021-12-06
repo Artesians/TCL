@@ -1,5 +1,12 @@
 # Overworld
 
+## Zone Levels:
+
+The overworld map is split into multiple zones that affect enemy level and environmental reactions:  
+* [Mondstadt](https://i.imgur.com/E0oN0B6.jpg)  
+* [Liyue](https://imgur.com/a/8KAMXuE)  
+* [Inazuma](https://imgur.com/a/Qmhh5Po)  
+
 ## Artifacts
 
 - 4TF and 4CW set bonuses towards Overload and Superconduct do not apply to reactions involving objects or elementally modified terrain such as electrified and frozen water.
@@ -37,23 +44,26 @@
 - Electrified is a harmful reaction against both player and enemy.  
 - Electrified's damage is classified as transformative, but it works off of environment bases.  
 
-### Burning Grass
-
+## Burning Grass
 Overworld grass generally takes 2 units of pyro to ignite. However, some abilities do not interact with grass.\
 Burning grass has standard ICD - 3 hits/2.5 seconds. 
 
-### Zone Levels:
+## Campfires
+Lit campfires essentially have a 1U aura of pyro  that don't decay over time.
 
-The overworld map is split into multiple zones that affect enemy level and environmental reactions:  
-[Mondstadt](https://i.imgur.com/E0oN0B6.jpg)  
-[Liyue](https://imgur.com/a/8KAMXuE)  
-[Inazuma](https://imgur.com/a/Qmhh5Po)  
+Consuming the campfire aura requires one of the following:
+* One 1U application of Hydro or Electro
+* Two 1U applications of Cryo, Anemo, or Geo
+* One 2U (or higher) application of Cryo, Anemo, or Geo
 
-### Bush Elemental Interactions
+The aura on the campfire is 1U, regardless of the Pyro aura applied.  
+For example: Bennett's tap E, which applies 2U of Pyro, still creates a campfire that behaves the exact same as one lit with 1U of pyro.
 
-Elemental applications can be used to destroy or/and damage bushes. However not all elements are equal in this regard.
+## Bushes
+* Elemental applications can be used to destroy or/and damage bushes. However not all elements are equal in this regard.
+* Bushes take one unit of pyro elemental application to light on fire.
 
-### Structures Aren't Considered Enemies
+## Structures Aren't Considered Enemies
 
 Structures do not count as "opponents" for the purposes of triggering abilities like Albedo's Elemental Skill.
 
@@ -62,8 +72,7 @@ Structures do not count as "opponents" for the purposes of triggering abilities 
 * Coordinates from in-game could be translated into the Official Teyvat Interactive Map and vice versa for easier navigation.
 * Character coordinates change whenever the game state is not frozen (unpaused single player).
 
-### Other world maps  
-
+## Other world maps  
 The current world state & character position is saved between different world maps.  
 
 ## Revive Mechanics  
@@ -78,6 +87,13 @@ The current world state & character position is saved between different world ma
 
 * Treasure Compass detection depends on the chest rendering. Chest rendering suffers from an ItDepends™ .
 * Chest rendering seems to be square, off-set from chest, 360m x 360m for some while 180m x 180m for others.
+
+## 0 Gauge Pyro
+* You can light torches and melt Ice Flowers with 0 gauge pyro hits, such as Overload, Hu Tao's Skill cast, and Yoimiya's Skill cast.
+
+## No Raining in Mondstadt
+* If it's raining and you approach Mondstadt, the rain will stop, even though the rain will continue outside Mondstadt.
+
 
 ## Evidence Vault
 

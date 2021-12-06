@@ -10,6 +10,39 @@ search: false
 
 ## Cursed Terrain
 
+### Electro Crystals have levels
+
+**By:** Greyhound\#7836  
+**Added:** 04/23/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/832412514858958878/835397401812533268/transcript-electro-crystals-have-levels.html)
+
+**Finding:**  
+Electro crystals have different damage values on the same world level, the recorded ones after defense are: 325, 267, 247, 279, 273, 297, 292, 303, 287, 283, the Lisa used for the test had 159 defense, meaning 15% damage reduction, further testing shows that there is no level differencial taken into the formula for crystal attacks, but they do have levels as indicated by reactions, the pre defense damage dealt by them is: 373, 307, 284, 320, 313, 341, 335, 348, 320, 325 repsectively to the values stated above, with the end results as:
+
+| Electro Damage | Electro-Charged Damage | Calculated Crystal Level |
+| :--- | :--- | :--- |
+| 325 | 1443 | 90 |
+| 267 | 1135 | 80 |
+| 247 | 1053 | 77 |
+| 279 | 1189 | 82 |
+| 273 | 1189 | 82 |
+| 297 | 1307 | 86 |
+| 292 | 1279 | 85 |
+| 303 | 1337 | 87 |
+| 287 | 1243 | 84 |
+| 283 | 1216 | 83 |
+
+The curious part is how 2 different crystal damages share the same level.
+
+**Evidence:**
+
+* [I went and got hit by every single electro crystal on the map with no stat change or effects to affect the damage taken](https://www.youtube.com/watch?v=R738dkn2A4Q)  
+* [the last 3 are in a different video that might as well be excluded as it provides nothing new](https://www.youtube.com/watch?v=plkvuafVyKo)
+* [Electro-charged testing result proof](https://www.youtube.com/watch?v=MI7gNlhEmbg)
+
+**Significance:**  
+Ruining kid's trust in Mihoyo's consistancy, fluff, learning how the world is made
+
 ### Electrified Environment Reaction
 
 **By:** Greyhound\#7836  
@@ -123,6 +156,29 @@ The video shows a level 84 electro-charged tick of the pre 1.6 base (1243)
 **Significance:**  
 We're getting ever so closer to figuring out the cursed world of teyvat's code
 
+## Campfires act like 1U of Pyro Aura  
+
+**By:** RazorClaws#4343  
+**Added:** 07/15/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/864369706249355324/865083435184947200/transcript-campfires-act-like-1u-of-pyro-aura.html)
+
+**Finding:**  
+Lit campfires essentially have a 1U aura of pyro  that don't decay over time.
+
+Consuming the campfire aura requires one of the following:
+* One 1U application of Hydro or Electro
+* Two 1U applications of Cryo, Anemo, or Geo
+* One 2U (or higher) application of Cryo, Anemo, or Geo
+
+The aura on the campfire is 1U, regardless of the Pyro aura applied.  
+For example, Bennett's tap E, which applies 2U of Pyro, still creates a campfire that behaves the exact same as one lit with 1U of pyro.  
+
+**Evidence:**  
+[Video](https://www.youtube.com/watch?v=NpqqWAltzyo)  
+
+**Significance:**  
+Putting out campfires with utmost efficiency
+
 ### Zone Levels
 
 
@@ -200,6 +256,19 @@ Burst knock back: [Video](https://www.youtube.com/watch?v=Lf-34SS5b-8)
 
 **Significance:**  
 Optimizing your bush harvesting game.
+
+## Bush Lighting
+
+**By:** Ayzel\#7399  
+**Added:** 6/11/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/851228691656736798/852776633731645470/transcript-bushes-take-1u-of-pyro-to-light.html)
+
+**Finding:** Bushes take one unit of pyro elemental application to light on fire.
+
+**Evidence:** [https://youtu.be/TTcHouqT-Qg](https://youtu.be/TTcHouqT-Qg)
+
+**Significance:** don't go around lighting bush fires, kids
+
 
 ### Structures aren't enemies
 
@@ -766,3 +835,44 @@ Summary:
 
 **Significance:**  
 Using the Treasure Compass to play ChestColle
+
+## Torch Lighting with Zero Gauge Pyro Hits
+
+**By:** kxmndz\#4700  
+**Added:** 11/11/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/904069344764526692/908536409021906954/transcript-torches-take-0-gauge-to-light.html)  
+
+**Finding:**  
+Some overworld objects (torches, mist flowers) interact with 0 gauge pyro hits (hits that don't apply pyro aura to enemies).  
+
+**Evidence:**  
+Overload and Torches:  
+- [Overload lighting a torch but not applying pyro to hilichurl](https://youtu.be/tyuLDjja0cQ)  
+- [Overload continuously reacting to pyro from a torch and lighting a nearby torch](https://youtu.be/5ihT0Zp05OQ)  
+- [Overload not lighting Dendro barrels on fire (confirmed in range by triggering explosive barrel)](https://imgur.com/JH76aSW)  
+
+Ice Flowers:  
+- [Ice flower being melted by Hu Tao E cast](https://imgur.com/g7fJe1L)  
+- [Dendro crate not being lit on fire by Hu Tao E cast](https://imgur.com/ieGHPpT)  
+
+Zero Gauge Pyro Skills:  
+- ItzSomebody\#0029: [Hu Tao E cast and NAs that are on ICD](https://youtu.be/mNnipUJvMJk)  
+- [Yoimiya E cast](https://imgur.com/pdWIOT2)  
+- [Yoimiya NAs that are on ICD](https://imgur.com/tvkIneu)  
+
+Couldn't get a proper Diluc clip because his infusion window is short and the Phoenix's Pyro app makes the timing not line up with Mona E, but feel free to test it.  
+
+**Significance:**  
+Documenting the overworld spaghetti, and a better understanding of 0 gauge stuff. 
+
+## No Raining in Mondstadt
+
+**By:** Ayzel\#7399  
+**Added:** 5/21/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/840649811383418960/845511822404616212/transcript-cant-rain-in-mondstadt.html)
+
+**Finding:** If it's raining and you approach Mondstadt, the rain will stop, even though the rain will continue outside Mondstadt.
+
+**Evidence:** [https://youtu.be/yJ-3I3xGDgs](https://youtu.be/yJ-3I3xGDgs)
+
+**Significance:** Can't do hydro tests on dandelions near Mondstadt

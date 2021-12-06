@@ -9,64 +9,6 @@ description: For entries that have little practical use.
 
 {% page-ref page="../../general-mechanics/miscellaneous-entries.md" %}
 
-## Torch Lighting with Zero Gauge Pyro Hits
-
-**By:** kxmndz\#4700  
-**Added:** 11/11/2021  
-[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/904069344764526692/908536409021906954/transcript-torches-take-0-gauge-to-light.html)  
-
-**Finding:**  
-Some overworld objects (torches, mist flowers) interact with 0 gauge pyro hits (hits that don't apply pyro aura to enemies).  
-
-**Evidence:**  
-Overload and Torches:  
-- [Overload lighting a torch but not applying pyro to hilichurl](https://youtu.be/tyuLDjja0cQ)  
-- [Overload continuously reacting to pyro from a torch and lighting a nearby torch](https://youtu.be/5ihT0Zp05OQ)  
-- [Overload not lighting Dendro barrels on fire (confirmed in range by triggering explosive barrel)](https://imgur.com/JH76aSW)  
-
-Ice Flowers:  
-- [Ice flower being melted by Hu Tao E cast](https://imgur.com/g7fJe1L)  
-- [Dendro crate not being lit on fire by Hu Tao E cast](https://imgur.com/ieGHPpT)  
-
-Zero Gauge Pyro Skills:  
-- ItzSomebody\#0029: [Hu Tao E cast and NAs that are on ICD](https://youtu.be/mNnipUJvMJk)  
-- [Yoimiya E cast](https://imgur.com/pdWIOT2)  
-- [Yoimiya NAs that are on ICD](https://imgur.com/tvkIneu)  
-
-Couldn't get a proper Diluc clip because his infusion window is short and the Phoenix's Pyro app makes the timing not line up with Mona E, but feel free to test it.  
-
-**Significance:**  
-Documenting the overworld spaghetti, and a better understanding of 0 gauge stuff.  
-
-## Kamuijima Cannon Friendly Fire  
-
-**By:** Goden\#2155  
-**Added:** 30/10/2021  
-[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/903075574233313330/903212491281158165/transcript-cannon-coop-griefing.html)  
-
-**Finding:** The large Electro cannons in Inazuma, known as Kamuijima Cannons, that were used for a story quest, can be used to deal massive amounts of damage to you and co-op members, via friendly fire.  
-
-**Evidence:** 
-* [Single Target](https://imgur.com/HidKbYQ)  
-* [Multi Targets](https://imgur.com/aDuIT5r)  
-
-Using Zhongli's pillar to act as a target can cause the cannon shell to explode upon impact, damaging the person who fired the cannon. This can also be done with Geo MC's rocks which were not showcased.  
-
-**Significance:** The sheer damage from the blast will leave extremely few characters alive even when they are at full health, making this a fun, albeit niche way to nuke coop members.
-
-
-## Bush Lighting
-
-**By:** Ayzel\#7399  
-**Added:** 6/11/2021  
-[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/851228691656736798/852776633731645470/transcript-bushes-take-1u-of-pyro-to-light.html)
-
-**Finding:** Bushes take one unit of pyro elemental application to light on fire.
-
-**Evidence:** [https://youtu.be/TTcHouqT-Qg](https://youtu.be/TTcHouqT-Qg)
-
-**Significance:** don't go around lighting bush fires, kids
-
 ## Ded Bird
 
 **By:** Aluminum\#5462, Mcpie\#8672, mol\#3280, JenjenJL\#6582, Kgbeast\#6738, wiremash\#0433  
@@ -86,18 +28,6 @@ At least two of the birds \(one near Azhdaha and one in Guyun\) die very often o
 **Significance:**  
 Free fowl. Also whoever is coding the animals is probably trolling.
 
-## Jean Running BPM
-
-**By:** Ayzel\#7399  
-**Added:** 5/21/2021  
-[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/843349537313259520/845508612532600842/transcript-jean-running-bpm.html)
-
-**Finding:** Jean runs at 180 BPM.
-
-**Evidence:** [https://youtu.be/\_oWr\_7KEl-c](https://youtu.be/_oWr_7KEl-c)
-
-**Significance:** allows players to pick the optimal music to listen to when playing with Jean
-
 ## Chair Cancelling
 
 **By:** Ayzel\#7399  
@@ -109,34 +39,6 @@ Free fowl. Also whoever is coding the animals is probably trolling.
 **Evidence:** [https://youtu.be/6nwbxIwk3Q8](https://youtu.be/6nwbxIwk3Q8)
 
 **Significance:** New theoretical highest DPS ceiling for some units who aren't able to typically stack CW \(like Hu Tao and Xiangling\).
-
-## No Raining in Mondstadt
-
-**By:** Ayzel\#7399  
-**Added:** 5/21/2021  
-[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/840649811383418960/845511822404616212/transcript-cant-rain-in-mondstadt.html)
-
-**Finding:** If it's raining and you approach Mondstadt, the rain will stop, even though the rain will continue outside Mondstadt.
-
-**Evidence:** [https://youtu.be/yJ-3I3xGDgs](https://youtu.be/yJ-3I3xGDgs)
-
-**Significance:** Can't do hydro tests on dandelions near Mondstadt
-
-## Grass Fires in Friends' Teapots
-
-**By:** Ayzel\#7399  
-**Added:** 5/3/2021  
-[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/837081734783828070/838663326417289246/transcript-grass-in-friends-teapots.html)
-
-**Finding:** Lighting grass on fire will sometimes only take 1 unit of pyro in a friend's teapot.
-
-**Evidence:**
-
-In this [video](https://www.youtube.com/watch?v=6hIZghh6a-w&ab_channel=Ayzel), Klee, who applies 1U of pyro with her normal and charged attacks, is able to light grass on fire in my friend's teapot with only one normal or charged attack.
-
-In this [video](https://www.youtube.com/watch?v=YxlzUaaLVUw&ab_channel=Ayzel), filmed in my own teapot, Klee is unable to light grass on fire with a single 1U application of pyro through her normal or charged attacks.
-
-**Significance:** Could be a bug, or could also signify that Elemental Gauges work differently in co-op.
 
 ## Electro Tanking
 
@@ -198,39 +100,6 @@ Note that as a result, Electro is no longer the undisputed king of the element y
 
 If MHY told you to pick an damage type to tank the most damage from a level ∞ enemy without damage reduction, the tier list is Pyro &gt; Cryo &gt; Electro &gt; Geo = Hydro = Anemo &gt; Dendro &gt; Physical.
 
-## Electro Crystals have levels
-
-**By:** Greyhound\#7836  
-**Added:** 04/23/2021  
-[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/832412514858958878/835397401812533268/transcript-electro-crystals-have-levels.html)
-
-**Finding:**  
-Electro crystals have different damage values on the same world level, the recorded ones after defense are: 325, 267, 247, 279, 273, 297, 292, 303, 287, 283, the Lisa used for the test had 159 defense, meaning 15% damage reduction, further testing shows that there is no level differencial taken into the formula for crystal attacks, but they do have levels as indicated by reactions, the pre defense damage dealt by them is: 373, 307, 284, 320, 313, 341, 335, 348, 320, 325 repsectively to the values stated above, with the end results as:
-
-| Electro Damage | Electro-Charged Damage | Calculated Crystal Level |
-| :--- | :--- | :--- |
-| 325 | 1443 | 90 |
-| 267 | 1135 | 80 |
-| 247 | 1053 | 77 |
-| 279 | 1189 | 82 |
-| 273 | 1189 | 82 |
-| 297 | 1307 | 86 |
-| 292 | 1279 | 85 |
-| 303 | 1337 | 87 |
-| 287 | 1243 | 84 |
-| 283 | 1216 | 83 |
-
-The curious part is how 2 different crystal damages share the same level.
-
-**Evidence:**
-
-* [I went and got hit by every single electro crystal on the map with no stat change or effects to affect the damage taken](https://www.youtube.com/watch?v=R738dkn2A4Q)  
-* [the last 3 are in a different video that might as well be excluded as it provides nothing new](https://www.youtube.com/watch?v=plkvuafVyKo)
-* [Electro-charged testing result proof](https://www.youtube.com/watch?v=MI7gNlhEmbg)
-
-**Significance:**  
-Ruining kid's trust in Mihoyo's consistancy, fluff, learning how the world is made
-
 ## Climbing the Frostbearing Tree
 
 **By:** Aevean Leeow\#1362  
@@ -255,17 +124,6 @@ Step 5. Jump to the peak of the tree from the butterfly. It is possible that nor
 Being at a greater height confers immense benefits. Those at a significant height over others possess a birds-eye view of the battlefield, allowing them to observe their enemies from afar. The great military strategist Sun Tzu once said, "If you know the enemy and know yourself, you need not fear the result of a hundred battles." Furthermore, the advantage of height is not merely backed by military theory. In fact, it is has been a deciding factor throughout history. For example, Obi Wan cleverly defeated Anakin by utilising this intrinsic advantage unique to the high ground.
 
 Also, you can perform a plunging attack off of the tree.
-
-## Aether vs Lumine
-
-**By:** Fluffy\#5580  
-**Added:** 03/23/2021
-
-**Theory:** The traveler twins are not equal.
-
-**Evidence:** Using the OpenCV Python library, I have compared official images of both Aether and Lumine \(cropped to 400x700\). Reading these images as a 3d array \(Width x Height x RGB\) and comparing the sums of RGB for the total pixels, I have discovered that Lumine is more red, green, and blue than Aether. [Aether](https://imgur.com/a/Nm7xBRu) [Lumine](https://imgur.com/a/PKcOjzX) [Output](https://imgur.com/a/Y7bRGnd)
-
-**Significance:** This means that Lumine is superior in all categories compared to Aether, so Lumine &gt; Aether. In addition, I have valid evidence to conclude another point. By squaring the resulting array and looking at the comparison once again, I found that Aether beats Lumine in blue now but still loses in red and green. Therefore, I believe I now have sufficient evidence to conclude that Lumine is Santa Claus, which makes her even cooler and just that much better than Aether.
 
 ## Cancelling Abilities
 Note: This is a merge of 2 tickets
@@ -359,68 +217,6 @@ In high ping environment, switching character take some amount of time. Assuming
 
 **Significance:**  
 Smiling Ei UwU
-
-## Capped Enhancement Ores  
-
-**By:** Kgbeast#6738  
-**Added:** 10/09/2021  
-[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/893668250263633980/896141552135569438/transcript-capped-enhancement-ore.html)
-
-**Findings/Evidences**  
-Consequences of having capped (9999) Mystic Enhancement Ore:
-
-- Abyss rewards are sent to the mail and cannot be collected until there is enough room for ore to no longer exceed the 9999 mystic enhancement ore cap  
-[Video](https://www.youtube.com/watch?v=q9W_R6sYpEQ&ab_channel=SteveBob)
-
-- Mystic enhancement ore from the Battle Pass cannot be collected until there is enough room for ore to no longer exceed the 9999 mystic enhancement ore cap
-
-- Completing a random event will not yield any ore rewards but will still give companionship EXP and mora  
-[Video](https://www.youtube.com/watch?v=o6ms2FVQs68&ab_channel=SteveBob)  
-[Video](https://www.youtube.com/watch?v=pTFZUEjhBtc&ab_channel=SteveBob)
-
-- Mystic enhancement ore cannot be crafted at the blacksmith with either amethyst chunks or crystal ore  
-[Video](https://www.youtube.com/watch?v=9Z4XW4mvTuY&ab_channel=SteveBob)
-
-- Completing a daily commission CAN and will give mystic enhancement ore, exceeding the 9999 cap (previous methods still do not work past 9999)  
-[Video](https://www.youtube.com/watch?v=75BmTpmBUNs&ab_channel=SteveBob)
-
-**Significance:**  
-This will never happen to you though.  
-
-## Maximum Original Resin  
-
-**By:** CQLQRS#7853  
-**Added:** 10/18/2021  
-[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/896356040747122698/899839089124179968/transcript-maximum-original-resin.html)  
-
-**Finding:**  
-Original Resin can go past the cap of 160, capped at ~2000.  
-
-**Evidence:**  
-* Unable to go past 1993 Resin: [kimchihotpot#8630](https://imgur.com/a/gka5rSj)  
-* Unable to use 11 Fragile Resin (660 Resin) when at 1360 Resin, which would result in 2020 Resin: [Tibo#4309](https://i.imgur.com/kKl8sBo.png)  
-* Unable to use 1 Fragile Resin when at 2000 Resin: [Tibo#4309](https://i.imgur.com/Jl8wK1R.png)  
-
-**Significance:**  
-Better understanding of the Resin system.  
-
-## Crafted Food Items Limit  
-
-**By:** It3mUs3r#4778 and Creonalia#2818  
-**Added:** 10/24/2021  
-[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/899016596054495253/902068304749944852/transcript-crafted-food-item-limit.html)  
-
-**Finding:**  
-Crafted items limit is 2000 per unique item. Both automatic cooking and manual cooking yield this result. Which character is cooking also does not change this limit.  
-
-**Evidence:**  
-2000 of each kind of Fragrant Mashed Potatoes: [Imgur](https://imgur.com/ioIoAhw)  
-Unable to craft more Suspicious Fragrant Mashed Potatoes: [Imgur](https://imgur.com/xPdT6NG)  
-Unable to craft more Fragrant Mashed Potatoes: [Imgur](https://imgur.com/NMhB8L9)  
-Unable to craft more Delicious Fragrant Mashed Potatoes: [Imgur](https://imgur.com/DynpQAn)  
-
-**Significance:**  
-Food is not infinite.  
 
 ## Narukami Shrine Fortune Slip Probabilities
 
