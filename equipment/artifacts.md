@@ -404,7 +404,7 @@
 {% tabs %}
 {% tab title="Description" %}
 * 2 Piece Set Bonus: Energy Recharge +20%
-* 4 Piece Set Bonus: Gaining Energy gives 3 Energy to all party members who have a Bow or a Catalyst equipped. Can only occur once every 3s.
+* 4 Piece: Gaining Elemental Particles or Orbs gives 3 Energy to all party members who have a bow or a catalyst equipped. Can only occur once every 3s.
 {% endtab %}
 {% endtabs %}
 
