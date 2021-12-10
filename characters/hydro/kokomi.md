@@ -4,15 +4,15 @@ description: The Divine Priestess of Watatsumi Island. All of the island's affai
 
 # Sangonomiya Kokomi
 
-## Resources
-[Sangonomiya Kokomi: Pearl of Wisdom](https://keqingmains.com/kokomi/)  
-[Kokomi Quick Guide](https://youtu.be/FAI39xYCMgo)
+## **Resources**
+* [Sangonomiya Kokomi: Pearl of Wisdom](https://keqingmains.com/kokomi/)  
+* [Kokomi Quick Guide](https://youtu.be/FAI39xYCMgo)
 
 ## ![](../../.gitbook/assets/element_hydro.png) Sangonomiya Kokomi
 
 ![](../../.gitbook/assets/character_kokomi_wish.png)
 
-## Base Stats
+## **Base Stats**
 
 | Lv | Base HP | Base ATK | Base DEF | Hydro DMG% |
 | :--- | :--- | :--- | :--- | :--- |
@@ -24,7 +24,7 @@ description: The Divine Priestess of Watatsumi Island. All of the island's affai
 | 80+ | 12524 | 218 | 611 | 28.8% |
 | 90 | 13471 | 234 | 657 | 28.8% |
 
-## Attacks
+## **Attacks**
 
 {% tabs %}
 {% tab title="The Shape of Water" %}
@@ -71,17 +71,17 @@ Summons a **"bake-kurage"** created from water that can heal her allies. Using t
 **Bake-Kurage**  
 Deals Hydro DMG to surrounding opponents and heal nearby active characters once every 2s. This healing is based on Kokomi's Max HP.
 
-| Attribute | Skill (Talent 6%) |
+| Attribute | Skill |
 | :--- | :--- |
-| Ripple DMG | 152.87% |
+| Ripple DMG \(T6%\) | 152.87% |
 | Particles | 0~1 (1:2) |
 | Frames | 66 (51 with Dash Cancel) |
 | GU | 1A |
-| ICD (hits/timer) | None |
+| ICD | None |
 | Snapshot | Snapshot |
 | Damage Element | Hydro |
-| Damage Type | Elemental Skill |
-| HP Regen | 6.16% Max HP + 671 |
+| Damage Type | Skill |
+| HP Regen \(T6%\) | 6.16% Max HP + 671 |
 | Duration | 12s |
 | Tick Rate | 2s |
 | Cooldown | 20s |
@@ -106,15 +106,15 @@ The might of Watatsumi descends, dealing Hydro DMG to surrounding opponents, bef
 
 These effects will be cleared once Sangonomiya Kokomi leaves the field.
 
-| Attribute | Burst (Talent 6%) |
+| Attribute | Burst |
 | :--- | :--- |
-| Skill DMG | 14.58% Max HP |
+| Skill DMG \(T6%\) | 14.58% Max HP |
 | Frames | 75 |
 | GU | 2B |
 | ICD | None |
 | Snapshot | Snapshot |
 | Damage Element | Hydro |
-| Damage Type | Elemental Burst |
+| Damage Type | Burst |
 | Energy Cost | 70 |
 | Cooldown | 18s |
 
@@ -132,7 +132,7 @@ These effects will be cleared once Sangonomiya Kokomi leaves the field.
 {% endtab %}
 {% endtabs %}
 
-## Ascension Passives
+## **Ascension Passives**
 
 {% tabs %}
 {% tab title="Passive 1" %}
@@ -165,7 +165,7 @@ While donning the **Ceremonial Garment** created by **Nereid's Ascension**, the 
 {% endtab %}
 {% endtabs %}
 
-## Constellations
+## **Constellations**
 
 {% tabs %}
 {% tab title="C1" %}
@@ -211,7 +211,7 @@ While donning the **Ceremonial Garment** created by **Nereid's Ascension**, Sang
 {% endtab %}
 {% endtabs %}
 
-## Full Talent Values
+## **Full Talent Values**
 
 {% tabs %}
 {% tab title="The Shape of Water" %}
@@ -267,6 +267,6 @@ While donning the **Ceremonial Garment** created by **Nereid's Ascension**, Sang
 {% endtab %}
 {% endtabs %}
 
-**Evidence Vault:**
+## **Evidence Vault:**
 
 {% page-ref page="../../evidence/characters/hydro/kokomi.md" %}
