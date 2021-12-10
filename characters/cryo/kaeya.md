@@ -4,14 +4,14 @@ description: A thinker in the Knights of Favonius with a somewhat exotic appeara
 
 # Kaeya
 
-## Resources
-[Full Kaeya Written Guide: Death After Noon](https://keqingmains.com/kaeya/)
+## **Resources**
+* [Full Kaeya Written Guide: Death After Noon](https://keqingmains.com/kaeya/)
 
 ## ![](../../.gitbook/assets/element_cryo.png) Kaeya
 
 ![](../../.gitbook/assets/character_kaeya_wish.png)
 
-## Base Stats
+## **Base Stats**
 
 | Lv | Base HP | Base ATK | Base DEF | Energy Recharge% |
 | :--- | :--- | :--- | :--- | :--- |
@@ -23,7 +23,7 @@ description: A thinker in the Knights of Favonius with a somewhat exotic appeara
 | 80+ | 10830 | 208 | 737 | 26.70% |
 | 90 | 11636 | 223 | 792 | 26.70% |
 
-## Attacks
+## **Attacks**
 
 {% tabs %}
 {% tab title="Ceremonial Bladework" %}
@@ -64,16 +64,16 @@ Kaeya consumes 25 stamina to unleash 2 rapid strikes.
 **Press**  
 Kaeya unleashes a frigid blast, dealing Cryo DMG to opponents in front of him.
 
-| Attribute | Skill (Talent 6%) |
+| Attribute | Skill |
 | :--- | :--- |
-| Skill DMG | 267.68% |
+| Skill DMG \(T6%\) | 267.68% |
 | Particles | 2~3 \(1:2\) |
 | Frames | 58 |
 | GU | 2B |
 | ICD | None |
 | Snapshot | Snapshot |
 | Damage Element | Cryo |
-| Damage Type | Elemental Skill |
+| Damage Type | Skill |
 | Cooldown | 6s |
 
 * **Frostgnaw** does not have any hitlag.
@@ -84,15 +84,15 @@ Kaeya unleashes a frigid blast, dealing Cryo DMG to opponents in front of him.
 {% tab title="Glacial Waltz" %}
 Coalescing the frost in the air, Kaeya summons 3 **icicles** that revolve around him.These **icicles** will follow the character around and deal Cryo DMG to opponents in their path for the ability's duration.
 
-| Attribute | Burst (Talent 6%) |
+| Attribute | Burst |
 | :--- | :--- |
-| Skill DMG | 108.64% |
+| Skill DMG \(T6%\) | 108.64% |
 | Frames | 78 |
 | GU | 1A |
 | ICD | 3 hit / 2.5s |
 | Snapshot | Snapshot |
 | Damage Element | Cryo |
-| Damage Type | Elemental Burst |
+| Damage Type | Burst |
 | Energy Cost | 60 |
 | Duration | 8s |
 | Cooldown | 15s |
@@ -128,7 +128,7 @@ Opponents frozen by **Frostgnaw** will drop additional Cryo elemental particles.
 {% endtab %}
 {% endtabs %}
 
-## Constellations
+## **Constellations**
 
 {% tabs %}
 {% tab title="C1" %}
@@ -213,15 +213,13 @@ Increases the level of **Glacial Waltz** by 3.
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | Skill DMG | 108.64% | 116.40% | 124.16% | 131.92% | 139.68% | 147.44% | 155.20% | 164.90% |
 
-**Energy Cost**: 60
-
-**Duration**: 8s
-
+**Energy Cost**: 60  
+**Duration**: 8s  
 **Cooldown**: 15s
 {% endtab %}
 {% endtabs %}
 
-**Evidence Vault**:
+## **Evidence Vault**:
 
 {% page-ref page="../../evidence/characters/cryo/kaeya.md" %}
 

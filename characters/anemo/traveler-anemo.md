@@ -1,13 +1,11 @@
 ---
-description: >-
-  A traveler from another world who had their only kin taken away, forcing them
-  to embark on a journey to find The Seven.
+description:  A traveler from another world who had their only kin taken away, forcing them to embark on a journey to find The Seven.
 ---
 
 # Traveler \(Anemo\)
 
-## Resources
-[Full Anemo Traveler Guide](https://keqingmains.com/anemo-traveler/)
+## **Resources**
+* [Full Anemo Traveler Guide](https://keqingmains.com/anemo-traveler/)
 
 ## ![](../../.gitbook/assets/element_anemo.png) Traveler \(Anemo\)
 
@@ -34,7 +32,7 @@ Performs up to 5 rapid strikes.
 
 * Lumine is the female traveler.
 
-| String | Talent 6% | Frames | Motion Value |
+| String | Talent 6% | Frames | MV/s |
 | :--- | :--- | :--- | :--- |
 | 1-Hit | 64.63% | 14 | 276.8%/s |
 | 2-Hit | 63.13% | 43 | 178.1%/s |
@@ -45,16 +43,13 @@ Performs up to 5 rapid strikes.
 **Charged Attack**  
 The Traveler consumes 20 stamina to unleash 2 rapid sword strikes.
 
-| String | Talent 6% |
-| :--- | :--- |
-| Charged Attack | 81.25%+105% |
-
-| Combo | Frames | Talent 6% MV/s |
-| :--- | :--- | :--- |
-| N1C | 62 | 242.8%/s |
-| N2C | 84 | 224%/s |
-| N3C | 115 | 204%/s |
-| N4C | 160 | 178.4%/s |
+| String | Talent 6% | Frames | MV/s |
+| :--- | :--- | :--- | :--- |
+| Charged Attack | 81.25%+105% | - | - |
+| N1C | 250.88% | 62 | 242.8%/s |
+| N2C | 314.01% | 84 | 224%/s |
+| N3C | 391.01% | 115 | 204%/s |
+| N4C | 478.76% | 160 | 178.4%/s |
 
 **Plunge**
 
@@ -72,7 +67,7 @@ Performs up to 5 rapid strikes.
 
 * Aether is the male traveler.
 
-| String | Talent 6% | Frames | Motion Value |
+| String | Talent 6% | Frames | MV/s |
 | :--- | :--- | :--- | :--- |
 | 1-Hit | 64.63% | 13 | 298.15%/s |
 | 2-Hit | 63.13% | 38 | 201.63%/s |
@@ -83,16 +78,13 @@ Performs up to 5 rapid strikes.
 **Charged Attack**  
 The Traveler consumes 20 stamina to unleash 2 rapid sword strikes.
 
-| String | Talent 6% |
-| :--- | :--- |
-| Charged Attack | 81.25%+88.25% |
-
-| Combo | Frames | Talent 6% MV/s |
-| :--- | :--- | :--- |
-| N1C | 54 | 260.1%/s |
-| N2C | 90 | 198.1%/s |
-| N3C | 115 | 195.2%/s |
-| N4C | 160 | 172.1%/s |
+| String | Talent 6% | Frames | MV/s |
+| :--- | :--- | :--- | :--- |
+| Charged Attack | 81.25%+88.25% | - | - |
+| N1C | 234.13% | 54 | 260.1%/s |
+| N2C | 297.26% | 90 | 198.1%/s |
+| N3C | 374.26% | 115 | 195.2%/s |
+| N4C | 459.01% | 160 | 172.1%/s |
 
 **Plunge**
 
@@ -112,22 +104,22 @@ The **Vortex** explodes when the skill duration ends, dealing more Anemo DMG ove
 
 If the **Vortex** comes into contact with Hydro/Pyro/Cryo/Electro, it will deal additional elemental DMG of that type. This only occurs once per use.
 
-| Attribute | Tap (Talent 6%) | Hold (Talent 6%)
+| Attribute | Tap | Hold |
 | :--- | :--- | :--- |
-| Cutting DMG | ~ | 16.8% x 2 + 23.5% x 4 |
-| Absorption DMG | ~ | 4.2% x 2 + 5.88% x 4 |
-| Storm DMG | 246% | 246% / 269% |
-| Absorption DMG | ~ | 61.5% / 67.25% |
+| Cutting DMG \(T6%\) | - | 16.8% x 2 + 23.5% x 4 |
+| Absorption DMG \(T6%\) | - | 4.2% x 2 + 5.88% x 4 |
+| Storm DMG \(T6%\) | 246% | 246% / 269% |
+| Absorption DMG \(T6%\) | - | 61.5% / 67.25% |
 | Particles | 2 | 2 / 3~4 (2:1) |
 | Frames | 27 | 27~61 |
 | GU | 1U | 1U |
-| Absorption GU | ~ | 1A |
+| Absorption GU | - | 1A |
 | ICD | 3 hit / 2.5s | 3 hit / 2.5s |
 | Snapshot | Snapshot | Snapshot |
 | Damage Element | Anemo | Anemo |
-| Absorption Element | ~ | Cryo/Pyro/Hydro/Electro |
-| Damage Type | Elemental Skill | Elemental Skill |
-| Cooldown | 5s | 5s / 8s |
+| Absorption Element | ~ | Infused Element |
+| Damage Type | Skill | Skill |
+| CD | 5s | 5s / 8s |
 * Infusion priority: Cryo > Pyro > Hydro > Electro
 * When held beyond the first two Cutting DMG hits, the skill's damage, particle generation, and cooldown are all increased.
 {% endtab %}
@@ -139,21 +131,18 @@ A forward-moving **tornado** is summoned and pulls objects and opponents towards
 
 If the **tornado** comes into contact with Hydro/Pyro/Cryo/Electro, it will deal a percentage of additional elemental DMG of that type. Elemental Absorption may only occur once per use.
 
-| Attribute | Burst (Talent 6%) |
-| :--- | :--- |
-| Tornado DMG | 113% |
-| Absorption DMG | 34.7% |
-| Frames | 41 |
-| GU | 1U |
-| Absorption GU | 2B |
-| ICD | 3 hit / 2.5s |
-| Snapshot | Snapshot |
-| Damage Element | Anemo |
-| Absorption Element | Cryo/Pyro/Hydro/Electro |
-| Damage Type | Elemental Burst |
-| Energy Cost | 60 |
-| Duration | 6s |
-| Cooldown | 15s |
+| Attribute | Tornado | Absorption DMG |
+| :--- | :--- | :--- |
+| Tornado DMG \(T6%\) | 113% | 34.7% |
+| Frames | 41 | - |
+| GU | 1U | 2B | 
+| ICD | 3 hit / 2.5s | 3 hit / 2.5s |
+| Snapshot | Snapshot | Snapshot |
+| Damage Element | Anemo | Infused Element |
+| Damage Type | Burst | Burst |
+| Energy Cost | 60 | - |
+| Duration | 6s | - |
+| Cooldown | 15s | - |
 * Infusion priority: Cryo > Pyro > Hydro > Electro  
 
 {% endtab %}
@@ -185,7 +174,7 @@ The last hit of a Normal Attack combo unleashes a wind blade, dealing 60% of ATK
 {% endtab %}
 {% endtabs %}
 
-## Constellations
+## **Constellations**
 
 {% tabs %}
 {% tab title="C1" %}
@@ -230,7 +219,7 @@ If an Elemental Absorption occurred, then their RES towards the corresponding El
 {% endtab %}
 {% endtabs %}
 
-## Full Talent Values
+## **Full Talent Values**
 
 {% tabs %}
 {% tab title="Foreign Ironwind" %}
@@ -291,7 +280,7 @@ If an Elemental Absorption occurred, then their RES towards the corresponding El
 {% endtab %}
 {% endtabs %}
 
-**Evidence Vault:**
+## **Evidence Vault:**
 
 {% page-ref page="../../evidence/characters/anemo/traveler-anemo.md" %}
 

@@ -2,13 +2,13 @@
 description: 'Captain of her crew, The Crux. She''s quite an unbound and forthright woman.'
 ---
 
+# Beidou
+
 ## **Resources**
 
 * [Beidou Mains Discord](https://discord.gg/rgS2f9dBxb)
 * [Full Beidou Written Guide: Tales from the Sea](https://keqingmains.com/beidou/)
 * [6 Minute Quick Guide to Beidou](https://youtu.be/AWlLidtFiDw)
-
-# Beidou
 
 ## ![](../../.gitbook/assets/element_electro.png) Beidou
 
@@ -79,19 +79,19 @@ Beidou consumes 40 stamina a second to perform continuous slashes. At the end of
 
 | Attribute | Tap | Hold |
 | :--- | :--- | :--- |
-| Base DMG (T6%) | 170.24% | 170.24% |
-| DMG Bonus on Hit Taken (T6%) | - | 224% \(scaling\) |
-| Particles | 2 | 2 ~ 4 (see note) |
+| Base DMG \(T6%\) | 170.24% | 170.24% |
+| DMG Bonus on Hit Taken \(T6%\) | - | 224% \(scaling\) |
+| Particles | 2 | 2 ~ 4 \(see note\) |
 | Frames | 41 | - |
 | GU | 2B | 2B |
 | ICD | None | None |
 | Snapshot | Dynamic | Dynamic |
 | Damage Element | Electro | Electro |
-| Damage Type | Elemental Skill | Elemental Skill |
+| Damage Type | Skill | Skill |
 | Duration | - | upto 3s |
 | CD | 7.5s | 7.5s |
 
-| Attribute | Shield (Talent 6%) |
+| Attribute | Shield \(Talent 6%\) |
 | :--- | :--- |
 | Scaling | 20.16% Max HP + 2195 |
 | Elemental Type | Electro |
@@ -122,7 +122,7 @@ Beidou creates a **Thunderbeast's Targe** around herself, dealing Electro DMG to
 
 | Attribute | Burst | Lightning Discharge |
 | :--- | :--- | :--- |
-| Burst DMG (T6%) | 170.24% | 134.4% |
+| Burst DMG \(T6%\) | 170.24% | 134.4% |
 | Lightning Bounces | - | 2 |
 | DMG Reduction | 26% \(scaling\) | - |
 | Frames | 45 | - |
@@ -130,7 +130,7 @@ Beidou creates a **Thunderbeast's Targe** around herself, dealing Electro DMG to
 | ICD | - | 3 hit / 2.5s |
 | Snapshot | Snapshot | Snapshot | 
 | Damage Element | Electro | Electro |
-| Damage Type | Elemental Burst | Elemental Burst |
+| Damage Type | Burst | Burst |
 | Energy Cost | 80 | - |
 | Duration | 15s | 15s |
 | Cooldown | 20s | 1s |

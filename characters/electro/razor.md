@@ -2,12 +2,12 @@
 description: A boy who lives among the wolves in Wolvendom of Mondstadt, away from human civilization. As agile as lightning.
 ---
 
+# Razor
+
 ## **Resources**
 
 * [Razor Mains Discord](https://discord.gg/6qGZNQkWBX)
 * [Legend of Wolvendom: Razor In-Depth Written Guide](https://keqingmains.com/razor/)
-
-# Razor
 
 ## ![](../../.gitbook/assets/element_electro.png) Razor
 
@@ -83,7 +83,7 @@ Razor slams his hand down, dealing Electro damage in a wide circle around him.
 | ICD | 3 hits/2.5s | 3 hits/2.5s |
 | Snapshot | Dynamic | Dynamic |
 | Damage Element | Electro | Electro | 
-| Damage Type | Elemental Skill | Elemental Skill | 
+| Damage Type | Skill | Skill | 
 | CD | 6s | 10s | 
 
 * **Claw and Thunder**'s animation is different and slightly slower during **Lightning Fang**.
@@ -103,13 +103,13 @@ Razor summons **The Wolf Within** which does Aoe Electro DMG and gains a echo at
 | Attribute | Burst | Echo |
 | :--- | :--- | :--- |
 | Skill DMG \(T6%\) | 224% | 33.6% | 
-| Attack speed | 36% | - |
+| Attack Speed | 36% | - |
 | Frames | 62 | - |
 | GU | 2B | 1A |
 | ICD | - | 3 hits/2.5s |
 | Snapshot | Dynamic | Dynamic |
 | Damage Element | Electro | Electro |
-| Damage Type | Elemental Burst | Elemental Burst | 
+| Damage Type | Burst | Burst | 
 | Energy Cost | 80 | - |
 | Duration | 15s | 15s |
 | CD | 20s | - |
@@ -212,8 +212,7 @@ Every 10s, Razor's sword charges up, causing the next Normal Attack to release l
 | Charged Attack Spinning DMG | 90.90% | 98.90% | 106.90% | 114.90% | 123.62% | 132.35% |
 | Charged Attack Final DMG | 164.38% | 178.84% | 193.31% | 207.77% | 223.55% | 239.33% |
 
-**Maximum Duration**: 5s
-
+**Maximum Duration**: 5s  
 **Stamina Cost**: 40
 
 ### Plunge

@@ -70,24 +70,24 @@ Fischl summons **Oz** a short distance in front of herself and deals Electro DMG
 
 * When **Oz** is already on the field, this ability repositions him next to Fischl instead, without modifying his remaining duration.
 
-| Attribute | Skill (Talent 6%) |
+| Attribute | Skill |
 | :--- | :--- |
-| Cast DMG| 161.62% |
+| Cast DMG \(T6%\) | 161.62% |
 | Particles | 0 |
 | Frames | 18 |
 | GU | 1A |
 | ICD | None |
 | Damage Element | Electro |
-| Damage Type | Elemental Skill |
-| Summon Cooldown | 25s |
-| Reposition Cooldown | 1s |
+| Damage Type | Skill |
+| Summon CD | 25s |
+| Reposition CD | 1s |
 
 {% endtab %}
 
 {% tab title="Oz" %}
 | Attribute | Oz |
 | :--- | :--- |
-| Normal Attacks (T6%) | 124.32% |
+| Normal Attacks \(T6%\) | 124.32% |
 | Particles | 0~1 \(2:3\) |
 | GU | 1A |
 | ICD | 4 hits / 5s |
@@ -95,7 +95,7 @@ Fischl summons **Oz** a short distance in front of herself and deals Electro DMG
 | Duration | 10s |
 | Total Hits | 10 |
 | Damage Element | Electro |
-| Damage Type | Elemental Skill |
+| Damage Type | Skill |
 
 * **Oz** is able to target Baron Bunny after Fischl’s Ascension 1 passive, **Stellar Predator** is triggered, despite having no enemies nearby. The passive may or may not deliver a **Thundering Retribution** onto the Baron Bunny.
 * When **Oz** is repositioned via the use of this elemental skill, it counts as a use of an elemental skill and it re-snapshots Fischl's stats.
@@ -112,12 +112,16 @@ Fischl transforms into **Oz** and gains movement speed. Deals Electro damage to 
 
 | Attribute | Burst |
 | :--- | :--- |
-| Skill DMG (T6%) | 291.2% |
+| Skill DMG \(T6%\) | 291.2% |
 | Frames | 20 |
 | GU | 2B |
-| Duration | 2s |
-| Cooldown | 15s |
+| ICD | None |
+| Snapshot | Snapshot |
+| Damage Element | Electro |
+| Damage Type | Burst |
 | Energy Cost | 60 |
+| Duration | 2s |
+| CD | 15s |
 
 * You can swap characters during Fischl's Midnight Phantasmagoria to exit the burst early.
 * Midnight Phantasmagoria only has invulnerability frames \(I-Frames\) on startup.
@@ -143,7 +147,7 @@ When Fischl hits **Oz** with a fully charged Aimed Shot, **Oz** will strike a ne
 
 | Attribute | A1 |
 | :--- | :--- |
-| Skill DMG (T6%) | 265.09% |
+| Skill DMG | 152.7% |
 | Particles | 0 |
 | GU | 2B |
 | Damage Type | Charged Attack |
@@ -163,7 +167,7 @@ When Fischl hits **Oz** with a fully charged Aimed Shot, **Oz** will strike a ne
 | GU | 1A |
 | ICD | None |
 | Damage Elemental | Electro |
-| Damage Type | Elemental Skill |
+| Damage Type | Skill |
 
 * There is a **0.5s** timer between A4 procs.
 * At edges of long range attacks, it may not trigger since they must be within a certain range of the active character.
@@ -172,11 +176,11 @@ When Fischl hits **Oz** with a fully charged Aimed Shot, **Oz** will strike a ne
 {% endtab %}
 {% endtabs %}
 
-## Constellations
+## **Constellations**
 
 {% tabs %}
 {% tab title="C1" %}
-## Gaze of the Deep
+### Gaze of the Deep
 
 When **Oz** is not on the field, and Fischl performs a Normal Attack against an enemy, **Oz** fires a joint attack, dealing 22% of Fischl ATK as Physical DMG.
 
@@ -244,7 +248,7 @@ Extends **Oz’s** duration on field by 2s \(12s\). Additionally, when **Oz** is
 | Snapshot | Snapshot |
 | Attack Speed | No Limit |
 | Damage Element | Electro |
-| Damage Type | Elemental Skill |
+| Damage Type | Skill |
 | Duration | 10s |
 
 * **C6** joint attacks share ICD with **Oz's** Normal Attacks.
@@ -254,7 +258,7 @@ Extends **Oz’s** duration on field by 2s \(12s\). Additionally, when **Oz** is
 {% endtab %}
 {% endtabs %}
 
-## Full Talent Values
+## **Full Talent Values**
 
 {% tabs %}
 {% tab title="Bolts of Downfall" %}
@@ -262,51 +266,49 @@ Extends **Oz’s** duration on field by 2s \(12s\). Additionally, when **Oz** is
 
 |  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1-Hit DMG | 64.13 | 69.77 | 75.41 | 81.05 | 87.21 | 93.37 |
-| 2-Hit DMG | 68.00 | 73.98 | 79.97 | 85.95 | 92.48 | 99.01 |
-| 3-Hit DMG | 84.50 | 91.94 | 99.37 | 106.81 | 114.92 | 123.03 |
-| 4-Hit DMG | 83.88 | 91.26 | 98.64 | 106.02 | 114.07 | 122.12 |
-| 5-Hit DMG | 104.75 | 113.97 | 123.19 | 132.40 | 142.46 | 152.52 |
+| 1-Hit DMG | 64.13% | 69.77% | 75.41% | 81.05% | 87.21% | 93.37% |
+| 2-Hit DMG | 68.00% | 73.98% | 79.97% | 85.95% | 92.48% | 99.01% |
+| 3-Hit DMG | 84.50% | 91.94% | 99.37% | 106.81% | 114.92% | 123.03% |
+| 4-Hit DMG | 83.88% | 91.26% | 98.64% | 106.02% | 114.07% | 122.12% |
+| 5-Hit DMG | 104.75% | 113.97% | 123.19% | 132.40% | 142.46% | 152.52% |
 
 ### Aimed Shot
 
 |  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Aimed Shot | 63.75 | 69.36 | 74.97 | 80.58 | 86.70 | 92.82 |
-| Fully-Charged Aimed Shot | 173.60 | 186 | 198.40 | 210.80 | 223.20 | 235.60 |
+| Aimed Shot | 63.75% | 69.36% | 74.97% | 80.58% | 86.70% | 92.82% |
+| Fully-Charged Aimed Shot | 173.60% | 186% | 198.40% | 210.80% | 223.20% | 235.60% |
 
 ### Plunge
 
 |  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Plunge DMG | 82.60 | 89.87 | 97.14 | 104.41 | 112.34 | 120.27 |
-| Low Plunge DMG | 165.17 | 179.70 | 194.23 | 208.77 | 224.62 | 240.48 |
-| High Plunge DMG | 206.30 | 224.45 | 242.61 | 260.76 | 280.57 | 300.37 |
+| Plunge DMG | 82.60% | 89.87% | 97.14% | 104.41% | 112.34% | 120.27% |
+| Low Plunge DMG | 165.17% | 179.70% | 194.23% | 208.77% | 224.62% | 240.48% |
+| High Plunge DMG | 206.30% | 224.45% | 242.61% | 260.76% | 280.57% | 300.37% |
 {% endtab %}
 
 {% tab title="Nightrider" %}
 |  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 | Lv12 | Lv13 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Oz's ATK DMG | 124.32 | 133.20 | 142.08 | 150.96 | 159.84 | 168.72 | 177.60 | 188.70 |
-| Summoning DMG | 161.62 | 173.16 | 184.70 | 196.25 | 207.79 | 219.34 | 230.88 | 245.31 |
+| Oz's ATK DMG | 124.32% | 133.20% | 142.08% | 150.96% | 159.84% | 168.72% | 177.60% | 188.70% |
+| Summoning DMG | 161.62% | 173.16% | 184.70% | 196.25% | 207.79% | 219.34% | 230.88% | 245.31% |
 
-**Duration**: 10s
-
+**Duration**: 10s  
 **Cooldown**: 25s
 {% endtab %}
 
 {% tab title="Midnight Phantasmagoria" %}
 |  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 | Lv12 | Lv13 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Falling Thunder DMG | 291.20 | 312 | 332.80 | 353.60 | 374.40 | 395.20 | 416 | 442 |
+| Falling Thunder DMG | 291.20% | 312% | 332.80% | 353.60% | 374.40% | 395.20% | 416% | 442% |
 
-**Energy Cost**: 60
-
+**Energy Cost**: 60  
 **Cooldown**: 15s
 {% endtab %}
 {% endtabs %}
 
-**Evidence Vault:**
+## **Evidence Vault:**
 
 {% page-ref page="../../evidence/characters/electro/fischl.md" %}
 

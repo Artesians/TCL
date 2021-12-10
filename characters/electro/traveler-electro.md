@@ -4,9 +4,6 @@ description: A traveler from another world who had their only kin taken away, fo
 
 # Traveler
 
-## Resources
-Coming Soon.[]()
-
 ## ![](../../.gitbook/assets/element_electro.png) Traveler
 
 ![](../../.gitbook/assets/electro-traveler.png)
@@ -23,7 +20,7 @@ Coming Soon.[]()
 | 80+ | 10122 | 198 | 635 | 24% |
 | 90 | 10875 | 212 | 683 | 24% |
 
-## Attacks
+## **Attacks**
 
 {% tabs %}
 {% tab title="Foreign Thundershock Lumine" %}
@@ -111,17 +108,17 @@ When a character is near an Abundance Amulet, they will absorb it and obtain the
 * Restores Flat Elemental Energy
 * Increases Energy Recharge during the Abundance Amulet's duration
 
-| Attribute | Skill (Talent 6%) |
+| Attribute | Skill |
 | :--- | :--- |
-| Skill DMG | 110.13% x 3 |
+| Skill DMG \(T6%\) | 110.13% x 3 |
 | Particles | 1 |
 | Frames | 55 |
 | GU | 1A |
 | ICD | 3 hit / 2.5s |
 | Snapshot | Snapshot |
 | Damage Element | Electro |
-| Damage Type | Elemental Skill |
-| Cooldown | 13.5s |
+| Damage Type | Skill |
+| CD | 13.5s |
 
 | Attribute | Abundance Amulet (Talent 6%) |
 | :--- | :--- |
@@ -143,20 +140,20 @@ You call upon the protection of lightning, knocking nearby opponents back and de
 **Lightning Shroud**  
 When your active character's Normal or Charged Attacks hit opponents, they will call **Falling Thunder** forth, dealing Electro DMG. When **Falling Thunder** hits opponents, it will regenerate Energy for that character. One instance of **Falling Thunder** can be generated every 0.5s.
 
-| Attribute | Burst (Talent 6%)
+| Attribute | Burst |
 | :--- | :--- |
-| Skill DMG | 160.16% |
-| Falling Thunder DMG | 45.92% |
+| Skill DMG \(T6%\) | 160.16% |
+| Falling Thunder DMG \(T6%\) | 45.92% |
 | Energy Regeneration | 0.9 | -- |
 | Frames | 60 |
 | GU | 1A |
 | ICD | 3 hit / 2.5s |
 | Snapshot | Snapshot |
 | Damage Element | Electro |
-| Damage Type | Elemental Burst |
+| Damage Type | Burst |
 | Energy Cost | 80 |
 | Duration | 12s |
-| Cooldown | 20s |
+| CD | 20s |
 
 * The energy regenerated from **Falling Thunder** is classified as flat energy.
 * **Falling Thunder** DMG is snapshot on **Bellowing Thunder** cast.
@@ -164,11 +161,10 @@ When your active character's Normal or Charged Attacks hit opponents, they will 
 {% endtab %}
 {% endtabs %}
 
-## Ascension Passives
+## 8*
 
 {% tabs %}
 {% tab title="Passive" %}
-
 ### N/A
 
 404 does not exist.
@@ -176,7 +172,6 @@ When your active character's Normal or Charged Attacks hit opponents, they will 
 {% endtab %}
 
 {% tab title="Ascension 1" %}
-
 ### Thunderflash
 
 When another nearby character in the party obtains an **Abundance Amulet** created by **Lightning Blade**, **Lightning Blade**'s CD is decreased by 1.5s.
@@ -184,7 +179,6 @@ When another nearby character in the party obtains an **Abundance Amulet** creat
 {% endtab %}
 
 {% tab title="Ascension 4" %}
-
 ### Resounding Roar
 
 Increases the Energy Recharge effect granted by **Lightning Blade**'s Abundance Amulet by 10% of the Traveler's Energy Recharge.
@@ -236,7 +230,7 @@ Every 2 **Falling Thunder** attacks triggered by **Bellowing Thunder** will incr
 {% endtab %}
 {% endtabs %}
 
-## Full Talent Values
+## **Full Talent Values**
 
 {% tabs %}
 {% tab title="Foreign Thundershock" %}
@@ -296,6 +290,6 @@ Every 2 **Falling Thunder** attacks triggered by **Bellowing Thunder** will incr
 {% endtab %}
 {% endtabs %}
 
-**Evidence Vault:**
+## **Evidence Vault:**
 
 {% page-ref page="../../evidence/characters/electro/traveler-electro.md" %}

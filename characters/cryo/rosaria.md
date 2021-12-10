@@ -4,9 +4,9 @@ description: A sister of the church, though you wouldn't know it if it weren't f
 
 # Rosaria
 
-## Resources
-[Full Written Rosaria Guide](https://keqingmains.com/rosaria/)  
-[7 Minute Quick Guide to Rosaria](https://youtu.be/JQ01_OKxdbs)
+## **Resources**
+* [Full Written Rosaria Guide](https://keqingmains.com/rosaria/)  
+* [7 Minute Quick Guide to Rosaria](https://youtu.be/JQ01_OKxdbs)
 
 ## ![](../../.gitbook/assets/element_cryo.png) Rosaria
 
@@ -60,17 +60,17 @@ Rosaria plunges to the ground from mid-air, damaging opponents along the way and
 Rosaria swiftly shifts her position to appear behind her opponent, then stabs and slashes them with her polearm, dealing **Cryo** DMG.  
 This ability cannot be used to travel behind opponents of a larger build.
 
-| Type | Skill (Talent 6%) |
+| Type | Skill |
 | :--- | :--- |
-| Skill DMG | 81.76% + 190.4% |
+| Skill DMG \(T6%\) | 81.76% + 190.4% |
 | Particles | 3 |
 | Frames | 65 |
 | GU | 1A |
 | ICD | None |
 | Snapshot | Snapshot |
 | Damage Element | Cryo |
-| Damage Type | Elemental Skill |
-| Cooldown | 6s |
+| Damage Type | Skill |
+| CD | 6s |
 
 * Will only grant one stack of the Pale Flame artifact 4pc bonus per cast.
 {% endtab %}
@@ -79,16 +79,16 @@ This ability cannot be used to travel behind opponents of a larger build.
 Rosaria swings her weapon to slash surrounding opponents, then she summons a frigid **Ice Lance** that strikes the ground. Both actions deal **Cryo** DMG.  
 While active, the **Ice Lance** periodically releases a blast of cold air, dealing **Cryo** DMG to surrounding opponents.
 
-| Effect | Burst (Talent 6%) |
+| Effect | Burst |
 | :--- | :--- |
-| Skill DMG | 145.6% + 212.8% |
-| Ice Lance DoT | 184.8% |
+| Skill DMG \(T6%\) | 145.6% + 212.8% |
+| Ice Lance DoT \(T6%\) | 184.8% |
 | Frames | 74 |
 | GU | 1A |
 | ICD | None |
 | Snapshot | Snapshot |
 | Damage Element | Cryo |
-| Damage Type | Elemental Burst |
+| Damage Type |  Burst |
 | Energy Cost | 60 |
 | Duration | 8s |
 | Tick Rate | 2s |
@@ -101,7 +101,7 @@ While active, the **Ice Lance** periodically releases a blast of cold air, deali
 
 {% tabs %}
 {% tab title="Passive" %}
-### **Night Walk**
+### Night Walk
 
 At night \(18:00-6:00\), increases the Movement Speed of your own party members by 10%. Does not take effect in Domains, Trounce Domains, or Spiral Abyss.  
 Not stackable with Passive Talents that provide the exact same effect.  
@@ -109,7 +109,7 @@ Not stackable with Passive Talents that provide the exact same effect.
 {% endtab %}
 
 {% tab title="Ascension 1" %}
-### **Regina Probationum**
+### Regina Probationum
 
 When Rosaria strikes an opponent from behind using **Ravaging Confession**, Rosaria's CRIT RATE increases by 12% for 5s.
 
@@ -122,7 +122,7 @@ When Rosaria strikes an opponent from behind using **Ravaging Confession**, Rosa
 {% endtab %}
 
 {% tab title="Ascension 4" %}
-### **Shadow Samaritan**
+### Shadow Samaritan
 
 Casting **Rites of Termination** increases CRIT RATE of all nearby party members, excluding Rosaria herself, by 15% of Rosaria's CRIT RATE for 10s. CRIT RATE bonus gained this way cannot exceed 15%.
 
@@ -132,7 +132,7 @@ Casting **Rites of Termination** increases CRIT RATE of all nearby party members
 {% endtab %}
 {% endtabs %}
 
-## Constellations
+## **Constellations**
 
 {% tabs %}
 {% tab title="C1" %}
@@ -221,15 +221,13 @@ Increases the level of **Rites of Termination** by 3.
 | Skill 2 DMG | 212.8% | 228% | 243.2% | 258.4% | 273.6% | 288.8% | 304% | 323% |
 | Ice Lance DoT | 184.80% | 198% | 211.20% | 224.40% | 237.60% | 250.80% | 264% | 280.50% |
 
-**Energy Cost**: 60
-
-**Duration**: 8s
-
+**Energy Cost**: 60  
+**Duration**: 8s  
 **Cooldown**: 15s
 {% endtab %}
 {% endtabs %}
 
-**Evidence Vault:**
+## **Evidence Vault:**
 
 {% page-ref page="../../evidence/characters/cryo/rosaria.md" %}
 

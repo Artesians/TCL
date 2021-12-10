@@ -4,9 +4,6 @@ description: A pint-sized ninja attached to the Shuumatsuban, who always seems s
 
 # Sayu
 
-## Resources
-Coming Soon.[](https://keqingmains.com/sayu/)
-
 ## ![](../../.gitbook/assets/element_anemo.png) Sayu
 
 ![](../../.gitbook/assets/character_sayu_wish.png)
@@ -23,7 +20,7 @@ Coming Soon.[](https://keqingmains.com/sayu/)
 | 80+ | 11033 | 227 | 693 | 96 |
 | 90 | 11854 | 244 | 745 | 96 |
 
-## Attacks
+## **Attacks**
 
 {% tabs %}
 {% tab title="Shuumatsuban Ninja Blade" %}
@@ -66,23 +63,23 @@ Enters the **Fuufuu Windwheel** state, rolling forward a short distance before u
 **Hold**  
 Rolls about continuously in the **Fuufuu Windwheel** state, increasing Sayu's resistance to interruption while within that state. During this time, Sayu can control the direction of her roll, and can use the skill again to end her **Windwheel** state early and unleash a stronger version of the **Fuufuu Whirlwind** Kick. The Hold version of this skill can trigger Elemental Absorption. This skill has a maximum duration of 10s and enters CD once its effects end. The longer Sayu remains in her **Windwheel** state, the longer the CD. Elemental Absorption If Sayu comes into contact with Hydro/Pyro/Cryo/Electro while in her **Windwheel** state, she will deal additional elemental DMG of that type. Elemental Absorption may only occur once per use of this skill.
 
-| Attribute | Tap (Talent 6%) | Hold (Talent 6%) |
+| Attribute | Tap | Hold |
 | :--- | :--- | :--- |
-| Fuufuu Windwheel DMG | 50.4% | 50.4% x 19 |
-| Fuufuu Windwheel Absorption DMG | ~ | 23.52% x 19 |
-| Fuufuu Whirlwind Kick DMG | 221.76% | 304.64% |
-| Fuufuu Whirlwind Kick Absorption DMG | ~ | 106.62% |
+| Fuufuu Windwheel DMG \(T6%\) | 50.4% | 50.4% x 19 |
+| Fuufuu Windwheel Absorption DMG \(T6%\)  | ~ | 23.52% x 19 |
+| Fuufuu Whirlwind Kick DMG \(T6%\)  | 221.76% | 304.64% |
+| Fuufuu Whirlwind Kick Absorption DMG \(T6%\)  | ~ | 106.62% |
 | Particles | 2 | 2 + 1~4 |
 | Frames | 35 | 35~675 |
-| GU | 1U | ~ |
-| GU Absorption | ~ | 1A |
-| ICD | 3 hit / 2.5s | ~ |
+| GU | 1U | - |
+| GU Absorption | - | 1A |
+| ICD | 3 hit / 2.5s | - |
 | Snapshot | Snapshot |
-| Damage Element | Anemo | ~ |
-| Damage Absorption | ~ | Pyro/Hydro/Electro/Cryo |
-| Damage Type | Elemental Skill | ~ |
-| Max Duration | ~ | 10s |
-| Cooldown | 6s | 6s~11s |
+| Damage Element | Anemo | - |
+| Damage Absorption | - | Infused Element |
+| Damage Type | Skill | Skill |
+| Max Duration | - | 10s |
+| CD | 6s | 6s~11s |
 
 * **Windwheel Roll** and **Whirlwind Kick Damage** aren't blunt and thus won't shatter.
 * **Windwheel Roll** and **Whirlwind Kick Damage** snapshot.  
@@ -105,23 +102,23 @@ At specific intervals, the **Daruma** will take one of several actions based on 
 * If the HP of nearby characters is above 70%, it will attack a nearby opponent, dealing Anemo DMG. 
 * If there are active characters with 70% or less HP nearby, it will heal the active character with the lowest percentage HP left. If there are no opponents nearby, it will heal active characters nearby even if they have 70% HP or more.
 
-| Attribute | Burst (Talent 6%) |
+| Attribute | Burst |
 | :--- | :--- |
-| Skill Activation DMG | 163.52% |
-| Skill Activation Healing | 129.02% ATK+ 914 |
+| Skill Activation DMG \(T6%\) | 163.52% |
+| Skill Activation Healing \(T6%\) | 129.02% +914 |
 | Frames | 65 |
 | GU | 1U |
 | ICD | 3 hit / 2.5s |
 | Snapshot | Snapshot |
 | Damage Element | Anemo |
-| Damage Type | Elemental Burst |
+| Damage Type | Burst |
 | Energy Cost | 80 |
-| Cooldown | 20s |
+| CD | 20s |
 
-| Attribute | Daruma (Talent 6%) |
+| Attribute | Daruma |
 | :--- | :--- |
-| Muji-Muji Daruma DMG | 72.8% x 0~7 |
-| Muji-Muji Daruma Healing | (111.82% ATK + 792) x 0~7 |
+| Muji-Muji Daruma DMG \(T6%\) | 72.8% x 0~7 |
+| Muji-Muji Daruma Healing \(T6%\) | (111.82% ATK + 792) x 0~7 |
 | GU | 1U |
 | ICD | 3 hit / 2.5s |
 | Snapshot | Snapshot |
@@ -136,7 +133,7 @@ At specific intervals, the **Daruma** will take one of several actions based on 
 {% endtab %}
 {% endtabs %}
 
-## Ascension Passives
+## **Ascension Passives**
 
 {% tabs %}
 {% tab title="Passive" %}
@@ -166,7 +163,7 @@ The **Muji-Muji Daruma** created by **Yoohoo Art: Mujina Flurry** gains the foll
 {% endtab %}
 {% endtabs %}
 
-## Constellations
+## **Constellations**
 
 {% tabs %}
 {% tab title="C1" %}
@@ -212,7 +209,7 @@ The **Muji-Muji Daruma** created by Sayu's **Yoohoo Art: Mujina Flurry** will no
 {% endtab %}
 {% endtabs %}
 
-## Full Talent Values
+## **Full Talent Values**
 
 {% tabs %}
 {% tab title="Shuumatsuban Ninja Blade" %}
@@ -252,8 +249,7 @@ The **Muji-Muji Daruma** created by Sayu's **Yoohoo Art: Mujina Flurry** will no
 | Fuufuu Windwheel Elemental DMG | 23.52% | 25.2% | 26.88% | 28.56% | 30.24% | 31.92% | 33.6% | 35.7% |
 | Fuufuu Whirlwind Kick Elemental DMG | 106.62% | 114.24% | 121.86% | 129.47% | 137.09% | 144.7% | 152.32% | 161.84% |
 
-**Max Duration (Hold):** 10s
-
+**Max Duration (Hold):** 10s  
 **Cooldown:** 6-11s
 {% endtab %}
 
@@ -267,14 +263,12 @@ The **Muji-Muji Daruma** created by Sayu's **Yoohoo Art: Mujina Flurry** will no
 | Muji-Muji Daruma Healing Scaling | 111.82% | 119.81% | 127.8% | 135.78% | 143.77% | 151.76% | 159.74% | 169.73% |
 | Muji-Muji Daruma Healing Additive | 792 | 863 | 938 | 1017 | 1101 | 1188 | 1280 | 1376 |
 
-**Duration:** 12s
-
-**Cooldown:** 20s
-
+**Duration:** 12s  
+**Cooldown:** 20s  
 **Energy Cost:**  80
 {% endtab %}
 {% endtabs %}
 
-**Evidence Vault:**
+## **Evidence Vault:**
 
 {% page-ref page="../../evidence/characters/anemo/sayu.md" %}

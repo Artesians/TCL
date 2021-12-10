@@ -4,16 +4,16 @@ description: The Yuheng of the Liyue Qixing. Keqing has much to say about Rex La
 
 # Keqing
 
-## Resources
-[Keqing Mains Discord](https://discord.gg/Keqing)  
-[Full Keqing Written Guide](https://keqingmains.com/keqing/)  
-[8 Minute Quick Guide to Keqing](https://youtu.be/A9_k6p52N1o)
+## **Resources**
+* [Keqing Mains Discord](https://discord.gg/Keqing)  
+* [Full Keqing Written Guide](https://keqingmains.com/keqing/)  
+* [8 Minute Quick Guide to Keqing](https://youtu.be/A9_k6p52N1o)
 
 ## ![](../../.gitbook/assets/element_electro.png) Keqing
 
 ![](../../.gitbook/assets/character_keqing_wish.png)
 
-## Base Stats
+## **Base Stats**
 
 | Lv | Base HP | Base ATK | Base DEF | CRIT DMG% |
 | :--- | :--- | :--- | :--- | :--- |
@@ -25,7 +25,7 @@ description: The Yuheng of the Liyue Qixing. Keqing has much to say about Rex La
 | 80+ | 12182 | 300 | 743 | 88.40% |
 | 90 | 13103 | 323 | 799 | 88.40% |
 
-## Attacks
+## **Attacks**
 
 {% tabs %}
 {% tab title="Yunlai Swordsmanship" %}
@@ -80,20 +80,20 @@ When Keqing uses Stellar Restoration while the **Stiletto Mark** is on field, Ke
 
 When Keqing uses a Charged Attack while the **Stiletto Mark** is on field she will do a **Thunderclap Slash** at the **Mark's** location that deals AoE Electro DMG.
 
-| Attribute | Lightning Stiletto (Talent 6%) | Thunderclap Slash (Talent 6%) |
+| Attribute | Lightning Stiletto | Thunderclap Slash |
 | :--- | :--- | :--- |
-| Lightning Stiletto | 70.56% | |
-| Stiletto Mark Secondary | 235.2% | 117.6% x 2 |
-| Particles | 2~3 \(1:1\) | |
-| Frames | 34 | |
+| Lightning Stiletto \(T6%\) | 70.56% | - |
+| Stiletto Mark Secondary \(T6%\) | 235.2% | 117.6% x 2 |
+| Particles | 2~3 \(1:1\) | - |
+| Frames | 34 | - |
 | Frames Secondary | 84 | 90 |
-| GU | 2B | |
-| ICD | None | |
-| ICD Secondary | 3 hit / 2.5s | |
-| Snapshot | Snapshot | |
-| Damage Element | Electro | |
-| Damage Type | Elemental Skill | |
-| Cooldown | 7.5s | |
+| GU | 2B | - |
+| ICD | None | - |
+| ICD Secondary | 3 hit / 2.5s | - |
+| Snapshot | Snapshot | - |
+| Damage Element | Electro | - |
+| Damage Type |  Skill | - |
+| CD | 7.5s | - |
 
 * Keqing's second **Stellar Restoration** cast is buffered during her dash.
 * Keqing can gain 2 stacks of 4pc Pale Flame in one cast of **Stellar Restoration** by dropping a **Stilleto Mark** on a enemy and performing a charge attack.
@@ -103,26 +103,26 @@ When Keqing uses a Charged Attack while the **Stiletto Mark** is on field she wi
 {% tab title="Starward Sword" %}
 Keqing deals deals an initial AoE Electro attack, then 8 consecutive strikes of AoE Electro DMG and finally does a large slash for "massive" AoE Electro DMG.
 
-| Effect | Burst (Talent 6%) |
+| Attribute | Burst |
 | :--- | :--- |
-| Cast DMG | 123.2% |
-| Consecutive Slash DMG | 33.6% x 8 |
-| Last Attack | 264.21% |
+| Cast DMG \(T6%\) | 123.2% |
+| Consecutive Slash DMG \(T6%\) | 33.6% x 8 |
+| Last Attack \(T6%\) | 264.21% |
 | Frames | 125 |
 | GU | 1U |
 | ICD | 3 hit / 2.5s |
 | Snapshot | Snapshot |
 | Damage Element | Electro |
-| Damage Type | Elemental Burst |
+| Damage Type | Burst |
 | Energy Cost | 40 |
-| Cooldown | 12s |
+| CD | 12s |
 
 * Keqing exits her Starward Sword before the last slash and can swap or attack.
 
 {% endtab %}
 {% endtabs %}
 
-## Ascension Passives
+## **Ascension Passives**
 
 {% tabs %}
 {% tab title="Passive" %}
@@ -155,7 +155,7 @@ When casting **Starward Sword**, Keqing's CRIT Rate is increased by 15%, and her
 {% endtab %}
 {% endtabs %}
 
-## Constellations
+## **Constellations**
 
 {% tabs %}
 {% tab title="C1" %}
@@ -206,7 +206,7 @@ When initiating a Normal Attack, a Charged Attack, Elemental Skill or Elemental 
 {% endtab %}
 {% endtabs %}
 
-## Full Talent Values
+## **Full Talent Values**
 
 {% tabs %}
 {% tab title="Yunlai Swordsmanship" %}
@@ -256,13 +256,12 @@ When initiating a Normal Attack, a Charged Attack, Elemental Skill or Elemental 
 | Consecutive Slash DMG | 33.6% x 8 | 36% x 8 | 38.4% x 8 | 40.8% x 8 | 43.2% x 8 | 45.6% x 8 | 48% x 8 | 51% x 8 |
 | Last Attack DMG | 264.32% | 283.20% | 302.08% | 320.96% | 339.84% | 358.72% | 377.60% | 401.20% |
 
-**Energy Cost**: 40
-
+**Energy Cost**: 40  
 **Cooldown**: 12s
 {% endtab %}
 {% endtabs %}
 
-**Evidence Vault:**
+## **Evidence Vault:**
 
 {% page-ref page="../../evidence/characters/electro/keqing.md" %}
 

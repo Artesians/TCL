@@ -1,13 +1,11 @@
 ---
-description: >-
-  The secretary at Yuehai Pavilion. The blood of the qilin, an illuminated
-  beast, flows within her veins.
+description: The secretary at Yuehai Pavilion. The blood of the qilin, an illuminated beast, flows within her veins.
 ---
 
-## **External Links**
-* [Short Ganyu Guide](https://keqingmains.com/ganyu/)
-
 # Ganyu
+
+## **Resources**
+* [Short Ganyu Guide](https://keqingmains.com/ganyu/)
 
 ## ![](../../.gitbook/assets/element_cryo.png) Ganyu
 
@@ -80,9 +78,9 @@ Ganyu dashes backward, leaving an **Ice Lotus** behind and dealing AoE Cryo DMG.
 * The health of **Ice Lotus** scales based on Ganyu's max HP..
 * **Ice Lotus** will generate particles on cast and when it expires or is destroyed.
 
-| Effect | Talent 6% |
+| Attribute | Skill |
 | :--- | :--- |
-| Skill DMG | 184.8% * 2 |
+| Skill DMG \(T6%\) | 184.8% * 2 |
 | Inherited HP | 168% max HP |
 | Cast Particles | 2 |
 | Expiration/Destroyed Particles | 2 |
@@ -91,9 +89,9 @@ Ganyu dashes backward, leaving an **Ice Lotus** behind and dealing AoE Cryo DMG.
 | ICD | None |
 | Snapshot | Snapshot |
 | Damage Element | Cryo |
-| Damage Type | Elemental Skill |
+| Damage Type | Skill |
 | Duration | 6s |
-| Cooldown | 10s |
+| CD | 10s |
 
 * Multiple **Ice Lotuses** can be spawned without C2 Ganyu when using cooldown reduction effects.
 {% endtab %}
@@ -108,10 +106,9 @@ Ganyu summons a **Sacred Cryo Pearl** that continuously rains down **Ice Shards*
 * If there are no enemies that have not been targeted by the last 4 shards, they will randomly drop within the field where the shard AoE can still strike a target.
 * Ganyu's icicles follow standard ICD (3-hit/2.5s).
 
-
-| Effect | Talent 6% |
+| Attribute | Ice Shard |
 | :--- | :--- |
-| Ice Shard DMG | 98.38% * 50 |
+| Skill DMG \(T6%\) | 98.38% * 50 |
 | Frames | 102 |
 | Ice Shard GU | 1A |
 | ICD | 3 hit / 2.5s |
@@ -120,7 +117,7 @@ Ganyu summons a **Sacred Cryo Pearl** that continuously rains down **Ice Shards*
 | Damage Type | Elemental Burst |
 | Energy Cost | 60 |
 | Duration | 15s |
-| Cooldown | 15s |
+| CD | 15s |
 
 * Ganyu's icicles are more likely to hit targets that are larger in size.
 * If **Celestial Shower** is cast before the previous one ends through the use of cooldown reduction, the existing field will end prematurely.
@@ -131,13 +128,13 @@ Ganyu summons a **Sacred Cryo Pearl** that continuously rains down **Ice Shards*
 
 {% tabs %}
 {% tab title="Passive" %}
-## Preserved for the Hunt
+### Preserved for the Hunt
 
 Refunds 15% of the ore used when crafting Bow-type weapons.
 {% endtab %}
 
 {% tab title="Ascension 1" %}
-## Undivided Heart
+### Undivided Heart
 
 After firing a **Frostflake Arrow**, the CRIT Rate of subsequent **Frostflake Arrows** and their resulting bloom effects is increased by 20% for 5s.
 
@@ -145,7 +142,7 @@ After firing a **Frostflake Arrow**, the CRIT Rate of subsequent **Frostflake Ar
 {% endtab %}
 
 {% tab title="Ascension 4" %}
-## Harmony between Heaven and Earth
+### Harmony between Heaven and Earth
 
 **Celestial Shower** grants a 20% Cryo DMG Bonus to active party members in the AoE.
 
@@ -155,11 +152,11 @@ After firing a **Frostflake Arrow**, the CRIT Rate of subsequent **Frostflake Ar
 
 {% endtabs %}
 
-## Constellations
+## **Constellations**
 
 {% tabs %}
 {% tab title="C1" %}
-## Dew-Drinker
+### Dew-Drinker
 
 Taking DMG from a Charge Level 2 **Frostflake Arrow** or **Frostflake Arrow Bloom** decreases opponents' Cryo RES by 15% for 6s.
 
@@ -169,19 +166,19 @@ A hit regenerates 2 Energy for Ganyu. This effect can only occur once per Charge
 {% endtab %}
 
 {% tab title="C2" %}
-## The Auspicious
+### The Auspicious
 
 **Trail of the Qilin** gains 1 additional charge.
 {% endtab %}
 
 {% tab title="C3" %}
-## Cloud-Strider
+### Cloud-Strider
 
 Increases the Level of **Celestial Shower** by 3.
 {% endtab %}
 
 {% tab title="C4" %}
-## Westward Sojourn
+### Westward Sojourn
 
 Opponents standing within the AoE of **Celestial Shower** take increased DMG. This effect strengthens over time.
 
@@ -191,19 +188,19 @@ The effect lingers for 3s after the opponent leaves the AoE.
 {% endtab %}
 
 {% tab title="C5" %}
-## The Merciful
+### The Merciful
 
 Increases the Level of **Trail of the Qilin** by 3.
 {% endtab %}
 
 {% tab title="C6" %}
-## The Clement
+### The Clement
 
 Using **Trail of the Qilin** causes the next **Frostflake Arrow** shot within 30s to not require charging.
 {% endtab %}
 {% endtabs %}
 
-## **Full Talent Values**
+### **Full Talent Values**
 
 {% tabs %}
 {% tab title="Liutian Archery" %}
@@ -211,56 +208,53 @@ Using **Trail of the Qilin** causes the next **Frostflake Arrow** shot within 30
 
 |  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1-Hit DMG | 46.13 | 50.18 | 54.24 | 58.30 | 62.73 | 67.80 |
-| 2-Hit DMG | 51.75 | 56.30 | 60.86 | 65.41 | 70.38 | 76.07 |
-| 3-Hit DMG | 66.13 | 71.94 | 77.76 | 83.58 | 89.93 | 97.20 |
-| 4-Hit DMG | 66.13 | 71.94 | 77.76 | 83.58 | 89.93 | 97.20 |
-| 5-Hit DMG | 70.13 | 76.30 | 82.47 | 88.64 | 95.37 | 103.08 |
-| 6-Hit DMG | 83.75 | 91.12 | 98.49 | 105.86 | 113.90 | 123.11 |
+| 1-Hit DMG | 46.13% | 50.18% | 54.24% | 58.30% | 62.73% | 67.80% |
+| 2-Hit DMG | 51.75% | 56.30% | 60.86% | 65.41% | 70.38% | 76.07% |
+| 3-Hit DMG | 66.13% | 71.94% | 77.76% | 83.58% | 89.93% | 97.20% |
+| 4-Hit DMG | 66.13% | 71.94% | 77.76% | 83.58% | 89.93% | 97.20% |
+| 5-Hit DMG | 70.13% | 76.30% | 82.47% | 88.64% | 95.37% | 103.08% |
+| 6-Hit DMG | 83.75% | 91.12% | 98.49% | 105.86% | 113.90% | 123.11% |
 
 ### Aimed Shot
 
 |  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Aimed Shot | 63.75 | 69.36 | 74.97 | 80.58 | 86.70 | 92.82 |
-| Aimed Shot Charge Level 1 | 173.60 | 186 | 198.40 | 210.80 | 223.20 | 235.60 |
-| Frostflake Arrow DMG | 179.20 | 192 | 204.80 | 217.60 | 230.40 | 243.20 |
-| Frostflake Arrow Bloom DMG | 304.64 | 326.40 | 348.16 | 369.92 | 391.68 | 413.44 |
+| Aimed Shot | 63.75% | 69.36% | 74.97% | 80.58% | 86.70% | 92.82% |
+| Aimed Shot Charge Level 1 | 173.60% | 186% | 198.40% | 210.80% | 223.20% | 235.60% |
+| Frostflake Arrow DMG | 179.20% | 192% | 204.80% | 217.60% | 230.40% | 243.20% |
+| Frostflake Arrow Bloom DMG | 304.64% | 326.40% | 348.16% | 369.92% | 391.68% | 413.44% |
 
 ### Plunge
 
 |  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Plunge DMG | 82.60 | 89.87 | 97.14 | 104.41 | 112.34 | 120.27 |
-| Low Plunge DMG | 165.17 | 179.70 | 194.23 | 208.77 | 224.62 | 240.48 |
-| High Plunge DMG | 206.30 | 224.45 | 242.61 | 260.76 | 280.57 | 300.37 |
+| Plunge DMG | 82.60% | 89.87% | 97.14% | 104.41% | 112.34% | 120.27% |
+| Low Plunge DMG | 165.17% | 179.70% | 194.23% | 208.77% | 224.62% | 240.48% |
+| High Plunge DMG | 206.30% | 224.45% | 242.61% | 260.76% | 280.57% | 300.37% |
 {% endtab %}
 
 {% tab title="Trail of the Qilin" %}
 |  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 | Lv12 | Lv13 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Inherited HP | 168 | 180 | 192 | 204 | 216 | 228 | 240 | 255 |
-| Skill DMG | 184.80 | 198 | 211.20 | 224.40 | 237.60 | 250.80 | 264 | 280.50 |
+| Inherited HP | 168% | 180% | 192% | 2045 | 216% | 228% | 240% | 255% |
+| Skill DMG | 184.80% | 198% | 211.20% | 224.40% | 237.60% | 250.80% | 264% | 280.50% |
 
-**Duration**: 6s
-
+**Duration**: 6s  
 **Cooldown**: 10s
 {% endtab %}
 
 {% tab title="Celestial Shower" %}
 |  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 | Lv12 | Lv13 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Ice Shard DMG | 98.38 | 105.41 | 112.44 | 119.46 | 126.49 | 133.52 | 140.54 | 149.33 |
+| Ice Shard DMG | 98.38% | 105.41% | 112.44% | 119.46% | 126.49% | 133.52% | 140.54% | 149.33% |
 
-**Energy Cost**: 60
-
-**Duration**: 15s
-
+**Energy Cost**: 60  
+**Duration**: 15s  
 **Cooldown**: 15s
 {% endtab %}
 {% endtabs %}
 
-**Evidence Vault:**
+## **Evidence Vault:**
 
 {% page-ref page="../../evidence/characters/cryo/ganyu.md" %}
 

@@ -1,14 +1,13 @@
 ---
-description: >-
-  Daughter of the Yashiro Commission's Kamisato Clan. Dignified and elegant, as well as wise and strong.
+description: Daughter of the Yashiro Commission's Kamisato Clan. Dignified and elegant, as well as wise and strong.
 ---
 
-## **External Links**
+# Kamisato Ayaka
+
+## **Resources**
 
 * [Ayaka Written Guide](https://keqingmains.com/ayaka/)
 * [7 Minute Quick Guide to Ayaka](https://youtu.be/G_gQ0P9s6BU)
-
-# Kamisato Ayaka
 
 ## ![](../../.gitbook/assets/element_cryo.png) Kamisato Ayaka
 
@@ -59,7 +58,6 @@ Consumes a certain amount of Stamina(20) to unleash a flurry of sword ki.
 
 * Ayaka's charged attack ICDs are separate from her normal attack.
 
-
 **Plunge Attacks**  
 Plunges from mid-air to strike the ground below, damaging enemies along the path and dealing AoE DMG upon impact.
 
@@ -72,16 +70,16 @@ Plunges from mid-air to strike the ground below, damaging enemies along the path
 {% tab title="Kamisato Art: Hyouka" %}
 Summons blooming ice to launch nearby opponents, dealing AoE Cryo DMG.
 
-| Type | Talent 6% |
+| Type | Skill |
 | :--- | :--- |
-| Skill DMG | 334.88% |
+| Skill DMG \(T6%\) | 334.88% |
 | Particles | 4~5 (1:1) |
 | Frames | 56 |
 | GU | 2B |
 | ICD (hits/timer) | None |
 | Snapshot | - |
 | Damage Element | Cryo |
-| Damage Type | Elemental Skill |
+| Damage Type | Skill |
 | CD | 10s |
 {% endtab %}
 
@@ -96,7 +94,7 @@ When she reappears, the following effects occur:
 * Coldness condenses around Ayaka's blade, infusing her attacks with Cryo for a brief period.
   * This infusion causes Ayaka's attacks to apply 1A Cryo
 
-| Effect | Values |
+| Attribute | Values |
 | :--- | :--- |
 | Activation Stamina Consumption | 10 |
 | Stamina Drain | 15/s |
@@ -112,19 +110,16 @@ Summons forth a snowstorm with flawless poise, unleashing a **Frostflake Seki no
 * A storm of whirling icy winds that slashes repeatedly at every enemy it touches, dealing Cryo DMG.
 * The snowstorm explodes after its duration ends, dealing AoE Cryo DMG.
 
-| Effect | Talent 6% / Data | GUs |
-| :--- | :--- | ---- |
-
-| Type | Talent 6% |
+| Type | Burst |
 | :--- | :--- |
-| Cutting DMG | 157.22% * 19 |
-| Bloom DMG | 235.83% |
+| Cutting DMG \(T6%\) | 157.22% * 19 |
+| Bloom DMG \(T6%\) | 235.83% |
 | Frames | 95 |
 | GU | 1A |
-| ICD (hits/timer) | 3 hit/2.5s |
+| ICD | 3 hits / 2.5s |
 | Snapshot | Snapshot |
 | Damage Element | Cryo |
-| Damage Type | Elemental Burst |
+| Damage Type | Burst |
 | Energy Cost | 80 |
 | Duration | 5s | 
 | CD | 20s |
@@ -136,7 +131,6 @@ Summons forth a snowstorm with flawless poise, unleashing a **Frostflake Seki no
 
 {% endtab %}
 {% endtabs %}
-
 
 ## **Ascension Passives**
 
@@ -209,24 +203,24 @@ Kamisato Ayaka gains **Usurahi Butou** every 10s, increasing her Charged Attack 
 {% endtab %}
 {% endtabs %}
 
-## Full Talent Values
+## **Full Talent Values**
 
 {% tabs %}{% tab title="Kamisato Art - Kabuki" %}
 ### Normal Attacks
 
 |  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1-Hit DMG | 66.46 | 72.31 | 78.16 | 84.01 | 90.39 | 96.77 |
-| 2-Hit DMG | 70.76 | 76.99 | 83.22 | 89.44 | 96.24 | 103.03 |
-| 3-Hit DMG | 91.02 | 99.03 | 107.04 | 115.05 | 123.79 | 132.53 |
-| 4-Hit DMG (x3) | 32.92  | 35.81 | 38.71 | 41.61 | 44.77 | 47.93 |
-| 5-Hit DMG | 113.64 | 123.64 | 133.64 | 143.64 | 154.55 | 165.45 |
+| 1-Hit DMG | 66.46% | 72.31% | 78.16% | 84.01% | 90.39% | 96.77% |
+| 2-Hit DMG | 70.76% | 76.99% | 83.22% | 89.44% | 96.24% | 103.03% |
+| 3-Hit DMG | 91.02% | 99.03% | 107.04% | 115.05% | 123.79% | 132.53% |
+| 4-Hit DMG (x3) | 32.92 | 35.81% | 38.71% | 41.61% | 44.77% | 47.93% |
+| 5-Hit DMG | 113.64% | 123.64% | 133.64% | 143.64% | 154.55% | 165.45% |
 
 ### Charged Attack
 
 |  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Charged Attack DMG (x3) | 80.13 | 87.18 | 94.23 | 101.28 | 108.97 | 116.66 |
+| Charged Attack DMG (x3) | 80.13% | 87.18% | 94.23% | 101.28% | 108.97% | 116.66% |
 
 **Stamina Cost:** 20
 
@@ -234,9 +228,9 @@ Kamisato Ayaka gains **Usurahi Butou** every 10s, increasing her Charged Attack 
 
 |  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Plunge DMG | 92.93 | 101.1 | 109.28 | 117.46 | 126.38 | 135.3 |
-| Low Plunge DMG | 185.81 | 202.16 | 218.51 | 234.86 | 252.7 | 270.54 |
-| High Plunge DMG | 232.09 | 252.51 | 272.93 | 293.36 | 315.64 | 337.92 |
+| Plunge DMG | 92.93% | 101.1% | 109.28% | 117.46% | 126.38% | 135.3% |
+| Low Plunge DMG | 185.81% | 202.16% | 218.51% | 234.86% | 252.7% | 270.54% |
+| High Plunge DMG | 232.09% | 252.51% | 272.93% | 293.36% | 315.64% | 337.92% |
 {% endtab %}
 
 {% tab title="Kamisato Art: Hyouka" %}
@@ -255,12 +249,12 @@ Kamisato Ayaka gains **Usurahi Butou** every 10s, increasing her Charged Attack 
 | Cutting DMG | 157.22% | 168.45% | 179.68% | 190.91% | 202.14% | 213.37% | 224.6% | 238.64% |
 | Bloom DMG | 235.83% | 252.68% | 269.52% | 286.36% | 303.21% | 320.05% | 336.9% | 357.96% |
 
-**Energy Cost:**  80  
+**Energy Cost:** 80  
 **Duration:** 5s  
 **Cooldown:** 12s
 {% endtab %}
 {% endtabs %}
 
-**Evidence Vault:**
+## **Evidence Vault:**
 
 {% page-ref page="../../evidence/characters/cryo/ayaka.md" %}

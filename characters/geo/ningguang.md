@@ -4,7 +4,7 @@ description: The Tianquan of the Liyue Qixing. Her wealth is unsurpassed in all 
 
 # Ningguang
 
-## Resources
+## **Resources**
 * [Full Ningguang Written Guide: Geo Goddess](https://keqingmains.com/ningguang/)
 * [6 Minute Guide to Ningguang](https://youtu.be/aecxJRSn2d4)
 
@@ -12,7 +12,7 @@ description: The Tianquan of the Liyue Qixing. Her wealth is unsurpassed in all 
 
 ![](../../.gitbook/assets/character_ningguang_wish.png)
 
-## Base Stats
+## **Base Stats**
 
 | Lv | Base HP | Base ATK | Base DEF | Geo DMG% |
 | :--- | :--- | :--- | :--- | :--- |
@@ -24,7 +24,7 @@ description: The Tianquan of the Liyue Qixing. Her wealth is unsurpassed in all 
 | 80+ | 9110 | 198 | 534 | 24% |
 | 90 | 9787 | 212 | 573 | 24% |
 
-## Attacks
+## **Attacks**
 
 {% tabs %}
 {% tab title="Sparkling Scatter" %}
@@ -70,17 +70,17 @@ Ningguang creates a **Jade Screen** that deals AoE Geo DMG and possess the follo
 * **Jade Screen** is considered a Geo Constructs and can be used to block certain attacks. However, it cannot be climbed.
 * Only one **Jade Screen** may exist at a time. 
 
-| Attribute | Skill (Talent 6%) |
+| Attribute | Skill |
 | :--- | :--- |
-| Skill DMG | 322.56% |
+| Skill DMG \(T6%\) | 322.56% |
 | Particles | 3~4 \(3:2\) |
 | Frames | 34 |
 | GU | 1U |
 | ICD | None |
 | Snapshot | Snapshot |
 | Damage Element | Geo |
-| Damage Type | Elemental Skill |
-| Cooldown | 12s |
+| Damage Type | Skill |
+| CD | 12s |
 
 * **Jade Screen** has a 6s cooldown on generating particles, not affected by Elemental Skill cooldown reset or reduction.
 
@@ -94,56 +94,56 @@ Ningguang creates a **Jade Screen** that deals AoE Geo DMG and possess the follo
 {% tab title="Starshatter" %}
 Gathering a great number of gems, Ningguang scatters them all at once, sending six homing projectiles at her opponents that deal massive Geo DMG. If **Starshatter** is casted when a **Jade Screen** is nearby, the **Jade Screen** will fire an additional six gem projectiles at the same time.
 
-| Attribute | Burst (Talent 6%) |
+| Attribute | Burst |
 | :--- | :--- |
-| DMG per Gem | 121.74% |
+| DMG per Gem \(T6%\) | 121.74% |
 | Frames | 101 |
 | GU | 1U |
 | ICD | 3 hit / 2.5s |
 | Snapshot | Snapshot |
 | Damage Element | Geo |
-| Damage Type | Elemental Burst |
+| Damage Type | Burst |
 | Energy Cost | 40 |
-| Cooldown | 12s |
+| CD | 12s |
 
 * When **Starshatter** is cast, gems from **Jade Screen** will use the stats that were snapshotted when the **Jade Screen** was initially cast.
 
 {% endtab %}
 {% endtabs %}
 
-## Ascension Passives
+## **Ascension Passives**
 
 {% tabs %}
 {% tab title="Passive" %}
-**Trove of Marvelous Treasures**
+### Trove of Marvelous Treasures
 
 Displays the locations of nearby ore veins on the mini-map.
 {% endtab %}
 
 {% tab title="Ascension 1" %}
-#### Backup Plan
+### Backup Plan
 
 When Ningguang is in possession of **Star Jades**, her Charged Attack does not consume Stamina.
 {% endtab %}
 
 {% tab title="Ascension 4" %}
-#### Strategic Reserve
+### Strategic Reserve
 
 A character that passes through the **Jade Screen** will gain a 12% Geo DMG Bonus for 10s.
 {% endtab %}
 {% endtabs %}
 
-## Constellations
+## *Constellations*
 
 {% tabs %}
 {% tab title="C1" %}
-#### Piercing Fragments
+### Piercing Fragments
 
 When a Normal Attack hits, it deals AoE Geo DMG.
 {% endtab %}
 
 {% tab title="C2" %}
-#### Shock Effect
+### Shock Effect
 
 When **Jade Screen** is shattered, its CD will reset. This effect can occur once every 6s.
 
@@ -153,7 +153,7 @@ When **Jade Screen** is shattered, its CD will reset. This effect can occur once
 {% endtab %}
 
 {% tab title="C3" %}
-#### Majesty be the Array of Stars
+### Majesty be the Array of Stars
 
 Increases the level of **Starshatter** by 3.
 {% endtab %}
@@ -171,13 +171,13 @@ Increases the Level of **Jade Screen** by 3.
 {% endtab %}
 
 {% tab title="C6" %}
-#### Grandeur be the Seven Stars
+### Grandeur be the Seven Stars
 
 When **Starshatter** is used, Ningguang gains 7 **Star Jades**.
 {% endtab %}
 {% endtabs %}
 
-## Full Talent Values
+## **Full Talent Values**
 
 {% tabs %}
 {% tab title="Sparkling Scatter" %}
@@ -219,13 +219,12 @@ When **Starshatter** is used, Ningguang gains 7 **Star Jades**.
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | DMG Per Gem | 121.74% | 130.44% | 139.14% | 147.83% | 156.53% | 165.22% | 173.92% | 184.79% |
 
-**Energy Cost**: 40
-
+**Energy Cost**: 40  
 **Cooldown**: 12s
 {% endtab %}
 {% endtabs %}
 
-**Evidence Vault:**
+## **Evidence Vault:**
 
 {% page-ref page="../../evidence/characters/geo/ningguang.md" %}
 

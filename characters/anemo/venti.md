@@ -4,7 +4,7 @@ description: One of the many bards of Mondstadt, who freely wanders the city's s
 
 # Venti
 
-## Resources
+## **Resources**
 * [Venti Guide](https://keqingmains.com/venti/)
 * [Venti Mains Discord](https://discord.gg/ventimains)
 
@@ -13,7 +13,7 @@ description: One of the many bards of Mondstadt, who freely wanders the city's s
 
 ![](../../.gitbook/assets/character_venti_wish.webp)
 
-## Base Stats
+## **Base Stats**
 
 | Lv | Base HP | Base ATK | Base DEF | Energy Recharge% |
 | :--- | :--- | :--- | :--- | :--- |
@@ -25,7 +25,7 @@ description: One of the many bards of Mondstadt, who freely wanders the city's s
 | 80+ | 9791 | 245 | 622 | 32 |
 | 90 | 10531 | 263 | 669 | 32 |
 
-## Attacks
+## **Attacks**
 
 {% tabs %}
 {% tab title="Divine Marksmanship" %}
@@ -78,9 +78,9 @@ Summons a larger **Wind Domain** at Venti's location, dealing AoE Anemo DMG and 
 | Frames | 20 | 70 |
 | GU | 2U | 2U | 
 | ICD | 3 hit / 2.5s | 3 hit / 2.5s |
-| Snapshot | Snapshot(?) | Snapshot(?) |
+| Snapshot | - | - |
 | Damage Element | Anemo | Anemo | 
-| Damage Type | Elemental Skill | Elemental Skill |
+| Damage Type | Skill | Skill |
 | Cooldown | 6s | 15s |
 
 * Doing an auto attack as soon as possible after using the press version of **Skyward Sonnet** allows the user to swap to a different character faster.
@@ -99,16 +99,16 @@ Venti fires off an arrow made of countless coalesced winds, creating a huge **St
 | Attribute | Burst DoT | Burst Additional Elemental DMG |
 | :--- | :--- | :--- |
 | Skill DMG (T6%) | 52.64% | 26.32% |
-| Frames | 94 | \(-\) |
+| Frames | 94 | - |
 | GU | 1U | 1A |
 | ICD | 3 hits / 2.5s | 3 hits / 2.5s |
 | Duration | 8s | 6.4s |
 | Total Ticks | 20 | 16 |
 | Snapshot | Snapshot | Snapshot |
 | Damage Element | Anemo | Absorbed Element | 
-| Damage Type | Elemental Burst | Elemental Burst |
-| CD | 15s | \(-\) |
-| Energy Cost | 60 | \(-\) |
+| Damage Type | Burst | Burst |
+| CD | 15s | - |
+| Energy Cost | 60 | - |
 
 * The **Stormeye** is elevated above the ground. Some attacks are unable to hit enemies that are lifted.
 * Venti cannot lift enemies that are more than 20 levels above his level.
@@ -121,7 +121,7 @@ Venti fires off an arrow made of countless coalesced winds, creating a huge **St
 {% endtab %}
 {% endtabs %}
 
-## Ascension Passives
+## **Ascension Passives**
 
 {% tabs %}
 {% tab title="Passive" %}
@@ -147,7 +147,7 @@ If an **Elemental Absorption** occurred, this also regenerates 15 Energy for all
 {% endtab %}
 {% endtabs %}
 
-## Constellations
+## **Constellations**
 
 {% tabs %}
 {% tab title="C1" %}
@@ -196,7 +196,7 @@ If an **Elemental Absorption** occurred, then their RES towards the correspondin
 {% endtab %}
 {% endtabs %}
 
-## Full Talent Values
+## **Full Talent Values**
 
 {% tabs %}
 {% tab title="Divine Marksmanship" %}
@@ -204,55 +204,52 @@ If an **Elemental Absorption** occurred, then their RES towards the correspondin
 
 |  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1-Hit DMG \(x2\) | 29.63 | 32.23 | 34.84 | 37.45 | 40.29 | 43.55 |
-| 2-Hit DMG | 64.50 | 70.18 | 75.85 | 81.53 | 87.72 | 94.82 |
-| 3-Hit DMG | 76.13 | 82.82 | 89.52 | 96.22 | 103.53 | 111.90 |
-| 4-Hit DMG \(x2\) | 37.87 | 41.21 | 44.54 | 47.87 | 51.51 | 55.68 |
-| 5-Hit DMG | 73.63 | 80.10 | 86.58 | 93.06 | 100.13 | 108.23 |
-| 6-Hit DMG | 103.13 | 112.20 | 121.28 | 130.35 | 140.25 | 151.59 |
+| 1-Hit DMG \(x2\) | 29.63% | 32.23% | 34.84% | 37.45% | 40.29% | 43.55% |
+| 2-Hit DMG | 64.50% | 70.18% | 75.85% | 81.53% | 87.72% | 94.82% |
+| 3-Hit DMG | 76.13% | 82.82% | 89.52% | 96.22% | 103.53% | 111.90% |
+| 4-Hit DMG \(x2\) | 37.87% | 41.21% | 44.54% | 47.87% | 51.51% | 55.68% |
+| 5-Hit DMG | 73.63% | 80.10% | 86.58% | 93.06% | 100.13% | 108.23% |
+| 6-Hit DMG | 103.13% | 112.20% | 121.28% | 130.35% | 140.25% | 151.59% |
 
 ### Aimed Shot
 
 |  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Aimed Shot | 63.75 | 69.36 | 74.97 | 80.58 | 86.70 | 93.71 |
-| Fully-Charged Aimed Shot | 173.60 | 186 | 198.40 | 210.80 | 223.20 | 236.10 |
+| Aimed Shot | 63.75% | 69.36% | 74.97% | 80.58% | 86.70% | 93.71% |
+| Fully-Charged Aimed Shot | 173.60% | 186% | 198.40% | 210.80% | 223.20% | 236.10% |
 
 ### Plunge
 
 |  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Plunge DMG | 82.60 | 89.87 | 97.14 | 104.41 | 112.34 | 120.27 |
-| Low Plunge DMG | 165.17 | 179.70 | 194.23 | 208.77 | 224.62 | 240.48 |
-| High Plunge DMG | 206.30 | 224.45 | 242.61 | 260.76 | 280.57 | 300.37 |
+| Plunge DMG | 82.60% | 89.87% | 97.14% | 104.41% | 112.34% | 120.27% |
+| Low Plunge DMG | 165.17% | 179.70% | 194.23% | 208.77% | 224.62% | 240.48% |
+| High Plunge DMG | 206.30% | 224.45% | 242.61% | 260.76% | 280.57% | 300.37% |
 {% endtab %}
 
 {% tab title="Skyward Sonnet" %}
 |  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 | Lv12 | Lv13 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Press DMG | 386.40 | 414 | 441.60 | 469.20 | 496.80 | 524.40 | 552 | 586.50 |
-| Hold DMG | 532 | 570 | 608 | 646 | 684 | 722 | 760 | 807.50 |
+| Press DMG | 386.40% | 414% | 441.60% | 469.20% | 496.80% | 524.40% | 552% | 586.50% |
+| Hold DMG | 532% | 570% | 608% | 646% | 684% | 722% | 760% | 807.50% |
 
-**Press Cooldown**: 6s
-
+**Press Cooldown**: 6s  
 **Hold Cooldown**: 15s
 {% endtab %}
 
 {% tab title="Wind\'s Grand Ode" %}
 |  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 | Lv12 | Lv13 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| DoT | 52.64 | 56.40 | 60.16 | 63.92 | 67.68 | 71.44 | 75.20 | 79.90 |
-| Additional Elemental DMG | 26.32 | 28.20 | 30.08 | 31.96 | 33.84 | 35.72 | 37.60 | 39.95 |
+| DoT | 52.64% | 56.40% | 60.16% | 63.92% | 67.68% | 71.44% | 75.20% | 79.90% |
+| Additional Elemental DMG | 26.32% | 28.20% | 30.08% | 31.96% | 33.84% | 35.72% | 37.60% | 39.95% |
 
-**Energy Cost**: 60
-
-**Duration**: 8s
-
+**Energy Cost**: 60  
+**Duration**: 8s  
 **Cooldown**: 15s
 {% endtab %}
 {% endtabs %}
 
-**Evidence Vault**
+## **Evidence Vault**
 
 {% page-ref page="../../evidence/characters/anemo/venti.md" %}
 

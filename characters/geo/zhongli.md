@@ -32,15 +32,15 @@ description: A mysterious expert contracted by the Wangsheng Funeral Parlor. Ext
 **Normal Attacks**  
 Zhongli performs up to 6 consecutive spear strikes.
 
-| String | Talent 6% | Frames | Motion Value |
+| String | Talent 6% | Frames | MV/s |
 | :--- | :--- | :--- | :--- |
-| 1-Hit | 44.72% | 8 | 335.4 |
-| 2-Hit | 45.28% | 29 | 186.2 |
-| 3-Hit | 56.07% | 45 | 194.8 |
-| 4-Hit | 58.42% | 71 | 176.2 |
-| 5-Hit | 14.63% x 4 \(58.52%\) | 109 | 149.2 |
-| 6-Hit | 74.14% | 153 | 132.2 |
-| Recovery | 0% | 200 | 101.1 |
+| 1-Hit | 44.72% | 8 | 335.4%/s |
+| 2-Hit | 45.28% | 29 | 186.2%/s |
+| 3-Hit | 56.07% | 45 | 194.8%/s |
+| 4-Hit | 58.42% | 71 | 176.2%/s |
+| 5-Hit | 14.63% x 4 \(58.52%\) | 109 | 149.2%/s |
+| 6-Hit | 74.14% | 153 | 132.2%/s |
+| Recovery | 0% | 200 | 101.1%/s |
 
 * Zhongli's string has no hit lag on the spear kick \(N5\).
 * Zhongli's attack string does not always interact with C6 Fischl on his first attack.
@@ -48,9 +48,9 @@ Zhongli performs up to 6 consecutive spear strikes.
 **Charged Attack**  
 Zhongli consumes 20 stamina to lunge forward causing spears to fall along his path.
 
-| String | Talent 6% |
-| :--- | :--- |
-| N1C | 206.1% |
+| String | Talent 6% | Frames | MV/s |
+| :--- | :--- | :--- | :--- |
+| N1C | 206.1% | - | - |
 
 **Plunge**
 
@@ -97,7 +97,7 @@ Zhongli channels for 2 seconds causing the following effects:
 | ICD | 3 hits / 2.5s | 3 hits / 2.5s | 3 hits / 2.5s
 | Snapshot | Snapshot | Snapshot | Snapshot |
 | Damage Element | Geo | Geo | Geo |
-| Damage Type | Elemental Skill | Elemental Skill | Elemental Skill |
+| Damage Type | Skill | Skill | Skill |
 | Duration | 20s | - | 20s |
 | CD | 4s | - | 12s |
 
@@ -125,7 +125,7 @@ Zhongli summons a falling meteor down to earth, dealing massive Geo DMG to enemi
 | ICD | 3 hits / 2.5s |
 | Snapshot | Dynamic |
 | Damage Element | Geo |
-| Damage Type | Elemental Burst |
+| Damage Type | Burst |
 | Energy Cost | 40 |
 | CD | 12s |
 * **Planet Befall**'s ICD is shared with **Stone Stele**'s damage.
@@ -137,7 +137,7 @@ Zhongli summons a falling meteor down to earth, dealing massive Geo DMG to enemi
 
 {% tabs %}
 {% tab title="Passive" %}
-### Arcanum of Crystals:
+### Arcanum of Crystals
 
 Refunds 15% of the ores used when crafting Polearm-type weapons.
 {% endtab %}
@@ -164,7 +164,7 @@ Zhongli deals bonus DMG based on his Max HP:
 {% endtab %}
 {% endtabs %}
 
-## Constellations
+## **Constellations**
 
 {% tabs %}
 {% tab title="C1" %}
@@ -208,7 +208,7 @@ When **Jade Shield** takes DMG, 40% of that incoming DMG is converted to HP for 
 {% endtab %}
 {% endtabs %}
 
-## Full Talent Values
+## **Full Talent Values**
 
 {% tabs %}
 {% tab title="Rain of Stone" %}
