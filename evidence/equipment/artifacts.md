@@ -395,10 +395,8 @@ Whether you should run 4NO.
 
 ### 4pc Pale Flame Duration Refresh
 
-**By:** Zozer\#1782
-
-**Added:** 6/22/2021
-
+**By:** Zozer\#1782  
+**Added:** 6/22/2021  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/854261942448554004/856798949322784788/transcript-4pc-pale-flame-duration-refresh.html)
 
 **Finding:** Duration of 1st 4pc Pale Flame stack will reset upon receiving 2nd stack if the 1st stack hasn't expired yet.
@@ -961,8 +959,8 @@ VV use optimization.
 
 ### VV RES Shred Applies after Talent Damage
 
-**By:** NZPIEFACE\#8439
-**Added:** 11/08/2021
+**By:** NZPIEFACE\#8439  
+**Added:** 11/08/2021  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/903474489038348329/907446935747715102/transcript-talent-damage-and-vv-debuff-pepega-stuff.html)
 
 **Theory:**  
