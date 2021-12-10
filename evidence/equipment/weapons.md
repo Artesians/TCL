@@ -174,11 +174,24 @@ This means that mismatched refinements with overlapping effects can affect the c
 
 ## Royal Weapon Series
 
-### The Effective Crit Rate of Royal Weapons
+### The Effective Crit Rate of Royal Weapons (& Simulator)
 
 **By:** Cola\#6861
 
-**Evidence:** [Spreadsheet](https://docs.google.com/spreadsheets/d/1v1hi6tUdFEC4SHM6_zwtlXOmCl_5paXqAD_d8uU6Umc/edit?usp=sharing)
+**Evidence:**  
+{% tabs %}
+{% tab title="Link" %}
+This is the tool I used to run simulations for Royal weapon line crits.
+
+[Link](https://docs.google.com/spreadsheets/d/1v1hi6tUdFEC4SHM6_zwtlXOmCl_5paXqAD_d8uU6Umc/edit?usp=sharing%20)
+{% endtab %}
+
+{% tab title="Directions" %}
+1. File &gt; Make a Copy
+2. Navigate to "Sim" sheet
+3. Change Base Crit % & Refine Rank
+{% endtab %}
+{% endtabs %}
 
 * Ran simulations \(using google sheet's randomize function\) over 10,000 runs, each for 5%, 15% and 50% crit rate. 
 * Recorded the average crit occurence for each set of 10,000 runs, for 10 times. 

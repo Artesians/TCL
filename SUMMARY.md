@@ -135,8 +135,11 @@
 
 ## Resources
 
-* [Calculators](resources/calculators.md)
-* [Links](resources/links.md)
+* [Tools](resources/tools.md)
+* [Compendiums](resources/compendiums/README.md)
+  * [Elemental Gauges](resources/compendiums/elemental-gauges.md)
+  * [Elemental Skill Particle Production](resources/compendiums/elemental-skill-particles.md)
+  * [Enemy Resistances](resources/compendiums/enemy-resistances.md)
 
 ## Enemy Data
 * [Abyss Order](enemy-data/abyss-order/README.md)
