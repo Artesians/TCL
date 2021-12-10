@@ -4,14 +4,14 @@ description: Liyue's sole rock 'n' roll musician. She rebels against ossified pr
 
 # Xinyan
 
-## Resources
+## **Resources**
 [A Guide to Liyue’s Rockstar](https://keqingmains.com/xinyan/)
 
 ## ![](../../.gitbook/assets/element_pyro.png) Xinyan
 
 ![](../../.gitbook/assets/character_xinyan_wish.webp)
 
-## Base Stats
+## **Base Stats**
 
 | Lv | Base HP | Base ATK | Base DEF | ATK% |
 | :--- | :--- | :--- | :--- | :--- |
@@ -23,7 +23,7 @@ description: Liyue's sole rock 'n' roll musician. She rebels against ossified pr
 | 80+ | 10425 | 231 | 743 | 24% |
 | 90 | 11201 | 249 | 799 | 24% |
 
-## Attacks
+## **Attacks**
 
 {% tabs %}
 {% tab title="Dance on Fire" %}
@@ -68,25 +68,24 @@ Deal AoE Pyro Damage around Xinyan and summon a shield.
 * **Rave** will also deal Pyro DMG to nearby opponents once every 2 seconds for a total of 6 hits if the shield is active for the full duration.
 * A higher level shield can be overwritten by a lower level one when using Sacrificial greatsword or casting the shield while already having one from C2 burst.
 
-| Attribute | Skill (Talent 6%) |
-| :--- | :--- |
-| Skill DMG | 237.44% |
-| Rave DMG | 47.04% |
-| Tick Rate | 2s |
-| Particles | 4 |
-| Frames | 65 |
-| GU | 1A |
-| ICD | None |
-| Snapshot | Dynamic |
-| Damage Type | Elemental Skill |
-| Damage Element | Pyro |
-| Cooldown | 18s |
+| Attribute | Swing | Rave |
+| :--- | :--- | :--- |
+| Skill DMG \(T6%\) | 237.44% | 47.04% |
+| Tick Rate | - |  2s |
+| Particles | 4 | - |
+| Frames | 65 | - |
+| GU | 1A | 1A | 
+| ICD | None | None | 
+| Snapshot | Dynamic | Dynamic |
+| Damage Type | Skill | Skill | 
+| Damage Element | Pyro | Pyro |
+| Cooldown | 18s | - |
 
 | Attribute | Shield (Talent 6%) |
 | :--- | :--- |
-| L1 **Ad Lib** | 145.06% Def + 793 |
-| L2 **Lead-In** | 171.36% Def + 932 |
-| L3 **Rave** | 201.6% Def + 1097 |
+| Level 1 **Ad Lib** | 145.06% Def + 793 |
+| Level 2 **Lead-In** | 171.36% Def + 932 |
+| Level 3 **Rave** | 201.6% Def + 1097 |
 | Elemental Type | Pyro |
 | Duration | 12s |
 {% endtab %}
@@ -94,35 +93,33 @@ Deal AoE Pyro Damage around Xinyan and summon a shield.
 {% tab title="Riff Revolution" %}
 Xinyan Does a small AoE around her dealing Physical DMG and a larger one inflicting a Pyro DoT.
 
-| Effect | Burst (Talent 6%) |
-| :--- | :--- |
-| Skill DMG | 477.12% |
-| DoT DMG | 56% x 7 |
-| Frames | 98 |
-| GU | 1A |
-| ICD | 3 hit / 2.5s |
-| Damage Type | Elemental Burst |
-| Damage Element | Physical |
-| DoT Element | Pyro |
-| Snapshot | Snapshot |
-| Energy Cost | 60 |
-| Duration | 2s |
-| Cooldown | 15s |
+| Effect | Burst | DoT | 
+| :--- | :--- | :--- |
+| Skill DMG \(T6%\) | 477.12% | 56% x 7 |
+| Frames | 98 | - |
+| GU | - | 1A |
+| ICD | - | 3 hit / 2.5s | 
+| Damage Type | Burst | Burst |
+| Damage Element | Physical | Pyro |
+| Snapshot | Snapshot | Snapshot | 
+| Energy Cost | 60 | - |
+| Duration | - | 2s |
+| Cooldown | 15s | - | 
 
 {% endtab %}
 {% endtabs %}
 
-## Ascension Passives
+## **Ascension Passives**
 
 {% tabs %}
 {% tab title="Passive" %}
-## A Rad Recipe
+### A Rad Recipe
 
 When a Perfect Cooking is achieved on a DEF-boosting dish, Xinyan has a 12% chance to obtain double the product.
 {% endtab %}
 
 {% tab title="Ascension 1" %}
-## "The Show Goes On, Even Without an Audience..."
+### "The Show Goes On, Even Without an Audience..."
 
 Decreases the number of opponents Sweeping Fervor must hit to trigger each level of shielding.
 
@@ -131,23 +128,23 @@ Decreases the number of opponents Sweeping Fervor must hit to trigger each level
 {% endtab %}
 
 {% tab title="Ascension 4" %}
-## "...Now That's Rock 'N' Roll!"
+### "...Now That's Rock 'N' Roll!"
 
 Characters shielded by Sweeping Fervor deal 15% increased Physical DMG.
 {% endtab %}
 {% endtabs %}
 
-## Constellations
+## **Constellations**
 
 {% tabs %}
 {% tab title="C1" %}
-## Fatal Acceleration
+### Fatal Acceleration
 
 Upon scoring a CRIT hit, increases ATK SPD of Xinyan's Normal and Charged Attacks by 12% for 5s. Can only occur once every 5s. (can trigger vs shielded enemies)
 {% endtab %}
 
 {% tab title="C2" %}
-## Impromptu Opening
+### Impromptu Opening
 
 Riff Revolution Physical DMG has its Crit rate increased by 100%, and will form a shield at Shield Level 3: Rave when cast.
 
@@ -156,33 +153,32 @@ Riff Revolution Physical DMG has its Crit rate increased by 100%, and will form 
 {% endtab %}
 
 {% tab title="C3" %}
-## Double-Stop
+### Double-Stop
 
 Increases the Level of Sweeping Fervor by 3.
 {% endtab %}
 
 {% tab title="C4" %}
-## Wildfire Rhythm
+### Wildfire Rhythm
 
 Sweeping Fervor's swing DMG decreases opponent's Physical RES by 15% for 12s.
 {% endtab %}
 
 {% tab title="C5" %}
-## Screamin' for an Encore
+### Screamin' for an Encore
 
 Increases the Level of Riff Revolution by 3.
 {% endtab %}
 
 {% tab title="C6" %}
-## Rockin' in a Flaming World
+### Rockin' in a Flaming World
 
 Decrease the Stamina Consumption of Xinyan Charged Attacks by 30%. Additionally, Xinyan's Charged Attacks gain an ATK bonus equal to 50% of her DEF.  
 * Her C6 is added into the stats page as flat ATK.
 {% endtab %}  
 {% endtabs %}  
 
-
-## Full Talent Values
+## **Full Talent Values**
 
 {% tabs %}
 {% tab title="Dance on Fire" %}
@@ -202,8 +198,7 @@ Decrease the Stamina Consumption of Xinyan Charged Attacks by 30%. Additionally,
 | Charged Attack Spinning DMG | 90.91% | 98.91% | 106.91% | 114.91% | 123.64% | 132.36% |
 | Charged Attack Final DMG | 164.38% | 178.84% | 193.31% | 207.77% | 223.55% | 239.33% |
 
-**Maximum Duration**: 5s
-
+**Maximum Duration**: 5s  
 **Stamina Cost**: 40
 
 ### Plunge
@@ -227,8 +222,7 @@ Decrease the Stamina Consumption of Xinyan Charged Attacks by 30%. Additionally,
 | Shield Level 3 DMG Absorption | 1097% | 1195% | 1299% | 1409% | 1524% | 1646% | 1773% | 1905% |
 | DoT | 47.04% | 50.40% | 53.76% | 57.12% | 60.48% | 63.84% | 67.20% | 71.40% |
 
-**Shield Duration**: 12s
-
+**Shield Duration**: 12s  
 **Cooldown**: 18s
 {% endtab %}
 
@@ -238,15 +232,13 @@ Decrease the Stamina Consumption of Xinyan Charged Attacks by 30%. Additionally,
 | Skill DMG | 477.12% | 511.20% | 545.28% | 579.36% | 613.44% | 647.52% | 681.60% | 724.20% |
 | Pyro DoT | 56% | 60% | 64% | 68% | 72% | 76% | 80% | 85% |
 
-**Energy Cost**: 60
-
-**Duration**: 2s
-
+**Energy Cost**: 60  
+**Duration**: 2s  
 **Cooldown**: 15s
 {% endtab %}
 {% endtabs %}
 
-**Evidence Vault:**
+## **Evidence Vault:**
 
 {% page-ref page="../../evidence/characters/pyro/xinyan.md" %}
 

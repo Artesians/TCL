@@ -31,7 +31,7 @@ description: Owner of Naganohara Fireworks. Known as "Queen of the Summer Festiv
 **Normal Attacks**  
 Performs up to 5 consecutive shots with a bow.
 
-| String | Talent 6% | Frames | Motion Value |
+| String | Talent 6% | Frames | MV/s |
 | :--- | :--- | :--- | :--- |
 | 1-Hit DMG | 49.01% ×2 (98.02%) | 27 | 217.82%/s |
 | 2-Hit DMG | 94.02% | 51 | 225.93%/s |
@@ -48,7 +48,7 @@ Performs a more precise Aimed Shot with increased DMG. While aiming, flames will
 * Charge Level 1: Fires off a flaming arrow that deals Pyro DMG. 
 * Charge Level 2: Generates a maximum of 3 **Kindling Arrows** based on time spent charging, releasing them as part of this Aimed Shot. Kindling Arrows will home in on nearby opponents, dealing Pyro DMG on hit.
 
-| String | Talent 6% | GUs | Frames | Motion Value |
+| String | Talent 6% | GUs | Frames | MV/s |
 | :--- | :--- | :--- | :--- | :--- |
 | Aimed Shot | 63.75% | -- | -- | -- |
 | Fully-Charged Aimed Shot | 173.6% | 1A | -- | -- |
@@ -74,11 +74,11 @@ Yoimiya waves a sparkler and causes a ring of saltpeter to surround her.
 **Niwabi Enshou**  
 During this time, arrows fired by Yoimiya's Normal Attack will be **Blazing Arrows**, and their DMG will be increased and converted to Pyro DMG. During this time, Normal Attack: Firework Flare-Up will not generate Kindling Arrows at Charge Level 2. This effect will deactivate when Yoimiya leaves the field.
 
-| Attribute | Skill (Talent 6%) | 
+| Attribute | Skill | 
 | :--- | :--- |
-| Blazing Arrow DMG | 149.94% Normal Attack DMG |
+| Blazing Arrow DMG \(T6%\) | 149.94% Normal Attack DMG |
 | Particles | 1 (-) per proc |
-| Cast Frames | 23 |
+| Frames | 23 |
 | GU | 1A |
 | ICD | 3 hit / 2.5s |
 | Damage Element | Pyro |
@@ -102,16 +102,16 @@ All Normal/Charged/Plunging Attacks, Elemental Skills, and Elemental Bursts by a
 
 | Attribute | Burst | Aurous Blaze Explosion |
 | :--- | :--- | ---- |
-| DMG (T6%) | 178.08% | 170.8% |
-| Cast Frames | 115 | ~ |
+| Skill DMG (T6%) | 178.08% | 170.8% |
+| Frames | 115 | - |
 | GU | 2B | 1A |
 | ICD | None | 3 hit / 2.5s |
 | Snapshot? | Dynamic | Dynamic |
 | DMG Element | Pyro | Pyro |
 | DMG Type | Burst | Burst |
-| Energy Cost | 60 | ~ |
-| CD | 15s | ~ |
-| Duration | 10s | ~ |
+| Energy Cost | 60 | - |
+| CD | 15s | - |
+| Duration | 10s | - |
 
 {% endtab %}
 {% endtabs %}
@@ -187,7 +187,7 @@ During Niwabi Fire-Dance, Yoimiya's Normal Attacks have a 50% chance of firing a
 {% endtab %}
 {% endtabs %}
 
-## Full Talent Values
+## **Full Talent Values**
 
 {% tabs %}
 {% tab title="Firework Flare-Up" %}
@@ -195,27 +195,27 @@ During Niwabi Fire-Dance, Yoimiya's Normal Attacks have a 50% chance of firing a
 
 |  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1-Hit DMG (x2) | 49.01 | 52.65 | 56.29 | 59.94 | 63.59 | 67.23 |
-| 2-Hit DMG | 94.02 | 101.01 | 108 | 115 | 121.99 | 128.98 |
-| 3-Hit DMG | 122.22 | 131.31 | 140.4 | 149.49 | 158.59 | 167.68 |
-| 4-Hit DMG (x3) | 63.83 | 68.58 | 73.32 | 78.07 | 82.82 | 87.57 |
-| 5-Hit DMG | 145.56 | 156.39 | 167.22 | 178.04 | 188.87 | 199.7 |
+| 1-Hit DMG (x2) | 49.01% | 52.65% | 56.29% | 59.94% | 63.59% | 67.23% |
+| 2-Hit DMG | 94.02% | 101.01% | 108% | 115% | 121.99% | 128.98% |
+| 3-Hit DMG | 122.22% | 131.31% | 140.4% | 149.49% | 158.59% | 167.68% |
+| 4-Hit DMG (x3) | 63.83% | 68.58% | 73.32% | 78.07% | 82.82% | 87.57% |
+| 5-Hit DMG | 145.56% | 156.39% | 167.22% | 178.04% | 188.87% | 199.7% |
 
 ### Charged Attack
 
 |  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Aimed Shot | 63.75 | 69.36 | 74.97 | 80.58 | 86.7 | 92.82 |
-| Fully-Charged Aimed Shot | 173.6 | 186 | 198.4 | 210.8 | 223.2 | 235.6 |
-| Kindling Arrow DMG | 22.96 | 24.6 | 26.24 | 27.88 | 29.52 | 31.16 |
+| Aimed Shot | 63.75% | 69.36% | 74.97% | 80.58% | 86.7% | 92.82% |
+| Fully-Charged Aimed Shot | 173.6% | 186% | 198.4% | 210.8% | 223.2% | 235.6% |
+| Kindling Arrow DMG | 22.96% | 24.6% | 26.24% | 27.88% | 29.52% | 31.16% |
 
 ### Plunge
 
 |  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Plunge DMG | 82.6 | 89.87 | 97.14 | 104.41 | 112.34 | 120.27 |
-| Low Plunge DMG | 165.17 | 179.7 | 194.23 | 208.77 | 224.62 | 240.48 |
-| High Plunge DMG | 206.3 | 224.45 | 242.61 | 260.76 | 280.57 | 300.37 |
+| Plunge DMG | 82.6% | 89.87% | 97.14% | 104.41% | 112.34% | 120.27% |
+| Low Plunge DMG | 165.17% | 179.7% | 194.23% | 208.77% | 224.62% | 240.48% |
+| High Plunge DMG | 206.3% | 224.45% | 242.61% | 260.76% | 280.57% | 300.37% |
 {% endtab %}
 
 {% tab title="Niwabi Fire-Dance" %}
@@ -224,7 +224,6 @@ During Niwabi Fire-Dance, Yoimiya's Normal Attacks have a 50% chance of firing a
 | Blazing Arrow DMG | 149.94% Normal Attack DMG | 152.89% Normal Attack DMG | 155.84% Normal Attack DMG | 158.79% Normal Attack DMG | 161.74% Normal Attack DMG | 164.7% Normal Attack DMG | 167.65% Normal Attack DMG | 170.6% Normal Attack DMG |
 
 **Duration:** 10s  
-
 **Cooldown:** 18s
 {% endtab %}
 
@@ -234,14 +233,12 @@ During Niwabi Fire-Dance, Yoimiya's Normal Attacks have a 50% chance of firing a
 | Skill DMG | 178.08 | 190.8 | 203.52 | 216.24 | 228.96 | 241.68 | 254.4 | 270.3 |
 | Aurous Blaze Explosion DMG | 170.8 | 183 | 195.2 | 207.4 | 219.6 | 231.8 | 244 | 259.25 |
 
-**Energy Cost**: 60
-
-**Duration**: 10s
-
+**Energy Cost**: 60  
+**Duration**: 10s  
 **Cooldown**: 15s
 {% endtab %}
 {% endtabs %}
 
-**Evidence Vault:**
+## **Evidence Vault:**
 
 {% page-ref page="../../evidence/characters/pyro/yoimiya.md" %}

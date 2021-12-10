@@ -2,7 +2,7 @@
 description: 'The tycoon of a winery empire in Mondstadt, unmatched in every possible way.'
 ---
 
-## **External Links**
+## **Resources**
 
 * [Diluc: The Dark Side of the Dawn (In-Depth Written Guide)](https://keqingmains.com/diluc/)
 * [3 Minute Guide to Diluc](https://www.youtube.com/watch?v=KdBdeGvtyUM)
@@ -72,10 +72,8 @@ This skill can be cast up to 3 times consecutively, with different effects. Ente
 | ICD | None | None | None | 
 | Snapshot | Dynamic | Dynamic | Dynamic |
 | Damage Element | Pyro | Pyro | Pyro |
-| Damage Type | Elemental Skill | Elemental Skill | Elemental Skill | 
+| Damage Type | Skill | Skill | Skill | 
 | Cooldown | 10s | - | - |
-
-
 
 * The cooldown starts after the first cast.
 * Each cast adds a stack to the 4pc Crimson Witch of Flames artifact set.
@@ -97,7 +95,7 @@ After the slash, Diluc infuses his weapon with Pyro.
 | ICD | 5 hits/5s* | 5 hits/5s* | 5 hits/5s* |
 | Snapshot | Dynamic | Snapshot | Snapshot |
 | Damage Element | Pyro | Pyro | Pyro | 
-| Damage Type | Elemental Burst | Elemental Burst | Elemental Burst |
+| Damage Type | Burst | Burst | Burst |
 | Energy Cost | 40 | - | - |
 | Duration | 12s | - | - |
 | CD | 12s | - | - | 

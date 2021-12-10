@@ -75,10 +75,10 @@ Consumes 20 stamina to unleash 2 consecutive strikes.
 | Particles | 2~3 \(3:1\) | 3 \(-\) | 3 \(-\)  |
 | Frames | 52 | 112 | 197 |
 | GU | 2B | 2x 1A | 3x 1A |
-| ICD | ? | ? | ? |
+| ICD | None | None | None |
 | Snapshot | Dynamic | Dynamic | Dynamic |
 | Damage Element | Pyro | Pyro | Pyro |
-| Damage Type | Elemental Skill | Elemental Skill | Elemental Skill |
+| Damage Type | Skill | Skill | Skill |
 | CD | 5s | 7.5s | 10s |
 
 
@@ -105,7 +105,7 @@ Bennett performs a jumping attack to create **Inspiration Field**, dealing Pyro 
 | ICD | None |
 | Snapshot | Snapshot |
 | Damage Element | Pyro |
-| Damage Type | Elemental Burst |
+| Damage Type | Burst |
 | Energy Cost | 60 |
 | CD | 15s |
 
@@ -186,7 +186,7 @@ Using a Normal Attack when executing the second attack of **Passion Overload**â€
 | ICD | 3 hits/2.5s |
 | Snapshot | Dynamic | 
 | Damage Element | Pyro |
-| Damage Type | Elemental Skill |
+| Damage Type | Skill |
 | CD | 7.5s | 
 
 {% endtab %}

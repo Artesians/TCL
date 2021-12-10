@@ -4,8 +4,9 @@ description: Always energetic and full of life, Amber's the best - albeit only -
 
 # Amber
 
-## Resources
-[Full Amber Guide](https://keqingmains.com/amber/)
+## **Resources**
+* [Full Amber Guide](https://keqingmains.com/amber/)
+* [8 Minute Guide to Amber](https://www.youtube.com/watch?v=QW40leHPgJ8)
 
 ## ![](../../.gitbook/assets/element_pyro.png) Amber
 
@@ -68,16 +69,19 @@ Summons **Baron Bunny** that will taunt the enemy and explode after 8 seconds or
 
 * Will let you aim and choose where to throw **Baron Bunny**.
 
-| Effect | Skill (Talent 6%) |
+| Effect | Skill |
 | :--- | :--- |
-| Explosion DMG | 172.48% |
-| Inherited HP | 57.9% |
-| Duration | 8s |
-| Cooldown | 15s |
+| Explosion DMG \(T6%\) | 172.48% |
+| Inherited HP \(T6%\) | 57.9% |
 | Particles | 4 \(-\) |
+| Frames | 35 |
 | GU | 2B |
 | ICD | None |
-| Frames | 35 |
+| Snapshot | Snapshots |
+| Damage Element | Pyro |
+| Damage Type | Skill | 
+| Duration | 8s |
+| Cooldown | 15s |
 
 * The explosion has the blunt attribute that lets it damage shields and shatter frozen enemies like claymores.
 * **Baron Bunny** can be picked up by Anemo units like Jean and Sucrose when they use their elemental skills.
@@ -92,16 +96,19 @@ Summons **Baron Bunny** that will taunt the enemy and explode after 8 seconds or
 {% tab title="Fiery Rain" %}
 Fires off a Shower of arrows, dealing AoE Pyro DMG in a Burst.
 
-| Effect | Burst (Talent 6%) |
+| Effect | Burst |
 | :--- | :--- |
-| Wave DMG | 39.31% |
-| Total DMG | 707.62% |
+| Wave DMG \(T6%\) | 39.31% |
+| Total DMG \(T6%\) | 707.62% \(18 Waves\) |
+| Frames | 135 |
 | GU | 1A |
-| ICD | 3 hits / 1s |
+| ICD | 3 hits / 2.5s |
+| Snapshot | Snapshots |
+| Damage Element | Pyro |
+| Damage Type | Burst |
+| Energy Cost | 40 |
 | Duration | 2s |
 | CD | 12s |
-| Energy Cost | 40 |
-| Frames | 135 |
 
 * Does 18 waves total over 2 seconds in the center of the Aoe.
 * 12 of the waves cover approximately a circle half the size of the marker.
@@ -133,7 +140,7 @@ Aimed Shot hits on weak spots increase ATK by 15% for 10s.
 {% endtab %}
 {% endtabs %}
 
-## Constellations
+## **Constellations**
 
 {% tabs %}
 {% tab title="C1" %}
@@ -181,7 +188,7 @@ Fiery Rain increases the entire party's Movement SPD by 15% and ATK by 15% for 1
 {% endtab %}
 {% endtabs %}
 
-## Full Talent Values
+## **Full Talent Values**
 
 {% tabs %}
 {% tab title="Sharpshooter" %}
@@ -189,11 +196,11 @@ Fiery Rain increases the entire party's Movement SPD by 15% and ATK by 15% for 1
 
 |  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1-Hit DMG | 52.50 | 57.12 | 61.74 | 66.36 | 71.40 | 76.44 |
-| 2-Hit DMG | 52.50 | 57.12 | 61.74 | 66.36 | 71.40 | 76.44 |
-| 3-Hit DMG | 67.50 | 73.44 | 79.38 | 85.32 | 91.80 | 98.28 |
-| 4-Hit DMG | 68.75 | 74.80 | 80.85 | 86.90 | 93.50 | 100.10 |
-| 5-Hit DMG | 86.25 | 93.84 | 101.43 | 109.02 | 117.30 | 125.58 |
+| 1-Hit DMG | 52.50% | 57.12% | 61.74% | 66.36% | 71.40% | 76.44% |
+| 2-Hit DMG | 52.50% | 57.12% | 61.74% | 66.36% | 71.40% | 76.44% |
+| 3-Hit DMG | 67.50% | 73.44% | 79.38% | 85.32% | 91.80% | 98.28% |
+| 4-Hit DMG | 68.75% | 74.80% | 80.85% | 86.90% | 93.50% | 100.10% |
+| 5-Hit DMG | 86.25% | 93.84% | 101.43% | 109.02% | 117.30% | 125.58% |
 
 ### Aimed Shot
 
@@ -226,15 +233,13 @@ Fiery Rain increases the entire party's Movement SPD by 15% and ATK by 15% for 1
 | Fiery Rain DMG Per Wave | 39.31% | 42.12% | 44.93% | 47.74% | 50.54% | 53.35% | 56.16% | 59.67% |
 | Total Fiery Rain DMG | 707.62% | 758.16% | 808.70% | 859.25% | 909.79% | 960.34% | 1010.88% | 1074.06% |
 
-**Energy Cost**: 40
-
-**Duration**: 2s
-
+**Energy Cost**: 40  
+**Duration**: 2s  
 **Cooldown**: 12s
 {% endtab %}
 {% endtabs %}
 
-**Evidence Vault:**
+## **Evidence Vault:**
 
 {% page-ref page="../../evidence/characters/pyro/amber.md" %}
 

@@ -4,7 +4,7 @@ description: An explosives expert and a regular at the Knights of Favonius' conf
 
 # Klee
 
-## Resources
+## **Resources**
 
 * [**Klee Mains Discord**](https://discord.gg/NwYDDrfKZU)
 
@@ -61,19 +61,19 @@ Consumes 50 stamina to deal AoE Pyro DMG.
 {% tab title="Jumpy Dumpty" %}
 Klee throws an explosive that bounces three times dealing AoE Pyro DMG. On the last bounce it splits into 8 mines that explode on contact or after the timer expires.
 
-| Type | Talent 6% |
-| :--- | :--- |
-| Bounce DMG | 133.28% |
-| Mine DMG | 45.92% |
-| Mine Duration | 15s |
-| Particles | 4 \(-\) |
-| Cooldown | 20s |
-| 1st and 2nd Bounce GU | 1A |
-| 3rd Bounce GU | 2B |
-| Mine GU | 1A |
-| ICD | 3 hits / 2.5s, shared with normals |
-| Frames | 67 |
+| Attribute | Bounce DMG | Mine DMG |
+| :--- | :--- | :--- |
+| Skill DMG \(T6%\) | 133.28% | 45.92% |
+| Particles | 4 \(-\) | - |
+| Frames | 67 | - |
+| GU | 1A \(1st & 2nd\)<br />2B \(3rd\) | 1A | 
+| ICD | 3 hits / 2.5s | Note |
+| Snapshot | Snapshots | Snapshots 
+| Damage Element | Pyro | Pyro |
+| Damage Type | Skill | Skill |
+| CD | 20s | - |
 
+* Bounce ICD is shared with normals
 * Each mine has its own ICD on Pyro application however if they explode on the same frame the Pyro application will be inconsistent \(max 2A per frame\).
 * Jean, Sucrose and Anemo MC can gather the mines with their vacuum effects, however, Venti cannot do this.
 * Klee's **Jumpty Dumpty**'s split mines shares an ICD on Pyro application with her Normal Attacks.
@@ -83,17 +83,21 @@ Klee throws an explosive that bounces three times dealing AoE Pyro DMG. On the l
 {% tab title="Sparks \'n\' Splash" %}
 Klee summons Sparks 'n' Splash, which deals damage in 6 waves over 10 seconds. On each wave, there is a 35% chance for 3 hits to occur, 50% chance for 4 hits to occur, and 15% chance for 5 hits to occur.
 
-| Effect | Talent 6% / Data |
+| Attribute | Burst |
 | :--- | :--- |
-| DMG | 59.70% |
+| Skill DMG \(T6%\) | 59.70% |
 | Hits | 22.8 (average) |
-| GU | 1A |
-| ICD | 3 hits / 2.5s, shared with C1 |
-| Duration | 10s |
-| Cooldown | 15s |
-| Energy Cost | 60 |
 | Frames | 100 |
+| GU | 1A |
+| ICD | 3 hits / 2.5s |
+| Snapshot | Snapshots |
+| Damage Element | Pyro |
+| Damage Type | Burst |
+| Energy Cost | 60 |
+| Duration | 10s |
+| CD | 15s |
 
+* ICD is shared with C1.
 * If Klee leaves the field with this active no more damage will be dealt even if there is duration left.
 * This snapshots all temporary buffs when cast.
 {% endtab %}
@@ -127,7 +131,7 @@ When Klee's Charged Attack results in a CRIT, all party members gain 2 Elemental
 {% endtab %}
 {% endtabs %}
 
-## Constellations
+## **Constellations**
 
 {% tabs %}
 {% tab title="C1" %}
@@ -187,7 +191,7 @@ While under the effects of Sparks 'n' Splash, other members of the party will co
 {% endtab %}
 {% endtabs %}
 
-## Full Talent Values
+## **Full Talent Values**
 
 {% tabs %}
 {% tab title="Kaboom!" %}
@@ -222,8 +226,7 @@ While under the effects of Sparks 'n' Splash, other members of the party will co
 | Jumpy Dumpty DMG | 133.28% | 142.80% | 152.32% | 161.84% | 171.36% | 180.88% | 190.40% | 202.30% |
 | Mine DMG | 45.92% | 49.20% | 52.48% | 55.76% | 59.04% | 62.32% | 65.60% | 69.70% |
 
-**Mine Duration**: 15s
-
+**Mine Duration**: 15s  
 **Cooldown**: 20s
 {% endtab %}
 
@@ -232,15 +235,13 @@ While under the effects of Sparks 'n' Splash, other members of the party will co
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | Sparks 'n' Splash DMG | 59.70% | 63.96% | 68.22% | 72.49% | 76.75% | 81.02% | 85.28% | 90.61% |
 
-**Energy Cost**: 60
-
-**Duration**: 10s
-
+**Energy Cost**: 60  
+**Duration**: 10s  
 **Cooldown**: 15s
 {% endtab %}
 {% endtabs %}
 
-**Evidence Vault:**
+## **Evidence Vault:**
 
 {% page-ref page="../../evidence/characters/pyro/klee.md" %}
 
