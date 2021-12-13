@@ -150,7 +150,7 @@ Attacks that shake untouched trees, including enemy attacks, can allow them to b
 * All physical damage sources & an odd assortment of character skills \(Jean's E, Kaeya's Q\) can shake/mark.
 * Marks last a very short time.
 * Some skills and Overloads can harvest. Characters like Bennett and Xingqiu can harvest using E skills, while Razor can harvest with E only if he uses Overload. 
-* Melee normal attacks can sometimes whiff on a tree. This marks the tree and enables harvesting via Elemental Skill.
+* Melee normal attacks can sometimes whiff on a tree. This still marks the tree and enables harvesting via Elemental Skill.
 
 ## **Evidence Vault:**
 
