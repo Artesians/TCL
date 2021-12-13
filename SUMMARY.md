@@ -310,7 +310,7 @@
     * [Weapons](evidence/equipment/weapons.md)
   * [Combat Mechanics](evidence/combat-mechanics/README.md)
     * [Damage](evidence/combat-mechanics/damage/README.md)
-      * [OutgoingDamage Formula](evidence/combat-mechanics/damage/damage-formula.md)
+      * [Outgoing Damage Formula](evidence/combat-mechanics/damage/damage-formula.md)
       * [Incoming Damage Formula](evidence/combat-mechanics/damage/incoming-damage-formula.md)
       * [Shields](evidence/combat-mechanics/damage/shields.md)
       * [Other](evidence/combat-mechanics/damage/other/README.md)
