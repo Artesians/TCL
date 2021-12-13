@@ -97,4 +97,4 @@ The current world state & character position is saved between different world ma
 
 ## Evidence Vault
 
-{% page-ref page="../evidence/fluff/overworld.md" %}
+{% page-ref page="../evidence/general-mechanics/overworld.md" %}
