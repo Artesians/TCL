@@ -168,7 +168,7 @@ DMG calculation.
 ### Pyronado Reverse Direction Mechanic
 
 **By:** euphorysm\#6156  
-**Added:** (insert date)  
+**Added:** 12/12/2021  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/902775337618927616/919076320946827305/transcript-pyronado-direction-mechanic.html)  
 
 **Finding:**  
