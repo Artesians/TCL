@@ -773,5 +773,5 @@ There is a cap range for an arrow - damage just falls off after a certain range.
 
 **Evidence Vault:**
 
-{% page-ref page="../../../evidence/mechanics/equipment/weapons.md" %}
+{% page-ref page="../../evidence/equipment/weapons.md" %}
 
