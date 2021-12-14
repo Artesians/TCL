@@ -130,7 +130,7 @@ Many of Childe’s comps revolve around using Bennet as a healer. Being aware of
 
 ### Aimed Shot Riptide Slash
 
-**By:** MidnightMax.Thai\#7849 and BowTae\#0141  
+**By:** MidnightMax.Thai\#7849, GottaGoFast\#7876, and BowTae\#0141  
 **Added:** 12/13/2021  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/916458832723574835/920135102216958032/transcript-childe-phys-shot-riptide-mark.html)
 
