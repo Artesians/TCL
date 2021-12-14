@@ -4,6 +4,10 @@ search: false
 
 # Enemy Attributes
 
+**Main Page:**
+
+{% page-ref page="../../../combat-mechanics/enemy-mechanics/enemy-attributes.md" %}
+
 ## In-Depth Look at Monster Skill Effects in Domains/Abyss
 
 **By:** Steno\#6940  
