@@ -141,6 +141,8 @@ Hitting an opponent affected by **Riptide** with a melee attack unleashes a **Ri
 | Damage Element | Hydro |
 | Damage Type | Skill |
 
+* **Riptide Slash** can be triggered by Aimed Shot, both Physical and Hydro, by switching to melee stance before the arrow hits an enemy.
+
 {% endtab %}
 
 {% tab title="Havoc: Obliteration" %}
