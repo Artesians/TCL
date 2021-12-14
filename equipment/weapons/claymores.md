@@ -732,5 +732,5 @@ Attack Speed buffs do not dynamically affect Claymore Charged Attacks. Meaning, 
 
 **Evidence Vault:**
 
-{% page-ref page="../../../evidence/mechanics/equipment/weapons.md" %}
+{% page-ref page="../../evidence/equipment/weapons.md" %}
 
