@@ -490,7 +490,7 @@ Reviewed/Edited by: IonFox, Doug
 **By:** Aluminum#5462  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/851683689174925352/861402567899873320/transcript-tax-evasion.html)
 
-**Finding:** Contrary to what is stated in the evidence linked on the [Gauge Unit Theory](../../evidence/combat-mechanics/elemental-effects/elemental-gauge-theory.md#gauge-unit-theory-testing-and-evidence), taxation does not cause you to lose 20% of the gauge in the first 5% of the duration (hereinafter Hypothesis 1), but is applied instantly (hereinafter Hypothesis 2). Both hypothesis use the same total aura duration when no reactions occur.
+**Finding:** Contrary to what is stated in the evidence linked on the [Gauge Unit Theory](../../../evidence/combat-mechanics/elemental-effects/elemental-gauge-theory.md#gauge-unit-theory-testing-and-evidence), taxation does not cause you to lose 20% of the gauge in the first 5% of the duration (hereinafter Hypothesis 1), but is applied instantly (hereinafter Hypothesis 2). Both hypothesis use the same total aura duration when no reactions occur.
 
 **Evidence:** Duration testing was done on a 4A aura with 3U subtracted: [https://youtu.be/0hHF4GHo7uw](https://www.youtube.com/watch?v=0hHF4GHo7uw)
 
