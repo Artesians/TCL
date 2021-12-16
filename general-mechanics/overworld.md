@@ -1,5 +1,13 @@
 # Overworld
 
+## Explosive Barrel properties
+
+* Barrel damage is affected by the unit's defense, following the damage formula here: https://genshin-impact.fandom.com/wiki/Defense. Attributes such as level, ascension, max hp have no effect on the amount of damage inflicted by barrel explosions.
+* Barrels do Pyro damage, and is affected by reactions such as Vaporize as well as Pyro Resistance.
+* Damage Reduction such as Xingqiu rainsword orbitals can reduce explosion damage.
+* Explosive barrels have levels.
+* Barrel levels (probably) follow zone level rules.
+
 ## Zone Levels:
 
 The overworld map is split into multiple zones that affect enemy level and environmental reactions:  
