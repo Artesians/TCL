@@ -8,6 +8,95 @@ search: false
 
 {% page-ref page="../../general-mechanics/overworld.md" %}
 
+## Explosive Barrel properties
+
+**By:** kxmndz#4700  
+**Added:** 16/12/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/903329501226860666/921012856277848114/transcript-explosive-barrel-properties.html)  
+
+**Finding:**  
+1. Barrel damage is affected by the unit's defense, following the damage formula here: https://genshin-impact.fandom.com/wiki/Defense. Attributes such as level, ascension, max hp have no effect on the amount of damage inflicted by barrel explosions.
+2. Barrels do pyro damage, and is affected by reactions such as vaporize as well as pyro resist.
+3. Damage Reduction such as Xingqiu rainsword orbitals can reduce explosion damage.
+4. Explosive barrels have levels.
+5. Barrel levels (probably) follow zone level rules.
+
+**Evidence:** A series of suicide-by-barrel attempts have demonstrated the following findings:  
+
+1.https://imgur.com/v98QL8g    
+https://imgur.com/ggMOrsj  
+https://imgur.com/zRzvyeZ  
+https://imgur.com/qneIdc7  
+https://imgur.com/ajV1HWl  
+https://imgur.com/0AU4aUE  
+https://imgur.com/7Sv3dnW  
+https://imgur.com/l9eOVne  
+https://imgur.com/zDUJ1no  
+https://imgur.com/8cc3Cg3  
+https://imgur.com/6xeP0K7  
+https://imgur.com/03xLsXN  
+
+Damage can be plotted against defense:  
+https://imgur.com/ZTEWcff  
+
+Inverse of damage, or effective hp (EHP), against defense:  
+https://imgur.com/nhw1sFu  
+
+Inverting barrel damage to EHP linearizes the trend, allowing a linear regression to be performed with the previous data points.  
+
+Coefficients:  
+             Estimate Std. Error t value Pr(>|t|)      
+(Intercept) 1.277e-04  1.953e-08    6536   <2e-16  ***  
+def         1.443e-07  1.911e-11    7555   <2e-16  ***  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1  
+
+Residual standard error: 4.527e-08 on 13 degrees of freedom  
+Multiple R-squared:      1,    Adjusted R-squared:      1   
+F-statistic: 5.707e+07 on 1 and 13 DF,  p-value: < 2.2e-16  
+
+2.https://imgur.com/0AU4aUE  
+https://imgur.com/SF3xnw9  
+https://imgur.com/SyDSiRn   
+https://imgur.com/J7zMioL   
+
+3.https://imgur.com/OqamQMJ  
+
+4.The formula for EHP vs defense from linear regression EHP = 1.443e-07 * DEF + 1.277e-04 can be applied to figure out the base damage (damage done if the unit has 0 defense) as well as the level of the barrels, following the Genshin damage formula linked above.  
+
+Base damage of the tested barrel is the inverse of the Y-intercept, or when DEF = 0. 1.277e-04^-1 = 7832.3563130198 or 7832 when rounded to a whole number.  
+
+To figure out the level of the barrel:  
+Incoming damage = Original damage * (1 - Damage reduction)  
+Damage reduction = DEF / (DEF + 5*Level + 500)  
+
+Incoming dmg → Inf means  
+Incoming damage = Original damage * (1 - Damage reduction) → Inf  
+which, given constant original damage translates as  
+-Damage reduction → Inf, then  
+Damage reduction = DEF / (DEF + 5*Level + 500) → -Inf  
+And this is only possible if the denominator (DEF + 5 * Level + 500)→ 0⁻, given a constant def  
+
+In practice, the negative value of the "x-intercept" (DEF when EHP approaches 0, or barrel damage approaches infinity) in the EHP vs DEF function is DEF + 5 * Level + 500. Since the x-intercept is -884 defense, the level of the barrel is 76.9, or 77 when rounded to whole number levels.  
+
+Important note: This level only applies to the two tested barrels shown in the videos in evidence 1.
+
+5.Zone levels: https://library.keqingmains.com/evidence/fluff/overworld#zone-levels  
+Mondstadt zone map: https://imgur.com/E0oN0B6  
+
+Two zones (dark blue, orange) were tested and the barrels within those zones all do the same amount of damage, given that the character's defense remains constant.   
+
+The barrels tested in evidence a) agree with the zone level map (blue, levels 77 to 79).  
+
+Enemies in the northern orange zone are between 82 and 90, and calculations with the evidence shows that those barrels are level 90 with base damage of 12176.  
+https://imgur.com/kD53Izk  
+https://imgur.com/HPkmo82  
+https://imgur.com/aaWNYNq  
+
+**Significance:** Insight into the mechanics of overworld explosive barrels. Hopefully lays the foundation for the research of future explosive barrel enthusiasts.
+  
+  
+
 ## Cursed Terrain
 
 ### Electro Crystals have levels
