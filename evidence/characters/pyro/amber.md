@@ -8,6 +8,8 @@ search: false
 
 {% page-ref page="../../../characters/pyro/amber.md" %}
 
+
+
 ## Amber Ult Targeting
 
 **By:** CM#0970  
