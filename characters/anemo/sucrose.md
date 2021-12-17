@@ -97,7 +97,7 @@ If the **Wind Spirit** comes into contact with **Hydro/Pyro/Cryo/Electro,** it w
 
 * Freeze and Petrify will allow Sucrose to group enemies together without launching them into the air.  
 * Absorption priority: Pyro > Hydro > Electro > Cryo 
-* Absorbtion Damage is simultaneous 
+* Absorption Damage is simultaneous 
 
 {% endtab %}
 {% endtabs %}
