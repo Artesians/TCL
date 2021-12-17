@@ -30,8 +30,9 @@ When there are multiple elements in range of the Anemo ability it will absorb ac
 ## Aura Checks
 
 Aura-checks are zero-damage attacks produced by Anemo Absorption attacks to check for Auras.  
-Aura-checks have different verticalities to their original attack, have set frequencies which differ per skill/burst, and can trigger some passive talents that activate on hit.   
-For more information about their properties, see the [Vault Entry](../../evidence/combat-mechanics/elemental-effects/elemental-absorption.md\#aura-check-properties).  
+* Aura-checks have different verticalities to their original attack, have set frequencies which differ per skill/burst, and can trigger some passive talents that activate on hit.   
+* Aura-checks can hit cats.
+* For more information about their properties, see the [Vault Entry](../../evidence/combat-mechanics/elemental-effects/elemental-absorption.md\#aura-check-properties).  
 
 ## Evidence Vault
 
