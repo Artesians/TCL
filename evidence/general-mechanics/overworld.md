@@ -8,10 +8,10 @@ search: false
 
 {% page-ref page="../../general-mechanics/overworld.md" %}
 
-## Explosive Barrel properties
+## Explosive Barrel Properties
 
-**By:** kxmndz#4700  
-**Added:** 16/12/2021  
+**By:** kxmndz\#4700  
+**Added:** 12/16/2021  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/903329501226860666/921012856277848114/transcript-explosive-barrel-properties.html)  
 
 **Finding:**  
@@ -23,46 +23,49 @@ search: false
 
 **Evidence:** A series of suicide-by-barrel attempts have demonstrated the following findings:  
 
-1.https://imgur.com/v98QL8g    
-https://imgur.com/ggMOrsj  
-https://imgur.com/zRzvyeZ  
-https://imgur.com/qneIdc7  
-https://imgur.com/ajV1HWl  
-https://imgur.com/0AU4aUE  
-https://imgur.com/7Sv3dnW  
-https://imgur.com/l9eOVne  
-https://imgur.com/zDUJ1no  
-https://imgur.com/8cc3Cg3  
-https://imgur.com/6xeP0K7  
-https://imgur.com/03xLsXN  
+[[1]](https://imgur.com/v98QL8g) ,
+[[2]](https://imgur.com/ggMOrsj) ,
+[[3]](https://imgur.com/zRzvyeZ) ,
+[[4]](https://imgur.com/qneIdc7) ,
+[[5]](https://imgur.com/ajV1HWl) ,
+[[6]](https://imgur.com/0AU4aUE) ,
+[[7]](https://imgur.com/7Sv3dnW) ,
+[[8]](https://imgur.com/l9eOVne) ,
+[[9]](https://imgur.com/zDUJ1no) ,
+[[10]](https://imgur.com/8cc3Cg3) ,
+[[11]](https://imgur.com/6xeP0K7) ,
+[[12]](https://imgur.com/03xLsXN)  
 
-Damage can be plotted against defense:  
-https://imgur.com/ZTEWcff  
+Damage can be plotted against defense - [Image](https://imgur.com/ZTEWcff)
 
-Inverse of damage, or effective hp (EHP), against defense:  
-https://imgur.com/nhw1sFu  
+Inverse of damage, or effective hp (EHP), against defense: - [Image](https://imgur.com/nhw1sFu) 
 
 Inverting barrel damage to EHP linearizes the trend, allowing a linear regression to be performed with the previous data points.  
 
-Coefficients:  
-             Estimate Std. Error t value Pr(>|t|)      
-(Intercept) 1.277e-04  1.953e-08    6536   <2e-16  ***  
-def         1.443e-07  1.911e-11    7555   <2e-16  ***  
----
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1  
+Coefficients
+| | Estimate | Std. Error | t value | Pr\(>\|t\|\) |
+| :--- | :--- | :--- | :--- | :--- |
+| (Intercept) | 1.277e-04 | 1.953e-08 | 6536 | <2e-16  ***  
+| def         | 1.443e-07 | 1.911e-11 | 7555 | <2e-16  ***  
+
+Signif. codes:  0 ‘\*\*\*’ 0.001 ‘\*\*’ 0.01 ‘\*’ 0.05 ‘.’ 0.1 ‘ ’ 1  
 
 Residual standard error: 4.527e-08 on 13 degrees of freedom  
 Multiple R-squared:      1,    Adjusted R-squared:      1   
-F-statistic: 5.707e+07 on 1 and 13 DF,  p-value: < 2.2e-16  
+F-statistic: 5.707e+07 on 1 and 13 DF,  p-value: < 2.2e-16
 
-2.https://imgur.com/0AU4aUE  
-https://imgur.com/SF3xnw9  
-https://imgur.com/SyDSiRn   
-https://imgur.com/J7zMioL   
+Barrels do pyro damage, and is affected by reactions such as vaporize as well as pyro resist.
+* [Video 1](https://imgur.com/0AU4aUE)
+* [Video 2](https://imgur.com/SF3xnw9)
+* [Video 3](https://imgur.com/SyDSiRn)
+* [Video 4](https://imgur.com/J7zMioL)
 
-3.https://imgur.com/OqamQMJ  
+Damage reduction such as Xingqiu rainsword orbitals can reduce explosion damage
+* [Video](https://imgur.com/OqamQMJ)
 
-4.The formula for EHP vs defense from linear regression EHP = 1.443e-07 * DEF + 1.277e-04 can be applied to figure out the base damage (damage done if the unit has 0 defense) as well as the level of the barrels, following the Genshin damage formula linked above.  
+Explosive barrels have levels
+
+The formula for EHP vs defense from linear regression EHP = 1.443e-07 * DEF + 1.277e-04 can be applied to figure out the base damage (damage done if the unit has 0 defense) as well as the level of the barrels, following the Genshin damage formula linked above.  
 
 Base damage of the tested barrel is the inverse of the Y-intercept, or when DEF = 0. 1.277e-04^-1 = 7832.3563130198 or 7832 when rounded to a whole number.  
 
@@ -81,21 +84,58 @@ In practice, the negative value of the "x-intercept" (DEF when EHP approaches 0,
 
 Important note: This level only applies to the two tested barrels shown in the videos in evidence 1.
 
-5.Zone levels: https://library.keqingmains.com/evidence/fluff/overworld#zone-levels  
-Mondstadt zone map: https://imgur.com/E0oN0B6  
+Barrel levels (probably) follow zone level rules.  
+* [Zone levels](../evidence/general-mechanics/overworld.md#zone-levels) 
+* [Mondstadt zone map](https://imgur.com/E0oN0B6)
 
 Two zones (dark blue, orange) were tested and the barrels within those zones all do the same amount of damage, given that the character's defense remains constant.   
 
 The barrels tested in evidence a) agree with the zone level map (blue, levels 77 to 79).  
 
 Enemies in the northern orange zone are between 82 and 90, and calculations with the evidence shows that those barrels are level 90 with base damage of 12176.  
-https://imgur.com/kD53Izk  
-https://imgur.com/HPkmo82  
-https://imgur.com/aaWNYNq  
+* [Video](https://imgur.com/kD53Izk)
+* [Video](https://imgur.com/HPkmo82)
+* [Video](https://imgur.com/aaWNYNq)
 
 **Significance:** Insight into the mechanics of overworld explosive barrels. Hopefully lays the foundation for the research of future explosive barrel enthusiasts.
   
-  
+## Inazuma Artifact Spots
+
+**By:** Mcpie#8672  
+**Added:** 16/12/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/868098829361229834/920808595594043402/transcript-inazuma-artifact-spots.html)
+
+**Finding:** There are currently 214 (+1 or +2) respawnable investigation spots that drop artifacts. 
+
+Pre 2.0:
+* Liyue (pre 2.0) - 48 spots.
+* Dragonspine - 7 spots.  
+
+2.0:
+* Liyue (added in 2.0) - 6 spots.
+* Inazuma non-Tatarasuna - 24 spots.
+* Tatarasuna - 24 spots.
+* Bake-danukis - 11 spots.
+* Cannons - 5 spots.
+* Conch spots on the beach - either 1 or 2 spots - rng based.  
+
+Patch 2.1 introduced 2 more islands. Each island has:
+* Seirai island: 44 spots.
+* Watatsumi island: 24 spots.
+* Bake-danukis - 6 spots.    
+
+Patch 2.2 introduced Tsurumi Island:
+* Moshiri Kara: 1 spot (north of Tsurumi Island).
+* Tsurumi Island: 14 spots.  
+
+Maps:
+* [Liyue + Dragonspine](https://raw.githubusercontent.com/mcpie87/gi-artifacts/master/liyue.jpg)
+* [Inazuma + Bake-danukis](https://raw.githubusercontent.com/mcpie87/gi-artifacts/master/inazuma.jpg)
+* [Cannons](https://raw.githubusercontent.com/mcpie87/gi-artifacts/master/cannon-guide.jpg) (by Miin from Hoyolab).  
+
+**Evidence:**
+Transcript of this entire ticket + spreadsheet displaying each spot with a screenshot and video for each spot: [Spreadsheet](https://docs.google.com/spreadsheets/d/1zDMPfY8SKR7mb-tASNedWmj62wJOnDbSsVVR17ykg6I)  
+Unfortunately we're unable to tell if we managed to cover all of the spots, but based on our research (from the transcript) we managed to gather 144 (+1/+2) investigation spots that drop artifacts.
 
 ## Cursed Terrain
 
@@ -198,8 +238,8 @@ Understanding the cursed overworld of Teyvat
 **By:** Greyhound\#7836, mol\#3280, deaf#0246  
 **Added:** 06/23/2021  
 **Updated:** 07/08/2021  
-[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/851603340403933194/857345614483554334/transcript-cursed-terrain-world-levels.html)  
-[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/873033114723696660/873532969355210752/transcript-overworld-entity-levels-revisited.html)
+[Discussion 1](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/851603340403933194/857345614483554334/transcript-cursed-terrain-world-levels.html)  
+[Discussion 2](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/873033114723696660/873532969355210752/transcript-overworld-entity-levels-revisited.html)
 
 **Finding:**  
 Overworld has levels for every "body", including water and grass and sand, trees, rocks, and other things that we can't prove in any other way other than the game's code which shows this, thus varying stats which is proven by their damage.
