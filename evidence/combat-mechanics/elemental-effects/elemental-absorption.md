@@ -174,3 +174,18 @@ This ticket explores the interesting properties that aura-checks have.
 
 **Significance:**  
 Further insight into the mechanics of Elemental Absorption via Aura-checks, how they work, their effects on certain objects and mechanics, the irregularities among Elemental Absorption Skills/Bursts, and some insight into the workings of Venti's late absorption bug.  
+
+## Aura-Checks Can Hit Cats
+
+**By:** vinsette\#0293  
+**Added:** 12/16/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/918033771759026176/921245481756143626/transcript-aura-checks-and-cats-interaction.html)  
+
+**Finding:**  
+Aura-checks can hit cats.  
+
+**Evidence:**  
+[Imgur](https://imgur.com/a/NiJL0WT)  
+
+**Significance:**  
+Haha funni flying cat. Fluff.  
