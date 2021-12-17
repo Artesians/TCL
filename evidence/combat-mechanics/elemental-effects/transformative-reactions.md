@@ -482,7 +482,7 @@ Evidence: [Imgur](https://imgur.com/ZNKpRnt)
 **Finding:**  
 * EC has a cooldown. An enemy can only take one instance of EC damage in ~0.5s.
 * EC AoE ticks count as EC damage, thus a tick will start EC icd and deal no damage if it lands when the cooldown is active.
-* EC AoE ticks resets damage cooldown and restarts 1s timer for the next EC tick (as long as auras don't run out).
+* EC AoE ticks reset damage cooldown and restart 1s timer for the next EC tick (as long as auras don't run out).
   * These two together will cause a cascading effect of syncing up EC ticks.
 
 **Evidence:**  
