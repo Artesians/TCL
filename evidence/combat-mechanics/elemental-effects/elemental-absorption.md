@@ -170,7 +170,7 @@ This ticket explores the interesting properties that aura-checks have.
   * [Venti Burst does not absorb Cryo from Diona at the start of the Burst](https://imgur.com/a/RheF8HB)
 * 5B: Venti's Elemental Burst aura-checks for several seconds after it has visually ended, due to what appears to be a bug.
   * [Venti Burst and Ningguang Skill](https://imgur.com/lxOexDY)
-  * [Bug entry in TCL](../../mechanics/gameplay-mechanics/bugs\#venti-q-late-absorption-bug)
+  * [Bug entry in TCL](../../../evidence/characters/anemo/venti.md#venti-q-late-absorption-bug)
 
 **Significance:**  
 Further insight into the mechanics of Elemental Absorption via Aura-checks, how they work, their effects on certain objects and mechanics, the irregularities among Elemental Absorption Skills/Bursts, and some insight into the workings of Venti's late absorption bug.  
