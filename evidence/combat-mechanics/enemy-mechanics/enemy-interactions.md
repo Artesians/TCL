@@ -188,6 +188,23 @@ Placing a boulder underneath the geo hypostasis at the start of the battle will 
 **Significance:**  
 This speeds up the fight by making the Geo Hypostasis vulnerable, without having to spend extra effort to break the pillars. Keep in mind though that the vulnerability windows derived from using this method is shorter.
 
+### Maguu Kenki
+
+#### Maguu Kenki Hitlag Audio Desync
+
+**By:** Santoryu#4495  
+**Added:** 12/14/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/904928198888939550/920204559543042058/transcript-kenkis-attacks-are-affected-by-hitlag.html)  
+
+**Finding:**  
+Kenki's Attacks can be desynced from the Audio Cue present with his slashes, and the Clone Attacks, via hitlag.  
+
+**Evidence:**  
+[YouTube](https://www.youtube.com/watch?v=uP1k2daW01U)  
+
+**Significance:**  
+This makes it way harder to dodge because the Audio Cue is now early, tricking the player into dodging early. In addition, the Clone Attack will also be faster than the Kenki Attack, resulting in an almost impossible to dodge attack since both Slashes are at different timings and the sprint i-frame is not long enough.  
+
 ### Perpetual Mechanical Array  
 
 #### PMA and Polearm CA interactions  
