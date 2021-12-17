@@ -12,7 +12,7 @@ search: false
 
 ### Interrupting Enemies Causes Phantom Attacks
 
-**By:** Iron IV#3832  
+**By:** Iron IV\#3832  
 **Added:** 6/14/2021  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/849182058525229056/854018708397752332/transcript-interrupting-enemies-causes-phantom-attacks.html)
 
@@ -103,7 +103,7 @@ If you dread Andrius phase 2 and you have the ability to skip it, now you can do
 
 #### Azhdaha in his Tail Form has Two Independent Hitboxes
 
-**By:** ArchedNosi#1484  
+**By:** ArchedNosi\#1484  
 **Added:** 10/09/2021  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/891904835862020127/896133877683351662/transcript-azhdaha-has-two-independent-hitboxes.html)
 
@@ -121,7 +121,7 @@ Abilities that have large verticality and the property of being able to tag mult
 
 #### Stormterror DoT Damage Cap
 
-**By:** ᗪᗩᖇᛕ ᕼᗴᖇᗩᒪᗪ#0209  
+**By:** ᗪᗩᖇᛕ ᕼᗴᖇᗩᒪᗪ\#0209  
 **Added:** 11/5/2021  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/904754824304787466/906425965872291860/transcript-the-dmg-increase-dvalins-dot-does-will-eventually-stop-increasing.html)  
 
@@ -192,7 +192,7 @@ This speeds up the fight by making the Geo Hypostasis vulnerable, without having
 
 #### Maguu Kenki Hitlag Audio Desync
 
-**By:** Santoryu#4495  
+**By:** Santoryu\#4495  
 **Added:** 12/14/2021  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/904928198888939550/920204559543042058/transcript-kenkis-attacks-are-affected-by-hitlag.html)  
 
@@ -273,21 +273,21 @@ Sequence:
 `5% -> 5% -> 15% -> 15% -> 5% -> 15% -> 15% -> 5% -> 15% -> 5% -> 191` from Barbara  
 `5*5% + 5*15% = 25% + 75% = 100%`, due to floating precision error, a single `1` hp damage would kill it
 
-Hydro Primo Geovishap vs Xinyan - 5% - [Video](https://www.youtube.com/watch?v=TwwpkLOsRTc)  
-Hydro Primo Geovishap vs Noelle - 15% - [Video](https://www.youtube.com/watch?v=u-2c25xjgAk)  
-The Bell autoshield mechanic - 5% - [Video](https://www.youtube.com/watch?v=fTRW0ksjtSs)  
-VV does not affect the damage - [Video](https://www.youtube.com/watch?v=zeffceIjJ1I)  
-DEF reduction does not affect the damage - [Video](https://www.youtube.com/watch?v=oQ6DxAZWAJ8)  
-Reflect has a range - [Video](https://www.youtube.com/watch?v=LbaRkNlxky4)  
-WL does not matter - [Video](https://youtu.be/47jIZOXjka4)  
-C4 Kaeya shield on-dmg taken - no dmg reflected due to shield being too weak - [Video](https://www.youtube.com/watch?v=-IZwV5swjns)  
-Coop: 2x Zhongli, each with their own shield - 15% - [Video](https://www.youtube.com/watch?v=2thu72alIcQ)  
-Coop: Beidou + Zhongli dealt 5% + 15% percent - [Video](https://www.youtube.com/watch?v=d7q0MREFfhk)  
-Xinyan lvl 60, no artis/weapons - not enough shield hp for reflect - [Video](https://www.youtube.com/watch?v=9IJMSL-hM8c)
+* Hydro Primo Geovishap vs Xinyan - 5% - [Video](https://www.youtube.com/watch?v=TwwpkLOsRTc)  
+* Hydro Primo Geovishap vs Noelle - 15% - [Video](https://www.youtube.com/watch?v=u-2c25xjgAk)  
+* The Bell autoshield mechanic - 5% - [Video](https://www.youtube.com/watch?v=fTRW0ksjtSs)  
+* VV does not affect the damage - [Video](https://www.youtube.com/watch?v=zeffceIjJ1I)  
+* DEF reduction does not affect the damage - [Video](https://www.youtube.com/watch?v=oQ6DxAZWAJ8)  
+* Reflect has a range - [Video](https://www.youtube.com/watch?v=LbaRkNlxky4)  
+* WL does not matter - [Video](https://youtu.be/47jIZOXjka4)  
+* C4 Kaeya shield on-dmg taken - no dmg reflected due to shield being too weak - [Video](https://www.youtube.com/watch?v=-IZwV5swjns)  
+* Coop: 2x Zhongli, each with their own shield - 15% - [Video](https://www.youtube.com/watch?v=2thu72alIcQ)  
+* Coop: Beidou + Zhongli dealt 5% + 15% percent - [Video](https://www.youtube.com/watch?v=d7q0MREFfhk)  
+* Xinyan lvl 60, no artis/weapons - not enough shield hp for reflect - [Video](https://www.youtube.com/watch?v=9IJMSL-hM8c)
 
 Legend of the Vagabond Sword:  
-Noelle vs reduced backlash + 175% hp - [Video](https://www.youtube.com/watch?v=MTvQ_AbdXag)
-Noelle vs +175%hp - [Video](https://www.youtube.com/watch?v=74ZkkfTy_tw)
+* Noelle vs reduced backlash + 175% hp - [Video](https://www.youtube.com/watch?v=MTvQ_AbdXag)
+* Noelle vs +175%hp - [Video](https://www.youtube.com/watch?v=74ZkkfTy_tw)
 
 **Significance:**  
 Might play a major role if at any point we'll have Primo Geovishaps inside the abyss and people will struggle with it.  
@@ -347,10 +347,10 @@ Better understanding of Abyss Herald mechanics, and which attacks in particular 
 The bubble from the Hydro Abyss Mages and their hydro bubble spawning mechanic can be effectively iframed by swapping characters at the precise moment. However, the hydro bubble will persist on the character that was initially hit for approximately 5 seconds
 
 **Evidence:**  
-[Imgur](https://imgur.com/3gLxkSv)  
-[Imgur](https://imgur.com/sVll8pV)  
-[Imgur](https://imgur.com/oJ38eFv)  
-[Imgur](https://imgur.com/J2UXMr4)
+* [Imgur](https://imgur.com/3gLxkSv)  
+* [Imgur](https://imgur.com/sVll8pV)  
+* [Imgur](https://imgur.com/oJ38eFv)  
+* [Imgur](https://imgur.com/J2UXMr4)
 
 **Significance:**  
 Dash iframes do not always work against the bubbles, especially for the abyss mage ones which home onto the character even after iframing through it. While the character initially hit still takes damage from the bubble, the dangerous CC effect of the bubble can be ignored, which makes dealing with the bubbles without ult iframes a lot easier.
@@ -375,11 +375,11 @@ Corrosion damage stacks are independent of each other, lasts for 10 seconds, dea
 5. Tick damage is additive based on stacks, for example the tick damage from 3 stacks is 3 times the amount of the damage from 1 stack  
 
 Raw data is attached as an excel file and videos are included below:  
-[Imgur](https://i.imgur.com/Z5calgE.gifv)  
-[Imgur](https://i.imgur.com/2I54yBP.gifv)  
-[Imgur](https://i.imgur.com/DFchs8Z.gifv)  
-[Imgur](https://i.imgur.com/HOOT8a0.gifv)  
-[Imgur](https://i.imgur.com/GSObOxQ.gifv)  
+* [Imgur](https://i.imgur.com/Z5calgE.gifv)  
+* [Imgur](https://i.imgur.com/2I54yBP.gifv)  
+* [Imgur](https://i.imgur.com/DFchs8Z.gifv)  
+* [Imgur](https://i.imgur.com/HOOT8a0.gifv)  
+* [Imgur](https://i.imgur.com/GSObOxQ.gifv)  
 
 Corrosion DMG Calc: [Spreadsheet](https://docs.google.com/spreadsheets/d/1MwTJoMBaK2zowbJtAkoFFYo-i2S4J43ItY30AF6Qk58)
 
@@ -424,9 +424,9 @@ Corrosion from big and small Rifthounds deal the same damage.
 Stacks are additive and independent.
 
 **Evidence:**  
-Does 0.5% max hp damage to Zhongli, and off-field party, through his shield: [imgur](https://imgur.com/v36CSSF)  
-Big and small Rifthounds deal the same damage: [imgur](https://imgur.com/BIg8Lki)  
-Multiple stacks deal damage with independent durations and independent damage tick intervals: [imgur](https://imgur.com/JcgR54Z)  
+* Does 0.5% max hp damage to Zhongli, and off-field party, through his shield: [imgur](https://imgur.com/v36CSSF)  
+* Big and small Rifthounds deal the same damage: [imgur](https://imgur.com/BIg8Lki)  
+* Multiple stacks deal damage with independent durations and independent damage tick intervals: [imgur](https://imgur.com/JcgR54Z)  
 
 **Significance:**  
 Better understanding of Corrosion status.  
@@ -435,7 +435,7 @@ Better understanding of Corrosion status.
 
 ### Mirror Maiden Mechanics
 
-**By:** Hatsuharufag#4291  
+**By:** Hatsuharufag\#4291  
 **Added:** 08/09/2021  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/872854146838061086/874259494719324210/transcript-mirror-maiden-mechanics.html)
 
@@ -454,47 +454,43 @@ Shields do not prevent getting marked. Jean/Bennet can't cleanse "marked" state.
 When MM uses her teleport move, she will randomly teleport in front of the active character or behind him. There are no set patterns, it's pure random. This is true for both states. Enviroment can displace her slightly to the sides.
 
 **Evidence:**  
-[Video](https://youtu.be/G-YTYWHaays) - Jean can not cleanse "marked" state, even though she can cleanse Childe and Azhada's marks. This is because MM's mark is not tied to elemental aura being applied to you. It's just a permanent trigger.
-
-[Video](https://youtu.be/HfaAvuxg6q0) - Animation of Mirror Maiden entering "Strong" state. Note the 4-leaf thingamajig on Jean. it symbolizes the "marked" state on a character.
-
-[Video](https://youtu.be/FaTd0dojIxM) - Mirror Maiden in "weak" state being yeet'ed by Jean.
-
-[Video](https://youtu.be/IjLV6MIUoQQ) - Mirror Maiden in "weak" state being ragdoll'ed by overload.
-
-[Video](https://youtu.be/aZqpqjSGkWU) - MM's third attack in "weak" state where she auto-summons a mirror to punish greedy apes.
+* [Video](https://youtu.be/G-YTYWHaays) - Jean can not cleanse "marked" state, even though she can cleanse Childe and Azhada's marks. This is because MM's mark is not tied to elemental aura being applied to you. It's just a permanent trigger.
+* [Video](https://youtu.be/HfaAvuxg6q0) - Animation of Mirror Maiden entering "Strong" state. Note the 4-leaf thingamajig on Jean. it symbolizes the "marked" state on a character.
+* [Video](https://youtu.be/FaTd0dojIxM) - Mirror Maiden in "weak" state being yeet'ed by Jean.
+* [Video](https://youtu.be/IjLV6MIUoQQ) - Mirror Maiden in "weak" state being ragdoll'ed by overload.
+* [Video](https://youtu.be/aZqpqjSGkWU) - MM's third attack in "weak" state where she auto-summons a mirror to punish greedy apes.
 
 **Significance:**  
 Don't be an ape. Don't get hit by attacks with clear visual indication and clear 'tells'. Don't be greedy. MM in "weak" state deals significantly less damage and is much easier to control.
 
 ### Escape Mirror Maiden trap
 
-**By:** gengar#8426  
+**By:** gengar\#8426  
 **Added:** 10/09/2021  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/888324080648982558/896137220493299802/transcript-escape-mirror-maiden-trap.html)
 
 **Finding:**  
 Some characters and abilities can escape the Fatui mirror maiden's trap.
 
-- Albedo (elevator up, elevator despawn)
-- Ayaka (N5, alternate sprint)
-- Bennett (skill at charge level 2)
-- Fischl (burst)
-- Geo MC (climb pre-placed meteorite, meteorite despawn)
-- Hu Tao (charged attack, unique sprint)
-- Kaeya (N5)
-- Kazuha (skill)
-- Keqing (N5, skill recast)
-- Lisa (N3/N4 teleport)
-- Mona (N3, hold skill, alternate sprint)
-- Rosaria (charged attack, skill)
-- Sara (skill)
-- Sayu (hold skill)
-- Venti (hold skill)
-- Xiangling (charged attack)
-- Xiao (skill, enhanced jump during burst)
-- Zhongli (charged attack, climb pre-placed pillar, pillar despawn)
-- Overworld (climb object, get knocked out by enemy)
+* Albedo (elevator up, elevator despawn)
+* Ayaka (N5, alternate sprint)
+* Bennett (skill at charge level 2)
+* Fischl (burst)
+* Geo MC (climb pre-placed meteorite, meteorite despawn)
+* Hu Tao (charged attack, unique sprint)
+* Kaeya (N5)
+* Kazuha (skill)
+* Keqing (N5, skill recast)
+* Lisa (N3/N4 teleport)
+* Mona (N3, hold skill, alternate sprint)
+* Rosaria (charged attack, skill)
+* Sara (skill)
+* Sayu (hold skill)
+* Venti (hold skill)
+* Xiangling (charged attack)
+* Xiao (skill, enhanced jump during burst)
+* Zhongli (charged attack, climb pre-placed pillar, pillar despawn)
+* Overworld (climb object, get knocked out by enemy)
 
 **Evidence:**  
 All evidence uploaded to Imgur and listed here: [Spreadsheet](https://docs.google.com/spreadsheets/d/1HB2M6yAFfSy3IdP-qtsNmb5Gd5dTHWnXk-dfDa-PC90/edit?usp=sharing)
@@ -513,7 +509,7 @@ Helpful for Spiral Abyss floor 12.
 Standing on top of a construct restricts Mitachurls to slime throwing attack only.  
 
 **Evidence:**  
-https://youtu.be/zELJKKnMyqA  
+[YouTube](https://youtu.be/zELJKKnMyqA  )
 
 **Signifiance:**  
 Ai manipulation.  
@@ -565,17 +561,17 @@ If you stun a Ruin Guard and your main carry is a spear user, you might want to 
 Context: The Ruin Hunter does not reveal a weak spot until it enters artillery mode.  
 
 **Evidence:**  
-[With Geo MC stand on E rock in front of him](https://youtu.be/FljlyQmXSS0)  
-[With Venti hold E Hover above him until he switches into artillery mode](https://youtu.be/oLILKnnFSbs)  
-[With Keqing (E cast on air)](https://youtu.be/PgrvHsDhg10)  
-[With Zhongli's pillar](https://youtu.be/CigM9h4-D9Q)  
+* [With Geo MC stand on E rock in front of him](https://youtu.be/FljlyQmXSS0)  
+* [With Venti hold E Hover above him until he switches into artillery mode](https://youtu.be/oLILKnnFSbs)  
+* [With Keqing (E cast on air)](https://youtu.be/PgrvHsDhg10)  
+* [With Zhongli's pillar](https://youtu.be/CigM9h4-D9Q)  
 
 **Significance:**  
 God forbid, a ruin hunter in the abyss but with this mechanic learned he's the easiest mob to beat since there's no delay after he recovers, just spam and take him down.  
 
 ### Ruin Hunter Weakspot abuse   
 
-**By:** deRykcihC#0621  
+**By:** deRykcihC\#0621  
 **Added:** 08/28/2020  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/878715141431115796/880934050624327800/transcript-abyss-map-time-delay-bug.html)
 
@@ -610,7 +606,7 @@ Provides an alternative method for eliminating annoying mini-dendro slimes.
 
 ### Anemo Slimes get one shot in the air
 
-**By:** Daybreak#0584  
+**By:** Daybreak\#0584  
 **Added:** 07/24/2021  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/867117609450340392/868287985743970314/transcript-anemo-slime-one-shot-in-air.html)
 
@@ -627,7 +623,7 @@ If anemo slimes are ever introduced to the abyss, this information could be usef
 
 ### Hydro Slimes Apply Wet to Surroundings  
 
-**By:** Rainfury#8343  
+**By:** Rainfury\#8343  
 **Added:** 10/25/2021  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/883264842931257425/902081518808203324/transcript-hydro-slimes-apply-wet-to-surrounding-in-certain-situations.html)
 
@@ -635,18 +631,18 @@ If anemo slimes are ever introduced to the abyss, this information could be usef
 Hydro slimes will apply hydro to both enemies and allies in their surroundings when they land from bouncing (after three hops for small slimes, every hop for large slimes), when they are hit by an attack, including attacks which they are immune to, and when they are unfrozen or shatter removes them from a frozen state. Hydro slimes will not apply hydro if they are frozen. This elemental application will not trigger damaging reactions. 
 
 **Evidence:**  
-Hydro application from bounces: [Youtube](https://youtu.be/nckb-u6WBu8), [Youtube](https://youtu.be/1JNVta6C2GY)  
-Hydro application upon hit: [Imgur](https://imgur.com/a/1kkpMhr), [Imgur](https://imgur.com/a/0VciMcu), [Youtube](https://youtu.be/q-avodAKeEs), [Youtube](https://youtu.be/LpnIyFNejBw)  
-Hydro application upon unfreeze: [Youtube](https://youtu.be/nRTK21ZQSSU), [Youtube](https://youtu.be/iOYamVjMRhU)  
-No hydro application when frozen: [Imgur](https://imgur.com/a/YDww90R)  
-No trigger on damaging reactions: [Imgur](https://imgur.com/a/Isc993K)
+* Hydro application from bounces: [Youtube](https://youtu.be/nckb-u6WBu8), [Youtube](https://youtu.be/1JNVta6C2GY)  
+* Hydro application upon hit: [Imgur](https://imgur.com/a/1kkpMhr), [Imgur](https://imgur.com/a/0VciMcu), [Youtube](https://youtu.be/q-avodAKeEs), [Youtube](https://youtu.be/LpnIyFNejBw)  
+* Hydro application upon unfreeze: [Youtube](https://youtu.be/nRTK21ZQSSU), [Youtube](https://youtu.be/iOYamVjMRhU)  
+* No hydro application when frozen: [Imgur](https://imgur.com/a/YDww90R)  
+* No trigger on damaging reactions: [Imgur](https://imgur.com/a/Isc993K)
 
 **Significance**  
 Better understanding of enemy and character aura management in combat with hydro slimes. 
 
 ### Slime Balloon  
 
-**By:** ariose#3891  
+**By:** ariose\#3891  
 **Added:** 08/31/2021  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/881262532914974720/882077997841133618/transcript-slime-balloon-mechanics.html)
 
@@ -668,7 +664,7 @@ With this knowledge you can finish your commissions 2 seconds faster.
 
 ### Specter Defeat Interaction
 
-**By:** Rathalos#2875  
+**By:** Rathalos\#2875  
 **Added:** 11/5/2021  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/905809922913079327/906340038013493248/transcript-specter-defeat-interactions.html)  
 
