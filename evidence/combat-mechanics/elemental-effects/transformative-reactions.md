@@ -815,8 +815,6 @@ Shatter + Melt Evidence: [Video](https://youtu.be/yxTISikxnf4)
 **Significance:**  
 Bug discovering
 
-### **Crystallize on an Electro-Charged Enemy**
-
 ## Swirl
 
 ### How to get Double Swirls
