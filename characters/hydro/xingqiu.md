@@ -5,9 +5,9 @@ description: A young man carrying a longsword who is frequently seen at book boo
 # Xingqiu
 
 ## **Resources**
-[Xingqiu Mains Discord](https://discord.gg/5MKsJyhkQv)
-[Written Guide: Xingqiu Handbook](https://keqingmains.com/xingqiu/)
-[5 Minute Quick Guide to Xingqiu](https://youtu.be/EiOP60N4p58)
+[Xingqiu Mains Discord](https://discord.gg/5MKsJyhkQv)  
+[Written Guide: Xingqiu Handbook](https://keqingmains.com/xingqiu/)  
+[5 Minute Quick Guide to Xingqiu](https://youtu.be/EiOP60N4p58)  
 
 ## ![](../../.gitbook/assets/element_hydro.png) Xingqiu
 
