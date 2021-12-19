@@ -262,3 +262,22 @@ When graphed by fortune type, the modest and great fortunes are the most likely,
 **Significance:**  
 Getting the "Paimon's Lucky Day!" achievement is significantly easier than the "Just My Luck..." achievement. There is a 25% chance to get the Great Fortune, which means that 50% of people will get the "Paimon's Lucky Day!" by their 3rd slip. There is only a 6.25% chance of getting the Great Misfortune, which means that 50% of people will get the "Just My Luck..." by their 11th slip. This means that most people will be able to get both achievements within two weeks.  
 
+## Enemy level vs. average party level
+
+**By:** r.rei#2844  
+**Added:** 19/12/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/920224953935216670/921938746549608480/transcript-enemy-level-vs-average-party-level.html)  
+
+**Findings:**   
+* Enemy level colour is based on your highest owned character level, and current team level is irrelevant.
+* Enemy defense is based on the difference of level to the character attacking, the colour of enemy level does not affect that. 
+* Average party level warning/zone level warning is a lie, only highest level character is accounted for.  
+
+**Evidence:** [Imgur](https://imgur.com/a/0wWvY56)  
+First recording Thoma E damage aligns with 2nd damage calculation, proves that enemy level colour indicator has nothing to do with enemy defense calculation: [Imgur](https://imgur.com/a/biAv7pk)
+
+**Significance:**  
+* To get rid of "Dangerous Zone" warning, you only need to level one character.
+* Enemy level colour is an unreliable indicator.
+
+
