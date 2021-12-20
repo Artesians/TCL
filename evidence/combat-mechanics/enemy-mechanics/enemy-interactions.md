@@ -73,6 +73,27 @@ Dash iframes do not always work against the bubbles, especially for the abyss ma
 
 ## Boss Enemies
 
+### Anemo Hypostasis self-Swirl in rain
+**By:** CrazyWeke123#9720  
+**Added:** 21/12/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/921660671836438558/922624867973619802/transcript-anemo-cube-self-swirl-in-rain.html)  
+
+**Finding:** Adequately getting rid of overworld Hydro on the Anemo Hypostasis results in it continuously Swirling itself, this damages the cube and applies Hydro to nearby characters. This can be easily done with 2U Cryo application, as seen in the evidence. Non-sufficent Cryo application does not result in this occcuring.  
+
+**Evidence:** 
+* [Youtube](https://youtu.be/iXnr9uPu6ZU)  
+0:00 Chongyun E  
+0:25 Kaeya E  
+0:30 Aloy Q  
+0:35 Qiqi Q  
+0:45 Chongyun Q  
+0:54 Less than 2U Cryo application not working.  
+1:19 Bennett, Diona and Raiden E not working.  
+* [Youtube](https://youtu.be/I0NNtBSx-z0)  
+2 Baron Bunnies have enough Pyro app. to wipe the Hydro and start the Swirl conundrum.  
+
+**Significance:** Free damage on the cube.  
+
 ### Freeze Interaction on Boss Enemies
 
 **By:** Yukarix\#6534  
