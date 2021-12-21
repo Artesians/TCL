@@ -1,3 +1,3 @@
 # Food
 
-### Hitlag has no effect on food buff durations
+* Hitlag has no effect on food buff durations.
