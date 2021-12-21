@@ -132,6 +132,27 @@ Because the gadget stops following the enemy when it begins its hitscans, it may
 
 In addition, because enemies can exit the hitscan area early, using her charged attack right as an enemy is about to jump, dash or teleport away can also result in potential damage loss.
 
+### Ayaka’s CA hitscan also has negative vertical reach.  
+**By:** Asaki#9139  
+**Added:** 21/12/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/920526901016150056/922629903579508797/transcript-ayaka-ca-below-feet.html)  
+
+**Finding:** Apart from being able to reach enemies above Ayaka’s ground level (due to Venti’s lift, or Jean’s CA, etc.), Ayaka’s CA can also reach enemies below her ground level, thanks to the mechanics of her subsequent hitscans from the intial one.
+
+**Evidence:** 
+* [Youtube](https://youtu.be/0KrA4O_esPo)  
+There are timestamps in the comment if you want to skip quicker or instantly replay but the whole video was an attempt at recording this.
+
+* It’s important to note that only the subsequent slashes have this property. If the initial hit does not register onto an enemy, the following slashes will simply appear at around the same vertical height Ayaka used to be right before the animation of the subsequent slashes start. As seen here (provided by Nass008#8577) when she falls down, a few of the secondary slashes hit:   
+[Imgur](https://imgur.com/uF4UEnm)
+
+**Significance:**  
+* Overworld fluff: Being lifted by Albedo’s elevator may not be as devastating, if you decide to pair them up. One of these scenarios can happen:  
+a) N1 spawns hitscan, locked on, Albedo suddenly lifts, initial slash still hit (prolly in the head or sth), subsequent hitscans spawn around the first slash as the current CA gadget theory suggests, everything else still gets hit by the CA. No video evidence on this currently.  
+b) Ayaka is already lifted, Venti’s ult is right in front, but there’s exactly one enemy right on the ground that can’t be picked up. The height range is definitely shorter than the cliff so it’s guaranteed to hit.
+
+* These evidence suggests that the subsequent (or secondary) hitscans cover a larger AoE compared to the initial scan (check torch). If someone else can properly investigate the AoE width of the subsequent hitscans, it’d be much appreciated.
+
 ## Dash Mechanics
 
 ### Ayaka Dash Iframe  
