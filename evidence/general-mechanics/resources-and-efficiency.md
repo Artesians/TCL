@@ -499,7 +499,7 @@ I am the Lorax. I speak for the trees.
 
 Summary of Results, most efficient units for tree chopping:
 
-* Xingqiu \(only if you manually time their attack string, spam clicking won't work\)
+* Thoma
 * Keqing
 * Rosaria
 * Xiao
