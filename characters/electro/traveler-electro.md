@@ -156,18 +156,17 @@ When your active character's Normal or Charged Attacks hit opponents, they will 
 | CD | 20s |
 
 * The energy regenerated from **Falling Thunder** is classified as flat energy.
-* **Falling Thunder** DMG is snapshot on **Bellowing Thunder** cast.
+* **Falling Thunder** DMG snapshots on **Bellowing Thunder** cast.
 
 {% endtab %}
 {% endtabs %}
 
-## 8*
+## Ascension Passives
 
 {% tabs %}
 {% tab title="Passive" %}
-### N/A
 
-404 does not exist.
+The Traveller has no passive talent.
 
 {% endtab %}
 
