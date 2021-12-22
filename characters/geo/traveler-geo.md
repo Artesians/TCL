@@ -135,9 +135,7 @@ Deals 4 waves of damage to enemies and knocks them back away from the caster.
 
 {% tabs %}
 {% tab title="Passive" %}
-### N/A
-
-404 does not exist.
+The Traveller has no passive talent.
 {% endtab %}
 
 {% tab title="Ascension 1" %}
