@@ -41,10 +41,11 @@ It is advised to leave Tatarasuna for last due to the [investigation spot daily 
 
 ## Zone Levels:
 
-The overworld map is split into multiple zones that affect enemy level and environmental reactions:  
-* [Mondstadt](https://i.imgur.com/E0oN0B6.jpg)  
-* [Liyue](https://imgur.com/a/8KAMXuE)  
-* [Inazuma](https://imgur.com/a/Qmhh5Po)  
+The overworld map is split into multiple zones that affect enemy level and environmental reactions. There are "no level" zones which take on the level of the previous zone visited. 
+* [Teyvat](https://i.imgur.com/sBjFlDH.png) 
+* [Mondstadt](https://i.imgur.com/VpKGD81.png)  
+* [Liyue](https://i.imgur.com/tn5tOFy.png)  
+* [Inazuma](https://i.imgur.com/mOq1cwf.png)  
 
 ## Artifacts
 
