@@ -153,9 +153,7 @@ If the **tornado** comes into contact with Hydro/Pyro/Cryo/Electro, it will deal
 
 {% tabs %}
 {% tab title="Passive" %}
-### N/A
-
-404 does not exist.
+The Traveller has no passive talent.
 {% endtab %}
 
 {% tab title="Ascension 1" %}
