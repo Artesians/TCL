@@ -1104,7 +1104,7 @@ For Kazuha, this is more or less expected since we know his talent damage is sim
 
 For Sucrose, all this tells us there is some other stuff about, since we still don't know if her talent damage is sequential or simultaneous.
 
-### 4pc VV Application Mechanics
+### 4pc VV AoE Application Ping Dependency
 
 **By:** NZPIEFACE\#8439  
 **Added:** 12/21/2021  
