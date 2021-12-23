@@ -16,13 +16,13 @@ description:  A traveler from another world who had their only kin taken away, f
 
 | Lv | Base HP | Base ATK | Base DEF | ATK% |
 | :--- | :--- | :--- | :--- | :--- |
-| 60 | 7164 | 140 | 450 | 12 |
-| 60+ | 7648 | 149 | 480 | 12 |
-| 70 | 8401 | 164 | 527 | 12 |
-| 70+ | 8885 | 174 | 558 | 18 |
-| 80 | 9638 | 188 | 605 | 18 |
-| 80+ | 10122 | 198 | 635 | 24 |
-| 90 | 10875 | 212 | 683 | 24 |
+| 60 | 7164 | 140 | 450 | 12% |
+| 60+ | 7648 | 149 | 480 | 12% |
+| 70 | 8401 | 164 | 527 | 12% |
+| 70+ | 8885 | 174 | 558 | 18% |
+| 80 | 9638 | 188 | 605 | 18% |
+| 80+ | 10122 | 198 | 635 | 24% |
+| 90 | 10875 | 212 | 683 | 24% |
 
 ## **Attacks**
 
@@ -279,7 +279,7 @@ If an Elemental Absorption occurred, then their RES towards the corresponding El
 {% endtab %}
 {% endtabs %}
 
-## **Evidence Vault:**
+## Evidence Vault
 
 {% page-ref page="../../evidence/characters/anemo/traveler-anemo.md" %}
 

@@ -5,10 +5,10 @@ description: A young man carrying a longsword who is frequently seen at book boo
 # Xingqiu
 
 ## **Resources**
-[Xingqiu Mains Discord](https://discord.gg/5MKsJyhkQv)  
-[A Revised Xingqiu Handbook](https://keqingmains.com/xingqiu-short/)  
-[Extended Xingqiu Guide: Prospector of Precipitation](https://keqingmains.com/xingqiu-extended/)  
-[5 Minute Quick Guide to Xingqiu](https://youtu.be/EiOP60N4p58)  
+* [Xingqiu Mains Discord](https://discord.gg/5MKsJyhkQv)  
+* [A Revised Xingqiu Handbook](https://keqingmains.com/xingqiu-short/)  
+* [Extended Xingqiu Guide: Prospector of Precipitation](https://keqingmains.com/xingqiu-extended/)  
+* [5 Minute Quick Guide to Xingqiu](https://youtu.be/EiOP60N4p58)  
   
 ## ![](../../.gitbook/assets/element_hydro.png) Xingqiu
 
@@ -18,13 +18,13 @@ description: A young man carrying a longsword who is frequently seen at book boo
 
 | Lv | Base HP | Base ATK | Base DEF | ATK% |
 | :--- | :--- | :--- | :--- | :--- |
-| 60 | 6735 | 133 | 499 | 12 |
-| 60+ | 7190 | 142 | 533 | 12 |
-| 70 | 7897 | 156 | 585 | 12 |
-| 70+ | 8352 | 165 | 619 | 18 |
-| 80 | 9060 | 179 | 671 | 18 |
-| 80+ | 9514 | 188 | 705 | 24 |
-| 90 | 10222 | 202 | 758 | 24 |
+| 60 | 6735 | 133 | 499 | 12% |
+| 60+ | 7190 | 142 | 533 | 12% |
+| 70 | 7897 | 156 | 585 | 12% |
+| 70+ | 8352 | 165 | 619 | 18% |
+| 80 | 9060 | 179 | 671 | 18% |
+| 80+ | 9514 | 188 | 705 | 24% |
+| 90 | 10222 | 202 | 758 | 24% |
 
 ## **Attacks**
 
