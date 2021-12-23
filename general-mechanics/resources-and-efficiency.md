@@ -137,6 +137,7 @@ The most efficient units for tree chopping:
 * Keqing
 * Rosaria
 * Xiao  
+
 Details: [Google Doc](https://docs.google.com/spreadsheets/d/1Q4HKzkaw7YFNZyIJSjRINZJonFe1kiDwz1dEbpcZiNk/edit#gid=937070148)
 
 ### Tree Chopping Memory Mechanics
