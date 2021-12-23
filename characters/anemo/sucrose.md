@@ -96,7 +96,8 @@ If the **Wind Spirit** comes into contact with **Hydro/Pyro/Cryo/Electro,** it w
 | Cooldown | 20s | - |
 
 * Freeze and Petrify will allow Sucrose to group enemies together without launching them into the air.  
-* Absorption priority: Pyro > Hydro > Electro > Cryo  
+* Absorption priority: Pyro > Hydro > Electro > Cryo 
+* Absorption Damage is simultaneous 
 
 {% endtab %}
 {% endtabs %}
@@ -116,6 +117,8 @@ When Sucrose crafts Character and Weapon Enhancement Materials, she has a 10% ch
 When Sucrose triggers a **Swirl** reaction, all characters in the part with the matching element, excluding Sucrose herself, gain 50 **Elemental Mastery** for 8s.
 * This effect can be triggered even when Sucrose is not on the field.  
 * This effect cannot be triggered by swirling off Guoba or environmental objects such as cooking pots.
+* This effect can be triggered by chain reaction Swirls.
+* Swirls caused by the absorbed element in **Forbidden Creation-Isomer 75/Type II** can trigger this effect.  
 {% endtab %}
 
 {% tab title="Ascension 4" %}

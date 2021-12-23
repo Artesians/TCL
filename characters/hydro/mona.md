@@ -206,9 +206,12 @@ When any of your own party members hit an opponent affected by an **Omen**, Hydr
 * Frozen duration is extended by 15%
 
 This bonus effect is additive and classified as **ReactionBonus.**  
-See: [Damage Formula](../../combat-mechanics.damage/damage-formula.md#amplifying-reaction-bonus)
+See: [Damage Formula](../../combat-mechanics/damage/damage-formula.md#amplifying-reaction-bonus)
 
 Teammates in Co-op are not counted as "your own party members" and will not obtain the effects of **Prophecy of Submersion.**
+* Vaporize DMG bonus can be snapshotted.
+* Hydro Swirl and Electro-Charged DMG bonus do not snapshot and require the reaction owner to be onfield.
+* **Prophecy of Submersion** does not extend Frozen.
 {% endtab %}
 
 {% tab title="C2" %}

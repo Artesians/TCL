@@ -9,7 +9,7 @@ description: A young man carrying a longsword who is frequently seen at book boo
 * [A Revised Xingqiu Handbook](https://keqingmains.com/xingqiu-short/)  
 * [Extended Xingqiu Guide: Prospector of Precipitation](https://keqingmains.com/xingqiu-extended/)  
 * [5 Minute Quick Guide to Xingqiu](https://youtu.be/EiOP60N4p58)  
-  
+
 ## ![](../../.gitbook/assets/element_hydro.png) Xingqiu
 
 ![](../../.gitbook/assets/character_xingqiu_wish.png)
@@ -251,8 +251,7 @@ Energy regeneration is not affected by Energy Recharge.
 {% endtab %}
 {% endtabs %}
 
-
-## **Evidence Vault:**
+## Evidence Vault
 
 {% page-ref page="../../evidence/characters/hydro/xingqiu.md" %}
 
