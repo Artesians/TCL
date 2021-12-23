@@ -16,13 +16,13 @@ description:  A traveler from another world who had their only kin taken away, f
 
 | Lv | Base HP | Base ATK | Base DEF | ATK% |
 | :--- | :--- | :--- | :--- | :--- |
-| 60 | 7164 | 140 | 450 | 12 |
-| 60+ | 7648 | 149 | 480 | 12 |
-| 70 | 8401 | 164 | 527 | 12 |
-| 70+ | 8885 | 174 | 558 | 18 |
-| 80 | 9638 | 188 | 605 | 18 |
-| 80+ | 10122 | 198 | 635 | 24 |
-| 90 | 10875 | 212 | 683 | 24 |
+| 60 | 7164 | 140 | 450 | 12% |
+| 60+ | 7648 | 149 | 480 | 12% |
+| 70 | 8401 | 164 | 527 | 12% |
+| 70+ | 8885 | 174 | 558 | 18% |
+| 80 | 9638 | 188 | 605 | 18% |
+| 80+ | 10122 | 198 | 635 | 24% |
+| 90 | 10875 | 212 | 683 | 24% |
 
 ## **Attacks**
 
@@ -153,9 +153,7 @@ If the **tornado** comes into contact with Hydro/Pyro/Cryo/Electro, it will deal
 
 {% tabs %}
 {% tab title="Passive" %}
-### N/A
-
-404 does not exist.
+The Traveller has no passive talent.
 {% endtab %}
 
 {% tab title="Ascension 1" %}
@@ -257,11 +255,11 @@ If an Elemental Absorption occurred, then their RES towards the corresponding El
 |  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 | Lv12 | Lv13 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | Initial Cutting DMG | 16.80% | 18% | 19.20% | 20.40% | 21.60% | 22.80% | 24 | 25.50% |
-| Initial Cutting Elemental DMG | 4.20% | 4.50% | 4.80% | 5.10% | 5.40% | 5.70% | 6% | 6.38% |
+| Initial Cutting Additional Elemental DMG | 4.20% | 4.50% | 4.80% | 5.10% | 5.40% | 5.70% | 6% | 6.38% |
 | Max Cutting DMG | 23.52% | 25.20% | 26.88% | 28.56% | 30.24% | 31.92% | 33.60% | 35.70% |
-| Max Cutting Elemental DMG | 5.88% | 6.30% | 6.72% | 7.14% | 7.56% | 7.98% | 8.40% | 8.93% |
+| Max Cutting Additional Elemental DMG | 5.88% | 6.30% | 6.72% | 7.14% | 7.56% | 7.98% | 8.40% | 8.93% |
 | Initial Storm DMG | 246.40% | 264% | 281.60% | 299.20% | 316.80% | 334.40% | 352% | 374% |
-| Initial Storm Elemental DMG | 61.60% | 66% | 70.40% | 74.80% | 79.20% | 83.60% | 88% | 93.50% |
+| Initial Storm Additional Elemental DMG | 61.60% | 66% | 70.40% | 74.80% | 79.20% | 83.60% | 88% | 93.50% |
 | Max Storm DMG | 268.80% | 288% | 307.20% | 326.40% | 345.60% | 364.80% | 384% | 408% |
 | Max Storm Elemental DMG | 67.20% | 72% | 76.80% | 81.60% | 86.40% | 91.20% | 96% | 102% |
 
@@ -281,7 +279,7 @@ If an Elemental Absorption occurred, then their RES towards the corresponding El
 {% endtab %}
 {% endtabs %}
 
-## **Evidence Vault:**
+## Evidence Vault
 
 {% page-ref page="../../evidence/characters/anemo/traveler-anemo.md" %}
 

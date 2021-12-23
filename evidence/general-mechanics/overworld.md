@@ -25,6 +25,136 @@ search: false
 * Kageroumaru take hits like a chad.
 * Helps to map out how XQ’s orbitals work. 
 
+## Explosive Barrel Properties
+
+**By:** kxmndz\#4700  
+**Added:** 12/16/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/903329501226860666/921012856277848114/transcript-explosive-barrel-properties.html)  
+
+**Finding:**  
+1. Barrel damage is affected by the unit's defense, following the damage formula here: https://genshin-impact.fandom.com/wiki/Defense. Attributes such as level, ascension, max hp have no effect on the amount of damage inflicted by barrel explosions.
+2. Barrels do pyro damage, and is affected by reactions such as vaporize as well as pyro resist.
+3. Damage Reduction such as Xingqiu rainsword orbitals can reduce explosion damage.
+4. Explosive barrels have levels.
+5. Barrel levels (probably) follow zone level rules.
+
+**Evidence:** A series of suicide-by-barrel attempts have demonstrated the following findings:  
+
+[[1]](https://imgur.com/v98QL8g) ,
+[[2]](https://imgur.com/ggMOrsj) ,
+[[3]](https://imgur.com/zRzvyeZ) ,
+[[4]](https://imgur.com/qneIdc7) ,
+[[5]](https://imgur.com/ajV1HWl) ,
+[[6]](https://imgur.com/0AU4aUE) ,
+[[7]](https://imgur.com/7Sv3dnW) ,
+[[8]](https://imgur.com/l9eOVne) ,
+[[9]](https://imgur.com/zDUJ1no) ,
+[[10]](https://imgur.com/8cc3Cg3) ,
+[[11]](https://imgur.com/6xeP0K7) ,
+[[12]](https://imgur.com/03xLsXN)  
+
+Damage can be plotted against defense - [Image](https://imgur.com/ZTEWcff)
+
+Inverse of damage, or effective hp (EHP), against defense: - [Image](https://imgur.com/nhw1sFu) 
+
+Inverting barrel damage to EHP linearizes the trend, allowing a linear regression to be performed with the previous data points.  
+
+Coefficients
+| | Estimate | Std. Error | t value | Pr\(>\|t\|\) |
+| :--- | :--- | :--- | :--- | :--- |
+| (Intercept) | 1.277e-04 | 1.953e-08 | 6536 | <2e-16  ***  
+| def         | 1.443e-07 | 1.911e-11 | 7555 | <2e-16  ***  
+
+Signif. codes:  0 ‘\*\*\*’ 0.001 ‘\*\*’ 0.01 ‘\*’ 0.05 ‘.’ 0.1 ‘ ’ 1  
+
+Residual standard error: 4.527e-08 on 13 degrees of freedom  
+Multiple R-squared:      1,    Adjusted R-squared:      1   
+F-statistic: 5.707e+07 on 1 and 13 DF,  p-value: < 2.2e-16
+
+Barrels do pyro damage, and is affected by reactions such as vaporize as well as pyro resist.
+* [Video 1](https://imgur.com/0AU4aUE)
+* [Video 2](https://imgur.com/SF3xnw9)
+* [Video 3](https://imgur.com/SyDSiRn)
+* [Video 4](https://imgur.com/J7zMioL)
+
+Damage reduction such as Xingqiu rainsword orbitals can reduce explosion damage
+* [Video](https://imgur.com/OqamQMJ)
+
+Explosive barrels have levels
+
+The formula for EHP vs defense from linear regression EHP = 1.443e-07 * DEF + 1.277e-04 can be applied to figure out the base damage (damage done if the unit has 0 defense) as well as the level of the barrels, following the Genshin damage formula linked above.  
+
+Base damage of the tested barrel is the inverse of the Y-intercept, or when DEF = 0. 1.277e-04^-1 = 7832.3563130198 or 7832 when rounded to a whole number.  
+
+To figure out the level of the barrel:  
+Incoming damage = Original damage * (1 - Damage reduction)  
+Damage reduction = DEF / (DEF + 5*Level + 500)  
+
+Incoming dmg → Inf means  
+Incoming damage = Original damage * (1 - Damage reduction) → Inf  
+which, given constant original damage translates as  
+-Damage reduction → Inf, then  
+Damage reduction = DEF / (DEF + 5*Level + 500) → -Inf  
+And this is only possible if the denominator (DEF + 5 * Level + 500)→ 0⁻, given a constant def  
+
+In practice, the negative value of the "x-intercept" (DEF when EHP approaches 0, or barrel damage approaches infinity) in the EHP vs DEF function is DEF + 5 * Level + 500. Since the x-intercept is -884 defense, the level of the barrel is 76.9, or 77 when rounded to whole number levels.  
+
+Important note: This level only applies to the two tested barrels shown in the videos in evidence 1.
+
+Barrel levels (probably) follow zone level rules.  
+* [Zone levels](../evidence/general-mechanics/overworld.md#zone-levels) 
+* [Mondstadt zone map](https://imgur.com/E0oN0B6)
+
+Two zones (dark blue, orange) were tested and the barrels within those zones all do the same amount of damage, given that the character's defense remains constant.   
+
+The barrels tested in evidence a) agree with the zone level map (blue, levels 77 to 79).  
+
+Enemies in the northern orange zone are between 82 and 90, and calculations with the evidence shows that those barrels are level 90 with base damage of 12176.  
+* [Video](https://imgur.com/kD53Izk)
+* [Video](https://imgur.com/HPkmo82)
+* [Video](https://imgur.com/aaWNYNq)
+
+**Significance:** Insight into the mechanics of overworld explosive barrels. Hopefully lays the foundation for the research of future explosive barrel enthusiasts.
+  
+## Inazuma Artifact Spots
+
+**By:** Mcpie#8672  
+**Added:** 16/12/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/868098829361229834/920808595594043402/transcript-inazuma-artifact-spots.html)
+
+**Finding:** There are currently 214 (+1 or +2) respawnable investigation spots that drop artifacts. 
+
+Pre 2.0:
+* Liyue (pre 2.0) - 48 spots.
+* Dragonspine - 7 spots.  
+
+2.0:
+* Liyue (added in 2.0) - 6 spots.
+* Inazuma non-Tatarasuna - 24 spots.
+* Tatarasuna - 24 spots.
+* Bake-danukis - 11 spots.
+* Cannons - 5 spots.
+* Conch spots on the beach - either 1 or 2 spots - rng based.  
+
+Patch 2.1 introduced 2 more islands. Each island has:
+* Seirai island: 44 spots.
+* Watatsumi island: 24 spots.
+* Bake-danukis - 6 spots.    
+
+Patch 2.2 introduced Tsurumi Island:
+* Moshiri Kara: 1 spot (north of Tsurumi Island).
+* Tsurumi Island: 14 spots.  
+
+Maps:
+* [Liyue + Dragonspine](https://raw.githubusercontent.com/mcpie87/gi-artifacts/master/liyue.jpg)
+* [Inazuma + Bake-danukis](https://raw.githubusercontent.com/mcpie87/gi-artifacts/master/inazuma.jpg)
+* [Cannons](https://raw.githubusercontent.com/mcpie87/gi-artifacts/master/cannon-guide.jpg) (by Miin from Hoyolab).  
+
+**Evidence:**
+Transcript of this entire ticket + spreadsheet displaying each spot with a screenshot and video for each spot: [Spreadsheet](https://docs.google.com/spreadsheets/d/1zDMPfY8SKR7mb-tASNedWmj62wJOnDbSsVVR17ykg6I)  
+Unfortunately we're unable to tell if we managed to cover all of the spots, but based on our research (from the transcript) we managed to gather 144 (+1/+2) investigation spots that drop artifacts.
+
+
 ## Cursed Terrain
 
 ### Electro Crystals have levels
@@ -126,8 +256,8 @@ Understanding the cursed overworld of Teyvat
 **By:** Greyhound\#7836, mol\#3280, deaf#0246  
 **Added:** 06/23/2021  
 **Updated:** 07/08/2021  
-[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/851603340403933194/857345614483554334/transcript-cursed-terrain-world-levels.html)  
-[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/873033114723696660/873532969355210752/transcript-overworld-entity-levels-revisited.html)
+[Discussion 1](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/851603340403933194/857345614483554334/transcript-cursed-terrain-world-levels.html)  
+[Discussion 2](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/873033114723696660/873532969355210752/transcript-overworld-entity-levels-revisited.html)
 
 **Finding:**  
 Overworld has levels for every "body", including water and grass and sand, trees, rocks, and other things that we can't prove in any other way other than the game's code which shows this, thus varying stats which is proven by their damage.
@@ -198,12 +328,13 @@ Putting out campfires with utmost efficiency
 
 ### Zone Levels
 
-
 #### Mondstadt
 
 **By:** deaf\#0246  
 **Added** 08/26/2021  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/872856833835036723/878915593116454932/transcript-zone-levels.html)  
+
+*Zone levels have been updated as of 12/22/2021 with more precise maps. See below.*
 
 **Finding:**  
 The overworld in Genshin is split into multiple zones which can be distinguished by how much damage overworld reactions deal. These are the zones for Mondstadt.  
@@ -222,6 +353,9 @@ I have nothing but regrets.
 **By:** Vladone ツ\#9281  
 **Added** 11/11/2021  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/905965525027414056/908513612430184458/transcript-zone-levels-liyue.html)  
+
+*Zone levels have been updated as of 12/22/2021 with more precise maps. See below.*
+
 
 **Finding:**  
 The overworld map is split into multiple zones that effect damage dealt by environmental reactions. These are the zones for Liyue.  
@@ -242,6 +376,8 @@ Fluff and overworld documentation.
 **Added** 11/11/2021  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/905984755986726972/908513380455809084/transcript-zone-levels-inazuma.html)  
 
+*Zone levels have been updated as of 12/22/2021 with more precise maps. See below.*
+
 **Finding:**  
 The overworld map is split into multiple zones that effect damage dealt by environmental reactions. These are the zones for Inazuma.  
 
@@ -251,7 +387,32 @@ My methodology for the borders in the water can be seen in [this video](https://
 Also, I think we can all agree that trying to document anything in the ocean between Inazuma and Liyue is unreasonable, so the northern borders are completely made up.  
 
 **Significance:**  
-Fluff, and overworld documentation I guess.  
+Fluff, and overworld documentation I guess. 
+
+#### Zone Levels Update
+**By:** deaf\#0246 & Vladone ツ\#9281  
+**Added** 12/22/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/918005225162432543/923133715008352266/transcript-zone-levels.html)
+
+1. **Mondstadt**  
+Map has been updated and there is a newly discovered area that doesn't have a zone level. - [Updated Mondstadt Map](https://imgur.com/VpKGD81)  
+The no level area (Mondstadt bridge) does not have any value marked in the game code. Burned grass and electrified water do damage, but the damage is depending on the previous zone level you have been in. In other words, that area's level is dynamic and fully dependent on your position on the map before entering it. - [Video example of the no level area](https://youtu.be/qj3ROEgPc84)  
+
+2. **Liyue**  
+Map has been updated. - [Updated Liyue Map](https://imgur.com/tn5tOFy)  
+
+3. **Inazuma**  
+Map has been updated. - [Updated Inazuma Map](https://imgur.com/mOq1cwf)
+
+4. **Teyvat**  
+Map has been updated. - [Updated Teyvat Map](https://imgur.com/sBjFlDH)
+
+5. **Mentions**  
+By "'map has been updated" we understand:  
+\- all the maps have more accurate borders that include even those present in the water  
+\- all maps have high quality renders taken directly from the finished Teyvat render  
+\- all maps share the same color marks specific to their level
+
 
 ### Bush Elemental Interaction
 
