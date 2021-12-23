@@ -395,17 +395,17 @@ Fluff, and overworld documentation I guess.
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/918005225162432543/923133715008352266/transcript-zone-levels.html)
 
 1. **Mondstadt**  
-Map has been updated and there is a newly discovered area that doesn't have a zone level. - [Updated Mondstadt Map](https://imgur.com/VpKGD81)  
-The no level area (Mondstadt bridge) does not have any value marked in the game code. Burned grass and electrified water do damage, but the damage is depending on the previous zone level you have been in. In other words, that area's level is dynamic and fully dependent on your position on the map before entering it. - [Video example of the no level area](https://youtu.be/qj3ROEgPc84)  
+Map has been updated and there is a newly discovered area that doesn't have a zone level. - [Updated Mondstadt Map](https://photos.google.com/share/AF1QipNH_MBr8Dfh3fzm6_x4lQqb0bdzrV7tWi6JHaJlnwCElh7v5X4zIiLYp6_DHR5MBA?key=bTlnQXFPdDhLQlhsbDBlSEpVN2R3dWRJdjEtdnFB)  
+The no level area (Mondstadt bridge) does not have any value marked in the game code. Burned grass and electrified water do damage, but the damage is depending on the previous zone level you have been in. In other words, that area's level is dynamic and fully dependent on your position on the map before entering it. - [Video example of the no level area](https://www.youtube.com/watch?v=qj3ROEgPc84)  
 
 2. **Liyue**  
-Map has been updated. - [Updated Liyue Map](https://imgur.com/tn5tOFy)  
+Map has been updated. - [Updated Liyue Map](https://photos.google.com/share/AF1QipPLmV3Pt5S9suJQSMm4rK6eVhIerzuS6VEMQmdlZJpI8IUMPjNM4FEeHvaG4BiJeA?key=eG1FUE82Mk92TUtxbUt2STUzNVlnbDdUYTQwUFJR)  
 
 3. **Inazuma**  
-Map has been updated. - [Updated Inazuma Map](https://imgur.com/mOq1cwf)
+Map has been updated. - [Updated Inazuma Map](https://photos.google.com/share/AF1QipO_e3CL7arfSKBptsr_IU5oLM6Bm73AukEONaqJ6Hazq95z7dENxRKpBall0_tsKA/photo/AF1QipO25Gcl-MjRfeYd7HSBbc5LBv3bllpEZUwjP3v3?key=cG1Ca25iRmtac0RtT0wtYk1laFRDbUMtOW0tTEhR)
 
 4. **Teyvat**  
-Map has been updated. - [Updated Teyvat Map](https://imgur.com/sBjFlDH)
+Map has been updated. - [Updated Teyvat Map](https://photos.google.com/share/AF1QipPGs6r8qfWVNVXlU7HwyFarhqqp1LACnDrB9Wp_qbfMP8VzZaInS7IK7zY4kJcUxg?key=TGFVX2hzUUoxQXdwd1g5WWY3SThCdTdCTkItVDJ3)
 
 5. **Mentions**  
 By "'map has been updated" we understand:  
