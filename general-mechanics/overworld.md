@@ -1,11 +1,5 @@
 # Overworld
 
-## Serenitea Pot
-
-### Teapot dog abuse
-
-0-poise attacks also register on Kageroumaru 
-
 ## Zone Levels:
 
 The overworld map is split into multiple zones that affect enemy level and environmental reactions:  
