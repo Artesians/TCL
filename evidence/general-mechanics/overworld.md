@@ -10,9 +10,7 @@ search: false
 
 ## The Rock
 
-### Basic Mechanics
-
-**By:** BowTae\#0141 and many others
+**By:** Aevean Leeow\#1362, Mcpie\#8672, BowTae\#0141, KQM Stream Meme Team, and KQM Friends
 **Added:** 12/24/2021
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/905507145762631690/924148014212333608/transcript-the-rock.html)
 
@@ -21,11 +19,11 @@ There are a few small rocks in the overworld with interesting properties. They c
 
 The current known locations for these rocks:
 * North of the Dragonspine Adventurer's Guild Camp (1 Rock): [Imgur](https://imgur.com/i7qX6Uq)
-* Cape Oath (2 groups of 4 Rocks each): [Imgur](https://imgur.com/EDNub8V) [Imgur](https://imgur.com/YuxAlNR)
+* Cape Oath (2 groups of 4 Rocks each): [Map](https://imgur.com/EDNub8V) - [View of Rocks](https://imgur.com/YuxAlNR)  
 
 **Evidence:**
 
-Basic Mechanics:
+*Basic Mechanics:*  
 * Rock does not respawn
   * Initial rock was found and destroyed on November 3, 2021: [Imgur](https://imgur.com/dIXY8xN)
     * The rock at this location has not reappeared as of December 5, 2021.
@@ -40,7 +38,8 @@ Basic Mechanics:
   * [Freeze Shatter](https://youtu.be/uafxmx-UmZ0)
   * [Superconduct](https://youtu.be/KcrGM4hRmN4)
     * No phys RES shred is applied to the Rock 
-Attack Mechanics:
+
+*Attack Mechanics:*
 * Rock can do Geo damage when it falls and takes fall damage: [TheFirstRapher#9207](https://imgur.com/a/wQf0D19)
 * This attack can hit other rocks and players: [Youtube](https://youtu.be/NAx5VxLysgY)
   * Rock level is estimated to be Level 75
@@ -56,10 +55,13 @@ Interactions:
 * Kazuha A4 does not proc on the Rock: [ShampooBrain#9583](https://imgur.com/a/hpfXL5o)
 * Mona Burst does not apply Omen to the Rock: [ShampooBrain#9583](https://imgur.com/a/4pElThX)
 * Rock is not affected by Zhongli RES shred or Lisa DEF shred: [Chameleon#9008](https://youtu.be/K71cGeGSQWM) 
-Glitches/Weird Stuff:
+
+*Glitches/Weird Stuff:*
 * Spawning the teapot on top of the Rock makes it disappear: [Reens#9389](https://imgur.com/awZKod0)
 * Rock behaves weird on ledges: [Imgur](https://imgur.com/9rJt9pa)
 * Sometimes fall damage does not trigger on landing, and the rock will just disappear: [twentythree#3787](https://imgur.com/OC35oS1)
+
+*Further Research:*
 * It is currently not known if World Level affects rock HP or damage. This may change in the future.
 
 **Significance:**
