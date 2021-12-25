@@ -12,7 +12,7 @@ search: false
 
 ### Basic Mechanics
 
-**By: BowTae\#0141 and many others**
+**By:** BowTae\#0141 and many others
 **Added:** 12/24/2021
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/905507145762631690/924148014212333608/transcript-the-rock.html)
 
