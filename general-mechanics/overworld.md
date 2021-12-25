@@ -6,8 +6,8 @@
 
 * There are a few small rocks in the overworld with interesting properties. They can be damaged and destroyed, and they can also deal Geo damage when dropped.
 * Current known locations for rocks:
-  * North of the Dragonspine Adventurer's Guild Camp (1 Rock): https://imgur.com/i7qX6Uq
-  * Cape Oath (2 groups of 4 Rocks each): https://imgur.com/EDNub8V https://imgur.com/YuxAlNR
+  * North of the Dragonspine Adventurer's Guild Camp (1 Rock): [Imgur](https://imgur.com/i7qX6Uq)
+  * Cape Oath (2 groups of 4 Rocks each): [Imgur](https://imgur.com/EDNub8V) [Imgur](https://imgur.com/YuxAlNR)
 
 ## Serenitea Pot
 
