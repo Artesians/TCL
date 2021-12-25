@@ -1,5 +1,5 @@
 ---
-description: The Rock (scientific name: *Igneous Pebblus*).
+description: The Rock.
 ---
 
 # Miscellaneous Enemies and Entities
