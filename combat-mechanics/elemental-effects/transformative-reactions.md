@@ -61,6 +61,7 @@ Electro-Charged is a special Transformative reaction that breaks the normal conv
   * This is because both Electro-Charged and Heavy Hits deal a substantial amount of poise damage
   * For more details on poise, we have a [page dedicated to it](../poise.md)
 * Electro-Charged snapshots the Elemental Mastery of whoever last applied an element for the reaction.
+* The ticks of the Electro-Charged reaction don't count as neither hitting an enemy or triggering a reaction.
 
 ## Shatter
 
