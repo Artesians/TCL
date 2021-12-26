@@ -481,12 +481,12 @@ Evidence: [Imgur](https://imgur.com/ZNKpRnt)
 **Finding:** The ticks of the Electro-Charged reaction don't count as neither hitting an enemy or triggering a reaction.  
 
 **Evidence:** 
-* WGS[Youtube](https://www.youtube.com/watch?v=eGdHezd00S0)
-* AoE WGS [Youtube](https://www.youtube.com/watch?v=m4HbtgWyHmY)
-* 4ins [Youtube](ttps://www.youtube.com/watch?v=_xdRH-F8RGo)
-* Electro resonance [Youtube](https://www.youtube.com/watch?v=FsnmS5Nrc5o&)
-* AoE Electro resonance [Youtube](https://www.youtube.com/watch?v=T5tM2D4u0As)
-* 4TF [Youtube](https://www.youtube.com/watch?v=KdWF3_7zMH0)
+* WGS: [Youtube](https://www.youtube.com/watch?v=eGdHezd00S0)
+* AoE WGS: [Youtube](https://www.youtube.com/watch?v=m4HbtgWyHmY)
+* 4ins: [Youtube](ttps://www.youtube.com/watch?v=_xdRH-F8RGo)
+* Electro resonance: [Youtube](https://www.youtube.com/watch?v=FsnmS5Nrc5o&)
+* AoE Electro resonance: [Youtube](https://www.youtube.com/watch?v=T5tM2D4u0As)
+* 4TF: [Youtube](https://www.youtube.com/watch?v=KdWF3_7zMH0)
 
 **Significance:** You only trigger the reaction at the start with the attack that hit.  
 
