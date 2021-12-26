@@ -473,6 +473,23 @@ Does that re-apply hydro and update the EM values? Before this is even tested, I
 Barbara (and likely other characters with similar abilities) can apply hydro to hydro slimes, even if they're immune to hydro damage. The relevancy here is that characters can up-date the EM snapshot of EC as long as they apply the element.  
 Evidence: [Imgur](https://imgur.com/ZNKpRnt)
 
+### EC Ticks Are Neither Reactions Nor Hits  
+**By:** NZPIEFACE#8439  
+**Added:** 12/27/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/923417727538954250/924789849364516924/transcript-ec-ticks-are-neither-reactions-nor-hits.html)   
+
+**Finding:** The ticks of the Electro-Charged reaction don't count as neither hitting an enemy or triggering a reaction.  
+
+**Evidence:** 
+* WGS[Youtube](https://www.youtube.com/watch?v=eGdHezd00S0)
+* AoE WGS [Youtube](https://www.youtube.com/watch?v=m4HbtgWyHmY)
+* 4ins [Youtube](ttps://www.youtube.com/watch?v=_xdRH-F8RGo)
+* Electro resonance [Youtube](https://www.youtube.com/watch?v=FsnmS5Nrc5o&)
+* AoE Electro resonance [Youtube](https://www.youtube.com/watch?v=T5tM2D4u0As)
+* 4TF [Youtube](https://www.youtube.com/watch?v=KdWF3_7zMH0)
+
+**Significance:** You only trigger the reaction at the start with the attack that hit.  
+
 ## Frozen + Shatter
 
 ### Simultaneous Hydro/Frozen Application
