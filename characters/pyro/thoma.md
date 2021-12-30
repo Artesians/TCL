@@ -187,7 +187,8 @@ Increases the Level of **Crimson Ooyoroi** by 3. Maximum upgrade level is 15.
 {% tab title="C6" %}
 ### Burning Heart
 
-When a **Blazing Barrier** is obtained or refreshed, the DMG dealt by all party members' Normal, Charged, and Plunging Attacks is increased by 15% for 6s.
+When a **Blazing Barrier** is obtained or refreshed, the DMG dealt by all party members' Normal, Charged, and Plunging Attacks is increased by 15% for 6s. 
+* Every time Thoma's shield gets refreshed during Burst, the timer on the buff gets refreshed.
 {% endtab %}
 {% endtabs %}
 
