@@ -47,6 +47,10 @@ Aura application has a 0.8x modifier. This is also referred to as **Aura Tax**.
 In addition, neither Anemo nor Geo may be applied as an aura.  
 Hereinafter, all aura applications will be referred to with this unit modifier already applied.
 
+## Character Elemental Gauge Application
+
+Each character has a set amount of elemental gauge applied by each individual attack or skill. A full list of character skills and their corresponding elemental gauges can be found below:  
+{% page-ref page="../../resources/compendiums/elemental-gauges.md" %}
 
 ## Decay Rate
 
