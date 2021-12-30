@@ -7,6 +7,7 @@ description: A young exorcist from a family of exorcists. He does everything he 
 ## **Resources**
 
 * [Chongyun Mains Discord](https://discord.gg/FT4ZFmgf8T)
+* [Swordfall: A Chongyun Guide](https://keqingmains.com/chongyun/)
 
 ## ![](../../.gitbook/assets/element_cryo.png) Chongyun
 
@@ -16,13 +17,13 @@ description: A young exorcist from a family of exorcists. He does everything he 
 
 | Lv | Base HP | Base ATK | Base DEF | ATK% |
 | :--- | :--- | :--- | :--- | :--- |
-| 60 | 7236 | 147 | 427 | 12 |
-| 60+ | 7725 | 157 | 456 | 12 |
-| 70 | 8485 | 172 | 501 | 12 |
-| 70+ | 8974 | 182 | 530 | 18 |
-| 80 | 9734 | 198 | 575 | 18 |
-| 80+ | 10223 | 208 | 603 | 24 |
-| 90 | 10984 | 223 | 648 | 24 |
+| 60 | 7236 | 147 | 427 | 12% |
+| 60+ | 7725 | 157 | 456 | 12% |
+| 70 | 8485 | 172 | 501 | 12% |
+| 70+ | 8974 | 182 | 530 | 18% |
+| 80 | 9734 | 198 | 575 | 18% |
+| 80+ | 10223 | 208 | 603 | 24% |
+| 90 | 10984 | 223 | 648 | 24% |
 
 ## **Attacks**
 
@@ -110,19 +111,19 @@ Summon 3 giant **Spirit Blades** to fall down one by one after a short delay, de
 
 {% tabs %}
 {% tab title="Passive" %}
-## Gallant Journey
+## **Gallant Journey**
 
 When dispatched on an expedition on Liyue, time consumed is reduced by 25%
 {% endtab %}
 
 {% tab title="Ascension 1" %}
-## Steady Breathing
+## **Steady Breathing**
 
 Sword, Claymore or Polearm-wielding characters within the field created by **Chonghua’s Layered Frost** have their Normal ATK SPD increased by 8%.
 {% endtab %}
 
 {% tab title="Ascension 4" %}
-## Rimechaser Blade
+## **Rimechaser Blade**
 
 When the field created by Chonghua’s Layered Frost disappears, another **Spirit Blade** will be summoned to strike nearby opponents:
 
@@ -138,7 +139,7 @@ When the field created by Chonghua’s Layered Frost disappears, another **Spiri
 
 {% tabs %}
 {% tab title="C1" %}
-### Ice Unleashed
+### **Ice Unleashed**
 
 The last attack of Chongyun’s Normal Attack combo releases 3 **Ice Blades.**
 
@@ -151,7 +152,7 @@ The last attack of Chongyun’s Normal Attack combo releases 3 **Ice Blades.**
 {% endtab %}
 
 {% tab title="C2" %}
-### Atmospheric Revolution
+### **Atmospheric Revolution**
 
 Elemental Skills and Elemental Bursts cast within the **Frost Field** created by **Chonghua’s Layered Frost** have their CD time decreased by 15%.
 
@@ -162,26 +163,26 @@ Elemental Skills and Elemental Bursts cast within the **Frost Field** created by
 {% endtab %}
 
 {% tab title="C3" %}
-### Cloudburst
+### **Cloudburst**
 
 Increases the level of **Spirit Blade: Cloud-parting Star** by 3.
 {% endtab %}
 
 {% tab title="C4" %}
-### Frozen Skies
+### **Frozen Skies**
 
 Chongyun regenerates 1 Energy every time he hits an opponent affected by Cryo.  
 This effect can only occur once every 2s.
 {% endtab %}
 
 {% tab title="C5" %}
-### The True Path
+### **The True Path**
 
 Increases the level of **Chonghua’s Layered Frost** by 3.
 {% endtab %}
 
 {% tab title="C6" %}
-### Rally of Four Blades
+### **Rally of Four Blades**
 
 **Spirit Blade: Cloud-parting Star** deals 15% more DMG to opponents with a lower percentage of their Max HP remaining than Chongyun. This skill will also summon 1 additional **Spirit Blade**.
 
@@ -242,7 +243,7 @@ Increases the level of **Chonghua’s Layered Frost** by 3.
 {% endtab %}
 {% endtabs %}
 
-## **Evidence Vault:**
+## Evidence Vault
 
 {% page-ref page="../../evidence/characters/cryo/chongyun.md" %}
 
