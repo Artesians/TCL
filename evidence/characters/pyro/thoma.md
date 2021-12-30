@@ -61,7 +61,7 @@ search: false
 **Finding #2:** Thoma's E counts as A1's condition to stack Shield Strength. 
 
 **Evidence:** 
-* Q > E (1 stack)[Imgur](https://imgur.com/dXv0rSc)
+* Q > E (1 stack):[Imgur](https://imgur.com/dXv0rSc)
 * Q > N1 > E (2 stack):[Imgur](https://imgur.com/f4zLqsm)
 
 **Significance:** If you are keeping Thoma on field, doing Q > E > 4 normals is enough for max stacks.
