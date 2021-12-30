@@ -67,7 +67,7 @@ search: false
 **Significance:** If you are keeping Thoma on field, doing Q > E > 4 normals is enough for max stacks.
 
 **Finding #3:**
-A. Thoma's E refreshing the shield for Ult does not make it lose Shield Strength, it keeps those stacks (While it might be obvious, this is actually the direct opposite to Zhongli, whose refresh reverts his shield strength to 0).
+A. Thoma's E refreshing the shield for Burst does not make it lose Shield Strength, it keeps those stacks (While it might be obvious, this is actually the direct opposite to Zhongli, whose refresh reverts his shield strength to 0).
 B. However, losing it even tho Q is up and resets it all the way to 0 (in hindsight, this one is more obvious than above but since I already recorded it I'm throwing it here for extra clarity).
 
 Evidence: 
