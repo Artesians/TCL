@@ -89,7 +89,6 @@
 ## Combat Mechanics
 * [Damage](combat-mechanics/damage/README.md)
   * [Outgoing Damage Formula](combat-mechanics/damage/damage-formula.md)
-  * [Incoming Damage Formula](combat-mechanics/damage/incoming-damage-formula.md)
   * [Shields](combat-mechanics/damage/shields.md)
   * [Other](combat-mechanics/damage/other/README.md)
     * [Fall Damage](combat-mechanics/damage/other/fall-damage.md)
@@ -113,6 +112,7 @@
   * [Enemy Resistances](combat-mechanics/enemy-mechanics/enemy-resistances.md)
   * [Enemy Shields and Armor](combat-mechanics/enemy-mechanics/enemy-shields-armor.md)
 * [Spiral Abyss](combat-mechanics/spiral-domains/README.md)
+  * [Blessings](combat-mechanics/spiral-domains/blessings.md)
   * [Cards](combat-mechanics/spiral-domains/cards.md)
   * [Ley Line Disorders](combat-mechanics/spiral-domains/ley-line-disorders.md)
   * [Tech](combat-mechanics/spiral-domains/tech/README.md)
@@ -250,6 +250,8 @@
     * [Hatchling](enemy-data/mystical-beasts/geovishaps/geovishap-hatchling.md)
     * [Adult Geovishap](enemy-data/mystical-beasts/geovishaps/geovishap.md)
   * [Whopperflowers](enemy-data/mystical-beasts/whopperflowers.md)
+* [Miscellaneous](enemy-data/miscellaneous/README.md)
+  * [The Rock](enemy-data/miscellaneous/the-rock.md)
 
 ---
 
@@ -307,7 +309,7 @@
       * [Xiangling](evidence/characters/pyro/xiangling.md)
       * [Xinyan](evidence/characters/pyro/xinyan.md)
       * [Yanfei](evidence/characters/pyro/yanfei.md)
-    * [Yoimiya](evidence/characters/pyro/yoimiya.md)
+      * [Yoimiya](evidence/characters/pyro/yoimiya.md)
   * [Equipment](evidence/equipment/README.md)
     * [Artifacts](evidence/equipment/artifacts.md)
     * [Food](evidence/equipment/food.md)
@@ -336,6 +338,7 @@
       * [Enemy Interactions](evidence/combat-mechanics/enemy-mechanics/enemy-interactions.md)
       * [Enemy Shields and Armor](evidence/combat-mechanics/enemy-mechanics/enemy-shields.md)
     * [Spiral Abyss](evidence/combat-mechanics/spiral-domains/README.md)
+      * [Blessings](evidence/combat-mechanics/spiral-domains/blessings.md)
       * [Cards](evidence/combat-mechanics/spiral-domains/cards.md)
       * [Ley Line Disorders](evidence/combat-mechanics/spiral-domains/ley-line-disorders.md)
       * [Tech](evidence/combat-mechanics/spiral-domains/tech/README.md)
