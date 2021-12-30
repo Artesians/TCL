@@ -47,6 +47,37 @@ search: false
 
 ## Skill Mechanics
 
+### Thoma Shield Mechanics
+**By:** Latiwings#3308  
+**Added:** 12/30/2021  
+[Dicussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/922638877028671508/925694499739545660/transcript-thoma-shield-mechanics.html) 
+
+**Finding #1:** Thoma's Shield Strength gain from his A1 doesn't persist on swap.
+
+**Evidence:** [Imgur](https://imgur.com/F5WcYyM)
+
+**Significance:** Shield management. This discourages doing normals/stacking on Thoma before swapping.
+
+**Finding #2:** Thoma's E counts as A1's condition to stack Shield Strength. 
+
+**Evidence:** 
+* Q > E (1 stack)[Imgur](https://imgur.com/dXv0rSc)
+* Q > N1 > E (2 stack):[Imgur](https://imgur.com/f4zLqsm)
+
+**Significance:** If you are keeping Thoma on field, doing Q > E > 4 normals is enough for max stacks.
+
+**Finding #3:**
+A. Thoma's E refreshing the shield for Ult does not make it lose Shield Strength, it keeps those stacks (While it might be obvious, this is actually the direct opposite to Zhongli, whose refresh reverts his shield strength to 0).
+B. However, losing it even tho Q is up and resets it all the way to 0 (in hindsight, this one is more obvious than above but since I already recorded it I'm throwing it here for extra clarity).
+
+Evidence: 
+* For A:[Imgur](https://imgur.com/LX47smX)
+* For B:[Imgur](https://imgur.com/gbzeA99)
+
+**Significance:** Shield management. In Thoma's case, refreshing his shield has no particular loss as opposed to Zhongli.
+
+**Extra Notes:** In regards to C6, every time the shield gets refreshed during his Burst, the timer on the buff gets refreshed. Confirmed by jstern25#1399
+
 ## Burst Mechanics
 
 ## Passive Mechanics
