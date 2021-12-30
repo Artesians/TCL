@@ -1,10 +1,12 @@
 ---
-description: >-
-  A traveler from another world who had their only kin taken away, forcing them
-  to embark on a journey to find The Seven.
+description:  A traveler from another world who had their only kin taken away, forcing them to embark on a journey to find The Seven.
 ---
 
 # Traveler \(Geo\)
+
+## **Resources**
+
+* [Full Geo Traveler Written Guide](https://keqingmains.com/geo-traveler/)
 
 ## ![](../../.gitbook/assets/element_geo%20%281%29.png) Traveler \(Geo\)
 
@@ -14,13 +16,13 @@ description: >-
 
 | Lv | Base HP | Base ATK | Base DEF | ATK% |
 | :--- | :--- | :--- | :--- | :--- |
-| 60 | 7164 | 140 | 450 | 12 |
-| 60+ | 7648 | 149 | 480 | 12 |
-| 70 | 8401 | 164 | 527 | 12 |
-| 70+ | 8885 | 174 | 558 | 18 |
-| 80 | 9638 | 188 | 605 | 18 |
-| 80+ | 10122 | 198 | 635 | 24 |
-| 90 | 10875 | 212 | 683 | 24 |
+| 60 | 7164 | 140 | 450 | 12% |
+| 60+ | 7648 | 149 | 480 | 12% |
+| 70 | 8401 | 164 | 527 | 12% |
+| 70+ | 8885 | 174 | 558 | 18% |
+| 80 | 9638 | 188 | 605 | 18% |
+| 80+ | 10122 | 198 | 635 | 24% |
+| 90 | 10875 | 212 | 683 | 24% |
 
 ## **Attacks**
 
@@ -135,19 +137,17 @@ Deals 4 waves of damage to enemies and knocks them back away from the caster.
 
 {% tabs %}
 {% tab title="Passive" %}
-### N/A
-
-404 does not exist.
+The Traveller has no passive talent.
 {% endtab %}
 
 {% tab title="Ascension 1" %}
-### Shattered Darkrock
+### **Shattered Darkrock**
 
 Reduces **Starfell Sword**’s CD by 2s.
 {% endtab %}
 
 {% tab title="Ascension 4" %}
-### Frenzied Rockslide
+### **Frenzied Rockslide**
 
 The final hit of a Normal Attack combo triggers a collapse, dealing 60% of ATK as AoE Geo DMG.
 
@@ -157,11 +157,11 @@ The final hit of a Normal Attack combo triggers a collapse, dealing 60% of ATK a
 {% endtab %}
 {% endtabs %}
 
-## Constellations
+## **Constellations**
 
 {% tabs %}
 {% tab title="C1" %}
-### Invincible Stonewall
+### **Invincible Stonewall**
 
 Party members within the radius of **Wake of Earth** have their Crit Rate increased by 10% and have increased resistance against interruption.
 - Note that this bonus does not apply to the burst damage UNLESS it is cast within a prior **Wake of Earth**. 
@@ -169,7 +169,7 @@ Party members within the radius of **Wake of Earth** have their Crit Rate increa
 {% endtab %}
 
 {% tab title="C2" %}
-### Rockcore Meltdown
+### **Rockcore Meltdown**
 
 When the meteorite created by **Starfell Sword** is destroyed it will also explode, dealing additional AoE Geo DMG equal to the amount of damage dealt by **Starfell Sword**.
 
@@ -179,13 +179,13 @@ When the meteorite created by **Starfell Sword** is destroyed it will also explo
 {% endtab %}
 
 {% tab title="C3" %}
-### Will of the Rock
+### **Will of the Rock**
 
 Increases the level of **Wake of Earth** by 3.
 {% endtab %}
 
 {% tab title="C4" %}
-### Reaction Force
+### **Reaction Force**
 
 The shockwave triggered by **Wake of Earth** regenerates 5 Energy for every enemy hit.
 
@@ -195,13 +195,13 @@ The shockwave triggered by **Wake of Earth** regenerates 5 Energy for every enem
 {% endtab %}
 
 {% tab title="C5" %}
-### Meteroite Impact
+### **Meteroite Impact**
 
 Increases the Level of **Starfell Sword** by 3.
 {% endtab %}
 
 {% tab title="C6" %}
-### Everlasting Boulder
+### **Everlasting Boulder**
 
 The barrier created by **Wake of Earth** lasts 5s longer.
 
@@ -209,7 +209,7 @@ The meteorite created by **Starfell Sword** lasts 10s longer.
 {% endtab %}
 {% endtabs %}
 
-## Full Talent Values
+## **Full Talent Values**
 
 {% tabs %}
 {% tab title="Foreign Rockblade" %}
@@ -257,21 +257,13 @@ The meteorite created by **Starfell Sword** lasts 10s longer.
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | DMG Per Shockwave | 207.20 | 222 | 236.80 | 251.60 | 266.40 | 281.20 | 296 | 314.50 |
 
-**Energy Cost**: 60
-
-**Stonewall Duration**: 15s
-
+**Energy Cost**: 60  
+**Stonewall Duration**: 15s  
 **Cooldown**: 15s
 {% endtab %}
 {% endtabs %}
 
-## **External Links**
-
-* [Genshin Impact Fandom](https://genshin-impact.fandom.com/wiki/Traveler)
-* [Full Geo Traveler Written Guide](https://keqingmains.com/geo-traveler/)
-* [Aether Analysis](../../evidence/characters/geo/traveler-geo.md#aether-analysis) by Liunel#2555 (weapon comparisons for Main DPS Aether and Burst Support Aether)
-
-**Evidence Vault:**
+## Evidence Vault
 
 {% page-ref page="../../evidence/characters/geo/traveler-geo.md" %}
 
