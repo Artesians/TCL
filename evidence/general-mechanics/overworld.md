@@ -10,8 +10,8 @@ search: false
 
 ## The Rock
 
-**By:** Aevean Leeow\#1362, Mcpie\#8672, BowTae\#0141, KQM Stream Meme Team, and KQM Friends
-**Added:** 12/24/2021
+**By:** Aevean Leeow\#1362, Mcpie\#8672, BowTae\#0141, KQM Stream Meme Team, and KQM Friends  
+**Added:** 12/24/2021  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/905507145762631690/924148014212333608/transcript-the-rock.html)
 
 **Finding:**
@@ -21,8 +21,7 @@ The current known locations for these rocks:
 * North of the Dragonspine Adventurer's Guild Camp (1 Rock): [Imgur](https://imgur.com/i7qX6Uq)
 * Cape Oath (2 groups of 4 Rocks each): [Map](https://imgur.com/EDNub8V) - [View of Rocks](https://imgur.com/YuxAlNR)  
 
-**Evidence:**
-
+**Evidence:**  
 *Basic Mechanics:*  
 * Rock does not respawn
   * Initial rock was found and destroyed on November 3, 2021: [Imgur](https://imgur.com/dIXY8xN)
@@ -64,7 +63,7 @@ Interactions:
 *Further Research:*
 * It is currently not known if World Level affects rock HP or damage. This may change in the future.
 
-**Significance:**
+**Significance:**  
 The Rock (Igneous Pebblus) is a federally endangered species which is currently known to live in various regions of Mondstadt. The range of the Rock historically included the northern part of Dragonspine and various clusters in Cape Oath. Exploitative research and tree farming have driven this species to near extinction. It is unknown if there are surviving habitats of Rocks in other parts of Teyvat. 
 
 ## Serenitea Pot
