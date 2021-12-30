@@ -62,6 +62,8 @@ The DMG Absorption of the **Blazing Barrier** scales off Thoma's Max HP.
 The Blazing Barrier has the following traits:
 * Absorbs Pyro DMG 250% more effectively.
 * When a new **Blazing Barrier** is obtained, the remaining DMG Absorption of an existing **Blazing Barrier** will stack and its duration will be refreshed.
+* Thoma's E refreshing the shield for Burst does not make it lose Shield Strength. 
+* Losing the shield will reset its stacks.
 
 The maximum DMG Absorption of the **Blazing Barrier** will not exceed a certain percentage of Thoma's Max HP.
 
@@ -138,6 +140,8 @@ When you fish successfully in Inazuma, Thoma's help grants a 20% chance of scori
 ### Imbricated Armor
 
 When your current active character obtains or refreshes a **Blazing Barrier**, this character's Shield Strength will increase by 5% for 6s. This effect can be triggered once every 0.3s seconds. Max 5 stacks.
+* Thoma's Shield Strength gain from **Imbricated Armor** doesn't persist on swap.
+* Thoma's E counts as **Imbricated Armor's** condition to stack Shield Strength. 
 {% endtab %}
 
 {% tab title="Ascension 4" %}
