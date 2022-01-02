@@ -122,13 +122,15 @@ $$
 OtherBonus =
 \begin{cases}
 1.5  & \text{if, } Evilsoother\ triggered\\
+1.3791 - 1.7060 & \text(if, } Niwabi\ Fire-Dance\ activated\\ 
 1 & \text{otherwise}
 \end{cases}
 $$
 
 | Formula Variable | Explanation |
 | :--- | :--- |
-| **Evilsoother** | Xingqiu’s Constellation 4 ability and applies a 1.5 buff to his elemental skill |
+| **Evilsoother** | Xingqiu’s Constellation 4 ability and applies a 1.5 buff to his elemental skill. |
+| **Niwabi Fire-Dance** | Yoimiya's Elemental Skill, applies a buff to her normal attacks. |
 
 ## Transformative Reaction Bonus
 
