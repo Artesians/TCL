@@ -119,6 +119,10 @@ The **Lightning Rose** will continuously emit lightning to knock back opponents 
 | Duration | 15s |
 | CD | 20s |
 
+* The hitbox of Lisa's Lightning Rose is a cylinder with the following dimensions/attributes:
+  * Its Radius is indicated by its VFX and mobs' centers have to be inside said radius in order to take damage. Misleadingly, the actual area is not the flowered decal, but the soft tinted circle of purple.
+  * Its Height/Depth is either unlimited or absurdly large. This is difficult to properly quantize.
+  * Its hitbox can clip through terrain (allowing it to connect with enemies that are out of Lisa's direct Line of Sight); see Azhdaha.
 * Surrounding opponents are only launched if made airborne while their poise is broken. Poise-broken grounded enemies are frequently staggered instead.
 * The initial summon damage of **Lightning Rose** does not apply an Electro Aura.
 * The Lightning Rose shoots lightning 29 times in total, every 0.5s after the initial summon blast.
@@ -132,19 +136,19 @@ The **Lightning Rose** will continuously emit lightning to knock back opponents 
 
 {% tabs %}
 {% tab title="Passive" %}
-### General Pharmaceutics
+### **General Pharmaceutics**
 
 When Lisa crafts a potion, she has a 20% chance to refund a portion of the crafting materials used.
 {% endtab %}
 
 {% tab title="Ascension 1" %}
-### Induced Aftershock
+### **Induced Aftershock**
 
 Hit by Charged Attacks apply **Violet Arc’s** **Conductive** status to opponents.
 {% endtab %}
 
 {% tab title="Ascension 4" %}
-### Static Electricity Field
+### **Static Electricity Field**
 
 Opponents hit by **Lightning Rose** have their DEF decreased by 15% for 10s.
 {% endtab %}
@@ -154,7 +158,7 @@ Opponents hit by **Lightning Rose** have their DEF decreased by 15% for 10s.
 
 {% tabs %}
 {% tab title="C1" %}
-### Infinite Circuit
+### **Infinite Circuit**
 
 Lisa regenerates 2 Energy for every opponent hit while holding **Violet Arc**. A maximum of 10 Energy can be regenerated in this manner at any one time.
 
@@ -164,7 +168,7 @@ Lisa regenerates 2 Energy for every opponent hit while holding **Violet Arc**. A
 {% endtab %}
 
 {% tab title="C2" %}
-### Electromagnetic Field
+### **Electromagnetic Field**
 
 Holding **Violet Arc** has the following effects:
 
@@ -174,13 +178,13 @@ Holding **Violet Arc** has the following effects:
 {% endtab %}
 
 {% tab title="C3" %}
-### Resonant Thunder
+### **Resonant Thunder**
 
 Increases the Level of **Lightning Rose** by 3.
 {% endtab %}
 
 {% tab title="C4" %}
-### Plasma Eruption
+### **Plasma Eruption**
 
 Increases the number of lightning bolts released by **Lightning Rose** by 1-3.  
 
@@ -190,13 +194,13 @@ Increases the number of lightning bolts released by **Lightning Rose** by 1-3.
 {% endtab %}
 
 {% tab title="C5" %}
-### Electrocute
+### **Electrocute**
 
 Increases the Level of **Violet Arc** by 3.
 {% endtab %}
 
 {% tab title="C6" %}
-### Pulsating Witch
+### **Pulsating Witch**
 
 When Lisa takes the field, she applies 3 stacks of **Violet Arc’s Conductive** status onto nearby opponents. This effect can only occur once every 5s.
 {% endtab %}
@@ -256,7 +260,7 @@ When Lisa takes the field, she applies 3 stacks of **Violet Arc’s Conductive**
 {% endtab %}
 {% endtabs %}
 
-## **Evidence Vault**:
+## Evidence Vault
 
 {% page-ref page="../../evidence/characters/electro/lisa.md" %}
 

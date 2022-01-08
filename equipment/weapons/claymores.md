@@ -106,6 +106,7 @@
 
 * WGS procs do not stack, the most recent proc overwrites the existing proc, even if the existing buff hasn't ended yet - [JonahFarc\#7056](../../evidence/equipment/weapons.md#wolfs-gravestone-procs-dont-stack)
 * Hits that can trigger WGS passive include Normal Attack, Charged Attack, Elemental Skill, and Elemental Burst hits. - [CQLQRS#7853 and Dunia#2481](../../evidence/equipment/weapons.md#weapon-stacks-on-hit)  
+* The hit that procs Wolf's Gravestone's passive does not get the buff bonus applied to itself. Only subsequent hits are affected by the buff. - [Goden\#2155](../../evidence/equipment/weapons.md#wolfs-gravestone-passive-does-not-affect-the-attack-that-procs-it)  
 {% endtab %}
 
 {% tab title="Details" %}
@@ -457,6 +458,8 @@
   * 3-2: 1.17-1.18s
   * 2-1: 1.17-1.18s
 * Serpent Spine's damage taken increase affects shields.
+* The buff timer starts ticking and continues ticking whether the holder is on the field or not. However the character only gains a stack every 4 seconds if that character is on field.
+* The buff timer resets when you take damage that would cause you to lose a stack. 
 {% endtab %}
 
 {% tab title="Details" %}
@@ -723,14 +726,13 @@
 
 Attack Speed buffs do not dynamically affect Claymore Charged Attacks. Meaning, the charged attack will have an attack speed increase for its entire duration when buffed, even if said buff wears off during charged attack.
 
-* [https://streamable.com/i6m53s](https://streamable.com/i6m53s)
-* [https://streamable.com/uff6qb](https://streamable.com/uff6qb)
+* Evidence: *Streamable link lost to the sands of time*
 
 ## External Links
 
-* [**Genshin Impact Fandom**](https://genshin-impact.fandom.com/wiki/Claymores)
+* [Genshin Impact Fandom](https://genshin-impact.fandom.com/wiki/Claymores)
 
-**Evidence Vault:**
+## Evidence Vault
 
-{% page-ref page="../../../evidence/mechanics/equipment/weapons.md" %}
+{% page-ref page="../../evidence/equipment/weapons.md" %}
 
