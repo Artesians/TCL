@@ -15,12 +15,16 @@ The cooldown debuff can be avoided by shield and elemental burst iframes.
 
 Triggering a freeze reaction on a boss entity does not create a frozen aura on the entity, but rather consumes the hydro and cryo auras, leaving no aura behind.
 
+### Anemo Hypostasis  
+* Adequately getting rid of overworld Hydro Aura on the Anemo Hypostasis results in it continuously swirling itself, this damages the cube and applies Hydro to nearby characters. This can be easily done with 2U cyro application. Non-sufficent Cryo application does not result in this occcuring.
+
 ### Cryo Regisvine
 
 * Xiangling's Pyronado will only apply Pyro once to the Cryo Regisvine's core during the initial swing, and will not hit the core again during the rest of its duration.
 
 ## Ruin Guards
 
+* Some attacks other than fully-charged bow CAs can stun ruin guards. This includes various skills, bursts and melee attacks. The list can be found [here](../../evidence/combat-mechanics/enemy-mechanics/enemy-interactions.md#melee-can-stun-ruin-guard).
 * Polearm charge attacks, with the exception of Xiao, don't register on stunned Ruin Guards because of the "leaping forward" animation that occurs.
   * [Hu Tao vs Ruin Guard](https://youtu.be/5y6GCZar_2g)
   * Tartaglia's melee charged attack also has the same issue, however it's because their charged attack pushes them back, making them unable to reach the hitbox.
@@ -57,7 +61,7 @@ The bubble from the Hydro Abyss Mages and their hydro bubble spawning mechanic c
 * Corrosion stacks are independent of each other, last for 10 seconds, and deal 10 total ticks of damage scaling linearly with each character's max HP.
 * Corrosion stacks applied by a Rifthound or Rifthound Whelp deal 0.5% max HP damage per tick.
 
-### Evidence Vault
+## Evidence Vault
 
 {% page-ref page="../../evidence/combat-mechanics/enemy-mechanics/enemy-interactions.md" %}
 
