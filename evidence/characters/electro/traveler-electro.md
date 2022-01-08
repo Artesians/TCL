@@ -27,6 +27,19 @@ search: false
   * 1 Blade Hit vs 2 Enemies = 2 Amulets - [ye olde dong slot#4986](https://www.youtube.com/watch?v=qaBPV3JdC0c)
   * 2 Blades Hit = 2 Amulets - [ceeeleste#3568](https://imgur.com/gallery/dJTvXaI)
 
+#### ER Increase From EMC Amulets Doesn't Affect Passives
+**By:** D.....K#9002  
+**Added:** 1/8/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/927939323976888361/929309417965494323/transcript-er-increase-from-emc-amulets-doesnt-affect-passives.html)  
+
+**Finding:** The ER increase from EMC's Amulets isn't factored in for Raiden or Mona A4, meaning they don't get the corresponding Elemental DMG bonus.  
+
+**Evidence:** 
+* Raiden [Youtube](https://youtu.be/gdrs4idpkes)
+* Mona: [Youtube](https://youtu.be/V_1qeKfhLAs)
+
+**Significance:** Should be taken into consideration while doing calcs.
+
 ### Burst Mechanics
 
 * The energy gained from burst is classified as flat energy. - [ceeeleste#3568](https://imgur.com/BFu0hT2)
