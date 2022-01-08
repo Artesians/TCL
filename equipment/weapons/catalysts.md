@@ -44,6 +44,8 @@
 | CRIT Rate% | 7.2% - 33.1% |
 
 * Lost Prayer does not reset upon leaving combat, ONLY upon switching to a different character or if the character is defeated - [Konbo\#0004](../../evidence/equipment/weapons.md#lost-prayer-to-the-sacred-winds)
+* The buff timer starts ticking and continues ticking whether the holder is on the field or not. However the character only gains a stack every 4 seconds if that character is on field.
+
 {% endtab %}
 
 {% tab title="Details" %}
@@ -688,9 +690,9 @@
 
 ## External Links
 
-* [**Genshin Impact Fandom**](https://genshin-impact.fandom.com/wiki/Catalysts)
+* [Genshin Impact Fandom](https://genshin-impact.fandom.com/wiki/Catalysts)
 
-**Evidence Vault**:
+## Evidence Vault
 
-{% page-ref page="../../../evidence/mechanics/equipment/weapons.md" %}
+{% page-ref page="../../evidence/equipment/weapons.md" %}
 
