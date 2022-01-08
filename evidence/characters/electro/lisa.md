@@ -72,13 +72,24 @@ No obvious and major significance in Spiral Abyss, but its extreme capabilities 
 **Added:** 4/18/2021
 
 **Findings:**  
-When Lisa's Press variant of Violet Arc strikes an opponent affected by Pyro or Cryo, the mob directly hit will immediately gain 2 Conductive Stacks, and others in the resulting Overload or Superconduct radius will gain 1 Conductive Stack, effectively radiating it.
+The amount of Conductive Stacks a single Press E produces on an enemy is dependent on how many produced radii it was within.
 
-If Violet Arc connects and causes Overload or Superconduct while in a Pyro or Cryo-environment \(the most common ones being Burning Grass and Frozen Water\), the direct mob will obtain 3 Conductive stacks and it will radiate 2 stacks to nearby opponents.
+When Lisa's Press variant of Violet Arc strikes an opponent affected by Pyro or Cryo to cause Overload or Superconduct, the mob directly hit will immediately gain 2 Conductive Stacks, and others in the resulting Overload or Superconduct radius will gain 1 Conductive Stack, effectively radiating it. 
+* The mob which had gained 2 Conductive Stacks was due to being in 2 Radii; 1 from the Initial Press radius and 1 from the resulting Overload or Superconduct's radius.
+* The other mob(s) which had only gained 1 Conductive Stack was due to only being within 1 Radius, which was the Overload or Superconduct.
 
-If 2 opponents are nearby and only one is afflicted with a status, Violet Arc, if it directly hits the afflicted mob, will add 3 stacks of Conductive to both enemies.
+If Violet Arc connects and causes Overload or Superconduct while in a Pyro or Cryo-environment (the most common ones being Burning Grass and Frozen Water), the direct mob will obtain 3 Conductive stacks and it will radiate 2 stacks to nearby opponents.
+* The direct mob which had gained 3 Conductive Stacks was due to being in 3 total Radii; 1 from the Initial Press radius, 1 from the Overload or Superconduct caused from connecting the direct mob, and 1 from being within a "chained" radius from the elemental environment (in this case, the environment acts as if it was another entity/mob).
+* If there were other mobs present, they may be affected by 2 or 1 Conductive Stack(s) depending on their proximity in relation to the elemental environment and/or direct mob.
+  * A mob will have gained 2 Conductive Stacks in this scenario if they were within 2 Radii, which is only possible in these two cases:
+    * (a) Within Overload/Superconduct radius \[+1\], within "chained" elemental environment radius \[+1\], and outside of the Initial Press radius \[+0\] 
+    * (b) Within Overload/Superconduct radius \[+1\], within Initial Press radius \[+1\], and outside of the "chained" elemental environment radius \[+0\]
+  * A mob will have only gained 1 Conductive Stack from this scenario if and only if they were only within the Overload/Superconduct radius.
 
-Can also work in conjunction with the effect described in a previous entry: [Violet Arc's Press variant AoE is passed to all affected targets](lisa.md#violet-arcs-press-variant-aoe-is-passed-to-all-affected-targets)
+If 2 opponents are nearby and only one is afflicted with a status, Violet Arc, if it directly hits the afflicted mob causing Overload/Superconduct, will add 3 stacks of Conductive to both enemies.
+* This scenario is fundamentally identical to the previous scenario, whereby instead of an elemental environment acting as a "mob", it is an actual mob. The previous rules apply similarly.
+
+Can also work in conjunction with the effect described in a previous entry: Violet Arc's Press variant AoE is passed to all affected targets: [Violet Arc's Press variant AoE is passed to all affected targets](lisa.md#violet-arcs-press-variant-aoe-is-passed-to-all-affected-targets)
 
 **Evidence:**  
 * [Press E on 2 Pyro-Inflicted Mobs](https://youtu.be/bLgOMM6GiP8)
@@ -98,6 +109,24 @@ Can also work in conjunction with the effect described in a previous entry: [Vio
 Lisa can easily abuse this tech to quickly and efficiently stack Conductive. This allows for smoother and more rapid gameplay and very much opens up a Burst Carry archetype.
 
 ## Burst Mechanics
+
+### Lightning Rose Vertical Range
+**By:** ArchedNosi#1484  
+**Added:** 1/2/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/926631413606912070/927179857354428446/transcript-lisa-lightning-rose-vertical-range.html)
+
+**Finding:** Lisa's Lightning Rose being a Cylindrical Tubular Hitbox  
+The hitbox of Lisa's Lightning Rose is a cylinder with the following dimensions/attributes:  
+* Its Radius is indicated by its VFX and mobs' centers have to be inside said radius in order to take damage. Misleadingly, the actual area is not the flowered decal, but the soft tinted circle of purple.
+* Its Height/Depth is either unlimited or absurdly large. \[This is difficult to properly quantize.\]
+* Its hitbox can clip through terrain (allowing it to connect with enemies that are out of Lisa's direct Line of Sight); see Azhdaha.
+
+**Evidence:** 
+* Example of Lightning Rose connecting against a mob that is clearly above Lisa: [Youtube](https://youtu.be/PGObWVhwaWE)
+* Example of Lightning Rose connecting against a mob that is clearly below Lisa: [Youtube](https://youtu.be/_WG-Pc-9K2k)
+* Example of Lightning Rose connecting against a mob that is clearly out of Lisa's direct Line of Sight: [Youtube](https://youtu.be/-Mj_hx2sjOk)
+
+**Significance:** No obvious and major significance in Spiral Abyss, but its extreme capabilities are nice to know.
 
 ### Lisa's Lightning Rose Stagger/Knockback Mechanics
 
