@@ -396,7 +396,7 @@ Electro-charged is one of the most popular reactions, and due to its nature of d
 
 **Summary:**  
 Electro-charge deals damage over time and its snapshot interactions with changing elemental mastery hasn't been noted in the library.
-This method used was C2 Sara with 4-piece Instructors to apply elemental electro twice alongside Barbara hydro reactions to the Ruin Guard at Yaoguang Shaol.
+This method used was C2 Sara with 4-piece Instructors to apply Electro twice alongside Barbara hydro reactions to the Ruin Guard at Yaoguang Shoal.
 The electro-charge reaction snapshots the elemental mastery value at the time of reaction, but the value is updated when aura is re-applied by any character to that of the applying character's.
 
 **Introduction:**  
@@ -511,6 +511,71 @@ Sara's EC (2215 dmg ticks) on the left Slime arcs to the right Slime and takes o
 **Significance:**  
 This can either increase or decrease your damage.  
 This also has a cascading effect as the changed ownership can also spread to more enemies with subsequent AoE ticks.  
+
+### EC Ticks Are Neither Reactions Nor Hits  
+**By:** NZPIEFACE\#8439  
+**Added:** 12/27/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/923417727538954250/924789849364516924/transcript-ec-ticks-are-neither-reactions-nor-hits.html)   
+
+**Finding:** The ticks of the Electro-Charged reaction don't count as neither hitting an enemy or triggering a reaction.  
+
+**Evidence:** 
+* WGS: [Youtube](https://www.youtube.com/watch?v=eGdHezd00S0)
+* AoE WGS: [Youtube](https://www.youtube.com/watch?v=m4HbtgWyHmY)
+* 4ins: [Youtube](ttps://www.youtube.com/watch?v=_xdRH-F8RGo)
+* Electro resonance: [Youtube](https://www.youtube.com/watch?v=FsnmS5Nrc5o&)
+* AoE Electro resonance: [Youtube](https://www.youtube.com/watch?v=T5tM2D4u0As)
+* 4TF: [Youtube](https://www.youtube.com/watch?v=KdWF3_7zMH0)
+
+**Significance:** You only trigger the reaction at the start with the attack that hit.  
+
+### EC Ticks Only Consume Hydro and Electro Gauge When Both are Present
+
+**By:** NZPIEFACE\#8439  
+**Added:** 1/3/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/926980059363934238/927610678628470854/transcript-ec-ticks-only-consume-gauge-when-hydro-and-electro-are-present.html)  
+
+**Finding:**  
+Electro-Charged ticks only consumes Hydro and Electro gauge when both Hydro and Electro are present.  
+
+**Evidence:**  
+* [No gauge consumption without Electro](https://www.youtube.com/watch?v=S3gGLycQq7s)
+* [No gauge consumption without Electro \(AoE\)](https://www.youtube.com/watch?v=DNqyltsYxVk)
+* [Gauge consumption \(AoE\)](https://www.youtube.com/watch?v=r9_rHOd52uI)
+
+**Significance:**  
+There's potential for abuse with net limiters or with rotations that removes Electro gauge the instant the Electro attack lands, but not much else.  
+
+### EC Ticks Only Consume Gauge When They Deal Damage
+
+**By:** NZPIEFACE\#8439  
+**Added:** 1/3/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/926982108273061928/927610723226517584/transcript-ec-ticks-consume-gauge-when-they-deal-damage.html)  
+
+**Finding:**  
+Electro-Charged ticks only remove gauge when they deal damage. Both gauges will still decay naturally over time though, with or without damage.  
+
+**Evidence:**  
+* [Gauge is removed when connection to server is re-established and damage is dealt](https://www.youtube.com/watch?v=89i_pYX6q_g)  
+* [Normal gauge decay](https://www.youtube.com/watch?v=LjBSOXtd3RU)  
+
+**Significance:**  
+Better understanding of how EC works.  
+
+### Zero Gauge Attacks Don't Change EC Ownership
+**By:** NZPIEFACE\#8439  
+**Added:** 1/8/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/923420389915381770/929316314999320576/transcript-zero-gauge-attacks-dont-change-ec-ownership.html)
+
+**Finding:**  
+0 gauge Electro attacks don't change Electro-Charged ownership.
+
+**Evidence:** [Youtube](https://www.youtube.com/watch?v=y6bqn174YHY)
+
+**Significance:**  
+Nothing, considering the only 0 gauge attacks are Lisa's Q's initial damage and her plunge collision for Electro, and the three Hydro catalyst user's plunge collisions for Hydro.  
+That said, this emphasises that the AoE portion of EC changes ownership through a different mechanism than just dealing Electro damage.
+
 
 ## Frozen + Shatter
 

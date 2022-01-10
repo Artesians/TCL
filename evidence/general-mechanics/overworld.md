@@ -8,6 +8,81 @@ search: false
 
 {% page-ref page="../../general-mechanics/overworld.md" %}
 
+## The Rock
+
+**By:** Aevean Leeow\#1362, Mcpie\#8672, BowTae\#0141, KQM Stream Meme Team, and KQM Friends  
+**Added:** 12/24/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/905507145762631690/924148014212333608/transcript-the-rock.html)
+
+**Finding:**
+There are a few small rocks in the overworld with interesting properties. They can be damaged and destroyed, and they can also deal Geo damage when dropped.
+
+The current known locations for these rocks:
+* North of the Dragonspine Adventurer's Guild Camp (1 Rock): [Imgur](https://imgur.com/i7qX6Uq)
+* Cape Oath (2 groups of 4 Rocks each): [Map](https://imgur.com/EDNub8V) - [View of Rocks](https://imgur.com/YuxAlNR)  
+
+**Evidence:**  
+*Basic Mechanics:*  
+* Rock does not respawn
+  * Initial rock was found and destroyed on November 3, 2021: [Imgur](https://imgur.com/dIXY8xN)
+    * The rock at this location has not reappeared as of December 5, 2021.
+* Rock has around 8000HP at WL8: [Youtube](https://youtu.be/3b5GtygZxnw)
+* Rock does not light up with Elemental Sight: [Youtube](https://imgur.com/CnzrqRP)
+* Rock has 0 DEF and 0 RES: [Imgur](https://imgur.com/bVH9zer)
+  * Amber and Sara both have 85 ATK and 124% CA modifier. 1.24 * 85 = 105.4. The damage number was 105.
+* Rock is targettable (Guoba and Oz will target the rock, for example): [Imgur](https://imgur.com/qTsGcVK)
+* Rock can hold Cryo aura: 
+  * [Swirl and Crystallize](https://youtu.be/xK8FCPxjHv4) 
+  * [Melt](https://youtu.be/zKyXIUhqTio)
+  * [Freeze Shatter](https://youtu.be/uafxmx-UmZ0)
+  * [Superconduct](https://youtu.be/KcrGM4hRmN4)
+    * No phys RES shred is applied to the Rock 
+
+*Attack Mechanics:*
+* Rock can do Geo damage when it falls and takes fall damage: [TheFirstRapher#9207](https://imgur.com/a/wQf0D19)
+* This attack can hit other rocks and players: [Youtube](https://youtu.be/NAx5VxLysgY)
+  * Rock level is estimated to be Level 75
+  * The damage is affected by DEF, most likely Geo RES too but unconfirmed
+* The Geo damage has a gauge, and will Crystallize when hitting a player with an aura: [ASnowOwI#7234](https://youtu.be/ORXq8OsVFlg)
+Interactions:
+* Jean Skill can yeet the Rock: [pai#3602](https://youtu.be/dRTnQhpjxMM)
+* Venti Burst can suck in the Rock: [Raven#9205](https://imgur.com/KpnrbxK)
+* AMC Burst can move the Rock: [Imgur](https://imgur.com/uy5W4Lh)
+* GMC Boulders move the Rock: [Imgur](https://imgur.com/pQRvUG5)
+* Overload can move the Dragonspine Rock, but didn't seem to move the Cape Oath Rocks: [Dragonspine](https://imgur.com/YzM7rsR) [Cape Oath](https://imgur.com/vuOZnlc)
+* Ayaka A4 does not proc on the Rock: [Reens#9389](https://imgur.com/6lCKFdP)
+* Kazuha A4 does not proc on the Rock: [ShampooBrain#9583](https://imgur.com/a/hpfXL5o)
+* Mona Burst does not apply Omen to the Rock: [ShampooBrain#9583](https://imgur.com/a/4pElThX)
+* Rock is not affected by Zhongli RES shred or Lisa DEF shred: [Chameleon#9008](https://youtu.be/K71cGeGSQWM) 
+
+*Glitches/Weird Stuff:*
+* Spawning the teapot on top of the Rock makes it disappear: [Reens#9389](https://imgur.com/awZKod0)
+* Rock behaves weird on ledges: [Imgur](https://imgur.com/9rJt9pa)
+* Sometimes fall damage does not trigger on landing, and the rock will just disappear: [twentythree#3787](https://imgur.com/OC35oS1)
+
+*Further Research:*
+* It is currently not known if World Level affects rock HP or damage. This may change in the future.
+
+**Significance:**  
+The Rock (Igneous Pebblus) is a federally endangered species which is currently known to live in various regions of Mondstadt. The range of the Rock historically included the northern part of Dragonspine and various clusters in Cape Oath. Exploitative research and tree farming have driven this species to near extinction. It is unknown if there are surviving habitats of Rocks in other parts of Teyvat. 
+
+## Serenitea Pot
+
+### Teapot Dog Abuse  
+**By:** Asaki\#9139  
+**Added:** 12/23/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/923064128225026118/923456084302241872/transcript-teapot-dog-abuse.html)  
+
+**Finding:**  
+0-poise attacks also register on Kageroumaru.  
+
+**Evidence:**  
+[Imgur](https://i.imgur.com/c8IpYrX.mp4) (notice the double hits)  
+
+**Significance:**  
+* Kageroumaru take hits like a chad.
+* Helps to map out how XQ’s orbitals work. 
+
 ## Explosive Barrel Properties
 
 **By:** kxmndz\#4700  
@@ -136,6 +211,7 @@ Maps:
 **Evidence:**
 Transcript of this entire ticket + spreadsheet displaying each spot with a screenshot and video for each spot: [Spreadsheet](https://docs.google.com/spreadsheets/d/1zDMPfY8SKR7mb-tASNedWmj62wJOnDbSsVVR17ykg6I)  
 Unfortunately we're unable to tell if we managed to cover all of the spots, but based on our research (from the transcript) we managed to gather 144 (+1/+2) investigation spots that drop artifacts.
+
 
 ## Cursed Terrain
 
@@ -377,17 +453,17 @@ Fluff, and overworld documentation I guess.
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/918005225162432543/923133715008352266/transcript-zone-levels.html)
 
 1. **Mondstadt**  
-Map has been updated and there is a newly discovered area that doesn't have a zone level. - [Updated Mondstadt Map](https://imgur.com/VpKGD81)  
-The no level area (Mondstadt bridge) does not have any value marked in the game code. Burned grass and electrified water do damage, but the damage is depending on the previous zone level you have been in. In other words, that area's level is dynamic and fully dependent on your position on the map before entering it. - [Video example of the no level area](https://youtu.be/qj3ROEgPc84)  
+Map has been updated and there is a newly discovered area that doesn't have a zone level. - [Updated Mondstadt Map](https://photos.google.com/share/AF1QipNH_MBr8Dfh3fzm6_x4lQqb0bdzrV7tWi6JHaJlnwCElh7v5X4zIiLYp6_DHR5MBA?key=bTlnQXFPdDhLQlhsbDBlSEpVN2R3dWRJdjEtdnFB)  
+The no level area (Mondstadt bridge) does not have any value marked in the game code. Burned grass and electrified water do damage, but the damage is depending on the previous zone level you have been in. In other words, that area's level is dynamic and fully dependent on your position on the map before entering it. - [Video example of the no level area](https://www.youtube.com/watch?v=qj3ROEgPc84)  
 
 2. **Liyue**  
-Map has been updated. - [Updated Liyue Map](https://imgur.com/tn5tOFy)  
+Map has been updated. - [Updated Liyue Map](https://photos.google.com/share/AF1QipPLmV3Pt5S9suJQSMm4rK6eVhIerzuS6VEMQmdlZJpI8IUMPjNM4FEeHvaG4BiJeA?key=eG1FUE82Mk92TUtxbUt2STUzNVlnbDdUYTQwUFJR)  
 
 3. **Inazuma**  
-Map has been updated. - [Updated Inazuma Map](https://imgur.com/mOq1cwf)
+Map has been updated. - [Updated Inazuma Map](https://photos.google.com/share/AF1QipO_e3CL7arfSKBptsr_IU5oLM6Bm73AukEONaqJ6Hazq95z7dENxRKpBall0_tsKA/photo/AF1QipO25Gcl-MjRfeYd7HSBbc5LBv3bllpEZUwjP3v3?key=cG1Ca25iRmtac0RtT0wtYk1laFRDbUMtOW0tTEhR)
 
 4. **Teyvat**  
-Map has been updated. - [Updated Teyvat Map](https://imgur.com/sBjFlDH)
+Map has been updated. - [Updated Teyvat Map](https://photos.google.com/share/AF1QipPGs6r8qfWVNVXlU7HwyFarhqqp1LACnDrB9Wp_qbfMP8VzZaInS7IK7zY4kJcUxg?key=TGFVX2hzUUoxQXdwd1g5WWY3SThCdTdCTkItVDJ3)
 
 5. **Mentions**  
 By "'map has been updated" we understand:  
@@ -1036,3 +1112,24 @@ Documenting the overworld spaghetti, and a better understanding of 0 gauge stuff
 **Evidence:** [https://youtu.be/yJ-3I3xGDgs](https://youtu.be/yJ-3I3xGDgs)
 
 **Significance:** Can't do hydro tests on dandelions near Mondstadt
+
+## Electro Fog
+**By:** pai\#3602  
+**Added:** 1/4/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/922637382807846942/927770423368749116/transcript-electro-fog.html)
+
+**Finding:**  
+Interactions with the Thunder Fog in The Thundering Wilds daily commission.  
+1. Sucrose's N1, N2, and N3 don't work on their own.
+2. Sucrose's N1 and N2 work when there is something next to it that she can target, so it's assumed that N3 is the same way, but no one has been able to actually do it yet.
+3. Every other Anemo ability works on its own.
+4. The attacks from Anemo Slimes don't work, some examples of things that Sucrose can't target (and can't disperse the fog with) are the Portable Waypoint, Serenitea Pot, and Windblume Festival Commemorative Balloon.
+
+**Evidence:**   
+1. Sucrose N1 and N2 not working: [Youtube](https://youtu.be/B5jLUybrFtM)
+2. Sucrose N1 and N2 working with an enemy/gadget, and N4 working on its own: [Youtube](https://youtu.be/OBMRc6u7bng)
+    * Not included in the video: [Youtube](https://youtu.be/o5UDnI27YF0)
+4. All other Anemo abilities that work: [Youtube](https://youtu.be/1KYeH8ZwUZE)
+5. Anemo Slimes not being able to disperse it and Sucrose not being able to target some gadgets: [Youtube](https://youtu.be/qgavZ5FShY4)
+
+**Significance:** Fluff.
