@@ -262,3 +262,19 @@ When graphed by fortune type, the modest and great fortunes are the most likely,
 **Significance:**  
 Getting the "Paimon's Lucky Day!" achievement is significantly easier than the "Just My Luck..." achievement. There is a 25% chance to get the Great Fortune, which means that 50% of people will get the "Paimon's Lucky Day!" by their 3rd slip. There is only a 6.25% chance of getting the Great Misfortune, which means that 50% of people will get the "Just My Luck..." by their 11th slip. This means that most people will be able to get both achievements within two weeks.  
 
+## Kamera Gadget Knockback Cancel  
+**By:** JoJoCheck#4450  
+**Added:** 1/10/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/925335438003150848/930089635097497650/transcript-kamera-gadget-knockback-cancel.html)
+
+**Finding:** Kamera Gadget can cancel knockback.  
+Both the Kamera gadget as well as the Special Kamera gadget can be used to "cancel" knockback (instead of flying through the air, the character slides backwards). It can also be used to cancel a dash off of a ledge or the bounce of Bennetts charge level 2 (which seems to behave identical to receiving knockback).  
+To do this, you have to take a picture at the moment where you get hit/leap off a ledge. The method used is to take photos in rapid succession, by pressing "esc" and "y" quickly after one another. This makes timing the photo easier.
+
+**Evidence:** 
+* Ledge dash cancel: [Youtube](ttps://www.youtube.com/watch?v=aLx8utxbcrk)
+* Knockback cancel: [Youtube](https://www.youtube.com/watch?v=-2l4DQ1DyJ4)
+* Bennett charge level 2 cancel: [Youtube](https://www.youtube.com/watch?v=pR-DhOPOqhk)
+
+**Significance:** Knockback cancel/Fluff/investigating the influence pausing the game has on certain actions.
+
