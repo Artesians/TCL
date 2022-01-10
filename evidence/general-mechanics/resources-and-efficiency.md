@@ -534,10 +534,10 @@ Possible sacrifices are:
 * Spend a total of 500,000 Mora.
   * It's easy to spend it if you're planning to level anything.
 * Purchase 2 items from the Teapot Traveling Salesman in another player's Serenitea Pot.
-  * Requires sacrificing possible resin gains from purchasing mora/fodder/exp for Realm Currency - it's 80 realm currency in order to reach it.
+  * Requires sacrificing possible resin gains from purchasing Mora/fodder/EXP for Realm Currency - it's 80 Realm Currency in order to reach it.
 * Use a total of 1200 Original Resin.
   * Only NA is capable of doing this and not even by a huge margin - you can use up to 1237 resin assuming perfect server maintenance end and x2 Transient Resin.
-  * If you're not a hardcore player, you need to either make a refill with primogems or utilize fragile resins.
+  * If you're not a hardcore player, you need to either make a refill with Primogems or utilize Fragile Resins.
 
 **Evidence:** 
 Sheet including options and calcs per server region: [Google Doc](https://docs.google.com/spreadsheets/d/1w3AzHkRcJPFLyonoEVQGJmNX4KCqfIewEH_1LQ55y4c)
