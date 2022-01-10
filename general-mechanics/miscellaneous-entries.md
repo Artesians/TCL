@@ -9,6 +9,9 @@ description: For entries that have little practical use.
   * You can use this to get free fowl. 
 * Without using any elemental skills/bursts, the glider, or characters/weapons not freely available to every account, is it possible to climb to the peak of the fully grown Frostbearing Tree? The answer is yes.
 * The Kamuijima Cannons in Inazuma can cause friendly damage to yourself, as well as other players in Co-op.
+* Kamera Gadget can cancel knockback.
+  * Both the Kamera gadget as well as the Special Kamera gadget can be used to "cancel" knockback (instead of flying through the air, the character slides backwards). It can also be used to cancel a dash off of a ledge or the bounce of Bennetts charge level 2 (which seems to behave identical to receiving knockback).
+  * To do this, you have to take a picture at the moment where you get hit/leap off a ledge. The method used is to take photos in rapid succession, by pressing "esc" and "y" quickly after one another. This makes timing the photo easier.
 
 ## Cancelling
 
