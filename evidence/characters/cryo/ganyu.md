@@ -242,7 +242,7 @@ Two Ice Lotuses can exist simultaneously on C0 Ganyu.
 **Significance:**  
 It is possible to spawn multiple Ice Lotuses without C2 Ganyu.
 
-### C0 Ganyu: 2 Simultaneous Ice Lotuses
+### Ganyu Elemental Skill has no ICD
 
 **By:** TWICE\#9958  
 **Added:** 1/10/2022   
