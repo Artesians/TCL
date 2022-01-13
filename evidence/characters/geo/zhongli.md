@@ -34,7 +34,18 @@ This is further shown in the [example with a target](https://youtu.be/naC-dy0jEC
 
 **Significance:**  
 This shows that with c1 Zhongli or during co-op, the presence of more than one Zhongli pillar allows more resonance damage within a given window. With b being the resonance damage with one seele in one 2s window and n being the number of steeles, the total resonance damage would be nb.
-In other words having two pillars from c1 will double the damage from resonance
+In other words having two pillars from c1 will double the damage from resonance.
+
+### Zhongli Shred Lingers
+**By:** clrE#6290  
+**Added:** 1/14/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/928609238002053131/931322938953728050/transcript-zhongli-shred-linger.html)
+
+**Finding:** Zhongli's shield RES shred lingers for a bit after it breaks/ends.
+
+**Evidence:** [Youtube](https://www.youtube.com/watch?v=FwohwAKylSo) (credits: Kolibri#7675)
+
+**Significance:** Zhongli's shred can last for more hits of Xingqiu's rainswords/Beidou procs/Fischl, etc. if it breaks/ends early
 
 ## Ascension Mechanics
 
