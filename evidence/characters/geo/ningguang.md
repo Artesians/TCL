@@ -8,6 +8,21 @@ search: false
 
 {% page-ref page="../../../characters/geo/ningguang.md" %}
 
+## Skill Mechanics
+
+### Jade Screen ICD
+**By:** Goden#2155  
+**Added:** 1/13/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/929477312284618822/931062924217315359/transcript-jade-screen-icd.html)
+
+**Finding:** Ningguang's Jade Screen has no ICD for the detection of aura-checks.
+
+**Evidence:** 
+* [Imgur](https://imgur.com/a/fP9lMU8) - The aura-check ticks shown here overlap 2 ticks in the same frame, showing that it can detect several in an extremely short impulse.
+* [Imgur](https://imgur.com/a/sgoXz0X) - The ticks shown here on the contrary are fairly evenly spaced, demonstrating that the delay between ticks can be extremely low and still registered.
+
+**Significance:** Combining the demonstrations of both of these tests, it can be concluded that Ningguang's Jade Screen has no ICD on detection of aura-checks.
+
 ## Burst Mechanics
 
 ### Ningguang Burst Does Snapshot
