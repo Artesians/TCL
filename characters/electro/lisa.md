@@ -124,6 +124,9 @@ The **Lightning Rose** will continuously emit lightning to knock back opponents 
 * The Lightning Rose shoots lightning 29 times in total, every 0.5s after the initial summon blast.
 * Enemy targeting seems fully randomized between all opponents in-range.
 * Discharges from **Lightning Rose** have a small AoE on impact. In tight enemy groups, a lightning bolt can deal damage to multiple enemies at once.
+* The initial Summon DMG dealt by Lisa's Lightning Rose is dealt once within a specific area.
+  * This area is defined as either a flat circular plane or a small cylinder which shares the radius of Lightning Rose (7m).
+  * The Summon DMG cannot deal damage to enemies whose hurtboxes are below or above near the suspended plane of which Lightning Rose was casted on, which is deceptive given its visual appears to give verticality.
 
 {% endtab %}
 {% endtabs %}
