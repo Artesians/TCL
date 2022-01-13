@@ -9,20 +9,6 @@ description: For entries that have little practical use.
 
 {% page-ref page="../../general-mechanics/miscellaneous-entries.md" %}
 
-## Fruit can stick to ground when left unattended
-
-**By:** vinsette\#0293
-
-**Added:** 12/13/2021
-
-[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/918035789865156618/919908365172363385/transcript-fruit-changes-on-hitting-ground.html)
-
-**Finding:** Fruit can be affected by Anemo suction as long as it doesn't stay on the ground for too long. Once they have been on the ground for a certain amount of time, nothing will affect it anymore. You can also indefinitely keep fruit in the air with enough Anemo skills, and **even import Mondstadt fruit into Liyue**.
-
-**Evidences:** [Fruit juggle](https://imgur.com/a/FKJoulw)
-
-**Significance:** Don't let your food touch the ground. Also allows for entertainment via juggling when out of content.
-
 ## Ded Bird
 
 **By:** Aluminum\#5462, Mcpie\#8672, mol\#3280, JenjenJL\#6582, Kgbeast\#6738, wiremash\#0433  
@@ -262,3 +248,100 @@ When graphed by fortune type, the modest and great fortunes are the most likely,
 **Significance:**  
 Getting the "Paimon's Lucky Day!" achievement is significantly easier than the "Just My Luck..." achievement. There is a 25% chance to get the Great Fortune, which means that 50% of people will get the "Paimon's Lucky Day!" by their 3rd slip. There is only a 6.25% chance of getting the Great Misfortune, which means that 50% of people will get the "Just My Luck..." by their 11th slip. This means that most people will be able to get both achievements within two weeks.  
 
+## Fruit can stick to ground when left unattended
+
+**By:** vinsette\#0293
+
+**Added:** 12/13/2021
+
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/918035789865156618/919908365172363385/transcript-fruit-changes-on-hitting-ground.html)
+
+**Finding:** Fruit can be affected by Anemo suction as long as it doesn't stay on the ground for too long. Once they have been on the ground for a certain amount of time, nothing will affect it anymore. You can also indefinitely keep fruit in the air with enough Anemo skills, and **even import Mondstadt fruit into Liyue**.
+
+**Evidences:** [Fruit juggle](https://imgur.com/a/FKJoulw)
+
+**Significance:** Don't let your food touch the ground. Also allows for entertainment via juggling when out of content.
+
+## Reactions are Client-side, Damage is Server-side  
+
+**By:** NZPIEFACE\#8439  
+**Added:** 12/17/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/917969257504047174/921166808302616627/transcript-reactions-are-client-side-damage-is-server-side.html)
+
+**Finding:** 
+* Reactions (and auras) are done client-side.
+* Damage and hit requires servers for them to work.
+* This applies to their respective triggers as well.
+
+**Evidence:**
+Client-side:
+* [Sucrose A1](https://youtu.be/ADkMT-1a9qw)
+* [Fischl A4](https://youtu.be/is7BsrPfUCM)
+* [Electro-charged](https://youtu.be/LjBSOXtd3RU)
+
+Server-side:
+* [Sucrose A4](https://youtu.be/rN1zelj3zBw)
+* [Raiden E](https://youtu.be/9i_WGm8aUpQ)
+
+## Enemy level vs. average party level
+
+**By:** r.rei\#2844  
+**Added:** 12/19/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/920224953935216670/921938746549608480/transcript-enemy-level-vs-average-party-level.html)  
+
+**Findings:**   
+* Enemy level colour is based on your highest owned character level, and current team level is irrelevant.
+* Enemy defense is based on the difference of level to the character attacking, the colour of enemy level does not affect that. 
+* Average party level warning/zone level warning is a lie, only highest level character is accounted for.  
+
+**Evidence:** [Imgur](https://imgur.com/a/0wWvY56)  
+First recording Thoma E damage aligns with 2nd damage calculation, proves that enemy level colour indicator has nothing to do with enemy defense calculation: [Imgur](https://imgur.com/a/biAv7pk)
+
+**Significance:**  
+* To get rid of "Dangerous Zone" warning, you only need to level one character.
+* Enemy level colour is an unreliable indicator.
+
+## All Models Can Roll In Place  
+**By:** Mcpie\#8672  
+**Added:** 1/10/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/929185933952159755/930084965645967420/transcript-all-models-can-roll-in-place.html)
+
+**Finding:**  
+Every character model is capable of rolling in place.  
+In order to perform it, you need enough movement speed and then proceed to jump from being idle -> hold W while falling.  
+
+Depending on character model, you need up to:  
+* Child female - 10%  
+* Adult female - 10%  
+* Adult male - 25%  
+* Teen male - 35%  
+* Teen female - 35%  
+movement speed in order to roll. These are upper bounds and it might be possible to roll with lower values but way harder to execute.
+
+**Evidence:**  
+* [Adult male](https://youtu.be/5i_AFRe35ck)
+* [Adult female](https://youtu.be/nq3rgd3czz8)
+* [Teen male](https://youtu.be/enmeL7TYBGY)
+* [Teen female](https://youtu.be/nq3rgd3czz8)
+* [Child female](https://youtu.be/0kSxjTp96LM)
+
+**Significance:**  
+Fluff, but might somehow help out with model differences in the future.
+
+## Kamera Gadget Knockback Cancel  
+**By:** JoJoCheck\#4450  
+**Added:** 1/10/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/925335438003150848/930089635097497650/transcript-kamera-gadget-knockback-cancel.html)
+
+**Finding:**  
+Kamera Gadget can cancel knockback.  
+Both the Kamera gadget as well as the Special Kamera gadget can be used to "cancel" knockback (instead of flying through the air, the character slides backwards). It can also be used to cancel a dash off of a ledge or the bounce of Bennetts charge level 2 (which seems to behave identical to receiving knockback).  
+To do this, you have to take a picture at the moment where you get hit/leap off a ledge. The method used is to take photos in rapid succession, by pressing "esc" and "y" quickly after one another. This makes timing the photo easier.
+
+**Evidence:** 
+* Ledge dash cancel: [Youtube](ttps://www.youtube.com/watch?v=aLx8utxbcrk)
+* Knockback cancel: [Youtube](https://www.youtube.com/watch?v=-2l4DQ1DyJ4)
+* Bennett charge level 2 cancel: [Youtube](https://www.youtube.com/watch?v=pR-DhOPOqhk)
+
+**Significance:**  
+Knockback cancel/Fluff/investigating the influence pausing the game has on certain actions.
