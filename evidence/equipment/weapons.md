@@ -664,7 +664,7 @@ Damage calculation
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/926918612894248981/931125536460247080/transcript-polar-star-icd-round-two.html)   
 (Debunked entry: [Polar Star has ICD across independent stacks](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/915808783383556117/919058132649525278/transcript-polar-star-icd.html))
 
-**Finding:** Polar Star has no ICD.
+**Finding:** Polar Star has no ICD for gaining independent stacks.
 
 **Evidence:** 
 * [Youtube](https://www.youtube.com/watch?v=R3lTNnsC4aY&ab_channel=Cenpi) - This was the evidence to prove that Polar Star won't acquire stacks if the NA and CAs are too close together resulting in a loss of 20% ATK which is 1 stack of Polar Star. However on closer inspection it can be observed at 0:02 \[[Imgur](https://imgur.com/a/uV8YYzZ)\] that Childe did NOT receive the buff from Bennett's Noblesse Oblige, which is also exactly 20% ATK.
