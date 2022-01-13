@@ -28,19 +28,22 @@ Perform up to 4 consecutive shots with a bow.
 
 | String | Talent 6% | Frames | MV/s |
 | :--- | :--- | :--- | :--- |
-| 1-Hit | 54.88% | - | - |
-| 2-Hit | 54% | - | - |
-| 3-Hit | 71.88% | - | - |
-| 4-Hit | 85.75% | - | - |
+| 1-Hit | 54.88% | 18 | 182.93%/s |
+| 2-Hit | 54% | 37 | 176.56%/s |
+| 3-Hit | 71.88% | 85 | 127.60%/s |
+| 4-Hit | 85.75% | 132 | 121.14%/s |
+| Recovery | - | 162 | 98.10%/s | 
 
 **Charged Attack**  
 Perform a more precise Aimed Shot with increased DMG.
 While aiming, stone crystals will accumulate on the arrowhead. A fully charged crystalline arrow will deal Geo DMG.
 
-| String | Talent 6% | Frames | MV/s |
-| :--- | :--- | :--- | :--- |
-| Aimed Shot | 63.75% | - | - |
-| Fully-Charged Aimed Shot | 173.6% | - | - |
+| String | Talent 6% | Frames | MV/s | GU | 
+| :--- | :--- | :--- | :--- | :--- |
+| Aimed Shot | 63.75% | 23 | 166.30%/s | - |
+| Fully-Charged Aimed Shot | 173.6% | 86 | 121.12%/s | 1U |
+
+* Fully-Charged Aimed Shot has no ICD.
 
 **Plunge**  
 Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.
@@ -70,15 +73,20 @@ Adjust the location of the skill.
 | Skill DMG \(T6%\) | 150.08% |
 | DEF Increase \(T6%\) | 289 |
 | Geo DMG Bonus | 15% |
-| Particles | - | 
-| Frames | - |
-| GU | - |
+| Particles | 2 \(-\) | 
+| Frames | 46 \(Press\)<br />62-649 \(Hold\) |
+| GU | 1U |
 | ICD | - | 
 | Snapshot | - | 
 | Damage Element | Geo | 
 | Damage Type | Skill |
 | Duration | 10s |
-| CD | 10s | 
+| CD | 10s |
+
+* Gorou counts as one of the Geo characters for **General's War Banner**'s buff condition.
+* The inital hit of **Inuzaka All-Round Defense** does not benefit from its own buff.
+* There is a delay before applying the buff effects of **General's War Banner**.
+* The **General's War Banner** is not affected by gravity. 
 
 {% endtab %}
 
@@ -95,15 +103,18 @@ If Gorou falls, the effects of **General's Glory** will be cleared.
 | Attribute | Burst | Crystal Collapse | 
 | :--- | :--- | :--- |
 | Skill DMG \(T6%\) | 137.5% DEF | 85.82% DEF | 
-| Frames | - | - |
-| GU | - | - |
-| ICD | - | - | 
-| Snapshot | - | - | 
-| Damage Element | Geo | - | 
-| Damage Type | Burst | - |
+| Frames | 56 | - |
+| GU | 1U | 1U |
+| ICD | - | 3 hit / 2.5s | 
+| Snapshot | - | Dynamic | 
+| Damage Element | Geo | Geo | 
+| Damage Type | Burst | Burst |
 | Energy Cost | 80 | - |
 | Duration | 9s | - |
 | CD | 20s | - |
+
+* The initial hit of **Juuga: Forward Unto Victory** does not benefit from its own buff.
+* The initial hit of **Juuga: Forward Unto Victory** benefits from A1: **Heedless of the Wind and Weather**.
 
 {% endtab %}
 {% endtabs %}
@@ -112,19 +123,21 @@ If Gorou falls, the effects of **General's Glory** will be cleared.
 
 {% tabs %}
 {% tab title="Passive" %}
-### Seeker of Shinies
+### **Seeker of Shinies**
 
 Displays the location of nearby resources unique to Inazuma on the mini-map.
 {% endtab %}
 
 {% tab title="Ascension 1" %}
-### Heedless of the Wind and Weather
+### **Heedless of the Wind and Weather**
 
 After using **Juuga: Forward Unto Victory**, all nearby party members' DEF is increased by 25% for 12s.
+
+* The DEF increase of **Heedless of the Wind and Weather** only scales off of the base defense stat. 
 {% endtab %}
 
 {% tab title="Ascension 4" %}
-### A Favor Repaid
+### **A Favor Repaid**
 
 Gorou receives the following DMG Bonuses to his attacks based on his DEF:
 * **Inuzaka All-Round Defense**: Skill DMG increased by 156% of DEF
@@ -136,14 +149,16 @@ Gorou receives the following DMG Bonuses to his attacks based on his DEF:
 
 {% tabs %}
 {% tab title="C1" %}
-### Rushing Hound: Swift as the Wind
+### **Rushing Hound: Swift as the Wind**
 
 When characters (other than Gorou) within the AoE of Gorou's **General's War Banner** or **General's Glory** deal Geo DMG to opponents, the CD of Gorou's **Inuzaka All-Round Defense** is decreased by 2s.  
 This effect can occur once every 10s.
+
+* The effect of **Rushing Hound: Swift as the Wind** can be snapshotted along with the buffs of **General's War Banner**. 
 {% endtab %}
 
 {% tab title="C2" %}
-### Sitting Hound: Steady as a Clock
+### **Sitting Hound: Steady as a Clock**
 
 While **General's Glory** is in effect, its duration is extended by 1s when a nearby active character obtains an Elemental Shard from a Crystallize reaction.  
 This effect can occur once every 0.1s. Max extension is 3s.
@@ -151,25 +166,27 @@ This effect can occur once every 0.1s. Max extension is 3s.
 {% endtab %}
 
 {% tab title="C3" %}
-### Mauling Hound: Fierce as Fire
+### **Mauling Hound: Fierce as Fire**
 
 Increases the Level of **Inuzaka All-Round Defense** by 3.
 {% endtab %}
 
 {% tab title="C4" %}
-### Lapping Hound: Warm as Water
+### **Lapping Hound: Warm as Water**
 
 When **General's Glory** is in the "**Impregnable**" or "**Crunch**" states, it will also heal active characters within its AoE by 50% of Gorou's own DEF every 1.5s.
+
+* The healing is dynamic and does not snapshot Gorou's DEF on cast.
 {% endtab %}
 
 {% tab title="C5" %}
-### Striking Hound: Thunderous Force
+### **Striking Hound: Thunderous Force**
 
 Increases the Level of **Juuga: Forward Unto Victory** by 3.
 {% endtab %}
 
 {% tab title="C6" %}
-### Valiant Hound: Mountainous Fealty
+### **Valiant Hound: Mountainous Fealty**
 
 For 12s after using **Inuzaka All-Round Defense** or **Juuga: Forward Unto Victory**, increases the CRIT DMG of all nearby party members' Geo DMG based on the buff level of the skill's field at the time of use:
 * "**Standing Firm**": +10%
@@ -177,6 +194,8 @@ For 12s after using **Inuzaka All-Round Defense** or **Juuga: Forward Unto Victo
 * "**Crunch**": +40%
 
 This effect cannot stack and will take reference from the last instance of the effect that is triggered.
+
+* The CRIT DMG increase does not snapshot.
 {% endtab %}
 {% endtabs %}
 
@@ -216,7 +235,7 @@ This effect cannot stack and will take reference from the last instance of the e
 | Skill DMG | 150.08% | 160.80% | 171.52% | 182.24% | 192.96% | 203.68% | 214.40% | 227.80% |
 | DEF Increase | 289 | 309 | 330 | 350 | 371 | 392 | 412 | 438 |
 
-**Geo Damage Bonus**: 10%  
+**Geo Damage Bonus**: 15%  
 **Duration**: 10s  
 **Cooldown**: 10s
 {% endtab %}
@@ -233,6 +252,6 @@ This effect cannot stack and will take reference from the last instance of the e
 {% endtab %}
 {% endtabs %}
 
-## Evidence Vault:
+## Evidence Vault
 
 {% page-ref page="../../evidence/characters/geo/gorou.md" %}
