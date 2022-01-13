@@ -36,6 +36,18 @@ For Travelers who wish to maximize Stardust and minimize Realm Currency: target 
 The $10 BP gives rewards worth approximately 1800 Resins = 45 Condensed Resin = 30 Fragile Resins in the form of EXP books, Mora, and talent books.  
 * This does not include the Weapon Enhancement Ores, Fates, Primogems, and BP exclusive Weapons.
 
+### Weekly BP Cap During Launch Week  
+
+Reaching BP Weekly EXP limit during launch week requires sacrifices.  
+Possible sacrifices are:
+* Spend a total of 500,000 Mora.
+  * It's easy to spend it if you're planning to level anything.
+* Purchase 2 items from the Teapot Traveling Salesman in another player's Serenitea Pot.
+  * Requires sacrificing possible resin gains from purchasing Mora/fodder/EXP for Realm Currency - it's 80 Realm Currency in order to reach it.
+* Use a total of 1200 Original Resin.
+  * Only NA is capable of doing this and not even by a huge margin - you can use up to 1237 resin assuming perfect server maintenance end and x2 Transient Resin.
+  * If you're not a hardcore player, you need to either make a refill with Primogems or utilize Fragile Resins.
+
 ### Food 
 * Cheapest 3\* instant heal \(assuming 20k HP\): Mondstadt Hashbrowns, 8.57 Health/Mora
 * Most Mora-efficient heal \(assuming 20k HP\): Grilled Tiger Fish, 11.23 Health/Mora
@@ -83,6 +95,7 @@ Certain material items can be destroyed, but they don't give anything when destr
 * Crabs that you approach and fail to pick up will respawn after leaving their render distances and coming back.
 * There exists an investigation daily limit of 100. After that, you cannot "investigate" to pick up items anymore. This limit resets at daily reset.
   * It is possible to go beyond this number by not leaving the rendered zone after picking up the 100th investigation spot.
+* There is a random event daily limit of 10. After that, you receive no reward when completing random events that day.
 
 ### Artifact Drop Spots
 There are two types of artifact spots:  
@@ -133,10 +146,12 @@ Crafted food items have a limit of 2000 per unique item.
 
 The most efficient units for tree chopping:
 
-* Xingqiu \(only if you **manually time** their attack string, spam clicking won't work\)
+* Thoma
 * Keqing
 * Rosaria
-* Xiao
+* Xiao  
+
+Details: [Google Doc](https://docs.google.com/spreadsheets/d/1Q4HKzkaw7YFNZyIJSjRINZJonFe1kiDwz1dEbpcZiNk/edit#gid=937070148)
 
 ### Tree Chopping Memory Mechanics
 
