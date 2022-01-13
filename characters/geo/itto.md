@@ -91,6 +91,7 @@ This state has the following special properties:
 * Converts Itto's Normal, Charged, and Plunging Attacks to Geo DMG. This cannot be overridden.
 * Increases Itto's Normal Attack SPD. Also increases his ATK based on his DEF.
 * On hit, the 1st and 3rd strikes of his attack combo will each grant Arataki Itto 1 stack of **Superlative Superstrength**.
+  * Using **Royal Descent: Behold, Itto the Evil!** during N1 hitlag also gives **Superlative Strength** stacks
 * Decreases Itto's Elemental and Physical RES by 20%.
 The Raging Oni King state will be cleared when Itto leaves the field.
 
