@@ -14,13 +14,12 @@ This applies to their respective triggers too.
 * Average party level warning/zone level/enemy level color warning is a lie, only highest level character is accounted for. 
 * Every character model is capable of rolling in place.  
   * In order to perform it, you need enough movement speed and then proceed to jump from being idle -> hold W while falling.
-  * Depending on character model, you need up to:
+  * Depending on character model, you need up to the following movement speed in order to roll. These are upper bounds and it might be possible to roll with lower values but way harder to execute.
     * Child female - 10%
     * Adult female - 10%
     * Adult male - 25%
     * Teen male - 35%
     * Teen female - 35%
-  * movement speed in order to roll. These are upper bounds and it might be possible to roll with lower values but way harder to execute.
 
 ## Cancelling
 
