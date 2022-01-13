@@ -15,6 +15,10 @@ The cooldown debuff can be avoided by shield and elemental burst iframes.
 
 Triggering a freeze reaction on a boss entity does not create a frozen aura on the entity, but rather consumes the hydro and cryo auras, leaving no aura behind.
 
+### Golden Wolflord 
+
+* Rifthounds skulls need 3 Geo GU to be charged (obviously). They also can be charged with other elements, but it requires 38 attacks to be charged and does not depend on GU at all (example: Beidou Q activation charges them for the same amount as Lisa basic attack). Physical dmg is useless.
+
 ### Cryo Regisvine
 
 * Xiangling's Pyronado will only apply Pyro once to the Cryo Regisvine's core during the initial swing, and will not hit the core again during the rest of its duration.
