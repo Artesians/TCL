@@ -15,6 +15,12 @@ The cooldown debuff can be avoided by shield and elemental burst iframes.
 
 Triggering a freeze reaction on a boss entity does not create a frozen aura on the entity, but rather consumes the hydro and cryo auras, leaving no aura behind.
 
+### Azhdaha 
+
+* Azhdaha's Moonlit Tree phase (submerging underground while leaving his tail on the surface) has two independent hitboxes that can be exploited with a large AoE attack (essentially double the DMG dealt).
+
+* Azhdaha's elements are the same across servers/regions and change weekly on mondays.
+
 ### Cryo Regisvine
 
 * Xiangling's Pyronado will only apply Pyro once to the Cryo Regisvine's core during the initial swing, and will not hit the core again during the rest of its duration.
