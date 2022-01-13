@@ -449,7 +449,20 @@ All evidence uploaded to Imgur and listed here: [Spreadsheet](https://docs.googl
 **Significance:**  
 Helpful for Spiral Abyss floor 12
 
-## Azdaha
+## Azhdaha
+
+### Azhdaha's Element Is The Same For All Regions
+**By:** xSil3nt#0961  
+**Added:** 1/13/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/924709157163122729/931057558175748157/transcript-azhdaha-elements-same-for-all-regions.html)
+
+**Finding:** Azhdaha's elements are the same across servers/regions and change weekly on mondays.
+
+**Evidence:** Data was collected using google forms, all submissions were checked with the screenshot attached with the form. All submissions had the same elements selected on each week, submissions were from multiple regions as seen in the pie chart.  
+[Imgur](https://i.imgur.com/bYYrTD8.jpg)  
+[Google Doc](https://docs.google.com/spreadsheets/d/1o4A8OwyqFwq57pEQ1NTIpNJxGx7A-t809LkmzXotGXI/edit#gid=1836241029)
+
+**Significance:** Co-op cannot be used to have a more favorable/easier elemental matchup against azhdaha as the his infused elements in a given week are the same for all players.
 
 ### Azhdaha in his Tail Form has Two Independent Hitboxes
 
