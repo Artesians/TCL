@@ -9,14 +9,17 @@ description: For entries that have little practical use.
   * You can use this to get free fowl. 
 * Without using any elemental skills/bursts, the glider, or characters/weapons not freely available to every account, is it possible to climb to the peak of the fully grown Frostbearing Tree? The answer is yes.
 * The Kamuijima Cannons in Inazuma can cause friendly damage to yourself, as well as other players in Co-op.
+* Reactions (and auras) are done client-side, while Damage and hit requires servers for them to work.  
+This applies to their respective triggers too.
+* Average party level warning/zone level/enemy level color warning is a lie, only highest level character is accounted for. 
 * Every character model is capable of rolling in place.  
   * In order to perform it, you need enough movement speed and then proceed to jump from being idle -> hold W while falling.
   * Depending on character model, you need up to:
-  * Child female - 10%
-  * Adult female - 10%
-  * Adult male - 25%
-  * Teen male - 35%
-  * Teen female - 35%
+    * Child female - 10%
+    * Adult female - 10%
+    * Adult male - 25%
+    * Teen male - 35%
+    * Teen female - 35%
   * movement speed in order to roll. These are upper bounds and it might be possible to roll with lower values but way harder to execute.
 
 ## Cancelling
