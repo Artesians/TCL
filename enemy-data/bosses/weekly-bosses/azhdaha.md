@@ -15,6 +15,7 @@ In an age that has all but faded from memory, he stood shoulder to shoulder with
 ## Element
 
 * The two elements Azhdaha infuses himself with can be seen on the entrance to his domain.
+  * Example: [Imgur](https://imgur.com/a/Li7HHM4)  
 * These two elements are the same across all regions.
 
 ## Energy drops
