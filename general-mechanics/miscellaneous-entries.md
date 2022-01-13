@@ -9,15 +9,26 @@ description: For entries that have little practical use.
   * You can use this to get free fowl. 
 * Without using any elemental skills/bursts, the glider, or characters/weapons not freely available to every account, is it possible to climb to the peak of the fully grown Frostbearing Tree? The answer is yes.
 * The Kamuijima Cannons in Inazuma can cause friendly damage to yourself, as well as other players in Co-op.
-* Kamera Gadget can cancel knockback.
-  * Both the Kamera gadget as well as the Special Kamera gadget can be used to "cancel" knockback (instead of flying through the air, the character slides backwards). It can also be used to cancel a dash off of a ledge or the bounce of Bennetts charge level 2 (which seems to behave identical to receiving knockback).
-  * To do this, you have to take a picture at the moment where you get hit/leap off a ledge. The method used is to take photos in rapid succession, by pressing "esc" and "y" quickly after one another. This makes timing the photo easier.
+* Reactions (and auras) are done client-side, while Damage and hit requires servers for them to work.  
+This applies to their respective triggers too.
+* Average party level warning/zone level/enemy level color warning is a lie, only highest level character is accounted for. 
+* Every character model is capable of rolling in place.  
+  * In order to perform it, you need enough movement speed and then proceed to jump from being idle -> hold W while falling.
+  * Depending on character model, you need up to the following movement speed in order to roll. These are upper bounds and it might be possible to roll with lower values but way harder to execute.
+    * Child female - 10%
+    * Adult female - 10%
+    * Adult male - 25%
+    * Teen male - 35%
+    * Teen female - 35%
 
 ## Cancelling
 
 * For some characters, if they use an elemental skill and sit in a chair at the same time (pressing F and E at the same time for PC users), while the skill will not activate (and as such the skill cooldown will not start), the game will still "treat" the skill as if it had activated, which causes effects like Crimson Witch 4-piece to stack.
   * This can also be performed by interacting with an NPC or a poster instead of a chair.
 * Aiming with the Harpastum Ball gadget allow character to quickly cancel their animation in combat. This cancel is slightly faster than jump/dash cancels. However, this doesn't work for charge attacks.
+* Kamera Gadget can cancel knockback.
+  * Both the Kamera gadget as well as the Special Kamera gadget can be used to "cancel" knockback (instead of flying through the air, the character slides backwards). It can also be used to cancel a dash off of a ledge or the bounce of Bennetts charge level 2 (which seems to behave identical to receiving knockback).
+  * To do this, you have to take a picture at the moment where you get hit/leap off a ledge. The method used is to take photos in rapid succession, by pressing "esc" and "y" quickly after one another. This makes timing the photo easier.
 
 ## Tanking
 

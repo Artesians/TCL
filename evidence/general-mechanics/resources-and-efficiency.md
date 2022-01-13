@@ -197,6 +197,22 @@ There are two types of artifact spots:
 
 **Significance:** Statistics for farming purposes 
 
+### Random Event Cap
+
+**By:** derek\#9488  
+**Added** 12/22/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/922577467930202173/923407105925468190/transcript-random-event-cap.html)
+
+**Finding:**  
+There is a random event cap which is 10 random events a day. After that you get nothing more when you do random events that day.
+
+**Evidence:**  
+Doing a random event 11 times, the 11th time there is no reward: [YouTube](https://www.youtube.com/watch?v=IHNuDr2m2O8&t=9s)  
+After the above, other random events also give no reward: [YouTube](https://www.youtube.com/watch?v=bNUoxy9Gouk)
+
+**Significance:**  
+You can do 10 random events for mora, companionship exp, and enhancement ores everyday and its roughly about 15000-16000 mora a day and guaranteed 150 companionship exp a day. The easiest way to do this Is by repeating the warden of konda quest over and over again in that same spot as in the first video, scaring away the pigeons to do it quickly.
+
 ## Food Costs
 
 **By:** Anmol43\#1917  
@@ -523,3 +539,25 @@ Summary of Results, most efficient units for tree chopping:
 Note that although I did need to teleport to get wood after reset, teleporting alone does not reset the cap, as shown above.
 
 **Significance:** Useful for players to know if they're farming a massive amount of wood.
+
+## Weekly BP Cap During Launch Week
+**By:** Mcpie#8672  
+**Added:** 1/10/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/928504588498272296/930045464001257522/transcript-weekly-bp-cap-during-launch-week.html)
+
+**Finding:** Reaching BP Weekly EXP limit during launch week requires sacrifices.  
+Possible sacrifices are:  
+* Spend a total of 500,000 Mora.
+  * It's easy to spend it if you're planning to level anything.
+* Purchase 2 items from the Teapot Traveling Salesman in another player's Serenitea Pot.
+  * Requires sacrificing possible resin gains from purchasing Mora/fodder/EXP for Realm Currency - it's 80 Realm Currency in order to reach it.
+* Use a total of 1200 Original Resin.
+  * Only NA is capable of doing this and not even by a huge margin - you can use up to 1237 resin assuming perfect server maintenance end and x2 Transient Resin.
+  * If you're not a hardcore player, you need to either make a refill with Primogems or utilize Fragile Resins.
+
+**Evidence:** 
+Sheet including options and calcs per server region: [Google Doc](https://docs.google.com/spreadsheets/d/1w3AzHkRcJPFLyonoEVQGJmNX4KCqfIewEH_1LQ55y4c)
+
+Note that **500,000 Mora** and **Purchase 2 item from the Teapot Traveling Salesman** have same value (450), which is the reason as to why there is no extra sheet for salesman / salesman + resin as same values are included in **500,000 Mora** sheets.
+
+**Significance:** People who wanted to reach BP Weekly EXP limit during launch week have to make additional sacrifices in order to do so.  
