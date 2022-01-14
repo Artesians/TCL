@@ -73,7 +73,7 @@ Crit counts: [Spreadsheet](https://docs.google.com/spreadsheets/d/1TjE6Po4mKUUlv
 Only 3 out of 46 hits crit, which is statistically improbable with a theoretical 30% critical chance. Although by no means conclusive, it strongly hints that 4BS does not work on the hit that applies Cryo.
 
 **Significance**:  
-Blizzard Strayer litterally abbreviates to BS.
+Blizzard Strayer literally abbreviates to BS.
 
 ### 4pc Blizzard Strayer on frozen aura
 
@@ -108,6 +108,61 @@ Enemies with the “Frozen” aura do not count as “being frozen” for Blizza
 
 **Significance**:  
 Clarification of interaction between frozen aura and Blizzard Strayer set bonus. Also, Blizzard Strayer still pretty much is bs.
+
+### Blizzard Strayer Applies Crit Rate Before Reactions
+**By:** CrazyWeke123\#9720  
+**Added:** 1/13/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/929795759807795220/931148101698322453/transcript-blizzard-strayer-applies-crate-before-reactions.html)
+
+**Finding:**  
+Blizzard Strayer gives crit rate buff to reactions that would remove the cryo/frozen from the enemy.
+
+**Evidence:**  
+* [BS on Melt](https://youtu.be/lMVjdLf81ss)
+* [BS on Shatter](ttps://youtu.be/vLkLicZf-vg)  
+* [BS on Swirl](https://youtu.be/HtzFBDGmku4)
+* [BS on Superconduct](https://youtu.be/7x_Ev3nfTEE)
+* [BS on Crystallize](https://youtu.be/6WUTJPxWQTQ)
+
+* For the melt test:
+  * 61.5% crit rate before BS
+  * 0.615 ^ 23 = 0.00001393 aka .001% chance if BS wasn't activating
+  * 23 melts 23/23 crit
+  * Crit = 4095 
+  * non crit = 2118
+
+* For the shatter test:
+  * 61.5% crit rate before BS
+  * 25 shatters = 25/25 crit
+  * 0.615 ^ 25 = 0.00000527 aka .0005% chance if BS wasn't activating
+  * C1 crit = 405
+  * C1 noncrit = 203
+  * No c1 crit = 352
+  * No c1 noncrit = 177 (some of the diluc hits didnt create the shatter reaction so it wasn't counted those, they still crit but assuming the target just had cryo and 81% crit was hit)
+
+* For sc test:
+  * 61.5% crit rate before BS
+  * 11  sc hits = 11/11 crit
+  * 0.615 ^ 11 = 0.004 aka .4% chance if BS wasn't activating
+  * Crit = 177
+  * Non crit = 81
+
+* For swirl test:
+  * 61.5% crit rate before BS
+  * 12 swirl hits = 12/12 crit
+  * 0.615 ^ 12 = 0.002 aka .2% chance if BS wasn't activating
+  * Crit = 550
+  * Non crit = 252
+
+* For crystallize test:
+  * 81.8% crit before BS
+  * 21 crystallizes = 21/21 crit
+  * 0.818 ^ 21 = 0.014 aka 1.4% chance if BS wasn't activating
+  * Crit = 2882
+  * Non crit = 1324
+
+**Significance:**  
+Better understanding of Blizzard Strayer for reaction comps.
 
 ## Bloodstained Chivalry
 
@@ -241,6 +296,17 @@ Killing 2 foxes [Imgur](https://i.imgur.com/bxSVtzA.mp4)
 
 **Significance:**  
 Knowledge.
+
+## Husk of Opulent Dreams
+
+### Basic Mechanics
+
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/912804514208317501/923003367758917662/transcript-husk-ohc-mechanics.html)
+
+* Husk 4p gains stack off-field even if you don't deal Geo damage - [Sylenwolf#5802](https://imgur.com/a/VTMGOzb)
+* Husk 4p can only lose stacks on field - [MeCrush14#2271](https://youtu.be/JDQ3vkEEM90)
+* Husk 4p stacks are gained when hitting an opponent with a Geo attack even when attacking shielded targets and dealing no damage. - [Wulfric Waifu Gachapon Lurker#5186](https://youtu.be/Mu_CGfIXpiY)
+* Husk 4p also stacks vs. targets immune to Geo damage. - [Wulfric Waifu Gachapon Lurker#5186](https://youtu.be/k1TePBNM4Yo)
 
 ## Instructor
 
@@ -378,6 +444,96 @@ Non snapshot units are still tested to see if the buff applies in time for the f
 
 **Significance:**  
 Whether you should run 4NO.
+
+## Ocean-Hued Clam
+
+### Basic Mechanics
+
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/912804514208317501/923003367758917662/transcript-husk-ohc-mechanics.html)
+
+* Bubble Damage is considered as Physical Damage and can be boosted by Superconduct and other sources of Physical Resistance Reduction. - [CC\#5588](artifacts.md#bubble-damage-is-physical-damage)
+*  All healing coming from the set wielder gets calculated for the Bubble Damage including overflow heals of any degree. - [CC\#5588](artifacts.md#all-healing-by-set-wielder-affects-bubble-damage-including-overflow)
+* The limit for bubble count on field for single-player mode is shared while the 3.5s bubble formation ICD is not. - [CC\#5588](artifacts.md#limit-for-bubble-count-on-field-is-shared-while-icd-is-not)
+* Ocean Hued set does not count healing from other party members, only from the initial set holder. This is also the case with multiple Ocean Hued sets on the same team. - [ceeeleste\#3568](https://www.youtube.com/watch?v=262eZBlWHCs)
+* OHC is indeed independent of enemy def. - [MeCrush14\#2271](https://youtu.be/9zZGMw_QWoQ)
+* 4pc OHC dont not proc from Bennett's burst after HP reaches 70%. - [Chalotte#5673](https://youtu.be/nWslJYFtyPY)
+* OHC counts initial heal as part of the clamage - [JonahFarc#7056](https://i.imgur.com/9q5tj44.mp4)
+* OHC AOE range is 5.5m radius and it can hit multiple target at once. - r.rei\#2844
+  * Evidence: [Abyss tile distance 1](https://i.imgur.com/PVudoeF.mp4) | [2](https://i.imgur.com/T7uKEgM.mp4) | [Hitting Multiple targets](https://youtu.be/GxC6ERBSYHY) | [Abyss tile distance (Youtube)](https://youtu.be/H9Zf-T2eDtU)
+* Revives such as Barbara C6 and Qiqi C6 count for clamage healing. - JonahFarc\#7056
+  * Evidence: [Album](https://imgur.com/a/sM2tosa) | [Barbara Res Video](https://i.imgur.com/fkbMS5f.mp4) | [Qiqi Res Video](https://i.imgur.com/EX8jBKH.mp4)
+* Heals (and Overheals) from Black Sword will activate Ocean-Hued Clam. - [kraaashed\#5300](https://youtu.be/1LYosI8KoZA)
+
+### Bubble Damage is Physical Damage
+
+**By:** CC\#5588  
+**Added:** 12/21/2021  
+[Basic Mechanics Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/912804514208317501/923003367758917662/transcript-husk-ohc-mechanics.html)
+
+**Finding:**  
+Bubble Damage is considered as Physical Damage and can be boosted by Superconduct and other sources of Physical Resistance Reduction
+
+**Evidence:**  
+HP = 20175  
+Healing Bonus = 40%  
+T6 E = 6.2% HP + 671  
+Ruin Guard = 70% physical resistance  
+Number of E Procs = 1  
+
+* [Clip showed the bubble deal 729 damage](https://youtu.be/K0FlJWzhG8w)  
+`((20175 * 0.062) + 671) * 1.4 * 0.9 * 0.3 = 726.4593`
+* [Youtube](https://youtu.be/82ueCZNlclk)
+  * The first clip with SC showed the bubble deal 1687 damage  
+Superconduct = -40% physical resistance  
+`((20175 * 0.062) + 671) * 1.4 * 0.9 * 0.7 = 1695.0717 ` 
+  * The second clip with Zhongli Shred showed the bubble deal 1205 damage
+Zhongli Shred = -20% physical resistance  
+`((20175 * 0.062) + 671) * 1.4 * 0.9 * 0.5 = 1210.7655`
+
+### All Healing by Set Wielder Affects Bubble Damage Including Overflow
+**By:** CC\#5588  
+**Added:** 12/21/2021  
+[Basic Mechanics Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/912804514208317501/923003367758917662/transcript-husk-ohc-mechanics.html)
+
+
+**Finding:**  
+All healing coming from the set wielder gets calculated for the Bubble Damage including overflow heals of any degree
+
+**Evidence:**  
+* [Youtube](https://youtu.be/AhZUJOWCfJs)
+* [Imgur](https://imgur.com/a/b55vjk4)  
+HP = 20175  
+Healing Bonus = 40%  
+T6 Q = 1.13% HP + 122  
+Ruin Guard = 70% physical resistance  
+Number of NA Hits while Q is activated = 1  
+
+Clip #1 - Solo Kokomi  
+bubble dealt 132 damage  
+`((20175 * 0.0113) + 122) * 1.4 * 0.9 * 0.3 = 132.291495`
+
+This then scaled linearly as more units got added into the party as shown in Clip #2, #3, and #4 where the bubble dealt 264, 397, and 529 respectively, which also shows that healing for the whole party is being taken into account, including healing for those that aren't on field
+
+Clip #5 - With Hydro Resonance  
+bubble dealt 642 damage  
+Incoming Healing Bonus for all party members = +30%  
+`4* ((20175 * 0.0113) + 122) * 1.7) * 0.9 * 0.3 = 642.55869`
+
+[Youtube](https://youtu.be/vn94KW950kI)
+Number of E Procs = 1  
+Video shows that the bubble damage remained constant regardless of the hp that was restored
+
+This means that all healing from the set wielder, whether the set wielder is on field and healed a teammate that is off field or someone else is on field while the set wielder healed that unit while off field (which is also stated in the set description), or whether the healing overflows or not doesn't matter and are all taken into calculation for the bubble damage.
+
+### Limit for Bubble Count On Field is Shared while ICD is Not
+**By:** CC\#5588  
+**Added:** 12/21/2021  
+[Basic Mechanics Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/912804514208317501/923003367758917662/transcript-husk-ohc-mechanics.html)
+
+**Evidence:**  
+[Youtube](https://youtu.be/FQOF4aTiEVw) | [Imgur](https://imgur.com/a/UQmjlPc)
+
+The clip from 0:00 - 0:17 and 0:34 onwards shows that only one bubble can be on the field even when there are 2 units that have the full set. However, the set description also states that only one bubble can form every 3.5s which implies that the bubble formation ICD is also shared, which isn't the case as shown by the clip from 0:18 - 0:26. The imgur link shows a frame by frame analysis where the bubble formed from Qiqi E popping animation started until the point where the bubble formed from Kokomi E is already visible enough happened all within 6 frames, which is way below the implied 0.5s/30f downtime of the bubble formation for a single full Ocean set per team scenario. This does not say anything about coop interactions and mechanics of the set however and may be worth testing idk
 
 ## Pale Flame
 
@@ -1002,6 +1158,29 @@ For the first two examples with Barbara and Hu Tao, we see talent damage, both n
 For Kazuha, this is more or less expected since we know his talent damage is simultaneous.
 
 For Sucrose, all this tells us there is some other stuff about, since we still don't know if her talent damage is sequential or simultaneous.
+
+### 4pc VV AoE Application Ping Dependency
+
+**By:** NZPIEFACE\#8439  
+**Added:** 12/21/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/917958422505345075/923108796522455050/transcript-4vv-application-ping-dependency.html)  
+
+**Finding:**  
+4VV has two mechanics of applying it's debuff. One is applied on reaction to the primary target, while the other is applied in AoE via the secondary Swirl hitting enemies.
+* The primary target mechanism is not affected by ping as it happens on the client.
+* The secondary \(AoE\) mechanism is affected by ping as it requires attack hits to be registered by the server.
+* Glossary:
+  * Primary Target - Where the Swirl originated from.
+  * Secondary Targets - Targets that are damaged in an AoE that weren't the single-target Swirl.
+
+**Evidence:**  
+[YouTube](https://youtu.be/uKWKTOMptPU)  
+* The map is when my internet was disconnected/reconnected.
+* The secondary enemy is dealt the same damage twice. If the AoE debuff applied regardless of ping, the second instance should deal more damage than the first, equivalent to the damage on the primary target.
+
+**Significance:**  
+In high ping circumstances, the debuff may apply late to enemies in an AoE and be a loss of damage if there were more attacks that occurred in that period of time.
+* Note: While I say attack and hit, I don't specifically mean damage. Hydro Swirls still apply VV in AoE.
 
 ## Wanderer's Troupe
 
