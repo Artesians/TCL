@@ -94,6 +94,32 @@ The current world state & character position is saved between different world ma
 ## No Raining in Mondstadt
 * If it's raining and you approach Mondstadt, the rain will stop, even though the rain will continue outside Mondstadt.
 
+## Boat Mechanics Addendum   
+General:  
+* Waverider level is determined by world level.
+* The Waverider has 0 def and 0 elemental resistances.
+* Waverider heals 0.65% when the player is outside of it, and 5% when inside and not in combat. Percentages are in terms of waverider max HP.
+
+Waverider-Terrain interactions:
+* When the waverider is in water that is too shallow for it, it slowly drifts towards deeper water.
+* When you try to go over a waterfall, you either get stuck if the water is too shallow... or the boat deconstructs.
+
+Waverider vs environment:
+* Waverider can be hit by lightning (possibly only in shallow water)
+* Waverider takes EC damage if player is in the boat.
+* Waverider takes damage from the environment, such as electro crystals and cryo mistflowers. The player needs to be in the boat.
+* Waverider is not affected by balethunder or "spicy water".
+
+Waverider vs player:
+- Waverider cannot be CC'd with Anemo attacks such as Jean's or Venti's E.
+- Waverider can be slightly shifted with Geo MC's E.
+- You cannot raise the boat with Albedo E.
+- You cannot place Zhongli steles near the boat.
+- There's a zone around the waverider where the water can't be frozen.
+- If you use the waverider TP to summon the waverider when the "destination" is frozen, it deconstructs
+
+Misc:
+- Waverider is not affected by corrosion. If a character is affected by corrosion and enters the boat, HP does not continue to decay, but the duration of the corrosion effect still ticks.
 
 ## Evidence Vault
 
