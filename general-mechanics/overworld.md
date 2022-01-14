@@ -111,15 +111,15 @@ Waverider vs environment:
 * Waverider is not affected by balethunder or "spicy water".
 
 Waverider vs player:
-- Waverider cannot be CC'd with Anemo attacks such as Jean's or Venti's E.
-- Waverider can be slightly shifted with Geo MC's E.
-- You cannot raise the boat with Albedo E.
-- You cannot place Zhongli steles near the boat.
-- There's a zone around the waverider where the water can't be frozen.
-- If you use the waverider TP to summon the waverider when the "destination" is frozen, it deconstructs
+* Waverider cannot be CC'd with Anemo attacks such as Jean's or Venti's E.
+* Waverider can be slightly shifted with Geo MC's E.
+* You cannot raise the boat with Albedo E.
+* You cannot place Zhongli steles near the boat.
+* There's a zone around the waverider where the water can't be frozen.
+* If you use the waverider TP to summon the waverider when the "destination" is frozen, it deconstructs
 
 Misc:
-- Waverider is not affected by corrosion. If a character is affected by corrosion and enters the boat, HP does not continue to decay, but the duration of the corrosion effect still ticks.
+* Waverider is not affected by corrosion. If a character is affected by corrosion and enters the boat, HP does not continue to decay, but the duration of the corrosion effect still ticks.
 
 ## Evidence Vault
 
