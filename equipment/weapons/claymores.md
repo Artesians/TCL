@@ -2,6 +2,49 @@
 
 ## 5 Stars
 
+### Redhorn Stonethresher
+
+{% tabs %}
+{% tab title="Description" %}
+| Attribute | Description |
+| :--- | :--- |
+| Gokadaiou Otogibanashi | DEF is increased by **28/35/42/49/56**%. Normal and Charged Attack DMG is increased by **40/50/60/70/80**% of DEF. |
+| Base ATK | 44 - 542 | 
+| CRIT DMG | 19.2% - 88.2% |
+
+{% endtab %}
+
+{% tab title="Details" %}
+| Level | Base Atk | CRIT DMG |
+|-------|----------|----------|
+| 1     | 44       | 19.2     |
+| 5     | 58       | 22.3     |
+| 10    | 76       | 26.2     |
+| 15    | 93       | 30       |
+| 20    | 110      | 33.9     |
+| 20+   | 141      | 33.9     |
+| 25    | 158      | 37.8     |
+| 30    | 176      | 41.7     |
+| 35    | 193      | 45.6     |
+| 40    | 210      | 49.4     |
+| 40+   | 241      | 49.4     |
+| 45    | 258      | 53.3     |
+| 50    | 275      | 57.2     |
+| 50+   | 307      | 57.2     |
+| 55    | 324      | 61.1     |
+| 60    | 341      | 65       |
+| 60+   | 373      | 65       |
+| 65    | 390      | 68.8     |
+| 70    | 408      | 72.7     |
+| 70+   | 439      | 72.7     |
+| 75    | 457      | 76.6     |
+| 80    | 475      | 80.4     |
+| 80+   | 506      | 80.4     |
+| 85    | 524      | 84.3     |
+| 90    | 542      | 88.2     |
+{% endtab %}
+{% endtabs %}
+
 ### Skyward Pride
 
 {% tabs %}
@@ -106,6 +149,7 @@
 
 * WGS procs do not stack, the most recent proc overwrites the existing proc, even if the existing buff hasn't ended yet - [JonahFarc\#7056](../../evidence/equipment/weapons.md#wolfs-gravestone-procs-dont-stack)
 * Hits that can trigger WGS passive include Normal Attack, Charged Attack, Elemental Skill, and Elemental Burst hits. - [CQLQRS#7853 and Dunia#2481](../../evidence/equipment/weapons.md#weapon-stacks-on-hit)  
+* The hit that procs Wolf's Gravestone's passive does not get the buff bonus applied to itself. Only subsequent hits are affected by the buff. - [Goden\#2155](../../evidence/equipment/weapons.md#wolfs-gravestone-passive-does-not-affect-the-attack-that-procs-it)  
 {% endtab %}
 
 {% tab title="Details" %}
@@ -457,6 +501,8 @@
   * 3-2: 1.17-1.18s
   * 2-1: 1.17-1.18s
 * Serpent Spine's damage taken increase affects shields.
+* The buff timer starts ticking and continues ticking whether the holder is on the field or not. However the character only gains a stack every 4 seconds if that character is on field.
+* The buff timer resets when you take damage that would cause you to lose a stack. 
 {% endtab %}
 
 {% tab title="Details" %}
@@ -723,14 +769,13 @@
 
 Attack Speed buffs do not dynamically affect Claymore Charged Attacks. Meaning, the charged attack will have an attack speed increase for its entire duration when buffed, even if said buff wears off during charged attack.
 
-* [https://streamable.com/i6m53s](https://streamable.com/i6m53s)
-* [https://streamable.com/uff6qb](https://streamable.com/uff6qb)
+* Evidence: *Streamable link lost to the sands of time*
 
 ## External Links
 
-* [**Genshin Impact Fandom**](https://genshin-impact.fandom.com/wiki/Claymores)
+* [Genshin Impact Fandom](https://genshin-impact.fandom.com/wiki/Claymores)
 
-**Evidence Vault:**
+## Evidence Vault
 
-{% page-ref page="../../../evidence/mechanics/equipment/weapons.md" %}
+{% page-ref page="../../evidence/equipment/weapons.md" %}
 
