@@ -24,7 +24,7 @@ A more in-depth explanation can be found at [Elemental Gauge Theory](../../comba
 | Barbara   | 1A | 1A | 1A | - | - | - |
 | Kokomi    | 1A | 1A | 1A | - | Initial Cast: 2B | - |
 | Mona      | 1A | 1A | DoT: 1A <br />Explosion: 1A | - | On Cast: 1A<br />On Pop: 2B | Dash: 1A |
-| Tartaglia <br />\(Childe\) | Riptide Flash: 1A<br />Riptide Burst: 2B | 1A | Entering Melee Stance: 2B<br />Basic Attack: 1A<br />Riptide Slash: 1A</td> | Havoc: 2B<br />Obliteration: 2B <br /> Riptide Blast: 2B | - | 
+| Tartaglia <br />\(Childe\) | Riptide Flash: 1A<br />Riptide Burst: 2B | 1A | Entering Melee Stance: 2B<br />Basic Attack: 1A<br />Riptide Slash: 1A | - | Havoc: 2B<br />Obliteration: 2B <br /> Riptide Blast: 2B | - | 
 | Xingqiu   | - | - | Skill Damage: 1A<br />Rain Sword orbitals: 1A | - | 1A | - |
 
 {% endtab %}
@@ -52,6 +52,7 @@ A more in-depth explanation can be found at [Elemental Gauge Theory](../../comba
 | Ayaka     | Cryo Infusion: 1A | Cryo Infusion: 1A | 2B | - | Vortex AoE: 1A<br />Final Bloom: 1A | Dash: 1A |
 | Chongyun  | Ice Unleashed: 1A | - | Intial Damage: 2B<br />Infused AA: 1A<br />Rimechaser Blade(A4): 1A | - | 1A | - |
 | Diona     | - | 1A | 1A | 1A | 1A | - |
+| Eula     | - | - | 1A | 1A | 2B | - |
 | Ganyu     | - | Aimed Shot: 1A <br />Frost Bloom: 1A | Initial Dash Damage: 1A<br />Lotus Explosion: 1A | - | 1A | - |
 | Kaeya     | - | - | 2B | - | 1A | - |
 | Qiqi      | - | - | Initial Skill: 1A<br />Herald Orbital: 1A | - | 2B | - |
@@ -65,7 +66,7 @@ A more in-depth explanation can be found at [Elemental Gauge Theory](../../comba
 | Beidou    | - | - | 2B | 2B | On Cast: 4C <br />Lightning Discharge:1A | - |
 | Fischl    | - | 1A | Initial AoE: 1A<br />On-Hit \(Normal & C6\): 1A <br /> A1: 2B / A4: 1A | - | 2B | - | 
 | Keqing    | Electro Infusion: 1A | Electro Infusion: 1A | Initial E Cast: 1A <br />E+CA: 2B / E+E: 2B | - | 1A | - |
-| Lisa      | 1A | 1A | 1A | 2B | 1A | - |
+| Lisa      | 1A | 1A | 1A | 2B | Summon DMG: None<br />DoT: 1A | - |
 | Razor     | - | - | 2B | 2B | On Cast: 2B <br />Additional On-Hit: 1A | - |
 | Raiden    | - | - | Initial Cast: 1A <br />Proc: 1A | - | Initial Hit: 2B <br />Infused Attacks: 1A | - 
 | Sara      | - | 1A | Skill Damage: 1A <br /> C2: 1A | - | 1A | - |
@@ -76,7 +77,7 @@ A more in-depth explanation can be found at [Elemental Gauge Theory](../../comba
 
 | Character | Normal Attack | Charged Attack | Skill Press | Skill Hold | Burst | Misc |
 | :---      | :--- | :--- | :--- | :--- | :--- | :--- |
-| Jean      | - | - | 2U | 2U | On Cast: 2U <br />On Enter/Exit: 1U | - |
+| Jean      | - | - | 2U | 2U | On Cast: 2U <br />On Enter/Exit: 2U | - |
 | Kazuha    | C6 Infusion: 1U | Midare Ranzen \(Plunge\): 1U | 1U | 2U | On Cast: 2U <br /> DoT Field: 1U |
 | Sayu      | - | - | Whirlwind Kick: 1U | Whirlwind Kick Hold: 1U <br /> Windwheel Roll: 1U <br />Windwheel Elemental DMG: 1A <br />Whirwind Kick Elemental DMG: 1A | On Cast: 1U <br />Muji-Muji Daruma DMG: 1U | - |
 | Sucrose   | 1U | 1U | 1U | - | 1U | - |
@@ -91,6 +92,7 @@ A more in-depth explanation can be found at [Elemental Gauge Theory](../../comba
 | :---      | :--- | :--- | :--- | :--- | :--- | :--- |
 | Albedo    | - | - | On Cast: 1U <br />Transient Blossom: 1U | - | On Cast: 1U <br />Fatal Blossom: 1U | - |
 | Gorou     | - | 1U | 1U | - | Initial Hit: 1U <br />Crystal Collapse: 1U | - |
+| Itto      | Infused Attack: 1U | Infused Combo Slash: 1U <br />Infused Final Slash: 1U | 1U | - | - | - |
 | Ningguang | 1U | 1U | 1U | - | 1U | - |
 | Noelle    | - | - | 2U | - | On Cast: 1U <br />Infused Attacks: 1U | - |
 | Traveler <br />(Geo) | Frenzied Rockslide \(A4\): 1U | - | On Cast: 2U <br />Rockcore Meltdown \(C2\): 1U | 2U | - |

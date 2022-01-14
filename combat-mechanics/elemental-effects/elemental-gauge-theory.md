@@ -9,7 +9,7 @@ description: The current method of explaining all game mechanics involving eleme
 To our knowledge, the framework of Elemental Gauge Theory can be applied to explain any elemental-related concept in Genshin. Extensive testing has been done and is viewable in the Evidence Vault under [Gauge Unit Theory - Testing and Evidence](../../evidence/combat-mechanics/elemental-effects/elemental-gauge-theory.md#gauge-unit-theory-testing-and-evidence).
 
 {% hint style="info" %}
-If any words are unfamiliar, we have a entry on [common terms](../../common-terms.md#reaction-terms), with a specific section on terms commonly found when discussing reactions.
+If any words are unfamiliar, we have a entry on [common terms](../../theorycrafting.md#reaction-terms), with a specific section on terms commonly found when discussing reactions.
 {% endhint %}
 
 ## Notation
@@ -47,6 +47,10 @@ Aura application has a 0.8x modifier. This is also referred to as **Aura Tax**.
 In addition, neither Anemo nor Geo may be applied as an aura.  
 Hereinafter, all aura applications will be referred to with this unit modifier already applied.
 
+## Character Elemental Gauge Application
+
+Each character has a set amount of elemental gauge applied by each individual attack or skill. A full list of character skills and their corresponding elemental gauges can be found below:  
+{% page-ref page="../../resources/compendiums/elemental-gauges.md" %}
 
 ## Decay Rate
 
@@ -160,7 +164,7 @@ We have dropped the usage of unique letter notation to represent the decay rate 
 
 Like all other applied auras, you can extend the duration of a swirled aura by already having an aura of the same element on an enemy.
 
-Barbara attacks an enemy and applies 1A Hydro. Venti's E (2GU Anemo) swirls a hydro abyss mage, spreading 3.45GU Hydro to the enemy with 1A Hydro. Now, after that enemy has 2.76A hydro, which will last a maximum of 32.775s.
+Barbara attacks (1A) an enemy and applies 0.8A Hydro. Venti's E (2GU Anemo) swirls a hydro abyss mage, which has 2U Hydro aura, spreading 3.45GU Hydro to the enemy with 0.8A Hydro. Now, after that enemy has 2.76A hydro, which will last a maximum of 32.775s.
 
 ## Electro-Charged
 
@@ -218,8 +222,9 @@ These all have the ability to react with a slightly different ruleset from stand
 ## **External Links**
 
 * [Genshin Impact Fandom](https://genshin-impact.fandom.com/wiki/Elemental_Reactions#:~:text=Transformative%20Reactions%20include%20Overloaded%2C%20Shattered,Elemental%20Mastery%20of%20the%20character)
+* [Elemental Gauge Application Sheet for All Characters](https://docs.google.com/spreadsheets/d/e/2PACX-1vRB--YvbgAJFV4LVRj9Dx-UhzIfT5YbPrYkFUZiwqeBsSQAtNyY8rkRn___knQflvi7UdJKByEXxtRk/pubhtml)
 
-**Evidence Vault:**
+## Evidence Vault
 
 {% page-ref page="../../../evidence/combat-mechanics/elemental-effects/elemental-gauge-theory.md" %}
 
