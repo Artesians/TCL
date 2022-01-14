@@ -72,13 +72,24 @@ No obvious and major significance in Spiral Abyss, but its extreme capabilities 
 **Added:** 4/18/2021
 
 **Findings:**  
-When Lisa's Press variant of Violet Arc strikes an opponent affected by Pyro or Cryo, the mob directly hit will immediately gain 2 Conductive Stacks, and others in the resulting Overload or Superconduct radius will gain 1 Conductive Stack, effectively radiating it.
+The amount of Conductive Stacks a single Press E produces on an enemy is dependent on how many produced radii it was within.
 
-If Violet Arc connects and causes Overload or Superconduct while in a Pyro or Cryo-environment \(the most common ones being Burning Grass and Frozen Water\), the direct mob will obtain 3 Conductive stacks and it will radiate 2 stacks to nearby opponents.
+When Lisa's Press variant of Violet Arc strikes an opponent affected by Pyro or Cryo to cause Overload or Superconduct, the mob directly hit will immediately gain 2 Conductive Stacks, and others in the resulting Overload or Superconduct radius will gain 1 Conductive Stack, effectively radiating it. 
+* The mob which had gained 2 Conductive Stacks was due to being in 2 Radii; 1 from the Initial Press radius and 1 from the resulting Overload or Superconduct's radius.
+* The other mob(s) which had only gained 1 Conductive Stack was due to only being within 1 Radius, which was the Overload or Superconduct.
 
-If 2 opponents are nearby and only one is afflicted with a status, Violet Arc, if it directly hits the afflicted mob, will add 3 stacks of Conductive to both enemies.
+If Violet Arc connects and causes Overload or Superconduct while in a Pyro or Cryo-environment (the most common ones being Burning Grass and Frozen Water), the direct mob will obtain 3 Conductive stacks and it will radiate 2 stacks to nearby opponents.
+* The direct mob which had gained 3 Conductive Stacks was due to being in 3 total Radii; 1 from the Initial Press radius, 1 from the Overload or Superconduct caused from connecting the direct mob, and 1 from being within a "chained" radius from the elemental environment (in this case, the environment acts as if it was another entity/mob).
+* If there were other mobs present, they may be affected by 2 or 1 Conductive Stack(s) depending on their proximity in relation to the elemental environment and/or direct mob.
+  * A mob will have gained 2 Conductive Stacks in this scenario if they were within 2 Radii, which is only possible in these two cases:
+    * (a) Within Overload/Superconduct radius \[+1\], within "chained" elemental environment radius \[+1\], and outside of the Initial Press radius \[+0\] 
+    * (b) Within Overload/Superconduct radius \[+1\], within Initial Press radius \[+1\], and outside of the "chained" elemental environment radius \[+0\]
+  * A mob will have only gained 1 Conductive Stack from this scenario if and only if they were only within the Overload/Superconduct radius.
 
-Can also work in conjunction with the effect described in a previous entry: [Violet Arc's Press variant AoE is passed to all affected targets](lisa.md#violet-arcs-press-variant-aoe-is-passed-to-all-affected-targets)
+If 2 opponents are nearby and only one is afflicted with a status, Violet Arc, if it directly hits the afflicted mob causing Overload/Superconduct, will add 3 stacks of Conductive to both enemies.
+* This scenario is fundamentally identical to the previous scenario, whereby instead of an elemental environment acting as a "mob", it is an actual mob. The previous rules apply similarly.
+
+Can also work in conjunction with the effect described in a previous entry: Violet Arc's Press variant AoE is passed to all affected targets: [Violet Arc's Press variant AoE is passed to all affected targets](lisa.md#violet-arcs-press-variant-aoe-is-passed-to-all-affected-targets)
 
 **Evidence:**  
 * [Press E on 2 Pyro-Inflicted Mobs](https://youtu.be/bLgOMM6GiP8)
@@ -99,10 +110,28 @@ Lisa can easily abuse this tech to quickly and efficiently stack Conductive. Thi
 
 ## Burst Mechanics
 
+### Lightning Rose Vertical Range
+**By:** ArchedNosi\#1484  
+**Added:** 1/2/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/926631413606912070/927179857354428446/transcript-lisa-lightning-rose-vertical-range.html)
+
+**Finding:** Lisa's Lightning Rose being a Cylindrical Tubular Hitbox  
+The hitbox of Lisa's Lightning Rose is a cylinder with the following dimensions/attributes:  
+* Its Radius is indicated by its VFX and mobs' centers have to be inside said radius in order to take damage. Misleadingly, the actual area is not the flowered decal, but the soft tinted circle of purple.
+* Its Height/Depth is either unlimited or absurdly large. \[This is difficult to properly quantize.\]
+* Its hitbox can clip through terrain (allowing it to connect with enemies that are out of Lisa's direct Line of Sight); see Azhdaha.
+
+**Evidence:** 
+* Example of Lightning Rose connecting against a mob that is clearly above Lisa: [Youtube](https://youtu.be/PGObWVhwaWE)
+* Example of Lightning Rose connecting against a mob that is clearly below Lisa: [Youtube](https://youtu.be/_WG-Pc-9K2k)
+* Example of Lightning Rose connecting against a mob that is clearly out of Lisa's direct Line of Sight: [Youtube](https://youtu.be/-Mj_hx2sjOk)
+
+**Significance:** No obvious and major significance in Spiral Abyss, but its extreme capabilities are nice to know.
+
 ### Lisa's Lightning Rose Stagger/Knockback Mechanics
 
-By: ArchedNosi\#1484  
-Added: 11/07/2021  
+**By:** ArchedNosi\#1484  
+**Added:** 11/07/2021  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/906461616621641728/907097696148520990/transcript-lisa-stagger-knockback-mechanics-lightning-rose.html)
 
 **Findings:**  
@@ -150,6 +179,30 @@ In practice, the initial Summon Damage from Lisa's Lightning Rose does not apply
 Demonstrates that the Initial Summon DMG of Lightning Rose does not apply an Electro Aura. 
 For Lisa specifically, knowing this is more useful than not as she would be able to not proc Overloaded/Superconduct from casting Lightning Rose and be able to quickly cast a Tap E after to proc the reaction instead, causing Multiple Conductive Stacks to occur due to her Multi-Stacking.
 
+### Lightning Rose Summon DMG Range
+**By:** ArchedNosi#1484  
+**Added:** 1/13/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/926632362715017237/931066545940070470/transcript-lisa-lightning-rose-summon-dmg-range.html)
+
+**Finding:** Lisa's Initial Summon DMG Range/Area.  
+* The initial Summon DMG dealt by Lisa's Lightning Rose is dealt once within a specific area.
+* This area is defined as either a flat circular plane or a small cylinder which shares the radius of Lightning Rose (7m).
+* The Summon DMG cannot deal damage to enemies whose hurtboxes are below or above near the suspended plane of which Lightning Rose was casted on, which is deceptive given its visual appears to give verticality.
+
+**Evidence:** (Youtube)
+* [The VFX in Question](https://youtu.be/vc9sATF99JY)
+
+* Horizontal Range:
+  * [Edge of Lightning Rose: Hit](https://youtu.be/6uNEm_rL3Dw)
+  * [Outside of Lightning Rose: Miss](https://youtu.be/50ayndzvidM)
+* Vertical Range:
+  * [Contact with Plane: Hit](https://youtu.be/M9z0Rd7up5k)
+  * [Below: Miss](https://youtu.be/W-EJYdvpPwc)
+  * [Above: Miss](https://youtu.be/PVNq5oPB__w)
+  * [Barely Above (1): Miss](https://youtu.be/D30TY8eQ5CU)
+  * [Barely Above (2): Miss](https://youtu.be/ledGuqd3BUg)
+* Miscellaneous:
+  * [Hit](https://youtu.be/iQX_rkZu0QI)
 
 ### Lisa's Lightning Rose is Random when Targeting Entities + Total Count
 
@@ -207,6 +260,33 @@ Hypothetical N Entities (assuming all are condensed enough to be tagged by all D
 
 **Significance:**  
 Proves that Lisa's Lightning Rose can have AoE properties as well as very limited Quadratic potential. In turn, one may be able to condense a group of mobs close enough to accentuate Lightning Rose's total damage output.  
+
+### Lisa's Initial Summon DMG Numerical/Formula Data
+
+**By:** ArchedNosi\#1484  
+**Added:** 1/10/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/926632036872102009/930022973472112670/transcript-lisa-lightning-rose-summon-dmg-numerical.html)
+
+**Findings:**  
+As previously known, Lisa's Lightning Rose also deals an additional source of damage (Summon/Casting DMG) that is not stated within the in-game's talent description. As such, this attack's Talent%s are unknown as well, but can be reverse-calculated to a fairly accurate margin of error.
+Additionally, its attributes are also observed upon.
+
+About the Summon DMG itself:
+- The Summon DMG is calculated as Burst DMG and Electro DMG.
+- The Summon DMG has a numerical value of 10% MV, or Talent%. However, it is a static value that does not change if the Talent Level of Lightning Rose is increased, in other words, leveling Lightning Rose amounts to zero gain to the damage of the Summon DMG.
+- If Lisa holds 4NO, all of her Burst is affected by the ATK%, including the Summon DMG.
+- The Summon DMG does not apply Lisa's DEF Shred, rather, only the discharges do.
+
+**Evidence:**  
+[Sheet containing all collected and processed data](https://docs.google.com/spreadsheets/d/1qLZvgu_Ygk04r55S5LloxY3O0lBZqyvXQwep93AV9eo/edit?usp=sharing)  
+Within the sheet are various artifact sets and videos equipped with either, or both, 2NO (+Burst DMG%) and 2TF (+Electro DMG%) which do increase the damage of the Summon DMG.
+Tested from Talent Levels 1-14 Lightning Rose, the Summon DMG has always been reverse-calculated to 10% MV.
+Within the sheet contains the methodology and proof of all of these statements as well as sufficient video evidence (of 139 videos).
+
+**Significant:**  
+Provides more information to the elusive Summon DMG of Lisa's Lightning Rose, that being it is calculated as Burst DMG, Electro DMG, does not induce Lisa's DEF Shred, reads 4NO's buff (if held), and, most significantly, has a static MV of 10% that does not change to the Talent Level of Lightning Rose.
+
+By definition, this discovery technically invalidates/corrects all previous, present, and potential future Lisa Calculations in any calculator or simulator (albeit barely) that does not have this damage source implemented. With this information, calculations that may include Lisa will be more "accurate". However, this change is minor, for this Summon DMG is a miniscule amount of damage relative to her Elemental Burst, much less her kit.
 
 ## Constellation Mechanics
 
