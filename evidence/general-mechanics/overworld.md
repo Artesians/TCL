@@ -876,3 +876,10 @@ Documenting the overworld spaghetti, and a better understanding of 0 gauge stuff
 **Evidence:** [https://youtu.be/yJ-3I3xGDgs](https://youtu.be/yJ-3I3xGDgs)
 
 **Significance:** Can't do hydro tests on dandelions near Mondstadt
+
+## Boat Mechanics Addendum
+**By:** ElliMiku#5071   
+**Added:** 1/14/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/921392473757069312/931429201175793674/transcript-boat-mechanics-addendum.html)
+
+**Finding:** 
