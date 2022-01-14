@@ -73,7 +73,7 @@
 | Base ATK | 46 - 608 |
 | CR% | 7.2% - 3.1% |
 
-* **Polar Star** has an ICD for gaining independent stacks - [Cenpi\#3224 and Kyarumi\#0002](../../evidence/equipment/weapons.md\#polar-star-has-icd-across-independent-stacks)
+* **Polar Star** has no ICD for gaining independent stacks.
 {% endtab %}
 
 {% tab title="Details" %}
@@ -765,13 +765,13 @@
 There is a cap range for an arrow - damage just falls off after a certain range.
 
 * [Amos Test](https://streamable.com/pnfumf)
-* [Sacrificial Bow Test](https://streamable.com/cq83a6)
+* Sacrificial Bow Test: *Streamable link lost to the sands of time*
 
 ## External Links
 
-* [**Genshin Impact Fandom**](https://genshin-impact.fandom.com/wiki/Bows)
+* [Genshin Impact Fandom](https://genshin-impact.fandom.com/wiki/Bows)
 
-**Evidence Vault:**
+## Evidence Vault
 
-{% page-ref page="../../../evidence/mechanics/equipment/weapons.md" %}
+{% page-ref page="../../evidence/equipment/weapons.md" %}
 
