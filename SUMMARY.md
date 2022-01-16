@@ -321,6 +321,7 @@
     * [Food](evidence/equipment/food.md)
     * [Gadgets](evidence/equipment/gadgets/README.md)
       * [Parametric Transformer](evidence/equipment/gadgets/parametric-transformer.md)
+      * [Omni-Ubiquity Net](evidence/equipment/gadgets/omni-ubiquity-net.md)
     * [Weapons](evidence/equipment/weapons.md)
   * [Combat Mechanics](evidence/combat-mechanics/README.md)
     * [Damage](evidence/combat-mechanics/damage/README.md)
