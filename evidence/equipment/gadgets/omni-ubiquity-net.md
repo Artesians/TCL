@@ -6,7 +6,7 @@ search: false
 
 **Main Page:**
 
-{% page-ref page="../../equipment/gadgets/omni-ubiquity-net.md" %}
+{% page-ref page="../../../equipment/gadgets/omni-ubiquity-net.md" %}
 
 ## Omni-Ubiquity Net Stuff
 
