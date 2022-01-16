@@ -38,7 +38,7 @@ Zhongli performs up to 6 consecutive spear strikes.
 | 2-Hit | 45.28% | 29 | 186.2%/s |
 | 3-Hit | 56.07% | 45 | 194.8%/s |
 | 4-Hit | 58.42% | 71 | 176.2%/s |
-| 5-Hit | 14.63% x 4 \(58.52%\) | 109 | 149.2%/s |
+| 5-Hit | 14.63% x 4 \(58.52%\) | 91 + 97 + 103 + 109 | 149.2%/s |
 | 6-Hit | 74.14% | 153 | 132.2%/s |
 | Recovery | 0% | 200 | 101.1%/s |
 
@@ -87,6 +87,7 @@ Zhongli channels for 2 seconds causing the following effects:
 
 * Possesses 150% damage absorption against all Elemental and Physical damage. 
 * Characters protected by the **Jade Shield** will decrease the Elemental Resistance and Physical Resistance of nearby enemies within a radius by 20%. This effect can not be stacked with other instances of **Jade Shield**.  
+  * The Resistance shred lingers for a bit after it breaks/ends.  
 
 | Attribute | Stone Stele | Resonance DMG | Hold DMG |
 | :--- | :--- | :--- | :--- |

@@ -300,3 +300,48 @@ First recording Thoma E damage aligns with 2nd damage calculation, proves that e
 **Significance:**  
 * To get rid of "Dangerous Zone" warning, you only need to level one character.
 * Enemy level colour is an unreliable indicator.
+
+## All Models Can Roll In Place  
+**By:** Mcpie\#8672  
+**Added:** 1/10/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/929185933952159755/930084965645967420/transcript-all-models-can-roll-in-place.html)
+
+**Finding:**  
+Every character model is capable of rolling in place.  
+In order to perform it, you need enough movement speed and then proceed to jump from being idle -> hold W while falling.  
+
+Depending on character model, you need up to:  
+* Child female - 10%  
+* Adult female - 10%  
+* Adult male - 25%  
+* Teen male - 35%  
+* Teen female - 35%  
+movement speed in order to roll. These are upper bounds and it might be possible to roll with lower values but way harder to execute.
+
+**Evidence:**  
+* [Adult male](https://youtu.be/5i_AFRe35ck)
+* [Adult female](https://youtu.be/nq3rgd3czz8)
+* [Teen male](https://youtu.be/enmeL7TYBGY)
+* [Teen female](https://youtu.be/nq3rgd3czz8)
+* [Child female](https://youtu.be/0kSxjTp96LM)
+
+**Significance:**  
+Fluff, but might somehow help out with model differences in the future.
+
+## Kamera Gadget Knockback Cancel  
+**By:** JoJoCheck\#4450  
+**Added:** 1/10/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/925335438003150848/930089635097497650/transcript-kamera-gadget-knockback-cancel.html)
+
+**Finding:**  
+Kamera Gadget can cancel knockback.  
+Both the Kamera gadget as well as the Special Kamera gadget can be used to "cancel" knockback (instead of flying through the air, the character slides backwards). It can also be used to cancel a dash off of a ledge or the bounce of Bennetts charge level 2 (which seems to behave identical to receiving knockback).  
+To do this, you have to take a picture at the moment where you get hit/leap off a ledge. The method used is to take photos in rapid succession, by pressing "esc" and "y" quickly after one another. This makes timing the photo easier.
+
+**Evidence:** 
+* Ledge dash cancel: [Youtube](https://www.youtube.com/watch?v=aLx8utxbcrk)
+* Knockback cancel: [Youtube](https://www.youtube.com/watch?v=-2l4DQ1DyJ4)
+* Bennett charge level 2 cancel: [Youtube](https://www.youtube.com/watch?v=pR-DhOPOqhk)
+
+**Significance:**  
+Knockback cancel/Fluff/investigating the influence pausing the game has on certain actions.

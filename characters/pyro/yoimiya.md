@@ -33,10 +33,10 @@ Performs up to 5 consecutive shots with a bow.
 
 | String | Talent 6% | Frames | MV/s |
 | :--- | :--- | :--- | :--- |
-| 1-Hit DMG | 49.01% ×2 (98.02%) | 27 | 217.82%/s |
+| 1-Hit DMG | 49.01% ×2 (98.02%) | 18 + 27 | 217.82%/s |
 | 2-Hit DMG | 94.02% | 51 | 225.93%/s |
 | 3-Hit DMG | 122.22% | 88 | 214.27%/s |
-| 4-Hit DMG | 63.83%×2 | 128 | 207.15%/s |
+| 4-Hit DMG | 63.83%×2 | 113 + 128 | 207.15%/s |
 | 5-Hit DMG | 145.56% | 164 | 214.93%/s |
 | With Recovery | -- | 200 | 176.24%/s |
 
@@ -86,12 +86,15 @@ During this time, arrows fired by Yoimiya's Normal Attack will be **Blazing Arro
 | Duration | 10s |
 | CD | 18s |
 
+**Notes**
 * The Damage Bonus from **Niwabi Fire-Dance** is multiplicative.
 * Yoimiya's particle generation triggers on infused arrow hit and has an ICD of 2s on particle generation.
   * Yoimiya's particle generation procs cannot be buffered, so Yoimiya will ideally generate 4 particles over the duration of **Niwabi Fire-Dance**
 * Charged Shots during the duration of **Niwabi Fire-Dance** do not generate particles.
 * Yoimiya can still produce energy even after **Niwabi Fire-Dance** expires as long as the ICD is off CD and the infused normal attack string arrow lands.
 
+**Interactions**
+* Yoimiya's **Niwabi Fire-Dance's Blazing Arrow** DMG increase does not increase Yun Jin's **Cliffbreaker's Banner** bonus.
 {% endtab %}
 
 {% tab title="Ryuukin Saxifrage" %}
