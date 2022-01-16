@@ -88,6 +88,7 @@
 * [Consumables](equipment/food.md)
 * [Gadgets](equipment/gadgets/README.md)
   * [Parametric Transformer](equipment/gadgets/parametric-transformer.md)
+  * [Omni-Ubiquity Net](equipment/gadgets/omni-ubiquity-net.md)
 
 ## Combat Mechanics
 * [Damage](combat-mechanics/damage/README.md)
