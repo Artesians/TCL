@@ -257,7 +257,7 @@
 
 | Attribute | Description |
 | :--- | :--- |
-| Bane of Flame and Water | Increases DMG against opponents affected by Hydro or Pyro by **20/24/28/32/26%.** |
+| Bane of Flame and Water | Increases DMG against opponents affected by Hydro or Pyro by **20/24/28/32/36%.** |
 | Base ATK | 41 - 454 |
 | EM | 48 - 221 |
 
@@ -617,9 +617,9 @@
 
 ## External Links
 
-* [**Genshin Impact Fandom**](https://genshin-impact.fandom.com/wiki/Polearms)
+* [Genshin Impact Fandom](https://genshin-impact.fandom.com/wiki/Polearms)
 
-**Evidence Vault:**
+## Evidence Vault
 
-{% page-ref page="../../../evidence/mechanics/equipment/weapons.md" %}
+{% page-ref page="../../evidence/equipment/weapons.md" %}
 
