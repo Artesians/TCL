@@ -8,6 +8,211 @@ search: false
 
 {% page-ref page="../../general-mechanics/overworld.md" %}
 
+## The Rock
+
+**By:** Aevean Leeow\#1362, Mcpie\#8672, BowTae\#0141, KQM Stream Meme Team, and KQM Friends  
+**Added:** 12/24/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/905507145762631690/924148014212333608/transcript-the-rock.html)
+
+**Finding:**
+There are a few small rocks in the overworld with interesting properties. They can be damaged and destroyed, and they can also deal Geo damage when dropped.
+
+The current known locations for these rocks:
+* North of the Dragonspine Adventurer's Guild Camp (1 Rock): [Imgur](https://imgur.com/i7qX6Uq)
+* Cape Oath (2 groups of 4 Rocks each): [Map](https://imgur.com/EDNub8V) - [View of Rocks](https://imgur.com/YuxAlNR)  
+
+**Evidence:**  
+*Basic Mechanics:*  
+* Rock does not respawn
+  * Initial rock was found and destroyed on November 3, 2021: [Imgur](https://imgur.com/dIXY8xN)
+    * The rock at this location has not reappeared as of December 5, 2021.
+* Rock has around 8000HP at WL8: [Youtube](https://youtu.be/3b5GtygZxnw)
+* Rock does not light up with Elemental Sight: [Youtube](https://imgur.com/CnzrqRP)
+* Rock has 0 DEF and 0 RES: [Imgur](https://imgur.com/bVH9zer)
+  * Amber and Sara both have 85 ATK and 124% CA modifier. 1.24 * 85 = 105.4. The damage number was 105.
+* Rock is targettable (Guoba and Oz will target the rock, for example): [Imgur](https://imgur.com/qTsGcVK)
+* Rock can hold Cryo aura: 
+  * [Swirl and Crystallize](https://youtu.be/xK8FCPxjHv4) 
+  * [Melt](https://youtu.be/zKyXIUhqTio)
+  * [Freeze Shatter](https://youtu.be/uafxmx-UmZ0)
+  * [Superconduct](https://youtu.be/KcrGM4hRmN4)
+    * No phys RES shred is applied to the Rock 
+
+*Attack Mechanics:*
+* Rock can do Geo damage when it falls and takes fall damage: [TheFirstRapher#9207](https://imgur.com/a/wQf0D19)
+* This attack can hit other rocks and players: [Youtube](https://youtu.be/NAx5VxLysgY)
+  * Rock level is estimated to be Level 75
+  * The damage is affected by DEF, most likely Geo RES too but unconfirmed
+* The Geo damage has a gauge, and will Crystallize when hitting a player with an aura: [ASnowOwI#7234](https://youtu.be/ORXq8OsVFlg)
+Interactions:
+* Jean Skill can yeet the Rock: [pai#3602](https://youtu.be/dRTnQhpjxMM)
+* Venti Burst can suck in the Rock: [Raven#9205](https://imgur.com/KpnrbxK)
+* AMC Burst can move the Rock: [Imgur](https://imgur.com/uy5W4Lh)
+* GMC Boulders move the Rock: [Imgur](https://imgur.com/pQRvUG5)
+* Overload can move the Dragonspine Rock, but didn't seem to move the Cape Oath Rocks: [Dragonspine](https://imgur.com/YzM7rsR) [Cape Oath](https://imgur.com/vuOZnlc)
+* Ayaka A4 does not proc on the Rock: [Reens#9389](https://imgur.com/6lCKFdP)
+* Kazuha A4 does not proc on the Rock: [ShampooBrain#9583](https://imgur.com/a/hpfXL5o)
+* Mona Burst does not apply Omen to the Rock: [ShampooBrain#9583](https://imgur.com/a/4pElThX)
+* Rock is not affected by Zhongli RES shred or Lisa DEF shred: [Chameleon#9008](https://youtu.be/K71cGeGSQWM) 
+
+*Glitches/Weird Stuff:*
+* Spawning the teapot on top of the Rock makes it disappear: [Reens#9389](https://imgur.com/awZKod0)
+* Rock behaves weird on ledges: [Imgur](https://imgur.com/9rJt9pa)
+* Sometimes fall damage does not trigger on landing, and the rock will just disappear: [twentythree#3787](https://imgur.com/OC35oS1)
+
+*Further Research:*
+* It is currently not known if World Level affects rock HP or damage. This may change in the future.
+
+**Significance:**  
+The Rock (Igneous Pebblus) is a federally endangered species which is currently known to live in various regions of Mondstadt. The range of the Rock historically included the northern part of Dragonspine and various clusters in Cape Oath. Exploitative research and tree farming have driven this species to near extinction. It is unknown if there are surviving habitats of Rocks in other parts of Teyvat. 
+
+## Serenitea Pot
+
+### Teapot Dog Abuse  
+**By:** Asaki\#9139  
+**Added:** 12/23/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/923064128225026118/923456084302241872/transcript-teapot-dog-abuse.html)  
+
+**Finding:**  
+0-poise attacks also register on Kageroumaru.  
+
+**Evidence:**  
+[Imgur](https://i.imgur.com/c8IpYrX.mp4) (notice the double hits)  
+
+**Significance:**  
+* Kageroumaru take hits like a chad.
+* Helps to map out how XQ’s orbitals work. 
+
+## Explosive Barrel Properties
+
+**By:** kxmndz\#4700  
+**Added:** 12/16/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/903329501226860666/921012856277848114/transcript-explosive-barrel-properties.html)  
+
+**Finding:**  
+1. Barrel damage is affected by the unit's defense, following the damage formula here: https://genshin-impact.fandom.com/wiki/Defense. Attributes such as level, ascension, max hp have no effect on the amount of damage inflicted by barrel explosions.
+2. Barrels do pyro damage, and is affected by reactions such as vaporize as well as pyro resist.
+3. Damage Reduction such as Xingqiu rainsword orbitals can reduce explosion damage.
+4. Explosive barrels have levels.
+5. Barrel levels (probably) follow zone level rules.
+
+**Evidence:** A series of suicide-by-barrel attempts have demonstrated the following findings:  
+
+[[1]](https://imgur.com/v98QL8g) ,
+[[2]](https://imgur.com/ggMOrsj) ,
+[[3]](https://imgur.com/zRzvyeZ) ,
+[[4]](https://imgur.com/qneIdc7) ,
+[[5]](https://imgur.com/ajV1HWl) ,
+[[6]](https://imgur.com/0AU4aUE) ,
+[[7]](https://imgur.com/7Sv3dnW) ,
+[[8]](https://imgur.com/l9eOVne) ,
+[[9]](https://imgur.com/zDUJ1no) ,
+[[10]](https://imgur.com/8cc3Cg3) ,
+[[11]](https://imgur.com/6xeP0K7) ,
+[[12]](https://imgur.com/03xLsXN)  
+
+Damage can be plotted against defense - [Image](https://imgur.com/ZTEWcff)
+
+Inverse of damage, or effective hp (EHP), against defense: - [Image](https://imgur.com/nhw1sFu) 
+
+Inverting barrel damage to EHP linearizes the trend, allowing a linear regression to be performed with the previous data points.  
+
+Coefficients
+| | Estimate | Std. Error | t value | Pr\(>\|t\|\) |
+| :--- | :--- | :--- | :--- | :--- |
+| (Intercept) | 1.277e-04 | 1.953e-08 | 6536 | <2e-16  ***  
+| def         | 1.443e-07 | 1.911e-11 | 7555 | <2e-16  ***  
+
+Signif. codes:  0 ‘\*\*\*’ 0.001 ‘\*\*’ 0.01 ‘\*’ 0.05 ‘.’ 0.1 ‘ ’ 1  
+
+Residual standard error: 4.527e-08 on 13 degrees of freedom  
+Multiple R-squared:      1,    Adjusted R-squared:      1   
+F-statistic: 5.707e+07 on 1 and 13 DF,  p-value: < 2.2e-16
+
+Barrels do pyro damage, and is affected by reactions such as vaporize as well as pyro resist.
+* [Video 1](https://imgur.com/0AU4aUE)
+* [Video 2](https://imgur.com/SF3xnw9)
+* [Video 3](https://imgur.com/SyDSiRn)
+* [Video 4](https://imgur.com/J7zMioL)
+
+Damage reduction such as Xingqiu rainsword orbitals can reduce explosion damage
+* [Video](https://imgur.com/OqamQMJ)
+
+Explosive barrels have levels
+
+The formula for EHP vs defense from linear regression EHP = 1.443e-07 * DEF + 1.277e-04 can be applied to figure out the base damage (damage done if the unit has 0 defense) as well as the level of the barrels, following the Genshin damage formula linked above.  
+
+Base damage of the tested barrel is the inverse of the Y-intercept, or when DEF = 0. 1.277e-04^-1 = 7832.3563130198 or 7832 when rounded to a whole number.  
+
+To figure out the level of the barrel:  
+Incoming damage = Original damage * (1 - Damage reduction)  
+Damage reduction = DEF / (DEF + 5*Level + 500)  
+
+Incoming dmg → Inf means  
+Incoming damage = Original damage * (1 - Damage reduction) → Inf  
+which, given constant original damage translates as  
+-Damage reduction → Inf, then  
+Damage reduction = DEF / (DEF + 5*Level + 500) → -Inf  
+And this is only possible if the denominator (DEF + 5 * Level + 500)→ 0⁻, given a constant def  
+
+In practice, the negative value of the "x-intercept" (DEF when EHP approaches 0, or barrel damage approaches infinity) in the EHP vs DEF function is DEF + 5 * Level + 500. Since the x-intercept is -884 defense, the level of the barrel is 76.9, or 77 when rounded to whole number levels.  
+
+Important note: This level only applies to the two tested barrels shown in the videos in evidence 1.
+
+Barrel levels (probably) follow zone level rules.  
+* [Zone levels](../evidence/general-mechanics/overworld.md#zone-levels) 
+* [Mondstadt zone map](https://imgur.com/E0oN0B6)
+
+Two zones (dark blue, orange) were tested and the barrels within those zones all do the same amount of damage, given that the character's defense remains constant.   
+
+The barrels tested in evidence a) agree with the zone level map (blue, levels 77 to 79).  
+
+Enemies in the northern orange zone are between 82 and 90, and calculations with the evidence shows that those barrels are level 90 with base damage of 12176.  
+* [Video](https://imgur.com/kD53Izk)
+* [Video](https://imgur.com/HPkmo82)
+* [Video](https://imgur.com/aaWNYNq)
+
+**Significance:** Insight into the mechanics of overworld explosive barrels. Hopefully lays the foundation for the research of future explosive barrel enthusiasts.
+  
+## Inazuma Artifact Spots
+
+**By:** Mcpie#8672  
+**Added:** 16/12/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/868098829361229834/920808595594043402/transcript-inazuma-artifact-spots.html)
+
+**Finding:** There are currently 214 (+1 or +2) respawnable investigation spots that drop artifacts. 
+
+Pre 2.0:
+* Liyue (pre 2.0) - 48 spots.
+* Dragonspine - 7 spots.  
+
+2.0:
+* Liyue (added in 2.0) - 6 spots.
+* Inazuma non-Tatarasuna - 24 spots.
+* Tatarasuna - 24 spots.
+* Bake-danukis - 11 spots.
+* Cannons - 5 spots.
+* Conch spots on the beach - either 1 or 2 spots - rng based.  
+
+Patch 2.1 introduced 2 more islands. Each island has:
+* Seirai island: 44 spots.
+* Watatsumi island: 24 spots.
+* Bake-danukis - 6 spots.    
+
+Patch 2.2 introduced Tsurumi Island:
+* Moshiri Kara: 1 spot (north of Tsurumi Island).
+* Tsurumi Island: 14 spots.  
+
+Maps:
+* [Liyue + Dragonspine](https://raw.githubusercontent.com/mcpie87/gi-artifacts/master/liyue.jpg)
+* [Inazuma + Bake-danukis](https://raw.githubusercontent.com/mcpie87/gi-artifacts/master/inazuma.jpg)
+* [Cannons](https://raw.githubusercontent.com/mcpie87/gi-artifacts/master/cannon-guide.jpg) (by Miin from Hoyolab).  
+
+**Evidence:**
+Transcript of this entire ticket + spreadsheet displaying each spot with a screenshot and video for each spot: [Spreadsheet](https://docs.google.com/spreadsheets/d/1zDMPfY8SKR7mb-tASNedWmj62wJOnDbSsVVR17ykg6I)  
+Unfortunately we're unable to tell if we managed to cover all of the spots, but based on our research (from the transcript) we managed to gather 144 (+1/+2) investigation spots that drop artifacts.
+
+
 ## Cursed Terrain
 
 ### Electro Crystals have levels
@@ -84,7 +289,30 @@ Learning more about how environmental reactions are programmed/calculated. Also,
 
 **Evidence:** [https://www.youtube.com/watch?v=f8QfbYvuR6Q](https://www.youtube.com/watch?v=f8QfbYvuR6Q)
 
-**Significance:** electro crystals work in a similar way to cryo&pyro stamen flowers, for a better understanding of the overworld
+**Significance:** electro crystals work in a similar way to cryo&pyro stamen flowers, for a better understanding of the overworld.
+
+### Parametric Crystal Electric Bungaloo 
+**By:** Ultimate Noob\#2955  
+**Added:** 1/14/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/922988435889856562/931419824964374588/transcript-parametric-crystal-electric-bungaloo.html)
+
+**Findings:**  
+* An electric crystal can have its aura removed, but it will be reapplied.
+* When it's raining, you can apply Hydro aura using 2B Cryo (Kaeya) then end rain (by time skipping) and the crystal will not apply Electro to itself again. It has to be 2B, 1A won’t work.
+* So far the crystal can hold Cryo, Hydro, and Electro. 
+* Rain water Hydro is different from regular Hydro, and the game doesn’t recognize it as the same as Hydro from different sources (Such as player Hydro and Hydro from bodies of water). This is proved as the crystal doesn’t update and reapply Electro onto itself as it thinks no element was applied onto it, removing the Electro. Game does not recognize rain Hydro, as other sources of Hydro.
+
+**Evidence:**  
+* [Youtube](https://youtu.be/55cd-38Ja-Y) credit to NZPIEFACE\#8439   
+* [Youtube](https://youtu.be/XDRjNDAV_qY/) (On single crystal to prove not applied by another) credit to CrazyWeke123\#9720
+* [Youtube](https://www.youtube.com/watch?v=NZUnm_2BYzQ) credit to ShampooBrain\#9583 
+* [Imgur](https://imgur.com/4zgrr89) Hydro on crystal
+* [Youtube](https://youtu.be/z3Ia8jqzyKs) credit to CrazyWeke123\#9720 
+* [Youtube](https://youtu.be/cx-5sboMgwQ) credit to Puffin\#9920 
+* [Youtube](https://youtu.be/UuevVMvQfsg) credit to CrazyWeke123\#9720 (Proof works in 2.4)
+
+**Significance:**  
+Rain Hydro isn’t the same as other Hydro sources. Electro crystals don’t have infinite aura, it just constantly reapplies Electro aura, it’s more then 1A, but less then 2B.
 
 ### Invisible Water Layer
 
@@ -109,8 +337,8 @@ Understanding the cursed overworld of Teyvat
 **By:** Greyhound\#7836, mol\#3280, deaf#0246  
 **Added:** 06/23/2021  
 **Updated:** 07/08/2021  
-[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/851603340403933194/857345614483554334/transcript-cursed-terrain-world-levels.html)  
-[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/873033114723696660/873532969355210752/transcript-overworld-entity-levels-revisited.html)
+[Discussion 1](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/851603340403933194/857345614483554334/transcript-cursed-terrain-world-levels.html)  
+[Discussion 2](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/873033114723696660/873532969355210752/transcript-overworld-entity-levels-revisited.html)
 
 **Finding:**  
 Overworld has levels for every "body", including water and grass and sand, trees, rocks, and other things that we can't prove in any other way other than the game's code which shows this, thus varying stats which is proven by their damage.
@@ -181,12 +409,13 @@ Putting out campfires with utmost efficiency
 
 ### Zone Levels
 
-
 #### Mondstadt
 
 **By:** deaf\#0246  
 **Added** 08/26/2021  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/872856833835036723/878915593116454932/transcript-zone-levels.html)  
+
+*Zone levels have been updated as of 12/22/2021 with more precise maps. See below.*
 
 **Finding:**  
 The overworld in Genshin is split into multiple zones which can be distinguished by how much damage overworld reactions deal. These are the zones for Mondstadt.  
@@ -205,6 +434,9 @@ I have nothing but regrets.
 **By:** Vladone ツ\#9281  
 **Added** 11/11/2021  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/905965525027414056/908513612430184458/transcript-zone-levels-liyue.html)  
+
+*Zone levels have been updated as of 12/22/2021 with more precise maps. See below.*
+
 
 **Finding:**  
 The overworld map is split into multiple zones that effect damage dealt by environmental reactions. These are the zones for Liyue.  
@@ -225,6 +457,8 @@ Fluff and overworld documentation.
 **Added** 11/11/2021  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/905984755986726972/908513380455809084/transcript-zone-levels-inazuma.html)  
 
+*Zone levels have been updated as of 12/22/2021 with more precise maps. See below.*
+
 **Finding:**  
 The overworld map is split into multiple zones that effect damage dealt by environmental reactions. These are the zones for Inazuma.  
 
@@ -234,7 +468,32 @@ My methodology for the borders in the water can be seen in [this video](https://
 Also, I think we can all agree that trying to document anything in the ocean between Inazuma and Liyue is unreasonable, so the northern borders are completely made up.  
 
 **Significance:**  
-Fluff, and overworld documentation I guess.  
+Fluff, and overworld documentation I guess. 
+
+#### Zone Levels Update
+**By:** deaf\#0246 & Vladone ツ\#9281  
+**Added** 12/22/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/918005225162432543/923133715008352266/transcript-zone-levels.html)
+
+1. **Mondstadt**  
+Map has been updated and there is a newly discovered area that doesn't have a zone level. - [Updated Mondstadt Map](https://photos.google.com/share/AF1QipNH_MBr8Dfh3fzm6_x4lQqb0bdzrV7tWi6JHaJlnwCElh7v5X4zIiLYp6_DHR5MBA?key=bTlnQXFPdDhLQlhsbDBlSEpVN2R3dWRJdjEtdnFB)  
+The no level area (Mondstadt bridge) does not have any value marked in the game code. Burned grass and electrified water do damage, but the damage is depending on the previous zone level you have been in. In other words, that area's level is dynamic and fully dependent on your position on the map before entering it. - [Video example of the no level area](https://www.youtube.com/watch?v=qj3ROEgPc84)  
+
+2. **Liyue**  
+Map has been updated. - [Updated Liyue Map](https://photos.google.com/share/AF1QipPLmV3Pt5S9suJQSMm4rK6eVhIerzuS6VEMQmdlZJpI8IUMPjNM4FEeHvaG4BiJeA?key=eG1FUE82Mk92TUtxbUt2STUzNVlnbDdUYTQwUFJR)  
+
+3. **Inazuma**  
+Map has been updated. - [Updated Inazuma Map](https://photos.google.com/share/AF1QipO_e3CL7arfSKBptsr_IU5oLM6Bm73AukEONaqJ6Hazq95z7dENxRKpBall0_tsKA/photo/AF1QipO25Gcl-MjRfeYd7HSBbc5LBv3bllpEZUwjP3v3?key=cG1Ca25iRmtac0RtT0wtYk1laFRDbUMtOW0tTEhR)
+
+4. **Teyvat**  
+Map has been updated. - [Updated Teyvat Map](https://photos.google.com/share/AF1QipPGs6r8qfWVNVXlU7HwyFarhqqp1LACnDrB9Wp_qbfMP8VzZaInS7IK7zY4kJcUxg?key=TGFVX2hzUUoxQXdwd1g5WWY3SThCdTdCTkItVDJ3)
+
+5. **Mentions**  
+By "'map has been updated" we understand:  
+\- all the maps have more accurate borders that include even those present in the water  
+\- all maps have high quality renders taken directly from the finished Teyvat render  
+\- all maps share the same color marks specific to their level
+
 
 ### Bush Elemental Interaction
 
@@ -877,12 +1136,33 @@ Documenting the overworld spaghetti, and a better understanding of 0 gauge stuff
 
 **Significance:** Can't do hydro tests on dandelions near Mondstadt
 
+## Electro Fog
+**By:** pai\#3602  
+**Added:** 1/4/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/922637382807846942/927770423368749116/transcript-electro-fog.html)
+
+**Finding:**  
+Interactions with the Thunder Fog in The Thundering Wilds daily commission.  
+1. Sucrose's N1, N2, and N3 don't work on their own.
+2. Sucrose's N1 and N2 work when there is something next to it that she can target, so it's assumed that N3 is the same way, but no one has been able to actually do it yet.
+3. Every other Anemo ability works on its own.
+4. The attacks from Anemo Slimes don't work, some examples of things that Sucrose can't target (and can't disperse the fog with) are the Portable Waypoint, Serenitea Pot, and Windblume Festival Commemorative Balloon.
+
+**Evidence:**   
+1. Sucrose N1 and N2 not working: [Youtube](https://youtu.be/B5jLUybrFtM)
+2. Sucrose N1 and N2 working with an enemy/gadget, and N4 working on its own: [Youtube](https://youtu.be/OBMRc6u7bng)
+    * Not included in the video: [Youtube](https://youtu.be/o5UDnI27YF0)
+4. All other Anemo abilities that work: [Youtube](https://youtu.be/1KYeH8ZwUZE)
+5. Anemo Slimes not being able to disperse it and Sucrose not being able to target some gadgets: [Youtube](https://youtu.be/qgavZ5FShY4)
+
+**Significance:** Fluff.
+
 ## Boat Mechanics Addendum
-**By:** ElliMiku#5071   
+**By:** ElliMiku\#5071  
 **Added:** 1/14/2022  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/921392473757069312/931429201175793674/transcript-boat-mechanics-addendum.html)
 
-**Finding:**   
+**Findings:**  
 General:  
 * Waverider level is determined by world level.
 * The Waverider has 0 def and 0 elemental resistances.
@@ -902,14 +1182,14 @@ Waverider vs player:
 * Waverider cannot be CC'd with Anemo attacks such as Jean's or Venti's E.
 * Waverider can be slightly shifted with Geo MC's E.
 * You cannot raise the boat with Albedo E.
-* You cannot place Zhongli steles near the boat.
+* You cannot place Zhongli Steles near the boat.
 * There's a zone around the waverider where the water can't be frozen.
 * If you use the waverider TP to summon the waverider when the "destination" is frozen, it deconstructs
 
 Misc:
-* Waverider is not affected by corrosion. If a character is affected by corrosion and enters the boat, HP does not continue to decay, but the duration of the corrosion effect still ticks.
+* Waverider is not affected by Corrosion. If a character is affected by corrosion and enters the boat, HP does not continue to decay, but the duration of the corrosion effect still ticks.
 
-**Evidence:** (Youtube/Imgur)
+**Evidence:**  
 * [WR level](https://youtu.be/nwD3IjBDTBE)
 * [WR def + Hydro res + Cryo res](https://youtu.be/8hbYNa4jc3I) 
   * [Calcs](https://imgur.com/HGiT2wq)
@@ -934,4 +1214,5 @@ Misc:
 * [WR vs TP troll](https://youtu.be/QrGC_8CH3CE)
 * [WR vs corrosion](https://youtu.be/hYqMCXUMGTI)
 
-**Significance:** Fluff, exploration, overworld survivability.
+**Significance:**  
+Fluff, exploration, overworld survivability.
