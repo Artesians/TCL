@@ -84,9 +84,9 @@ Comparison Cases: Enemies are Frozen/Petrified
 * Sucrose E vs Light/Heavy Enemies (PETRIFIED) - ShampooBrain\#9583  
   * [Youtube](https://www.youtube.com/watch?v=osfBvPTESbE)  
   * [Youtube](https://www.youtube.com/watch?v=zKCiUsM6J9o)  
-* [Sucrose E vs Enemies in Mona's Omen \(FROZEN\)](https://imgur.com/zZffQyq) - EatYourVeggies\#7493.  
+* [Sucrose E vs Enemies in Mona's Omen \(FROZEN\)](https://imgur.com/zZffQyq) - EatYourVeggies\#7493  
 *Note: Notice how the first Skill Usage did not knock up, but the 2nd one did.*  
-* [Sucrose E vs Enemies in Mona's Omen \(PETRIFIED\)](https://youtu.be/kla0exFH-6I)
+* [Sucrose E vs Enemies in Mona's Omen \(PETRIFIED\)](https://youtu.be/kla0exFH-6I)  
 *Note: Unachievable in single player unless one has Zhongli C4.*  
 
 **Significance:**   
