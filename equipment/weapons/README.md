@@ -26,5 +26,5 @@ Polar Star behaves differently as it has individual stacks for each type, and wi
 
 ## Evidence Vault
 
-{% page-ref page="../../../evidence/mechanics/equipment/weapons.md" %}
+{% page-ref page="../../evidence/equipment/weapons.md" %}
 
