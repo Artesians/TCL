@@ -60,57 +60,77 @@ One more reason to get Sucrose out in the field more often, at least for this us
 * [Example](https://youtu.be/nDoUaa5ksME)
 
 ### Sucrose Skill And Freeze-Petrify-Omen Interaction  
-**By:** Charisma#5567  
+**By:** Charisma\#5567  
 **Added:** 1/16/2022  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/930539967854305331/932074343796715571/transcript-sucrose-skill-and-freeze-petrify-omen-interaction.html)
 
-**Finding:**   
+**Finding:**  
 Sucrose Elemental Skill, *Astable Anemohypostasis Creation - 6308*, does not knock up Frozen and Petrified enemies. Light Suction will occur instead, much like how her Burst currently works with Frozen and Petrified Enemies.  
 
-**Evidence:** 
-
-
+**Evidence:**  
 Control Cases: Enemies have no Frozen/Petrify Status
 
-* Sucrose E vs Light Enemies (UNFROZEN)  
-[Youtube](https://youtu.be/cN5TVdnnXOg)
-
-* Sucrose E vs Heavier Enemy (UNFROZEN)  
-[Youtube](https://youtu.be/S9ss_zFlYzg)
-
-* Sucrose E vs Light/Heavy Enemies (UNFROZEN AND UNPETRIFIED) will break Mona's Omen --Credits to ShampooBrain#9583  
-[Youtube](https://www.youtube.com/watch?v=9YvY2nHvsmU)  
-[Youtube](https://www.youtube.com/watch?v=sa40LaiWpBM)  
+* [Sucrose E vs Light Enemies \(UNFROZEN\)](https://youtu.be/cN5TVdnnXOg)
+* [Sucrose E vs Heavier Enemy \(UNFROZEN\)](https://youtu.be/S9ss_zFlYzg)
+* Sucrose E vs Light/Heavy Enemies (UNFROZEN AND UNPETRIFIED) will break Mona's Omen - ShampooBrain\#9583  
+  * [Youtube](https://www.youtube.com/watch?v=9YvY2nHvsmU)  
+  * [Youtube](https://www.youtube.com/watch?v=sa40LaiWpBM)  
 
 As one can see from the above clips, Sucrose knocks up all the enemies that she can.
 
-
 Comparison Cases: Enemies are Frozen/Petrified
-
-* Sucrose E vs Light Enemies (FROZEN)  
-[Youtube](https://youtu.be/B_2EHRz5hY8)
-
-* Sucrose E vs Heavier Enemy (FROZEN)  
-[Youtube](https://youtu.be/nyl3cxWFXVQ)
-
-* Sucrose E vs Light/Heavy Enemies (PETRIFIED) --Credits to ShampooBrain#9583  
-[Youtube](https://www.youtube.com/watch?v=osfBvPTESbE)  
-[Youtube](https://www.youtube.com/watch?v=zKCiUsM6J9o)  
-
-* Sucrose E vs Enemies in Mona's Omen (FROZEN) --Credits to EatYourVeggies#7493.  
+* [Sucrose E vs Light Enemies \(FROZEN\)](https://youtu.be/B_2EHRz5hY8)
+* [Sucrose E vs Heavier Enemy \(FROZEN\)](https://youtu.be/nyl3cxWFXVQ)
+* Sucrose E vs Light/Heavy Enemies (PETRIFIED) - ShampooBrain\#9583  
+  * [Youtube](https://www.youtube.com/watch?v=osfBvPTESbE)  
+  * [Youtube](https://www.youtube.com/watch?v=zKCiUsM6J9o)  
+* [Sucrose E vs Enemies in Mona's Omen \(FROZEN\)](https://imgur.com/zZffQyq) - EatYourVeggies\#7493.  
 *Note: Notice how the first Skill Usage did not knock up, but the 2nd one did.*  
-[Imgur](https://imgur.com/zZffQyq)
-
-* Sucrose E vs Enemies in Mona's Omen (PETRIFIED)  
+* [Sucrose E vs Enemies in Mona's Omen \(PETRIFIED\)](https://youtu.be/kla0exFH-6I)
 *Note: Unachievable in single player unless one has Zhongli C4.*  
-[Youtube](https://youtu.be/kla0exFH-6I)
 
 **Significance:**   
 Sucrose skill can be used with freeze/petrify and the enemies will not be knocked up or away. Sucrose skill can also possibly be used in conjunction with effects that rely on enemy's poise not being broken, namely Mona's Omen-- provided that the enemy remains frozen/petrified.
 
+## Elemental Burst Mechanics
+
+### Sucrose Absorbed Dmg is simultaneous
+
+**By:** kxmndz\#4700  
+**Added:** 16/12/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/904089904416436264/920907095434473512/transcript-sucrose-absorbed-damage-simultaneous-or-sequential.html)
+
+**Finding:** The damage from Anemo and the absorbed element in Sucrose's Burst ticks happen simultaneously. 
+
+**Evidence:**   
+VV/Swirl testing: [Video](https://youtu.be/88FnnTmL2Hg),
+[Stats](https://imgur.com/a/UXunncL)   
+An enemy was applied Pyro. Sucrose Burst was set up so it would absorb Pyro before its first tick.
+* The first tick of the Burst Swirled the enemy with the Pyro aura and dealth Anemo and Pyro damage to both.
+* The enemy with a Pyro aura was dealt 108 Pyro, 1031 Anemo, with 2262 Pyro Swirl.
+* The other enemy was dealth 241 Pyro (crit), 1031 Anemo, with 1770 Pyro Swirl. The non-crit damage would be 84 Pyro damage.  
+This shows that the VV shred from the Swirl damage of Swirl reactions was applied after all the talent damage from the Burst. The VV shred from the Swirl reaction itself is still applied to the single target before the talent damage.  
+
+This was inconclusive, and there were two theories:
+* Anemo and the absorbed element are simultaneous, and AoE Swirl damage comes after the rest of damage is dealt.(Meaning it is also after when debuffs from reactions are applied).
+* Anemo and the absorbed element are sequential instances of damage, but AoE Swirls creates new instances of damage that are calculated after all instances of talent damage are finished calculating(and reacting).  
+
+Raining Anemo Hypostasis Testing  
+* Sucrose can cause a Swirl reaction by applying Anemo to the Anemo Hypostasis while it is raining. [Some Proselytizer\#8340](https://youtu.be/L_dGJsQknwg) 
+* Barbara can cause a Swirl reaction by applying Hydro to the Anemo Hypostasis while it is raining. 
+[NZPIEFACE\#8439](https://youtu.be/81DIGtneP3c)
+* Sucrose's Burst that has absorbed Hydro causes a single Swirl reaction on the Anemo Hypostasis while it is raining. 
+[Some Proselytizer\#8340](https://youtu.be/AGLqrDXaD0A)
+
+As there was only a single reaction, unlike the expected two Swirls if Sucrose's Burst was sequential, there is a strong argument to say that the damage from the Anemo and the absorbed element in her Burst are simultaneous.
+
+**Significance:** We better understand Sucrose's kit and how attacks in general work.
+
 ## Ascension Mechanics  
 
-### Sucrose's A1 talent does not proc on swirling environmental objects and guoba  
+### A1: Catalyst Conversion
+
+#### Sucrose's A1 talent does not proc on swirling environmental objects and guoba  
 
 **By:** Katsune\#4691  
 **Added:** 17/10/2021  
@@ -126,7 +146,7 @@ Sucrose's A1 talent, Catalyst Conversion, does not proc on Swirling Guoba or env
 **Significance:**  
 For double swirl setups involving Guoba (Sucrose/Bennett/XL/XQ or Sucrose/Bennett/XL/Childe), Sucrose's A1 talent will not benefit Xiangling unless you swirl pyro off of the enemy.
 
-### Sucrose's EM share on multiswirl is dynamic  
+#### Sucrose's EM share on multiswirl is dynamic  
 
 **By:** Rainfury\#8343  
 **Added:** 16/10/2021  
@@ -143,7 +163,7 @@ In the video, Yanfei has 0 EM while Sucrose has 525 EM. If Sucrose's EM share is
 **Significance:**  
 More flexible rotations and Sucrose does not need to be buffed before using her Q.
 
-### Sucrose passives off-field triggering
+#### Sucrose passives off-field triggering
 
 **By:** Sayline#5959  
 **Added:** 08/30/2021  
@@ -155,7 +175,61 @@ Sucrose's A1 passive, A4 passive, and C6 effect can be triggered even when she i
 **Evidence:** [Youtube](https://youtu.be/Fl3j9rp0N90)
 
 **Significance:**  
-More flexible rotations. For VV support Sucrose, you can do EQ Sucrose -> [*element you want to buff*] -> N1 Sucrose without fear of losing her A1, A4 and C6 buffs, while allowing you to squeeze in a VV shred. For non-VV support Sucrose, this lessens her field time even further, since you can EQ Sucrose -> [*element you want to buff*] and continue with the rest of your rotations without having to imbue element first before Sucrose moves.
+More flexible rotations. For VV support Sucrose, you can do EQ Sucrose -> [*element you want to buff*] -> N1 Sucrose without fear of losing her A1, A4 and C6 buffs, while allowing you to squeeze in a VV shred. For non-VV support Sucrose, this lessens her field time even further, since you can EQ Sucrose -> [*element you want to buff*] and continue with the rest of your rotations without having to imbue element first before Sucrose moves.  
+
+#### A1 Triggers on Chain Reaction Swirls
+
+**By:** NZPIEFACE\#8439  
+**Added:** 12/16/2021   
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/917957994048782336/919114773902290964/transcript-sucrose-a1-trigger-mechanics.html)  
+
+**Finding:**  
+Sucrose A1 triggers on chain reaction Swirls.  
+
+**Evidence:**  
+Sucrose has 915 EM with VV. Optimiser gave me 916.  
+Xiangling has 96 EM from ascension. She has lvl 9 Guoba and lvl 1 1* polearm.  
+* Calculated damages using Genshin Optimizer: [Google Doc](https://docs.google.com/spreadsheets/d/1MG6BYWBDJLZB5gxhiTa6fCs8AbQO-WEZIfu7F9dipmY/edit?usp=sharing)  
+
+Reference videos for damage:
+* [Guoba attack on Anemo Cube](https://youtu.be/gkxR9K5sLJE)
+* [Sucrose A4, Guoba attack on Anemo Cube](https://youtu.be/YbAdoc8jTsg)
+
+[Sucrose Guoba Swirl on Anemo Cube](https://youtu.be/3KYJfKK-Puw)  
+Mapping the damage numbers in this video to the calculated numbers:
+* First Sucrose E:
+  ```  
+  5174 - Sucrose Swirl  
+  6612 - Sucrose Swirl with VV  
+  244 - Guoba with VV  
+  1552 - Xiangling Swirl from Guoba with Sucrose A1 and VV  
+  ```  
+* Second Sucrose E:
+  ```  
+  7043 - Sucrose Swirl with Xiangling C1 and VV  
+  2582 - Xiangling Swirl from Guoba with Sucrose A1 A4, Xiangling C1, and VV  
+  260 - Guoba with Xiangling C1 and VV  
+  ```  
+
+This shows that A1 was triggered from the second Swirl from Sucrose (where the Guoba Swirl applied Pyro to the Anemo Hypostasis, causing another Swirl reaction). This is a chain reaction. This also shows that A4 is delayed for some reason. Probably ping.  
+ 
+**Significance:**  
+Sucrose can utilize her A1 buff even when Swirling off of objects, as long as there is an enemy with an Anemo aura nearby.  
+
+#### Swirls Caused By Absorbed Element in Burst Can Trigger A1
+
+**By:** NZPIEFACE\#8439  
+**Added:** 12/16/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/917957994048782336/919114773902290964/transcript-sucrose-a1-trigger-mechanics.html)  
+
+**Finding:**  
+Swirls caused by the absorbed element in Sucrose's Burst can trigger her A1.  
+
+**Evidence:**  
+Infusing Sucrose Burst with Beidou hold Skill vs Anemo Cube: [YouTube](https://youtu.be/iwmDccAyoVA)  
+
+**Significance:**  
+When will we get more Anemo auras on enemies...  
 
 ### A4: Mollis Favonius
 
