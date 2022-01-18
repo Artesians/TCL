@@ -292,7 +292,7 @@ Learning more about how environmental reactions are programmed/calculated. Also,
 **Significance:** electro crystals work in a similar way to cryo&pyro stamen flowers, for a better understanding of the overworld.
 
 ### Parametric Crystal Electric Bungaloo 
-**By:** Ultimate Noob\2955  
+**By:** Ultimate Noob\#2955  
 **Added:** 1/14/2022  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/922988435889856562/931419824964374588/transcript-parametric-crystal-electric-bungaloo.html)
 
@@ -304,7 +304,7 @@ Learning more about how environmental reactions are programmed/calculated. Also,
 
 **Evidence:**  
 * [Youtube](https://youtu.be/55cd-38Ja-Y) credit to NZPIEFACE\#8439   
-   [Youtube](https://youtu.be/XDRjNDAV_qY/) (On single crystal to prove not applied by another) credit to CrazyWeke123\#9720
+* [Youtube](https://youtu.be/XDRjNDAV_qY/) (On single crystal to prove not applied by another) credit to CrazyWeke123\#9720
 * [Youtube](https://www.youtube.com/watch?v=NZUnm_2BYzQ) credit to ShampooBrain\#9583 
 * [Imgur](https://imgur.com/4zgrr89) Hydro on crystal
 * [Youtube](https://youtu.be/z3Ia8jqzyKs) credit to CrazyWeke123\#9720 
