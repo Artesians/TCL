@@ -18,13 +18,13 @@ description: 'Captain of her crew, The Crux. She''s quite an unbound and forthri
 
 | Lv | Base HP | Base ATK | Base DEF | Electro DMG% |
 | :--- | :--- | :--- | :--- | :--- |
-| 60 | 8597 | 148 | 427 | 12 |
-| 60+ | 9178 | 158 | 456 | 12 |
-| 70 | 10081 | 174 | 501 | 12 |
-| 70+ | 10662 | 184 | 530 | 18 |
-| 80 | 11565 | 200 | 575 | 18 |
-| 80+ | 12146 | 210 | 603 | 24 |
-| 90 | 13050 | 225 | 648 | 24 |
+| 60 | 8597 | 148 | 427 | 12% |
+| 60+ | 9178 | 158 | 456 | 12% |
+| 70 | 10081 | 174 | 501 | 12% |
+| 70+ | 10662 | 184 | 530 | 18% |
+| 80 | 11565 | 200 | 575 | 18% |
+| 80+ | 12146 | 210 | 603 | 24% |
+| 90 | 13050 | 225 | 648 | 24% |
 
 ## **Attacks**
 
@@ -97,7 +97,9 @@ Beidou consumes 40 stamina a second to perform continuous slashes. At the end of
 | Elemental Type | Electro |
 | Duration | Hold Duration |
 
+**Notes**
 * **Tidecaller** will produce minimum 2 particles, if you get hit once while holding \(one charge\) it produces 3 particles and if you get hit two times \(two charges\) or perform a **perfect parry** it will produce 4 particles.
+* Beidou can perfect counter shots from the Inazuma Kamuijima Cannons.
 * **Tidecaller** counter scaling information is tabulated in the table below.
 
 | Tidecaller DMG Bonus | Talent 6%  | Particles | 
@@ -116,9 +118,6 @@ Beidou creates a **Thunderbeast's Targe** around herself, dealing Electro DMG to
 * When Normal and Charged Attacks hit, they create a **lightning discharge** that can jump between opponents, dealing Electro DMG.
 * Increases active character’s resistance to interruption and decreases DMG taken.
 * A maximum of 1 **lightning discharge** can be triggered per second.
-* **Lightning discharge** can bounce off Mitachurl Shields but will deal no damage.
-* Snapshot on cast.
-  * However, if you swap to Beidou and cast her Burst too quick (Left Alt + Switch Character), her Lightning DMG might fail to snapshot certain buffs.
 
 | Attribute | Burst | Lightning Discharge |
 | :--- | :--- | :--- |
@@ -135,8 +134,13 @@ Beidou creates a **Thunderbeast's Targe** around herself, dealing Electro DMG to
 | Duration | 15s | 15s |
 | Cooldown | 20s | 1s |
 
+**Notes**
 * Beidou's **lightning discharges** have 3 damage instances with 2 targets or more.
 * **Stormbreaker**'s additional arc lightning can jump back to the initial target.
+* The counter for the cooldown does not start on when Beidou's lightning discharge hits, but when the normal attack hits. Hence, the discharge CD can be randomly and inconsistently affected by ping spikes and is not consistently 1 second. - [Vault Entry](../evidence/characters/electro/beidou.md#beidou-lightning-proc-cd)
+* **Lightning discharge** can bounce off Mitachurl Shields but will deal no damage.
+* Snapshot on cast.
+  * However, if you swap to Beidou and cast her Burst too quick (Left Alt + Switch Character), her Lightning DMG might fail to snapshot certain buffs.
 
 {% endtab %}
 {% endtabs %}
@@ -145,7 +149,7 @@ Beidou creates a **Thunderbeast's Targe** around herself, dealing Electro DMG to
 
 {% tabs %}
 {% tab title="Passive" %}
-### Conqueror of Tides
+### **Conqueror of Tides**
 
 Decreases swimming Stamina consumption for your own party members by 20%
 
@@ -154,14 +158,14 @@ Decreases swimming Stamina consumption for your own party members by 20%
 {% endtab %}
 
 {% tab title="Ascension 1" %}
-### Retribution
+### **Retribution**
 
 Counterattacking with **Tidecaller** at the precise moment when the character is hit grants the maximum DMG Bonus.
 
 {% endtab %}
 
 {% tab title="Ascension 4" %}
-### Lightning Storm
+### **Lightning Storm**
 
 Gain the following effects for 10s after unleashing **Tidecaller** with its maximum DMG Bonus:
 
@@ -176,7 +180,7 @@ Gain the following effects for 10s after unleashing **Tidecaller** with its maxi
 
 {% tabs %}
 {% tab title="C1" %}
-### Sea Beast's Scourge
+### **Sea Beast's Scourge**
 
 When **Stormbreaker** is used, Beidou creates a shield that absorbs 16% of her Max HP for 15s.
 
@@ -185,19 +189,19 @@ When **Stormbreaker** is used, Beidou creates a shield that absorbs 16% of her M
 {% endtab %}
 
 {% tab title="C2" %}
-### Upon the Turbulent Sea, the Thunder Arises
+### **Upon the Turbulent Sea, the Thunder Arises**
 
 **Stormbreaker**’s arc **lightning discharges** can jump to 2 additional targets.
 {% endtab %}
 
 {% tab title="C3" %}
-### Summoner of Storm
+### **Summoner of Storm**
 
 Increases the level of **Tidecaller** by 3.
 {% endtab %}
 
 {% tab title="C4" %}
-### Stunning Revenge
+### **Stunning Revenge**
 
 Within 10s of taking DMG, Beidou’s Normal Attacks and Charged Attacks gain 20% additional Electro DMG echo that applies 1A Electro.
 
@@ -210,17 +214,18 @@ Within 10s of taking DMG, Beidou’s Normal Attacks and Charged Attacks gain 20%
 {% endtab %}
 
 {% tab title="C5" %}
-### Crimson Tidewalker
+### **Crimson Tidewalker**
 
 Increases the Level of **Stormbreaker** by 3.
 {% endtab %}
 
 {% tab title="C6" %}
-### Bane of Evil
+### **Bane of Evil**
 
 During the duration of **Stormbreaker**, the Electro RES of surrounding opponents is decreased by 15%.
 
 * The range of this effect is extremely short at just over 1 abyss tile of range.
+* The initial cast of Beidou's Burst doesn't benefit from her C6.
 {% endtab %}
 {% endtabs %}
 
@@ -281,7 +286,7 @@ During the duration of **Stormbreaker**, the Electro RES of surrounding opponent
 {% endtab %}
 {% endtabs %}
 
-## **Evidence Vault:**
+## Evidence Vault
 
 {% page-ref page="../../evidence/characters/electro/beidou.md" %}
 
