@@ -56,13 +56,16 @@ Fires off a shower of arrows in mid-air before falling and striking the ground, 
 {% endtab %}
 
 {% tab title="Frozen Wilds" %}
-Aloy throws a **Freeze Bomb** in the targeted direction that explodes on impact, dealing Cryo DMG. After it explodes, the **Freeze Bomb** will split up into many **Chillwater Bomblets** that explode on contact with opponents or after a short delay, dealing Cryo DMG. When a **Freeze Bomb** or **Chillwater Bomblet** hits an opponent, the opponent's ATK is decreased and Aloy receives 1 **Coil stack**. Aloy can gain up to 1 **Coil stack** every 0.1s. 
+Aloy throws a **Freeze Bomb** in the targeted direction that explodes on impact, dealing Cryo DMG. After it explodes, the **Freeze Bomb** will split up into many **Chillwater Bomblets** that explode on contact with opponents or after a short delay, dealing Cryo DMG.  
+When a **Freeze Bomb** or **Chillwater Bomblet** hits an opponent, the opponent's ATK is decreased and Aloy receives 1 **Coil stack**.  
+Aloy can gain up to 1 **Coil stack** every 0.1s. 
 
 **Coil**  
-* Each stack increases Aloy's Normal Attack DMG. 
-* When Aloy has 4 **Coil stacks**, all stacks of **Coil** are cleared. She then enters the **Rushing Ice** state, which further increases the DMG dealt by her Normal Attacks and converts her Normal Attack DMG to Cryo DMG. 
+• Each stack increases Aloy's Normal Attack DMG.  
+• When Aloy has 4 **Coil stacks**, all stacks of **Coil** are cleared. She then enters the **Rushing Ice** state, which further increases the DMG dealt by her Normal Attacks and converts her Normal Attack DMG to Cryo DMG. 
 
-While in the **Rushing Ice** state, Aloy cannot obtain new **Coil** stacks. **Coil** effects will be cleared 30s after Aloy leaves the field.
+While in the **Rushing Ice** state, Aloy cannot obtain new **Coil** stacks.  
+**Coil** effects will be cleared 30s after Aloy leaves the field.
 
 | Attribute | Freeze Bomb | Chillwater Bomblets |
 | :--- | :--- | :--- |
@@ -85,6 +88,7 @@ While in the **Rushing Ice** state, Aloy cannot obtain new **Coil** stacks. **Co
 | Rushing Ice Duration                | 10s                  |
 | CD                                  | 20s                  |
 
+**Notes**
 * Aloy's attacks while in the **Rushing Ice** state follow standard ICD (3 hits/2.5s)
 * **Chillwater Bomblets** share ICD and follow standard ICD.
 * Aloy can gain **Coil Stacks** while off-field.
@@ -115,7 +119,7 @@ Aloy throws a Power Cell filled with Cryo in the targeted direction, then detona
 
 {% tabs %}
 {% tab title="Passive" %}
-### Easy Does It
+### **Easy Does It**
 
 When Aloy is in the party, animals who produce Fowl, Raw Meat, or Chilled Meat will not be startled when party members approach them.
 
@@ -125,13 +129,13 @@ When Aloy is in the party, animals who produce Fowl, Raw Meat, or Chilled Meat w
 {% endtab %}
 
 {% tab title="Ascension 1" %}
-### Combat Override
+### **Combat Override**
 
 When Aloy receives the **Coil** effect from **Frozen Wilds**, her ATK is increased by 16%, while nearby party members' ATK is increased by 8%. This effect lasts 10s.
 {% endtab %}
 
 {% tab title="Ascension 4" %}
-### Strong Strike
+### **Strong Strike**
 
 When Aloy is in the **Rushing Ice** state conferred by **Frozen Wilds**, her Cryo DMG Bonus increases by 3.5% every 1s. A maximum Cryo DMG Bonus increase of 35% can be gained in this way.
 {% endtab %}
@@ -141,7 +145,7 @@ When Aloy is in the **Rushing Ice** state conferred by **Frozen Wilds**, her Cry
 
 {% tabs %}
 {% tab title="C1" %}
-### Star of Another World
+### **Star of Another World**
 
 The time has not yet come for this person's corner of the night sky to light up.
 {% endtab %}
@@ -195,12 +199,12 @@ The time has not yet come for this person's corner of the night sky to light up.
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | Skill DMG | 502.88% | 538.8% | 574.72% | 610.64% | 646.56% | 682.48% | 718.4% | 763.3% |
 
-**Cooldown:**  12s  
-**Energy Cost:**  40
+**Cooldown:** 12s  
+**Energy Cost:** 40
 
 {% endtab %}
 {% endtabs %}
 
-## **Evidence Vault:**
+## Evidence Vault
 
 {% page-ref page="../../evidence/characters/cryo/aloy.md" %}

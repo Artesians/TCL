@@ -4,15 +4,15 @@ description: A traveler from another world who had their only kin taken away, fo
 
 # Traveler
 
-## ![](../../.gitbook/assets/element_electro.png) Traveler
+## ![](../../.gitbook/assets/element_electro.png) Traveler \(Electro\)
 
 ![](../../.gitbook/assets/electro-traveler.png)
 
-## Base Stats
+## **Base Stats**
 
 | Lv | Base HP | Base ATK | Base DEF | ATK |
 | :--- | :--- | :--- | :--- | :--- |
-| 60 | 7164 | 140 | 450 | 12% |
+| 60 | 7164 | 140 | 450 | 12% | 
 | 60+ | 7648 | 149 | 480 | 12% |
 | 70 | 8401 | 164 | 527 | 12% |
 | 70+ | 8885 | 174 | 558 | 18% |
@@ -51,7 +51,8 @@ The Traveler consumes 20 stamina to unleash 2 rapid sword strikes.
 | N3C | 115 | 204%/s |
 | N4C | 160 | 178.4%/s |
 
-**Plunge**
+**Plunge**  
+ Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.
 
 | Type | Talent 6% |
 | :--- | :--- |
@@ -89,7 +90,8 @@ The Traveler consumes 20 stamina to unleash 2 rapid sword strikes.
 | N3C | 115 | 195.2%/s |
 | N4C | 160 | 172.1%/s |
 
-**Plunge**
+**Plunge**  
+ Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.
 
 | Type | Talent 6% |
 | :--- | :--- |
@@ -100,13 +102,13 @@ The Traveler consumes 20 stamina to unleash 2 rapid sword strikes.
 {% endtab %}
 
 {% tab title="Lightning Blade" %}
-Unleashes three swift thunder shadows that deal Electro DMG to opponents and leave an **Abundance Amulet** behind after hitting an opponent. 2 **Abundance Amulets** can be created initially. Using this skill will reset any **Abundance Amulets** that were generated. 
+Unleashes three swift thunder shadows that deal Electro DMG to opponents and leave an **Abundance Amulet** behind after hitting an opponent.  
+2 **Abundance Amulets** can be created initially. Using this skill will reset any **Abundance Amulets** that were generated. 
 
 **Abundance Amulets**  
-When a character is near an Abundance Amulet, they will absorb it and obtain the following effects: 
-
-* Restores Flat Elemental Energy
-* Increases Energy Recharge during the Abundance Amulet's duration
+When a character is near an Abundance Amulet, they will absorb it and obtain the following effects:  
+• Restores Flat Elemental Energy  
+• Increases Energy Recharge during the Abundance Amulet's duration
 
 | Attribute | Skill |
 | :--- | :--- |
@@ -127,10 +129,12 @@ When a character is near an Abundance Amulet, they will absorb it and obtain the
 | Duration | 6s |
 | Field Duration | 15s |
 
+**Notes**
 * Different units can each pick up one **Abundance Amulet** generated from one **Lightning Blade** cast to gain its effects.
-* The Energy Recharge gained from **Abundance Amulets** does not affect the 4-piece bonus from Emblem of Severed Fate.
+* The Energy Recharge gained from **Abundance Amulets** does not affect Raiden's A4 passive, Mona's A4 passive and the 4-piece bonus from Emblem of Severed Fate.
 * The number of **Abundance Amulets** generated depends on the number of Lightning Blades hit AND number of enemies hit.
-  * Hitting a shield will stil generate **Abundance Amulets**
+* Hitting a shield will stil generate **Abundance Amulets**  
+* There is a delay before the **Abundance Amulets** can be picked up, on average 1.79s.
 
 {% endtab %}
 
@@ -138,7 +142,9 @@ When a character is near an Abundance Amulet, they will absorb it and obtain the
 You call upon the protection of lightning, knocking nearby opponents back and dealing Electro DMG to them.
 
 **Lightning Shroud**  
-When your active character's Normal or Charged Attacks hit opponents, they will call **Falling Thunder** forth, dealing Electro DMG. When **Falling Thunder** hits opponents, it will regenerate Energy for that character. One instance of **Falling Thunder** can be generated every 0.5s.
+When your active character's Normal or Charged Attacks hit opponents, they will call **Falling Thunder** forth, dealing Electro DMG.  
+When **Falling Thunder** hits opponents, it will regenerate Energy for that character.  
+One instance of **Falling Thunder** can be generated every 0.5s.
 
 | Attribute | Burst |
 | :--- | :--- |
@@ -155,36 +161,36 @@ When your active character's Normal or Charged Attacks hit opponents, they will 
 | Duration | 12s |
 | CD | 20s |
 
+**Notes**
 * The energy regenerated from **Falling Thunder** is classified as flat energy.
-* **Falling Thunder** DMG is snapshot on **Bellowing Thunder** cast.
+* **Falling Thunder** DMG snapshots on **Bellowing Thunder** cast.
 
 {% endtab %}
 {% endtabs %}
 
-## 8*
+## **Ascension Passives**
 
 {% tabs %}
 {% tab title="Passive" %}
-### N/A
 
-404 does not exist.
+The Traveller has no passive talent.
 
 {% endtab %}
 
 {% tab title="Ascension 1" %}
-### Thunderflash
+### **Thunderflash**
 
 When another nearby character in the party obtains an **Abundance Amulet** created by **Lightning Blade**, **Lightning Blade**'s CD is decreased by 1.5s.
 
 {% endtab %}
 
 {% tab title="Ascension 4" %}
-### Resounding Roar
+### **Resounding Roar**
 
 Increases the Energy Recharge effect granted by **Lightning Blade**'s Abundance Amulet by 10% of the Traveler's Energy Recharge.
 
-This effect only takes into account the Traveler's original Energy Recharge. Picking up an **Amulet** to increase the Traveler's ER will not impact the amount of ER shared by **Resounding Roar** for other Amulet pickups.
-
+**Notes**
+* This effect only takes into account the Traveler's original Energy Recharge. Picking up an **Amulet** to increase the Traveler's ER will not impact the amount of ER shared by **Resounding Roar** for other Amulet pickups.
 
 {% endtab %}
 {% endtabs %}
@@ -193,25 +199,26 @@ This effect only takes into account the Traveler's original Energy Recharge. Pic
 
 {% tabs %}
 {% tab title="C1" %}
-### Spring Thunder of Fertility
+### **Spring Thunder of Fertility**
 
 The number of **Abundance Amulets** that can be generated using **Lightning Blade** is increased to 3.
 {% endtab %}
 
 {% tab title="C2" %}
-### Violet Vehemence
+### **Violet Vehemence**
 
 When **Falling Thunder** created by **Bellowing Thunder** hits an opponent, it will decrease their Electro RES by 15% for 8s.
 {% endtab %}
 
 {% tab title="C3" %}
-### Distant Crackling
+### **Distant Crackling**
 
-Increases the Level of **Bellowing Thunder** by 3. Maximum upgrade level is 15.
+Increases the Level of **Bellowing Thunder** by 3.  
+Maximum upgrade level is 15.
 {% endtab %}
 
 {% tab title="C4" %}
-### Fickle Cloudstrike
+### **Fickle Cloudstrike**
 
 When a character obtains **Abundance Amulets** generated by **Lightning Blade**, if this character's Energy is less than 35%, the Energy restored by the **Abundance Amulets** is increased by 100%.
 
@@ -220,13 +227,14 @@ When a character obtains **Abundance Amulets** generated by **Lightning Blade**,
 {% endtab %}
 
 {% tab title="C5" %}
-### Clamor in the Wilds
+### **Clamor in the Wilds**
 
-Increases the Level of **Lightning Blade** by 3. Maximum upgrade level is 15.
+Increases the Level of **Lightning Blade** by 3.  
+Maximum upgrade level is 15.
 {% endtab %}
 
 {% tab title="C6" %}
-### World-Shaker
+### **World-Shaker**
 
 Every 2 **Falling Thunder** attacks triggered by **Bellowing Thunder** will increase the DMG dealt by the next **Falling Thunder** by 100%, and will restore an additional 1 Energy to the current character.
 * The damage increase is multiplicative.
@@ -293,6 +301,6 @@ Every 2 **Falling Thunder** attacks triggered by **Bellowing Thunder** will incr
 {% endtab %}
 {% endtabs %}
 
-## **Evidence Vault:**
+## Evidence Vault
 
 {% page-ref page="../../evidence/characters/electro/traveler-electro.md" %}

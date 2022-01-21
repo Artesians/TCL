@@ -16,13 +16,13 @@ description:  A traveler from another world who had their only kin taken away, f
 
 | Lv | Base HP | Base ATK | Base DEF | ATK% |
 | :--- | :--- | :--- | :--- | :--- |
-| 60 | 7164 | 140 | 450 | 12 |
-| 60+ | 7648 | 149 | 480 | 12 |
-| 70 | 8401 | 164 | 527 | 12 |
-| 70+ | 8885 | 174 | 558 | 18 |
-| 80 | 9638 | 188 | 605 | 18 |
-| 80+ | 10122 | 198 | 635 | 24 |
-| 90 | 10875 | 212 | 683 | 24 |
+| 60 | 7164 | 140 | 450 | 12% |
+| 60+ | 7648 | 149 | 480 | 12% |
+| 70 | 8401 | 164 | 527 | 12% |
+| 70+ | 8885 | 174 | 558 | 18% |
+| 80 | 9638 | 188 | 605 | 18% |
+| 80+ | 10122 | 198 | 635 | 24% |
+| 90 | 10875 | 212 | 683 | 24% |
 
 ## **Attacks**
 
@@ -98,17 +98,20 @@ The Traveler consumes 20 stamina to unleash 2 rapid sword strikes.
 {% endtab %}
 
 {% tab title="Palm Vortex" %}
-A **Vortex** is formed, dealing continuous Anemo DMG to nearby opponents.  
-The **Vortex** explodes when the skill duration ends, dealing more Anemo DMG over a larger area.
+Grasping the wind's might, you form a vortex of vacuum in your palm, causing continuous **Anemo** DMG to opponents in front of you.  
+The vacuum vortex explodes when the skill duration ends, causing a greater amount of Anemo DMG over a larger area.
 
-**Hold:** DMG and AoE will gradually increase
+**Hold**  
+DMG and AoE will gradually increase.
 
-If the **Vortex** comes into contact with Hydro/Pyro/Cryo/Electro, it will deal additional elemental DMG of that type. This only occurs once per use.
+**Elemental Absorption**  
+If the vortex comes into contact with Hydro/Pyro/Cryo/Electro, it will deal additional elemental DMG of that type.
+Elemental Absorption may only occur once per use.
 
 | Attribute | Tap | Hold |
 | :--- | :--- | :--- |
 | Cutting DMG \(T6%\) | - | 16.8% x 2 + 23.5% x 4 |
-| Absorption DMG \(T6%\) | - | 4.2% x 2 + 5.88% x 4 |
+| Absorption DMG \(T6%\) | 25% | 4.2% x 2 + 5.88% x 4 |
 | Storm DMG \(T6%\) | 246% | 246% / 269% |
 | Absorption DMG \(T6%\) | - | 61.5% / 67.25% |
 | Particles | 2 | 2 / 3~4 (2:1) |
@@ -116,25 +119,29 @@ If the **Vortex** comes into contact with Hydro/Pyro/Cryo/Electro, it will deal 
 | GU | 1U | 1U |
 | Absorption GU | - | 1A |
 | ICD | 3 hit / 2.5s | 3 hit / 2.5s |
-| Snapshot | Snapshot | Snapshot |
+| Snapshot | - | Dynamic |
 | Damage Element | Anemo | Anemo |
 | Absorption Element | ~ | Absorbed Element |
 | Damage Type | Skill | Skill |
 | CD | 5s | 5s / 8s |
+
+**Notes**
 * Absorption priority: Cryo > Pyro > Hydro > Electro
 * When held beyond the first two Cutting DMG hits, the skill's damage, particle generation, and cooldown are all increased.
 {% endtab %}
 
 {% tab title="Gust Surge" %}
-A forward-moving **tornado** is summoned and pulls objects and opponents towards itself.
+Guiding the path of the wind currents, you summon a forward-moving tornado that pulls objects and opponents towards itself, dealing continuous Anemo DMG.
 
-* Deals Anemo DMG 9 times at 0.5 second intervals
+**Elemental Absorption**  
+If the tornado comes into contact with Hydro/Pyro/Cryo/Electro, it will deal additional elemental DMG of that type.  
+Elemental Absorption may only occur once per use.
 
-If the **tornado** comes into contact with Hydro/Pyro/Cryo/Electro, it will deal a percentage of additional elemental DMG of that type. Elemental Absorption may only occur once per use.
 
 | Attribute | Tornado | Absorption DMG |
 | :--- | :--- | :--- |
-| Tornado DMG \(T6%\) | 113% | 34.7% |
+| Tornado DMG \(T6%\) | 113% * 9 | 34.7% * 9 |
+| Tick Rate | 0.5s | 0.5s | 
 | Frames | 41 | - |
 | GU | 1U | 2B | 
 | ICD | 3 hit / 2.5s | 3 hit / 2.5s |
@@ -144,7 +151,10 @@ If the **tornado** comes into contact with Hydro/Pyro/Cryo/Electro, it will deal
 | Energy Cost | 60 | - |
 | Duration | 6s | - |
 | Cooldown | 15s | - |
-* Absorption priority: Cryo > Pyro > Hydro > Electro  
+
+**Notes**
+* Absorption priority: Cryo > Pyro > Hydro > Electro
+* Deals Anemo DMG 9 times at 0.5 second intervals
 
 {% endtab %}
 {% endtabs %}
@@ -153,23 +163,22 @@ If the **tornado** comes into contact with Hydro/Pyro/Cryo/Electro, it will deal
 
 {% tabs %}
 {% tab title="Passive" %}
-### N/A
-
-404 does not exist.
+The Traveller has no passive talent.
 {% endtab %}
 
 {% tab title="Ascension 1" %}
-### Slitting Wind
+### **Slitting Wind**
 
 The last hit of a Normal Attack combo unleashes a wind blade, dealing 60% of ATK as Anemo DMG to all opponents in its path.
 
+**Notes**
 * Applies 1U Anemo
 * This damage bonus is also considered Normal Attack Damage that also deals Elemental DMG.
 * This allows Anemo Traveler to activate 3 stacks of Mistsplitter Reforged without requiring infusion.
 {% endtab %}
 
 {% tab title="Ascension 4" %}
-### Second Wind
+### **Second Wind**
 
 **Palm Vortex** kills regenerate 2% HP for 5s. This effect can only occur once every 5s.
 {% endtab %}
@@ -179,37 +188,37 @@ The last hit of a Normal Attack combo unleashes a wind blade, dealing 60% of ATK
 
 {% tabs %}
 {% tab title="C1" %}
-### Raging Vortex
+### **Raging Vortex**
 
 **Palm Vortex** pulls in enemies within a 5m radius.
 {% endtab %}
 
 {% tab title="C2" %}
-### Uprising Whirlwind
+### **Uprising Whirlwind**
 
 Increases Energy Recharge by 16%.
 {% endtab %}
 
 {% tab title="C3" %}
-### Sweeping Gust
+### **Sweeping Gust**
 
 Increases the level of **Gust Surge** by 3.
 {% endtab %}
 
 {% tab title="C4" %}
-### Cherishing Breezes
+### **Cherishing Breezes**
 
 Reduces DMG taken while casting **Palm Vortex** by 10%.
 {% endtab %}
 
 {% tab title="C5" %}
-### Vortex Stellaris
+### **Vortex Stellaris**
 
 Increases the level of **Palm Vortex** by 3.
 {% endtab %}
 
 {% tab title="C6" %}
-### Intertwined Winds
+### **Intertwined Winds**
 
 Targets who take DMG from **Gust Surge** have their Anemo RES decreased by 20%.
 
@@ -257,11 +266,11 @@ If an Elemental Absorption occurred, then their RES towards the corresponding El
 |  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 | Lv12 | Lv13 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | Initial Cutting DMG | 16.80% | 18% | 19.20% | 20.40% | 21.60% | 22.80% | 24 | 25.50% |
-| Initial Cutting Elemental DMG | 4.20% | 4.50% | 4.80% | 5.10% | 5.40% | 5.70% | 6% | 6.38% |
+| Initial Cutting Additional Elemental DMG | 4.20% | 4.50% | 4.80% | 5.10% | 5.40% | 5.70% | 6% | 6.38% |
 | Max Cutting DMG | 23.52% | 25.20% | 26.88% | 28.56% | 30.24% | 31.92% | 33.60% | 35.70% |
-| Max Cutting Elemental DMG | 5.88% | 6.30% | 6.72% | 7.14% | 7.56% | 7.98% | 8.40% | 8.93% |
+| Max Cutting Additional Elemental DMG | 5.88% | 6.30% | 6.72% | 7.14% | 7.56% | 7.98% | 8.40% | 8.93% |
 | Initial Storm DMG | 246.40% | 264% | 281.60% | 299.20% | 316.80% | 334.40% | 352% | 374% |
-| Initial Storm Elemental DMG | 61.60% | 66% | 70.40% | 74.80% | 79.20% | 83.60% | 88% | 93.50% |
+| Initial Storm Additional Elemental DMG | 61.60% | 66% | 70.40% | 74.80% | 79.20% | 83.60% | 88% | 93.50% |
 | Max Storm DMG | 268.80% | 288% | 307.20% | 326.40% | 345.60% | 364.80% | 384% | 408% |
 | Max Storm Elemental DMG | 67.20% | 72% | 76.80% | 81.60% | 86.40% | 91.20% | 96% | 102% |
 
@@ -281,7 +290,7 @@ If an Elemental Absorption occurred, then their RES towards the corresponding El
 {% endtab %}
 {% endtabs %}
 
-## **Evidence Vault:**
+## Evidence Vault
 
 {% page-ref page="../../evidence/characters/anemo/traveler-anemo.md" %}
 

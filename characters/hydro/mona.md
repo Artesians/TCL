@@ -8,8 +8,8 @@ description: A mysterious young astrologer who proclaims herself to be “Astrol
 
 * [Mona Mains Discord](https://discord.gg/uxVEDkTyRe)
 * [Full Mona Written Guide: The Astrological Guide to Mona Megistus](https://keqingmains.com/mona/)
-* [Optimal Mona Attack String](../../evidence/characters/hydro/mona.md#what-attack-string-combo-outputs-the-highest-dps-for-mona) by Baezal\#0868
-* [Mona Omen Extension Explained](../../evidence/characters/hydro/mona.md#mona-omen-extension-extended) by Gibbigobo\#9750(aka LACola)
+* [Optimal Mona Attack String](../../evidence/characters/hydro/mona.md#what-attack-string-combo-outputs-the-highest-dps-for-mona) *by Baezal\#0868*
+* [Mona Omen Extension Explained](../../evidence/characters/hydro/mona.md#mona-omen-extension-extended) *by Gibbigobo\#9750(aka LACola)*
 
 
 ## ![](../../.gitbook/assets/element_hydro.png) Mona
@@ -61,7 +61,7 @@ Consume 50 Stamina to deal AoE Hydro damage after a short casting time.
 * 0.5s ICD
 
 **Plunge Attack**  
-Plunge from mid-air to the ground, dealing AoE Hydro DMG.
+Gathering the might of Hydro, Mona plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Hydro DMG upon impact with the ground.
 
 | Type | Talent 6% | GU |
 | :--- | :--- | :--- |
@@ -73,17 +73,15 @@ Plunge from mid-air to the ground, dealing AoE Hydro DMG.
 
 {% tab title="Mirror Reflection of Doom" %}
 **Press**  
-Creates an illusory **Phantom of Fate** with the following special properties:
-
-* Continuously taunts nearby opponents
-* Continuously deal Hydro DMG to nearby opponents.
-* When its duration expires, the **Phantom** explodes, dealing AoE Hydro DMG.
+Creates an illusory **Phantom** of Fate from coalesced waterspouts.  
+The **Phantom** has the following special properties:  
+• Continuously taunts nearby opponents, attracting their fire.  
+• Continuously deals Hydro DMG to nearby opponents.  
+• When its duration expires, the **Phantom** explodes, dealing AoE Hydro DMG.
 
 **Hold**  
-Mona dashes backwards before placing a **Phantom of Fate** down.
-
-* Only one **Phantom** created by **Mirror Reflection of Doom** can exist at any time.
-* Mona's Holding version of **Mirror Reflection of Doom** has invincibility frames that can be utilized for dodging.
+Utilizes water currents to move backwards swiftly before conjuring a Phantom.  
+Only one Phantom created by Mirror Reflection of Doom can exist at any time.
 
 | Attribute | DoT | Explosion |
 | :--- | :--- | :--- 
@@ -99,7 +97,9 @@ Mona dashes backwards before placing a **Phantom of Fate** down.
 | Duration | 5s | - |
 | CD | 12s | - |
 
+**Notes**
 * Mona can dash before **Mirror Reflection of Doom** finishes casting, which leads to no **Phantom** being created.
+* **Mirror Reflection of Doom** (Hold) has invincibility frames that can be utilized for dodging.
 * **Mirror Reflection of Doom** will cause five instances of damage. It will tick 4 times, dealing DoT damage, then explode to deal Explosion DMG.
 * Applies Hydro on cast
 
@@ -107,10 +107,9 @@ Mona dashes backwards before placing a **Phantom of Fate** down.
 
 {% tab title="Illusory Torrent" %}
 **Alternate Sprint**  
-Mona cloaks herself within the water’s flow, consuming Stamina to move rapidly.  
-
-* When under the effect of **Illusory Torrent**, Mona can sprint on water.
-* Applies Hydro aura to nearby opponents when she reappears.
+Mona cloaks herself within the water's flow, consuming Stamina to move rapidly.  
+When under the effect of Illusory Torrent, Mona can move at high speed on water.  
+Applies the Wet status to nearby opponents when she reappears.
 
 | Attribute | Values |
 | :--- | :--- |
@@ -119,6 +118,7 @@ Mona cloaks herself within the water’s flow, consuming Stamina to move rapidly
 | Hydro Application GU | 1A |
 | ICD | 3 hits / 2.5s |
 
+**Notes**
 * **Illusory Torrent** isn't affected by stamina reduction passives from Kaeya or Razor
 * **Illusory Torrent** holds priority over Mona's skill, meaning that if you dash before Mona's skill is finished casting, the skill cast will be cancelled and Mona will dash instead.
 * Her alternate sprint has the same iframes as other characters' normal sprint.
@@ -131,10 +131,11 @@ Mona cloaks herself within the water’s flow, consuming Stamina to move rapidly
 Mona summons the sparkling waves creating a reflection of the starry sky, applying the **Illusory Bubble** status to opponents in a large AoE.
 
 **Illusory Bubble**  
-Traps opponents inside a pocket of destiny and also makes them Wet. Renders weaker opponents immobile. When an opponent affected by **Illusory Bubble** sustains DMG, it has the following effects:
+Traps opponents inside a pocket of destiny and also makes them Wet. Renders weaker opponents immobile.
 
-* Applies an **Omen** to the opponent, which gives a DMG Bonus, also increasing the DMG of the attack that causes it.
-* Removes the **Illusory Bubble** dealing Hydro DMG in the process.
+When an opponent affected by **Illusory Bubble** sustains DMG, it has the following effects:  
+• Applies an **Omen** to the opponent, which gives a DMG Bonus, also increasing the DMG of the attack that causes it.  
+• Removes the **Illusory Bubble** dealing Hydro DMG in the process.
 
 | Attribute | Bubble | Omen |
 | :--- | :--- | :--- |
@@ -149,6 +150,7 @@ Traps opponents inside a pocket of destiny and also makes them Wet. Renders weak
 | Duration | 8s | 4.5s |
 | CD | 15s | - | 
 
+**Notes**
 * Bubble Burst DMG is determined at the time the Bubble is actually triggered, rather than snapshotting on immediate cast.
 * Bubble and Omen ICD is shared. 
 * **Omen** DMG Bonus is additive to the damage calculation and is classified as **DamageBonus**
@@ -166,24 +168,25 @@ Traps opponents inside a pocket of destiny and also makes them Wet. Renders weak
 
 {% tabs %}
 {% tab title="Passive" %}
-### Principium of Astrology
+### **Principium of Astrology**
 
 When Mona crafts Weapon Ascension Materials, She has a 25% chance to refund a portion of the crafting materials used.
 {% endtab %}
 
 {% tab title="Ascension 1" %}
-### “Come ‘n’ Get me, Hag!”
+### **“Come ‘n’ Get me, Hag!”**
 
-After she has used **Illusory Torrent** for 2s, if there are any opponents nearby, Mona will automatically create a **Phantom**:
+After she has used **Illusory Torrent** for 2s, if there are any opponents nearby, Mona will automatically create a **Phantom**.
+A **Phantom** created in this manner lasts for 2s, and its explosion DMG is equal to 50% of **Mirror Reflection of Doom**.
 
-* A **Phantom** created in this manner lasts for 2s, and its explosion DMG is equal to 50% of **Mirror Reflection of Doom**.
+**Notes**
 * No ICD
 * Damage dealt by this **Phantom** is considered elemental skill damage, and can thus trigger related artifact effects.
 
 {% endtab %}
 
 {% tab title="Ascension 4" %}
-### Waterborne Destiny
+### **Waterborne Destiny**
 
 Increases Mona’s Hydro DMG Bonus by a degree equivalent to 20% of her Energy Recharge rate.
 
@@ -196,50 +199,55 @@ Increases Mona’s Hydro DMG Bonus by a degree equivalent to 20% of her Energy R
 
 {% tabs %}
 {% tab title="C1" %}
-### Prophecy of Submersion
+### **Prophecy of Submersion**
 
-When any of your own party members hit an opponent affected by an **Omen**, Hydro-related Elemental Reactions are enhanced for 8s:
+When any of your own party members hit an opponent affected by an **Omen**, Hydro-related Elemental Reactions are enhanced for 8s:  
+• Electro-Charged DMG increases by 15%  
+• Vaporize DMG increases by 15%  
+• Hydro Swirl DMG increases by 15%  
+• Frozen duration is extended by 15%
 
-* Electro-Charged DMG increases by 15%
-* Vaporize DMG increases by 15%
-* Hydro Swirl DMG increases by 15%
-* Frozen duration is extended by 15%
-
-This bonus effect is additive and classified as **ReactionBonus.**  
-See: [Damage Formula](../../combat-mechanics.damage/damage-formula.md#amplifying-reaction-bonus)
+**Notes**  
+This bonus effect is additive and classified as **ReactionBonus.** See: [Damage Formula](../../combat-mechanics/damage/damage-formula.md#amplifying-reaction-bonus)
 
 Teammates in Co-op are not counted as "your own party members" and will not obtain the effects of **Prophecy of Submersion.**
+* Vaporize DMG bonus can be snapshotted.
+* Hydro Swirl and Electro-Charged DMG bonus do not snapshot and require the reaction owner to be onfield.
+* **Prophecy of Submersion** does not extend Frozen.
 {% endtab %}
 
 {% tab title="C2" %}
-### Lunar Chain
+### **Lunar Chain**
 
-When a **Normal Attack** hits, there is a 20% chance that it will be automatically followed by a **Charged Attack**. This effect can only occur once every 5s.
+When a **Normal Attack** hits, there is a 20% chance that it will be automatically followed by a **Charged Attack**.  
+This effect can only occur once every 5s.
 
 * This Charged Attack is not fast enough to do an automatic double Vaporize.
 * No ICD
 {% endtab %}
 
 {% tab title="C3" %}
-### Restless Revolution
+### **Restless Revolution**
 
-Increases the Level of **Stellaris Phantasm** by 3.
+Increases the Level of **Stellaris Phantasm** by 3.  
+Maximum upgrade level is 15.
 {% endtab %}
 
 {% tab title="C4" %}
-### Prophecy of Oblivion
+### **Prophecy of Oblivion**
 
 When any party member attacks an opponent affected by an **Omen**, their Crit Rate is increased by 15%.
 {% endtab %}
 
 {% tab title="C5" %}
-### Mockery of Fortuna
+### **Mockery of Fortuna**
 
-Increases the Level of **Mirror Reflection of Doom** by 3.
+Increases the Level of **Mirror Reflection of Doom** by 3.  
+Maximum upgrade level is 15.
 {% endtab %}
 
 {% tab title="C6" %}
-### Rhetorics of Calamitas
+### **Rhetorics of Calamitas**
 
 Upon entering **Illusory Torrent**, Mona gains a 60% increase to the DMG of her next **Charged Attack** per second of movement.
 
@@ -300,7 +308,7 @@ Upon entering **Illusory Torrent**, Mona gains a 60% increase to the DMG of her 
 {% endtab %}
 {% endtabs %}
 
-## **Evidence Vault:**
+## Evidence Vault
 
 {% page-ref page="../../evidence/characters/hydro/mona.md" %}
 

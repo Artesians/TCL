@@ -35,8 +35,8 @@ Xiangling performs up to five consecutive spear strikes
 | :--- | :--- | :--- | :--- |
 | 1-Hit | 61.13% | 12 | 305.7%/s |
 | 2-Hit | 61.25% | 38 | 192.2%/s |
-| 3-Hit | 37.887% x2 \(75.774%\) | 72 | 165.1%/s |
-| 4-Hit | 20.5% x4 \(82%\) | 141 | 119.2%/s |
+| 3-Hit | 37.887% x2 \(75.774%\) | 60 + 72 | 165.1%/s |
+| 4-Hit | 20.5% x4 \(82%\) | 106 + 118 + 129 + 141 | 119.2%/s |
 | 5-Hit | 103.25% | 167 | 137.7%/s |
 
 **Charged Attack**  
@@ -48,7 +48,8 @@ Xiangling consumes 25 stamina to lunge forward dealing damage to enemies along t
 
 * All frame counts are done against Ruin Guards.
 
-**Plunge**
+**Plunge**  
+Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.
 
 | **Damage Type** | Talent 6% |
 | :--- | :--- |
@@ -73,13 +74,15 @@ Xiangling summons **Guoba the Panda** to continuously breath fire at opponents, 
 | Duration | 7s |
 | CD | 12s |
 
+**Notes**
 * Multiple Guobas can exist on-field at a time if Xiangling has enough Cooldown Reduction
 * Guoba self applies pyro aura when he attacks. This aura can be swirled.
 * Upon casting, Guoba can snapshot and benefit from 1 stack of the Crimson Witch of Flames 4-Piece Bonus.
 {% endtab %}
 
 {% tab title="Pyronado" %}
-Xiangling sends a **Pyronado** whirling around her that moves with your character for the ability's duration, dealing **Pyro** DMG to all opponents in its path.
+Displaying her mastery over both fire and polearms, Xiangling sends a **Pyronado** whirling around her.  
+The **Pyronado** will move with your character for the ability's duration, dealing Pyro DMG to all opponents in its path.
 
 | Attribute | 1-Hit Swing | 2-Hit Swing | 3-Hit Swing | Pyronade |
 | :--- | :--- | :--- | :--- | :--- |
@@ -94,7 +97,9 @@ Xiangling sends a **Pyronado** whirling around her that moves with your characte
 | Duration | 10s | - | - | - |
 | CD | 20s | - | - | - |
 
-* Moving in the opposite direction of **Pyronado's** spin will increase the number of hits.
+**Notes**
+* Moving in the opposite direction of **Pyronado**'s spin will increase the number of hits.
+* **Pyronado** has a ~36 frame lockout before it can deal damage to the same enemy again.
 {% endtab %}
 {% endtabs %}
 
@@ -102,14 +107,20 @@ Xiangling sends a **Pyronado** whirling around her that moves with your characte
 
 {% tabs %}
 {% tab title="Passive" %}
+**Chef de Cuisine**
+
 When Xiangling cooks an ATK-boosting dish perfectly, she has a 12% chance to receive double the product.
 {% endtab %}
 
 {% tab title="Ascension 1" %}
+**Crossfire**
+
 Increase the flame range of **Guoba** by 20%
 {% endtab %}
 
 {% tab title="Ascension 4" %}
+**Beware, It's Super Hot!**
+
 When **Guoba's** attack ends, **Guoba** leaves a chili pepper on the spot where it disappeared. Picking up a chili pepper increases attack by 10% for 10 seconds.
 {% endtab %}
 {% endtabs %}
@@ -135,7 +146,8 @@ The last attack in a Normal Attack sequence applies the **Implode** status onto 
 {% tab title="C3" %}
 **Deepfry**
 
-Increase the level of **Pyronado** by 3.
+Increase the level of **Pyronado** by 3.  
+Maximum upgrade level is 15.
 {% endtab %}
 
 {% tab title="C4" %}
@@ -147,7 +159,8 @@ Increase the level of **Pyronado** by 3.
 {% tab title="C5" %}
 **Guoba Mad**
 
-Increase the Level of **Guoba Attack** by 3
+Increase the Level of **Guoba Attack** by 3.  
+Maximum upgrade level is 15.
 {% endtab %}
 
 {% tab title="C6" %}
@@ -211,6 +224,6 @@ For the duration of **Pyronado**, all party members receive a 15% **Pyro** DMG B
 {% endtab %}
 {% endtabs %}
 
-## **Evidence Vault:**
+## Evidence Vault
 {% page-ref page="../../evidence/characters/pyro/xiangling.md" %}
 

@@ -9,7 +9,7 @@ description: One of the many bards of Mondstadt, who freely wanders the city's s
 * [Venti Mains Discord](https://discord.gg/ventimains)
 
 
-## ![](../../.gitbook/assets/element_anemo.png)Venti
+## ![](../../.gitbook/assets/element_anemo.png) Venti
 
 ![](../../.gitbook/assets/character_venti_wish.webp)
 
@@ -17,13 +17,13 @@ description: One of the many bards of Mondstadt, who freely wanders the city's s
 
 | Lv | Base HP | Base ATK | Base DEF | Energy Recharge% |
 | :--- | :--- | :--- | :--- | :--- |
-| 60 | 6832 | 171 | 434 | 16 |
-| 60+ | 7331 | 183 | 465 | 16 |
-| 70 | 8058 | 201 | 512 | 16 |
-| 70+ | 8557 | 214 | 543 | 24 |
-| 80 | 9292 | 232 | 590 | 24 |
-| 80+ | 9791 | 245 | 622 | 32 |
-| 90 | 10531 | 263 | 669 | 32 |
+| 60 | 6832 | 171 | 434 | 16% |
+| 60+ | 7331 | 183 | 465 | 16% |
+| 70 | 8058 | 201 | 512 | 16% |
+| 70+ | 8557 | 214 | 543 | 24% |
+| 80 | 9292 | 232 | 590 | 24% |
+| 80+ | 9791 | 245 | 622 | 32% |
+| 90 | 10531 | 263 | 669 | 32% |
 
 ## **Attacks**
 
@@ -34,10 +34,10 @@ Perform up to 6 consecutive shots with a bow.
 
 | String | Talent 6% | Frames | MV\s |
 | :--- | :--- | :--- | :--- |
-| 1-Hit DMG | 29.63% x 2 | 21 | 169.3%/s |
+| 1-Hit DMG | 29.63% x 2 | 11 + 21 | 169.3%/s |
 | 2-Hit DMG | 64.50% | 44 | 168.8%/s |
 | 3-Hit DMG | 76.13% | 90 | 133.3%/s |
-| 4-Hit DMG | 37.87% x 2 | 123 | 134.5%/s |
+| 4-Hit DMG | 37.87% x 2 | 111 + 123 | 134.5%/s |
 | 5-Hit DMG | 73.63% | 140 | 149.7%/s |
 | 6-Hit DMG | 103.13% | 191 | 142.1%/s |
 
@@ -61,15 +61,14 @@ Fire a shower of arrows from mid-air before falling striking the ground, dealing
 {% endtab %}
 
 {% tab title="Skyward Sonnet" %}
-**Press**
+O wind upon which all hymns and songs fly, bear these earth-walkers up into the sky!
 
+**Press**  
 Summons an **Wind Domain** at the opponent's location, dealing AoE Anemo DMG and launching opponents into the air.
 
-**Hold**
-
-Summons a larger **Wind Domain** at Venti's location, dealing AoE Anemo DMG and launching opponents into the air. Venti then rides the winds into the air.
-
-* Opponents launched by **Skyward Sonnet** will fall to the ground slowly.
+**Hold**  
+Summons a larger **Wind Domain** at Venti's location, dealing AoE Anemo DMG and launching opponents into the air. Venti then rides the winds into the air.  
+Opponents launched by **Skyward Sonnet** will fall to the ground slowly.
 
 | Attribute | Tap | Hold |
 | :--- | :--- | :--- |
@@ -83,25 +82,25 @@ Summons a larger **Wind Domain** at Venti's location, dealing AoE Anemo DMG and 
 | Damage Type | Skill | Skill |
 | Cooldown | 6s | 15s |
 
+**Notes**
 * Doing an auto attack as soon as possible after using the press version of **Skyward Sonnet** allows the user to swap to a different character faster.
 * Venti can shorten the starting animation of the press version of **Skyward Sonnet** by holding Elemental Skill for 9 frames, which starts the animation for the hold version of **Skyward Sonnet**, and then releasing, which cancels the hold version into a press version of **Skyward Sonnett**. This allows Venti to perform an action immediately after. In total, the **Skyward Sonnet** cast can be cancelled to be only 10 frames.
 
 {% endtab %}
 
-{% tab title="Wind\'s Grand Ode" %}
-Venti fires off an arrow made of countless coalesced winds, creating a huge **Stormeye** that sucks in opponents and deals continuous Anemo DMG.
+{% tab title="Wind&apos;s Grand Ode" %}
+Fires off an arrow made of countless coalesced winds, creating a huge **Stormeye** that sucks in opponents and deals continuous Anemo DMG.
 
-**Elemental Absorption**
-
-* If the **Stormeye** comes into contact with **Hydro/Pyro/Cryo/Electro,** it will deal additional elemental DMG of that type.
-* This can only occur once per use.
+**Elemental Absorption**  
+If the **Stormeye** comes into contact with **Hydro/Pyro/Cryo/Electro,** it will deal additional elemental DMG of that type.  
+This can only occur once per use.
 
 | Attribute | Burst DoT | Burst Additional Elemental DMG |
 | :--- | :--- | :--- |
-| Skill DMG (T6%) | 52.64% | 26.32% |
+| Skill DMG (T6%) | 52.64% * 20| 26.32% * 16|
 | Frames | 94 | - |
 | GU | 1U | 1A |
-| ICD | 3 hits / 2.5s | 3 hits / 2.5s |
+| ICD | 3 hits | 3 hits |
 | Duration | 8s | 6.4s |
 | Total Ticks | 20 | 16 |
 | Snapshot | Snapshot | Snapshot |
@@ -110,13 +109,14 @@ Venti fires off an arrow made of countless coalesced winds, creating a huge **St
 | CD | 15s | - |
 | Energy Cost | 60 | - |
 
+**Notes**
+* Absorption priority: Pyro > Hydro > Electro > Cryo  
 * The **Stormeye** is elevated above the ground. Some attacks are unable to hit enemies that are lifted.
 * Venti cannot lift enemies that are more than 20 levels above his level.
 * Elemental absorption can occur at soonest, **after the 4th Anemo tick**
     * The additional elemental DMG will always deal 16 ticks of damage in the original burst area, no matter the time of absorption.
     * The absorption DMG does not share ICD with the DoT DMG
 * Venti's vortex can be fired on top of Zhongli's pillar, allowing Venti to pull in targets whilst keeping them just low enough for melee units to hit.  
-* Absorption priority: Pyro > Hydro > Electro > Cryo  
 
 {% endtab %}
 {% endtabs %}
@@ -125,7 +125,7 @@ Venti fires off an arrow made of countless coalesced winds, creating a huge **St
 
 {% tabs %}
 {% tab title="Passive" %}
-### Windrider
+### **Windrider**
 
 Decreases gliding Stamina consumption for your own party members by 20%.
 
@@ -133,13 +133,13 @@ Decreases gliding Stamina consumption for your own party members by 20%.
 {% endtab %}
 
 {% tab title="Ascension 1" %}
-### Embrace of Winds
+### **Embrace of Winds**
 
 Holding **Skyward Sonnet** creates an upcurrent that lasts for 20s.
 {% endtab %}
 
 {% tab title="Ascension 4" %}
-### Stormeye
+### **Stormeye**
 
 Regenerates 15 Energy for Venti after the effects of **Wind's Grand Ode** end.
 
@@ -151,7 +151,7 @@ If an **Elemental Absorption** occurred, this also regenerates 15 Energy for all
 
 {% tabs %}
 {% tab title="C1" %}
-### Splitting Gales
+### **Splitting Gales**
 
 Fires 2 additional arrows per Aimed Shot, each dealing 33% of the original arrow's DMG.
 
@@ -159,7 +159,7 @@ Fires 2 additional arrows per Aimed Shot, each dealing 33% of the original arrow
 {% endtab %}
 
 {% tab title="C2" %}
-### Breeze of Reminiscence
+### **Breeze of Reminiscence**
 
 **Skyward Sonnet** decreases opponents' Anemo RES and Physical RES by 12% for 10s.
 
@@ -173,19 +173,19 @@ Increases the Level of **Wind's Grand Ode** by 3.
 {% endtab %}
 
 {% tab title="C4" %}
-### Hurricane of Freedom
+### **Hurricane of Freedom**
 
 When Venti picks up an Elemental Orb or Particle, he receives a 25% Anemo DMG Bonus for 10s.
 {% endtab %}
 
 {% tab title="C5" %}
-### Concerto dal Cielo
+### **Concerto dal Cielo**
 
 Increases the Level of **Skyward Sonnet** by 3.
 {% endtab %}
 
 {% tab title="C6" %}
-### Storm of Defiance
+### **Storm of Defiance**
 
 Targets who take DMG from **Wind's Grand Ode** have their Anemo RES decreased by 20%.
 
@@ -249,7 +249,7 @@ If an **Elemental Absorption** occurred, then their RES towards the correspondin
 {% endtab %}
 {% endtabs %}
 
-## **Evidence Vault**
+## Evidence Vault
 
 {% page-ref page="../../evidence/characters/anemo/venti.md" %}
 
