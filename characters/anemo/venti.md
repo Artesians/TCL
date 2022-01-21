@@ -102,7 +102,7 @@ This can only occur once per use.
 | GU | 1U | 1A |
 | ICD | 3 hits | 3 hits |
 | Duration | 8s | 6.4s |
-| Total Ticks | 20 | 16 |
+| Total Ticks | 20 | 15 |
 | Snapshot | Snapshot | Snapshot |
 | Damage Element | Anemo | Absorbed Element | 
 | Damage Type | Burst | Burst |
