@@ -505,7 +505,8 @@ The overworld map is split into multiple zones that effect damage dealt by envir
 **Evidence:**  
 [Map](https://photos.app.goo.gl/PY1xLqPy8LKFJibC7)
 
-**Significance:** Fluff and overworld documentation.
+**Significance:**  
+Fluff and overworld documentation.
 
 ### Bush Elemental Interaction
 
