@@ -494,6 +494,16 @@ By "'map has been updated" we understand:
 \- all maps have high quality renders taken directly from the finished Teyvat render  
 \- all maps share the same color marks specific to their level
 
+#### Enkanomiya
+**By:** Vladone ツ#9281, Mcpie#8672  
+**Added:** 1/21/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/918031384122114048/934045834268532736/transcript-stuff-can-infuse-cryo.html)
+
+**Finding:**  
+Zone levels for Enkanomiya.
+
+**Evidence:**  
+[Imgur](https://imgur.com/a/gMISDiH)
 
 ### Bush Elemental Interaction
 
