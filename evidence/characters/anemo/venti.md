@@ -130,7 +130,6 @@ Venti ult anemo gauge is 1U.
 
 **Significance:** Better Accuracy for Calcs Involving Venti.
 
-
 ## Constellation Mechanics
 
 ### C1: Splitting Gales
