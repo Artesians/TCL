@@ -79,7 +79,7 @@ When one Cryo DMG instance strikes multiple opponents, the effect is triggered m
 | Particles | 3 \(-\) | 4 \(-\) |
 | Frames | 29 | 44 |
 | GU | 1U | 2U |
-| ICD | - | - |
+| ICD | None | None |
 | Snapshot | - | - | 
 | Damage Element | Cryo | Cryo | 
 | Damage Type | Skill | Skill |
@@ -101,7 +101,6 @@ When one Cryo DMG instance strikes multiple opponents, the effect is triggered m
 * **Icy Quill** stacks are used up even if no damage is dealt to an enemy (when they have a shield).
 * **Icy Quill** stacks increase the damage dealt to shields \(excluding cryo\) by ~15 to 20% .
 * **Spring Spirit Summoning** \(Hold\) makes Shenhe immune to all staggers and knockbacks for its animation duration.
-* Shenhe's Skill does not have ICD.
 
 {% endtab %}
 
