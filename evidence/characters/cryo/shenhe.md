@@ -57,11 +57,11 @@
   * It makes her immune to all staggers and knockbacks
 
 ### Shenhe E has no ICD
-**By:** daibangden2460#8410  
+**By:** daibangden2460\#8410  
 **Added:** 1/21/2022  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/932469355374059590/933905482916200468/transcript-shenhe-e-has-no-icd.html)
 
-**Finding:**   
+**Finding:**  
 Shenhe does not have ICD.  
 
 **Evidence:** [Video](https://youtu.be/Mwaz-2plb2E) / [Video #2](https://youtu.be/XiH9TzHF76Q)
