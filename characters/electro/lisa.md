@@ -51,7 +51,7 @@ Consume 50 Stamina to deal AoE Electro DMG after a short casting time.
 | Charged Attack | 247.97% | 95 | 156.6%/s | 1A | 0.5s |
 
 **Plunge Attack**  
-Plunge towards the ground below from mid-air to deal AoE Electro DMG.
+Gathering the might of Electro, Lisa plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Electro DMG upon impact with the ground.
 
 | Type | Talent 6% |
 | :--- | :--- |
@@ -65,15 +65,12 @@ Plunge towards the ground below from mid-air to deal AoE Electro DMG.
 Channels the power of lightning to sweep bothersome matters away.
 
 **Press**  
-Releases a homing **Lightning Orb**.
-
-* On hit, it deals Electro DMG, and applies a stack of the **Conductive** status \(Max 3 stacks\) to opponents in a small AoE.
+Releases a homing **Lightning Orb**.  
+On hit, it deals Electro DMG, and applies a stack of the **Conductive** status (max 3 stacks) to opponents in a small AoE.
 
 **Hold**  
-After an extended casting time, calls down lightning from the heavens, dealing massive Electro DMG to all nearby opponents.
-
-* Deals extra damage to opponents based on the number of **Conductive** stacks applied to them.
-* Clears **Conductive** status on hit.
+After an extended casting time, calls down lightning from the heavens, dealing massive Electro DMG to all nearby opponents.  
+Deals great amounts of extra damage to opponents based on the number of **Conductive** stacks applied to them, and clears their **Conductive** status.
 
 | Attribute | Tap  | Hold |
 | :--- | :--- | :--- |
@@ -87,7 +84,7 @@ After an extended casting time, calls down lightning from the heavens, dealing m
 | Damage Type | Skill | Skill |
 | CD | 1s | 16s 
 
-
+**Notes**
 * The **Lightning Orb** bounces to nearby targets with the small AoE spreading **Conductive** stacks each bounce
   * This means in tight enough groups, it can apply all 3 stacks in a single Press E
 * The hitbox of Lisa's Hold E is a cylinder with the following dimensions/attributes:
@@ -102,13 +99,14 @@ After an extended casting time, calls down lightning from the heavens, dealing m
 {% endtab %}
 
 {% tab title="Lightning Rose" %}
-Summons a **Lightning Rose** that unleashes powerful lightning bolts, launching surrounding opponents and dealing Electro DMG.
-
+Summons a **Lightning Rose** that unleashes powerful lightning bolts, launching surrounding opponents and dealing Electro DMG.  
 The **Lightning Rose** will continuously emit lightning to knock back opponents and deal Electro DMG throughout the duration.
 
 | Attribute | Burst |
 | :--- | :--- |
-| Skill DMG \(T6%\) | 51.18% |
+| Summon DMG | 10% |
+| Skill DMG \(T6%\) | 51.18% * 29 |
+| Tick Rate | 0.5s | 
 | Frames | 30 |
 | MV/s | 102.4%/s |
 | GU | 1A |
@@ -119,11 +117,22 @@ The **Lightning Rose** will continuously emit lightning to knock back opponents 
 | Duration | 15s |
 | CD | 20s |
 
-* Surrounding opponents are only launched if made airborne while their poise is broken. Poise-broken grounded enemies are frequently staggered instead.
-* The initial summon damage of **Lightning Rose** does not apply an Electro Aura.
-* The Lightning Rose shoots lightning 29 times in total, every 0.5s after the initial summon blast.
+**Notes**
+* **Lightning Rose** has an unlisted instance of damage on initial summon
+  * Summon damage is 10% at all talent levels.
+  * Summon damage does not apply an Electro Aura.
+  * Summon damage does not apply the DEF shred from **Static Electricity Field** \(A4\).
 * Enemy targeting seems fully randomized between all opponents in-range.
 * Discharges from **Lightning Rose** have a small AoE on impact. In tight enemy groups, a lightning bolt can deal damage to multiple enemies at once.
+* The hitbox of Lisa's Lightning Rose is a cylinder with the following dimensions/attributes:
+  * Its Radius is indicated by its VFX and mobs' centers have to be inside said radius in order to take damage. Misleadingly, the actual area is not the flowered decal, but the soft tinted circle of purple.
+  * Its Height/Depth is either unlimited or absurdly large. This is difficult to properly quantize.
+  * Its hitbox can clip through terrain (allowing it to connect with enemies that are out of Lisa's direct Line of Sight); see Azhdaha.
+* Surrounding opponents are only launched if made airborne while their poise is broken. Poise-broken grounded enemies are frequently staggered instead.
+* The initial Summon DMG dealt by **Lightning Rose** is dealt once within a specific area.
+  * This area is a flat circular plane which shares the radius of **Lightning Rose** (7m).
+  * The Summon DMG cannot deal damage to enemies whose hurtboxes are below or above near the suspended plane of which **Lightning Rose** was casted on.
+
 
 {% endtab %}
 {% endtabs %}
@@ -132,19 +141,19 @@ The **Lightning Rose** will continuously emit lightning to knock back opponents 
 
 {% tabs %}
 {% tab title="Passive" %}
-### General Pharmaceutics
+### **General Pharmaceutics**
 
 When Lisa crafts a potion, she has a 20% chance to refund a portion of the crafting materials used.
 {% endtab %}
 
 {% tab title="Ascension 1" %}
-### Induced Aftershock
+### **Induced Aftershock**
 
 Hit by Charged Attacks apply **Violet Arc’s** **Conductive** status to opponents.
 {% endtab %}
 
 {% tab title="Ascension 4" %}
-### Static Electricity Field
+### **Static Electricity Field**
 
 Opponents hit by **Lightning Rose** have their DEF decreased by 15% for 10s.
 {% endtab %}
@@ -154,9 +163,10 @@ Opponents hit by **Lightning Rose** have their DEF decreased by 15% for 10s.
 
 {% tabs %}
 {% tab title="C1" %}
-### Infinite Circuit
+### **Infinite Circuit**
 
-Lisa regenerates 2 Energy for every opponent hit while holding **Violet Arc**. A maximum of 10 Energy can be regenerated in this manner at any one time.
+Lisa regenerates 2 Energy for every opponent hit while holding **Violet Arc**.  
+A maximum of 10 Energy can be regenerated in this manner at any one time.
 
 * This only applies to the Hold E variant.
 * This summons a single special particle that only provides energy if Lisa is on field. 
@@ -164,23 +174,23 @@ Lisa regenerates 2 Energy for every opponent hit while holding **Violet Arc**. A
 {% endtab %}
 
 {% tab title="C2" %}
-### Electromagnetic Field
+### **Electromagnetic Field**
 
-Holding **Violet Arc** has the following effects:
-
-* Increases DEF by 25%.
-* Increases Lisa’s resistance to interruption.
+Holding **Violet Arc** has the following effects:  
+• Increases DEF by 25%.  
+• Increases Lisa's resistance to interruption.
 
 {% endtab %}
 
 {% tab title="C3" %}
-### Resonant Thunder
+### **Resonant Thunder**
 
-Increases the Level of **Lightning Rose** by 3.
+Increases the Level of **Lightning Rose** by 3.  
+Maximum upgrade level is 15.
 {% endtab %}
 
 {% tab title="C4" %}
-### Plasma Eruption
+### **Plasma Eruption**
 
 Increases the number of lightning bolts released by **Lightning Rose** by 1-3.  
 
@@ -190,13 +200,14 @@ Increases the number of lightning bolts released by **Lightning Rose** by 1-3.
 {% endtab %}
 
 {% tab title="C5" %}
-### Electrocute
+### **Electrocute**
 
-Increases the Level of **Violet Arc** by 3.
+Increases the Level of **Violet Arc** by 3.  
+Maximum upgrade level is 15.
 {% endtab %}
 
 {% tab title="C6" %}
-### Pulsating Witch
+### **Pulsating Witch**
 
 When Lisa takes the field, she applies 3 stacks of **Violet Arc’s Conductive** status onto nearby opponents. This effect can only occur once every 5s.
 {% endtab %}
@@ -248,6 +259,7 @@ When Lisa takes the field, she applies 3 stacks of **Violet Arc’s Conductive**
 {% tab title="Lightning Rose" %}
 |  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 | Lv12 | Lv13 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Summon DMG | 10% | 10% | 10% | 10% | 10% | 10% | 10% | 10% | 
 | DoT | 51.18% | 54.84% | 58.5% | 62.15% | 65.81% | 69.46% | 73.12% | 77.69% |
 
 **Duration:** 15s  
@@ -256,7 +268,7 @@ When Lisa takes the field, she applies 3 stacks of **Violet Arc’s Conductive**
 {% endtab %}
 {% endtabs %}
 
-## **Evidence Vault**:
+## Evidence Vault
 
 {% page-ref page="../../evidence/characters/electro/lisa.md" %}
 

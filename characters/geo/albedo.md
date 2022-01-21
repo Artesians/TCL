@@ -17,13 +17,13 @@ description: 'An alchemist based in Mondstadt, in the service of the Knights of 
 
 | Lv | Base HP | Base ATK | Base DEF | Geo DMG% |
 | :--- | :--- | :--- | :--- | :--- |
-| 60 | 8579 | 163 | 568 | 14.40 |
-| 60+ | 9207 | 175 | 610 | 14.40 |
-| 70 | 10119 | 192 | 670 | 14.40 |
-| 70+ | 10746 | 204 | 712 | 21.60 |
-| 80 | 11669 | 222 | 773 | 21.60 |
-| 80+ | 12296 | 233 | 815 | 28.80 |
-| 90 | 13226 | 251 | 876 | 28.80 |
+| 60 | 8579 | 163 | 568 | 14.40% |
+| 60+ | 9207 | 175 | 610 | 14.40% |
+| 70 | 10119 | 192 | 670 | 14.40% |
+| 70+ | 10746 | 204 | 712 | 21.60% |
+| 80 | 11669 | 222 | 773 | 21.60% |
+| 80+ | 12296 | 233 | 815 | 28.80% |
+| 90 | 13226 | 251 | 876 | 28.80% |
 
 ## **Attacks**
 
@@ -49,7 +49,8 @@ Albedo consumes 20 stamina to unleash 2 rapid sword strikes.
 
 Enemies struck by Albedo's charged attack will be launched.
 
-**Plunge**
+**Plunge**  
+Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.
 
 | Damage Type | Talent 6% |
 | :--- | :--- |
@@ -59,25 +60,15 @@ Enemies struck by Albedo's charged attack will be launched.
 {% endtab %}
 
 {% tab title="Abiogenesis: Solar Isotoma" %}
-Albedo creates a **Solar Isotoma**, which deals AoE Geo DMG on appearance.
+Albedo creates a **Solar Isotoma** using alchemy, which deals AoE Geo DMG on appearance.
 
-**Press**  
-Places **Solar Isotoma** a small distance in front of Albedo.
-
-**Hold**  
-Allows player to designate the location of **Solar Isotoma.**
-
-**Solar Isotoma:**  
-When opponents within the **Solar Isotoma** field take DMG, the Solar Isotoma will generate **Transient Blossoms** which deal AoE Geo DMG.
-
-* DMG dealt by **Transient Blossoms** scale off Albedo’s DEF.
-* **Transient Blossoms** can only be generated once every 2s.
-
-When a character is located on the **Solar Isotoma**, the **Solar Isotoma** will form a crystallized platform that lifts the character up to a certain height
-
-* Only one crystallized platform can exist at a time.
-* **Solar Isotoma** is considered a Geo construct, casting other constructs above it will cause the construct to shatter.
-  * Only one per Albedo can exist at a time.
+**Solar Isotoma**  
+has the following properties:  
+• When opponents within the Solar Isotoma field take DMG, the Solar Isotoma will generate Transient Blossoms which deal AoE Geo DMG. DMG dealt scales off Albedo's DEF.  
+• Transient Blossoms can only be generated once every 2s.  
+• When a character is located at the locus of the Solar Isotoma, the Solar Isotoma will accumulate Geo power to form a crystallized platform that lifts the character up to a certain height. Only one crystallized platform can exist at a time.  
+• Solar Isotoma is considered a Geo construct. Only one Solar Isotoma created by Albedo himself can exist at a time.  
+Hold to designate the location of the skill.
 
 | Attribute | Solar Isotoma | Transient Blossom |
 | :--- | :--- | :--- |
@@ -92,13 +83,17 @@ When a character is located on the **Solar Isotoma**, the **Solar Isotoma** will
 | Duration | 30s | - |
 | CD | 4s | - |
 
+**Notes**
+* Casting other constructs above **Solar Isotoma** will cause the construct to shatter.
 * The area of **Solar Isotoma** that can generate **Transient Blossoms** is cylindrical and has a maximum height just above the elevator's maximum lift. 
 * The DMG dealt by **Transient Blossoms** is snapshotted, so any buffs gained/lost after casting **Abiogenesis: Solar Isotoma** will not affect its damage.
 
 {% endtab %}
 
 {% tab title="Rite of Progeniture: Tectonic Tide" %}
-Albedo commands a wave of Geo crystals to burst, dealing AoE Geo DMG in front of him. If a **Solar Isotoma** is on the field, 7 **Fatal Blossoms** will be generated in the **Solar Isotoma** field, dealing AoE Geo DMG.
+AUnder Albedo's command, Geo crystals surge and burst forth, dealing AoE Geo DMG in front of him.  
+If a **Solar Isotoma** created by Albedo himself is on the field, 7 **Fatal Blossoms** will be generated in the **Solar Isotoma** field, bursting violently into bloom and dealing AoE Geo DMG.  
+**Tectonic Tide** DMG and **Fatal Blossom** DMG will not generate **Transient Blossoms**.
 
 | Attribute | Burst Cast | Fatal Blossom |
 | :--- | :--- | :--- |
@@ -112,7 +107,7 @@ Albedo commands a wave of Geo crystals to burst, dealing AoE Geo DMG in front of
 | Energy Cost | 40 | - |
 | Cooldown | 12s | - |
 
-* **Tectonic Tide** DMG and **Fatal Blossom** DMG will not generate **Transient Blossoms**.
+**Notes**
 * The 7 **Fatal Blossoms** that are generated will each target one enemy each and excess blossoms will spawn randomly within the **Solar Isotoma** field with more weighting toward the center. 
 * **Fatal Blossoms** DMG snapshot on **Solar Isotoma** cast.  
 
@@ -123,19 +118,19 @@ Albedo commands a wave of Geo crystals to burst, dealing AoE Geo DMG in front of
 
 {% tabs %}
 {% tab title="Passive" %}
-### Flash of Genius
+### **Flash of Genius**
 
 When Albedo crafts Weapon Ascension Materials, he has a 10% chance to receive double the product.
 {% endtab %}
 
 {% tab title="Ascension 1" %}
-### Calcite Might
+### **Calcite Might**
 
 **Transient Blossoms** generated by Abiogenesis: Solar Isotoma deal 25% more DMG to opponents whose HP is below 50%.
 {% endtab %}
 
 {% tab title="Ascension 4" %}
-### Homoncular Nature
+### **Homoncular Nature**
 
 Using Rite of Progeniture: Tectonic Tide increases the EM of nearby party members by 125 for 10s.
 {% endtab %}
@@ -145,29 +140,29 @@ Using Rite of Progeniture: Tectonic Tide increases the EM of nearby party member
 
 {% tabs %}
 {% tab title="C1" %}
-### Flower of Eden
+### **Flower of Eden**
 
 **Transient Blossoms** generated by Albedo’s Abiogenesis: Solar Isotoma regenerate 1.2 Energy for Albedo.
 {% endtab %}
 
 {% tab title="C2" %}
-### Opening of Phanerozoic
+### **Opening of Phanerozoic**
 
-**Transient Blossoms** generated by Abiogenesis: Solar Isotoma grant Albedo **Fatal Reckoning** for 30s:
-
-* Unleashing Rite of Progeniture: Tectonic Tide consumes all stacks of **Fatal Reckoning**. Each stack of **Fatal Reckoning** consumed increases DMG dealt by **Fatal Blossoms** and Rite of Progeniture: Tectonic Tide's burst DMG by 30% of Albedo's DEF.
-* The effect stacks up to 4 times.
+**Transient Blossoms** generated by **Abiogenesis: Solar Isotoma** grant Albedo **Fatal Reckoning** for 30s:  
+• Unleashing Rite of Progeniture: Tectonic Tide consumes all stacks of **Fatal Reckoning**. Each stack of **Fatal Reckoning** consumed increases DMG dealt by **Fatal Blossoms** and **Rite of Progeniture: Tectonic Tide**'s burst DMG by 30% of Albedo's DEF.  
+• The effect stacks up to 4 times.
 
 {% endtab %}
 
 {% tab title="C3" %}
-### Grace of Helios
+### **Grace of Helios**
 
-Increases the level of **Abiogenesis: Solar Isotoma** by 3.
+Increases the Level of **Abiogenesis: Solar Isotoma** by 3.  
+Maximum upgrade level is 15.
 {% endtab %}
 
 {% tab title="C4" %}
-### Descent of Divinity
+### **Descent of Divinity**
 
 **Solar Isotoma** increases Plunging Attack DMG by 30% for active party members within the AoE.
 {% endtab %}
@@ -175,11 +170,12 @@ Increases the level of **Abiogenesis: Solar Isotoma** by 3.
 {% tab title="C5" %}
 ### **Tide of Hadaen**
 
-Increases the level of **Rite of Progeniture: Tectonic Tide** by 3.
+Increases the Level of **Rite of Progeniture: Tectonic Tide** by 3.  
+Maximum upgrade level is 15.
 {% endtab %}
 
 {% tab title="C6" %}
-### Dust of Purification
+### **Dust of Purification**
 
 If active party members within the AoE are protected by a shield created by Crystallize, **Solar Isotoma** increases their DMG by 17%.
 {% endtab %}
@@ -238,7 +234,7 @@ If active party members within the AoE are protected by a shield created by Crys
 {% endtab %}
 {% endtabs %}
 
-## **Evidence Vault:**
+## Evidence Vault
 
 {% page-ref page="../../evidence/characters/geo/albedo.md" %}
 
