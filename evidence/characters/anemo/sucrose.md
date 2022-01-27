@@ -98,7 +98,7 @@ Sucrose skill can be used with freeze/petrify and the enemies will not be knocke
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/933112665587462214/936237943331373086/transcript-sucrose-e-no-particles-bug.html)
 
 **Finding:**  
-If you dash cancel sucrose E and switch characters too fast, no particles will be generated.   
+If you dash cancel Sucrose E and switch characters too fast, no particles will be generated.   
 *credits to fragile💤#7777 for finding and documenting the first instance of this bug.*
 
 **Evidence:**  
