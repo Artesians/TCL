@@ -124,9 +124,9 @@ Characters’ marks \(Riptide, Talisman, Blood Blossom, etc.\) show that some en
 **Finding:**  
 The visual indicator of the Conductive status does not behave similar to character-produced marks.
 
-**Evidence:**  
-Lisa’s Conductive mark did not travel down to purgatory along with the Geovishap Hatchling.
-[Imgur](https://imgur.com/a/QVQfrHQ)
+**Evidence:**   
+[Imgur](https://imgur.com/a/QVQfrHQ)  
+Lisa’s Conductive mark did not travel down to purgatory along with the Geovishap Hatchling while character-produced marks do burrow with them, as seen in [Enemy Actually Burrow](enemy-interactions.md#enemy-actually-burrow)  
 
 **Significance:**  
 This may or may not imply that Marks & Statuses are different, in that the visual indicator of character-produced statuses (Implode, Conductive, etc.) does not behave similar to character-produced marks (Riptide, Blood Blossom, etc.)  
