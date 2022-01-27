@@ -83,6 +83,35 @@ The Rock (Igneous Pebblus) is a federally endangered species which is currently 
 * Kageroumaru take hits like a chad.
 * Helps to map out how XQ’s orbitals work. 
 
+### Teapot Dog Abuse 2
+**By:** Asaki#9139  
+**Added:** 1/21/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/930676749782634586/934050479892234280/transcript-teapot-dog-abuse-2.html)
+
+**Finding:**  
+Kageroumaru can hold non-elemental statuses, but not marks.
+
+**Evidence:**  
+* Xiangling C1+C2, Lisa Conductive stacks: [Imgur](https://imgur.com/a/eaTDcCd)
+
+* Childe Riptide: [Imgur](https://imgur.com/a/a6pkRFJ)
+
+(from BowTae#0141)
+* Hu Tao Blood Blossom: [Imgur](https://i.imgur.com/98eO4KE.mp4)
+* Yoimiya Aurous Blaze: [Imgur](https://i.imgur.com/QrX7OEp.mp4)
+
+(from ShampooBrain#9583)
+* Qiqi Talisman: [Imgur](https://imgur.com/a/Dw6OGaT)
+* Mona Bubble: [Imgur](https://imgur.com/a/tzRdWz1)
+
+**Significance:**  
+* Kageroumaru can not be affected by the elements.
+* Categorisation of character-producing marked statuses:
+  * First type is non status-affiliated mark (or simply mark). These marks so far are consistently referred to in-game by their names only, without mentioning the status effect. Examples include: Riptide, Blood Blossom, Fortune-Preserving Talisman, Aurous Blaze, etc.
+  * Second type is status-affiliated mark (or simply status). These marks so far are consistently referred to in-game by their names, followed by the word “status”. Examples include: Implode status, “Decreased RES” status, Conductive status, etc.
+Whether mHY keeps up with this consistency is unknown. Whether this is helpful to the general playerbase is unknown.
+* Precursor to #marks-and-statuses, if mHY decides to add more of this trend, so more testing can be done.
+
 ## Explosive Barrel Properties
 
 **By:** kxmndz\#4700  
@@ -494,6 +523,19 @@ By "'map has been updated" we understand:
 \- all maps have high quality renders taken directly from the finished Teyvat render  
 \- all maps share the same color marks specific to their level
 
+#### Enkanomiya
+**By:** Vladone ツ#9281, Mcpie#8672  
+**Added:** 1/21/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/928178373304406016/934047513944666133/transcript-enkanomiya-zone-levels.html)
+
+**Finding:**  
+The overworld map is split into multiple zones that effect damage dealt by environmental reactions. These are the zones for Enkanomiya.
+
+**Evidence:**  
+[Map](https://photos.app.goo.gl/PY1xLqPy8LKFJibC7)
+
+**Significance:**  
+Fluff and overworld documentation.
 
 ### Bush Elemental Interaction
 
@@ -1216,3 +1258,18 @@ Misc:
 
 **Significance:**  
 Fluff, exploration, overworld survivability.
+
+### Stuff Can Infuse Cryo
+**By:** Raven#9205  
+**Added:** 1/21/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/918031384122114048/934045834268532736/transcript-stuff-can-infuse-cryo.html)
+
+**Finding:**  
+The Cryo element is able to be applied to many overworld objects, such as ores and animals. Additionally, it has been demonstrated that some overworld objects can hold Cryo without said Cryo being visible through elemental sight.
+
+**Evidence:**   
+Sheet documenting which objects can and cannot be infused with Cryo: [Google Doc](https://docs.google.com/spreadsheets/d/1eDkENLmA9Fk7IJv3VSJ1H4LC5KDUcYfd-Y0WNd2s0kA/edit?usp=sharing)   
+It should be noted that some objects simply cannot be tested as they are destroyed even due to zero damage attacks, such as Ayaka's special sprint (an example being the Liyue screens in domains).
+
+**Significance:**  
+Largely fluff. However, the application of cryo does mean that some elemental reactions can be performed on inanimate objects which can come with some side benefits. An example of this is that shatter can be trigged on rocks via this method, turning normally slow characters for mining into slightly more acceptable (such as Albedo). 

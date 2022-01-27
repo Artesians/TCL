@@ -13,7 +13,8 @@
 
 ### Teapot Dog Abuse
 
-0-poise attacks also register on Kageroumaru.
+* 0-poise attacks also register on Kageroumaru.
+* Kageroumaru can hold non-elemental statuses, but not marks.
 
 ## Waverider Mechanics
 
@@ -88,6 +89,7 @@ The overworld map is split into multiple zones that affect enemy level and envir
 * [Mondstadt](https://photos.google.com/share/AF1QipNH_MBr8Dfh3fzm6_x4lQqb0bdzrV7tWi6JHaJlnwCElh7v5X4zIiLYp6_DHR5MBA?key=bTlnQXFPdDhLQlhsbDBlSEpVN2R3dWRJdjEtdnFB)  
 * [Liyue](https://photos.google.com/share/AF1QipPLmV3Pt5S9suJQSMm4rK6eVhIerzuS6VEMQmdlZJpI8IUMPjNM4FEeHvaG4BiJeA?key=eG1FUE82Mk92TUtxbUt2STUzNVlnbDdUYTQwUFJR)  
 * [Inazuma](https://photos.google.com/share/AF1QipO_e3CL7arfSKBptsr_IU5oLM6Bm73AukEONaqJ6Hazq95z7dENxRKpBall0_tsKA/photo/AF1QipO25Gcl-MjRfeYd7HSBbc5LBv3bllpEZUwjP3v3?key=cG1Ca25iRmtac0RtT0wtYk1laFRDbUMtOW0tTEhR)  
+* [Enkanomiya](https://photos.app.goo.gl/PY1xLqPy8LKFJibC7)
 
 ## Artifacts
 
@@ -186,6 +188,9 @@ Interactions with the Thunder Fog in The Thundering Wilds daily commission.
 * Sucrose's N1 and N2 work when there is something next to it that she can target, so it's assumed that N3 is the same way, but no one has been able to actually do it yet.
 * Every other Anemo ability works on its own.
 * The attacks from Anemo Slimes don't work, some examples of things that Sucrose can't target (and can't disperse the fog with) are the Portable Waypoint, Serenitea Pot, and Windblume Festival Commemorative Balloon.
+
+## Stuff Can Infuse Cryo
+The Cryo element is able to be applied to many overworld objects, such as ores and animals. Additionally, it has been demonstrated that some overworld objects can hold cryo without said cryo being visible through elemental sight.
 
 ## Evidence Vault
 
