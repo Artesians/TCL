@@ -107,6 +107,7 @@ The shield possesses the following properties:
 **Notes**
 * **Tidecaller** will produce minimum 2 particles, if you get hit once while holding \(one charge\) it produces 3 particles and if you get hit two times \(two charges\) or perform a **perfect parry** it will produce 4 particles.
 * Beidou can perfect counter shots from the Inazuma Kamuijima Cannons.
+* The counter has 0/1 startup frames, depending on whether your input is registered immediately or with a 1 frame delay. [Vault entry](../evidence/characters/electro/beidou.md#beidou-counter-startup)
 * **Tidecaller** counter scaling information is tabulated in the table below.
 
 | Tidecaller DMG Bonus | Talent 6%  | Particles | 
