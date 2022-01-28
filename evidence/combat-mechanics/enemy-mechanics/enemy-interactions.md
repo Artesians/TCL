@@ -533,7 +533,8 @@ Rifthounds (big ones, not the whelps) can be forced into a state where they are 
    [Youtube](https://youtu.be/cT1HZcx5TW0)  
 
 **Significance:**  
-Better understanding of enemy interactions.
+Better understanding of enemy interactions.  
+
 #### Corrosion Damage Mechanics  
 
 **By:** Dooners\#6709  
