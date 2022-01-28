@@ -54,6 +54,9 @@ This applies to their respective triggers too.
     * Good Fortune = 3/16 = 18.75%
     * Great Fortune = 4/16 = 25%
 
+## Portable Waypoint Bug  
+* When placing the Portable Waypoint in certain places such as The Crux and teleporting from a location with an abnormal weather effect, it will be transferred to where the Portable Waypoint is.  
+
 ## Evidence Vault
 
 {% page-ref page="../evidence/general-mechanics/miscellaneous-entries.md" %}
