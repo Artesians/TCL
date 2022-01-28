@@ -6,7 +6,7 @@ description: Owner of Naganohara Fireworks. Known as "Queen of the Summer Festiv
 
 ## **Resources**
 * [6 Minute Yoimiya Quick Guide](https://www.youtube.com/watch?v=FjDsbxPbk50)
-* [Yoimiya Full Guide](https://keqingmains.com/yanfei/)
+* [Yoimiya Full Guide](https://keqingmains.com/yoimiya/)
 
 ## ![](../../.gitbook/assets/element_pyro.png) Yoimiya
 
@@ -33,20 +33,21 @@ Performs up to 5 consecutive shots with a bow.
 
 | String | Talent 6% | Frames | MV/s |
 | :--- | :--- | :--- | :--- |
-| 1-Hit DMG | 49.01% ×2 (98.02%) | 27 | 217.82%/s |
+| 1-Hit DMG | 49.01% ×2 (98.02%) | 18 + 27 | 217.82%/s |
 | 2-Hit DMG | 94.02% | 51 | 225.93%/s |
 | 3-Hit DMG | 122.22% | 88 | 214.27%/s |
-| 4-Hit DMG | 63.83%×2 | 128 | 207.15%/s |
+| 4-Hit DMG | 63.83%×2 | 113 + 128 | 207.15%/s |
 | 5-Hit DMG | 145.56% | 164 | 214.93%/s |
 | With Recovery | -- | 200 | 176.24%/s |
 
 * The auto-aim range for her normals is around 6 abyss tiles (~15.3 meters)
 
 **Aimed Shot**  
-Performs a more precise Aimed Shot with increased DMG. While aiming, flames will accumulate on the arrowhead before being fired off as an attack.  
+Performs a more precise Aimed Shot with increased DMG.
 
-* Charge Level 1: Fires off a flaming arrow that deals Pyro DMG. 
-* Charge Level 2: Generates a maximum of 3 **Kindling Arrows** based on time spent charging, releasing them as part of this Aimed Shot. Kindling Arrows will home in on nearby opponents, dealing Pyro DMG on hit.
+While aiming, flames will accumulate on the arrowhead before being fired off as an attack.  
+• Charge Level 1: Fires off a flaming arrow that deals Pyro DMG.  
+• Charge Level 2: Generates a maximum of 3 **Kindling Arrows** based on time spent charging, releasing them as part of this Aimed Shot. Kindling Arrows will home in on nearby opponents, dealing Pyro DMG on hit.
 
 | String | Talent 6% | GUs | Frames | MV/s |
 | :--- | :--- | :--- | :--- | :--- |
@@ -54,6 +55,7 @@ Performs a more precise Aimed Shot with increased DMG. While aiming, flames will
 | Fully-Charged Aimed Shot | 173.6% | 1A | -- | -- |
 | Kindling Arrow DMG | 22.96% | 1A | -- | -- |
 
+**Notes**
 * **Kindling Arrows** last around 2.5 seconds, don't drop off like regular arrows, and have auto lock aiming at a semi wide range.
 * Yoimiya can have all three **Kindling Arrows** up after **Niwabi Fire Dance** ends, so long as the required charging time is met.
 * **Kindling Arrows** are affected by Amos' Bow's passive and reach max stacks at low range.
@@ -86,19 +88,24 @@ During this time, arrows fired by Yoimiya's Normal Attack will be **Blazing Arro
 | Duration | 10s |
 | CD | 18s |
 
+**Notes**
 * The Damage Bonus from **Niwabi Fire-Dance** is multiplicative.
 * Yoimiya's particle generation triggers on infused arrow hit and has an ICD of 2s on particle generation.
   * Yoimiya's particle generation procs cannot be buffered, so Yoimiya will ideally generate 4 particles over the duration of **Niwabi Fire-Dance**
 * Charged Shots during the duration of **Niwabi Fire-Dance** do not generate particles.
 * Yoimiya can still produce energy even after **Niwabi Fire-Dance** expires as long as the ICD is off CD and the infused normal attack string arrow lands.
 
+**Interactions**
+* Yoimiya's **Niwabi Fire-Dance's Blazing Arrow** DMG increase does not increase Yun Jin's **Cliffbreaker's Banner** bonus.
 {% endtab %}
 
 {% tab title="Ryuukin Saxifrage" %}
 Yoimiya leaps into the air along with her original creation, the "**Ryuukin Saxifrage**," and fires forth blazing rockets bursting with surprises that deal AoE Pyro DMG and mark one of the hit opponents with **Aurous Blaze**.
 
 **Aurous Blaze**  
-All Normal/Charged/Plunging Attacks, Elemental Skills, and Elemental Bursts by any party member other than Yoimiya that hit an opponent marked by **Aurous Blaze** will trigger an explosion, dealing AoE Pyro DMG. When an opponent affected by **Aurous Blaze** is defeated before its duration expires, the effect will pass on to another nearby opponent, who will inherit the remaining duration. One **Aurous Blaze** explosion can be triggered every 2s. When Yoimiya is down, **Aurous Blaze** effects created through her skills will be deactivated.
+All Normal/Charged/Plunging Attacks, Elemental Skills, and Elemental Bursts by any party member other than Yoimiya that hit an opponent marked by **Aurous Blaze** will trigger an explosion, dealing AoE Pyro DMG.  
+When an opponent affected by **Aurous Blaze** is defeated before its duration expires, the effect will pass on to another nearby opponent, who will inherit the remaining duration.  
+One **Aurous Blaze** explosion can be triggered every 2s. When Yoimiya is down, **Aurous Blaze** effects created through her skills will be deactivated.
 
 | Attribute | Burst | Aurous Blaze Explosion |
 | :--- | :--- | ---- |
@@ -116,7 +123,6 @@ All Normal/Charged/Plunging Attacks, Elemental Skills, and Elemental Bursts by a
 {% endtab %}
 {% endtabs %}
 
-
 ## **Ascension Passives**
 
 {% tabs %}
@@ -131,6 +137,7 @@ When Yoimiya crafts Decoration, Ornament, and Landscape-type Furnishings, she ha
 
 During Niwabi Fire-Dance, shots from Yoimiya's Normal Attack will increase her Pyro DMG Bonus by 2% on hit. This effect lasts for 3s and can have a maximum of 10 stacks.
 
+**Notes**
 * Stacks gained from **Tricks of the Trouble-Maker** do not have independent durations, each Normal Attack hit will refresh the duration of all stacks to 3s.
 * The Pyro DMG Bonus from **Tricks of the Trouble-Maker** can last up to 3s after **Niwabi Fire-Dance** ends.
 * Gaining stacks will cause the orbitting sparks from **Niwabi Fire-Dance** to increase in brightness.
@@ -162,7 +169,8 @@ When Yoimiya's Pyro DMG scores a CRIT Hit, Yoimiya will gain a 25% Pyro DMG Bonu
 {% tab title="C3" %}
 ### **Trickster's Flare**
 
-Increases the Level of Niwabi Fire-Dance by 3. Maximum upgrade level is 15.
+Increases the Level of Niwabi Fire-Dance by 3.  
+Maximum upgrade level is 15.
 {% endtab %}
 
 {% tab title="C4" %}
@@ -174,7 +182,8 @@ When Yoimiya's own Aurous Blaze triggers an explosion, Niwabi Fire-Dance's CD is
 {% tab title="C5" %}
 ### **A Summer Festival's Eve**
 
-Increases the Level of Ryuukin Saxifrage by 3. Maximum upgrade level is 15.
+Increases the Level of Ryuukin Saxifrage by 3.  
+Maximum upgrade level is 15.
 {% endtab %}
 
 {% tab title="C6" %}

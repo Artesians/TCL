@@ -2,6 +2,49 @@
 
 ## 5 Stars
 
+### Redhorn Stonethresher
+
+{% tabs %}
+{% tab title="Description" %}
+| Attribute | Description |
+| :--- | :--- |
+| Gokadaiou Otogibanashi | DEF is increased by **28/35/42/49/56**%. Normal and Charged Attack DMG is increased by **40/50/60/70/80**% of DEF. |
+| Base ATK | 44 - 542 | 
+| CRIT DMG | 19.2% - 88.2% |
+
+{% endtab %}
+
+{% tab title="Details" %}
+| Level | Base Atk | CRIT DMG |
+|-------|----------|----------|
+| 1     | 44       | 19.2     |
+| 5     | 58       | 22.3     |
+| 10    | 76       | 26.2     |
+| 15    | 93       | 30       |
+| 20    | 110      | 33.9     |
+| 20+   | 141      | 33.9     |
+| 25    | 158      | 37.8     |
+| 30    | 176      | 41.7     |
+| 35    | 193      | 45.6     |
+| 40    | 210      | 49.4     |
+| 40+   | 241      | 49.4     |
+| 45    | 258      | 53.3     |
+| 50    | 275      | 57.2     |
+| 50+   | 307      | 57.2     |
+| 55    | 324      | 61.1     |
+| 60    | 341      | 65       |
+| 60+   | 373      | 65       |
+| 65    | 390      | 68.8     |
+| 70    | 408      | 72.7     |
+| 70+   | 439      | 72.7     |
+| 75    | 457      | 76.6     |
+| 80    | 475      | 80.4     |
+| 80+   | 506      | 80.4     |
+| 85    | 524      | 84.3     |
+| 90    | 542      | 88.2     |
+{% endtab %}
+{% endtabs %}
+
 ### Skyward Pride
 
 {% tabs %}
@@ -458,6 +501,8 @@
   * 3-2: 1.17-1.18s
   * 2-1: 1.17-1.18s
 * Serpent Spine's damage taken increase affects shields.
+* The buff timer starts ticking and continues ticking whether the holder is on the field or not. However the character only gains a stack every 4 seconds if that character is on field.
+* The buff timer resets when you take damage that would cause you to lose a stack. 
 {% endtab %}
 
 {% tab title="Details" %}

@@ -34,10 +34,10 @@ Perform up to 6 consecutive shots with a bow.
 
 | String | Talent 6% | Frames | MV\s |
 | :--- | :--- | :--- | :--- |
-| 1-Hit DMG | 29.63% x 2 | 21 | 169.3%/s |
+| 1-Hit DMG | 29.63% x 2 | 11 + 21 | 169.3%/s |
 | 2-Hit DMG | 64.50% | 44 | 168.8%/s |
 | 3-Hit DMG | 76.13% | 90 | 133.3%/s |
-| 4-Hit DMG | 37.87% x 2 | 123 | 134.5%/s |
+| 4-Hit DMG | 37.87% x 2 | 111 + 123 | 134.5%/s |
 | 5-Hit DMG | 73.63% | 140 | 149.7%/s |
 | 6-Hit DMG | 103.13% | 191 | 142.1%/s |
 
@@ -61,15 +61,14 @@ Fire a shower of arrows from mid-air before falling striking the ground, dealing
 {% endtab %}
 
 {% tab title="Skyward Sonnet" %}
-**Press**
+O wind upon which all hymns and songs fly, bear these earth-walkers up into the sky!
 
+**Press**  
 Summons an **Wind Domain** at the opponent's location, dealing AoE Anemo DMG and launching opponents into the air.
 
-**Hold**
-
-Summons a larger **Wind Domain** at Venti's location, dealing AoE Anemo DMG and launching opponents into the air. Venti then rides the winds into the air.
-
-* Opponents launched by **Skyward Sonnet** will fall to the ground slowly.
+**Hold**  
+Summons a larger **Wind Domain** at Venti's location, dealing AoE Anemo DMG and launching opponents into the air. Venti then rides the winds into the air.  
+Opponents launched by **Skyward Sonnet** will fall to the ground slowly.
 
 | Attribute | Tap | Hold |
 | :--- | :--- | :--- |
@@ -83,41 +82,42 @@ Summons a larger **Wind Domain** at Venti's location, dealing AoE Anemo DMG and 
 | Damage Type | Skill | Skill |
 | Cooldown | 6s | 15s |
 
+**Notes**
 * Doing an auto attack as soon as possible after using the press version of **Skyward Sonnet** allows the user to swap to a different character faster.
 * Venti can shorten the starting animation of the press version of **Skyward Sonnet** by holding Elemental Skill for 9 frames, which starts the animation for the hold version of **Skyward Sonnet**, and then releasing, which cancels the hold version into a press version of **Skyward Sonnett**. This allows Venti to perform an action immediately after. In total, the **Skyward Sonnet** cast can be cancelled to be only 10 frames.
 
 {% endtab %}
 
-{% tab title="Wind\'s Grand Ode" %}
-Venti fires off an arrow made of countless coalesced winds, creating a huge **Stormeye** that sucks in opponents and deals continuous Anemo DMG.
+{% tab title="Wind&apos;s Grand Ode" %}
+Fires off an arrow made of countless coalesced winds, creating a huge **Stormeye** that sucks in opponents and deals continuous Anemo DMG.
 
-**Elemental Absorption**
-
-* If the **Stormeye** comes into contact with **Hydro/Pyro/Cryo/Electro,** it will deal additional elemental DMG of that type.
-* This can only occur once per use.
+**Elemental Absorption**  
+If the **Stormeye** comes into contact with **Hydro/Pyro/Cryo/Electro,** it will deal additional elemental DMG of that type.  
+This can only occur once per use.
 
 | Attribute | Burst DoT | Burst Additional Elemental DMG |
 | :--- | :--- | :--- |
-| Skill DMG (T6%) | 52.64% | 26.32% |
+| Skill DMG (T6%) | 52.64% * 20| 26.32% * 16|
 | Frames | 94 | - |
 | GU | 1U | 1A |
-| ICD | 3 hits / 2.5s | 3 hits / 2.5s |
+| ICD | 3 hits | 3 hits |
 | Duration | 8s | 6.4s |
-| Total Ticks | 20 | 16 |
+| Total Ticks | 20 | 13-15\* |
 | Snapshot | Snapshot | Snapshot |
 | Damage Element | Anemo | Absorbed Element | 
 | Damage Type | Burst | Burst |
 | CD | 15s | - |
 | Energy Cost | 60 | - |
 
+**Notes**
+* Absorption priority: Pyro > Hydro > Electro > Cryo  
 * The **Stormeye** is elevated above the ground. Some attacks are unable to hit enemies that are lifted.
 * Venti cannot lift enemies that are more than 20 levels above his level.
 * Elemental absorption can occur at soonest, **after the 4th Anemo tick**
     * The additional elemental DMG will always deal 16 ticks of damage in the original burst area, no matter the time of absorption.
     * The absorption DMG does not share ICD with the DoT DMG
 * Venti's vortex can be fired on top of Zhongli's pillar, allowing Venti to pull in targets whilst keeping them just low enough for melee units to hit.  
-* Absorption priority: Pyro > Hydro > Electro > Cryo  
-
+\* Number of ticks is fps-dependent.
 {% endtab %}
 {% endtabs %}
 

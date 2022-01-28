@@ -25,9 +25,9 @@ description: The first and greatest head of the Arataki Gang, famed throughout I
 {% tabs %}
 {% tab title="Fight Club Legend" %}
 **Normal Attacks**  
-Perform up to 4 consecutive strikes.
-* When the 2nd and 4th strikes hit opponents, Itto will gain 1 or 2 stacks of **Superlative Superstrength**, respectively. Max 5 stacks. Triggering this effect will refresh the current duration of any existing stacks.
-* Additionally, Itto's Normal Attack combo does not immediately reset after sprinting or using his Elemental Skill, "**Masatsu Zetsugi: Akaushi Burst!**"
+Perform up to 4 consecutive strikes.  
+• When the 2nd and 4th strikes hit opponents, Itto will gain 1 or 2 stacks of **Superlative Superstrength**, respectively. Max 5 stacks. Triggering this effect will refresh the current duration of any existing stacks.  
+• Additionally, Itto's Normal Attack combo does not immediately reset after sprinting or using his Elemental Skill, "**Masatsu Zetsugi: Akaushi Burst!**"
 
 | String | Talent 6% | Frames | MV/s |
 | :--- | :--- | :--- | :--- |
@@ -37,6 +37,7 @@ Perform up to 4 consecutive strikes.
 | 4-Hit | 170.39% | 181 | - |
 | Recovery | - | 202 | - |
 
+**Notes**
 * Itto can gain **Superlative Superstrength** stacks while off field.
 * Itto's **Superlative Superstrength** stacks persist through character swap.
 
@@ -50,6 +51,7 @@ If no stacks of **Superlative Superstrength** are available, Itto will perform a
 | Arataki Kesagiri Final Slash DMG | 277.5% | - | - |
 | Saichimonji Slash DMG | 131.5% | - | - |
 
+**Notes**
 * **Arataki Kesagiri Combo Slash** and **Final Slash**'s hitbox can hit enemies located behind Itto.
 
 **Plunge**  
@@ -63,16 +65,17 @@ If no stacks of **Superlative Superstrength** are available, Itto will perform a
 {% endtab %}
 
 {% tab title="Masatsu Zetsugi: Akaushi Burst!" %}
-**Press**
-Hurls Ushi, the young akaushi bull and auxiliary member of the Arataki Gang, dealing Geo DMG to opponents on hit. When Ushi hits opponents, Arataki Itto gains 1 stack of **Superlative Superstrength**.
-Ushi will remain on the field and provide support in the following ways:
-* Taunts surrounding opponents and draws their attacks.
-* Inherits HP based on a percentage of Arataki Itto's Max HP.
-* When Ushi takes DMG, Arataki Itto gains 1 stack of **Superlative Superstrength**. Only 1 stack can be gained in this way every 2s.
-* Ushi will flee when its HP reaches 0 or its duration ends. It will grant Arataki Itto 1 stack of **Superlative Superstrength** when it leaves.
+**Press**  
+Hurls Ushi, the young akaushi bull and auxiliary member of the Arataki Gang, dealing Geo DMG to opponents on hit. When Ushi hits opponents, Arataki Itto gains 1 stack of **Superlative Superstrength**.  
 
-**Hold**
-Adjust throwing angle.
+Ushi will remain on the field and provide support in the following ways:  
+• Taunts surrounding opponents and draws their attacks.  
+• Inherits HP based on a percentage of Arataki Itto's Max HP.  
+• When Ushi takes DMG, Arataki Itto gains 1 stack of **Superlative Superstrength**. Only 1 stack can be gained in this way every 2s.  
+• Ushi will flee when its HP reaches 0 or its duration ends. It will grant Arataki Itto 1 stack of **Superlative Superstrength** when it leaves.  
+
+**Hold**  
+Adjust throwing angle.  
 Ushi is considered a Geo construct. Arataki Itto can only deploy 1 Ushi on the field at any one time.
 
 | Attribute | Ushi | 
@@ -89,6 +92,7 @@ Ushi is considered a Geo construct. Arataki Itto can only deploy 1 Ushi on the f
 | Duration | 6s |
 | CD | 10s | 
 
+**Notes**
 * Ushi counts towards the Geo construct limit.
 * Ushi's duration starts at land, not on cast.
 * Hold E has a maximum 10s timer.
@@ -100,11 +104,12 @@ Ushi is considered a Geo construct. Arataki Itto can only deploy 1 Ushi on the f
 
 {% tab title="Royal Descent: Behold, Itto the Evil!" %}
 Time to show 'em the might of the Arataki Gang! For a time, Itto lets out his inner Raging Oni King, wielding his Oni King's Kanabou in battle.
-This state has the following special properties:
-* Converts Itto's Normal, Charged, and Plunging Attacks to Geo DMG. This cannot be overridden.
-* Increases Itto's Normal Attack SPD. Also increases his ATK based on his DEF.
-* On hit, the 1st and 3rd strikes of his attack combo will each grant Arataki Itto 1 stack of **Superlative Superstrength**.
-* Decreases Itto's Elemental and Physical RES by 20%.
+
+This state has the following special properties:  
+• Converts Itto's Normal, Charged, and Plunging Attacks to Geo DMG. This cannot be overridden.  
+• Increases Itto's Normal Attack SPD. Also increases his ATK based on his DEF.  
+• On hit, the 1st and 3rd strikes of his attack combo will each grant Arataki Itto 1 stack of **Superlative Superstrength**.  
+• Decreases Itto's Elemental and Physical RES by 20%.  
 The Raging Oni King state will be cleared when Itto leaves the field.
 
 | Attribute | Burst |
@@ -115,6 +120,7 @@ The Raging Oni King state will be cleared when Itto leaves the field.
 | Duration | 11s |
 | CD | 18s |
 
+**Notes**
 * **Royal Descent: Behold, Itto the Evil!** snapshots DEF but does not shapshot Geo DMG or ATK.
   * Itto does not snapshot Gorou's Burst buffs if Alt swapped into combat.
 * Itto's converted attacks apply 1U Geo. 
@@ -122,6 +128,7 @@ The Raging Oni King state will be cleared when Itto leaves the field.
 * **Royal Descent: Behold, Itto the Evil!**'s duration can be extended through hitlag.
 * **Royal Descent: Behold, Itto the Evil!** can expire in the middle of a CA string.
 * Burst duration can significantly extend past its normal duration by doing an attack at the end of burst. This extension ends immediately on any action after the final attack.
+* Using **Royal Descent: Behold, Itto the Evil!** during N1 hitlag also gives **Superlative Strength** stacks
 
 {% endtab %}
 {% endtabs %}
@@ -140,9 +147,9 @@ When a party member uses attacks to obtain wood from a tree, they have a 25% cha
 {% tab title="Ascension 1" %}
 ### **Arataki Ichiban**
 
-When Arataki Itto uses consecutive **Arataki Kesagiri**, he obtains the following effects:
-• Each slash increases the ATK SPD of the next slash by 10%. Max ATK SPD increase is 30%.
-• Increases his resistance to interruption.
+When Arataki Itto uses consecutive **Arataki Kesagiri**, he obtains the following effects:  
+• Each slash increases the ATK SPD of the next slash by 10%. Max ATK SPD increase is 30%.  
+• Increases his resistance to interruption.  
 These effects will be cleared once he stops performing consecutive slashes.
 {% endtab %}
 
@@ -174,7 +181,8 @@ CD can be decreased by up to 4.5s in this manner. Max 18 Energy can be restored 
 {% tab title="C3" %}
 ### **Horns Lowered, Coming Through**
 
-Increases the Level of **Masatsu Zetsugi: Akaushi Burst!** by 3.
+Increases the Level of **Masatsu Zetsugi: Akaushi Burst!** by 3.  
+Maximum upgrade level is 15.
 {% endtab %}
 
 {% tab title="C4" %}
@@ -186,7 +194,8 @@ When the Raging Oni King state caused by **Royal Descent: Behold, Itto the Evil!
 {% tab title="C5" %}
 ### **10 Years of Hanamizaka Fame**
 
-Increases the Level of **Royal Descent: Behold, Itto the Evil!** by 3.
+Increases the Level of **Royal Descent: Behold, Itto the Evil!** by 3.  
+Maximum upgrade level is 15.
 {% endtab %}
 
 {% tab title="C6" %}

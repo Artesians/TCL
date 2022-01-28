@@ -18,15 +18,17 @@ redirects:
   diona: ./characters/cryo/diona.md
   eula: ./characters/cryo/eula.md
   ganyu: ./characters/cryo/ganyu.md
+  kaeya: ./characters/cryo/kaeya.md
   qiqi: ./characters/cryo/qiqi.md
   rosaria: ./characters/cryo/rosaria.md
+  shenhe: ./characters/cryo/shenhe.md
   beidou: ./characters/electro/beidou.md
   fischl: ./characters/electro/fischl.md
   keqing: ./characters/electro/keqing.md
   lisa: ./characters/electro/lisa.md
   raiden: ./characters/electro/raiden.md
   razor: ./characters/electro/razor.md
-  sara: ./characters/electro/sara.nd
+  sara: ./characters/electro/sara.md
   traveler-electro: ./characters/electro/traveler-electro.md
   albedo: ./characters/geo/albedo.md
   gorou: ./characters/geo/gorou.md
@@ -34,6 +36,7 @@ redirects:
   ningguang: ./characters/geo/ningguang.md
   noelle: ./characters/geo/noelle.md
   traveler-geo: ./characters/geo/traveler-geo.md
+  yunjin: ./characters/geo/yunjin.md
   zhongli: ./characters/geo/zhongli.md
   barbara: ./characters/hydro/barbara.md
   kokomi: ./characters/hydro/kokomi.md
@@ -43,6 +46,7 @@ redirects:
   xingqiu: ./characters/hydro/xingqiu.md
   amber: ./characters/pyro/amber.md
   bennett: ./characters/pyro/bennett.md
+  diluc: ./characters/pyro/diluc.md
   hu-tao: ./characters/pyro/hu-tao.md
   hutao: ./characters/pyro/hu-tao.md
   klee: ./characters/pyro/klee.md
@@ -51,4 +55,7 @@ redirects:
   xinyan: ./characters/pyro/xinyan.md
   yanfei: ./characters/pyro/yanfei.md
   yoimiya: ./characters/pyro/yoimiya.md
+  damage: ./combat-mechanics/damage/damage-formula.md
+  egt: ./combat-mechanics/elemental-effects/elemental-gauge-theory.md
+  srp: ./combat-mechanics/elemental-effects/simultaneous-reaction-priority.md
   

@@ -8,6 +8,7 @@ description: A young lady who has inherited trace amounts of non-human blood. Sh
 * [Full Diona Guide](https://keqingmains.com/diona/)  
 * [4 Minute Quick Guide to Diona](https://youtu.be/IWoSkeAFY4o)  
 * [Icy Paws Deep Dive](https://docs.google.com/document/d/1GZrscI-X_-CgzavXUbCeELrSumbAqlLqVkkJN1vWKwk/edit?usp=sharing)
+* [Icy Paws Sacrifical Bow vs Favonius Bow - Energy Gen & Field Time Efficiency](https://docs.google.com/spreadsheets/d/1rMyjElZHS0PDU4uyJ55bKGsmUVW82ga4xPcDUJSE760/edit#gid=1389539947)
 
 ## ![](../../.gitbook/assets/element_cryo.png) Diona
 
@@ -70,15 +71,12 @@ Fire **Icy Paws** that deal Cryo DMG to opponents and forms a shield on hit.
 The shield’s DMG Absorption scales based on Diona’s Max HP, and its duration scales off the number of **Icy Paws** that hit their target.
 
 **Press**
-
 * Rapidly fires off 2 **Icy Paws**.
 
 **Hold**
-
 * Dashes back quickly and before firing 5 **Icy Paws**.
 * The shield created by a Hold attack will gain a 75% DMG Absorption Bonus.
 * The shield has a 250% Cryo DMG Absorption bonus.
-* Applies a 1A Cryo Aura for a short duration upon formation and upon swap to a different active character.
 
 | Attribute | Tap | Hold |
 | :--- | :--- | :--- |
@@ -98,6 +96,8 @@ The shield’s DMG Absorption scales based on Diona’s Max HP, and its duration
 | Elemental Type | Cryo | 
 | Duration | 2.3s per paw |
 
+**Notes**
+* Applies a 1A Cryo Aura for a short duration upon formation and upon swap to a different active character.
 * In specific circumstances, Diona's shield will apply 2U of Cryo on swap.
   * For more details see the [full entry](../../evidence/characters/cryo/diona.md#bug-dionas-shield-is-2u-under-specific-circumstances-that-are-guaranteed-on-swap) in Diona's Evidence Vault.
 * Icy Paws will not generate a shield if they do not hit something. They will also despawn after a certain amount of time.
@@ -108,7 +108,6 @@ The shield’s DMG Absorption scales based on Diona’s Max HP, and its duration
 Tosses out a special cold brew that deals AoE Cryo DMG and creates a **Drunken Mist**:
 
 **Drunken Mist:**
-
 * Deals continuous Cryo DMG to opponents within the AoE.
 * Continuously regenerates HP of the characters within the AoE.
 
@@ -130,7 +129,8 @@ Tosses out a special cold brew that deals AoE Cryo DMG and creates a **Drunken M
 | Tick Rate| 2s | 
 | C6 Buff Duration | 2s |
 
-* C6 buff applies on swap
+**Notes**
+* C6 buff applies on swap.
 * Her field shares an ICD with the initial hit.
 * The Drunken Mist AoE has a finite vertical range. Characters above or below this vertical range will not receive healing.
 

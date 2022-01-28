@@ -8,6 +8,64 @@ search: false
 
 {% page-ref page="../../general-mechanics/overworld.md" %}
 
+## The Rock
+
+**By:** Aevean Leeow\#1362, Mcpie\#8672, BowTae\#0141, KQM Stream Meme Team, and KQM Friends  
+**Added:** 12/24/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/905507145762631690/924148014212333608/transcript-the-rock.html)
+
+**Finding:**
+There are a few small rocks in the overworld with interesting properties. They can be damaged and destroyed, and they can also deal Geo damage when dropped.
+
+The current known locations for these rocks:
+* North of the Dragonspine Adventurer's Guild Camp (1 Rock): [Imgur](https://imgur.com/i7qX6Uq)
+* Cape Oath (2 groups of 4 Rocks each): [Map](https://imgur.com/EDNub8V) - [View of Rocks](https://imgur.com/YuxAlNR)  
+
+**Evidence:**  
+*Basic Mechanics:*  
+* Rock does not respawn
+  * Initial rock was found and destroyed on November 3, 2021: [Imgur](https://imgur.com/dIXY8xN)
+    * The rock at this location has not reappeared as of December 5, 2021.
+* Rock has around 8000HP at WL8: [Youtube](https://youtu.be/3b5GtygZxnw)
+* Rock does not light up with Elemental Sight: [Youtube](https://imgur.com/CnzrqRP)
+* Rock has 0 DEF and 0 RES: [Imgur](https://imgur.com/bVH9zer)
+  * Amber and Sara both have 85 ATK and 124% CA modifier. 1.24 * 85 = 105.4. The damage number was 105.
+* Rock is targettable (Guoba and Oz will target the rock, for example): [Imgur](https://imgur.com/qTsGcVK)
+* Rock can hold Cryo aura: 
+  * [Swirl and Crystallize](https://youtu.be/xK8FCPxjHv4) 
+  * [Melt](https://youtu.be/zKyXIUhqTio)
+  * [Freeze Shatter](https://youtu.be/uafxmx-UmZ0)
+  * [Superconduct](https://youtu.be/KcrGM4hRmN4)
+    * No phys RES shred is applied to the Rock 
+
+*Attack Mechanics:*
+* Rock can do Geo damage when it falls and takes fall damage: [TheFirstRapher#9207](https://imgur.com/a/wQf0D19)
+* This attack can hit other rocks and players: [Youtube](https://youtu.be/NAx5VxLysgY)
+  * Rock level is estimated to be Level 75
+  * The damage is affected by DEF, most likely Geo RES too but unconfirmed
+* The Geo damage has a gauge, and will Crystallize when hitting a player with an aura: [ASnowOwI#7234](https://youtu.be/ORXq8OsVFlg)
+Interactions:
+* Jean Skill can yeet the Rock: [pai#3602](https://youtu.be/dRTnQhpjxMM)
+* Venti Burst can suck in the Rock: [Raven#9205](https://imgur.com/KpnrbxK)
+* AMC Burst can move the Rock: [Imgur](https://imgur.com/uy5W4Lh)
+* GMC Boulders move the Rock: [Imgur](https://imgur.com/pQRvUG5)
+* Overload can move the Dragonspine Rock, but didn't seem to move the Cape Oath Rocks: [Dragonspine](https://imgur.com/YzM7rsR) [Cape Oath](https://imgur.com/vuOZnlc)
+* Ayaka A4 does not proc on the Rock: [Reens#9389](https://imgur.com/6lCKFdP)
+* Kazuha A4 does not proc on the Rock: [ShampooBrain#9583](https://imgur.com/a/hpfXL5o)
+* Mona Burst does not apply Omen to the Rock: [ShampooBrain#9583](https://imgur.com/a/4pElThX)
+* Rock is not affected by Zhongli RES shred or Lisa DEF shred: [Chameleon#9008](https://youtu.be/K71cGeGSQWM) 
+
+*Glitches/Weird Stuff:*
+* Spawning the teapot on top of the Rock makes it disappear: [Reens#9389](https://imgur.com/awZKod0)
+* Rock behaves weird on ledges: [Imgur](https://imgur.com/9rJt9pa)
+* Sometimes fall damage does not trigger on landing, and the rock will just disappear: [twentythree#3787](https://imgur.com/OC35oS1)
+
+*Further Research:*
+* It is currently not known if World Level affects rock HP or damage. This may change in the future.
+
+**Significance:**  
+The Rock (Igneous Pebblus) is a federally endangered species which is currently known to live in various regions of Mondstadt. The range of the Rock historically included the northern part of Dragonspine and various clusters in Cape Oath. Exploitative research and tree farming have driven this species to near extinction. It is unknown if there are surviving habitats of Rocks in other parts of Teyvat. 
+
 ## Serenitea Pot
 
 ### Teapot Dog Abuse  
@@ -24,6 +82,35 @@ search: false
 **Significance:**  
 * Kageroumaru take hits like a chad.
 * Helps to map out how XQ’s orbitals work. 
+
+### Teapot Dog Abuse 2
+**By:** Asaki#9139  
+**Added:** 1/21/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/930676749782634586/934050479892234280/transcript-teapot-dog-abuse-2.html)
+
+**Finding:**  
+Kageroumaru can hold non-elemental statuses, but not marks.
+
+**Evidence:**  
+* Xiangling C1+C2, Lisa Conductive stacks: [Imgur](https://imgur.com/a/eaTDcCd)
+
+* Childe Riptide: [Imgur](https://imgur.com/a/a6pkRFJ)
+
+(from BowTae#0141)
+* Hu Tao Blood Blossom: [Imgur](https://i.imgur.com/98eO4KE.mp4)
+* Yoimiya Aurous Blaze: [Imgur](https://i.imgur.com/QrX7OEp.mp4)
+
+(from ShampooBrain#9583)
+* Qiqi Talisman: [Imgur](https://imgur.com/a/Dw6OGaT)
+* Mona Bubble: [Imgur](https://imgur.com/a/tzRdWz1)
+
+**Significance:**  
+* Kageroumaru can not be affected by the elements.
+* Categorisation of character-producing marked statuses:
+  * First type is non status-affiliated mark (or simply mark). These marks so far are consistently referred to in-game by their names only, without mentioning the status effect. Examples include: Riptide, Blood Blossom, Fortune-Preserving Talisman, Aurous Blaze, etc.
+  * Second type is status-affiliated mark (or simply status). These marks so far are consistently referred to in-game by their names, followed by the word “status”. Examples include: Implode status, “Decreased RES” status, Conductive status, etc.
+Whether mHY keeps up with this consistency is unknown. Whether this is helpful to the general playerbase is unknown.
+* Precursor to #marks-and-statuses, if mHY decides to add more of this trend, so more testing can be done.
 
 ## Explosive Barrel Properties
 
@@ -231,7 +318,30 @@ Learning more about how environmental reactions are programmed/calculated. Also,
 
 **Evidence:** [https://www.youtube.com/watch?v=f8QfbYvuR6Q](https://www.youtube.com/watch?v=f8QfbYvuR6Q)
 
-**Significance:** electro crystals work in a similar way to cryo&pyro stamen flowers, for a better understanding of the overworld
+**Significance:** electro crystals work in a similar way to cryo&pyro stamen flowers, for a better understanding of the overworld.
+
+### Parametric Crystal Electric Bungaloo 
+**By:** Ultimate Noob\#2955  
+**Added:** 1/14/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/922988435889856562/931419824964374588/transcript-parametric-crystal-electric-bungaloo.html)
+
+**Findings:**  
+* An electric crystal can have its aura removed, but it will be reapplied.
+* When it's raining, you can apply Hydro aura using 2B Cryo (Kaeya) then end rain (by time skipping) and the crystal will not apply Electro to itself again. It has to be 2B, 1A won’t work.
+* So far the crystal can hold Cryo, Hydro, and Electro. 
+* Rain water Hydro is different from regular Hydro, and the game doesn’t recognize it as the same as Hydro from different sources (Such as player Hydro and Hydro from bodies of water). This is proved as the crystal doesn’t update and reapply Electro onto itself as it thinks no element was applied onto it, removing the Electro. Game does not recognize rain Hydro, as other sources of Hydro.
+
+**Evidence:**  
+* [Youtube](https://youtu.be/55cd-38Ja-Y) credit to NZPIEFACE\#8439   
+* [Youtube](https://youtu.be/XDRjNDAV_qY/) (On single crystal to prove not applied by another) credit to CrazyWeke123\#9720
+* [Youtube](https://www.youtube.com/watch?v=NZUnm_2BYzQ) credit to ShampooBrain\#9583 
+* [Imgur](https://imgur.com/4zgrr89) Hydro on crystal
+* [Youtube](https://youtu.be/z3Ia8jqzyKs) credit to CrazyWeke123\#9720 
+* [Youtube](https://youtu.be/cx-5sboMgwQ) credit to Puffin\#9920 
+* [Youtube](https://youtu.be/UuevVMvQfsg) credit to CrazyWeke123\#9720 (Proof works in 2.4)
+
+**Significance:**  
+Rain Hydro isn’t the same as other Hydro sources. Electro crystals don’t have infinite aura, it just constantly reapplies Electro aura, it’s more then 1A, but less then 2B.
 
 ### Invisible Water Layer
 
@@ -413,6 +523,19 @@ By "'map has been updated" we understand:
 \- all maps have high quality renders taken directly from the finished Teyvat render  
 \- all maps share the same color marks specific to their level
 
+#### Enkanomiya
+**By:** Vladone ツ#9281, Mcpie#8672  
+**Added:** 1/21/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/928178373304406016/934047513944666133/transcript-enkanomiya-zone-levels.html)
+
+**Finding:**  
+The overworld map is split into multiple zones that effect damage dealt by environmental reactions. These are the zones for Enkanomiya.
+
+**Evidence:**  
+[Map](https://photos.app.goo.gl/PY1xLqPy8LKFJibC7)
+
+**Significance:**  
+Fluff and overworld documentation.
 
 ### Bush Elemental Interaction
 
@@ -1054,3 +1177,99 @@ Documenting the overworld spaghetti, and a better understanding of 0 gauge stuff
 **Evidence:** [https://youtu.be/yJ-3I3xGDgs](https://youtu.be/yJ-3I3xGDgs)
 
 **Significance:** Can't do hydro tests on dandelions near Mondstadt
+
+## Electro Fog
+**By:** pai\#3602  
+**Added:** 1/4/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/922637382807846942/927770423368749116/transcript-electro-fog.html)
+
+**Finding:**  
+Interactions with the Thunder Fog in The Thundering Wilds daily commission.  
+1. Sucrose's N1, N2, and N3 don't work on their own.
+2. Sucrose's N1 and N2 work when there is something next to it that she can target, so it's assumed that N3 is the same way, but no one has been able to actually do it yet.
+3. Every other Anemo ability works on its own.
+4. The attacks from Anemo Slimes don't work, some examples of things that Sucrose can't target (and can't disperse the fog with) are the Portable Waypoint, Serenitea Pot, and Windblume Festival Commemorative Balloon.
+
+**Evidence:**   
+1. Sucrose N1 and N2 not working: [Youtube](https://youtu.be/B5jLUybrFtM)
+2. Sucrose N1 and N2 working with an enemy/gadget, and N4 working on its own: [Youtube](https://youtu.be/OBMRc6u7bng)
+    * Not included in the video: [Youtube](https://youtu.be/o5UDnI27YF0)
+4. All other Anemo abilities that work: [Youtube](https://youtu.be/1KYeH8ZwUZE)
+5. Anemo Slimes not being able to disperse it and Sucrose not being able to target some gadgets: [Youtube](https://youtu.be/qgavZ5FShY4)
+
+**Significance:** Fluff.
+
+## Boat Mechanics Addendum
+**By:** ElliMiku\#5071  
+**Added:** 1/14/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/921392473757069312/931429201175793674/transcript-boat-mechanics-addendum.html)
+
+**Findings:**  
+General:  
+* Waverider level is determined by world level.
+* The Waverider has 0 def and 0 elemental resistances.
+* Waverider heals 0.65% when the player is outside of it, and 5% when inside and not in combat. Percentages are in terms of waverider max HP.
+
+Waverider-Terrain interactions:
+* When the waverider is in water that is too shallow for it, it slowly drifts towards deeper water.
+* When you try to go over a waterfall, you either get stuck if the water is too shallow... or the boat deconstructs.
+
+Waverider vs environment:
+* Waverider can be hit by lightning (possibly only in shallow water)
+* Waverider takes EC damage if player is in the boat.
+* Waverider takes damage from the environment, such as electro crystals and cryo mistflowers. The player needs to be in the boat.
+* Waverider is not affected by balethunder or "spicy water".
+
+Waverider vs player:
+* Waverider cannot be CC'd with Anemo attacks such as Jean's or Venti's E.
+* Waverider can be slightly shifted with Geo MC's E.
+* You cannot raise the boat with Albedo E.
+* You cannot place Zhongli Steles near the boat.
+* There's a zone around the waverider where the water can't be frozen.
+* If you use the waverider TP to summon the waverider when the "destination" is frozen, it deconstructs
+
+Misc:
+* Waverider is not affected by Corrosion. If a character is affected by corrosion and enters the boat, HP does not continue to decay, but the duration of the corrosion effect still ticks.
+
+**Evidence:**  
+* [WR level](https://youtu.be/nwD3IjBDTBE)
+* [WR def + Hydro res + Cryo res](https://youtu.be/8hbYNa4jc3I) 
+  * [Calcs](https://imgur.com/HGiT2wq)
+* [WR Pyro + Geo + Phys + Anemo res](https://youtu.be/vq_U8dALl9w) 
+  * [Calcs](https://docs.google.com/spreadsheets/d/1KWE7gCTxYZgcQXzIUn5BHLBHqJSNakOdHskCFcyWEBQ/edit#gid=0)
+* [WR Electro res](https://youtu.be/yu4Gqv6CsKk?t=106)
+* [WR heals](https://youtu.be/BPGqP7eBnTA?t=102) 
+  * [Calcs](https://imgur.com/RYKM9aF)
+* [WR in shallow water](https://youtu.be/0wot3Rqb104)  
+  [Vid #2](https://youtu.be/UR-ZiH19Buw)
+* [WR vs Waterfall](https://youtu.be/_mHRR9tUX4k)
+* [WR vs Lightning](https://youtu.be/AJ78uUyrBEY)
+* [WR vs EC](https://youtu.be/yu4Gqv6CsKk)
+* [WR vs environmental Dmg](https://youtu.be/BPGqP7eBnTA)
+* [WR vs inazuma environment](https://youtu.be/JF7jxCg1V9U)
+* [WR vs CC](https://imgur.com/OY3ipql)
+* [WR vs Albedo, Zhongli and Geo MC](https://youtu.be/eeEl5b7J_lc)   
+  [Vid #2](https://youtu.be/xiLEJvtM31w)   
+  [Vid #3](https://youtu.be/wI4VMJ2R0pk)   
+  [Vid #4](https://youtu.be/W_K50Cn23AI)  
+* [WR vs Freeze](https://youtu.be/rGmfu89lEOM)
+* [WR vs TP troll](https://youtu.be/QrGC_8CH3CE)
+* [WR vs corrosion](https://youtu.be/hYqMCXUMGTI)
+
+**Significance:**  
+Fluff, exploration, overworld survivability.
+
+### Stuff Can Infuse Cryo
+**By:** Raven#9205  
+**Added:** 1/21/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/918031384122114048/934045834268532736/transcript-stuff-can-infuse-cryo.html)
+
+**Finding:**  
+The Cryo element is able to be applied to many overworld objects, such as ores and animals. Additionally, it has been demonstrated that some overworld objects can hold Cryo without said Cryo being visible through elemental sight.
+
+**Evidence:**   
+Sheet documenting which objects can and cannot be infused with Cryo: [Google Doc](https://docs.google.com/spreadsheets/d/1eDkENLmA9Fk7IJv3VSJ1H4LC5KDUcYfd-Y0WNd2s0kA/edit?usp=sharing)   
+It should be noted that some objects simply cannot be tested as they are destroyed even due to zero damage attacks, such as Ayaka's special sprint (an example being the Liyue screens in domains).
+
+**Significance:**  
+Largely fluff. However, the application of cryo does mean that some elemental reactions can be performed on inanimate objects which can come with some side benefits. An example of this is that shatter can be trigged on rocks via this method, turning normally slow characters for mining into slightly more acceptable (such as Albedo). 

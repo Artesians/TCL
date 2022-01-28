@@ -206,6 +206,22 @@ C4 Lisa Ult, which has a large verticality, tags Two Hitboxes of Azhdaha during 
 **Significance:**  
 Abilities that have large verticality and the property of being able to tag multiple entities, notably Lisa C4 Lightning Rose, can expedite Azhdaha killtimes.  
 
+#### Azhdaha's Element Is The Same For All Regions
+**By:** xSil3nt\#0961  
+**Added:** 1/13/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/924709157163122729/931057558175748157/transcript-azhdaha-elements-same-for-all-regions.html)
+
+**Finding:**  
+Azhdaha's elements are the same across servers/regions and change weekly on mondays.
+
+**Evidence:**  
+Data was collected using google forms, all submissions were checked with the screenshot attached with the form. All submissions had the same elements selected on each week, submissions were from multiple regions as seen in the pie chart.  
+[Imgur](https://i.imgur.com/bYYrTD8.jpg)  
+[Google Doc](https://docs.google.com/spreadsheets/d/1o4A8OwyqFwq57pEQ1NTIpNJxGx7A-t809LkmzXotGXI/edit#gid=1836241029)
+
+**Significance:**  
+Co-op cannot be used to have a more favorable/easier elemental matchup against azhdaha as the his infused elements in a given week are the same for all players.
+
 ### Stormterror  
 
 #### Stormterror DoT Damage Cap
@@ -299,6 +315,22 @@ Placing a boulder underneath the geo hypostasis at the start of the battle will 
 **Significance:**  
 This speeds up the fight by making the Geo Hypostasis vulnerable, without having to spend extra effort to break the pillars. Keep in mind though that the vulnerability windows derived from using this method is shorter.
 
+### Golden Wolflord
+
+#### Rifthound Skulls Charging
+**By:** EtoPashka\#0690  
+**Added:** 1/13/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/908382648710348840/931069122559766528/transcript-resistances-and-elem-obj-durability-table.html)
+
+**Finding:**  
+Rifthounds skulls need 3 Geo GU to be charged. They also can be charged with other elements, but it requires 38 attacks to be charged and does not depend on GU at all. Physical dmg is useless.
+
+**Evidence:**  
+38 sucrose attacks: [Youtube](https://youtu.be/Fq0zpru1Ej4)
+
+**Significance:**  
+For those that enjoy suffering.
+
 ### Maguu Kenki
 
 #### Maguu Kenki Hitlag Audio Desync
@@ -340,8 +372,8 @@ If your main DPS relies on Charged Attacks for damage and has the bullet-like an
 
 #### Shield Reflection Mechanic
 
-**By:** Mcpie#8672  
-**Added:** 6/25/2021   
+**By:** Mcpie\#8672  
+**Added:** 6/25/2021  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/846126762165272666/858192389344854067/transcript-shield-reflection-damage.html)
 
 **Finding:**  
@@ -403,9 +435,10 @@ Legend of the Vagabond Sword:
 **Significance:**  
 Might play a major role if at any point we'll have Primo Geovishaps inside the abyss and people will struggle with it.  
 
-## Abyss Herald
+## Elite Enemies
+### Abyss Herald
 
-### Abyss Herald Cooldown Mechanics
+#### Abyss Herald Cooldown Mechanics
 
 **By:** Monado\#9922  
 **Added:** 6/4/2021  
@@ -446,11 +479,11 @@ Showing other attacks don't have the cooldown debuff:
 **Significance:**  
 Better understanding of Abyss Herald mechanics, and which attacks in particular to dodge in order to avoid the cooldown debuff.
 
-## Abyss Mage
+### Abyss Mage
 
-### Hydro Abyss Mage bubble persists on swap
+#### Hydro Abyss Mage bubble persists on swap
 
-**By:** snorting salt#3888  
+**By:** snorting salt\#3888  
 **Added:** 07/17/2021  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/865014289025466392/865729755093008415/transcript-bubble-persists-on-swap.html)
 
@@ -466,9 +499,9 @@ The bubble from the Hydro Abyss Mages and their hydro bubble spawning mechanic c
 **Significance:**  
 Dash iframes do not always work against the bubbles, especially for the abyss mage ones which home onto the character even after iframing through it. While the character initially hit still takes damage from the bubble, the dangerous CC effect of the bubble can be ignored, which makes dealing with the bubbles without ult iframes a lot easier.
 
-## Corrosion
+### Rifthounds
 
-### Corrosion damage mechanics
+#### Corrosion Damage Mechanics
 
 **By:** Dooners\#6709  
 **Added:** 10/17/2021  
@@ -523,7 +556,7 @@ Bonus: Predicted HP loss per stack based on character max hp using the equation 
 
 These values are total loss per stack, for damage per tick simply divide each number by 10. 
 
-### Corrosion damage mechanics update
+#### Corrosion damage mechanics update
 
 **By:** Dooners\#6709  
 **Added:** 11/01/2021  
@@ -542,9 +575,9 @@ Stacks are additive and independent.
 **Significance:**  
 Better understanding of Corrosion status.  
 
-## Mirror Maiden
+### Mirror Maiden
 
-### Mirror Maiden Mechanics
+#### Mirror Maiden Mechanics
 
 **By:** Hatsuharufag\#4291  
 **Added:** 08/09/2021  
@@ -574,7 +607,7 @@ When MM uses her teleport move, she will randomly teleport in front of the activ
 **Significance:**  
 Don't be an ape. Don't get hit by attacks with clear visual indication and clear 'tells'. Don't be greedy. MM in "weak" state deals significantly less damage and is much easier to control.
 
-### Escape Mirror Maiden trap
+#### Escape Mirror Maiden trap
 
 **By:** gengar\#8426  
 **Added:** 10/09/2021  
@@ -609,9 +642,9 @@ All evidence uploaded to Imgur and listed here: [Spreadsheet](https://docs.googl
 **Significance:**  
 Helpful for Spiral Abyss floor 12.  
 
-## Mitachurl
+### Mitachurl
 
-### Standing on Geo MC E skill Restricts Mitachurls to Slime-Throwing Attacks Only  
+#### Standing on Geo MC E skill Restricts Mitachurls to Slime-Throwing Attacks Only  
 
 **By:** maxtrouble\#3719  
 **Added:** 12/19/2020  
@@ -625,9 +658,34 @@ Standing on top of a construct restricts Mitachurls to slime throwing attack onl
 **Signifiance:**  
 Ai manipulation.  
 
-## Ruin Guard
+### Ruin Guard
 
-### Polearm Charge Attacks Don't Register On Stunned Ruin Guards
+#### Melee Can Stun Ruin Guards 
+**By:** CQLQRS\#7853  
+**Addded:** 1/1/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/922442421604843542/926773041697013830/transcript-melee-can-stun-ruin-guards.html)
+
+**Finding:** Some attacks other than fully-charged bow CAs can stun ruin guards. This includes various skills, bursts and melee attacks.
+
+**Evidence:**  
+1\. Melee CAs:  
+* Itto: [Imgur](https://imgur.com/a/uVmiOHL)
+* Raiden: [Imgur](https://imgur.com/a/rrHZ1hx)
+* Bullet-like CAs: [Imgur](https://imgur.com/a/HWd1rrd)
+
+2\. Elemental Skills:  
+* EMC: [Youtube](https://youtu.be/4X6tBV3Z34Q) (Bobrokrot\#0111)
+
+3\. Elemental Bursts:  
+* Yoimiya: [Youtube](https://youtu.be/2KfdFoQu8bQ) (BowTae\#0141)
+* Bennett: [Imgur](https://imgur.com/a/nCKGHus) (ShampooBrain\#9583)
+* Diluc: [Imgur](https://imgur.com/a/IQpZkSa) (ShampooBrain\#9583)
+
+This list is not exhaustive and any attack can theoretically stun the ruin guard if its core is low enough for the attack to reach it.
+
+**Significance:** Limited practical usage, mostly fluff.
+
+#### Polearm Charge Attacks Don't Register On Stunned Ruin Guards
 
 **By:** itskhoi\#0013  
 **Added:** 5/7/2021  
@@ -649,7 +707,7 @@ Both Ruin Hunter and Ruin Grader don't have this problem. My guess is because th
 **Significance:**  
 If you stun a Ruin Guard and your main carry is a spear user, you might want to watch your footing.
 
-### Ruin Guard Jump Blocking
+#### Ruin Guard Jump Blocking
 
 **By:** Terrapin\#8603  
 **Added:** 5/9/2021  
@@ -661,9 +719,9 @@ If you stun a Ruin Guard and your main carry is a spear user, you might want to 
 
 **Significance:** Better knowledge of Ruin Guard combat through enemy movement manipulation with Geo MC  
 
-## Ruin Hunter  
+### Ruin Hunter  
 
-### Ruin Hunter Weakspot&Artillery mode Analysis   
+#### Ruin Hunter Weakspot&Artillery mode Analysis   
 
 **By:** RoaringMeow\#2437  
 **Added:** 7/12/2020  
@@ -680,7 +738,7 @@ Context: The Ruin Hunter does not reveal a weak spot until it enters artillery m
 **Significance:**  
 God forbid, a ruin hunter in the abyss but with this mechanic learned he's the easiest mob to beat since there's no delay after he recovers, just spam and take him down.  
 
-### Ruin Hunter Weakspot abuse   
+#### Ruin Hunter Weakspot abuse   
 
 **By:** deRykcihC\#0621  
 **Added:** 08/28/2020  
@@ -695,9 +753,9 @@ Mobs internal countdown can be used to activate weak spot on Ruin Hunter (same t
 **Significance:**  
 Might be useful for people who can't follow up Ruin Hunter agile attack pattern in Spiral Abyss.
 
-## Slime  
+### Slime  
 
-### Dendro Slime Plucking  
+#### Dendro Slime Plucking  
 
 **By:** Way\#0001  
 **Added:** 11/19/2020  
@@ -715,7 +773,7 @@ Some Anemo Units can Suck Mini-Dendro Slimes even if they are Hidden.
 **Significance:**  
 Provides an alternative method for eliminating annoying mini-dendro slimes.  
 
-### Anemo Slimes get one shot in the air
+#### Anemo Slimes get one shot in the air
 
 **By:** Daybreak\#0584  
 **Added:** 07/24/2021  
@@ -732,7 +790,7 @@ Amall Anemo Slimes test: [Video](https://youtu.be/T3v7y7-NqTE)
 **Significance:**  
 If anemo slimes are ever introduced to the abyss, this information could be useful.
 
-### Hydro Slimes Apply Wet to Surroundings  
+#### Hydro Slimes Apply Wet to Surroundings  
 
 **By:** Rainfury\#8343  
 **Added:** 10/25/2021  
@@ -751,7 +809,7 @@ Hydro slimes will apply hydro to both enemies and allies in their surroundings w
 **Significance**  
 Better understanding of enemy and character aura management in combat with hydro slimes. 
 
-### Slime Balloon  
+#### Slime Balloon  
 
 **By:** ariose\#3891  
 **Added:** 08/31/2021  
@@ -771,9 +829,9 @@ Zhongli's universal res shred also has no effect (tested Barbara's N1 and Kaeya'
 **Significance:**  
 With this knowledge you can finish your commissions 2 seconds faster.
 
-## Specter
+### Specter
 
-### Specter Defeat Interaction
+#### Specter Defeat Interaction
 
 **By:** Rathalos\#2875  
 **Added:** 11/5/2021  

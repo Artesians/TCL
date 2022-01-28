@@ -1,10 +1,48 @@
 # Overworld
 
+## The Rock
+
+### Basic Mechanics and Known Locations
+
+* There are a few small rocks in the overworld with interesting properties. They can be damaged and destroyed, and they can also deal Geo damage when dropped.
+* Current known locations for rocks:
+  * North of the Dragonspine Adventurer's Guild Camp (1 Rock): [Imgur](https://imgur.com/i7qX6Uq)
+  * Cape Oath (2 groups of 4 Rocks each): [Imgur](https://imgur.com/EDNub8V) [Imgur](https://imgur.com/YuxAlNR)
+
 ## Serenitea Pot
 
 ### Teapot Dog Abuse
 
-0-poise attacks also register on Kageroumaru.
+* 0-poise attacks also register on Kageroumaru.
+* Kageroumaru can hold non-elemental statuses, but not marks.
+
+## Waverider Mechanics
+
+### General
+* Waverider level is determined by World Level.
+* The Waverider has 0 DEF and 0 Elemental Resistances.
+* Waverider heals 0.65% when the player is outside of it, and 5% when inside and not in combat. Percentages are in terms of Waverider max HP.
+
+### Waverider-Terrain interactions
+* When the Waverider is in water that is too shallow for it, it slowly drifts towards deeper water.
+* When you try to go over a waterfall, you either get stuck if the water is too shallow... or the boat deconstructs.
+
+### Waverider vs environment
+* Waverider can be hit by lightning (possibly only in shallow water)
+* Waverider takes Electro-charged damage if player is in the boat.
+* Waverider takes damage from the environment, such as electro crystals and cryo mistflowers. The player needs to be in the boat.
+* Waverider is not affected by Balethunder or "spicy water".
+
+### Waverider vs player
+* Waverider cannot be CC'd with Anemo attacks such as Jean's or Venti's elemental skill.
+* Waverider can be slightly shifted with Geo Traveler's elemental skill.
+* You cannot raise the boat with Albedo's elemental skill.
+* You cannot place Zhongli's Steles near the boat.
+* There is a zone around the Waverider where the water can't be frozen.
+* If you use the Waverider TP to summon the Waverider when the "destination" is frozen, it deconstructs.
+
+### Misc
+* Waverider is not affected by corrosion. If a character is affected by corrosion and enters the boat, HP does not continue to decay, but the duration of the corrosion effect still ticks.
 
 ## Explosive Barrel properties
 
@@ -51,6 +89,7 @@ The overworld map is split into multiple zones that affect enemy level and envir
 * [Mondstadt](https://photos.google.com/share/AF1QipNH_MBr8Dfh3fzm6_x4lQqb0bdzrV7tWi6JHaJlnwCElh7v5X4zIiLYp6_DHR5MBA?key=bTlnQXFPdDhLQlhsbDBlSEpVN2R3dWRJdjEtdnFB)  
 * [Liyue](https://photos.google.com/share/AF1QipPLmV3Pt5S9suJQSMm4rK6eVhIerzuS6VEMQmdlZJpI8IUMPjNM4FEeHvaG4BiJeA?key=eG1FUE82Mk92TUtxbUt2STUzNVlnbDdUYTQwUFJR)  
 * [Inazuma](https://photos.google.com/share/AF1QipO_e3CL7arfSKBptsr_IU5oLM6Bm73AukEONaqJ6Hazq95z7dENxRKpBall0_tsKA/photo/AF1QipO25Gcl-MjRfeYd7HSBbc5LBv3bllpEZUwjP3v3?key=cG1Ca25iRmtac0RtT0wtYk1laFRDbUMtOW0tTEhR)  
+* [Enkanomiya](https://photos.app.goo.gl/PY1xLqPy8LKFJibC7)
 
 ## Artifacts
 
@@ -67,6 +106,9 @@ The overworld map is split into multiple zones that affect enemy level and envir
 
 - The area in which an electro crystal can zap a player is [rectangular, with the crystal positioned off-center](./overworld.md#electro-crystal-range).
 - Electro crystals near a beach/water seem to have a special electric field with many irregular properties.
+- An electric crystal can have its aura removed, but it will be reapplied.
+- When it's raining, you can apply Hydro aura using 2B Cryo (Kaeya) then end rain (by time skipping) and the crystal will not apply Electro to itself again. It has to be 2B, 1A won’t work.
+- So far the crystal can hold Cryo, Hydro, and Electro. 
 
 ### Water
 
@@ -81,6 +123,7 @@ The overworld map is split into multiple zones that affect enemy level and envir
 
 - Overworld rain applies hydro with an ICD of 0.5 seconds, and a strength of 10 durability per tick, up to a max of 30. The duration of hydro aura applied by rain is currently unknown.  
 - It is unknown if normal rain and thunderstorm rain have the same properties.  
+- Rain water Hydro is different from regular Hydro, and the game doesn’t recognize it as the same as Hydro from different sources (Such as player Hydro and Hydro from bodies of water). This is proved as the crystal doesn’t update and reapply Electro onto itself as it thinks no element was applied onto it, removing the Electro. Game does not recognize rain Hydro, as other sources of Hydro.
 
 ### Electrified  
 
@@ -139,6 +182,15 @@ The current world state & character position is saved between different world ma
 ## No Raining in Mondstadt
 * If it's raining and you approach Mondstadt, the rain will stop, even though the rain will continue outside Mondstadt.
 
+## Electro Fog
+Interactions with the Thunder Fog in The Thundering Wilds daily commission.  
+* Sucrose's N1, N2, and N3 don't work on their own.
+* Sucrose's N1 and N2 work when there is something next to it that she can target, so it's assumed that N3 is the same way, but no one has been able to actually do it yet.
+* Every other Anemo ability works on its own.
+* The attacks from Anemo Slimes don't work, some examples of things that Sucrose can't target (and can't disperse the fog with) are the Portable Waypoint, Serenitea Pot, and Windblume Festival Commemorative Balloon.
+
+## Stuff Can Infuse Cryo
+The Cryo element is able to be applied to many overworld objects, such as ores and animals. Additionally, it has been demonstrated that some overworld objects can hold cryo without said cryo being visible through elemental sight.
 
 ## Evidence Vault
 

@@ -6,8 +6,9 @@
 
 ## Newsletter
 
-* [Patch 2.3](newsletter/patch-2.3.md)
+* [Patch 2.3b](newsletter/patch-2.3b.md)
 * [Archive](newsletter/archive/README.md)
+  * [Patch 2.3](newsletter/patch-2.3.md)
   * [Patch 2.2a](newsletter/patch-2.2a.md)
   * [Patch 2.1b](newsletter/archive/patch-2.1b.md)
   * [Patch 2.1a](newsletter/archive/patch-2.1a.md)
@@ -38,6 +39,7 @@
   * [Kaeya](characters/cryo/kaeya.md)
   * [Qiqi](characters/cryo/qiqi.md)
   * [Rosaria](characters/cryo/rosaria.md)
+  * [Shenhe](characters/cryo/shenhe.md)
 * [Dendro](characters/dendro.md)
 * [Electro](characters/electro/README.md)
   * [Beidou](characters/electro/beidou.md)
@@ -55,6 +57,7 @@
   * [Ningguang](characters/geo/ningguang.md)
   * [Noelle](characters/geo/noelle.md)
   * [Traveler \(Geo\)](characters/geo/traveler-geo.md)
+  * [Yunjin](characters/geo/yunjin.md)
   * [Zhongli](characters/geo/zhongli.md)
 * [Hydro](characters/hydro/README.md)
   * [Barbara](characters/hydro/barbara.md)
@@ -84,6 +87,7 @@
 * [Artifacts](equipment/artifacts.md)
 * [Consumables](equipment/food.md)
 * [Gadgets](equipment/gadgets/README.md)
+  * [Omni-Ubiquity Net](equipment/gadgets/omni-ubiquity-net.md)
   * [Parametric Transformer](equipment/gadgets/parametric-transformer.md)
 
 ## Combat Mechanics
@@ -101,6 +105,7 @@
   * [Internal Cooldown of Elemental Application](combat-mechanics/elemental-effects/internal-cooldown-of-elemental-application.md)
   * [Elemental Resonance](combat-mechanics/elemental-effects/elemental-resonance.md)
   * [Weapon infusion](combat-mechanics/elemental-effects/weapon-infusion.md)
+  * [Simultaneous Reaction Priority](combat-mechanics/elemental-effects/simultaneous-reaction-priority.md)
 * [Cooldowns](combat-mechanics/cooldowns.md)
 * [Energy](combat-mechanics/energy.md)
 * [Frames](combat-mechanics/frames.md)
@@ -250,6 +255,8 @@
     * [Hatchling](enemy-data/mystical-beasts/geovishaps/geovishap-hatchling.md)
     * [Adult Geovishap](enemy-data/mystical-beasts/geovishaps/geovishap.md)
   * [Whopperflowers](enemy-data/mystical-beasts/whopperflowers.md)
+* [Miscellaneous](enemy-data/miscellaneous/README.md)
+  * [The Rock](enemy-data/miscellaneous/the-rock.md)
 
 ---
 
@@ -273,6 +280,7 @@
       * [Kaeya](evidence/characters/cryo/kaeya.md)
       * [Qiqi](evidence/characters/cryo/qiqi.md)
       * [Rosaria](evidence/characters/cryo/rosaria.md)
+      * [Shenhe](evidence/characters/cryo/shenhe.md)
     * [Dendro](evidence/characters/dendro.md)
     * [Electro](evidence/characters/electro/README.md)
       * [Beidou](evidence/characters/electro/beidou.md)
@@ -290,6 +298,7 @@
       * [Ningguang](evidence/characters/geo/ningguang.md)
       * [Noelle](evidence/characters/geo/noelle.md)
       * [Traveler \(Geo\)](evidence/characters/geo/traveler-geo.md)
+      * [Yunjin](evidence/characters/geo/yunjin.md)
       * [Zhongli](evidence/characters/geo/zhongli.md)
     * [Hydro](evidence/characters/hydro/README.md)
       * [Barbara](evidence/characters/hydro/barbara.md)
@@ -312,6 +321,7 @@
     * [Artifacts](evidence/equipment/artifacts.md)
     * [Food](evidence/equipment/food.md)
     * [Gadgets](evidence/equipment/gadgets/README.md)
+      * [Omni-Ubiquity Net](evidence/equipment/gadgets/omni-ubiquity-net.md)
       * [Parametric Transformer](evidence/equipment/gadgets/parametric-transformer.md)
     * [Weapons](evidence/equipment/weapons.md)
   * [Combat Mechanics](evidence/combat-mechanics/README.md)

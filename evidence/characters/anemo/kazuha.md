@@ -61,7 +61,7 @@ As per testing, fall damage has been proven to be caused to fatui cicin mages, t
 
 The cause of the fall damage seems to be an unnatural acceleration towards the floor after being sucked into the vortex caused by kazuha's skill. The enemies that can suffer fall damage will be pulled away from the vacuum forcefully in the direction of the floor, causing them to gain enough velocity to suffer fall damage. Lighter enemies are less likely to take any damage this way.
 
-It is not complicated to trigger this as it activates by just simply tapping/holding kazuha's e skill without having to do any other action e.g charged attacks/glide in the air. It is also not platform specific (not sure for PS) as I have managed to proc it on both PC and mobile. One thing to take note is that the chance of fall damage has something to do with packet loss, poor frame rates and lag issues as I am unable to proc it when connection is unstable.
+It is not complicated to trigger this as it activates by just simply tapping/holding kazuha's e skill without having to do any other action e.g charged attacks/glide in the air. It is also not platform specific (not sure for PS) as I have managed to proc it on both PC and mobile. One thing to take note is that the chance of fall damage has something to do with packet loss, poor frame rates and lag issues as I am unable to proc it when connection is unstable
 
 **Evidence:**  
 [Imgur](http://imgur.com/a/bNoe7Gq)  
@@ -70,6 +70,21 @@ It is not complicated to trigger this as it activates by just simply tapping/hol
 
 **Significance:**  
 This feature is most likely unintended, but not a bug due to the janky nature of fall damage. Unlike jean and sucrose who can consistently cause fall damage due to the stronger downward pull and yeet function on their kits, kazuha's skill only has a weak vortex that causes the accelerated pull in specific situations. Hence he is unable to proc fall damage as consistent and as well as the 2 other characters mentioned.
+
+### Kazuha Tap E Air Time Can Be Shortened 
+**By:** Quark#7392  
+**Added:** 1/21/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/933053726711754882/934052086797172777/transcript-kazuha-tap-e-air-time-can-be-shortened.html)
+
+**Finding:**  
+By double tapping your glider as soon as you've tapped your skill on Kazuha, you can shorten the air time thereby landing on the ground a little bit faster if you don't intend to plunge.
+
+**Evidence:**  
+[Youtube](https://www.youtube.com/watch?v=Biw0_7STVK0)  
+This video shows the tech first and a normal fall second. Note the elemental skill CD when kazuha's feet touches the ground, 4.8 without the tech and 5.1 with the tech, which means it may save around ~0.3 seconds.
+
+**Significance:**  
+This tech is useful if you only want to tap E with Kazuha without initiating a plunge attack. For example if you want to reapply VV shred to some frozen enemies but you don't want to shatter them.
 
 ## Burst Mechanics
 * Kazuha Slash snapshots. - [MysticalMerlin\#5020](https://imgur.com/a/MC9nEnq)
