@@ -361,3 +361,21 @@ When Traveler is compared (i.e. sorted) with other characters with 0 Friendship,
 **Conclusion:**  
 Traveler does not accumulate friendship points, but does sort higher than other characters with zero friendship.
 
+## Portable Waypoint Bug  
+**By:** Sherbs\#2029  
+**Added:** 01/27/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/934702460117856309/936406179373002782/transcript-portable-waypoint-interactions.html)  
+
+**Bug:**  
+When teleporting from a location with permanent weather or other effects on the map (such as lightning) to a Portable Waypoing in certain areas above or below the water (portions of the map that were added in 2.0 or zones that would get Paimon to yell at you if you went to far prior to 2.0), the game will transfer said effects to where the Portable Waypoint is located. These effects include permanent weather, lightning, wisps, and more. Prior to Patch 2.4b this would also replace the icon on the loading screen with the starting location instead of where the Portable Waypoint is placed. 
+
+**Evidence:**  
+Tutorial: [YouTube](https://youtu.be/cS2s1rRVb0A)  
+Photos:  
+* Teleporting from the Pyro Regisvine to The Crux: [Photo](https://imgur.com/w4WEcdR)  
+* Teleporting from Seirai Island facing The Crux: [Photo](https://imgur.com/VfXS4y2)  
+* Teleporting from Yashiori Island to the middle of the ocean: [Photo](https://imgur.com/RPm1jiL)  
+* Teleporting from Chinju Forest to The Crux: [Photo](https://imgur.com/k0WqHQW)  
+
+**Significance:**  
+For travelers who would like to have specific lighting on The Crux for photo contests.  
