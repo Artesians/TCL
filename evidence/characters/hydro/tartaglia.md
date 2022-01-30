@@ -47,8 +47,10 @@ Childe's stance switch from ranged to melee triggers shatter on frozen targets a
 **Significance:**  
 Potential interference in niche party combo situations.  
 
+### Childe Ranged to Melee NA Combo
+
 **By:** Poro\#4695  
-**Added:** 29/1/2022  
+**Added:** 1/29/2022  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/930377454068064266/936802993200848906/transcript-childe-ranged-to-melee-na-combo.html)  
 
 **Finding:**  
