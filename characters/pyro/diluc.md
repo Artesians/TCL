@@ -66,7 +66,7 @@ This skill can be consecutively used 3 times. Enters CD if not cast again within
 | Attribute | Skill (1-Hit) | Skill (2-Hit) | Skill (3-Hit) |
 | :--- | :--- | :--- | :--- |
 | Skill DMG \(T9%\) | 160.48% | 165.92% | 218.96% |
-| MV/s \(T9%\) | 213.97%/s | 191.45%/s | 162.19%/s | 226.6%/s |
+| MV/s \(T9%\) | 213.97%/s | 191.45%/s | 162.19%/s | 
 | Particles | 1~2 \(3:1\) | 1~2 \(3:1\) | 1~2 \(3:1\) | 
 | Frames | 45 | 52 | 81 |
 | GU | 1A | 1A | 1A |
