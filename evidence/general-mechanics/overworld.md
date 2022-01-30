@@ -189,7 +189,7 @@ In practice, the negative value of the "x-intercept" (DEF when EHP approaches 0,
 Important note: This level only applies to the two tested barrels shown in the videos in evidence 1.
 
 Barrel levels (probably) follow zone level rules.  
-* [Zone levels](../evidence/general-mechanics/overworld.md#zone-levels) 
+* [Zone levels](../../general-mechanics/overworld.md#zone-levels) 
 * [Mondstadt zone map](https://imgur.com/E0oN0B6)
 
 Two zones (dark blue, orange) were tested and the barrels within those zones all do the same amount of damage, given that the character's defense remains constant.   
