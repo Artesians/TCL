@@ -61,11 +61,11 @@ If no stacks of **Superlative Superstrength** are available, Itto will perform a
 **Plunge**  
  Plunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.
 
-| Damage Type | Talent 6% |
+| Damage Type | Talent 9% |
 | :--- | :--- |
-| Plunge Impact | 118.94% |
-| Low Plunge DMG | 237.84% |
-| High Plunge DMG | 297.07% |
+| Plunge Impact | 150.35% |
+| Low Plunge DMG | 300.63% |
+| High Plunge DMG | 375.5% |
 {% endtab %}
 
 {% tab title="Masatsu Zetsugi: Akaushi Burst!" %}
