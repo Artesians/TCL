@@ -169,9 +169,9 @@ When **Tengu Juurai** grant characters ATK Bonuses or hits opponents, the CD of 
 
 Unleashing **Tengu Stormcall** will leave a **Weaker Crowfeather** at Kujou Sara's original position that will deal 30% of its original DMG.
 
-| Type | Talent 6% |
+| Type | Talent 9% |
 | :--- | :--- |
-| DMG | 176.06% * 0.3 |
+| DMG | 213.79% * 0.3 |
 | GU | 1A |
 | Damage Type | Elemental Skill |
 
