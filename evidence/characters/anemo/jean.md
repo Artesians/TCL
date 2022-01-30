@@ -189,7 +189,7 @@ Finding is somewhat significant for team damage calculations. This gives Jean sl
 **Finding:**  
 "Sunfire" is the interaction between Jean Q and Bennett Q. In this scenario Jean selfswirls the pyro applied to her by Bennett Q to damage the enemy. The damage is affected by EM which makes it a viable strategy to build EM/EM/EM on Jean in a comp using "Sunfire". Please note that under specific circumstances "Sunfire" can also have anemo aura as explained in this [TCL entry](#anemo-aura)
 
-This entry will explain the interaction between Sunfire and the weapon Freedom Sworn for Jean. The self swirl interaction of "Sunfire" does not count as a reaction for Freedom Sworn passive stacks. This is the same problem that 4pc instructor set has, explored in this [TCL entry:](..evidence/equipment/artifacts.md#instructor-ignores-environmental-target-and-your-characters)
+This entry will explain the interaction between Sunfire and the weapon Freedom Sworn for Jean. The self swirl interaction of "Sunfire" does not count as a reaction for Freedom Sworn passive stacks. This is the same problem that 4pc instructor set has, explored in this [TCL entry](../../equipment/artifacts.md#instructor-ignores-environmental-target-and-your-characters)
 
 **Evidence:**   
 * [Sunfire on field no FS](https://www.youtube.com/watch?v=SiDWp14tLHs)
