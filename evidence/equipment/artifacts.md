@@ -538,15 +538,15 @@ The clip from 0:00 - 0:17 and 0:34 onwards shows that only one bubble can be on 
 ### 4OHC does not shatter frozen enemies  
 
 **By:** Puffin\#9920  
-**Added:**  29/1/2022  
+**Added:** 1/29/2022  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/936689990153408512/936792177617563698/transcript-ohc-will-not-shatter.html)  
 
 **Finding:**  
 4OHC's physical damage is not a blunt hit and will not shatter frozen enemies.  
 
 **Evidence:**  
-[youtube](https://youtu.be/_G8PiYPfGzQ)  
-[youtube](https://youtu.be/X_9Q7aCGWTE)  
+[YouTube](https://youtu.be/_G8PiYPfGzQ)  
+[YouTube](https://youtu.be/X_9Q7aCGWTE)  
 
 **Significance:**  
 4OHC is usable in freeze teams.
