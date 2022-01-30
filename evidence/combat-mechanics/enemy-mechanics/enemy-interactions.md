@@ -116,6 +116,22 @@ Characters’ marks \(Riptide, Talisman, Blood Blossom, etc.\) show that some en
 
 4. Geovishap Hatchlings are confirmed to be enemies from hell or purgatory or something. 
 
+### Marks And Statuses
+**By:** Asaki#9139  
+**Added:** 1/27/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/930683788307087360/936213305717035038/transcript-marks-and-statuses.html)
+
+**Finding:**  
+The visual indicator of the Conductive status does not behave similar to character-produced marks.
+
+**Evidence:**   
+[Imgur](https://imgur.com/a/QVQfrHQ)  
+Lisa’s Conductive mark did not travel down to purgatory along with the Geovishap Hatchling while character-produced marks do burrow with them, as seen in [Enemy Actually Burrow](enemy-interactions.md#enemy-actually-burrow)  
+
+**Significance:**  
+This may or may not imply that Marks & Statuses are different, in that the visual indicator of character-produced statuses (Implode, Conductive, etc.) does not behave similar to character-produced marks (Riptide, Blood Blossom, etc.)  
+Further testing should be done on the Implode status (Xiangling C2) but that requires strict timing to determine whether the trend is probable.
+
 ## General Boss Interactions
 
 ### Freeze Interaction on Boss Enemies
@@ -501,7 +517,41 @@ Dash iframes do not always work against the bubbles, especially for the abyss ma
 
 ### Rifthounds
 
-#### Corrosion Damage Mechanics
+#### Rifthound Knockdown Mechanics  
+
+**By:** Charisma\#5567  
+**Added:** 01/27/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/931703610918731796/936429690812522496/transcript-rifthound-knockdown-ways.html)
+
+**Theory:**
+In order for an attack to knock down the rifthounds, the attack needs to apply a sufficient amount of vertical knock up.   
+
+**Findings:**  
+Rifthounds (big ones, not the whelps) can be forced into a state where they are prone or "knocked down". Here are the current interactions that consistently do so.  
+
+**Evidence:**  
+* Jean CA  
+   [Youtube](https://www.youtube.com/watch?v=fp-zPYJBDBk)  
+
+* Jean Hold E (Credits to Kolibri\#7675)  
+   *Note: Need to aim skill upwards.*  
+   [Youtube](https://youtu.be/4UxuWv0AzGs)  
+
+* Klee CA (Credits to pai\#3602)  
+   [Youtube](https://youtu.be/Zu83De-4sV4)  
+
+* Bennett Skill (Level 2-Hold)  
+   *Note: Hold E Level 1 will not work. (Shown in Video)*  
+   [Youtube](https://youtu.be/u1EDD74pHs8)  
+
+* Diluc Burst (Credits to Kolibri#7675)  
+   *Note: Only the final hit will work.*  
+   [Youtube](https://youtu.be/cT1HZcx5TW0)  
+
+**Significance:**  
+Better understanding of enemy interactions.  
+
+#### Corrosion Damage Mechanics  
 
 **By:** Dooners\#6709  
 **Added:** 10/17/2021  

@@ -118,6 +118,7 @@ The overworld map is split into multiple zones that affect enemy level and envir
 - Applying electro to water does not produce electro-charged, instead it creates an instance of Electrified.  
   - Some fountains and pools of water cannot create an instance of Electrified.
 - Overworld water applies hydro with an ICD of 0.25 seconds, a strength of 10 durability per tick, up to a max of 50, and a duration of 8 seconds, regardless of durability.
+- Not all graphically represented water in waterfalls will apply the Wet status to the active character.
 
 ### Rain  
 
@@ -191,6 +192,10 @@ Interactions with the Thunder Fog in The Thundering Wilds daily commission.
 
 ## Stuff Can Infuse Cryo
 The Cryo element is able to be applied to many overworld objects, such as ores and animals. Additionally, it has been demonstrated that some overworld objects can hold cryo without said cryo being visible through elemental sight.
+
+## Electro Seelie Electro Application 
+
+* Electro seelie when on a mount, can apply electro at any vertical range, but not when it has yet to reach its final destination. [Vault Entry](../evidence/general-mechanics/overworld.md#electro-seelie-electro-application-vertical-range)
 
 ## Evidence Vault
 
