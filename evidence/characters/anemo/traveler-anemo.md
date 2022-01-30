@@ -24,7 +24,38 @@ The additional elemental damage dealt is 0.25x that of the anemo damage dealt.
 [Google Doc showing the additional elemental damage dealt](https://docs.google.com/spreadsheets/d/1uTBPUMtR4bQ_T7QeQc6_JRXQvcYxz1muZXiiSEF-Ze8/edit#gid=0)
 
 **Significance:**  
-There will always be those who dare to brave Anemo MC's blender of numbers.  
+There will always be those who dare to brave Anemo MC's blender of numbers. 
+
+### AMC Hold E Ticks
+**By:** pai#3602  
+**Added:** 1/27/2022   
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/932713629835481118/936064084728762378/transcript-amc-hold-e-ticks.html)
+
+**Finding:**  
+The Additional Elemental DMG on AMC Hold E ticks between 5 and 6 times, while the Skill itself can tick up to 7 times.
+
+**Evidence:**  
+[Youtube](https://youtu.be/QC0ZXCX2CeA) - There are 2 attempts in the video, the first one shows 5 ticks and the second one shows 6, but it's never 7.
+ 
+**Significance:**  
+The Additional Elemental DMG seems to randomly start with the second Initial Cutting DMG or with the first Max Cutting DMG.
+
+### AMC Snapshot 
+**By:** pai#3602  
+**Added:** 1/27/2022   
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/934098477913374820/936199910582272070/transcript-amc-snapshot-evidence.html)
+
+**Finding:**  
+AMC Hold E is dynamic and Q snapshots, for both the Anemo and the Additional Elemental DMG.
+
+**Evidence:**  
+* Hold E: [Youtube](https://youtu.be/XbZFc77QXQE)  
+Unbuffed Max Cutting DMG (0 stacks, no crit): 171 Anemo, 42 Electro  
+Buffed Max Cutting DMG (2 stacks, no crit): 199 Anemo, 49 Electro
+
+* Q: [Youtube](https://youtu.be/lnia3ynnn0Y)  
+Tornado DMG (no C6): 824 Anemo, 253 Electro  
+Tornado DMG (C6 RES shred): 962 Anemo, 295 Electro
 
 ## Burst Mechanics
 
@@ -62,6 +93,20 @@ See the video. In the two clips I didn't change anything other than leveling up 
 Note that level 71 is sufficient to pick up the enemies on Spiral Abyss floor 11-1, which are level 88, so the level difference requirement might be ~25 or so, since going from 71 to 75 is enough to pick up the level 98 enemies on Floor 12-1.
 
 **Significance:** Anemo MC needs to be of a sufficiently high level relative to the enemy in order to be at all useful in combat at high enough levels.
+
+### AMC Burst AOE
+**By:** pai#3602  
+**Added:** 1/27/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/932713520880037960/936073712623583232/transcript-amc-burst-aoe.html)
+
+**Finding:**  
+The Additional Elemental DMG has less AoE than the Tornado DMG. 
+
+**Evidence:**  
+[Youtube](https://youtu.be/JZfWZiAeMsc) - In the video there were all 9 instances of Tornado DMG but only 1 instance of Additional Elemental DMG because the Ruin Guard wasn't right next to the pillar and the Tornado was stuck on the pillar.
+
+**Significance:**  
+The Additional Elemental DMG basically only happens when the Tornado goes right through an enemy.
 
 ## Ascension Passive Mechanics
 

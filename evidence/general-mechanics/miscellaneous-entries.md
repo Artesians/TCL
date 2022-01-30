@@ -347,7 +347,7 @@ To do this, you have to take a picture at the moment where you get hit/leap off 
 Knockback cancel/Fluff/investigating the influence pausing the game has on certain actions.
 
 ## Traveler Has Hidden Friendship Meter
-**By:** mmjacobs#9588  
+**By:** mmjacobs\#9588  
 **Added:** 1/23/2022  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/931045505801256971/934607873152012388/transcript-traveler-has-hidden-friendship-meter.html)
 
@@ -361,3 +361,36 @@ When Traveler is compared (i.e. sorted) with other characters with 0 Friendship,
 **Conclusion:**  
 Traveler does not accumulate friendship points, but does sort higher than other characters with zero friendship.
 
+## A Study In Potions - Retry Button Mechanics 
+**By:** Vye#9195  
+**Added:** 1/28/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/929809364825550901/936413828575559700/transcript-a-study-in-potions--retry-button-mechanics.html)
+
+**Finding:**  
+The retry button in the event is a full team reset. All cooldowns including weapon passive cooldowns, elemental skills, burst skills and character constellations are fully reset as well as HP and energy.
+
+**Evidence:**  
+[Google Doc](https://docs.google.com/spreadsheets/d/1eYvgX2WSqEFXtQEuuwlI9nYveeaWUSe-grQ2Lx59zVY/edit?usp=sharing)  
+provided by ItzSomebody#0029, yolitme0#0579 (ty for compiling sheet) and ShampooBrain#9583 
+
+**Significance:**   
+Mihoyo apparently can implement a full reset button for a small event but cannot do so in the abyss which does not fully reset you. They are either incompetent, tone-deaf, lazy or simply don't give a damn. But next time there is a survey maybe let them know about this utter and complete nonsense.
+
+## Portable Waypoint Bug  
+**By:** Sherbs\#2029  
+**Added:** 01/27/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/934702460117856309/936406179373002782/transcript-portable-waypoint-interactions.html)  
+
+**Bug:**  
+When teleporting from a location with permanent weather or other effects on the map (such as lightning) to a Portable Waypoing in certain areas above or below the water (portions of the map that were added in 2.0 or zones that would get Paimon to yell at you if you went to far prior to 2.0), the game will transfer said effects to where the Portable Waypoint is located. These effects include permanent weather, lightning, wisps, and more. Prior to Patch 2.4b this would also replace the icon on the loading screen with the starting location instead of where the Portable Waypoint is placed. 
+
+**Evidence:**  
+Tutorial: [YouTube](https://youtu.be/cS2s1rRVb0A)  
+Photos:  
+* Teleporting from the Pyro Regisvine to The Crux: [Photo](https://imgur.com/w4WEcdR)  
+* Teleporting from Seirai Island facing The Crux: [Photo](https://imgur.com/VfXS4y2)  
+* Teleporting from Yashiori Island to the middle of the ocean: [Photo](https://imgur.com/RPm1jiL)  
+* Teleporting from Chinju Forest to The Crux: [Photo](https://imgur.com/k0WqHQW)  
+
+**Significance:**  
+For travelers who would like to have specific lighting on The Crux for photo contests.
