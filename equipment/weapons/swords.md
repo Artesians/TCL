@@ -44,7 +44,7 @@
 | Base ATK | 46 - 608 |
 | Elemental Mastery | 43 - 198 |
 
-* The self swirl interaction of "[Sunfire](..evidence/characters/anemo/jean.md#anemo-aura)" does not count as a reaction for Freedom Sworn passive stacks.
+* The self swirl interaction of "[Sunfire](../../evidence/characters/anemo/jean.md#anemo-aura)" does not count as a reaction for Freedom Sworn passive stacks.
 {% endtab %}
 
 {% tab title="Details" %}
