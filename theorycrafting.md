@@ -283,7 +283,7 @@ For a more in-depth look at reactions, there is a whole [section](./combat-mecha
 
 **Swirled Aura** = An aura that's applied through the use of swirl spreading the aura of one enemy to a different enemy.
 
-**Transformative** = A category for reactions, which: Overload, Electrocharged, Superconduct, Freeze, Shatter, Swirl, and Crystallize fall into.
+**Transformative** = A category for reactions, which Overload, Electrocharged, Superconduct, Freeze, Shatter, Swirl, and Crystallize fall into.
 
 * Transformative reactions deal damage based on the trigger character level and their EM, for more details go to General Reaction Mechanics
 
