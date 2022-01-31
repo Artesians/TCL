@@ -84,7 +84,7 @@ Better understanding of how melee combos work.
 ### Elemental Skill and Attack or Burst on the Same Frame 
 
 **By:** BowTae\#0141  
-**Added:**  
+**Added:** 01/31/2022
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/934193183104049242/937185816462110740/transcript-childe-stance-change-shenanigans.html)  
 
 **Finding:**  
