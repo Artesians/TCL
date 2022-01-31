@@ -158,7 +158,7 @@ Wolf’s Gravestone, a 5-Star Claymore; or Waster Greatsword for the memes, a 1-
 Viridescent Hunt, a 4-Star Bow obtained from the Battle Pass, may also be abbreviated as VHunt.
 
 **TTDS:**
-Thrilling Tales of Dragon Slayers. A 3-Star Catalyst that grants a large ATK% buff to another member of the party upon swapping. 
+Thrilling Tales of Dragon Slayers. A 3-Star Catalyst that grants a large Atk% buff to another member of the party upon swapping. 
 
 **HoD:**
 Heart of Depth, an artifact set for Hydro characters or Harbinger of Dawn, one of the better 3-Star swords.
