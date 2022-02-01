@@ -32,29 +32,29 @@ description: The righteous and rigorous Dandelion Knight, and Acting Grand Maste
 **Normal Attacks**  
 Jean performs up to 5 consecutive attacks.
 
-| String | Talent 6% | Frames | MV/s |
+| String | Talent 9% | Frames | MV/s |
 | :--- | :--- | :--- | :--- |
-| 1-Hit | 70.25% | 14 | 301%/s |
-| 2-Hit | 66.25% | 37 | 221.35%/s |
-| 3-Hit | 87.63% | 66 | 203.7%/s |
-| 4-Hit | 95.75% | 124 | 154.7%/s |
-| 5-Hit | 115.13% | 159 | 164.1%/s |
+| 1-Hit | 88.80% | 14 | 380.57%/s |
+| 2-Hit | 83.74% | 37 | 279.79%/s |
+| 3-Hit | 110.76% | 66 | 257.55%/s |
+| 4-Hit | 121.03% | 124 | 195.64%/s |
+| 5-Hit | 145.52% | 159 | 207.49%/s |
 
 **Charged Attack**  
 Consumes 20 stamina to strike upwards and knocks up enemies that will then fall down slowly.
 
-| String | Talent 6% | Frames | MV/s |
+| String | Talent 9% | Frames | MV/s |
 | :--- | :--- | :--- | :--- |
-| CA | 235.50% | 73 | 196.2%/s |
+| CA | 297.67% | 73 | 244.66%/s |
 * The Charged Attack visual and audio effect will appear on more than just enemies, as well as even appearing on enemies that don't get lifted at all.
 
 **Plunge**
 
-| Damage Type | Talent 6% |
+| Damage Type | Talent 9% |
 | :--- | :--- |
-| Plunge Impact | 92.93% |
-| Low Plunge DMG | 185.81% |
-| High Plunge DMG | 232.09% |
+| Plunge Impact | 117.46% |
+| Low Plunge DMG | 234.86% |
+| High Plunge DMG | 293.36% |
 {% endtab %}
 
 {% tab title="Gale Blade" %}
@@ -68,7 +68,7 @@ Character is immobile during skill duration.
 
 | Attribute | Skill |
 | :--- | :--- |
-| Skill DMG \(T6%\) | 408.80% | 
+| Skill DMG \(T9%\) | 496.40% | 
 | Particles | 2~3 \(1:2\) | 
 | Frames | 46 |
 | GU | 2U |
@@ -100,10 +100,10 @@ At the same time, she instantly regenerates a large amount of HP for all party m
 
 | Attribute | Burst |
 | :--- | :--- |
-| Burst DMG \(T6%\) | 594.72% | 
-| Field Enter/Exit DMG \(T6%\) | 109.76% | 
-| Burst Healing \(T6%\) | 351.68% ATK + 2439 |
-| Continuous Healing \(T6%\) | 35.17% ATK + 244 |
+| Burst DMG \(T9%\) | 722.16% | 
+| Field Enter/Exit DMG \(T9%\) | 133.28% | 
+| Burst Healing \(T9%\) | 427.04% ATK + 3132 |
+| Continuous Healing \(T9%\) | 42.7% ATK + 313 |
 | Frames | 88 |
 | GU | 2U |
 | ICD | None | 
@@ -120,8 +120,8 @@ At the same time, she instantly regenerates a large amount of HP for all party m
 * **Dandelion Breeze** deals Field Enter/Exit DMG to enemies within its AOE on initial cast and when the duration of the **Dandelion Field** ends.
 * Heals and applies Anemo continuously to the active character inside the field cleansing debuffs.
   * The continuous swirling of auras allows elements to spread to surrounding opponents when self-afflicted with an element.
- * With precise timing, Anemo can be the aura for self-swirls occasionally. 
-
+  * With precise timing, Anemo can be the aura for self-swirls occasionally.  
+  * This self-swirl interaction does not count as a reaction for Freedom Sworn passive stacks and 4pc Instructor set effect.
 {% endtab %}
 {% endtabs %}
 
