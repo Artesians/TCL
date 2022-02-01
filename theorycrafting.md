@@ -141,7 +141,7 @@ Short for Critical Rate.
 CV = (2 × CR) + CD, it refers to the total amount of crit an artifact/character has. It's an indirect method of measuring a character's investment.
 
 **ADC:** 
-Refers to main stat builds using Atk% on the Sands, Dmg Bonus% on the Goblet, Crit% on the Circlet.
+Refers to main stat builds using ATK% on the Sands, Dmg Bonus% on the Goblet, Crit% on the Circlet.
 
 **EDC:** 
 Refers to main stat builds using EM on the Sands, Dmg Bonus% on the Goblet, Crit% on the Circlet.
@@ -158,7 +158,7 @@ Wolf’s Gravestone, a 5-Star Claymore; or Waster Greatsword for the memes, a 1-
 Viridescent Hunt, a 4-Star Bow obtained from the Battle Pass, may also be abbreviated as VHunt.
 
 **TTDS:**
-Thrilling Tales of Dragon Slayers. A 3-Star Catalyst that grants a large Atk% buff to another member of the party upon swapping. 
+Thrilling Tales of Dragon Slayers. A 3-Star Catalyst that grants a large ATK% buff to another member of the party upon swapping. 
 
 **HoD:**
 Heart of Depth, an artifact set for Hydro characters or Harbinger of Dawn, one of the better 3-Star swords.
