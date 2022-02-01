@@ -31,12 +31,12 @@ description: The Divine Priestess of Watatsumi Island. All of the island's affai
 **Normal Attacks**  
 Performs up to 3 consecutive attacks that take the form of swimming fish, dealing Hydro DMG.
 
-| String | Talent 6% | Frames | MV/s | GU |
+| String | Talent 9% | Frames | MV/s | GU |
 | :--- | :--- | :--- | :--- | :--- |
-| 1-Hit | 95.73% | 10 | 574.38%/s | 1A |
-| 2-Hit | 86.15% | 36 | 303.13%/s | 1A |
-| 3-Hit | 132.03% | 82 | 229.69%/s | 1A |
-| With Recovery | ~ | 122 | 154.38%/s | ~ |
+| 1-Hit | 116.24% | 10 | 697.44%/s | 1A |
+| 2-Hit | 104.62% | 36 | 368.1%/s | 1A |
+| 3-Hit | 160.32% | 82 | 278.65%/s | 1A |
+| With Recovery | ~ | 122 | 141.8%/s | ~ |
 
 * Kokomi's Normal Attacks...
   * Apply hydro and share a 3 hit / 2.5s ICD.
@@ -47,20 +47,20 @@ Performs up to 3 consecutive attacks that take the form of swimming fish, dealin
 **Charged Attack**  
 Consumes 50 Stamina to deal AoE Hydro DMG after a short casting time.
 
-| String | Talent 6% | Frames | MV/s | GU |
+| String | Talent 9% | Frames | MV/s | GU |
 | :--- | :--- | :--- | :--- | :--- |
-| Charged Attack DMG | 207.65% | 45 | 276.87% | 1A |
+| Charged Attack DMG | 252.14% | 45 | 336.19% | 1A |
 
 * Kokomi's Charged Attack applies hydro and has no ICD.
 
 **Plunge Attack**  
 Gathering the might of Hydro, Kokomi plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Hydro DMG upon impact with the ground.
 
-| Type | Talent 6% | GU |
+| Type | Talent 9% | GU |
 | :--- | :--- | :--- |
-| Plunge DMG | 82.6% | ~ |
-| Low Plunge DMG | 165.17% | 1A |
-| High Plunge DMG | 206.3% | 1A |
+| Plunge DMG | 104.41% | ~ |
+| Low Plunge DMG | 208.77% | 1A |
+| High Plunge DMG | 260.76% | 1A |
 
 * Kokomi's Low/High Plunge Attacks apply hydro and have no ICD.
 
@@ -73,7 +73,7 @@ Deals Hydro DMG to surrounding opponents and heal nearby active characters once 
 
 | Attribute | Skill |
 | :--- | :--- |
-| Ripple DMG \(T6%\) | 152.87% |
+| Ripple DMG \(T9%\) | 185.62% |
 | Particles | 0~1 (1:2) |
 | Frames | 66 (51 with Dash Cancel) |
 | GU | 1A |
@@ -81,7 +81,7 @@ Deals Hydro DMG to surrounding opponents and heal nearby active characters once 
 | Snapshot | Snapshot |
 | Damage Element | Hydro |
 | Damage Type | Skill |
-| HP Regen \(T6%\) | 6.16% Max HP + 671 |
+| HP Regen \(T9%\) | 7.48% Max HP + 862 |
 | Duration | 12s |
 | Tick Rate | 2s |
 | Cooldown | 20s |
@@ -94,7 +94,7 @@ Deals Hydro DMG to surrounding opponents and heal nearby active characters once 
 * **Bake-Kurage** snapshots on **Kurage's Oath** cast and gets resnapshot upon **Nereid's Ascension** procing the duration refresh effect from her Ascension 1.
 * In most cases, the damage bonus from **Ceremonial Garment** is a dynamic stat and thus does not get snapshot by **Bake-Kurage**. However, if Kokomi immediately switches after casting **Kurage's Oath**, the damage bonus from **Ceremonial Garment** is snapshot by **Bake-Kurage**.
 * Casting **Kurage's Oath**, even when interrupted, will still trigger Artifact set effects that trigger on Elemental Skill cast.
-
+* Tech: It is possible to snapshot the damage bonus from **Nereid's Ascension** for **Bake-Kurage** by casting E, being in Q, and swapping off before the first tick of the E. Using a simple application of this, it is possible to maintain 100% uptime on the Q bonus for E just by timing your rotations.
 {% endtab %}
 {% tab title="Nereid&apos;s Ascension" %}
 The might of Watatsumi descends, dealing Hydro DMG to surrounding opponents, before robing Kokomi in a **Ceremonial Garment** made from the flowing waters of Sangonomiya. 
@@ -108,7 +108,7 @@ These effects will be cleared once Sangonomiya Kokomi leaves the field.
 
 | Attribute | Burst |
 | :--- | :--- |
-| Skill DMG \(T6%\) | 14.58% Max HP |
+| Skill DMG \(T9%\) | 17.71% Max HP |
 | Frames | 75 |
 | GU | 2B |
 | ICD | None |
@@ -118,12 +118,12 @@ These effects will be cleared once Sangonomiya Kokomi leaves the field.
 | Energy Cost | 70 |
 | Cooldown | 18s |
 
-| Attribute | Buff (Talent 6%) |
+| Attribute | Buff (Talent 9%) |
 | :--- | :--- |
-| Normal Attack DMG Bonus | 6.78% Max HP |
-| Charged Attack DMG Bonus | 9.49% Max HP |
-| HP Regen Per Hit | 1.13% Max HP + 122 |
-| Bake-Kurage DMG Bonus | 9.93% Max HP |
+| Normal Attack DMG Bonus | 8.23% Max HP |
+| Charged Attack DMG Bonus | 11.52% Max HP |
+| HP Regen Per Hit | 1.37% Max HP + 157 |
+| Bake-Kurage DMG Bonus | 12.06% Max HP |
 | Duration | 10s |
 
 **Notes**
