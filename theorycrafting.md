@@ -4,10 +4,6 @@ description: 'A broad term used to describe discovering game mechanics and optim
 
 # Theorycrafting
 
-{% hint style="info" %}
-sugma
-{% endhint %}
-
 ## Defining Theorycrafting
 
 To begin, theorycrafting in Genshin Impact started in full swing around Keqing to see what weapon and artifacts were the best for her, hence the name: KQM. Shortly after however, theorycrafters realized that the information and data collected for Keqing could easily be applied to other characters, and there was a challenge that every player was met with, the Abyss. From then on, KQM theorycrafting had been focused on efficiency, meta, and how to clear the Abyss with the least amount of resources.
@@ -141,7 +137,7 @@ Short for Critical Rate.
 CV = (2 × CR) + CD, it refers to the total amount of crit an artifact/character has. It's an indirect method of measuring a character's investment.
 
 **ADC:** 
-Refers to main stat builds using Atk% on the Sands, Dmg Bonus% on the Goblet, Crit% on the Circlet.
+Refers to main stat builds using ATK% on the Sands, Dmg Bonus% on the Goblet, Crit% on the Circlet.
 
 **EDC:** 
 Refers to main stat builds using EM on the Sands, Dmg Bonus% on the Goblet, Crit% on the Circlet.
@@ -283,7 +279,7 @@ For a more in-depth look at reactions, there is a whole [section](./combat-mecha
 
 **Swirled Aura** = An aura that's applied through the use of swirl spreading the aura of one enemy to a different enemy.
 
-**Transformative** = A category for reactions, which: Overload, Electrocharged, Superconduct, Freeze, Shatter, Swirl, and Crystallize fall into.
+**Transformative** = A category for reactions, which Overload, Electrocharged, Superconduct, Freeze, Shatter, Swirl, and Crystallize fall into.
 
 * Transformative reactions deal damage based on the trigger character level and their EM, for more details go to General Reaction Mechanics
 
