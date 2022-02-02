@@ -7,7 +7,7 @@ Bathysmal Vishaps, also known as the Dragonheirs of the Depths, are a race of Vi
 | 75% HP | 1 particle | Own Element |
 | 50% HP | 1 particle | Own Element |
 | 25% HP | 1 particle | Own Element |
-| Death | 1 orb | Own Element |
+| Death | 1 particle | Own Element |
 
 ## Resistance Table
 All Bathysmal Vishaps have +20% RES to their own Element
