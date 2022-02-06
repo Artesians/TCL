@@ -880,9 +880,9 @@ Shatter + Melt Evidence: [Video](https://youtu.be/yxTISikxnf4)
 **Significance:**  
 Bug discovering
 
-### Multi Shatter
+### Freeze Extensions
 
-**By:** srl\#2712, ElliMiku\#5071, Kourinn\#6001, phaZZi\#6461, Nass008\#8577, Isu\#6867
+**By:** srl\#2712, ElliMiku\#5071, Kourinn\#6001, phaZZi\#6461, Nass008\#8577, Isu\#6867  
 **Added:** 02/06/2022  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/881008110699937792/939917731388600362/transcript-freeze-extensions.html)
 
@@ -921,7 +921,7 @@ durability_frozen0 =
 t_decay like before
 ```
 
-And then solving for t (generic solution to quadratic equation). This was done in a previous ticket. https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/866091819946344458/901006429228498964/transcript-freeze-extension.html
+And then solving for t (generic solution to quadratic equation). This was done in a previous ticket. [TicketTool](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/866091819946344458/901006429228498964/transcript-freeze-extension.html)
 
 For the frozen durability in GU the formula is:
 ```
@@ -930,29 +930,34 @@ t_frozen = sqrt(GU_frozen + 31.25 (t_decay + b)²)
 ```
 
 
-The parameters I found are a = -1.87 ± 0.01 and b = 4.09 ± 0.02, while the datamined values are a = - 2 and b = 4. Data analysis form various people are consistent with b = 4 and a being between 1.8 and 2.0
+The parameters ElliMiku found are a = -1.87 ± 0.01 and b = 4.09 ± 0.02, while the datamined values are a = - 2 and b = 4. Data analysis form various people are consistent with b = 4 and a being between 1.8 and 2.0
 
 **Evidence:**  
-Data by Isu and Nass
-Sheet: https://docs.google.com/spreadsheets/d/142GS3k_E7RCoRAgiJNTIsLSKKv8YiqCOmZcT1KHnk9c/edit#gid=2011891545
-Videos: 
-https://youtu.be/2eUCYTDNJe8 https://youtu.be/9Fy0--GI3VE https://youtu.be/aKpKxfkp5EU https://youtu.be/oN5x8DBQAGI
-https://youtu.be/ycD_kN8EoH8  https://youtu.be/N1Nwez1G340 https://youtu.be/SaaDdZmI4uo https://youtu.be/dmgjOyhWcWM
+Data by Isu and Nass  
+Sheet: [Google Docs](https://docs.google.com/spreadsheets/d/142GS3k_E7RCoRAgiJNTIsLSKKv8YiqCOmZcT1KHnk9c/edit#gid=2011891545)  
+Videos:  
+[Youtube](https://youtu.be/2eUCYTDNJe8)  
+[Youtube](https://youtu.be/9Fy0--GI3VE)  
+[Youtube](https://youtu.be/aKpKxfkp5EU)  
+[Youtube](https://youtu.be/oN5x8DBQAGI)  
+[Youtube](https://youtu.be/ycD_kN8EoH8)   
+[Youtube](https://youtu.be/N1Nwez1G340)  
+[Youtube](https://youtu.be/SaaDdZmI4uo)  
+[Youtube](https://youtu.be/dmgjOyhWcWM)
 
-Data by Kourinn
-Sheet: https://docs.google.com/spreadsheets/d/19KmLgVt9DCFBraQawRKc1NBkoHGqtOQPkvrIiME-Bak/edit#gid=0
+Data by Kourinn  
+Sheet: [Google Docs](https://docs.google.com/spreadsheets/d/19KmLgVt9DCFBraQawRKc1NBkoHGqtOQPkvrIiME-Bak/edit#gid=0)  
 (vids are linked there)
 
-Data by phaZ
-Swirl sheet: https://docs.google.com/spreadsheets/d/16PQxyXNw75Negso5VJORnZx9CR1ztYs43V7Fh3Ga9Fg/edit#gid=796464138
-Aloy sheet: https://docs.google.com/spreadsheets/d/1-DNFany_-f2d5KW2qdjqoZ8HSDhmTOtnq8DpKwJEHcY/edit#gid=1824659614
+Data by phaZ  
+Swirl sheet: [Google Docs](https://docs.google.com/spreadsheets/d/16PQxyXNw75Negso5VJORnZx9CR1ztYs43V7Fh3Ga9Fg/edit#gid=796464138)  
+Aloy sheet: [Google Docs](https://docs.google.com/spreadsheets/d/1-DNFany_-f2d5KW2qdjqoZ8HSDhmTOtnq8DpKwJEHcY/edit#gid=1824659614)  
 (all vids are linked in the respective sheets)
 
-My data analysis [here be dragons]: 
-Data series (in addition to others): https://docs.google.com/spreadsheets/d/1oNXbx_LDZgHsO29yCQWMBkji2LF7-rdk2Yjz2TrF0SY/edit#gid=0
-Github: https://github.com/ellimiku/freeze_extension_analysis
-Write-up:
-https://docs.google.com/document/d/1JJTGJzIUdIKUCEK-SxWECSyWcBmMK3tzLnjmkVimzys/edit#
+ElliMiku's analysis [here be dragons]:   
+Data series (in addition to others): [Google Docs](https://docs.google.com/spreadsheets/d/1oNXbx_LDZgHsO29yCQWMBkji2LF7-rdk2Yjz2TrF0SY/edit#gid=0)  
+Github: [Github](https://github.com/ellimiku/freeze_extension_analysis)  
+Write-up: [Google Docs](https://docs.google.com/document/d/1JJTGJzIUdIKUCEK-SxWECSyWcBmMK3tzLnjmkVimzys/edit#)
 
 **Significance:**  
 Better understanding of freeze duration. More accurate dps calcs in permafreeze teams. Gcsim.

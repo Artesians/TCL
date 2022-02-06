@@ -119,8 +119,8 @@ Thus, extending the above freeze formula, the generalized freeze duration formul
 
 $$
 \begin{align*}
-&\mbox{Decay Time Modifier}=\sum{\max{0, \mbox{Time Spent Frozen} - \mbox{Time Spent Unfrozen}}}\\\\
-&\mbox{For consecutive pairs of Time Spent Frozen followed by Time Spent Unfrozen}\\\\
+&\mbox{Decay Time Modifier}=\sum{\max({0, \mbox{Time Spent Frozen} - 2*\mbox{Time Spent Unfrozen}})}\\\\
+&\mbox{For consecutive periods of Time Spent Frozen followed by Time Spent Unfrozen}\\\\
 &\mbox{Freeze Duration}=\sqrt{20*\mbox{Frozen aura gauge}+(\mbox{Decay Time Modifier} + 4)^2}-\mbox{Decay Time Modifier}-4\\\\
 \end{align*}
 $$
