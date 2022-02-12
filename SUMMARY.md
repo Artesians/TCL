@@ -251,6 +251,8 @@
     * [Scout](enemy-data/humans/treasure-hoarders/treasure-hoarder-scout.md)
     * [Smasher](enemy-data/humans/treasure-hoarders/treasure-hoarder-smasher.md)
 * [Mystical Beasts](enemy-data/mystical-beasts/README.md)
+  * [Bathysmal Vishap Hatchlings](enemy-data/mystical-beasts/bathysmal-vishaps/bathysmal-vishap-hatchlings.md)
+  * [Bathysmal Vishaps](enemy-data/mystical-beasts/bathysmal-vishaps/bathysmal-vishaps.md)
   * [Cicins](enemy-data/mystical-beasts/cicins.md)
   * [Geovishaps](enemy-data/mystical-beasts/geovishaps/README.md)
     * [Hatchling](enemy-data/mystical-beasts/geovishaps/geovishap-hatchling.md)
