@@ -19,6 +19,15 @@ description: For entries that have little practical use.
     * Teen male - 35%
     * Teen female - 35%
 * The Traveler has more than 0 friendship points but less than 10 and does not accumulate.
+* All Statues of the Seven can heal you while you are in a menu (map, adventure book, etc.).
+* Some Statues of the Seven's teleport places you close enough to heal from them, these include:
+  * Mondstadt - Stormterror Lair Statue
+  * Dragonspine Statue
+  * Liyue - Statue near Qingyun Peak
+  * Liyue - Statue in Dihua Marsh
+  * Liyue - Statue in Mingyun Village
+  * Inazuma - Sanganomiya Island Statue
+  * Inazuma - Tsurumi Island Statue
 
 ## Cancelling
 
