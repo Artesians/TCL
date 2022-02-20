@@ -22,7 +22,7 @@ Unknown
 
 ## Stat Block
 
-Unknown.
+Unknown. Appears at lvl 88
 
 ## Attacks
 
