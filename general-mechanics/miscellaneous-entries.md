@@ -19,6 +19,7 @@ description: For entries that have little practical use.
     * Teen male - 35%
     * Teen female - 35%
 * The Traveler has more than 0 friendship points but less than 10 and does not accumulate.
+* Some doors in the overworld, notable ones being Jean's office door and the door to the Library in Favonius HQ act as a mini load border, which can make some very [interesting things happen.](../evidence/general-mechanics/miscellaneous-entries.md#door-load-border-shenanigans)
 
 ## Cancelling
 
