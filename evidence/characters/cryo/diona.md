@@ -210,21 +210,15 @@ Sacrifical Bow procs on Diona's hold E do not match the theoretical chances, the
   * 92/100 r3 hold E on pyro regisvine
   * 78/100 r1 hold E (from friend) in abyss (theoretical 92.224%)
   * 280/300 r3 hold E in abyss [Youtube](https://youtu.be/gNgc723WkO8)
-
   * 49/50 r1 fav bow in abyss, 89.4% crit rate (theoretical 97.859% from ItzSomebody/#0029's math) [Youtube](https://youtu.be/2vikaPLhSPo)
-
 * XQ
   * 87/100 r3 in abyss (theoretical 84%)
-
 * Sucrose
   * 42/50 r2 5 enemies hit in abyss from pai (theoretical 96.875%) [Youtube](https://youtu.be/dbYao5ego1Q)
-
 * Ayaka
   * 97/100 r3 5 enemies hit in abyss (theoretical 98.976%)
-
 * EMC
   * 47/50 r3 in abyss (theoretical 93.6%) [Youtube](https://youtu.be/f0T14Pxa7uA)
-
 * Sara
   * 49/50 r3 4-5 enemies hit in abyss (theoretical between 97.44% and 98/976%) [Youtube](https://youtu.be/tHPgAaspY1U)
 
