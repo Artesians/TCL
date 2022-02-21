@@ -151,8 +151,8 @@ Consider the following Electro-charged concepts:
 
 * If a strong electro or hydro aura is applied, each tick of electro-charged removes ~3s of duration.
 * If a weak electro or hydro aura is applied, each tick of electro-charged removes ~5s of duration
-* [Example](https://streamable.com/wvov07) of Strong Electro trigger into Strong Hydro aura
-* [Example](https://streamable.com/dplx8h) of Weak Electro trigger into Strong Hydro aura
+* [Example](https://youtu.be/JWeK6qtL26U) of Strong Electro trigger into Strong Hydro aura
+* [Example](https://youtu.be/v1xuYfczulQ) of Weak Electro trigger into Strong Hydro aura
 * [Example](https://youtu.be/IOtFJQAbDf4) of Strong Hydro trigger into Strong Electro aura
 * [Example](https://youtu.be/SbYlcbLflSI) of Strong Hydro trigger into Weak Electro aura
 
