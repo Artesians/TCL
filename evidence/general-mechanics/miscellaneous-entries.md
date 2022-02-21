@@ -38,6 +38,44 @@ healing works through pause menus + automatic healing - [Youtube](https://youtu.
 **Significance:**  
 Combining the above findings, a player can save some clicks and time when healing using a statue of the seven.
 
+## Item Suck Limits
+
+**By:** clrE\#6290  
+**Added:** 02/08/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/938044007425146890/940718525121716254/transcript-suck-limit.html)
+
+**Finding:** Every ability / taunt that can pull mob has a limit. These limits differ from each other, ranging from 13-15.  
+Some can also be affected by In-game fps.
+
+**Evidence:**
+* Jean E - 14
+* kazuha Hold/Tap E 14
+    * [Youtube](https://youtu.be/poifmkFWvN0)
+* Jean E 13(30fps)
+  * [Youtube](https://www.youtube.com/watch?v=IqnzPtPOFM0)
+* Kazuha Midare Ranzan 13 (60fps)
+  * [Youtube](https://www.youtube.com/watch?v=jBcpIRqI4r8)
+* Kazuha Midare Ranzan 13  (30fps) 
+  * [Youtube](https://www.youtube.com/watch?v=WvsdmEmsPv4)
+* Sucrose E/Q 13
+* Venti Q 14
+  * [Youtube](https://youtu.be/JC3UCbq284A)
+* Surose E/Q 13(30fps)
+  * [Youtube](https://www.youtube.com/watch?v=YiBTs-Xi4g4)
+  * [Youtube](https://www.youtube.com/watch?v=OLUmEzO9eOg)
+* Venti Q 14 (30fps)
+  * [Youtube](https://youtu.be/TPXP2Ia4JWY)
+* Qiqi idle 13
+  * [Youtube](https://youtu.be/odJe6bl0kQw)
+* AMC E 13
+* AMC Q picked up 15 and dropped 2 along the way
+  * [Youtube](https://youtu.be/6-FecUBYeGE)
+* AMC E 13 Q 14 (30fps)
+Evidence:
+  * [Youtube](https://youtu.be/TPXP2Ia4JWY)
+
+**Significance:** Documentation of the existence and specifics of certain characters suck/pull limit.
+
 ## Ded Bird
 
 **By:** Aluminum\#5462, Mcpie\#8672, mol\#3280, JenjenJL\#6582, Kgbeast\#6738, wiremash\#0433  
@@ -369,7 +407,7 @@ When Traveler is compared (i.e. sorted) with other characters with 0 Friendship,
 **Conclusion:**  
 Traveler does not accumulate friendship points, but does sort higher than other characters with zero friendship.
 
-## A Study In Potions - Retry Button Mechanics 
+## A Study In Potions - Retry Button Mechanics 	
 **By:** Vye#9195  
 **Added:** 1/28/2022  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/929809364825550901/936413828575559700/transcript-a-study-in-potions--retry-button-mechanics.html)
@@ -379,7 +417,7 @@ The retry button in the event is a full team reset. All cooldowns including weap
 
 **Evidence:**  
 [Google Doc](https://docs.google.com/spreadsheets/d/1eYvgX2WSqEFXtQEuuwlI9nYveeaWUSe-grQ2Lx59zVY/edit?usp=sharing)  
-provided by ItzSomebody#0029, yolitme0#0579 (ty for compiling sheet) and ShampooBrain#9583 
+provided by ItzSomebody#0029, yolitme0#0579 (ty for compiling sheet) and ShampooBrain#9583
 
 **Significance:**   
 Mihoyo apparently can implement a full reset button for a small event but cannot do so in the abyss which does not fully reset you. They are either incompetent, tone-deaf, lazy or simply don't give a damn. But next time there is a survey maybe let them know about this utter and complete nonsense.
@@ -402,3 +440,52 @@ Photos:
 
 **Significance:**  
 For travelers who would like to have specific lighting on The Crux for photo contests.
+
+## Hidden wall clip spot in Liyue Merchant Stall
+**By:** Artellio\#4479  
+**Added:** 02/08/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/934639679863676978/940718218228682762/transcript-liyue-merchants-stall-wall-clip-hidden-spot.html)
+
+**Finding:** A hidden spot in Liyue allows you to clip into the walls, and enter a hidden boxed area. Once you enter the area, you’ll be able to see outside the box, but others cannot see in. This spot also features an infinite fall/plunge area easy accessed by inch-walking towards the crevice. 
+To enter this area, teleport to the northwestern TP of Liyue Harbor, head northwest and head towards the water. Follow the video in evidence for further instructions. You should be able to go to the corner, jump-climb up, and jump-climb left. Note that if you infinite plunge, you will be stuck. You may also be viewed from below when in the fall area. 
+
+**Evidence:**  
+[Youtube](https://youtu.be/X52VPlJzNVw)\
+Provided by Aluminum\#5462
+
+**Significance:**  
+Fluff.
+
+## Daily Elite Cap and Common Mob Cap
+**By:** DoombringerEX\#8888  
+**Added:** 02/10/2022  
+[Discussion](tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/921098493890801725/940728656337191003/transcript-daily-elite-cap-and-common-mob-cap.html)  
+
+**Finding:**  
+The daily cap is 400 for elites and 2000 for common mobs, after receiving drops from these amounts of enemies they will stop dropping Ascension Materials and Mora.  
+
+**Evidence:**  
+Elites and common mobs capped on December 20, 2021: [Google Sheets](https://docs.google.com/spreadsheets/d/1J5seFOf4uAEzI_rfnxth511lm1F3uKPfS7vtBlrn4M8/edit#gid=985319600)  
+* Elites: received Mora amount to 200, 400, or 600; 400 times.  
+* Common mobs: received Mora amount to <199; 1999 times.  
+
+**Significance:**  
+The elite cap is 400 and the common mob cap is at least 1999, likely to be 2000. It is possible that some Mora is missed when teleporting in single player; time is paused when using the map in single player and Mora may not have reached the active character in time.
+
+## Plunge Attack Max Fall DMG Cap
+**By:** TheFirstRapher\#9207  
+**Added:** 02/10/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/938676862769565726/941446808155074581/transcript-plunge-attack-max-fall-dmg-cap.html)  
+
+**Finding:**  
+Plunging at any height will normally have a damage cap of about 40% of the character's Max HP.  
+
+**Evidence:**  
+The plunge took place at an arbitrary height I thought to be extremely high after gliding a bit away from Qingyun Peak. The test plunge had Beidou at 18350 HP as max and pre-plunge HP, after the plunge her HP was 10966, which means she lost 40.2% of her max HP. The test was also carried out with Yanfei who had 6532 max HP, she lost 40.2% when starting with 100% and 40.9% HP, and died when plunging with 40.1% HP. This means that if your character's current HP is under ~40% of their max HP, they will die.  
+* Beidou losing 40.2% max HP starting with 100% max HP: [Video](https://youtu.be/vvYVfcY6hmY?t=51)  
+* Yanfei losing 40.2% max HP starting with 100% max HP: [Video](https://www.youtube.com/watch?v=QuAzvs916ws)  
+* Yanfei losing 40.2% max HP starting with 40.9% max HP: [Video](https://www.youtube.com/watch?v=4scyvtJJS7U)  
+* Yanfei dying, starting with 40.1% max HP: [Video](https://youtu.be/pHQoT2AAtpM)  
+
+**Significance:**  
+Plunging provides a speedier way of getting down from a high place without dying as long as you have enough HP.
