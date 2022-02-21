@@ -176,7 +176,7 @@ Consider the following Electro-charged concepts:
 * The reduction is based on the strength of the aura last applied to the enemy. 
 * For example, if you refill a strong hydro aura with a weak hydro aura, the next EC tick will consume 5s.
 * For example, if you refill a weak electro aura with a strong electro aura, the next EC tick will consume 3s
-* [Video](https://streamable.com/f1r5hs) evidence
+* [Video](https://youtu.be/tGVjO0gwzU0) evidence
 
 ### What if there is insufficient electro or hydro aura left to make it to the next tick?
 
