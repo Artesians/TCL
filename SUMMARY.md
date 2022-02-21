@@ -6,8 +6,9 @@
 
 ## Newsletter
 
-* [Patch 2.3b](newsletter/patch-2.3b.md)
+* [Patch 2.4](newsletter/patch-2.4.md)
 * [Archive](newsletter/archive/README.md)
+  * [Patch 2.3b](newsletter/patch-2.3b.md)
   * [Patch 2.3](newsletter/patch-2.3.md)
   * [Patch 2.2a](newsletter/patch-2.2a.md)
   * [Patch 2.1b](newsletter/archive/patch-2.1b.md)
@@ -50,6 +51,7 @@
   * [Razor](characters/electro/razor.md)
   * [Sara](characters/electro/sara.md)
   * [Traveler \(Electro\)](characters/electro/traveler-electro.md)
+  * [Yae Miko](characters/electro/yae-miko.md)
 * [Geo](characters/geo/README.md)
   * [Albedo](characters/geo/albedo.md)
   * [Gorou](characters/geo/gorou.md)
@@ -170,6 +172,7 @@
   * [Ruin Scout](enemy-data/automatons/ruin-scout.md)
 * [Bosses](enemy-data/bosses/README.md)
   * [Overworld Bosses](enemy-data/bosses/overworld-bosses/README.md)
+    * [Coral Defender](enemy-data/bosses/overworld-bosses/coral-defenders.md)
     * [Hypostases](enemy-data/bosses/overworld-bosses/hypostases/hypostases.md)
     * [Maguu Kenki](enemy-data/bosses/overworld-bosses/maguu-kenki.md)
     * [Oceanid](enemy-data/bosses/overworld-bosses/oceanid/README.md)
@@ -251,6 +254,8 @@
     * [Scout](enemy-data/humans/treasure-hoarders/treasure-hoarder-scout.md)
     * [Smasher](enemy-data/humans/treasure-hoarders/treasure-hoarder-smasher.md)
 * [Mystical Beasts](enemy-data/mystical-beasts/README.md)
+  * [Bathysmal Vishap Hatchlings](enemy-data/mystical-beasts/bathysmal-vishaps/bathysmal-vishap-hatchlings.md)
+  * [Bathysmal Vishaps](enemy-data/mystical-beasts/bathysmal-vishaps/bathysmal-vishaps.md)
   * [Cicins](enemy-data/mystical-beasts/cicins.md)
   * [Geovishaps](enemy-data/mystical-beasts/geovishaps/README.md)
     * [Hatchling](enemy-data/mystical-beasts/geovishaps/geovishap-hatchling.md)
@@ -292,6 +297,7 @@
       * [Razor](evidence/characters/electro/razor.md)
       * [Sara](evidence/characters/electro/sara.md)
       * [Traveler \(Electro\)](evidence/characters/electro/traveler-electro.md)
+      * [Yae Miko](evidence/characters/electro/yae-miko.md)
     * [Geo](evidence/characters/geo/README.md)
       * [Albedo](evidence/characters/geo/albedo.md)
       * [Gorou](evidence/characters/geo/gorou.md)

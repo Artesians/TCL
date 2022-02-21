@@ -9,6 +9,44 @@ description: For entries that have little practical use.
 
 {% page-ref page="../../general-mechanics/miscellaneous-entries.md" %}
 
+## Item Suck Limits
+
+**By:** clrE\#6290  
+**Added:** 02/08/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/938044007425146890/940718525121716254/transcript-suck-limit.html)
+
+**Finding:** Every ability / taunt that can pull mob has a limit. These limits differ from each other, ranging from 13-15.  
+Some can also be affected by In-game fps.
+
+**Evidence:**
+* Jean E - 14
+* kazuha Hold/Tap E 14
+    * [Youtube](https://youtu.be/poifmkFWvN0)
+* Jean E 13(30fps)
+  * [Youtube](https://www.youtube.com/watch?v=IqnzPtPOFM0)
+* Kazuha Midare Ranzan 13 (60fps)
+  * [Youtube](https://www.youtube.com/watch?v=jBcpIRqI4r8)
+* Kazuha Midare Ranzan 13  (30fps) 
+  * [Youtube](https://www.youtube.com/watch?v=WvsdmEmsPv4)
+* Sucrose E/Q 13
+* Venti Q 14
+  * [Youtube](https://youtu.be/JC3UCbq284A)
+* Surose E/Q 13(30fps)
+  * [Youtube](https://www.youtube.com/watch?v=YiBTs-Xi4g4)
+  * [Youtube](https://www.youtube.com/watch?v=OLUmEzO9eOg)
+* Venti Q 14 (30fps)
+  * [Youtube](https://youtu.be/TPXP2Ia4JWY)
+* Qiqi idle 13
+  * [Youtube](https://youtu.be/odJe6bl0kQw)
+* AMC E 13
+* AMC Q picked up 15 and dropped 2 along the way
+  * [Youtube](https://youtu.be/6-FecUBYeGE)
+* AMC E 13 Q 14 (30fps)
+Evidence:
+  * [Youtube](https://youtu.be/TPXP2Ia4JWY)
+
+**Significance:** Documentation of the existence and specifics of certain characters suck/pull limit.
+
 ## Ded Bird
 
 **By:** Aluminum\#5462, Mcpie\#8672, mol\#3280, JenjenJL\#6582, Kgbeast\#6738, wiremash\#0433  
@@ -374,6 +412,21 @@ Photos:
 **Significance:**  
 For travelers who would like to have specific lighting on The Crux for photo contests.
 
+## Hidden wall clip spot in Liyue Merchant Stall
+**By:** Artellio\#4479  
+**Added:** 02/08/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/934639679863676978/940718218228682762/transcript-liyue-merchants-stall-wall-clip-hidden-spot.html)
+
+**Finding:** A hidden spot in Liyue allows you to clip into the walls, and enter a hidden boxed area. Once you enter the area, you’ll be able to see outside the box, but others cannot see in. This spot also features an infinite fall/plunge area easy accessed by inch-walking towards the crevice. 
+To enter this area, teleport to the northwestern TP of Liyue Harbor, head northwest and head towards the water. Follow the video in evidence for further instructions. You should be able to go to the corner, jump-climb up, and jump-climb left. Note that if you infinite plunge, you will be stuck. You may also be viewed from below when in the fall area. 
+
+**Evidence:**  
+[Youtube](https://youtu.be/X52VPlJzNVw)\
+Provided by Aluminum\#5462
+
+**Significance:**  
+Fluff.
+
 ## Daily Elite Cap and Common Mob Cap
 **By:** DoombringerEX\#8888  
 **Added:** 02/10/2022  
@@ -389,3 +442,4 @@ Elites and common mobs capped on December 20, 2021: [Google Sheets](https://docs
 
 **Significance:**  
 The elite cap is 400 and the common mob cap is at least 1999, likely to be 2000. It is possible that some Mora is missed when teleporting in single player; time is paused when using the map in single player and Mora may not have reached the active character in time.
+
