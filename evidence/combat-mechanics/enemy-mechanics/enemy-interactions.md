@@ -805,6 +805,27 @@ If you stun a Ruin Guard and your main carry is a spear user, you might want to 
 
 **Significance:** Better knowledge of Ruin Guard combat through enemy movement manipulation with Geo MC  
 
+#### Swap Dodge Confused Missiles
+
+**By:** Kourinn\#6001  
+**Added:** 02/21/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/945492158708871219/transcript-swap-dodge-confused-missiles.html)  
+
+**Finding:**  
+When at least 25m (5 Abyss tiles) away from a Ruin Guard using its seeking-missile attack, a well-timed character swap during the 400+ ms targeting animation will remove missile target seeking. Within 24m, Ruin Guards, Ruin Destroyers, and Ruin Defenders targeted attacks can be dodged with a well-timed character swap in the 16-64 ms targeting window.  
+
+**Evidence:**  
+* Beyond 25m, you can dodge Ruin Guard missiles by swapping as soon as the target reticle animation starts: [Imgur](https://imgur.com/8kdat3v)  
+* Within 24m, the missiles still target seek if swapped after the target reticle animation starts: [Imgur](https://imgur.com/eMR2ZjD)  
+* Within 24m, you can dodge Ruin Guard missiles by swapping just before the 4th missile pulse: [Imgur](https://www.youtube.com/watch?v=0hriYyKEr6Y)  
+* Within 24m, you can dodge Ruin Defender jump by swapping just as it starts jumping upwards: [Imgur](https://imgur.com/J60pQrM)  
+* Within 24m, you can dodge Ruin Destroyer tunnel explosion by swapping just as it fully disappears: [Imgur](https://imgur.com/5PAmgmm)  
+
+**Significance:**  
+For Ruin Guards in the open world beyond 25m, the timing is quite generous. This may be useful when running away in open world or when fighting multiple ruin guards spread across a large area (Guyun Stone Forest).  
+
+The other cases have minimal real-world usage due to very tight timing while affected by reaction speed, input lag, network latency, dropped frames, etc.  
+
 ### Ruin Hunter  
 
 #### Ruin Hunter Weakspot&Artillery mode Analysis   
