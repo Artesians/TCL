@@ -19,7 +19,7 @@ search: false
 ### Razor Reverse Scam
 **By:** phaZZi\#6461  
 **Added:** 02/21/2022  
-[Discussion]()  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/945484288009314304/transcript-razor-reverse-scam.html)  
 
 **Finding:**  
 Razor's Electro Sigils are not immediatly consumed when using Hold E, whereas the energy gained from it is instant.  
