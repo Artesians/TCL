@@ -43,6 +43,30 @@ Razor Q duration is affected by Hitlag. The more hitlag, the longer the duration
 **Significance:**  
 You can essentially have 100% ult uptime if it were not for no particles during Q. You can have your Q CD done \(20 seconds\) by the time your Q duration is done if hitlag is high enough. Hitlag can also extend the duration of both buffs and debuffs, like Superconduct and Razor C1 and C4.
 
+## Ascension Mechanics
+
+### A4: Hunger
+
+#### Razor Scam
+
+**By:** Bobrokrot\#0111  
+**Added:** 02/21/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/945485734670893077/transcript-razor-scam.html)  
+
+**Finding:**  
+Razor's A4 does not work until after some time after using his Burst when the ping is 54ms+.  
+
+**Evidence:**  
+1. [YouTube video](https://youtu.be/AWZ5mOoZODw) at 54-65ms ping  
+In the 1st test Razor with 3 Sigils uses his Burst. His base ER is 120.1%, 3 Sigils increased it to 180.1%. Right after using the bBrst his ER is still 180.1%. After that it drops down to 120.1% when the Sigil bonus expires (visually it happens when Sigils fade, it seems). And only after that when Sigils visibly move towards Razor and disappear Razor's ER increases to 150.1% (+30% when energy is below half).  
+2. [YouTube video](https://youtu.be/gOACY5otYvw)  
+Same result at 192ms (2nd and 3rd tests were performed with Razor having 100% base ER).  
+3. [YouTube video](https://youtu.be/O4ZFRxR-j-I) at 28ms ping  
+In the 3rd test A4 buff is applied immediately, before sigils expire.  
+
+**Significance:**  
+Razor's E into Q is not as efficient as one could hope due to the fact that his Tap E 3 particles do not benefit from A4's +30% ER depending on ping.  
+
 ## Constellation Mechanics
 
 ### C6: Lupus Fulguris
@@ -88,8 +112,8 @@ This provides more uptime for Superconduct in floor 12 and, if utilized, gives a
 Bennett’s ult cleanse can react with Razor’s ult cleanse to proc overload on yourself. This effect does not harm you, but it deals two ticks of damage and knocks small mobs back.
 
 **Evidence:**  
-* [https://streamable.com/5jnl7q](https://streamable.com/5jnl7q)
-* [https://www.youtube.com/watch?v=Gr5UVwdV4AA](https://www.youtube.com/watch?v=Gr5UVwdV4AA)
+* [Streamable](https://streamable.com/5jnl7q)
+* [YouTube](https://www.youtube.com/watch?v=Gr5UVwdV4AA)
 
 **Significance:**  
 For those people who want to bring Bennett in the same team as Razor, this is one thing to consider in situations like overworld. The overload can knock back enemies out of Bennett’s ult, but it can also work as a little of extra damage to mobs that can’t be knocked back.
@@ -109,7 +133,7 @@ To find rather it's better to do a press or hold on Razor's E against one enemy 
 * E hold animation took 0.85 seconds.
 * The dps ratio from E press to E hold is 1.043324946 to 1. 
 
-All my research and calculations: [https://docs.google.com/spreadsheets/d/1b7U7QuuB7\_4n-v8CHSWnHeyWxOzhCauVpE5leM4ydfg/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1b7U7QuuB7_4n-v8CHSWnHeyWxOzhCauVpE5leM4ydfg/edit?usp=sharing)
+All my research and calculations: [Google Sheets](https://docs.google.com/spreadsheets/d/1b7U7QuuB7_4n-v8CHSWnHeyWxOzhCauVpE5leM4ydfg/edit?usp=sharing)
 
 **Significance:**  
 I found that press would deal 4.33% more damage to hold on Razor's E against a single enemy if you input a second command to the enemy the instant the animation finishes. Since there is a 0.3 animation difference between press and hold, if you input a second command within 0.3 seconds you would still deal more damage.
@@ -127,7 +151,7 @@ To find if Razor had a higher DPS on 3 hit or 4 hit combo without burst form \(Q
 * The overall 4 hit animation was 3.144 seconds
 * The overall animation ratio of 4 hit to 3 hit is about 1.664.
 
-All my research and calculations: [https://docs.google.com/spreadsheets/d/1D991QGBGmGnlPDJnB7VyQ0TdZ3tZ1-dzUpGcgQB2sPY/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1D991QGBGmGnlPDJnB7VyQ0TdZ3tZ1-dzUpGcgQB2sPY/edit?usp=sharing)
+All my research and calculations: [Google Sheets](https://docs.google.com/spreadsheets/d/1D991QGBGmGnlPDJnB7VyQ0TdZ3tZ1-dzUpGcgQB2sPY/edit?usp=sharing)
 
 **Significance:**  
 Since the animation ratio is greater than the damage ratio this tells us that the 3 hit combo will always have a higher DPS than the 4 hit combo. Also credit to @Shifu02 for helping me do some tests.
@@ -142,7 +166,7 @@ NOTE: this finding has been amended due to recent tests: 4 hit is now generally 
 To find if 3 hit + E press or 4 hit in terms of dps is better without burst form \(Q\).
 
 **Evidence:**  
-* [https://imgur.com/a/Ldvevud](https://imgur.com/a/Ldvevud)
+* [Imgur](https://imgur.com/a/Ldvevud)
 
 **Conclusion**:  
 3 hit + E is better than 4 hit. An ideal combo would be to use E + 3 hits + 3 hits + E.
