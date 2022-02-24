@@ -4,6 +4,7 @@ description: For entries that have little practical use.
 
 # Miscellaneous Entries
 
+* Characters than can pull/suck items with their abilities (i.e Jean E, Venti Q), all have a limit. This limit can be affected by in-game fps, depending on the specific ability. For more information visit [our evidence page.](./../evidence/general-mechanics/miscellaneous-entries.md#item-suck-limits)
 * You can juggle fruits that are freshly harvested from trees. Unfortunately, once they have been on the ground for a certain amount of time, nothing will affect it anymore.
 * At least two of the birds (one near Azhdaha and one in Guyun) die very often of drowning, usually before the player even sees them, though their death is also occasionally observed, and they may even sometimes survive. 
   * You can use this to get free fowl. 
@@ -18,7 +19,18 @@ description: For entries that have little practical use.
     * Adult male - 25%
     * Teen male - 35%
     * Teen female - 35%
-* The Traveler has more than 0 friendship points but less than 10 and does not accumulate.
+* The Traveler has more than 0 friendship points but less than 10 and does not accumulate.  
+* The daily cap for being able to receive drops is 400 elites and 2000 common mobs.  
+* The maximum amount of damage that a character can take when doing a Plunge Attack is 40% of their max HP.  
+* All Statues of the Seven can heal you while you are in a menu (map, adventure book, etc.).
+* Some Statues of the Seven's teleport places you close enough to heal from them, these include:
+  * Mondstadt - Stormterror Lair Statue
+  * Dragonspine Statue
+  * Liyue - Statue near Qingyun Peak
+  * Liyue - Statue in Dihua Marsh
+  * Liyue - Statue in Mingyun Village
+  * Inazuma - Sanganomiya Island Statue
+  * Inazuma - Tsurumi Island Statue
 * Some doors in the overworld, notable ones being Jean's office door and the door to the Library in Favonius HQ act as a mini load border, which can make some very [interesting things happen.](../evidence/general-mechanics/miscellaneous-entries.md#door-load-border-shenanigans)
 
 ## Cancelling
@@ -59,6 +71,9 @@ The retry button in the event is a full team reset. All cooldowns including weap
 
 ## Portable Waypoint Bug  
 * When placing the Portable Waypoint in certain places such as The Crux and teleporting from a location with an abnormal weather effect, it will be transferred to where the Portable Waypoint is.  
+
+## Hidden wall clip spot in Liyue Merchant Stall
+* In Liyue Harbour there's a hidden location behind a stall that allows characters to clip through the walls and infinitely plunge.
 
 ## Evidence Vault
 

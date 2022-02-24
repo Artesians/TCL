@@ -9,6 +9,14 @@
   * North of the Dragonspine Adventurer's Guild Camp (1 Rock): [Imgur](https://imgur.com/i7qX6Uq)
   * Cape Oath (2 groups of 4 Rocks each): [Imgur](https://imgur.com/EDNub8V) [Imgur](https://imgur.com/YuxAlNR)
 
+## Weird Blue Rocks
+
+### Basic Mechanics and Known Locations
+* A known cousin of the rock, these 2 blue rocks can be found in Enkanomiya, can be burned away with pyro, do not respawn, and can asborb cryo.
+* The current known locations for these rocks:
+  * Inside small square building behind Vishap Research Lab (2 rocks) 
+    *  [Map](https://imgur.com/a/WuQ1heh)   
+    *  [View](https://imgur.com/a/7wtHwnu)  
 ## Serenitea Pot
 
 ### Teapot Dog Abuse
@@ -90,6 +98,8 @@ The overworld map is split into multiple zones that affect enemy level and envir
 * [Liyue](https://photos.google.com/share/AF1QipPLmV3Pt5S9suJQSMm4rK6eVhIerzuS6VEMQmdlZJpI8IUMPjNM4FEeHvaG4BiJeA?key=eG1FUE82Mk92TUtxbUt2STUzNVlnbDdUYTQwUFJR)  
 * [Inazuma](https://photos.google.com/share/AF1QipO_e3CL7arfSKBptsr_IU5oLM6Bm73AukEONaqJ6Hazq95z7dENxRKpBall0_tsKA/photo/AF1QipO25Gcl-MjRfeYd7HSBbc5LBv3bllpEZUwjP3v3?key=cG1Ca25iRmtac0RtT0wtYk1laFRDbUMtOW0tTEhR)  
 * [Enkanomiya](https://photos.app.goo.gl/PY1xLqPy8LKFJibC7)
+
+Some constructs take zone level damage, a list of those that have been documented can be found [here.](../evidence/general-mechanics/overworld.md#constructs-take-zone-level-damage)  
 
 ## Artifacts
 
