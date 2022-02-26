@@ -64,6 +64,8 @@ Better understanding of Abyss bugs/issues for cleaner runs.
 1. [Youtube] (https://www.youtube.com/watch?v=J9vlL5l5MYw)
 2. [Youtube] (https://www.youtube.com/watch?v=H27u5YRshiE)
 
+[Discussion] (https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/947163566954393671/transcript-restarting-or-leaving-domain-doesnt-reset-skill-cd.html)
+
 **Significance:** This behavior is not unique to Spiral Abyss and applies to all domains.
 
 ## Overworld
