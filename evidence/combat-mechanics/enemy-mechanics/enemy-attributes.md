@@ -11,7 +11,6 @@ search: false
 ## In-Depth Look at Monster Skill Effects in Domains/Abyss
 
 **By:** Steno\#6940  
-**Added:**
 
 **Finding:** In-depth look at monster skill effects in abyss/domains \(Ice Cage, Pursuing Fireball, etc.\)
 
@@ -28,23 +27,25 @@ Note: Since the official names for these are incredibly difficult to find, I wil
 
 1\) Monster skill effects deal flat damage. The amount of damage dealt scales similarly to transformative reactions \(thanks to @Carrier5by5 for looking into this\), based purely off a base multiplier corresponding to each skill effect \(for example, **Ice Cage** deals twice as much damage as **Rumbling Stone**\). These multipliers can be found [here](https://genshin-impact.fandom.com/wiki/Elements#Damage_Abilities_2). Also, the damage is unaffected by your character level or defense; it will always deal the same amount of damage regardless.
 
-[https://www.youtube.com/watch?v=iwYAHJzqfos](https://www.youtube.com/watch?v=iwYAHJzqfos) \(Crimson Witch domain\)
+[YouTube video](https://www.youtube.com/watch?v=iwYAHJzqfos) \(Crimson Witch domain\)
 
 2\) The damage from monster skill effects cannot be reduced by skills like **Xingqiu's E/Q** and **Beidou's Q**. This means that comps like **Beidou Xingqiu** electro-charge that can usually tank enemy attacks by stacking damage reduction cannot tank these effects easily.
 
-[https://www.youtube.com/watch?v=IUgeUMhIUq8](https://www.youtube.com/watch?v=IUgeUMhIUq8) \(Crimson Witch domain\) [https://www.youtube.com/watch?v=O5zJxvufisI](https://www.youtube.com/watch?v=O5zJxvufisI) \(12-3\)
+[YouTube video](https://www.youtube.com/watch?v=IUgeUMhIUq8) \(Crimson Witch domain\)  
+
+[YouTube video](https://www.youtube.com/watch?v=O5zJxvufisI) \(12-3\)  
 
 3\) The damage from monster skill effects is affected by character resistance.
 
-[https://www.youtube.com/watch?v=ElFNtz8QrnU](https://www.youtube.com/watch?v=ElFNtz8QrnU) \(Tested with a lvl 21 Razor with and without 2pc lavawalkers set\)
+[YouTube video](https://www.youtube.com/watch?v=ElFNtz8QrnU) \(Tested with a lvl 21 Razor with and without 2pc lavawalkers set\)  
 
 4\) The damage from monster skill effects can be shielded. This also means that while the damage can be shielded, damage reduction skills that normally reduce the amount of shield damage taken will not apply.
 
-[https://www.youtube.com/watch?v=d9THhkkdFwY](https://www.youtube.com/watch?v=d9THhkkdFwY)
+[YouTube video](https://www.youtube.com/watch?v=d9THhkkdFwY)  
 
 5\) Monster skill effects can be taunted. In general, these skill effects target the same thing that the corresponding monster is also targeting. In some cases the target will "snapshot" \(i.e. if the monster changes its target during the effect, the effect will not update\) and in other cases it will not. Seems to be inconsistent.
 
-[https://www.youtube.com/watch?v=AEPVPyj-Vl0](https://www.youtube.com/watch?v=AEPVPyj-Vl0)
+[YouTube video](https://www.youtube.com/watch?v=AEPVPyj-Vl0)  
 
 Monster skill effects spawn at fixed intervals, specific to each type:
 
@@ -55,12 +56,13 @@ Monster skill effects spawn at fixed intervals, specific to each type:
 * Pursuing Fireball: 20 seconds
 * Mist Bubble: 12.5 seconds
 
-[https://www.youtube.com/watch?v=dLjsxQsIzAA](https://www.youtube.com/watch?v=dLjsxQsIzAA) \(Rumbling Stone\) [https://www.youtube.com/watch?v=aZ2N4VC-MXY](https://www.youtube.com/watch?v=aZ2N4VC-MXY) \(Ice Cage\)
+[YouTube video](https://www.youtube.com/watch?v=dLjsxQsIzAA) \(Rumbling Stone\)  
+[YouTube video](https://www.youtube.com/watch?v=aZ2N4VC-MXY) \(Ice Cage\)
 
 Other: Haha Venti go brrr  
-[https://www.youtube.com/watch?v=wsAXt1SU6Pk](https://www.youtube.com/watch?v=wsAXt1SU6Pk)  
-[https://www.youtube.com/watch?v=D8CzsxXluEc](https://www.youtube.com/watch?v=D8CzsxXluEc)  
-[https://www.youtube.com/watch?v=HQdDv1c2ED4](https://www.youtube.com/watch?v=HQdDv1c2ED4)
+[YouTube video](https://www.youtube.com/watch?v=wsAXt1SU6Pk)  
+[YouTube video](https://www.youtube.com/watch?v=D8CzsxXluEc)  
+[YouTube video](https://www.youtube.com/watch?v=HQdDv1c2ED4)  
 
 **Significance:**
 
@@ -158,3 +160,80 @@ The targeting point for targeted skills (which is everything except bow aim shot
 
 **Significance:**  
 Some Elemental Bursts, Skills, Catalyst/Bow Normal Attacks, and special Charge Attacks can potentially whiff on frozen enemies, resulting in a significant DPS loss. 
+
+## Miasmic Tumor  
+**By:** NZPIEFACE\#8439  
+**Added:** 02/20/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/929743744322912316/945093554731102290/transcript-miasmic-tumour.html)   
+
+**Finding:**  
+A list of findings regarding the [Miasmic Tumor](../../../enemy-data/miscellaneous/miasmic-tumor.md#miasmic-tumor)
+
+Behaviour:
+- does laser attack at 75%, 50% and 25% hp thresholds.
+- summons ochimusa at 100%, 66% and 33% hp thresholds. becomes immortal again.
+- spams orbs every 6-7 seconds after it summons the first ochimusa. they deal close to no damage, but they do deal a bit of poise damage, though it takes 2 waves of full hits to even stagger. there is a max cap on the number of orbs. aiming is scuffed until you get close to it.
+
+Other Interactions:
+- disappears in multiplayer.
+- cant have marks or statuses.
+- can only have cryo and freeze aura. reactions with those work as normal.
+- cant lower resistance.
+- can switch party near it, even when being hit by the orbs.
+
+**Evidence:**  
+Playlist of all recordings: [Youtube](https://www.youtube.com/playlist?list=PLubNP2Z7jM8r68CvkaN8p33dvxTnCQO02)  
+Auras:  
+Cryo - Yes [Youtube](https://youtu.be/3Tslenj0ud4)  
+Electro - No [Youtube](https://youtu.be/cu99D1W9UEs)  
+Hydro - No [Youtube](https://youtu.be/0UstmWsWPdM)  
+Pyro - No [Youtube](https://youtu.be/P6rO8Myw8VU)  
+ 
+Reactions:  
+Melt - [Youtube](https://youtu.be/2c1trIXniYo)  
+Freeze - [Youtube](https://youtu.be/ma6wwKUbjeg)   
+Shatter - [Youtube](https://youtu.be/4AQVtXEc9So)  
+Superconduct - [Youtube](https://youtu.be/DoNMnGbbjw8)  
+Swirl - [Youtube](https://youtu.be/MsBpQEjGouk)  
+Crystallize - [Youtube](https://youtu.be/1W_aoGPThbQ)  
+ 
+Marks failing:  
+Hu Tao - [Youtube](https://youtu.be/jDJi9W-LifQ)  
+Qiqi - [Youtube](https://youtu.be/vI61dpw8NOw)  
+
+Statuses failing:  
+Tartaglia - [Youtube](https://youtu.be/L2MwDpEnwMo)  
+Mona - [Youtube](https://youtu.be/9yvDtYqFDic)  
+Xiangling - [Youtube](https://youtu.be/dTgPQvczfMA)  
+Lisa - [Youtube](https://youtu.be/Dkc5WH8VBp4)  
+
+Resistance shred failing:  
+Hu Tao Non-shred Damage - [Youtube](https://youtu.be/v06b6zFdPiE)  
+Shred Damage - [Youtube](https://youtu.be/HYFKQeJTQRY)  
+Diona and VV Test - [Youtube](https://youtu.be/X_8o9O82D2w)  
+
+Orbs:
+Damage - [Youtube](https://youtu.be/adRDUnxhV_g)  
+Interval - [Youtube](https://youtu.be/5qejYZM7TKs)  
+
+No Multiplayer: [Youtube](https://youtu.be/dWmbCw7KWfs)  
+
+Full Fight: [Youtube](https://youtu.be/7vTQOEpsx6I)  
+Shows HP thresholds for attacks.
+
+**Significance:**  
+Documentation of this bosses attacks and interactions.  
+
+## Raiden Boss Resistances
+**By:** Bobrokrot\#0111  
+**Added:** 02/21/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/945473947456131152/transcript-raiden-boss-resistances.html)  
+
+**Finding:**  
+The new world boss Magatsu Mitake Narukami no Mikoto has a base 10% resistance for all types of damage, gains +200% in the armored state (210% total) and loses -60% in the stunned state (-50% total).  
+
+**Evidence:**  
+Calculations and video links in the [sheet](https://docs.google.com/spreadsheets/d/1P928YeSzRkj_VkdQHeQ4sw__1-tNlwj27jeCAxIzCKQ/edit?usp=sharing).  
+
+**Significance:**  
+This knowledge will allow us to concoct strategies on how to defeat Magatsu Mitake Narukami no Mikoto.  

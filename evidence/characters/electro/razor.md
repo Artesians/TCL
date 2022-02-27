@@ -12,7 +12,7 @@ search: false
 
 ### Razor frame data
 
-[https://docs.google.com/spreadsheets/d/1mKV6mZknfmBx04iUzfBYfWggWNbZACPyTnTMpWlWSHc/edit\#gid=0](https://docs.google.com/spreadsheets/d/1mKV6mZknfmBx04iUzfBYfWggWNbZACPyTnTMpWlWSHc/edit#gid=0)
+[Google Sheets](https://docs.google.com/spreadsheets/d/1mKV6mZknfmBx04iUzfBYfWggWNbZACPyTnTMpWlWSHc/edit#gid=0)
 
 
 ## Burst Mechanics
@@ -25,7 +25,7 @@ search: false
 Razor retains his Electro aura from his Burst for a short time when switched off before burst ends \(around 2 seconds\). When switched back to, the aura can still react with other self-inflicted auras such as Bennett Q or Diona E before it disappears.
 
 **Evidence:**  
-* [https://streamable.com/rmk69v](https://streamable.com/rmk69v)
+* [YouTube](https://youtu.be/3503hisK3yA)
 
 **Significance:**  
 Just something to keep in mind when switching off Razor before his burst fully ends, and back to him in a short timeframe when fighting in aura-applying areas that react with Electro, as switching back to Razor too quickly may apply overload/electro-charged/superconduct to him outside of his burst.
@@ -38,7 +38,7 @@ Just something to keep in mind when switching off Razor before his burst fully e
 Razor Q duration is affected by Hitlag. The more hitlag, the longer the duration.
 
 **Evidence:**  
-* [https://youtu.be/t86Ac4t3Zhg](https://youtu.be/t86Ac4t3Zhg)
+* [YouTube](https://youtu.be/t86Ac4t3Zhg)
 
 **Significance:**  
 You can essentially have 100% ult uptime if it were not for no particles during Q. You can have your Q CD done \(20 seconds\) by the time your Q duration is done if hitlag is high enough. Hitlag can also extend the duration of both buffs and debuffs, like Superconduct and Razor C1 and C4.
@@ -99,7 +99,7 @@ Damage calculations for Razor.
 Superconduct triggered by enemy Cryo attacks while Razor's Lightning Fang is active affects nearby enemies as well as Razor.
 
 **Evidence:**  
-* [https://youtu.be/3vX6LxGrkGc](https://youtu.be/3vX6LxGrkGc)
+* [YouTube](https://youtu.be/3vX6LxGrkGc)
 
 **Significance:**  
 This provides more uptime for Superconduct in floor 12 and, if utilized, gives a possibility to have Superconduct for the entire duration of Lightning Fang
@@ -156,7 +156,7 @@ All my research and calculations: [Google Sheets](https://docs.google.com/spread
 **Significance:**  
 Since the animation ratio is greater than the damage ratio this tells us that the 3 hit combo will always have a higher DPS than the 4 hit combo. Also credit to @Shifu02 for helping me do some tests.
 
-NOTE: this finding has been amended due to recent tests: 4 hit is now generally better in Q due to reduced animation time between the 3rd and 4th hit. See the Razormains Comprehensive guide for more details here: [https://bit.ly/37H9SZ1](https://bit.ly/37H9SZ1).
+NOTE: this finding has been amended due to recent tests: 4 hit is now generally better in Q due to reduced animation time between the 3rd and 4th hit. See the Razormains Comprehensive guide for more details here: [Google Docs](https://bit.ly/37H9SZ1).
 
 ### 3 hit + E or 4 hit?
 
@@ -197,7 +197,7 @@ The animation is different and slightly slower during burst. It is not affected 
 Razor DS combos and E rotations have substantial mv/s increase from standard attack strings outside of Q.
 
 **Evidence:**  
-All data and video evidence found in this [spreadsheet](https://docs.google.com/spreadsheets/d/1_UxetY_-Zz-4kh59CfxkNhKgmJbiEsBrfgsttDVGKTg/edit?usp=sharing)
+All data and video evidence found in this [spreadsheet](https://docs.google.com/spreadsheets/d/1_UxetY_-Zz-4kh59CfxkNhKgmJbiEsBrfgsttDVGKTg/edit?usp=sharing).
 
 **Significance:**  
 Assuming no ICD based sub-dps are used, DS combos show a range from roughly 35-49 percent mv/s increase. (More elaboration on spreadsheet)
