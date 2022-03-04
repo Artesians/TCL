@@ -29,9 +29,7 @@ search: false
     * N3: 90
     * With recovery: 127
   * CA
-    * 1st hit: 87
-    * 2nd hit: 95
-    * 3rd hit: 104
+    * CA: 87
     * With recovery: 106
   * E
     * Swap: 21
@@ -45,7 +43,7 @@ search: false
 * NA is considered an AoE attack. - [Video](https://youtu.be/ook_T0bjpsM) - TheFirstRapher\#9207
 * NA doesn't track teleporting enemies. - [Video](https://youtu.be/TNLEqmPQWw0) - emmaus\#9072
 * NA and CA can both hit through walls. - [Video 1](https://youtu.be/jk4UO-rlnuA) / [Video 2](https://youtu.be/e6y80OXzpfg) - Wesu\#8719
-* CA can hit the same enemy up to 3 times - [Video](https://youtu.be/ngsDa8OtZkU) - pai\#3602
+* CA can hit the same enemy twice if the hitbox is large enough. - [Video](https://imgur.com/3z4irnj) - Vess\#7650
 
 ## Skill Mechanics
 
