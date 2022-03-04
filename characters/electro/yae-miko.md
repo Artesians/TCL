@@ -43,7 +43,7 @@ Summons forth kitsune spirits, initiating a maximum of 3 attacks that deal Elect
 | CHarged Attack DMG | 242.92% | 87 | 167.53% |
 
 * No ICD.
-* Can hit the same enemy up to 3 times.
+* Can hit the same enemy twice if the hitbox is large enough. e.g. Azhdaha.
 
 **Plunge**  
 Plunges towards the ground from mid-air, damaging all opponents in her path with thunderous might. Deals AoE Electro DMG upon impact with the ground.
