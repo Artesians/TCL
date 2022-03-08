@@ -275,7 +275,7 @@ Maximum upgrade level is 15.
 **DEF Bonus**: 30% Per Stack  
 **Grimheart Duration**: 18s  
 **RES Decrease Duration**: 7s  
-**Press CD**: 4s  
+**Press Cooldown**: 4s  
 **CD (hold)**: 10s
 
 {% endtab %}

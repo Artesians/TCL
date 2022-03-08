@@ -253,8 +253,8 @@ Characters within **Signature Mix**'s radius will gain the following effects bas
 | Base Shield DMG Absorption Additive | 693 | 762 | 837 | 918 | 1005 | 1097 | 1195 | 1299 | 1409 | 1524 | 1646 | 1773 | 1905 |
 | Duration \(per Paw\) | 1.8s | 1.9s | 2.0s | 2.1s | 2.2s | 2.3s | 2.4s | 2.4s | 2.4s | 2.4s | 2.4s | 2.4s | 2.4s |
 
-**Press CD**: 6s  
-**Holding CD**: 15s
+**Press Cooldown**: 6s  
+**Holding Cooldown**: 15s
 
 {% endtab %}
 
