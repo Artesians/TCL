@@ -265,7 +265,7 @@ When Razor is not using **Lightning Fang**, a lightning strike on an opponent wi
 **Energy Regenerated**: 5 per Electro Sigil Absorbed  
 **Electro Sigil duration**: 18s  
 **Press Cooldown**: 6s  
-**CD (hold)**: 10s
+**Cooldown (hold)**: 10s
 
 {% endtab %}
 

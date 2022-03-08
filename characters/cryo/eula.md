@@ -276,7 +276,7 @@ Maximum upgrade level is 15.
 **Grimheart Duration**: 18s  
 **RES Decrease Duration**: 7s  
 **Press Cooldown**: 4s  
-**CD (hold)**: 10s
+**Cooldown (hold)**: 10s
 
 {% endtab %}
 
