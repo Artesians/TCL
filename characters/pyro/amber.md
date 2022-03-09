@@ -163,8 +163,9 @@ Fires 2 arrows per Aimed Shot. The second arrow deals 20% of the first arrow's D
 Baron Bunny, new and improved! Hitting Baron Bunny's foot with a fully-charged Aimed Shot manually detonates it.
 
 * Explosion via manual detonation deals 200% additional DMG.  
-* C2 damage instance is considered skill damage  
+* C2 damage instance is considered skill damage.  
 * Baron Bunny snapshots.  
+* In CO-OP, teammates can manually detonate each other's Baron Bunnies, but the damage bonus will only apply if both players have C2.
 {% endtab %}
 
 {% tab title="C3" %}
