@@ -8,8 +8,41 @@ search: false
 
 {% page-ref page="../../../characters/pyro/amber.md" %}
 
+## Skill Mechanics
 
-## Amber Ult Targeting
+### Baron Bunny's aura
+
+**By:** Aluminum\#5462  
+**Added:** 5/6/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/839475466792599573/840049309344464967/transcript-baron-bunny-aura.html)
+
+**Finding:**  
+Baron Bunny is allowed to have a hydro or cryo aura, as well as be frozen. In the former case only environmental effects may apply the hydro aura. Most reactions function properly on this aura, notable crystalize, swirl, superconduct and shatter. It is not known how one may apply a pyro or electro aura to the Bunny, and the author could not find a way for the bunny to be electrocharged.
+
+**Evidence:**  
+[Video](https://youtube.com/playlist?list=PLPByPR2TubV5LHQ9Oab6k1bthvfrHkiSu)
+
+**Significance:**  
+Baron Bunny may be used as an entity to hold certain auras.
+
+### Amber E Duration Begins When Bunny Lands
+
+**By:** Ieah.#2212  
+**Added:** 03/09/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/951185430424993942/transcript-amber-e-duration-begins-when-bunny-lands.html)  
+
+**Finding:**  
+Amber Elemental Skill duration starts when Baron Bunny lands and unfurls itself.  
+
+**Evidence:**  
+In [this video](https://www.youtube.com/watch?v=aJ7-hV7b0Mc), Amber's Skill cooldown begins upon pressing E, Baron Bunny does not land until the cooldown says \~12.5 seconds, which is when the duration for the Skill begins. Baron Bunny then lasts for 8 seconds, exploding when the cooldown says \~4.5 seconds.  
+
+**Significance:**  
+Mostly fluff and something inconsequential, no real purpose where it's necessary yet.  
+
+## Burst Mechanics
+
+### Amber Ult Targeting
 
 **By:** CM\#0970  
 **Added:** 12/16/2021  
@@ -35,38 +68,9 @@ Specifically in the f1 video:
 * The slime at the very edge is barely touching amber's Q, and is hit 6 times. The outer edge AoE system as described by the theory hunt can be thought of as circle AoEs entirely enclosed within the circle of Amber's Q, and fixed to center exactly 2.6 units away from the middle of Amber's Q, as Amber's Q was described to have a radius of approximately 2.6 x 2, and each of her outer-edge AoEs land in a circle of 2.6 radius from the center of her Q.  
 * The odds of this slime being hit randomly by entirely enclosed AoEs within Amber's ult 6 times out of 18, especially considering that 10 of the arrows have the entire inner circle of 2.6 to land in that would miss this outer slime, is close to 0.  
 
-There is another example of this happening in 4c, when one of the slimes jumps in halfway through ambers ult, and with barely any of its hitbox entering her AoE, is struck 3 times 
+There is another example of this happening in 4c, when one of the slimes jumps in halfway through ambers ult, and with barely any of its hitbox entering her AoE, is struck 3 times.  
 
-## C0 Amber: 2 Simultaneous Baron Bunnies
-
-**By:** Exuma\#1917  
-**Added:** 6/17/2021  
-[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/846678238796316683/854985101988593694/transcript-c0-amber-2-simultaneous-baron-bunnies.html) 
-
-**Finding:**  
-Two Baron Bunnies can exist simultaneously on C0 Amber.
-
-**Evidence:** [Video](https://youtu.be/a3_6u2jdFsE)  
-Test was done on Floor 1 of the Abyss with a 4-piece Gambler set. 
-
-**Significance:**  
-It is possible to spawn multiple Baron Bunnies at once without C4 Amber. 
-
-## Baron Bunny's aura
-
-**By:** Aluminum\#5462  
-**Added:** 5/6/2021  
-[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/839475466792599573/840049309344464967/transcript-baron-bunny-aura.html)
-
-**Finding:**  
-Baron Bunny is allowed to have a hydro or cryo aura, as well as be frozen. In the former case only environmental effects may apply the hydro aura. Most reactions function properly on this aura, notable crystalize, swirl, superconduct and shatter. It is not known how one may apply a pyro or electro aura to the Bunny, and the author could not find a way for the bunny to be electrocharged.
-
-**Evidence:** [Video](https://youtube.com/playlist?list=PLPByPR2TubV5LHQ9Oab6k1bthvfrHkiSu)
-
-**Significance:**  
-Baron Bunny may be used as an entity to hold certain auras.
-
-## Amber Burst Overload Consistency
+### Amber Burst Overload Consistency
 
 **By:** Bobrokrot\#0111  
 **Added:** 5/23/2021  
@@ -81,7 +85,24 @@ Baron Bunny may be used as an entity to hold certain auras.
 
 **Significance:** The random arrow distribution in Amber's burst makes the reaction potential of her burst as the trigger very inconsistent.
 
-## Amber C1 & C2 damage
+## Constellation Mechanics
+
+### C0 Amber: 2 Simultaneous Baron Bunnies
+
+**By:** Exuma\#1917  
+**Added:** 6/17/2021  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/846678238796316683/854985101988593694/transcript-c0-amber-2-simultaneous-baron-bunnies.html) 
+
+**Finding:**  
+Two Baron Bunnies can exist simultaneously on C0 Amber.
+
+**Evidence:** [Video](https://youtu.be/a3_6u2jdFsE)  
+Test was done on Floor 1 of the Abyss with a 4-piece Gambler set. 
+
+**Significance:**  
+It is possible to spawn multiple Baron Bunnies at once without C4 Amber. 
+
+### Amber C1 & C2 Damage
 
 **By:** elijam\#7142  
 **Added:** 08/07/2021  
