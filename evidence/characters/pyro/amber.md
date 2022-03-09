@@ -87,7 +87,7 @@ There is another example of this happening in 4c, when one of the slimes jumps i
 
 ## Constellation Mechanics
 
-### C0 Amber: 2 Simultaneous Baron Bunnies
+### C0: 2 Simultaneous Baron Bunnies
 
 **By:** Exuma\#1917  
 **Added:** 6/17/2021  
@@ -121,3 +121,33 @@ Testing done by minah\#0853
 Damage increases with 2gambler bonus, and does not increase when 4NO buff is activated after skill cast but before detonation - [Video](https://www.youtube.com/watch?v=ErKHwO8wz0U)
 
 **Significance:** Damage calculations and rotation considerations for Amber
+
+## C2: Bunny Triggered
+
+### Amber C2 Works on CO-OP Teammate Baron Bunnies
+
+**By:** flibby404\#5843  
+**Added:** 03/09/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/951192426075267152/transcript-amber-c2-works-on-coop-teammate-baron-bunnies.html)  
+
+**Finding:**  
+C2 Amber users can trigger teammates' baron bunnies. This effect works even if the teammate does not own C2 Amber, but the damage bonus will not apply without it.  
+
+**Evidence:**  
+[Video 1](https://youtu.be/dNJIaT1MP8w)  
+* The damage bonus does not apply if the teammate does not own C2 Amber.  
+
+[Video 2](https://youtu.be/-JPTFQlZ6vk)  
+* Mathematical Confirmation:  
+
+    * Hilichurls
+        * Automatic Detonation: 102 \(ATK\) \* 123.2% \(Talent Scaling\) \* 1 \(Damage Bonus\) \* 90% \(10% Pyro Resistance\) \* 0.425 \(Rounded Defense Multiplier\) = 48.06648
+        * Manual Detonation: 102 \(ATK\) \* 123.2% \(Talent Scaling\) \* 1+2 \* 90% \(10% Pyro Resistance\) \* 0.425 \(Rounded Defense Multiplier\) = 144.19944
+    * Regisvine
+        * Automatic Detonation: 102 \(ATK\) \* 123.2% \(Talent Scaling\) \* 1 \(Damage Bonus\) \* 90% \(10% Pyro Resistance\) \* 0.404 \(Rounded Defense Multiplier\) = 45.6914304
+        * Manual Detonation: 102 \(ATK\) \* 123.2% \(Talent Scaling\) \* 1 \(Damage Bonus\) \* 90% \(10% Pyro Resistance\) \* 0.404 \(Rounded Defense Multiplier\) = 137.0742912
+
+A crit on the automatic detonation at 50% crit damage would land 72 on the hilichurls and 69 on the regisvine, rather than 144 and 137 respectively.  
+
+**Significance:**  
+ Optimizing niche coop damage scenarios and possible applications on future characters with similar effects.  
