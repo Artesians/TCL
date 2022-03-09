@@ -92,6 +92,7 @@ The longer the button is held, the further the throw.
   * Only environmental effects may apply the hydro aura. 
   * Most reactions function properly on this aura, notably: crystalize, swirl, superconduct, and shatter.
 * Multiple Baron Bunnies can be spawned without C4 when utilizing cooldown reduction effects.
+* **Baron Bunny**'s duration starts when it lands, not when the Skill is casted.
 {% endtab %}
 
 {% tab title="Fiery Rain" %}
