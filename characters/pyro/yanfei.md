@@ -50,7 +50,7 @@ Each **Scarlet Seal** will decrease Yanfei's Stamina consumption by 15% and will
 Consumes **50** stamina and all **Scarlet Seals** before dealing AoE Pyro DMG.
 
 * This Charged Attack's AoE and DMG will increase according to the amount of **Scarlet Seals** consumed
-* Yanfei's charged attack shatters frozen targets.
+* Yanfei's Charged Attack shatters frozen targets.
 
 | String | Talent 9% | Frames | MV/s | GU |
 | :--- | :--- | :--- | :--- | :--- |
@@ -145,8 +145,8 @@ When Yanfei's Charged Attack deals a CRIT Hit to opponents, she will deal an add
 | Damage Element | Pyro |
 | Damage Type | Charged Attack | 
 
-* **Blazing Eye** no noticeable ICD to trigger or pyro application.
-  * This is on a separate ICD from her charged attack.
+* **Blazing Eye** no noticeable ICD to trigger or Pyro application.
+  * This is on a separate ICD from her Charged Attack.
 * **Blazing Eye** can trigger vs enemy shields.
 {% endtab %}
 {% endtabs %}
@@ -198,7 +198,7 @@ Maximum upgrade level is 15.
 
 Increases the maximum number of **Scarlet Seals** by 1.
 
-* At 4 seals, Yanfei's charged attack will consume 0 stamina.
+* At 4 seals, Yanfei's Charged Attack will consume 0 Stamina.
 
 {% endtab %}
 {% endtabs %}
