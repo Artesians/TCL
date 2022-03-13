@@ -33,7 +33,7 @@ Shoots fireballs that deal up to three counts of Pyro DMG.
 
 When Yanfei's Normal Attacks hit enemies, they will grant her a single **Scarlet Seal**. Yanfei may possess a maximum of 3 **Scarlet Seal**s, and each time this effect is triggered, the duration of currently possessed **Scarlet Seal**s will refresh.
 
-Each **Scarlet Seal** will decrease Yanfei's Stamina consumption g6 15% and will disappear when she leaves the field.
+Each **Scarlet Seal** will decrease Yanfei's Stamina consumption by 15% and will disappear when she leaves the field.
 
 
 | String | Talent 9% | Frames | MV/s |
@@ -52,13 +52,12 @@ Consumes **50** stamina and all **Scarlet Seals** before dealing AoE Pyro DMG.
 * This Charged Attack's AoE and DMG will increase according to the amount of **Scarlet Seals** consumed
 * Yanfei's charged attack shatters frozen targets.
 
-| String | Talent 9% | Frames |
-| :--- | :--- | :--- |
-| Charged Attack | 152.34% + 26.89%/Seal | 72 |
-| GU | 1A | ~ |
-| N1C | 251.52% + 26.89%/Seal | 98 |
-| N2C | 340.13% + 26.89%/Seal | 107 |
-| N3C | 469.35% + 26.89%/Seal | 168 |
+| String | Talent 9% | Frames | MV/s | GU |
+| :--- | :--- | :--- | :--- | :--- |
+| Charged Attack | 152.34% + 26.89%/Seal | 72 | 126.95%/s + 22.41%/s/Seal | 1A |
+| N1C | 251.52% + 26.89%/Seal | 98 | 153.99%/s + 16.46%/s \(1 Seal\) | 1A |
+| N2C | 340.13% + 26.89%/Seal | 107 | 190.73%/s + 30.16%/s \(2 Seals\) | 1A |
+| N3C | 469.35% + 26.89%/Seal | 168 | 167.63%/s + 28.81%/s \(3 Seals\) | 1A |
 
 **Plunge**
 
