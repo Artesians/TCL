@@ -1379,7 +1379,9 @@ Electro Seelie when on a mount, can apply Electro at any vertical range, but not
 **Significance:**  
 More knowledge on Electro Seelie mechanics
 
-## Phantom Phase Gates
+## Phase Gates
+
+### Phantom Phase Gates
 
 **By:** Rathalos\#2875  
 **Added:** 03/16/2022  
