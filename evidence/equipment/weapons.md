@@ -1112,18 +1112,18 @@ The Alley Flash's passive symbol fully materializes at 561 frames (9.35 seconds)
 
 ### The Widsith
 
-#### Widsith Abyss Chamber Two Proc
+#### Widsith Abyss Second Half Proc
 
 **By:** Keteru\#3020  
 **Added:** 03/16/2022  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/953765873573834813/transcript-widsith-abyss-chamber-two-proc.html)  
 
 **Finding:**  
-The Widsth’s Passive activates upon entering chamber 2 of an Abyss floor with its holder being on the first slot.  
+The Widsth’s Passive activates upon entering the second half of an Abyss chamber with its holder being on the first slot.  
 
 **Evidence:**  
 [YouTube video](https://youtu.be/BbthBalOGiM)  
-Yae Miko holding The Widsith in slot 1 is buffed for less than 10 seconds, seemingly triggering during the transition screen when proceeding changing from team 1 to team 2, eating into the buff uptime.  
+Yae Miko holding The Widsith in slot 1 is buffed for less than 10 seconds, seemingly triggering during the transition screen when proceeding changing from first half to second half, eating into the buff uptime.  
 
 **Significance:**  
 Changes Abyss team slotting and potentially optimal team rotation when using The Widsith.  
