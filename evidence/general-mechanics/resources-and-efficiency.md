@@ -460,7 +460,7 @@ The above video displays that investigation spots are stored in your memory, and
 * 'Co-op helps': Investigates \(Artifacts, Weapons, Iron, Energy, Veggies\) don't despawn after reaching daily cap as long as a watcher \(host or co-op teammate\) is near them \[1\].
 * 'Order matters': Which spots are included in a cluster can change depending on which spot is being watched when 100th investigate is done \[2\]\[5\].
 * 'Wide clusters': Clusters can extend pretty far \[3\].
-* 'Merged!': Tatarasuna and the nearby spots #7, #8 & BK6 can be merged into a single cluster by placing watchers at certain locations. Same goes for Koseki and Seiraimaru \(Kosekimaru?\) \[4\].
+* 'Merged!': Tatarasuna and the nearby spots \#7, \#8 & BK6 can be merged into a single cluster by placing watchers at certain locations. Same goes for Koseki and Seiraimaru \(Kosekimaru?\) \[4\].
 * 'Hypothesis': Seems like there are pre-defined 'groups' of these spots that can be held in memory as long as a watcher is in a certain range of at least one or few of its spots. these groups can still despawn if they are left unwatched anytime after reaching the cap. 
 
 Notes:
