@@ -33,6 +33,7 @@ description: For entries that have little practical use.
   * Inazuma - Tsurumi Island Statue
 * Some doors in the overworld, notable ones being Jean's office door and the door to the Library in Favonius HQ act as a mini load border, which can make some very [interesting things happen.](../evidence/general-mechanics/miscellaneous-entries.md#door-load-border-shenanigans)
 * The Crit Rate and damage of the Bokuso Box scale off of the stats of the character that is on-field when it is used.
+* By following [these steps](../evidence/general-mechanics/miscellaneous-entries.md#stoves-of-babel), using stoves and Geo Constructs, players can potentially ascend indefinitely until they run out of stoves. This can be done in Singleplayer and Multiplayer.  
 
 ## Cancelling
 
