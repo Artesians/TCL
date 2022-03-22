@@ -107,14 +107,11 @@ Credits to @Way for the initial finding.
 
 Or well, more like extra verification since this isn't actually in the library yet and I know people throw around "8 seconds" a lot, but Superconduct actually lasts for 12 seconds. This is not \(noticably\) affected by anything like EM or skill level or GU etc, seems to be static.
 
-**Evidence:**
+**Evidence:**  
+* [YouTube](https://youtu.be/f9V_58xISMg)
+* [YouTube](https://youtu.be/PY1eCxfoYKo)
 
-[https://youtu.be/f9V\_58xISMg](https://youtu.be/f9V_58xISMg)
-
-[https://youtu.be/PY1eCxfoYKo](https://youtu.be/PY1eCxfoYKo)
-
-**Significance:**
-
+**Significance:**  
 Diona is perfectly viable for SC uptime even without Sacrificial Bow when using only Hold E, leaving only 3 seconds to cover if she was the one to trigger SC in the first place \(and it will usually be your Electro character instead, further closing the downtime\)
 
 In addition, like other debuffs/buffs as has been recently discovered, it is affected by hitlag extending the duration, further closing the gap for her Hold E cooldown.
@@ -586,12 +583,60 @@ Better understanding of how EC works.
 **Finding:**  
 0 gauge Electro attacks don't change Electro-Charged ownership.
 
-**Evidence:** [Youtube](https://www.youtube.com/watch?v=y6bqn174YHY)
+**Evidence:**  
+[YouTube](https://www.youtube.com/watch?v=y6bqn174YHY)  
 
 **Significance:**  
 Nothing, considering the only 0 gauge attacks are Lisa's Q's initial damage and her plunge collision for Electro, and the three Hydro catalyst user's plunge collisions for Hydro.  
 That said, this emphasises that the AoE portion of EC changes ownership through a different mechanism than just dealing Electro damage.
 
+### EC Hydro Aura Electro Trigger Interaction is Bugged
+
+**By:** D.....K\#9002  
+**Added:** 03/09/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/951298348135116901/transcript-ec-hydro-aura-electro-trigger-interaction-is-bugged.html)  
+
+**Finding:**  
+Electro when used to trigger EC cannot persist as Electro aura after the EC ticks, even when Electro gauge is greater than the Hydro gauge.  
+
+**Evidence:**  
+1. [1U Hydro into 2U Electro](https://youtu.be/r8PpZ7417pQ): No Electro after EC \(bugged since Electro should persist\).
+2. [1U Hydro into 4U Electro](https://youtu.be/HPGMxkiHMZA): No Electro after EC \(bugged since Electro should persist, no idea why Hydro aura persists for some time\).
+3. [1U Electro into 2U Hydro](https://youtu.be/sae2MdlOaNI): Hydro persists as aura after EC \(not bugged\).
+4. [1U Hydro into 1U Electro](https://youtu.be/6p3_MjqYTUw): No Electro \(bugged, electro should persist, no idea why the Hydro aura persists\).
+5. [4U Electro 1U hydro](https://youtu.be/03H2z-xu2Xw): Electro persists \(not bugged\).
+6. [2U Hydro into 2U Electro and 2U Hydro into 1U Electro](https://youtu.be/XwQQ3_FnoqM): Hydro persists \(not bugged\).
+7. [1U Electro into 1U Hydro](https://youtu.be/moRP2zL1SZ4): No Electro or Hydro after EC \(not bugged\).
+
+**Additional Finding:**  
+If a Hydro aura exists on an enemy, Electro can at most apply the same amount of gauge units as the existing Hydro aura.  
+
+**Evidence:**  
+* [Barbara N1 - wait - Beidou Q](https://youtu.be/sEsgvNYMvEY)
+* [Mona E 4th tick - Beidou Q - Mona E explosion](https://youtu.be/IpMONEWcddY)
+
+Triggering reactions off of the Electro aura:  
+* [Mona Q pop - Beidou Q - Xiao E](https://youtu.be/U5WqPOmFOvw)
+* [Childe E - Beidou Q - Kazuha E tap](https://www.youtube.com/watch?v=XAE2wiJYlKw)
+* [Childe E - Beidou E - Sucrose N1](https://www.youtube.com/watch?v=G1w8ZH5_UKc)
+* [Kokomi N1 - Beidou E - Yanfei N1](https://www.youtube.com/watch?v=3ZWizx5FsN0)
+
+**Finding appendix 1:**  
+The decay rate of the applied Electro still remains normal.  
+
+**Evidence:**  
+* [Mona Q initial - Mona Q pop - Beidou Q](https://youtu.be/F-Py2rZBBGs)
+
+**Finding appendix 2:**  
+If the Electro aura applied is less than the existing Hydro aura, it will behave normally.  
+
+**Evidence:**  
+* [Mona Q Pop - Raiden E coordinated attack](https://youtu.be/8f3Dvdo7KRI)
+
+Evidence by Charisma\#5567 and phaZZi\#6461  
+
+**Significance:**  
+Less reactions will be triggered than the normal amount according to EGT.  
 
 ## Frozen + Shatter
 
@@ -603,9 +648,8 @@ That said, this emphasises that the AoE portion of EC changes ownership through 
 
 **Finding:** Finding: Applying a 2U Hydro -> 1U Cryo aura will cause the enemy to be affected by both frozen and hydro. However, applying a 1U Cryo -> 2U Hydro will only cause the enemy to be affected by frozen.
 
-**Evidence:** https://youtu.be/wTNjwEvPrEk
-
-In the above video, in the first situation I apply 1U Cryo with Ganyu, then 2U Hydro with Childe, and the enemy is only affected by Frozen, as displayed by Diluc only shattering when hitting the enemy with a heavy pyro attack. However, in the second situation, I apply 2U Hydro with Childe, then 1U Cryo with Ganyu, and the enemy is affected by Frozen and Hydro, as displayed by Diluc vaporizing with a heavy pyro attack.
+**Evidence:**    
+In [this video](https://youtu.be/wTNjwEvPrEk), in the first situation I apply 1U Cryo with Ganyu, then 2U Hydro with Childe, and the enemy is only affected by Frozen, as displayed by Diluc only shattering when hitting the enemy with a heavy pyro attack. However, in the second situation, I apply 2U Hydro with Childe, then 1U Cryo with Ganyu, and the enemy is affected by Frozen and Hydro, as displayed by Diluc vaporizing with a heavy pyro attack.
 
 **Significance:** More knowledge about how frozen interacts with underlying auras, possibly better rotations
 
@@ -978,6 +1022,25 @@ Write-up: [Google Docs](https://docs.google.com/document/d/1JJTGJzIUdIKUCEK-SxWE
 **Significance:**  
 Better understanding of freeze duration. More accurate dps calcs in permafreeze teams. Gcsim.
 
+### Shatter Doesn't Trigger Stuff
+
+**By:** Peekays\#2722  
+**Added:** 03/16/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/953773287568195644/transcript-shatter-doesnt-trigger-stuff.html)  
+
+**Finding:**  
+Shatter does not trigger Passives that are supposed to trigger when a reaction occurs.  
+
+**Evidence:**  
+Some of the things that Shatter does not trigger:
+* [4pc Instructor](https://youtu.be/9bGdyhvrBYY)
+* [Qiqi A1](https://www.youtube.com/watch?v=i8LNwupWwEg)
+* [Mappa Mare Passive](https://www.youtube.com/watch?v=jXZ-HqBivS4)
+* [Freedom-Sworn](https://youtu.be/ZiWo2v35XlM)
+
+**Significance:**  
+Perhaps some surprising exceptions.  
+
 ## Swirl
 
 ### How to get Double Swirls
@@ -1007,6 +1070,23 @@ _If the anemo gauge reduction isn't greater, the swirl will be Electro\(EC\)/Hyd
 
 **Significance:**  
 More knowledge about how swirl works, better rotations and team-building
+
+### Confirmation of Double Swirl on Freeze Aura Mechanics
+
+**By:** Mutsuki\#0884  
+**Added:** 03/16/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/953822978754363472/transcript-confirmation-of-double-swirl-on-freeze-aura-mechanics.html)  
+
+**Finding:**  
+Confirmation of double swirl on frozen enemy mechanics.  
+
+**Evidence:**  
+In [this video](https://youtu.be/w_Oa5dPHNL4), Diona applies 1U Cryo, followed by Kokomi’s N1 applying 1U Hydro to create a Freeze aura. Then Kokomi's Burst is casted to apply a 2U Hydro aura that coexists with the 1U frozen aura. 
+Jean’s E applies 2U Anemo to the frozen target, but only swirls Hydro, which confirms a preciously untested theory that the Anemo gauge must specifically be greater than the coexisting Hydro gauge in order to double swirl a frozen target.  
+As far as I’m aware this was previously unconfirmed due to the difficulty or inability to test this specific scenario of 1U frozen with a 2U Hydro aura prior to Kokomi’s release, as Childe’s 2U Hydro attacks would shatter a frozen enemy.  
+
+**Significance:**  
+Better understanding of the mechanics behind Freeze to better set up rotations in the future.  
 
 ### Swirl AOE Limit
 
@@ -1167,6 +1247,27 @@ The player should only pick up correct-element crystallize crystals when fightin
 I electro charged in different orders with different application strengths. The result was always an Electro crystal.
 
 **Significance:** Don't expect a Hydro crystal for petra buff on Electro-Charged opponents.
+
+### Crystal Spawn Location for Enemy
+
+**By:** Sylenwolf\#5802  
+**Added:** 03/16/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/953745714004000788/transcript-crystal-spawn-location-for-enemy.html)  
+
+**Finding:**  
+The Crystalize reaction will always spawn a crystal in front of the enemy.  
+
+**Evidence:**  
+Ningguang applies Geo with Normal Attacks. Then, the Crystalize reaction occurs and the crystal spawns in front of the enemy. Do note that some enemies don't have a specific "front side", such as the hypostases. There are other factors that could determine where the crystals spawn, like when an enemy turns around or moves. However the principles  stays the same.  
+
+* Ruin Guard: [YouTube video](https://youtu.be/VsUPVCRX2YU)
+* Samachurl: [YouTube video](https://youtu.be/8vq-Bu7sI_I)
+* Electro Hypostasis: [YouTube video](https://youtu.be/fDHL6BBgPKg)
+
+**Significance:**  
+1. Makes it easier for characters to pick up crystals.
+2. Makes it easier for characters to use the Archaic Petra artifact set. 
+3. Allows the player to determine the position of the enemies and which way they are facing. 
 
 ## Burning
 
