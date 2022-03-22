@@ -174,7 +174,7 @@ Offers an easy way to visualize how the probability changes with the CRIT Rate. 
 
 ## Millennial Movement Series
 
-### Millennial Movement stack mechanics
+### Millennial Movement Stack Mechanics
 
 **By:** rakka\#0099  
 **Added:** 5/22/2021  
@@ -192,6 +192,41 @@ Different weapons with the Millennial Movement effect can stack, however effects
 **Significance:**  
 Millennial Movement passives can stack, however if a buff type overlaps \(ATK, movement speed, EM, etc....\) then the last effects will override the previous effects while leaving the non-overlap effects alone.  
 This means that mismatched refinements with overlapping effects can affect the complexity of when Millennial buffs need to proc, so either an Elegy and Pines on the same team should both be R1, R2, etc or it means that the player has to be aware of the order of operations for their swap comps.
+
+### Elegy Stack Inconsistencies
+
+**By:** Wüolf\#3334  
+**Added:** 03/09/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/951178898090127420/transcript-elegy-stack-inconsistencies.html)  
+
+**Findings:**  
+On-field stack gain is consistent across all FPS with damage ticks excluding Amber due to her multiple damage ticks/0.2s and sometimes Sara’s Burst where the different pairs of thunderbolts appear at different times.  
+
+Off-field stack gain:
+* Amber: We count stacks gained by the end of the Burst. At 30 FPS she can get 2-3 Elegy stacks, at 60 FPS she could consistently gain 4 stacks by the end of her Burst. Note for some people at lower pings there seems to be inconsistencies at 60 FPS.
+* Venti:
+  * Q only: At 30 FPS it will take 7 damage ticks consistently to proc elegy across all pings from our testing. At 60 FPS Venti can proc the Elegy buff at 4 damage ticks, however for some people it isn’t consistent, Venti will proc Elegy at around 4-6 DMG ticks and very rarely 7.
+  * E-Q : Using Vye’s consistent videos. At 30fps it takes 4 Q damage ticks after E to get 4 stacks. At 60fps it takes 3 Q damage ticks to get 4 stacks.
+* Sara: 
+After the initial hit the 2 sets of lightning bolts can spawn at different times. Counting the damage ticks and stack count of 1 set of lightning bolts after the initial hit to make it less confusing. At 3 bolt damage ticks she could get 2 more stacks (total 3 stacks) and she could also get 1 more stack(total 2 stacks). At 60 FPS there are similar results inconsistently getting 2 or 3 stacks at 3 damage ticks.
+
+**Evidence:**  
+Amber:  
+* 30 FPS: [Video](https://youtu.be/nnSRxEZccI4)
+* 60 FPS: [Video 1](https://youtu.be/hQJjcKFU690), [Video 2](https://youtu.be/1FM8_9XjhXg), [Video 3](https://www.youtube.com/watch?v=jT8K_A4QKPY)
+
+Venti:  
+* 30 FPS \(Q\): [Video 1](https://www.youtube.com/watch?v=WxkiG_F5P3A), [Video 2](https://www.youtube.com/watch?v=1zYtpGwKSeI) 
+* 30 FPS \(E+Q\): [Video](https://www.youtube.com/watch?v=QM9bnO-KMdA)
+* 60 FPS \(Q\): [Video 1](https://www.youtube.com/watch?v=1zYtpGwKSeI), [Video 2](https://www.youtube.com/watch?v=KEwmJkjaME8), [Video 3](https://youtu.be/65zeERU-uXs)
+* 60 FPS \(E+Q\): [Video](https://www.youtube.com/watch?v=Ms9aIDiKjKA)
+
+Sara:  
+* 30 FPS: [Video](https://youtu.be/eMUQpp1XQBg)
+* 60 FPS: [Video](https://youtu.be/6Y81kua7Vmc)
+
+**Significance:**  
+Server sided registration on Elegy stack gain means that unstable ping can lead to different amount of damage ticks to proc 4 stacks. The longer time required to gain 4 stacks (if possible) needs to be taken into account for rotations with heavy and fast quick-swapping, to counteract the long time, Amber should stay on the field for 1 second or use E after using her Q before switching to 4pc VV supports in Hu Tao teams. Venti should always E+Q as it brings the time to gain 4 stacks down massively. Sara should use her C2 and Charged Attacks before using her Q to make sure she can guarantee the 4 Elegy stacks before switching to other characters.  
 
 ## Royal Weapon Series
 
@@ -641,6 +676,35 @@ Since the buff is yet still applied to Skills that produce it, it is conclusory 
 **Significance:**  
 Kagura's Verity's Skill% is dynamic and cannot be snapshotted. What this also implies is that Elemental Skills that were to produce a Stack of Kagura Dance would also get it’s buff applied to itself. Which further leads to the conclusion that every Elemental Skill used, if Kagura’s Verity is equipped, will have at least 1 Stack of Kagura Dance applied.  
 The Skill% buff being dynamic also fits in line with other Skill% buffs which are also dynamic (Solar Pearl).  
+
+#### Klee and Kagura Stacks
+
+**By:** solo\#3333  
+**Added:** 03/09/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/951283825449775195/transcript-klee-and-kagura-stacks.html)  
+
+**Finding:**  
+Klee can get 2 stacks of Kagura's Verity from only 1 cast of her Jumpy Dumpty by inputting the Skill twice or more before it goes on cooldown \(aka "double tap"\), however with several caveats.  
+* The first stack is gained approx. 34 frames into the cast, and the second stack is gained approx. 81 frames into the cast.
+* Klee cannot perform any other actions between these frames or the additional stack will not be granted. This includes dashing, jumping, using Burst, Normal Attacks, Charged Attacks, and using her Skill again \- all of which she can do before ~81 frames have passed from the first skill. If Klee uses both charges of Jumpy Dumpty and she allows ~81 frames to pass for at least one of them, she will end up with 3 stacks of the weapon.
+
+**Evidence:**  
+* [Frames](https://youtu.be/C0CZwAcytJ8): Notice how the Skill icon lights up twice before going on cooldown. There is also a visual and audio indicator when Kagura stacks are granted (a layer of the weapon glows and a bell chime plays). However the visual is extremely subtle. To the best of my knowledge, the cast animation is at 230 frames, the first stack is at ~264 frames, and the second stack is at ~311 frames.
+- [Proof of stack gaining techniques](https://youtu.be/0h_NRGgl4qA) \(credit to pai\#3602\).
+  * First clip: cast E, no double tap, 1 stack is granted.
+  * Second clip: cast E, with double tap, 2 stacks are granted, after ~81 frames.
+  * Third clip: cast E, with double tap, 2 stacks are granted after ~81 frames. Use the second charge, and the 3rd stack is granted.
+  * Fourth clip: cast E, with double tap, but do not wait 81 frames, only 1 stack is granted. Use the second charge with double tap, and wait ~81 frames, the last 2 stacks are finally granted.
+* Other inputs cancel the additional stack, such as:
+  * [Dashing](https://youtu.be/oH9fHlXlpoE)
+  * [Jumping](https://youtu.be/rgVjce5RGqE)
+  * [Bursting](https://youtu.be/DZLf-SMmF3g) \(note the buff arrows are from C6 not the weapon\)
+  * [Using Skill again](https://youtu.be/H_-JWNsMXKY) \(you get another stack immediately upon 2nd skill usage, but it doesn't progress to 3\)
+  * [Using N1](https://youtu.be/3of3YagGA4Q)
+  * [Using CA](https://youtu.be/ZxWfmyAHGbs)
+
+**Significance:**  
+Potentially affects the viability of this weapon for Klee. The caveat of waiting for ~81 frames has dubious impact on a real rotation since most Klee usage involves animation cancels. See [this doc](https://docs.google.com/spreadsheets/d/1-jb7WVxtqFbeLKIyIVvqTQJdsBFYuUnUzRrvStiGqH8/edit?usp=sharing) for stack counts on every part of a standard Klee rotation vs their delayed version.  
 
 ### Kitain Cross Spear  
 
@@ -1167,6 +1231,34 @@ The videos show:
 **Significance:**  
 This interaction may affect other "triggers on taking dmg" + shield interactions. The only other ability I can think of that could be similarly affected would be Zhongli A2.
 
+#### Aquila Healing is Affected by Healing Bonus
+
+**By:** IAmOnYourSide\#5431  
+**Added:** 03/09/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/951288550870089768/transcript-aquila-healing-affected-by-healing-bonuses.html)  
+
+**Finding:**  
+Aquila's healing effects are affected by incoming and outgoing healing bonuses.  
+
+**Evidence:**  
+[No healing bonuses](https://youtu.be/pXTGlicy6A4)  
+* HP restored: 291
+* Bennett with almost no artifacts.
+
+
+[Hydro Resonance](https://youtu.be/A5Pqazum-4g)  
+* HP restored: 379
+* 379/291 = 1.302405498281787
+* Yields 30% from Hydro Resonance as expected.
+
+[Hydro Resonance + 2pc Maiden](https://youtu.be/XdoseuBTj5c)  
+* HP restored: 422
+* 422/291 = 1.4501718213058419
+* Yields 45% from Hydro Resonance + 2pc Maiden as expected.
+
+**Significance:**  
+Aquila's healing effects are affected by incoming and outgoing healing bonuses. Prototype Amber and The Black Sword are expected to be the same, but were not tested.  
+
 ## General Mechanics
 
 ### Event Weapons Cannot be Foddered
@@ -1222,6 +1314,21 @@ Side by side comparisons of a C0 vs C1 Xinyan
 
 **Significance:**  
 If an Attack Speed buff is active, such as Beidou's A4 after max parry, the charged attack will gain the speed increase for its entire length even if it wears off during the attack. Additionally, as the only character that can currently dynamically receive a speed buff mid-Charged Attack is Xinyan with C1, this means she MUST trigger the buff before-hand, as it will have no effect if triggered during the spin itself.
+
+### Charged Attack Speed Buff Update
+
+**By:** tamamo\#4303  
+**Added:** 03/09/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/951294681289998357/transcript-charged-attack-speed-buff-update.html)  
+
+**Finding:**  
+Charged Attack speed buffs do not dynamically increase claymore Charged Attack speed, but dynamically decrease Charged Attack speed if duration ends during the attack.  
+
+**Evidence:**  
+[YouTube video](https://youtu.be/Cqi-PAVGuF8)  
+
+**Significance:**  
+Better understanding of Charged Attack speed buffs (with the exception of Itto).  
 
 ### Catalyst Effective Attack Comparisons
 
