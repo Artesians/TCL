@@ -69,6 +69,7 @@ Electro-Charged is a special Transformative reaction that deals Electro damage a
 * Electro-Charged ticks only consumes Hydro and Electro gauge when both Hydro and Electro are present.
 * Electro-Charged ticks only remove gauge when they deal damage. Both gauges will still decay naturally over time though, with or without damage.
 * 0 gauge Electro attacks don't change Electro-Charged ownership.
+* As of patch 2.5, there is a bug when using Electro as the trigger. The Electro aura will not persist after the Electro-Charged ticks, even when the Electro gauge is greater than the Hydro gauge. Refer to the [Evidence Vault](/evidence/combat-mechanics/elemental-effects/transformative-reactions.md#ec-hydro-aura-electro-trigger-interaction-is-bugged) for more details.
 
 ## Shatter
 
@@ -78,6 +79,8 @@ Attacks that apply Shatter have different GU values, refer to the [Evidence Vaul
 
 In some situations, Shattering a Frozen enemy removes less than the normal 8GU. This allows multiple Shatters to occur on a single Frozen, or Shatter + Melt at the same time.
 * This appears to be a bug and not a consistent reaction.
+
+Shatter does not trigger weapon, artifact, or character Passives.  
 
 ## Frozen
 
@@ -150,6 +153,7 @@ Crystallize is an elemental reaction triggered by applying Geo on a target affli
 
 * Triggering Crystallize on an Electro-Charged target will provide an Electro Crystal.
 * Picking up multiple crystals refreshes the duration of the shield and its element type.
+* Crystals will always spawn in front of the enemy when possible.
 
 ## Burning
 

@@ -101,6 +101,8 @@ The overworld map is split into multiple zones that affect enemy level and envir
 
 Some constructs take zone level damage, a list of those that have been documented can be found [here.](../evidence/general-mechanics/overworld.md#constructs-take-zone-level-damage)  
 
+Zone level damage is based on the players current location, not the location of whatever is [taking damage.](../evidence/general-mechanics/overworld.md#zone-level-damage-is-based-on-player-location)
+
 ## Artifacts
 
 - 4TF and 4CW set bonuses towards Overload and Superconduct do not apply to reactions involving objects or elementally modified terrain such as electrified and frozen water.
@@ -128,7 +130,7 @@ Some constructs take zone level damage, a list of those that have been documente
 - Applying electro to water does not produce electro-charged, instead it creates an instance of Electrified.  
   - Some fountains and pools of water cannot create an instance of Electrified.
 - Overworld water applies hydro with an ICD of 0.25 seconds, a strength of 10 durability per tick, up to a max of 50, and a duration of 8 seconds, regardless of durability.
-- Not all graphically represented water in waterfalls will apply the Wet status to the active character.
+- Not all graphically represented water in waterfalls will apply the Wet status to the active character. See this [Vault Entry](../evidence/general-mechanics/overworld.md#not-all-falls-water-is-false-water) for a complete map.
 
 ### Rain  
 
@@ -206,6 +208,9 @@ The Cryo element is able to be applied to many overworld objects, such as ores a
 ## Electro Seelie Electro Application 
 
 * Electro seelie when on a mount, can apply electro at any vertical range, but not when it has yet to reach its final destination. [Vault Entry](../evidence/general-mechanics/overworld.md#electro-seelie-electro-application-vertical-range)
+
+## Phase Gates
+* During Daily Commissions, Phase Gates will be invisible but can still be used.
 
 ## Evidence Vault
 

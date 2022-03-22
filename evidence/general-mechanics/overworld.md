@@ -451,6 +451,26 @@ Waterfalls are inconsistent.
 **Significance:**  
 Falls water.  
 
+### Not All Falls Water is False Water: Enkanomiya Addendum
+
+**By:** Pablos\#1142  
+**Added:** 03/09/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/951292350569799731/transcript-not-all-falls-water-is-false-water-enkanomiya-addendum.html)  
+
+**Finding:**  
+* Waterfalls are still inconsistent in version 2.4.
+* Adding point 2. c.
+* Some of the platforms mentioned in point 2. b. can be invisible.
+* New region mapped.
+* New waterfall testing techniques found.
+
+**Evidence:**  
+* [2. c.](https://imgur.com/a/YvGLfiO)
+* Enkanomiya and research techniques tabs added to the existing [waterfall sheet](https://docs.google.com/spreadsheets/d/13R4lerotIbNG2Hc55f974r6H61aEcJd6R4PUYxLPKw0/edit?usp=sharing) with links.  
+
+**Significance:**  
+Update to the map of all waterfalls. Update to the original findings in the library entry. Added collection of tips for future generations of waterfall scholars.  
+
 ### Electro Crystal Range
 
 **By:** Greyhound\#7836  
@@ -682,7 +702,23 @@ Some constructs take damage according to zone level.
 * Slime Pool: [Youtube](https://www.youtube.com/watch?v=gmgIcJlTI8o)   
 
 **Significance:**  
-Fluff and overworld documentation.  
+Fluff and overworld documentation.    
+
+### Zone Level Damage Is Based On Player Location  
+
+**By:** NZPIEFACE\#8439   
+**Added:** 03/13/2022   
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/952644713566064710/transcript-zone-levels-are-in-relation-to-players.html)
+
+**Finding:**  
+Zone level damage is relative to the player's position rather than the location of whatever is taking damage.
+
+**Evidence:**   
+The burning damage changes as the player enters and exists different zone levels.   
+[Youtube](https://youtu.be/Z5HkCkU0heY)  
+
+**Significance:**  
+Zone levels are "global" in a sense.
 
 ### Bush Elemental Interaction
 
@@ -1143,7 +1179,7 @@ To start, Bennett had 281/10,987 HP (2.56%) and Fischl had 190/8,144 HP (2.33%).
 **Significance:**  
 Documentation and better understanding of how the game handles health and death.
 
-## Not all 2U pyro attacks ignite grass
+## Not All 2U Pyro Attacks Ignite Grass
 
 **By:** Nass008\#8577  
 **Added:** 10/16/2021  
@@ -1350,7 +1386,7 @@ Misc:
 **Significance:**  
 Fluff, exploration, overworld survivability.
 
-### Stuff Can Infuse Cryo
+## Stuff Can Infuse Cryo
 **By:** Raven#9205  
 **Added:** 1/21/2022  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/918031384122114048/934045834268532736/transcript-stuff-can-infuse-cryo.html)
@@ -1365,7 +1401,7 @@ It should be noted that some objects simply cannot be tested as they are destroy
 **Significance:**  
 Largely fluff. However, the application of cryo does mean that some elemental reactions can be performed on inanimate objects which can come with some side benefits. An example of this is that shatter can be trigged on rocks via this method, turning normally slow characters for mining into slightly more acceptable (such as Albedo). 
 
-### Electro Seelie Electro Application Vertical Range
+## Electro Seelie Electro Application Vertical Range
 **By:** EatYourVeggies#7493  
 **Added:** 1/27/2022  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/933751514776891482/936079772323295282/transcript-electro-seelie-electro-application-vertical-range.html)
@@ -1378,3 +1414,23 @@ Electro Seelie when on a mount, can apply Electro at any vertical range, but not
 
 **Significance:**  
 More knowledge on Electro Seelie mechanics
+
+## Phase Gates
+
+### Phantom Phase Gates
+
+**By:** Rathalos\#2875  
+**Added:** 03/16/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/953743159119212594/transcript-phantom-phase-gates.html)  
+
+**Finding:**  
+Activated Phase Gates don't need to be visually present to allow travelers to phase through and travel to the opposite gate. This condition can be observed during a commission.  
+
+**Evidence:**  
+* [Video 1](https://imgur.com/BXO7oqP)
+* [Video 2](https://imgur.com/GY84hNV)
+* [Video 3](https://imgur.com/b2o8UFY)
+* [Video 4](https://youtu.be/MnvTcihVmUc)
+
+**Significance:**  
+Better understanding of Teyvat laws. Commissions don't remove Phase Gate interactions. There's potential that it could apply to other objects.  

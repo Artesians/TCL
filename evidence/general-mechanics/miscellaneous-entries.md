@@ -645,3 +645,29 @@ Singleplayer:
 5 But the Sustainer of Heavenly Principles came down from Celestia to see the city and the tower the people were building. 6 The Sustainer said, “If as one people speaking the same language they have begun to do this, then nothing they plan to do will be impossible for them. 7 Come, let us go down and confuse their language so they will not understand each other.”  
 
 8 So the Sustainer scattered them from there over all the Abyss, and they stopped building the city. 9 That is why it was called Babel—because there the Sustainer confused the language of the whole world. From there the Sustainer scattered them over the face of the Abyss.  
+
+
+## Passive Activation Distance
+
+**By:** EdisonsMathsClub\#6469, ItzSomebody\#0029, Rito\#9691, Madrigal\#7486, milk tea romance\#9022, Peekays\#2722  
+**Added:** 03/16/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/953782289911918623/transcript-passive-activation-distance-limit.html)  
+
+**Finding:**  
+Certain effects have activation distance limits that prevent them from working.  
+
+**Evidence:**  
+* Limited Distance:
+  * [4VV](https://youtu.be/xDsbT22fALU)
+  * [4Ins](https://youtu.be/z4sMcRn66cQ)
+  * [4TF \(cooldown reduction\)](https://youtu.be/PxjsxltFRZU)
+  * [Electro Resonance](https://youtu.be/KB1I4vSoD0s)
+* Unlimited Distance:
+  * [Superconduct](https://youtu.be/yhatJ3jA6jI)
+  * [4LW and 4TS](https://youtu.be/5F9EYgilqgY)
+  * [4TF \(reaction DMG Bonus\)](https://youtu.be/lmj3-1Kuv-c)
+  * [4CW \(reaction DMG Bonus\)](https://youtu.be/YneWM2o8xiE)
+  * [4TOtM](https://youtu.be/At8W7FVLcI0)
+
+**Significance:**  
+Something to keep in mind when doing long range activities.  
