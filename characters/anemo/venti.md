@@ -51,7 +51,7 @@ A fully charged shot will deal Anemo DMG.
 | With Recovery | ~ | 23 | 210.21%/s | ~ |
 | Fully Charged | 210.8% | 86 | 147.07%/s | 1U |
 | With Recovery | ~ | 94 | 134.55%/s | ~ |
-* Frame Counts are done using by holding and releasing the Normal Attack button.
+* Charged Attack frame counts are done using by holding and releasing the Normal Attack button.
 
 **Plunge Attack**  
 Fire a shower of arrows from mid-air before falling striking the ground, dealing AoE DMG.
