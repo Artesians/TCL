@@ -48,9 +48,9 @@ When in the **Crowfeather Cover** state, a fully-charged arrow will leave a **Cr
 | :--- | :--- | :--- | :--- | :--- |
 | Aimed Shot | 80.58% | 15 | 322.32%/s | ~ |
 | With Recovery | ~ | 25 | 193.392%/s | ~ |
-| Fully Charged | 210.8% | 86 | 147.07%/s | 1U |
+| Fully Charged | 210.8% | 86 | 147.07%/s | 1A |
 | With Recovery | ~ | 96 | 131.75%/s | ~ |
-| A1 Fully Charged | 210.8% | 50 | 252.96% | 1U |
+| A1 Fully Charged | 210.8% | 50 | 252.96% | 1A |
 | With Recovery | ~ | 60 | 210.8%/s | ~ |
 * Charged Attack frame counts are done using by holding and releasing the Normal Attack button.
 
