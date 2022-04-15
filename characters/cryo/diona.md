@@ -50,9 +50,9 @@ A fully charged shot will deal Cryo DMG.
 | :--- | :--- | :--- | :--- | :--- |
 | Aimed Shot | 80.58% | 15 | 322.32%/s | ~ |
 | With Recovery | ~ | 23 | 210.21%/s | ~ |
-| Fully Charged | 210.8% | 86 | 147.07%/s | 1U |
+| Fully Charged | 210.8% | 86 | 147.07%/s | 1A |
 | With Recovery | ~ | 94 | 134.55%/s | ~ |
-| C4 Fully Charged | 210.8% | 50 | 252.96%/s | 1U |
+| C4 Fully Charged | 210.8% | 50 | 252.96%/s | 1A |
 | With Recovery | ~ | 58 | 218.07%/s | ~ |
 * Charged Attack frame counts are done using by holding and releasing the Normal Attack button.
 * Diona's Fully Charged shots follow a 3 hit/2.5s ICD.
