@@ -111,7 +111,9 @@ The Resolve gained by **Chakra Desiderata** will be cleared 300s after the Raide
 | Resolve Bonus \(T9%\) | 6.61% ATK DMG Per Stack  | 1.23% ATK DMG Per Stack |
 | Resolve Stacks Gained \(T9%\) | 0.19 Per Energy Consumed | 0.19 Per Energy Consumed |
 | Musou Isshin Energy Restoration \(T9%\) | - | 2.4 |
-| Frames | 115 | - |
+| Cast Frames | 115 | - |
+| Energy Frame | 12 | - |
+| CD Frame | 2 | - |
 | GU | 2B | 1A |
 | ICD (hits/timer) | None | 3 hit / 2.5s |
 | Snapshot | Dynamic | Dynamic |
@@ -143,9 +145,11 @@ The Resolve gained by **Chakra Desiderata** will be cleared 300s after the Raide
 **Notes**
 * Charged Attack Stamina Cost: 20  
 * **Resolve Stacks** act as bonus MV, which is given to each split of a string in the case of multi-hits.  
+* **Resolve Stacks** are not rounded to the nearest whole number and the partial stack is expressed in the final damage.
 * Raiden's interruption resistance under the effects of **Musou Isshin** makes her immune to being staggered.
 * **Musou Isshin** duration timer begins after the cast animation of **Secret Art: Musou Shinsetsu** has ended.
 * Energy restoration from **Musou Isshin** works against shielded and immune enemies.
+* During **Musou Isshin**, her Electro-infused tachi Normal and Charged attacks share ICD, but the tachi attacks do not share ICD with elementally-infused polearm attacks.
 
 {% endtab %}
 {% endtabs %}

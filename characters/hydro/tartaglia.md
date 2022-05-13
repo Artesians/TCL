@@ -55,16 +55,15 @@ Opponents affected by Riptide will suffer from AoE Hydro DMG effects when attack
 • **Riptide Flash**: A fully-charged Aimed Shot that hits an opponent affected by Riptide deals consecutive bouts of AoE DMG. Can occur once every 0.7s.  
 • **Riptide Burst**: Defeating an opponent affected by Riptide creates a Hydro burst that inflicts the Riptide status on nearby opponents hit.
 
-| String | Talent 9% | Frames | MV/s | GU |
+| Type | Talent 9% | Frames | MV/s | GU |
 | :--- | :--- | :--- | :--- | :--- |
-| Aimed Shot | 80.58% | 27 | 179.07%/s | NA |
-| Fully Charged | 210.8% | 84 | 150.57%/s | 1A |
+| Aimed Shot | 80.58% | 15 | 322.32%/s | ~ |
+| With Recovery | ~ | 23 | 210.21%/s | ~ |
+| Fully Charged | 210.8% | 86 | 147.07%/s | 1A |
+| With Recovery | ~ | 94 | 134.55%/s | ~ |
 | Riptide Flash | 21.08% \* 3 | ~ | ~ | 1A |
 | Riptide Burst | 105.4% | ~ | ~ | 2B |
-
-**Notes**
-* Aimed Shot frame counts are done using M1 Aimed Spam.
-* Fully Charged frame counts are done using ARCC Shots.
+* Charged Attack frame counts are done using by holding and releasing the Normal Attack button.
 * Both **Riptide Flash** and **Riptide Burst** do not snapshot.
 
 **Plunge**  
@@ -155,7 +154,9 @@ Returns a portion of its Energy Cost after use.
 | Attribute | Ranged Burst |
 | :--- | :--- |
 | Skill DMG \(T9%\) | 643.28% |
-| Frames | 52 |
+| Cast Frames | 52 |
+| Energy Frame | 8 |
+| CD Frame | 2 |
 | GU | 2B |
 | ICD | None |
 | Damage Element | Hydro |
@@ -175,7 +176,9 @@ DMG dealt in this way is considered Elemental Burst DMG.
 | Attribute | Melee Burst | Riptide Blast |
 | :--- | :--- | :--- |
 | Skill DMG \(T9%\) | 788.8% | 204% |
-| Frames | 97 | -- |
+| Cast Frames | 97 | -- |
+| Energy Frame | 75 | -- |
+| CD Frame | 68 | -- |
 | GU | 2B | 2B |
 | ICD | None | None |
 | Damage Element | Hydro | Hydro |

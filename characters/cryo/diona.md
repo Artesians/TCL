@@ -48,12 +48,14 @@ A fully charged shot will deal Cryo DMG.
 
 | Type | Talent 9% | Frames | MV/s | GU |
 | :--- | :--- | :--- | :--- | :--- |
-| Aimed Shot | 80.58% | 26 | 185.95%/s | ~ |
-| Fully Charged | 210.8% | 84 | 150.57%/s | 1A |
-
+| Aimed Shot | 80.58% | 15 | 322.32%/s | ~ |
+| With Recovery | ~ | 23 | 210.21%/s | ~ |
+| Fully Charged | 210.8% | 86 | 147.07%/s | 1A |
+| With Recovery | ~ | 94 | 134.55%/s | ~ |
+| C4 Fully Charged | 210.8% | 50 | 252.96%/s | 1A |
+| With Recovery | ~ | 58 | 218.07%/s | ~ |
+* Charged Attack frame counts are done using by holding and releasing the Normal Attack button.
 * Diona's Fully Charged shots follow a 3 hit/2.5s ICD.
-* Aimed Shot frame counts are done using M1 Spams.
-* Fully Charged frame counts are done using ARCC Shots.
 * Diona can cancel her dash early with Aim Toggle. Thus allows her to do quick Charged Attack while still retaining the ability to aim, unlike ARCC which cannot be aimed.
 
 **Plunge Attack**  
@@ -114,7 +116,9 @@ Tosses out a special cold brew that deals AoE Cryo DMG and creates a **Drunken M
 | Attribute | Burst |
 | :--- | :--- |
 | Skill DMG \(T9%\) | 136% |
-| Frames | 49 | 
+| Cast Frames | 49 |
+| Energy Frame | 49 |
+| CD Frame | 43 |
 | GU | 1A |
 | CD | 20s |
 | Energy Cost | 80 |
@@ -132,7 +136,8 @@ Tosses out a special cold brew that deals AoE Cryo DMG and creates a **Drunken M
 **Notes**
 * C6 buff applies on swap.
 * Her field shares an ICD with the initial hit.
-* The Drunken Mist AoE has a finite vertical range. Characters above or below this vertical range will not receive healing.
+* **Drunken Mist** AoE has a finite vertical range. Characters above or below this vertical range will not receive healing.
+* **Drunken Mist** targets an enemy and snapshots the position on cast.
 
 {% endtab %}
 {% endtabs %}

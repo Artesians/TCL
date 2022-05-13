@@ -5,6 +5,8 @@ description: For entries that have little practical use.
 # Miscellaneous Entries
 
 * Characters than can pull/suck items with their abilities (i.e Jean E, Venti Q), all have a limit. This limit can be affected by in-game fps, depending on the specific ability. For more information visit [our evidence page.](./../evidence/general-mechanics/miscellaneous-entries.md#item-suck-limits)
+* Almost all Elemental Bursts that have a zoom animation will reset the directional pad on mobile \(with the only known exception being Childe's Ranged Burst\).
+  * Bursts that have no zoom animation \(either by design or by canceling the zoom\) will not reset the directional pad. 
 * You can juggle fruits that are freshly harvested from trees. Unfortunately, once they have been on the ground for a certain amount of time, nothing will affect it anymore.
 * At least two of the birds (one near Azhdaha and one in Guyun) die very often of drowning, usually before the player even sees them, though their death is also occasionally observed, and they may even sometimes survive. 
   * You can use this to get free fowl. 
@@ -39,8 +41,10 @@ description: For entries that have little practical use.
 * Some Passives have a distance limit, meaning they can't be triggered when the player is too far away from the enemies. See this [Vault Entry](../evidence/general-mechanics/miscellaneous-entries.md#passive-activation-distance) for more information.
 * By following [these steps](../evidence/general-mechanics/miscellaneous-entries.md#stoves-of-babel), using stoves and Geo Constructs, players can potentially ascend indefinitely until they run out of stoves. This can be done in Singleplayer and Multiplayer.  
 * Using a non\-canceled 5\* Elemental Burst or opening a UI menu on PC will reset walking mode to running mode, but not on mobile. See this [Vault Entry](../evidence/general-mechanics/miscellaneous-entries.md#certain-actions-reset-walking-mode) for more information.
+* Specialty dish rates are affected by dish rarity and quality. See this [Vault Entry](../evidence/general-mechanics/miscellaneous-entries.md#specialty-dish-rates) for more information.
+* Slimes that are in barrels or frozen can blink.
 
-## Cancelling
+## Canceling
 
 * For some characters, if they use an Elemental Skill and sit in a chair at the same time (pressing F and E at the same time for PC users), while the Skill will not activate (and as such the Skill cooldown will not start), the game will still "treat" the Skill as if it had activated, which causes effects like Crimson Witch 4-piece to stack.
   * This can also be performed by interacting with an NPC or a poster instead of a chair.
@@ -75,7 +79,7 @@ description: For entries that have little practical use.
 
 ## A Study In Potions
 
-The retry button in the event is a full team reset. All cooldowns including weapon passive cooldowns, elemental skills, burst skills and character constellations are fully reset as well as HP and energy.
+* The retry button in the event is a full team reset. All cooldowns including weapon passive cooldowns, elemental skills, burst skills and character constellations are fully reset as well as HP and energy.
 
 ## Portable Waypoints  
 
@@ -85,6 +89,10 @@ The retry button in the event is a full team reset. All cooldowns including weap
 ## Hidden wall clip spot in Liyue Merchant Stall
 
 * In Liyue Harbour there's a hidden location behind a stall that allows characters to clip through the walls and infinitely plunge.
+
+## Three Realms Gateway Offering
+
+* The Bokuso Box can proc weapon passives and talents that proc on-damage.
 
 ## Evidence Vault
 
