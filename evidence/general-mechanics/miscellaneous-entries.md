@@ -734,6 +734,23 @@ By swapping at the correct time around when you initially become Frozen, you can
 **Significance:**  
 If you get really lucky you can avoid being Frozen.  
 
+## Bokuso Box Can Proc Stuff
+
+**By:** Ieah.\#2212  
+**Added:** 04/08/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/962131649536090122/transcript-bokuso-box-can-proc-stuff.html)  
+
+**Finding:**  
+Bokuso Box can proc damage-related abilities.  
+
+**Evidence:**  
+* [Raiden Skill coordinated attack](https://imgur.com/7S6b5x5)
+* [Albedo Skill and Qiqi Talisman](https://youtu.be/MC3d5Jp1DEI) \(credits to pai\#3602)
+* [Jade Spear passive](https://youtu.be/06vrXnowdsQ) \(credits to mando.\#1646)
+
+**Significance:**  
+ More evidence that Bokuso Box damage is indeed damage from the character.
+
 ## Portable Waypoints Don't Stop Sheer Cold
 
 **By:** Puffin\#9920  
@@ -748,3 +765,94 @@ Portable Waypoints don't prevent Sheer Cold from accumulating on Dragonspine, un
 
 **Significance:**  
 Better understanding of Portable Waypoints.  
+
+## Specialty Dish Rates
+
+**By:** Creonalia\#2818  
+**Added:** 04/16/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/964960022134153286/transcript-specialty-dish-rates.html)  
+
+**Finding:**  
+Specialty dish rates are affected by dish rarity and quality.  
+
+**Evidence:**  
+All of the dishes referenced have been cooked up to 2000 times either entirely with the specialty character and never eaten, or enough with the specialty character that the normally cooked/eaten ones are statistically insignificant. Note that the sample size is not large enough and some conclusions are broadened based on personal experience, but due to cooking too much without the specialty character I do not have recorded evidence to use for them. I don't have Eula and she has the only 4* specialty dish so I have no data on it.  
+[Inventory Screenshots](https://imgur.com/a/tVYb1PU)  
+* 1*: 20% Delicious, 17% Normal, 10% Suspicious
+* 2*: 14% Delicious, 10% Normal, 8% Suspicious
+* 3*: 10-15% Delicious*, 10% Normal, 5% Suspicious
+* 4*: Unknown
+
+\* I have biased data due to eating too many hash browns early game.
+
+**Significance:**  
+It's good to know.  
+
+## Slimes in Barrels Blink
+
+**By:** Magnus Artifex\#8719  
+**Added:** 04/24/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/967843702821228544/transcript-slimes-in-barrels-blink.html)  
+
+**Finding:**  
+Frozen and barreled slimes blink.  
+
+**Evidence:**  
+[Frozen slimes](https://imgur.com/a/wV4aJ9q)  
+[Barreled slimes](https://imgur.com/a/cUJDWsT)  
+
+**Significance:**  
+Knowledge about the world, and it’s freaking cute uwu
+
+## Elemental Bursts Reset Directional Pad on Mobile
+
+**By:** Madrigal\#7486  
+**Added:** 04/24/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/967818246889824296/transcript-elemental-bursts-reset-directional-pad-on-mobile.html)  
+
+**Finding:**  
+Almost all Elemental Bursts that have a zoom animation will reset the directional pad on mobile (only 1 known exception as of now). Bursts that have no zoom animation (either by design or by canceling the zoom) will not reset the directional pad. We can safely assume this trend for future characters without exhaustive testing.
+
+**Evidence:**  
+Bursts with zoom animation that reset the directional pad:  
+* [Keqing, Jean, Albedo, Zhongli](https://youtu.be/o0x4_2EkZdk)
+* [Aloy, Qiqi, Diluc](https://youtu.be/5bJzWAtt4KU)
+* [Barbara, Childe (melee stance)](https://youtu.be/Dfx7xguva_0)
+* [Ayaka, Kokomi, Kazuha, Ganyu](https://youtu.be/x6PGSPFyK4U)
+* [Hu Tao, Mona](https://youtu.be/xN8xF1PIVw8)
+* [Venti](https://youtu.be/HsMR9Fp-w-g)
+* [Raiden, Yae, Eula, Klee](https://imgur.com/a/9O9tpoL)
+* [Xiao](https://imgur.com/a/kqAcoTv)
+* [Itto](https://youtu.be/O2pVPwP1ZPI)
+* [Ayato](https://youtu.be/YIznxekACNI)
+* [Shenhe](https://imgur.com/a/DUsGRit)
+* [Yoimiya](https://imgur.com/a/YlNduoq)
+
+Burst with zoom animation that does not reset the directional pad:  
+* [Childe (ranged stance)](https://youtu.be/Ds_-2wNrPCU)
+
+Burst with the zoom animation canceled:  
+* [Zhongli, Albedo, Jean](https://youtu.be/hJUSOHeouKA)
+* [Childe (ranged stance), Ayato, Keqing](https://youtu.be/fxXfRGUuGhU)
+* [Childe (melee stance), Diluc, Qiqi](https://youtu.be/lVDzyRNMrac)
+* [Ayaka, Hu Tao, Ganyu](https://youtu.be/TL2aM3hec8c)
+* [Venti, Kazuha, Kokomi](https://youtu.be/ZVjctj60-EI)
+* [Raiden, Yae, Eula, Klee](https://imgur.com/a/aarRbsf)
+* [Xiao](https://imgur.com/a/BYQagXT)
+* [Itto](https://youtu.be/ksedJjlKr34)
+* [Shenhe](https://imgur.com/a/RUmv44e)
+* [Yoimiya](https://imgur.com/a/LTQIsPf)
+* [Barbara, Aloy](https://youtu.be/uiEo25AWbUA)
+* Do not have Mona evidence due to her Burst being exceptionally difficult to cancel
+
+Bursts with no zoom animation:  
+* [Sucrose, Ningguang, Noelle, Yun Jin](https://youtu.be/azJGkoalesk)
+* [Fischl, Beidou, Diona, Chongyun](https://youtu.be/kFlBdXciOnY)
+* [Bennett, Xiangling, Sayu, Rosaria](https://youtu.be/JIHyWpfswS0)
+* [Lisa, Xinyan, Sara, Kaeya](https://youtu.be/LOXgRX8j_f0)
+* [Amber](https://youtu.be/uiEo25AWbUA)
+* Traveler: [Anemo](https://youtu.be/EsjKKIwolDU), [Geo](https://youtu.be/Gn3c5p3p6G0), [Electro](https://youtu.be/3KmtRxj2kW8)
+* [Gorou](https://youtu.be/jYjJt4vUZYc)
+
+**Significance:**  
+A \(well\-known\) annoyance for mobile users, now documented. Sometimes, it's the game issue, not your skill issue. Zhongli's pillar is now your best friend.

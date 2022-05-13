@@ -90,7 +90,7 @@ Maps:
 * [Cannons](https://raw.githubusercontent.com/mcpie87/gi-artifacts/master/cannon-guide.jpg) (by Miin from Hoyolab).  
 It is advised to leave Tatarasuna for last due to the [investigation spot daily limit](../general-mechanics/resources-and-efficiency.md#overworld-farming).
 
-## Zone Levels:
+## Zone Levels
 
 The overworld map is split into multiple zones that affect enemy level and environmental reactions. There are "no level" zones which take on the level of the previous zone visited. 
 * [Teyvat](https://photos.app.goo.gl/drcNqTHVym7Qvuvn9) 
@@ -212,6 +212,31 @@ The Cryo element is able to be applied to many overworld objects, such as ores a
 
 ## Phase Gates
 * During Daily Commissions, Phase Gates will be invisible but can still be used.
+
+## Flying Anemo Slimes
+
+* Flying Anemo Slimes and Bloaty Floaty bubbles have hitboxes that can move characters.
+
+## Map Boundries
+
+* After reaching a certain height in locations of The Chasm, Paimon will say [some lines](../evidence/general-mechanics/overworld.md#paimon-hates-climbing). Usually these are triggered when you try climbing up to a light source.  
+
+## Fishing Spots
+
+*  It is possible to view the prompt \(but not catch fish\) from far above and below the fishing spot.
+    * In addition to this, it is possible to catch fish from underwater.
+
+## Spoutrocks
+
+Regardless of the height difference, no fall damage will be taken after jumping from a spoutrock unless you:  
+* Glide 
+* Roll off a cliff \(counts as landing, you don't take damage for roll but the next landing won't be soft\) 
+* Use mid-air skills e. g. Xiao
+* Plunge \(normal reduced fall damage for plunge, capped at 40% max HP\)
+
+##  Eagles
+
+* Eagles can get stuck on terrain. Unlike other animals they do not have collision with players. They can be hit by melee attacks and at short range they attract auto\-aim.  
 
 ## Evidence Vault
 

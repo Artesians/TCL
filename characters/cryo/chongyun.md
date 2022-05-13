@@ -97,13 +97,18 @@ When the spirit blades explode, they will deal AoE Cryo DMG and launch opponents
 | Skill DMG \(T9%\) | 242.08% \* 3 |
 | MV/s \(T9%\) | 322.77%/s |
 | GU | 1A per hit |
-| Frames | 135 |
+| Cast Frames | 135 |
+| Energy Frame | 10 |
+| CD Frame | 3 |
 | ICD | None |
 | Snapshot | Dynamic |
 | Damage Element | Cryo |
 | Damage Type | Burst |
 | Energy Cost | 40 |
 | CD | 12s |
+
+**Notes**
+* The maximum casting range for **Spirit Blade: Cloud-Parting Star** is 17.85m \(7 Abyss tiles\). If it's casted any further it will not target the enemy.
 
 {% endtab %}
 {% endtabs %}

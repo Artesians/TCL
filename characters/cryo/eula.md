@@ -118,7 +118,9 @@ If Eula leaves the field, the **Lightfall Sword** will explode immediately.
 | Skill DMG \(T9%\) | 417.52% | - |
 | Lightfall Sword Base DMG \(T9%\) | - | 674.34% |
 | DMG Per Stack \(T9%\) | - | 137.78% |
-| Frames | 125 | - |
+| Cast Frames | 125 | - |
+| Energy Frame | 107 | - |
+| CD Frame | 98 | - |
 | GU | 2B | None |
 | ICD | None | None |
 | Snapshot | Dynamic | Dynamic |
@@ -145,6 +147,7 @@ If Eula leaves the field, the **Lightfall Sword** will explode immediately.
 * Ranges \(1 abyss tile is ~2.55m\)
   * **Glacial Illumination**'s cast range: ~8 meters
   * **Lightfall Sword** explosion range: ~7 meters
+* By holding down a directional key during the animation of **Glacial Illumination**, you are actionable ~4 frames earlier compared to not holding it down.  
 
 {% endtab %}
 {% endtabs %}
