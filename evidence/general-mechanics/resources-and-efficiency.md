@@ -95,6 +95,29 @@ It's better to buy 3 10k mora with 360 realm currency than to buy 1 sanctifying 
 NPC shops sell 12.6K artifact XP worth of 2* artifacts for 30K Mora.  
 The mora cost of buying out the NPC shop is equal to 360 realm currency.  
 
+### Artifact Probability Thesis
+
+**By:** tooflesswulf\#8456  
+**Added:** 05/12/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/974477543161872455/transcript-artifact-probability-thesis.html)  
+
+**Theory:**  
+Performed a thorough mathematical analysis of the artifact rolling system, deriving equations for:  
+1\. Exact probability that an artifact's substats upgrade beyond some threshold.  
+2\. Approximate probability than an artifact, once upgraded, will yield an increase in damage.  
+3a\. Approximate probability/expected time it takes to improve the overall damage of a build.  
+3b\. Expected damage increase per resin spent for farming an artifact domain.
+
+**Evidence:**  
+See [ArtiSubMath-v10.pdf](../../.gitbook/assets/ArtiSubMath-v10.pdf).    
+There is also python demo code available at [artifact-math-demo-py.zip](../../.gitbook/assets/artifact-math-demo-py.zip).  
+
+Significance:
+1. One form of the long-awaited artifact-substat-to-resin relation has been found.
+2. The theory can answer common questions such as:
+   * Which artifact should I upgrade? Should I fodder this artifact or keep it?
+   * Should I continue farming artifacts or should I focus on levels/talents?
+
 ## Realm Currency
 
 ### Realm Currency Exchange Rate Analysis
