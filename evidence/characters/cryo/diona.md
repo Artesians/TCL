@@ -242,7 +242,7 @@ Previously, such effects didn't stack, but around patch 2.0 Mihoyo changed it so
 
 **Finding:**  
 Diona C1:  
-While doing tests for another ticket, I accidentally found out that Diona's C1 seems to have no range limit, I went to test it out and found out that it seemingly indeed have infinite range when on the same map, when teleporting to a different map such as Enkanomiya or Teapot, however, the C1 fails to proc, as can be seen in the  evidence 2-5, where Diona does not gain the Energy from C1.
+While doing tests for another ticket, I accidentally found out that Diona's C1 seems to have no range limit, I went to test it out and found out that it seemingly indeed have infinite range when on the same map, when teleporting to a different map such as Enkanomiya or Teapot, however, the C1 fails to proc, as can be seen in the evidence 2-5, where Diona does not gain the Energy from C1.
 
 Diona Q Duration:  
 We can also see that Diona's Q, Signature Mix, field duration starts when the paws disappear from the field, which in my tests happen at around ~17.5s timer on the Burst cooldown, this checks out due to the field having a 12s duration and Diona gaining the 15 Energy from her C1 at around ~5.5s timer on the Burst cooldown, 17.5 - 5.5 = 12.  
