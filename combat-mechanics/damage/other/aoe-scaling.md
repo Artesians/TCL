@@ -37,7 +37,7 @@ An attack with no AoE Scaling would be considered a single target skill, and wou
 
 Assume Fischl summons Oz against 1 enemy, and each Oz shot does 8000 damage. The total amount of damage done per shot would then be 8000. If you were to increase the number of enemies to 4, Oz would still only shoot 1 enemy, and the damage would not increase.
 
-Notable abilities that have Non-Aoe Scaling include:
+Notable abilities that have Non-AoE Scaling include:
   * Fischl E
   * Xingqiu Q
   * Most Bow and Catalyst Normal Attacks
