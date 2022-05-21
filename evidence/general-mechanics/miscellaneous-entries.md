@@ -891,7 +891,7 @@ Bursts with no zoom animation:
 **Significance:**  
 A \(well\-known\) annoyance for mobile users, now documented. Sometimes, it's the game issue, not your skill issue. Zhongli's pillar is now your best friend.
 
-### Chasm Glitchy Bird
+## Chasm Glitchy Bird
 
 **By:** SquareRootOf-1\#0898  
 **Added:** 05/21/2022  
