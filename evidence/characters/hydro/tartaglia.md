@@ -133,20 +133,7 @@ Childe's Skill cooldown duration appears discrete. If Childe is swapped off with
 
 **Evidence:**  
 6s cooldown on fast swap - [YouTube](https://youtu.be/x7z6cIrNfjM)  
-7s cooldown after 1.3s and 1.5s - [Youtube](https://youtu.be/-_YDfE3XYB8) and [YouTube](https://youtu.be/YaCT5owns_w)  
-Observed cooldowns:
-|Melee Time (s)|Cooldown (s)|Cooldown C1 (s)|
-|:---:|:---:|:---:|
-|0 ~ 1|6|4.8|
-|1 ~ 2|7|5.6|
-|2 ~ 4|8|6.4|
-|4 ~ 5|9|7.2|
-|5 ~ 6|10|8|
-|6 ~ 7|11|8.8|
-|7 ~ 8|12|9.6|
-|8 ~ 9|14|11.2|
-|9 ~ 10|15|12|
-|10 ~ 11|16|12.8|
+7s cooldown after 1.3s and 1.5s - [Youtube](https://youtu.be/-_YDfE3XYB8) and [YouTube](https://youtu.be/YaCT5owns_w)
 
 **Significance:**  
 Understanding cooldowns can allow more acurate theorycrafting and rotation building.  
