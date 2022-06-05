@@ -909,7 +909,8 @@ The birds inside the cages of The Chasm underground camps have some weird behavi
 **Attacks and Death**
 - Cannot die to any attacks (it jumps like a cat), this is expected/intended
 - Dies upon touching water, but can stand on frozen water - [Imgur by Tibo#4309](https://imgur.com/a/rgG0Z6z)
-- Drops 1 fowl and respawns back in the cage after teleporting
+- ~~Drops 1 fowl and respawns back in the cage after teleporting~~
+  - As of 2.7, it despawns when killed without dropping fowl
 
 **Crowd Control**
 - Can be displaced, but not knocked back (shown by [Palm Vortex and Gale Blade](https://imgur.com/a/UTbvlIQ))
@@ -923,4 +924,4 @@ The birds inside the cages of The Chasm underground camps have some weird behavi
 - [Slides down slopes](https://imgur.com/a/2CIiUAe)
 
 **Significance:**  
-Infinite fowl
+Fluff
