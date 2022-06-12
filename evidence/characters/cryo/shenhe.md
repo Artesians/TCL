@@ -134,7 +134,7 @@ Better understanding of Shenhe's C4 mechanics.
 ### Oscillation Tests on Prominent Body Regions of Shenhe's Model from Various Attacks
 
 **By:** CC\#5588  
-**Added:** 2021-01-04  
+**Added:** 2022-01-04  
 [Basic Mechanics Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/927459391739924490/930781121459945472/transcript-shenhe-basic-mechanics.html)
 
 **Finding:**  

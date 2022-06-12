@@ -861,7 +861,7 @@ Ai manipulation.
 
 #### Melee Can Stun Ruin Guards 
 **By:** CQLQRS\#7853 and HowLxxxx\#4676  
-**Addded:** 2022-01-01  
+**Added:** 2022-01-01  
 [Discussion 1](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/922442421604843542/926773041697013830/transcript-melee-can-stun-ruin-guards.html)  
 **Updated:** 2022-03-16  
 [Discussion 2](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/953769086163230870/transcript-ruin-guard-melee-stun-ft-geomc-skill.html)  
@@ -967,7 +967,7 @@ The other cases have minimal real-world usage due to very tight timing while aff
 #### Ruin Hunter Weakspot&Artillery mode Analysis   
 
 **By:** RoaringMeow\#2437  
-**Added:** 2020-07-12  
+**Added:** 2020-12-07  
 
 **Finding:** Ruin Hunter's Weak spots; How to trigger Ruin Hunter's artillery mode.  
 Context: The Ruin Hunter does not reveal a weak spot until it enters artillery mode.  
@@ -984,7 +984,7 @@ God forbid, a ruin hunter in the abyss but with this mechanic learned he's the e
 #### Ruin Hunter Weakspot abuse   
 
 **By:** deRykcihC\#0621  
-**Added:** 2020-08-28  
+**Added:** 2021-08-28  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/878715141431115796/880934050624327800/transcript-abyss-map-time-delay-bug.html)
 
 **Finding:**  

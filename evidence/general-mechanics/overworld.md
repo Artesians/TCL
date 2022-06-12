@@ -510,7 +510,7 @@ Rain Hydro isn’t the same as other Hydro sources. Electro crystals don’t hav
 
 **By:** Greyhound\#7836, mol\#3280, deaf#0246  
 **Added:** 2021-06-23  
-**Updated:** 2021-07-08  
+**Updated:** 2021-08-07  
 [Discussion 1](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/851603340403933194/857345614483554334/transcript-cursed-terrain-world-levels.html)  
 [Discussion 2](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/873033114723696660/873532969355210752/transcript-overworld-entity-levels-revisited.html)
 
@@ -601,7 +601,7 @@ Putting out campfires with utmost efficiency
 #### Mondstadt
 
 **By:** deaf\#0246  
-**Added** 2021-08-26  
+**Added:** 2021-08-26  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/872856833835036723/878915593116454932/transcript-zone-levels.html)  
 
 *Zone levels have been updated as of 2021-12-22 with more precise maps. See below.*
@@ -621,7 +621,7 @@ I have nothing but regrets.
 #### Liyue
 
 **By:** Vladone ツ\#9281  
-**Added** 2021-11-11  
+**Added:** 2021-11-11  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/905965525027414056/908513612430184458/transcript-zone-levels-liyue.html)  
 
 *Zone levels have been updated as of 2021-12-22 with more precise maps. See below.*
@@ -643,7 +643,7 @@ Fluff and overworld documentation.
 #### Inazuma
 
 **By:** deaf\#0246  
-**Added** 2021-11-11  
+**Added:** 2021-11-11  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/905984755986726972/908513380455809084/transcript-zone-levels-inazuma.html)  
 
 *Zone levels have been updated as of 2021-12-22 with more precise maps. See below.*
@@ -661,7 +661,7 @@ Fluff, and overworld documentation I guess.
 
 #### Zone Levels Update
 **By:** deaf\#0246 & Vladone ツ\#9281  
-**Added** 2021-12-22  
+**Added:** 2021-12-22  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/918005225162432543/923133715008352266/transcript-zone-levels.html)
 
 1. **Mondstadt**  

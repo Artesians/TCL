@@ -1365,7 +1365,7 @@ Prevents accidental foddering of once in a lifetime event weapons.
 ### Attack Speed Buffs on Claymores
 
 **By:** EternalDream\#5503  
-**Added:** 2021-02-04
+**Added:** 2021-04-02
 
 **Finding:** 
 Attack Speed buffs do not dynamically affect Claymore Charged Attacks
@@ -1452,7 +1452,7 @@ Documentation of how the ambiguous description of such weapon passives work.
 
 ### Lost Prayer and Serpent Spine Stacks
 **By:** Xardas\#2531  
-**Added:** 2021-01-03  
+**Added:** 2022-01-04  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/919691832986845225/927713631595028490/transcript-lost-prayer-and-serpent-spine-stacks.html)
 
 **Findings:**  

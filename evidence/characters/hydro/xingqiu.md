@@ -187,7 +187,8 @@ Clears up how exactly "XQ buffers." Additionally pending some extra tests about 
 **By:** Sayline\#5959  
 **Added:** 2021-04-05
 
-**Finding:** After Xingqiu's burst ends, there is a period where you can still imbue a hydro aura even if the orbitals visually disappeared. Upon further investigation, XQ's orbitals don't disappear completely, rather, they degenerate into particles of hydro that still appear around XQ for a set duration of time \(about 47 frames from the moment the swords blink before exploding until the last bits of hydro particles disappear\).
+**Finding:**  
+After Xingqiu's burst ends, there is a period where you can still imbue a hydro aura even if the orbitals visually disappeared. Upon further investigation, XQ's orbitals don't disappear completely, rather, they degenerate into particles of hydro that still appear around XQ for a set duration of time \(about 47 frames from the moment the swords blink before exploding until the last bits of hydro particles disappear\).
 
 **Evidence:**
 
@@ -196,7 +197,8 @@ Clears up how exactly "XQ buffers." Additionally pending some extra tests about 
 * [GIF 1](https://imgur.com/8EDEVxu): Portion of Vid 2 where XQ orbitals break, magnified. Using this clip, I counted 47 frames for hydro particle persistence, starting from the moment the swords blink prior to shattering, and ending at the few frames when XQ imbues hydro on the ruin guard.
 * [GIF 2](https://imgur.com/cmsVCV9): Slowed down version of GIF 1. Here, the hydro particles are easier to observe.
 
-**Significance:** Limit testing of XQ.
+**Significance:**  
+Limit testing of XQ.
 
 ### Xingqiu Q's Rain Sword Damage Reduction Overrides E's
 

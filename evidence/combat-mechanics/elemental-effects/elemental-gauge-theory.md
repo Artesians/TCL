@@ -8,11 +8,9 @@ search: false
 
 ## **Concept of Elemental Sources, Auras, Triggers, Cooldowns and Reductions**
 
-**By:** Doug\#8888
-
-**Added:** 2020-11-12
-
-Edited 2021-01-09
+**By:** Doug\#8888  
+**Added:** 2020-11-12  
+**Edited:** 2021-01-09
 
 Using elements to cause reactions are a key cornerstone of Genshin Impact. To optimise your damage and teambuilding, you must understand the precise mechanics behind how elements are applied, react together, and persist. Let’s first define some key terms.
 

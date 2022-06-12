@@ -28,7 +28,7 @@ From what I can tell \(complaints about it on Hoyolab\), this has been in the ga
 
 ### **Can Sucrose's Normal Attacks \(and by extension, Swirl reactions\) trigger Fischl's Lightning Smite?**
 
-By: Cola\#6861
+**By:** Cola\#6861
 
 I was asked this question on reddit and thought it should be the case since Sucrose' basic attacks are anemo which will swirl the electro debuff on the enemy.
 

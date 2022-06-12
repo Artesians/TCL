@@ -11,7 +11,7 @@ search: false
 ## Climbing without Climbing
 
 **By:** Nitley\#3485  
-Addded: 2021-04-05
+**Added:** 2021-04-05
 
 **Finding:** After familiarizing myself with the technique of b-hopping in the first week of Genshin's official release for the purpose of re-roll AR7 speedruns, this would quickly become my exclusive means of travel. This led me to discover an alternative faster method of scaling near-vertical walls \(without climbing or consuming stamina at all\).
 
@@ -118,7 +118,7 @@ We can also see here that the boreas wolf push also applies multiple instances o
 ## Cliff Dash Displacement
 
 **By:** Mcpie\#8672  
-**Added** 2021-06-03  
+**Added:** 2021-06-03  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/831242042801389568/849905930174595072/transcript-dashing-off-a-cliff-speed-comparison.html)
 
 **Methodology/Evidence:**
@@ -149,7 +149,7 @@ Results depending on position:
 ## Waypoint Teleport Variance
 
 **By:** Mcpie\#8672  
-**Added** 2021-06-03  
+**Added:** 2021-06-03  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/846494202334412901/849908480075628574/transcript-waypoint-teleportation-inconsistency.html)
 
 **Finding:** Two possible findings:
@@ -330,10 +330,10 @@ Having increased movespeed is now potentially practical. It allows an additional
 ## Infinite Dashing and Catapulting off cliffs(Translation)
 
 **By:** KluEvo\#8507  
-**Added:** 2020-08-20  
+**Added:** 2020-11-20  
 
 **Finding:**  
-Double dashing with pauses can allow for infinite running. Dashing off of clifs can allow for faster fall.  
+Double dashing with pauses can allow for infinite running. Dashing off of cliffs can allow for faster fall.  
 
 **Evidence:**  
 [Google Doc](https://docs.google.com/document/d/1LWCaPASur30ei7OQKC89EujL0TZloXk7sp_Hnxruvjw/view)

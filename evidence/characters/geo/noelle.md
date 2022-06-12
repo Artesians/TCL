@@ -208,7 +208,7 @@ This means that users of whiteblind needs to keep the stack at max or stack it b
 #### Noelle's Spin Damage on C2 is Additive
 
 **By**: pikachusurprised \#6934  
-**Added**: 2021-04-16
+**Added:**: 2021-04-16
 
 **Finding:** The 15% spin damage bonus on C2 behaves like most other dmg% sources, meaning it is additive and goes into the formula as \(1 + dmg%\).
 

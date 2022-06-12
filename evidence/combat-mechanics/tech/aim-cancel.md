@@ -42,7 +42,7 @@ ARCC is the fastest known method for shooting a charged shot. When done rapidly,
 ## ARCC auto target
 
 **By:** BowTae#0141  
-**Added:** 2021-10-02  
+**Added:** 2021-09-06  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/883799215891972156/884452500617461820/transcript-arcc-autotarget.html)
 
 **Theory/Finding:**  

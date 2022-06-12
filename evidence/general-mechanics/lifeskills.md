@@ -9,7 +9,7 @@ search: false
 ## Statue of Seven Healing
 
 **By:** Asaki\#9139  
-**Added** 2021-06-03  
+**Added:** 2021-06-03  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/847359141626118154/849897436956590110/transcript-statue-of-seven-inactive-member-healing.html)
 
 **Finding:** A Statue of Seven will heal \(and revive to full if dead\) without any restraint, provided that the character/party that you want to heal is not in the active \(on-field\) party.

@@ -76,7 +76,7 @@ search: false
 
 **By** pai\#3602
 
-**Added** 2021-12-13
+**Added:** 2021-12-13
 
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/917962903783612428/919799543904751666/transcript-emc-c4.html)
 

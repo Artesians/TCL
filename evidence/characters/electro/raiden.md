@@ -46,8 +46,8 @@ search: false
    
 ### Raiden E Transformative Interactions  
 
-**Added:** 2021-09-28  
 **By:** Tech#6257  
+**Added:** 2021-09-28  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/885440525438685204/891171141287297095/transcript-raiden-e-transformative-interaction.html)  
 
 **Finding:**  
@@ -179,8 +179,8 @@ Damage shown in video is 2521
 
 #### C2 defense ignore is multiplicative
 
-**Added:** 2021-09-11  
 **By:** Javier#1000  
+**Added:** 2021-09-11  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/882822147012198440/886299222633250816/transcript-raiden-c2-stacking.html)  
 
 **Finding:**  
@@ -199,8 +199,8 @@ Better understanding of Raiden C2, less gain from stacking defense shred.
 
 ### Raiden self energy recharge formula  
 
-**Added:** 2021-09-28  
 **By:** Sir_pick_the_prick#2209  
+**Added:** 2021-09-28  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/883997943387029504/892422852458983474/transcript-raiden-minimum-er-formula.html)  
 
 **Finding:**  

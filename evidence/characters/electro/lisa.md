@@ -13,7 +13,7 @@ search: false
 ### Lisa final AA has two different animations
 
 **By:** Sayline#5959  
-**Added**: 2021-09-10  
+**Added:**: 2021-09-10  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/882407170161922088/885681198775550042/transcript-lisa-aa-like-mona-aa.html)  
 
 **Findings:**  
@@ -29,8 +29,8 @@ Combat positioning for Lisa
 
 ### Violet Arc's Press variant AoE is passed to all affected targets
 
-By: ArchedNosi\#1484  
-Added: 2021-04-18
+**By:** ArchedNosi\#1484  
+**Added:** 2021-04-18
 
 **Findings:**  
 The description of Violet Arc clearly states that _opponents in a small AoE_ are additionally stacked with Conductive, and this is true. But it does not mention that enemies affected also will have their own radius, thus chaining more stacks of Conductive.  
@@ -49,7 +49,7 @@ Lisa can easily abuse this knowledge in tightly packed groups to quickly and eff
 ### Violet Arc's Hold Variant has a Cylindrical Hitbox
 
 **By:** ArchedNosi\#1484  
-**Added**: 2021-04-18
+**Added:**: 2021-04-18
 
 **Findings:**  
 The hitbox of Lisa's Hold E is a cylinder with the following dimensions/attributes:

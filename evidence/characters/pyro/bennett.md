@@ -116,8 +116,8 @@ If you re-enter a buff field or swap to a new character immediately after this X
 #### Bennett C4 Gauge
 
 **By:** Bobrokrot\#0111  
-[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/849314783475662879/849873440848609290/transcript-bennett-c4-gauge.html)  
-**Added** 2021-06-02
+**Added:** 2021-06-02  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/849314783475662879/849873440848609290/transcript-bennett-c4-gauge.html)
 
 **Finding:** Bennet's C4 applies 1A of Pyro.
 
@@ -164,13 +164,13 @@ Stepping out of a C6 Bennett Fantastic Voyage field has a left over pyro infusio
 
 **By:** Neptunya\#8291  
 **Added:** 2021-07-10  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/863515307363532850/863517152987185162/transcript-c6-bennett-pyro-dmg-bonus-in-coop.html)  
 
 **Finding:**  
 The 15% pyro dmg bonus from Bennett C6 doesn't stack in coop when inside multiple Bennett fields.  
 
 **Evidence:**  
 [Video](https://youtu.be/VOUNrvU_1ak)  
-[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/863515307363532850/863517152987185162/transcript-c6-bennett-pyro-dmg-bonus-in-coop.html)  
 
 **Conclusion:**  
 Neptunya's coop dreams of 4 C6 Bennetts rolling through overworld have been shattered as soon as they were born. Just like Turbo died on 4/20, so will the 420th PR for the TCL be a tragedy.  

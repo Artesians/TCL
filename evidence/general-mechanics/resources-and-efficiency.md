@@ -262,7 +262,7 @@ Buy the BP if you have the money.
 ### Overworld Farming Statistics
 
 **By:** Bobrokrot#0111  
-**Added** 2021-07-11  
+**Added:** 2021-07-13  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/851577795868098600/864446326178447370/transcript-overworld-farming-statistics.html)
 
 **Finding:**
@@ -298,7 +298,7 @@ Crabs that you approach and fail to pick up will respawn after leaving their ren
 ### Random Event Cap
 
 **By:** derek\#9488  
-**Added** 2021-12-22  
+**Added:** 2021-12-22  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/922577467930202173/923407105925468190/transcript-random-event-cap.html)
 
 **Finding:**  
@@ -500,8 +500,8 @@ Allows collecting artifacts from more than \(the previous max of\) [129 spots](h
 
 ### Tree Chopping Memory Mechanics
 
-By: mol\#3280  
-Added: 2021-06-06  
+**By:** mol\#3280  
+**Added:** 2021-06-06  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/838678429137633311/851309968694837268/transcript-tree-chopping-memory.html)
 
 **Finding:**  

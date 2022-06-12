@@ -1302,7 +1302,7 @@ Below 842 EM, 2WT2Ins will provide more value for swirl damage than 4VV before a
 
 ## **Artifact Substats Distribution**
 
-**By:SafconGalore\#9752**
+**By:** SafconGalore\#9752
 
 **TLDR; No, they seem to be skewed towards DEF in particular**
 

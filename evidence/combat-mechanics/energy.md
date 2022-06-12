@@ -14,11 +14,9 @@ search: false
 
 ## Only On-Field Characters Gain Energy By Auto Attacks
 
-**By:** c2authoritarian\#5277 and Pinupski\#9999
-
-**Added:** 2020-12-07
-
-Updated: 2021-04-03
+**By:** c2authoritarian\#5277 and Pinupski\#9999  
+**Added:** 2020-12-07  
+**Updated:** 2021-04-03
 
 **Finding:** Energy recharge gained through auto attacking only applies to the character on field
 

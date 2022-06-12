@@ -137,7 +137,7 @@ Provides a clear understanding of Beidou's burst mechanics.
 ### Beidou's Q snapshot timing
 
 **By:** EdisonsMathsClub\#6469  
-**Added:** 2020-09-22  
+**Added:** 2021-09-22  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/888775921845280788/890112499628777532/transcript-beidou-q-snapshot-timing.html)
 
 **Finding:**  
@@ -212,17 +212,19 @@ C4 is not anti-synergistic with all her charged attack bonuses, as one would ass
 #### Beidou C4 Gauge
 
 **By:** Bobrokrot\#0111  
-**Added** 2021-06-03  
+**Added:** 2021-06-03  
 [**Discussion**](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/849312911180693545/849896321023475742/transcript-beidou-c4-gauge.html)
 
-**Finding:** Beidou's C4 applies 1A of Electro.
+**Finding:**  
+Beidou's C4 applies 1A of Electro.
 
-**Evidence:** [Youtube](https://youtu.be/nBGPVp0160I)
+**Evidence:**  
+[Youtube](https://youtu.be/nBGPVp0160I)
 
 #### Beidou C4 damage
 
 **By:** elijam\#7142  
-**Added** 2021-08-07  
+**Added:** 2021-08-07  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/866108653634846780/873536676675338280/transcript-tcl-damage-type-completion.html)
 
 **Finding:**  
@@ -239,7 +241,7 @@ Damage calculations for Beidou.
 #### Beidou C4 is on hit not damage
 
 **By:** Bobrokrot\#0111  
-**Added** 2021-09-10  
+**Added:** 2021-09-10  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/884807649869324348/885685498985738240/transcript-beidou-c4-is-on-hit-not-damage.html)
 
 **Finding:**  
@@ -333,7 +335,7 @@ Good weapon. Works as well as you'd expect.
 ### Beidou C4 interaction with Sara
 
 **By:** Bobrokrot\#0111  
-**Added** 2021-09-06  
+**Added:** 2021-09-06  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/883625161058844702/884468275151511612/transcript-sara-beidou-c4-interaction.html)
 
 **Finding:**  

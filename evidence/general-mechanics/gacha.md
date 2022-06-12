@@ -112,7 +112,7 @@ Average number of wishes needed on weapon banner to level a 5 star weapon to 90 
 ## Gacha Calculator
 
 **By:** Tibo\#4809  
-**Addedd:** 2022-02-19  
+**Added:** 2022-02-19  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/935286904679710741/944727977445445632/transcript-gacha-rate-calculator.html)   
 
 **Finding 1:** 

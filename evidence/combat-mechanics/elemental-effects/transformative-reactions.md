@@ -45,7 +45,7 @@ This strongly caps the potential AoE damage from both reactions, making Supercon
 ### Overload Reaction ICD
 
 **By:** Sir\_pick\_the\_prick\#2209, Terrapin\#8603, Isu\#6867, and Aluminum\#5462  
-Added: 2021-06-04  
+**Added:** 2021-06-04  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/840502239248252928/850596327720484885/transcript-transformative-reaction-icd-parameters.html)
 
 **Finding:**  
@@ -248,7 +248,7 @@ Consider the following Electro-charged concepts:
 **Finding:**  
 Skills with hitlag behave differently for Electrocharged than skills without hitlag. This may also affect other elements, only tested with Electrocharge.
 
-**Evidence**:[ ](https://youtu.be/iPvFviMCX1c)
+**Evidence**:
 
 [https://youtu.be/iPvFviMCX1c](https://youtu.be/iPvFviMCX1c)
 
@@ -278,7 +278,7 @@ Gauge decay rates are separate for auras of different elements.
 
 **Evidence:**
 
-In the clip[ https://youtu.be/bVB30BY10QE](https://youtu.be/bVB30BY10QE) provided by BowlSoldier\#3528 the following happens: 1U Electro followed by 2U Electro followed by 2U Hydro \(the Hydro application happens 59 frames after the 2U Electro application\). Then, after 4 EC ticks the Hydro aura is completely removed whereas Electro aura persists for another 0.5 seconds despite the fact that it was applied before the Hydro.
+In the clip [https://youtu.be/bVB30BY10QE](https://youtu.be/bVB30BY10QE) provided by BowlSoldier\#3528 the following happens: 1U Electro followed by 2U Electro followed by 2U Hydro \(the Hydro application happens 59 frames after the 2U Electro application\). Then, after 4 EC ticks the Hydro aura is completely removed whereas Electro aura persists for another 0.5 seconds despite the fact that it was applied before the Hydro.
 
 This phenomenon can be explained by a theory that different auras have separate decay rates. That is, when we applied 2U Hydro it did not inherit the 1U decay rate of the Electro aura but rather has its own 2U decay rate.
 
@@ -671,35 +671,43 @@ Better understanding of the EC spaghetti code.
 **Added:** 2021-06-11  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/843689180998402048/852779789747355688/transcript-simultaneous-hydro-on-freeze.html)
 
-**Finding:** Finding: Applying a 2U Hydro -> 1U Cryo aura will cause the enemy to be affected by both frozen and hydro. However, applying a 1U Cryo -> 2U Hydro will only cause the enemy to be affected by frozen.
+**Finding:**  
+Applying a 2U Hydro -> 1U Cryo aura will cause the enemy to be affected by both frozen and hydro. However, applying a 1U Cryo -> 2U Hydro will only cause the enemy to be affected by frozen.
 
 **Evidence:**    
 In [this video](https://youtu.be/wTNjwEvPrEk), in the first situation I apply 1U Cryo with Ganyu, then 2U Hydro with Childe, and the enemy is only affected by Frozen, as displayed by Diluc only shattering when hitting the enemy with a heavy pyro attack. However, in the second situation, I apply 2U Hydro with Childe, then 1U Cryo with Ganyu, and the enemy is affected by Frozen and Hydro, as displayed by Diluc vaporizing with a heavy pyro attack.
 
-**Significance:** More knowledge about how frozen interacts with underlying auras, possibly better rotations
+**Significance:**  
+More knowledge about how frozen interacts with underlying auras, possibly better rotations
 
 ### Blunt Attacks have no ICD
 
 **By:** jstern25\#1399  
 **Added:** 2021-04-09
 
-**Theory:** Blunt attacks have no ICD, meaning they will always trigger shatter. This makes it suboptimal to run freeze with any character whose attacks have the "blunt" attribute.
+**Theory:**  
+Blunt attacks have no ICD, meaning they will always trigger shatter. This makes it suboptimal to run freeze with any character whose attacks have the "blunt" attribute.
 
-**Evidence:** [https://youtu.be/3rAbh9Gp2jw](https://youtu.be/3rAbh9Gp2jw)
+**Evidence:**  
+[https://youtu.be/3rAbh9Gp2jw](https://youtu.be/3rAbh9Gp2jw)
 
-**Significance:** Characters with blunt attribute attacks benefit significantly less from the 4 piece Blizzard Strayer's passive.
+**Significance:**  
+Characters with blunt attribute attacks benefit significantly less from the 4 piece Blizzard Strayer's passive.
 
 ### Shatter Damage ICD
 
 **By:** Monochrom9\#8058  
-**Added** 2021-06-03  
+**Added:** 2021-06-03  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/849441851026571314/849902508193480704/transcript-shatter-damage-icd.html)
 
-**Finding:** Shatter reactions can deal damage only twice within the span of 0.5 seconds.
+**Finding:**  
+Shatter reactions can deal damage only twice within the span of 0.5 seconds.
 
-**Evidence:** [Imgur GIF](https://imgur.com/a/NUt2o6H)
+**Evidence:**  
+[Imgur GIF](https://imgur.com/a/NUt2o6H)
 
-**Significance:** Shatter damage is constrained in the same way that SC and Swirl is.
+**Significance:**  
+Shatter damage is constrained in the same way that SC and Swirl is.
 
 
 ### Reaction Priority in Comparison to Shatter

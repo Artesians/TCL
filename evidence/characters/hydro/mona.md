@@ -62,7 +62,7 @@ Not much as DPS Mona's optimal Attack string combo is 2AA + CA + JC. However, in
 ### **How many Elemental Particles does Mona’s Elemental Skill Generate?**
 
 **By:** Curiously\#2324  
-**Added:** 2020-05-12
+**Added:** 2020-12-05
 
 **Finding:**
 
@@ -100,7 +100,7 @@ Utilizing for dodging.
 ### **Is Mona’s Elemental Burst DMG determined at the time of Initial cast or at the time of ‘Bubble Burst’?**
 
 **By:** Chidoge\#3163  
-**Added:** 2020-05-12
+**Added:** 2020-12-05
 
 **Finding:**  
 Mona’s Bubble burst damage is determined at the time the bubble is actually triggered, rather than ‘snapshotting’ on the immediate cast.
@@ -255,7 +255,8 @@ ZL's ability to extend omen with petrify is more conditional than previously tho
 **By:** Aetherpon\#5730  
 **Added:** 2021-04-09
 
-**Finding:** Rosaria's Passive affects Mona's alternate sprint and stacks on top of anemo resonance.
+**Finding:**  
+Rosaria's Passive affects Mona's alternate sprint and stacks on top of anemo resonance.
 
 **Evidence:**
 
@@ -274,11 +275,15 @@ It's actually a smaller buff than one would think, but there is a slight differe
 **Added:** 2021-04-21  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/832524741473599519/834659643292254238/transcript-mona-elemental-skill-cancel.html)
 
-**Finding:** If you cast Mona's skill, but then hit the dash key before Mona's taunt is out, Mona will dash instead of finishing her skill cast. This differs from other characters, who cannot start sprinting until their skill has finished casting.
+**Finding:**  
+If you cast Mona's skill, but then hit the dash key before Mona's taunt is out, Mona will dash instead of finishing her skill cast. This differs from other characters, who cannot start sprinting until their skill has finished casting.
 
-**Evidence:** [https://youtu.be/gDEZhioyCxs](https://youtu.be/gDEZhioyCxs)
+**Evidence:** 
 
-**Signifiance:** Mona shouldn't dash until her skill is finished casting. This skill cancellation may also occur in the future for future characters with Mona-style alternate sprints.
+[https://youtu.be/gDEZhioyCxs](https://youtu.be/gDEZhioyCxs)
+
+**Signifiance:**  
+Mona shouldn't dash until her skill is finished casting. This skill cancellation may also occur in the future for future characters with Mona-style alternate sprints.
 
 ### Mona dash iframe
 
@@ -438,7 +443,7 @@ Mona's C1 does not work party-wide in co-op.
 #### **Can Mona’s 2nd Constellation allow you to trigger Vaporize on a pyro inflicted target twice?**
 
 **By:** Kimmu\#0007  
-**Added:** 2020-05-12
+**Added:** 2020-12-05
 
 **Finding:**
 

@@ -288,7 +288,7 @@ Refrain from attacking slimes in your melee form. An obvious fact, but not obvio
 ### Childe Can Proc Prototype Crescent's Passive in Melee Form
 
 **By:** SaosKreator\#2700  
-**Added:** 2020-05-29  
+**Added:** 2021-05-29  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/847145221426642985/848318293931589662/transcript-childe-melee-proc-prototype-crescent.html)
 
 **Finding:**  

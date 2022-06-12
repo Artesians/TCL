@@ -87,7 +87,7 @@ Fischl's Energy generation is better than previously thought. Most tools and gui
 ### Oz Summoned From Ult Snapshots Fischl's Stats When Swapped Out
 
 **By:** Trosalio\#0420  
-**Added:** 2020-05-07  
+**Added:** 2021-05-07  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/839928261055348777/840369791340118016/transcript-oz-summoned-from-burst-uses-fischl-stats-when-swapped-out.html)
 
 **Theory:**  
@@ -329,7 +329,7 @@ Helps with accurate calculations as well as rotation crafting.
 
 ### Can Sucrose's Normal Attacks \(and by extension, Swirl reactions\) trigger Fischl's Lightning Smite?
 
-Submitted by: Cola\#6861
+**By:** Cola\#6861
 
 I was asked this question on reddit and thought it should be the case since Sucrose' basic attacks are anemo which will swirl the electro debuff on the enemy.
 

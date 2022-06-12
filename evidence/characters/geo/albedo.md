@@ -13,7 +13,7 @@ search: false
 ### Dimensions of Albedo’s Elemental Skill AoE
 
 **Added:** 2020-12-28  
-Submission By: HailCorporate\#2970
+**By:** HailCorporate\#2970
 
 **Finding:**  
 Albedo's E AoE is cylindrical and has a maximum height just over the elevator's height.

@@ -11,7 +11,7 @@ search: false
 ## Outcoming and incoming healing bonuses are additive  
 
 **By:** ItzSomebody\#0029  
-**Added:** 2021-09-08  
+**Added:** 2021-08-09  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/874018516842475600/874090458991706122/transcript-outcoming-incoming-healing-additive.html)
 
 **Finding:**  
