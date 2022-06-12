@@ -103,6 +103,7 @@ The shield’s DMG Absorption scales based on Diona’s Max HP, and its duration
 * In specific circumstances, Diona's shield will apply 2U of Cryo on swap.
   * For more details see the [full entry](../../evidence/characters/cryo/diona.md#bug-dionas-shield-is-2u-under-specific-circumstances-that-are-guaranteed-on-swap) in Diona's Evidence Vault.
 * Icy Paws will not generate a shield if they do not hit something. They will also despawn after a certain amount of time.
+* Icy Paws will home on some entities that are not enemies, such as birds in the overworld.
 * A deep-dive into how Icy paws work can be found [here](https://docs.google.com/document/d/1GZrscI-X_-CgzavXUbCeELrSumbAqlLqVkkJN1vWKwk/edit?usp=sharing)
   {% endtab %}
 
@@ -138,6 +139,7 @@ Tosses out a special cold brew that deals AoE Cryo DMG and creates a **Drunken M
 * Her field shares an ICD with the initial hit.
 * **Drunken Mist** AoE has a finite vertical range. Characters above or below this vertical range will not receive healing.
 * **Drunken Mist** targets an enemy and snapshots the position on cast.
+* **Drunken Mist** duration starts when the paws disappear from the field, which is about when the Burst CD reaches ~17.5s.
 
 {% endtab %}
 {% endtabs %}
@@ -174,6 +176,8 @@ Opponents who enter the AoE of **Signature Mix** have 10% decreased ATK for 15s.
 ### **A Lingering Flavor**
 
 Regenerates 15 Energy for Diona after the effects of **Signature Mix** end.
+
+* There is no range limit as long as Diona is on the same map.
 
 {% endtab %}
 
