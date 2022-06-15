@@ -147,6 +147,7 @@ If the return to a ranged stance occurs automatically after 30s, the CD is even 
 * **Riptide** and **Riptide Slash** can be applied and triggered by Aimed Shot, both Physical and Hydro, by switching to melee stance before the arrow hits an enemy.  
 * Using this skill in quick succession after a partial **Bow Stance** attack string allows Childe to continue the attack string in **Melee Stance**. 
 * Using this skill on the same frame as an attack or burst input can result in a **Ranged Burst** while in **Melee Stance**, a **Melee N1** in **Ranged Stance**,[ among other effects.](../../evidence/characters/hydro/tartaglia.md#elemental-skill-and-attack-or-burst-on-the-same-frame) 
+* Preemptive CD scales discretely, floored to an integer before cooldown reduction calculations.
 
 {% endtab %}
 

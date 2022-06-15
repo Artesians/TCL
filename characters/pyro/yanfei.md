@@ -153,8 +153,8 @@ When Yanfei's Charged Attack deals a CRIT Hit to opponents, she will deal an add
 | Poise Damage | 50 |
 | Impulse Type | 2 |
 
-* **Blazing Eye** no noticeable ICD to trigger or Pyro application.
-  * This is on a separate ICD from her Charged Attack.
+* **Blazing Eye** has no noticeable ICD to trigger Reactions or apply Pyro.
+  * This does not affect her Charged Attack ICD.
 * **Blazing Eye** can trigger vs enemy shields.
 {% endtab %}
 {% endtabs %}

@@ -520,7 +520,7 @@
 
 | Attribute | Description |
 | :--- | :--- |
-| Composed | After dealing damage to an opponent with an Elemental Skill, the skill has a **40**~**80**% chance to end its own CD. Can only occur once every **30**~**16**s. |
+| Composed | After dealing damage to an opponent with an Elemental Skill, the skill has a **40/50/60/70/80**% chance to end its own CD. Can only occur once every **30/26/22/19/16**s. |
 | Base ATK | 41 - 454 |
 | ER% | 13.3% - 61.3% |
 
@@ -784,6 +784,8 @@
 | Journey | Each Elemental Orb or Particle collected restores **1/1.25/1.5/1.75/2**% HP. |
 | Base ATK | 40 - 448 |
 | DEF% | 6.4% - 27.5% |
+
+* HP restored is affected by Healing Bonus and Incoming Healing Bonus - [Daibangden#8410](/evidence/equipment/weapons.md#weapons-and-heals)
 {% endtab %}
 
 {% tab title="Details" %}

@@ -154,6 +154,24 @@ Summary: [Google Sheet](https://docs.google.com/spreadsheets/d/1s_A_RhVCkLn07XMW
 **Significance:**  
 Insight into the behavior and mechanics of enemies in the Overworld.  
 
+### Elemental Reactions Effects on Buried Dendro Slime
+
+**By:** Pablos\#1142  
+**Added:** 05/12/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/974471796734705694/transcript-elemental-reactions-effects-on-buried-dendro-slime.html)  
+
+**Finding:**  
+Underground Dendro Slimes don't take damage from non-Pyro based Elemental Reactions. Those Reactions still occur and effects associated with them like Viridescent Venerer debuff, Superconduct debuff, Frozen and Crystallize still apply.  
+
+**Evidence:**  
+* [Frozen, Superconduct, Electro-Charged](https://imgur.com/a/pZprbk9) 
+* [Crystallize](https://imgur.com/a/5BlntzD) 
+* [Shatter (Geo and Claymore)](https://imgur.com/a/camZM7r) 
+* [Superconduct debuff](https://youtu.be/vm-OJXWH1K4) by Puffin#9920 
+* [VV debuff](https://imgur.com/a/9QyUkYN)
+
+Significance: Documentation of enemy mechanics.  
+
 ### Some Enemy CC is Level Dependent
 
 **By:** elijam\#7142  
@@ -333,6 +351,40 @@ Stormterror's DoT floor attack has a damage cap. The damage is not based on the 
 
 **Significance:**  
 Better understanding of Dvalin's DoT attack and how it calculates damage.
+
+### The Shogun / Magatsu Mitake Narukami no Mikoto
+
+#### Raiden Boss Oneshot Mechanics
+**By:** Luno\#1337, Trosalio\#0420, and addicted2reading\#7262  
+**Added:** 05/22/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/978118765076156416/transcript-raiden-boss-oneshot-mechanics.html)
+
+**Finding &amp; Evidence:**  
+Oneshot ignores shields - [YouTube](https://youtu.be/P77v66oXhfg)  
+Oneshot can not be parried - [YouTube](https://youtu.be/v9RGPc2ka7I)  
+Oneshot can not be dash i-framed - [YouTube #1](https://youtu.be/N2CxwCyj_0E), [YouTube #2](https://youtu.be/MeHqO7vBNRo), [YouTube #3](https://youtu.be/zDV-d6j7k0s)  
+Oneshot can be burst I-framed - [YouTube](https://youtu.be/wD7pgFGhPvc)  
+100% damage reduction does not reduce damage taken by oneshot - [YouTube](https://www.youtube.com/watch?v=gd_DmaXBE_I)  
+Some skills with I-frames can dodge the oneshot (mona hold E) - [YouTube](https://youtu.be/Ht_yDNwAihQ)  
+Taunts can not be marked by oneshot - [YouTube](https://youtu.be/r4Wwpv6XFYE)  
+Unmarked oneshot damage can be absorbed by shields - [YouTube](https://youtu.be/Iz6P-7AZRp4)  
+Marked target is not affected by Proximity - [YouTube #1](https://youtu.be/SBQ95dMyNtA), [YouTube #2](https://youtu.be/giHeChuMfoY), [YouTube #3](https://youtu.be/5VuGjdqyqh0)  
+Marked target for oneshot seems to be based on number of hits or amount of damage done to Shogun in some timeframe (more testing needed) - [YouTube #1](https://youtu.be/Fm5JplQqXX8), [YouTube #2](https://youtu.be/CjNrzmnhCXA), [YouTube #3](https://youtu.be/b1Oa5r3mZ6Y)  
+Taunts do not sustain damage from the oneshot - [YouTube](https://youtu.be/Yim5xJQOMYw)  
+Oneshot can be burst I-framed - [YouTube #1](https://youtu.be/vWNEixVX0CM), [YouTube #2](https://youtu.be/HHfmRlAXgoo)  
+Always does a fixed 1 damage to targets in bubble shield - [YouTube](https://youtu.be/giHeChuMfoY)  
+Damage does *not* ignore shields when in bubble shield - [YouTube](https://youtu.be/G3CWmzznhlM)  
+Parry instance gets staggered mid-animation, but shield prevents fixed 1 damage - [YouTube](https://youtu.be/RXzvG3WSvro)  
+Dash I-frame in bubble shield does not prevent fixed 1 damage - [YouTube #1](https://youtu.be/elO4so9SK9E), [YouTube #2](https://youtu.be/pC7qTs_azx4)  
+Bubble shield must be triggered before oneshot slash animation - [YouTube](https://youtu.be/S1JSJT05kWY)  
+
+**Significance:**  
+The person who gets marked is not rng and is instead based on either number of hits or damage contribution in a non-specified set of time. Requires more testing.  
+On marked targets, the usage of shields, taunts, parries, damage reduction, and dashes will not prevent/reduce oneshot damage. Other forms of invincibility frames from both bursts and skills can prevent oneshot damage.  
+On other unmarked co-op targets, a shield does help absorb oneshot damage.  
+Inside the bubble barrier, the fixed 1 damage makes 1hp runs hard or impossible on some characters.  
+The oneshot in and out of shield share different mechanics. Parries will not work but the shields created can absorb the “1” damage taken.  
+Other evidence suggests that dash invincibility frames either do not work at all against Raiden boss oneshot, or are not animation dependant.  
 
 ## Overworld Bosses
 
