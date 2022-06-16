@@ -186,7 +186,7 @@ Affects Kokomi jellyfish rotations that retain 100% uptime, especially with the 
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/987115125821554758/transcript-kokomi-c2-clarification.html)
 
 **Finding:**  
-Kokomi C2 is applied as flat healing, similar to how Yunjin and Shenhe do with damage. It is not applied to the heal bonus part of the equation, as the description makes it sound like. Her burst heals might also not be accurate to the talent value. 
+Kokomi C2 is applied as flat healing, similar to Yunjin and Shenhe with damage. It is not applied to the heal bonus part of calculations, as the description makes it sound like.
 
 **Evidence:**  
 * [Video](https://www.youtube.com/watch?v=WbsWiYr73TY)
