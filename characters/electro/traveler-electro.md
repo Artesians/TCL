@@ -127,7 +127,7 @@ When a character is near an Abundance Amulet, they will absorb it and obtain the
 
 **Notes**
 * Different units can each pick up one **Abundance Amulet** generated from one **Lightning Blade** cast to gain its effects.
-* The Energy Recharge gained from **Abundance Amulets** does not affect Raiden's A4 passive, Mona's A4 passive and the 4-piece bonus from Emblem of Severed Fate.
+* The Energy Recharge gained from **Abundance Amulets** does not affect Raiden's A4 passive, Mona's A4 passive, the 4-piece bonus from Emblem of Severed Fate or the Engulfing Lightning.
 * The number of **Abundance Amulets** generated depends on the number of Lightning Blades hit AND number of enemies hit.
 * Hitting a shield will stil generate **Abundance Amulets**  
 * There is a delay before the **Abundance Amulets** can be picked up, on average 1.79s.
