@@ -73,7 +73,9 @@ Please stay tuned as we continue to upgrade our resources!
 * [Yelan Infographic](https://www.keqingmains.com/i/yelan)
 
 ### Kikin Bot
-You may have noticed Kikin Bot take over a significant portion of our commands on our Discord. Some of you may have been even more keen and noticed that Kikin is now deployed to the limit of 250 servers! Once our verification goes through, Kikin will be available for invite to anyone's discord! Kikin Bot's features include:
+You may have noticed Kikin Bot take over a significant portion of our commands on our Discord. Some of you may have been even more keen and noticed that Kikin is now deployed to the limit of 250 servers, including our partnered servers! Once our verification goes through, Kikin will be available for invite to anyone's discord!  
+
+Kikin Bot's features include:
 
 * Character Resources: KQM's latest infographics, builds and character guide
 * FAQ Resources on a variety of game mechanics
@@ -84,7 +86,9 @@ You may have noticed Kikin Bot take over a significant portion of our commands o
 For any suggestions and feedback for Kikin, you can message us in our bot-feedback channel in Discord. Big thanks to Paper for developing Kikin!
 
 ### KQM Compendium
-The KQM Compendium has been a project that has been in the making for several months. At this point in time, tehre are multiple submissions of a wide variety of team compositions to the KQM Compendium for collection. The idea behind the KQM Compendium is to preserve the efforts of the theorycrafting community from being lost to the tides of Discord messages.
+https://compendium.keqingmains.com/
+
+The KQM Compendium has been a project that has been in the making for several months. At this point in time, there have been multiple submissions of a wide variety of team compositions to the KQM Compendium. The idea behind the KQM Compendium is to preserve the efforts of the theorycrafting community from being lost to the tides of Discord messages.
 
 Currently, the Compendium displays:
 
@@ -103,9 +107,10 @@ In the future, you can look forward to an expansion of our submission system, Ao
 * [KQM Compendium](https://compendium.keqingmains.com/)
 
 ### KQM Calculation Standard 
-The KQM Standard (KQMS) is the working name of the document that KQM uses to standardize sub-stat distribution across different calculations. Firstly, KQM would like to iterate that changes to the KQMS will be made extremely rarely, and that revisions and versioning of the KQMS will begin soon. The current state of the KQMS is hard to read and difficult to parse, so revisions will be made without changing any of the content soon.
 
-The KQMS is also currently being examined in light of recent criticisms. The proposals that have been raised include low and hyper investment profiles, changes to the energy recharge requirements, and penalizing 3xEM mainstat distributions. For transparency, KQM will be internally evaluating the strength of each proposal and begin outlining the impact of changes to the KQMS. The [GUOBA project](https://guoba.deeznuts.moe/) has been used to evaluate the effectiveness of the KQMS and how well it tracks onto real player artifacts. Furthermore, each proposal will be evaluated on team compositions that would be most impacted by the changes and an internal selection of team compositions.
+The [KQM Standard](https://docs.google.com/document/d/1_UpwP0VziHehZVwdsD74wYuWD9pdSAknNVzs30U4vFE) (KQMS) is the working name of the document that KQM uses to standardize sub-stat distribution across different calculations. Firstly, KQM would like to iterate that changes to the KQMS will be made extremely rarely, and that revisions and versioning of the KQMS will begin soon. The current state of the KQMS is difficult to parse, so revisions will be made for accessibility & readability without changing any of the content.
+
+The KQMS is also currently being examined in light of recent criticisms. The proposals that have been raised include low and hyper investment profiles, changes to the energy recharge requirements, and penalizing 3x EM mainstat distributions. For transparency, KQM will be internally evaluating the strength of each proposal and begin outlining the impact of changes to the KQMS. The [GUOBA project](https://guoba.deeznuts.moe/) has been used to evaluate the effectiveness of the KQMS and how well it tracks onto real player artifacts. Furthermore, each proposal will be evaluated on team compositions that would be most impacted by the changes and an internal selection of team compositions.
 
 Changes to the KQMS will be versioned from this point forward and all changes will be recorded on the KQM Compendium website.
 
@@ -129,7 +134,7 @@ Stay tuned to #teyvat-theorycrafting-guide as we continue to write!
 ### TiBot
 Some of you may have noticed or purposefully ignored it, but KQM has new bots being deployed for managing our tickets and theoryhunts. Big thanks to Tibot and TiBot for making all of our lives much easier! 
 
-* TiBot uses / commands in order to /rename, /verify. You can find the directory of commands in TiBot's menus after typing /.
+* TiBot uses /slash commands in order to /rename, /verify. You can find the directory of commands in TiBot's menus after typing /.
 
 You'll be able to see our #ticket-feed and #ticket-directory to keep track of new developments in KQM Theorycrafting!
 ### Genshin Wizard
