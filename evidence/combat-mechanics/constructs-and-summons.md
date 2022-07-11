@@ -11,7 +11,7 @@ search: false
 ### Construct Defensive Scaling
 
 **By:** Greyhound\#7836 and Aevean Leeow\#1362  
-**Added:** 4/11/2021
+**Added:** 2021-04-11
 
 **Finding:** Confirming construct defensive stats\(HP/DEF/DR/RES\); All stats are taken at a 1:1 ratio \(except skills that state otherwise in description\) and snapshot on cast.
 
@@ -30,3 +30,26 @@ Video links and Geo MC/Zhongli/Albedo invisible number math fully compiled into 
 
 **Significance:** Better understanding of constructs and their scaling.
 
+### Geo Constructs Can't Handle Long Distance Relationships
+
+**By:** mando.\#1646  
+**Added:** 2022-04-24  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/967813434605437018/transcript-geo-constructs-cant-handle-long-distance-relationship.html)  
+
+**Findings:**  
+* Geo Constructs don't persist after teleporting to a certain distance.
+* This specific quality is exclusive to Geo Constructs and does not apply to Summons, as seen with Fischl's Oz and Xiangling's Guoba.
+
+**Evidence:**  
+Geo Constructs:  
+* Zhongli's Stone Stele: [video 1](https://youtu.be/NarGeWgMkt0), [video 2](https://youtu.be/NX2vEWomhzg)
+* Albedo's Solar Isotoma: [video](https://youtu.be/IHc9nuiZdOs)
+* GMC's meteorite: [video](https://youtu.be/JnDDv-Sj1VI) 
+* Ningguang's Jade Screen: [video](https://youtu.be/Ext43kane6w)
+
+Summons:  
+* Xiangling's Guoba: [video](https://youtu.be/m3zzeY9nzzg)
+* Fischl's Oz: [video 1](https://youtu.be/bcJN2CIPLPs), [video 2](https://youtu.be/LSYvgN_cDY8)
+
+**Significance:**  
+Expansion in the understanding of Geo Construct mechanics.  

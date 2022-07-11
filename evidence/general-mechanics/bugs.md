@@ -10,10 +10,29 @@ search: false
 
 ## Abyss
 
+### Retry and Exit Menu Issues
+
+**By:** Asaki\#9139  
+**Added:** 2022-01-27  
+
+**Finding:**  
+1. Time in the Spiral Abyss does not stop when you use the Exit button on the top left.  
+
+2. Attempting to retry the chamber just as the last enemy dies results in the following:  
+*  An error message will be displayed.  
+*  The chamber will end in 0 stars, even if the time remaining is above any of the star requirements.  
+*  The chamber will be considered as completed.  
+
+**Evidence:**  
+[Imgur](https://imgur.com/a/o4GmO5w)  
+
+**Significance:**  
+Better understanding of Abyss bugs/issues for cleaner runs.
+
 ### Using the Same Team for Both Abyss Halves
 
 **By:** Nitley\#3485  
-**Added:** 03/25/2021
+**Added:** 2021-03-25
 
 **Bug/Exploit:** You're able to use your overworld team \(regardless of character overlap with first half team\) for the second half of Spiral Abyss by selecting retry at the same time as killing the last mob.
 
@@ -24,7 +43,7 @@ search: false
 ### Elemental Skills and Bursts Don't Reset When Using Retry in Abyss
 
 **By:** Emear\#2956  
-**Added:** 04/10/2021
+**Added:** 2021-04-10
 
 **Bug:** Elemental Skills' and Bursts' CDs do not get reset upon retrying an Abyss floor
 
@@ -34,12 +53,55 @@ search: false
 
 **Significance:** This is significant as some people rely on pure RNG when trying to get that "perfect run". For example, using Xingqiu's Q and following up with two E's \(when using Sacrificial Sword\) to generate as much energy recharge as possible for the next Q is often used in vape comps. When attempting the "perfect run", people may restart several times at the first few seconds of starting a floor to get the Sacrificial Sword's passive to activate. However, they will notice that Xingqiu's E has a 21 second CD which does not get reset upon retrying a stage, forcing them to retry the floor AGAIN. This is especially noticeable on characters with long CDs on elemental skills or bursts.
 
+## Domains
+
+### Resetting or Exiting a Domain does not Reset Elemental Skill Cooldowns  
+
+**By:** Puffin\#9920   
+**Added:** 2022-02-26   
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/947163566954393671/transcript-restarting-or-leaving-domain-doesnt-reset-skill-cd.html)  
+
+**Bug:** Resetting or exiting a domain does not reset elemental skill cooldowns.
+
+**Evidence:** 
+1. [Youtube](https://www.youtube.com/watch?v=J9vlL5l5MYw)  
+2. [Youtube](https://www.youtube.com/watch?v=H27u5YRshiE)  
+
+
+
+**Significance:** This behavior is not unique to Spiral Abyss and applies to all domains.
+
+### Keeping Domain Doors Open
+
+**By:** Magnus Artifex\#8719  
+**Added:** 2022-05-14  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/975064228476125224/transcript-keeping-domain-doors-open.html)
+
+**Bug:**  
+A domain’s door can be kept opened after exiting the domain.
+
+**Evidence:**  
+The following steps need to be followed to cause this:
+
+1) Be in the domain choosing screen.
+2) Achieve the high ping by deactivating your signal/wifi.
+3) Open the domain again.
+4) Turn on the signal/wifi when the loading icon appears. This has to appear while the door is opening.
+5) Now exit the domain screen. It should be still opened.
+
+The door resets if you teleport to another map or far enough away, but does not if you teleport nearby. It also resets if you interact with the domain again.
+
+[Teleporting nearby](https://imgur.com/a/WII4L0R) - [Teleporting far away](https://imgur.com/a/3c67rPC)
+
+**Significance:**  
+looks cool
+
 ## Overworld
 
 ### Infinite Bushes
 
 **By:** xHelloEveryonex\#1401  
-**Added:** 04/05/2021
+**Added:** 2021-04-05
 
 **Bug:** Unlimited respawning bushes when using Hu Tao infused with Pyro sets them on fire and then they respawn.
 
@@ -50,7 +112,7 @@ search: false
 ### Aiming Harpastum
 
 **By:** Iron IV#3832  
-**Added:** 06/20/2021  
+**Added:** 2021-06-20  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/842575899408203846/846689845517877268/transcript-mona-e-bug.html)
 
 **Bug:** Throwing a harpastum while entering aim mode can force your camera into third person while aiming
@@ -62,7 +124,7 @@ search: false
 ### 4-piece set bonuses on environment reactions
 
 **By:** Aluminum#5462  
-**Added:** 6/22/2021  
+**Added:** 2021-06-22  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/845422859467489390/856750287548710912/transcript-4tf-environmental-damage.html)
 
 **Bug:** Sometimes set bonuses do not work properly if triggered on unconventional sources
@@ -74,7 +136,7 @@ search: false
 ### Cooking Pot Super Jump
 
 **By:** Nass008\#8577  
-**Added:** 12/23/2021  
+**Added:** 2021-12-23  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/921775232707100692/923676486106509382/transcript-cooking-pot-super-jump.html)  
 
 **Finding:**  
@@ -103,7 +165,7 @@ Can be used to reach places normally inaccessible, especially by utilizing Benne
 
 ### Leg Break Bridge
 **By:** Lilith of the night#5024  
-**Added:** 1/21/2022  
+**Added:** 2022-01-21  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/930076186787336243/934021559629254676/transcript-leg-break-bridge.html)
 
 **Finding:**   
@@ -124,7 +186,7 @@ The damage is likely counted as from plunge, as it is close to the max plunge dm
 ### Netlimited Blade Works
 
 **By:** Ayzel\#7399  
-**Added:** 6/16/2021  
+**Added:** 2021-06-16  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/838967062184984636/854582115995877397/transcript-high-ping-multiple-orbital-application.html)  
 
 **Finding:**  
@@ -140,7 +202,7 @@ Fast shield-breaking tech, can apply hydro very fast to allow more vapes in Xing
 ### Lag and Snapshot Interactions
 
 **By:** Soup420\#1634  
-**Added:** 04/19/2021  
+**Added:** 2021-04-19  
 _\*\*_[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/826181971545292880/834198195352764446/transcript-lag-and-snapshot-interactions.html)
 
 **Finding:** Skills that snapshot character stats like attack and hp are probably snapshotted client side and sent to server to be confirmed. The same applies to skills that actually apply the buff, like Bennett buff and Hutao buff which both apply their buffs without the need for server connection. However, HP can't be changed without server connection so it results in weird interactions with Hutao or Bennett buffs.
@@ -152,141 +214,12 @@ Skills that are dependent on enemy HP values like Diluc c1 or Albedo A2 are appl
 * [Bennett overheal](https://www.youtube.com/watch?v=aIMPpFMJFSk)
 * [Diluc C1 not benefitting](https://www.youtube.com/watch?v=NSC2BhkhcJo)
 
-### High Ping Interactions
-
-**By:** Some Proselytizer#8340  
-**Added:** 6/26/2021  
-[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/840480610765111316/858421155228418088/transcript-high-ping-interactions.html)
-
-**Findings:**  
-Numerous interactions/findings that happen with high ping, listed below.
-
-**Evidence:** 
-
-**Elemental reactions**  
- * Benny E reverse vape: [Video](https://youtu.be/9XPBA5N_vDI)  
-   * Number check: [Video](https://youtu.be/QMZYFYNUQAw)  
- * Hutao N1 melt: [Video](https://youtu.be/EwUozvaNcPI)
- * Electro Charged: [Video](https://youtu.be/K3PM465-9SY)
- * Overload: [Video](https://youtu.be/-CB3ThBaXSc)
- * Swirl: [Video](https://youtu.be/gtlecORkGnw)
- * Freeze and Shatter: [Video](https://youtu.be/4gaCtylCSo4)
- * Crystallize: [Video](https://youtu.be/iDmUZz6fmeU) 
- * Superconduct: [Video](https://youtu.be/Y9GIvuNkPog) (Works on high latency)  
-
-Conclusion: Elemental reactions are updated on client, and superconduct shred still works in high latency.
-
-**HP**  
-* No HP drain:
-  * Xiao Q: [Video](https://youtu.be/4K7lYdrUvn4)
-  * Hutao E: [Video](https://youtu.be/v9MgG98oZqc)
-* Resistance to dmg beyond death: [Video](https://youtu.be/8t0nx34i8s4)
-
-Conclusion: Both player and enemy are granted immortality whilst under high ping but will be HP bar will be updated once switched back to normal latency. Damage can be dealt even when character is supposed to be dead. Therefore, HP is updated on the server.
-
-**Energy**  
-* Energy particles (Bennett E): [Video](https://youtu.be/mSHgKDCvqLk)
-* AA energy gain: [Video](https://youtu.be/1KZInSzButA)
-* Burst Gauge (Xiao Q): [Video](https://youtu.be/42BqRmrVRVc)
-
-Conclusions: Energy is not produced under high ping but will be generated when ping returns to normal. Energy particles are updated on server. However AA energy source is not refunded when back to low latency. Also, Energy is not consumed when under high ping. Energy is updated on server.
-
-**AI malfunction**  
- * Ruin guard AI: [Video](https://youtu.be/YffGZGhdTiQ)
- * Fatui Electro Hammer guy: [Video](https://youtu.be/UfskXbGraq0)
- * Ruin Hunter and boar: [Video](https://youtu.be/ZQWm-AwmoSk)
- * Anemo cube: [Video](https://youtu.be/TrYWSicLrXs)
- * Churl Grenadiers: [Video](https://youtu.be/iTXIdBHuu-w)
- * Primovishap: [Video](https://youtu.be/KdKY2jccqs8)
-
-Extra note: When enemy is aggro-ed by player before high latency, it will remain aggressive. but when enemy is aggro-ed during high latency, it will remain passive for the duration of high latency state. Taunts will turn aggressive enemies to passive enemies under high latency.  
-Conclusion: AI gets skewered under high ping
-
-**Stat buffs**  
-* DMG% buff (XL c6, a4 passive test): [Video](https://youtu.be/R5yKam3ZNjs)
-* ATK% buff (Benny Q): [Video](https://youtu.be/vT2n5bmEZQY)
-  * Number check: [Video](https://youtu.be/lrh_x9KYu2o)
-* EM buff (Budget venti EM share): [Video](https://youtu.be/b4Gia3dHieo)
-* CDR (Chongyun c2): [Video](https://youtu.be/IkBN09JRqcc)
-* CRIT% buff (Hutao crit share): [Video](https://youtu.be/ZPytXaOROx0)
-* ATK speed MV speed (Skyrider passive): [Video](https://youtu.be/bIaaYdjx5kw)
-* Special cases:
-  * Hutao hp <50% bonus:
-    * Hutao number check: [Video](https://youtu.be/mS5Vh9-7XnU)
-  * No 33% pyro dmg bonus: [Video](https://youtu.be/z5IKX7LrwQQ)
-
-Conclusion: DMG%, ATK%, EM buffs are updated live unless they are linked to stats that arent updated on client ie: hp thresholds
-
-**Resistance shred**
-* Zhong Li shred in high ping vs low ping:
-  * Number check: [Video](https://youtu.be/gsJAzITzsrU)
-  * High ping vid: [Video](https://youtu.be/p1WAhrsWqLg)
-* 4pc vv:
-  * Number check: [Video](https://youtu.be/m-eWeZxdjcE)
-  * High ping test: [Video](https://youtu.be/g59G-cOP_2s)
-
-Conclusion: Resistance shred is updated on client
-
-**Fall/Collision DMG**
-* Fall dmg: [Video](https://youtu.be/nzmnOqrkH6o)
-
-Conclusion: Fall dmg is dealt under high ping
-
-**ICD, Elemental application**  
-* XQ E orbitals applying hydro at an insane rate: [Video](https://youtu.be/ncGZnk4bv7g)
-* ICD for infusions (Keqing E infusion): [Video](https://youtu.be/qPq9d-CFz3U)
-
-Conclusion: ICD behaves normally aside from a few exceptions, so far only XQ E seems to have a different application rate than usual.
-
-**Healing**  
-* Benny Q: [Video](https://youtu.be/TD9kzbjXT2c) (Benny Q ignores 70% healing restriction when under high latency)
-
-Conclusion: Healing is inaccessible under high latency. Similar to hp being updated in server.
-
-**Shields**
-* Diona shield: [Video](https://youtu.be/xCI7DT1HeLo)
-
-Conclusion: Shields works normally under high ping
-
-**Stamina**
-* Infinite stamina: [Video](https://youtu.be/YSHAAnegP8M)
-
-Conclusion: Stamina is not consumed under high ping, nor will it regenerate. Stamina is updated in server.
-
-**Weapon passives**  
-* Sacrificial weapons: [Video](https://youtu.be/vzW2SuG85Z0)
-* Favonius weapons: [Video](https://youtu.be/a8xawGLpLzc)
-* Conditional weapon passives (L.Roar): [Video](https://youtu.be/mLM3LTrcVgI)
-  * LR number check: [Video](https://youtu.be/kF2Fj23vJ0g)
-* On-hit passive weapons:
-  * P.Archaic: [Video](https://youtu.be/w-7FrKkZuvQ)
-  * Flute: [Video](https://youtu.be/CIUI2Fi0HNs) (Musical notes were stacked because server got updated)
-  * A.Favonia: [Video](https://youtu.be/pm4QUcvASW4)
-  * WGS: [Video](https://youtu.be/WvxdoqIBP-4)
-
-Conclusion: For conditional weapon passives, if condition is true, the passive will be added into the dmg calculation. On-hit passives cannot trigger, shares similar trait as sacrificial and favonius weapons. Aquila passive behaves differently.
-
-**Taunts**
-* Ganyu E: [Video](https://youtu.be/DAb3UCPydcM)
-* Removing aggro: [Video](https://youtu.be/s56hKB0Ymc8)
-
-Conclusion: Taunts behave normally under high latency
-
-**Geo constructs**
-* Zhongli E: [Video](https://youtu.be/RdzbYRaIdSw)
-
-Conclusion: Geo construct HP are calculated on client side
-
-**Significance:**  
-Bad ping breaks some mechanics in game on the server side and it could be used for meme abyss runs or be used for bad players for comfier clears if they own energy reliant characters like xiao or eula or CA spam carries like phys keqing.
-
-
 ## Artifacts
 
 ### Noblesse Oblige 4pc bonus not applying to some bursts
 
 **By:** Bobrokrot\#0111  
-**Added:** 04/26/2021  
+**Added:** 2021-04-26  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/821732346290110474/836418290745999410/transcript-4no-bug.html)
 
 **Bug:**  
@@ -314,7 +247,7 @@ Until patched, Ganyu and Beidou should not hold 4NO buffs as they cannot utilize
 ### Particles Move While Game is Paused
 
 **By:** Anmol43\#1917 and paimonbukeyi\#4732  
-**Added:** 04/05/2021
+**Added:** 2021-04-05
 
 **Finding:** Energy Particles don't stop moving even when you open a pause menu. You can absorb particles while in a pause menu. Works in every menu most notably adventure book and wish menu allowing it to be used in abyss.
 
@@ -328,7 +261,7 @@ Until patched, Ganyu and Beidou should not hold 4NO buffs as they cannot utilize
 ### Xiangling's Burst can Stack in Contending Tides Event
 
 **By:** Ayzel\#7399  
-**Added:** 04/09/2021
+**Added:** 2021-04-09
 
 **Bug:** Xiangling's burst can stack in the Contending Tides event.
 
@@ -360,7 +293,7 @@ Until patched, Ganyu and Beidou should not hold 4NO buffs as they cannot utilize
 ### Artifact Inventory size affects Wishing
 
 **By:** George#0766  
-**Added:** 09/25/2021  
+**Added:** 2021-09-25  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/890023724240216064/891163055684223016/transcript-artifact-inventory-size.html)
 
 **Finding:**  
@@ -375,7 +308,7 @@ This check already exists if you try to collect artifacts with a near full inven
 ### Sprinting Bug
 
 **By:** BowTae#0141  
-**Added:** 10/17/2021  
+**Added:** 2021-10-17  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/893769893525200908/899132398682402936/transcript-drain-stamina-while-standing.html)
 
 **Finding:**  
@@ -398,7 +331,7 @@ Fluff, annoying bug when you do it by accident.
 ### Venti Q Late Absorption Bug
 
 **By:** soup420\#1634  
-**Added:** 04/23/2021  
+**Added:** 2021-04-23  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/829479729299193877/835390049503543336/transcript-venti-burst-absorption-bug.html)
 
 **Finding:**  
@@ -417,7 +350,7 @@ When elemental absorption happens late into a Venti Q, the damage from elemental
 ### Venti E hold visual error
 
 **By:** Santoryu\#4495  
-**Added:** 05/23/2021  
+**Added:** 2021-05-23  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/841955537322246174/845828367931670579/transcript-venti-e-hold-visual-error.html)
 
 **Bug:** Venti's Hold Elemental Skill will always lift you vertically up
@@ -435,7 +368,7 @@ This may be considered a bug due to the visual indication being tilted, but the 
 ### Mona Elemental skill bug
 
 **By:** Childe C6 is overrated-Toro\#1035  
-**Added:** 05/25/2021  
+**Added:** 2021-05-25  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/842575899408203846/846689845517877268/transcript-mona-e-bug.html)
 
 **Bug:** There is a small chance that when you use Mona's Press E, the explosion damage and particle generation also happens during cast
@@ -446,12 +379,42 @@ It can happen against any enemy, and it seems to be a random occurrence. It does
 
 **Significance:** If this bug can be replicated consistently, it can double Mona's Energy Generation + a minimal increase in damage.
 
+### Infinite Torch
+
+**By:** Sincronic\#3171  
+**Added:** 2022-03-29  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/958520792939900958/transcript-infinitorch.html)  
+
+**Bug:**  
+Torches \(and maybe campfires\) sometimes become unextinguishable by Overloads. Sometimes they extinguish after a long time of using Overloads. Cause unknown.  
+
+**Evidence:**  
+[Video](https://youtu.be/qI1wiQH2lw4): No matter the amout, type, or Gauge of the Overload, the torch could not be extinguished.  
+
+**Significance:**  
+Understanding of overworld mechanics.  
+
+### Lightning Struck Tree Breaks When Swapping Characters
+
+**By:** Sincronic\#3171  
+**Added:** 2022-04-08  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/962022405419704400/transcript-lightning-struck-tree-breaks-when-swapping-characters.html)  
+
+**Bug:**  
+Lightning Struck Trees have a high chance of breaking if you swap characters near them as it keeps applying Electro on you. It is possible to fix it by relogging or drowning to force reload.  
+
+**Evidence:**  
+[YouTube video](https://youtu.be/uqLVV94zVBU)  
+
+**Significance:**  
+ Understanding overworld mechanics. May inhibit exploration of tatarasuna for new players.  
+ 
 ## Teapot
 
 ### Horizon Tech
 
 **By:** Originally discovered by zajef77#2838 and many KQM members contributed  
-**Added:** 6/23/2021  
+**Added:** 2021-06-23  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/847367901518626846/857350049892925480/transcript-spaghetti-impact-horizon-tech.html)
 
 **Bug:**  
@@ -467,3 +430,23 @@ Clipping a Fruit Stand into landmasses allows your character to climb and stand 
 
 **Significance:**  
 Looks kinda cool.
+
+## Fishing Spots
+
+### Fishing Spot Prompt Bug
+
+**By:** Beast Boy\#2560  
+**Added:** 2022-04-16  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/964955562846609530/transcript-fishing-spot-prompt.html)  
+
+**Bug:**  
+The fishing prompt can stay with the character far beyond the normal area under certain conditions. How long and how far it sticks are very inconsistent. The bug persists through: walking, running, sprinting, jumping, gliding, Normal Attacking, Charge Attacking, Plunge Attacking, using an Elemental Skill, using an Elemental Burst, and opening menus. The bug does not persist through a character dying. The fishing prompt can also be extended beyond its normal area by repeatedly entering and exiting the menu.  
+
+**Evidence:**  
+* Normal Fishing Prompt Interaction \(for reference\): [video](https://imgur.com/a/Um9dkKI)
+* Persists through many actions: [video](https://youtu.be/Up6DK2fehS0)
+* Persists through menu opening: [video](https://imgur.com/a/D91qwc7)
+* Entering and exiting menu extension \(from sexyeboy69\#2687\): [video](https://youtu.be/LsbKfLN-kMo)
+
+**Significance:**  
+Mostly fluff \(could have been used in Rally Inazuma round 6 if bugs were allowed\).

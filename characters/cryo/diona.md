@@ -33,37 +33,39 @@ description: A young lady who has inherited trace amounts of non-human blood. Sh
 **Normal Attack**  
 Perform up to 5 consecutive shots with a bow.
 
-| String | Talent 6% | Frames | MV/s |
-| :--- | :--- | :--- | :--- |
-| 1-hit | 52.5% | 16 | 196.6%/s |
-| 2-Hit | 48.75% | 37 | 164.2%/s |
-| 3-Hit | 66.25% | 67 | 150.0%/s |
-| 4-Hit | 62.5% | 101 | 136.6%/s |
-| 5-Hit | 78.13% | 152 | 121.6%/s |
-| With Recovery | 308.19% | 190 | 97.3%/s |
+| String | Talent 9% | Frames | MV/s | Poise Damage | Impulse Type |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1-hit | 66.36% | 16 | 248.85%/s | 12.6 | 1 |
+| 2-Hit | 61.62% | 37 | 207.54%/s | 11.7 | 1 |
+| 3-Hit | 83.74% | 67 | 189.6%/s | 15.9 | 1 |
+| 4-Hit | 79% | 101 | 172.7%/s | 15 | 1 |
+| 5-Hit | 98.75% | 152 | 153.74%/s | 18.75 | 1 |
+| With Recovery | 389.47% | 190 | 122.99%/s | - | - |
 
-**Aimed Shot**  
+**Charged Attack**  
 Perform a precise Aimed Shot with increased DMG.  
 A fully charged shot will deal Cryo DMG.
 
-| Type | Talent 6% | Frames | MV/s | GU |
-| :--- | :--- | :--- | :--- | :--- |
-| Aimed Shot | 63.75% | 26 | 147.1%/s | ~ |
-| Fully Charged | 173.6% | 84 | 124%/s | 1A |
-
+| Type | Talent 9% | Frames | MV/s | GU | Poise Damage | Impulse Type |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Aimed Shot | 80.58% | 15 | 322.32%/s | - | 10 \(Headshot: 30\) | 2 |
+| With Recovery | - | 23 | 210.21%/s | - | - | - |
+| Fully Charged | 210.8% | 86 | 147.07%/s | 1A | 20 \(Headshot: 60\) | 5 |
+| With Recovery | - | 94 | 134.55%/s | - | - | - |
+| C4 Fully Charged | 210.8% | 50 | 252.96%/s | 1A | <!--- not on the sheet--> | <!--- not on the sheet--> |
+| With Recovery | - | 58 | 218.07%/s | - | - | - |
+* Charged Attack frame counts are done using by holding and releasing the Normal Attack button.
 * Diona's Fully Charged shots follow a 3 hit/2.5s ICD.
-* Aimed Shot frame counts are done using M1 Spams.
-* Fully Charged frame counts are done using ARCC Shots.
 * Diona can cancel her dash early with Aim Toggle. Thus allows her to do quick Charged Attack while still retaining the ability to aim, unlike ARCC which cannot be aimed.
 
 **Plunge Attack**  
 Fire a shower of arrows from mid-air before falling striking the ground, dealing AoE DMG.
 
-| Type | Talent 6% |
-| :--- | :--- |
-| Plunge DMG | 82.6% |
-| Low Plunge DMG | 165.17% |
-| High Plunge DMG | 206.3% |
+| Type | Talent 9% | Poise Damage | Impulse Type |
+| :--- | :--- | :--- | :--- |
+| Plunge DMG | 104.41% | 10 | 2 |
+| Low Plunge DMG | 208.77% | 50 | 2 |
+| High Plunge DMG | 260.76% | 100 | 3 |
 {% endtab %}
 
 {% tab title="Icy Paws" %}
@@ -80,7 +82,7 @@ The shield’s DMG Absorption scales based on Diona’s Max HP, and its duration
 
 | Attribute | Tap | Hold |
 | :--- | :--- | :--- |
-| Skill DMG \(T6%\) | 58.69% x 2 | 58.69% x 5 |
+| Skill DMG \(T9%\) | 71.26% x 2 | 71.26% x 5 |
 | Particles | 0~1 \(1:4\) check per paw | 0~1 \(1:4\) check per paw |
 | Frames | 15 | 24 |
 | GU | 1A | 1A x 2 | 
@@ -89,18 +91,22 @@ The shield’s DMG Absorption scales based on Diona’s Max HP, and its duration
 | Damage Element | Cryo | Cryo | 
 | Damage Type | Skill | Skill |
 | CD | 6s | 15s |
+| Poise Damage | 30 | 30 |
+| Impulse Type | 2 | 2 |
 
 | Attribute | Shield | 
 |:--- | :--- |
-| Base Scaling | 10.08% Max HP + 1097 | 
+| Base Scaling | 12.24% Max HP + 1409 | 
 | Elemental Type | Cryo | 
-| Duration | 2.3s per paw |
+| Duration | 2.4s per paw |
 
 **Notes**
 * Applies a 1A Cryo Aura for a short duration upon formation and upon swap to a different active character.
 * In specific circumstances, Diona's shield will apply 2U of Cryo on swap.
   * For more details see the [full entry](../../evidence/characters/cryo/diona.md#bug-dionas-shield-is-2u-under-specific-circumstances-that-are-guaranteed-on-swap) in Diona's Evidence Vault.
 * Icy Paws will not generate a shield if they do not hit something. They will also despawn after a certain amount of time.
+* Icy Paws will home on some entities that are not enemies, such as birds in the overworld.
+* Icy Paws appear behind Diona and then move forward during hold E, causing it to hit walls when being used in front of a wall.
 * A deep-dive into how Icy paws work can be found [here](https://docs.google.com/document/d/1GZrscI-X_-CgzavXUbCeELrSumbAqlLqVkkJN1vWKwk/edit?usp=sharing)
   {% endtab %}
 
@@ -113,26 +119,34 @@ Tosses out a special cold brew that deals AoE Cryo DMG and creates a **Drunken M
 
 | Attribute | Burst |
 | :--- | :--- |
-| Skill DMG \(T6%\) | 112% |
-| Frames | 49 | 
+| Skill DMG \(T9%\) | 136% |
+| Cast Frames | 49 |
+| Energy Frame | 49 |
+| CD Frame | 43 |
 | GU | 1A |
 | CD | 20s |
 | Energy Cost | 80 |
+| Poise Damage | 50 |
+| Impulse Type | 2 |
 
 | Attribute | Field |
 | :--- |:---|
-| Field DMG (T6%) | 73.7% |
+| Field DMG (T9%) | 89.49% |
 | GU | 1A |
 | ICD | 3 hits / 2.5s |
-| HP Regen | 7.47% Max HP + 813 |
+| HP Regen | 9.07% Max HP + 1044 |
 | Duration | 12s |
 | Tick Rate| 2s | 
 | C6 Buff Duration | 2s |
+| Poise Damage | 50 |
+| Impulse Type | 1 |
 
 **Notes**
 * C6 buff applies on swap.
 * Her field shares an ICD with the initial hit.
-* The Drunken Mist AoE has a finite vertical range. Characters above or below this vertical range will not receive healing.
+* **Drunken Mist** AoE has a finite vertical range. Characters above or below this vertical range will not receive healing.
+* **Drunken Mist** targets an enemy and snapshots the position on cast.
+* **Drunken Mist** duration starts when the paws disappear from the field, which is about when the Burst CD reaches ~17.5s.
 
 {% endtab %}
 {% endtabs %}
@@ -143,17 +157,20 @@ Tosses out a special cold brew that deals AoE Cryo DMG and creates a **Drunken M
 {% tab title="Passive" %}
 ### **Complimentary Bar Food**
 
-When Perfect Cooking is achieved on a dish with restorative effects, there is a 12% chance to obtain double the product.
+When a Perfect Cooking is achieved on a dish with restorative effects, there is a 12% chance to obtain double the product.
 {% endtab %}
 
 {% tab title="Ascension 1" %}
-### **Cat’s Tail Secret Menu**
+### **Cat's Tail Secret Menu**
 
-Characters shielded by **Icy paws** have their Movement SPD increased by 10% and their Stamina Consumption decreased by 10%.
+Characters shielded by **Icy paws** have their Movement SPD increased by 10% and their Stamina Consumption decreased by 10%.  
+
+* Ths can stack with other forms of stamina reduction as long as they are not the exact same.  
+
 {% endtab %}
 
 {% tab title="Ascension 4" %}
-### **Drunkards’ Farce**
+### **Drunkards' Farce**
 
 Opponents who enter the AoE of **Signature Mix** have 10% decreased ATK for 15s.
 {% endtab %}
@@ -166,43 +183,52 @@ Opponents who enter the AoE of **Signature Mix** have 10% decreased ATK for 15s.
 ### **A Lingering Flavor**
 
 Regenerates 15 Energy for Diona after the effects of **Signature Mix** end.
+
+* There is no range limit as long as Diona is on the same map.
+
 {% endtab %}
 
 {% tab title="C2" %}
 ### **Shaken, Not Purred**
 
-Increases **Icy Paws**’ DMG by 15%, and increases its shield’s DMG Absorption by 15%. Additionally, when paws hit their targets, creates a shield for other nearby characters on the field with 50% of the **Icy Paws** shield’s DMG Absorption for 5s.
+Increases **Icy Paws**' DMG by 15%, and increases its shield's DMG Absorption by 15%.
+Additionally, when paws hit their targets, creates a shield for other nearby characters on the field with 50% of the **Icy Paws** shield's DMG Absorption for 5s.
 
 * This DMG increase is **Additive**.
 {% endtab %}
 
 {% tab title="C3" %}
-### **A-Another Round?**
+### **A—Another Round?**
 
 Increases the Level of **Signature Mix** by 3.
+Maximum upgrade level is 15.
+
 {% endtab %}
 
 {% tab title="C4" %}
 ### **Wine Industry Slayer**
 
-Within the radius of **Signature Mix**, Diona’s charge time for Aimed Shots is reduced by 60%
+Within the radius of **Signature Mix**, Diona's charge time for aimed shots is reduced by 60%
+
 {% endtab %}
 
 {% tab title="C5" %}
-### **Double Shot, On The Rocks**
+### **Double Shot, on the Rocks**
 
 Increases the Level of **Icy Paws** by 3.
+Maximum upgrade level is 15.
+
 {% endtab %}
 
 {% tab title="C6" %}
-### **Cat’s Tail Closing Time**
+### **Cat's Tail Closing Time**
 
-Characters within **Signature Mix**’s radius will gain the following effects:
-
+Characters within **Signature Mix**'s radius will gain the following effects based on their HP amounts:
 * Increases Incoming Healing Bonus by 30% when HP falls below or is equal to 50%.
-* Elemental Mastery Increased by 200 when HP is above 50%.
+* Elemental Mastery increased by 200 when HP is above 50%.
 
-The Elemental Mastery bonus will apply immediately on swap and linger for 2 seconds.
+**Notes**
+* The Elemental Mastery bonus will apply immediately on swap and linger for 2 seconds.
 {% endtab %}
 {% endtabs %}
 
@@ -212,53 +238,58 @@ The Elemental Mastery bonus will apply immediately on swap and linger for 2 seco
 {% tab title="Kätzlein Style" %}
 ### Normal Attacks
 
-|  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1-Hit DMG | 52.50% | 57.12% | 61.74% | 66.36% | 71.40% | 77.18% |
-| 2-Hit DMG | 48.75% | 53.04% | 57.33% | 61.62% | 66.30% | 71.66% |
-| 3-Hit DMG | 66.25% | 72.08% | 77.91% | 83.74% | 90.10% | 97.39% |
-| 4-Hit DMG | 62.50% | 68% | 73.50% | 79% | 85% | 91.88% |
-| 5-Hit DMG | 78.13% | 85% | 91.88% | 98.75% | 106.25% | 114.84% |
+|  | Lv1 | Lv2 | Lv3 | Lv4 | Lv5 | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 1-Hit DMG | 36.12% | 39.06% | 42.00% | 46.20% | 49.14% | 52.50% | 57.12% | 61.74% | 66.36% | 71.40% | 77.17% |
+| 2-Hit DMG | 33.54% | 36.27% | 39.00% | 42.90% | 45.63% | 48.75% | 53.04% | 57.33% | 61.62% | 66.30% | 71.66% |
+| 3-Hit DMG | 45.58% | 49.29% | 53.00% | 58.30% | 62.01% | 66.25% | 72.08% | 77.91% | 83.74% | 90.10% | 97.39% |
+| 4-Hit DMG | 43.00% | 46.50% | 50.00% | 55.00% | 58.50% | 62.50% | 68.00% | 73.50% | 79.00% | 85.00% | 91.87% |
+| 5-Hit DMG | 53.75% | 58.13% | 62.50% | 68.75% | 73.12% | 78.13% | 85.00% | 91.87% | 98.75% | 106.25% | 114.84% |
 
 ### Aimed Shot
 
-|  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Aimed Shot | 63.75% | 69.36% | 74.97% | 80.58% | 86.70% | 93.71% |
-| Fully-Charged Aimed Shot | 173.60% | 186% | 198.40% | 210.80% | 223.20% | 236.10% |
+|  | Lv1 | Lv2 | Lv3 | Lv4 | Lv5 | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Aimed Shot | 43.86% | 47.43% | 51.00% | 56.10% | 59.67% | 63.75% | 69.36% | 74.97% | 80.58% | 86.70% | 93.71% |
+| Fully-Charged Aimed Shot | 124.00% | 133.30% | 142.60% | 155.00% | 164.30% | 173.60% | 186.00% | 198.40% | 210.80% | 223.20% | 236.10% |
 
 ### Plunge
 
-|  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Plunge DMG | 82.60% | 89.87% | 97.14% | 104.41% | 112.34% | 120.27% |
-| Low Plunge DMG | 165.17% | 179.70% | 194.23% | 208.77% | 224.62% | 240.48% |
-| High Plunge DMG | 206.30% | 224.45% | 242.61% | 260.76% | 280.57% | 300.37% |
+|  | Lv1 | Lv2 | Lv3 | Lv4 | Lv5 | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Plunge DMG | 56.83% | 61.45% | 66.08% | 72.69% | 77.31% | 82.60% | 89.87% | 97.14% | 104.41% | 112.34% | 120.27% |
+| Low Plunge DMG | 113.63% | 122.88% | 132.13% | 145.35% | 154.59% | 165.16% | 179.70% | 194.23% | 208.77% | 224.62% | 240.48% |
+| High Plunge DMG | 141.93% | 153.49% | 165.04% | 181.54% | 193.10% | 206.30% | 224.45% | 242.61% | 260.76% | 280.57% | 300.37% |
+
 {% endtab %}
 
 {% tab title="Icy Paws" %}
-|  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 | Lv12 | Lv13 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Icy Paw DMG \(per Paw\) | 58.69% | 62.88% | 67.07% | 71.26% | 75.46% | 79.65% | 83.84% | 89.08% |
-| Base Shield DMG Absorption Scaling | 10.08% | 10.8% | 11.52% | 12.24% | 12.96% | 13.68% | 14.4% | 15.3% |
-| Base Shield DMG Absorption Additive | 1097 | 1195 | 1299 | 1409 | 1524 | 1646 | 1773 | 1905 |
-| Duration \(per Paw\) | 2.3 | 2.4 | 2.4 | 2.4 | 2.4 | 2.4 | 2.4 | 2.4 |
+
+|  | Lv1 | Lv2 | Lv3 | Lv4 | Lv5 | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 | Lv12 | Lv13 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Icy Paw DMG \(per Paw\) | 41.92% | 45.06% | 48.21% | 52.40% | 55.54% | 58.69% | 62.88% | 67.07% | 71.26% | 75.46% | 79.65% | 83.84% | 89.08% |
+| Base Shield DMG Absorption Scaling | 7.20% Max HP | 7.74% Max HP | 8.28% Max HP | 9.00% Max HP | 9.54% Max HP | 10.08% Max HP | 10.80% Max HP | 11.52% Max HP | 12.24% Max HP | 12.96% Max HP | 13.68% Max HP | 14.40% Max HP | 15.30% Max HP |
+| Base Shield DMG Absorption Additive | 693 | 762 | 837 | 918 | 1005 | 1097 | 1195 | 1299 | 1409 | 1524 | 1646 | 1773 | 1905 |
+| Duration \(per Paw\) | 1.8s | 1.9s | 2.0s | 2.1s | 2.2s | 2.3s | 2.4s | 2.4s | 2.4s | 2.4s | 2.4s | 2.4s | 2.4s |
 
 **Press Cooldown**: 6s  
-**Hold Cooldown**: 15s
+**Holding Cooldown**: 15s
+
 {% endtab %}
 
 {% tab title="Signature Mix" %}
-|  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 | Lv12 | Lv13 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Skill DMG | 112% | 120% | 128% | 136% | 144% | 152% | 160% | 170% |
-| Continuous Field DMG | 73.70% | 78.96% | 84.22% | 89.49% | 94.75% | 100.02% | 105.28% | 111.86% |
-| HP Regeneration Over Time Scaling | 7.47% | 8% | 8.54% | 9.07% | 9.6% | 10.14% | 10.67% | 11.34% |
-| HP Regeneration Over Time Additive | 813 | 885 | 962 | 1044 | 1129 | 1219 | 1313 | 1411 |
 
-**Energy Cost**: 80  
+|  | Lv1 | Lv2 | Lv3 | Lv4 | Lv5 | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 | Lv12 | Lv13 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Skill DMG | 80.00% | 86.00% | 92.00% | 100.00% | 106.00% | 112.00% | 120.00% | 128.00% | 136.00% | 144.00% | 152.00% | 160.00% | 170.00% |
+| Continuous Field DMG | 52.64% | 56.59% | 60.54% | 65.80% | 69.75% | 73.70% | 78.96% | 84.22% | 89.49% | 94.75% | 100.02% | 105.28% | 111.86% |
+| HP Regeneration Over Time Scaling | 5.34% | 5.74% | 6.14% | 6.67% | 7.07% | 7.47% | 8.00% | 8.54% | 9.07% | 9.60% | 10.14% | 10.67% | 11.34% |
+| HP Regeneration Over Time Additive | 513 | 565 | 620 | 680 | 744 | 813 | 885 | 962 | 1044 | 1129 | 1219 | 1313 | 1411 |
+
 **Duration**: 12s  
-**Cooldown**: 20s
+**Cooldown**: 20s  
+**Energy Cost**: 80
+
 {% endtab %}
 {% endtabs %}
 

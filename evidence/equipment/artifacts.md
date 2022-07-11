@@ -13,7 +13,7 @@ search: false
 ### Geovishap Hatchling Shields with 4 Petra
 
 **By:** Raf\#7220  
-**Added:** 5/29/2021  
+**Added:** 2021-05-29  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/846329147081097246/848320878534328320/transcript-hatching-shields-dont-activate-petra.html)
 
 **Finding:**  
@@ -30,7 +30,7 @@ Even though they're mechanically similar to crystallize shields, hatchling shiel
 ### Blizzard Strayer and Cryo Resonance don't Snapshot
 
 **By:** Vye\#9195  
-**Added:** 3/21/2021
+**Added:** 2021-03-21
 
 **Findings**:
 
@@ -57,7 +57,7 @@ You cannot snapshot Cryo Resonance or the Blizzard Strayer set bonuses for abili
 ### Blizzard Strayer does not work on 1st Cryo hit
 
 **By:** Threvax\#0078  
-**Added:** 09/06/2021  
+**Added:** 2021-09-06  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/879956675686187019/884464348364419082/transcript-does-blizzard-strayer-4-piece-set-bonus-work-on-first-cryo-application.html)
 
 **Findings**:  
@@ -78,7 +78,7 @@ Blizzard Strayer literally abbreviates to BS.
 ### 4pc Blizzard Strayer on frozen aura
 
 **By:** Nass008\#8577  
-**Added:** 09/14/2021  
+**Added:** 2021-09-14  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/884444524951273523/887180645799960586/transcript-4pc-bs-on-frozen-aura.html)
 
 **Findings**:  
@@ -111,7 +111,7 @@ Clarification of interaction between frozen aura and Blizzard Strayer set bonus.
 
 ### Blizzard Strayer Applies Crit Rate Before Reactions
 **By:** CrazyWeke123\#9720  
-**Added:** 1/13/2022  
+**Added:** 2022-01-13  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/929795759807795220/931148101698322453/transcript-blizzard-strayer-applies-crate-before-reactions.html)
 
 **Finding:**  
@@ -222,7 +222,7 @@ t=18, buff deactivates
 ### Gaining stacks refreshes the duration of old stacks
 
 **By:** Greyhound\#7836  
-**Added:** 6/26/2021  
+**Added:** 2021-06-26  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/855433084420489252/858194419470303252/transcript-library-completion-2.html)
 
 **Finding:** Gaining a stack with the Crimson Witch set will refresh the duration of all previous stacks
@@ -234,7 +234,7 @@ t=18, buff deactivates
 ### Crimson Witch Stacks remain after swapping characters
 
 **By:** Greyhound\#7836  
-**Added:** 6/26/2021  
+**Added:** 2021-06-26  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/855433084420489252/858194419470303252/transcript-library-completion-2.html)
 
 **Finding:** Crimson Witch stacks remain after swapping characters.
@@ -282,7 +282,7 @@ Actual ratio: 947/1257=.75
 ### 4p Gambler procs without Skill on CD  
 
 **By:** Mcpie\#8672  
-**Added:** 08/17/2021  
+**Added:** 2021-08-17  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/876370102969327646/877095662821449748/transcript-4p-gambler-procs-without-skill-on-cd.html)
 
 **Finding:**  
@@ -304,16 +304,34 @@ Knowledge.
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/912804514208317501/923003367758917662/transcript-husk-ohc-mechanics.html)
 
 * Husk 4p gains stack off-field even if you don't deal Geo damage - [Sylenwolf#5802](https://imgur.com/a/VTMGOzb)
-* Husk 4p can only lose stacks on field - [MeCrush14#2271](https://youtu.be/JDQ3vkEEM90)
 * Husk 4p stacks are gained when hitting an opponent with a Geo attack even when attacking shielded targets and dealing no damage. - [Wulfric Waifu Gachapon Lurker#5186](https://youtu.be/Mu_CGfIXpiY)
 * Husk 4p also stacks vs. targets immune to Geo damage. - [Wulfric Waifu Gachapon Lurker#5186](https://youtu.be/k1TePBNM4Yo)
+
+### Husk Stacks Behave Exactly as Advertised
+
+**By:** TheLocalMilkMan\#0813  
+**Added:** 2022-03-22  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/956009361489166336/transcript-husk-stacks-behave-exactly-as-advertised.html)  
+
+**Finding:**  
+* Stacks can be gained off-field after 3 seconds, the timer restarts after going on-field, it does not pause and continue.
+* Stacks are lost after 6 seconds of not gaining a stack, not after going on-field.
+* You can lose a stack in less than 6 seconds if you gained/refreshed a stack while off-field and swapped in within the 3 seconds between the refresh and gaining a new stack.
+* This also means you can lose a stack off-field by swapping off with 1-2 seconds left before stack loss.
+
+**Evidence:**  
+* [Losing 2 stacks in 10s](https://youtu.be/4oHGorRk5aA)
+* [Losing stacks off-field](https://youtu.be/zuakeWaL76U)
+
+**Significance:**  
+ Clarification of Husk mechanics, explanation for apparent damage losses for no reason, and a reminder to read the descriptions more carefully.  
 
 ## Instructor
 
 ### 4pc Instructor only procs on field
 
 **By:** NZPIEFACE\#8439  
-**Added:** 07/14/2021  
+**Added:** 2021-07-14  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/864564549817597983/864796626060443658/transcript-4pc-instructor-only-procs-on-field.html)
 
 **Finding:**  
@@ -335,7 +353,7 @@ Make sure to land the reaction before swapping off the Instructor user.
 ### Instructor duration extend
 
 **By:** ItzSomebody\#0029  
-**Added:** 07/21/2021  
+**Added:** 2021-07-21  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/866197006732754945/867165516417335296/transcript-instructor-duration-extend.html)
 
 **Finding:**  
@@ -350,7 +368,7 @@ The buff time can be extended by swapping back into the carrier and triggering a
 ### Instructor Doesn't Apply To Triggering hit
 
 **By:** NZPIEFACE\#8439  
-**Added:** 10/17/2021  
+**Added:** 2021-10-17  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/894835774149779546/899112347862433822/transcript-4in-doesnt-apply-to-triggering-hit.html)
 
 **Finding:**  
@@ -371,7 +389,7 @@ Damage calculation
 ### Instructor Ignores Environmental Target And Your Characters
 
 **By:** elijam\#7142  
-**Added:** 10/17/2021  
+**Added:** 2021-10-17  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/898398553783799848/899200243520917524/transcript-4ins-doesnt-proc-on-environmental-or-self-rxns.html)
 
 **Finding:**  
@@ -427,7 +445,7 @@ Above numbers have being subtracted from 150 \(started with that hp before heali
 ### Self 4NO Interactions
 
 **By:** gtrain\#9987  
-**Added:** 09/22/2021  
+**Added:** 2021-09-22  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/876190240774172692/890105896015912960/transcript-self-4no-interactions.html)
 
 **Finding:**  
@@ -456,7 +474,7 @@ Whether you should run 4NO.
 * The limit for bubble count on field for single-player mode is shared while the 3.5s bubble formation ICD is not. - [CC\#5588](artifacts.md#limit-for-bubble-count-on-field-is-shared-while-icd-is-not)
 * Ocean Hued set does not count healing from other party members, only from the initial set holder. This is also the case with multiple Ocean Hued sets on the same team. - [ceeeleste\#3568](https://www.youtube.com/watch?v=262eZBlWHCs)
 * OHC is indeed independent of enemy def. - [MeCrush14\#2271](https://youtu.be/9zZGMw_QWoQ)
-* 4pc OHC dont not proc from Bennett's burst after HP reaches 70%. - [Chalotte#5673](https://youtu.be/nWslJYFtyPY)
+* 4pc OHC doesn't proc from Bennett's Burst after HP reaches 70%. - [Chalotte#5673](https://youtu.be/nWslJYFtyPY)
 * OHC counts initial heal as part of the clamage - [JonahFarc#7056](https://i.imgur.com/9q5tj44.mp4)
 * OHC AOE range is 5.5m radius and it can hit multiple target at once. - r.rei\#2844
   * Evidence: [Abyss tile distance 1](https://i.imgur.com/PVudoeF.mp4) | [2](https://i.imgur.com/T7uKEgM.mp4) | [Hitting Multiple targets](https://youtu.be/GxC6ERBSYHY) | [Abyss tile distance (Youtube)](https://youtu.be/H9Zf-T2eDtU)
@@ -467,7 +485,7 @@ Whether you should run 4NO.
 ### Bubble Damage is Physical Damage
 
 **By:** CC\#5588  
-**Added:** 12/21/2021  
+**Added:** 2021-12-21  
 [Basic Mechanics Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/912804514208317501/923003367758917662/transcript-husk-ohc-mechanics.html)
 
 **Finding:**  
@@ -492,7 +510,7 @@ Zhongli Shred = -20% physical resistance
 
 ### All Healing by Set Wielder Affects Bubble Damage Including Overflow
 **By:** CC\#5588  
-**Added:** 12/21/2021  
+**Added:** 2021-12-21  
 [Basic Mechanics Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/912804514208317501/923003367758917662/transcript-husk-ohc-mechanics.html)
 
 
@@ -527,20 +545,80 @@ This means that all healing from the set wielder, whether the set wielder is on 
 
 ### Limit for Bubble Count On Field is Shared while ICD is Not
 **By:** CC\#5588  
-**Added:** 12/21/2021  
+**Added:** 2021-12-21  
 [Basic Mechanics Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/912804514208317501/923003367758917662/transcript-husk-ohc-mechanics.html)
 
 **Evidence:**  
 [Youtube](https://youtu.be/FQOF4aTiEVw) | [Imgur](https://imgur.com/a/UQmjlPc)
 
-The clip from 0:00 - 0:17 and 0:34 onwards shows that only one bubble can be on the field even when there are 2 units that have the full set. However, the set description also states that only one bubble can form every 3.5s which implies that the bubble formation ICD is also shared, which isn't the case as shown by the clip from 0:18 - 0:26. The imgur link shows a frame by frame analysis where the bubble formed from Qiqi E popping animation started until the point where the bubble formed from Kokomi E is already visible enough happened all within 6 frames, which is way below the implied 0.5s/30f downtime of the bubble formation for a single full Ocean set per team scenario. This does not say anything about coop interactions and mechanics of the set however and may be worth testing idk
+The clip from 0:00 - 0:17 and 0:34 onwards shows that only one bubble can be on the field even when there are 2 units that have the full set. However, the set description also states that only one bubble can form every 3.5s which implies that the bubble formation ICD is also shared, which isn't the case as shown by the clip from 0:18 - 0:26. The imgur link shows a frame by frame analysis where the bubble formed from Qiqi E popping animation started until the point where the bubble formed from Kokomi E is already visible enough happened all within 6 frames, which is way below the implied 0.5s/30f downtime of the bubble formation for a single full Ocean set per team scenario. This does not say anything about coop interactions and mechanics of the set however and may be worth testing idk  
+
+### 4OHC does not shatter frozen enemies  
+
+**By:** Juslin\#7989  
+**Added:** 2022-01-29  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/936689990153408512/936792177617563698/transcript-ohc-will-not-shatter.html)  
+
+**Finding:**  
+4OHC's physical damage is not a blunt hit and will not shatter frozen enemies.  
+
+**Evidence:**  
+[YouTube](https://youtu.be/_G8PiYPfGzQ)  
+[YouTube](https://youtu.be/X_9Q7aCGWTE)  
+
+**Significance:**  
+4OHC is usable in freeze teams.
+
+### Extensive Look at What Heals Count for OHC  
+**By:** Juslin\#7989  
+**Added:** 2022-02-20  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/932006153481777233/945074133383938108/transcript-ohc-mechanics.html)  
+
+**Finding:**  
+OHC procs on a lot on non-conventional types of healing, this ticket aims to document that.
+
+**Evidence:**  
+*Characters:*  
+
+* Anemo Traveler A4 (Yes) [Youtube](https://youtu.be/qUz3jGMDnMg)
+* Barabara/Qiqi C6 (Yes, already in KQM Library)
+* Fischl C4 (yes) [Youtube](https://youtu.be/4BbOQWwomlM)
+* Gorou C4 (yes) [Youtube](https://youtu.be/kw1XzqhTbp4)
+* Sayu A1 (yes) [Youtube](https://youtu.be/eIDW_s0xDHc)
+* Kaeya A1 (yes) [Youtube](https://youtu.be/nj1gyOOqepQ)
+* Zhongli C6 (yes) [Imgur](https://imgur.com/ZK61uFe) 
+* Hu Tao burst (yes) [Youtube](https://youtu.be/wFNEZxB1oxo)  
+ 
+*Weapons:* 
+
+* Prototype Amber Passive (Yes, already in KQM Library)
+* Black Sword (Yes, already in KQM Library)
+* Aquila Favonia (yes) [Youtube](https://youtu.be/nwAhcnTTHsA)
+* White Iron Greatsword (yes) [Youtube](https://youtu.be/sMikNDe6rmk)
+* Traveler's Handy Sword (yes) [Youtube](https://youtu.be/8UiLNQAys-w)
+* Otherworldly Story (yes) [Youtube](https://youtu.be/7EvXhTE1W48)
+* Recurve Bow (yes) [Youtube](https://youtu.be/x9b1GQXBra4)  
+
+*Other:*
+
+* Statue of the Seven (no)
+* Food, esp DoT healing food (no)
+* Revival after party wipe in overworld (no) [Youtube](https://youtu.be/6qWjH1yHe44)
+* Co-op Domains - leaving after death (no)[Youtube](https://youtu.be/H6tJAO82Hy4)
+* Co-op Domains - restart after team wipe (no) [Youtube](https://youtu.be/uxvrq822cpQ)
+* Abyss cards - HP regen on killing enemies (no) [Youtube](https://youtu.be/LESZ6FhGcs8)
+* Abyss cards - Instant 25% HP (no) [Youtube](https://www.youtube.com/watch?v=Pzz7r-AjQto)
+* Windtrace Healing (yes) [Youtube](https://www.youtube.com/watch?v=2ExXP7PcAGo)
+
+**Significance:**
+Better understanding of OHC and what it benefits from.  
 
 ## Pale Flame
 
 ### 4pc Pale Flame Stacks persist after swap
 
 **By:** Greyhound\#7836  
-**Added:** 6/26/2021  
+**Added:** 2021-06-26  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/855433084420489252/858194419470303252/transcript-library-completion-2.html)
 
 **Finding:** the stacks (and their related effects) generated by hitting enemies with elemental skill damage by the 4-piece Pale Flame artifact set persist after swapping characters.
@@ -552,7 +630,7 @@ The clip from 0:00 - 0:17 and 0:34 onwards shows that only one bubble can be on 
 ### 4pc Pale Flame Duration Refresh
 
 **By:** Zozer\#1782  
-**Added:** 6/22/2021  
+**Added:** 2021-06-22  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/854261942448554004/856798949322784788/transcript-4pc-pale-flame-duration-refresh.html)
 
 **Finding:** Duration of 1st 4pc Pale Flame stack will reset upon receiving 2nd stack if the 1st stack hasn't expired yet.
@@ -564,7 +642,7 @@ The clip from 0:00 - 0:17 and 0:34 onwards shows that only one bubble can be on 
 ### 4pc Pale Flame Buff Activation Timing  
 
 **By:** Adra | Beats by Ei\#0024 and Agent_Eon\#8245  
-**Added:** 11/5/2021  
+**Added:** 2021-11-05  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/903457737843806259/906417456615153694/transcript-4-pf-dmg-window.html)  
 
 **Finding:**  
@@ -588,7 +666,7 @@ Values were tested and compared with sheet calcs at multiple ping levels, but I 
 ### 2-piece set bonus only works on user
 
 **By:** Greyhound\#7836  
-**Added:** 6/26/2021  
+**Added:** 2021-06-26  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/855433084420489252/858194419470303252/transcript-library-completion-2.html)
 
 **Finding:** The 2-piece effect of the Retracing Bolide artifact set only works on the character equipping the artifact set; if the character using the set creates a shield and then swaps, the shield strength bonus will *not* persist.
@@ -602,7 +680,7 @@ Values were tested and compared with sheet calcs at multiple ping levels, but I 
 ### 4pc ToM procs against shielded enemies
 
 **By:** Silvershine2\#5439  
-**Added:** 5/22/2021  
+**Added:** 2021-05-22  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/842423144845541446/845513030804832296/transcript-4pc-tom-procs-against-shielded-enemies.html)
 
 **Theory:** The 4 piece effect of Tenacity of the Millelith activates with elemental skills hitting shielded enemies and dealing no damage
@@ -617,7 +695,7 @@ Values were tested and compared with sheet calcs at multiple ping levels, but I 
 ### 4pc ToM does not stack and resets duration
 
 **By:** WinJ\#9420  
-**Added:** 08/20/2021  
+**Added:** 2021-08-20  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/877837766946357279/878174472325169173/transcript-multiple-tom-wielder-interactions.html)
 
 **Theory:**  
@@ -644,7 +722,7 @@ Evidence: [1](https://i.imgur.com/M5nK6Ne.jpeg) [2](https://imgur.com/a/cscnlJM)
 ### Shimenawa energy drain delay  
 
 **By:** Episodde\#8962  
-**Added:** 08/28/2021  
+**Added:** 2021-08-28  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/876725060554080287/880927102097055764/transcript-energy-drain-effects-have-a-delay.html)
 
 **Theory:**  
@@ -818,7 +896,7 @@ This result also confirmed by Lix-\#3417 using Barbara E and then switching to K
 ### 4TF Passive Triggered can be Triggered on Non-Damaging Elemental Applications
 
 **By:** Sayline\#5959  
-**Added:** 3/21/2021
+**Added:** 2021-03-21
 
 **Finding**: Thundering Fury 4-piece set effect \(cooldown reduction\) can be triggered by non-damaging Hydro application.
 
@@ -917,7 +995,7 @@ Tiny Miracle is equipped and you don't get RES% buff until after shield is broke
 ### **4pc Viridescent Venerer Res Shred Mechanics**
 
 **By:** SirBoi\#1101  
-**Added:** 6/26/2021  
+**Added:** 2021-06-26  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/857278005424422952/858328123144798249/transcript-4vv-res-shred-mechanics.html)
 
 **Findings:**  
@@ -974,7 +1052,7 @@ Clip 2 involved the same enemies minus Zhongli shred. https://youtu.be/QzwUxjJ0k
 Lisa’s 1-hit AA dealt 14 DMG and applied Electro to one Hilichurl. After swirling with Venti and triggering VV, Lisa performed 1-hit AA and dealt 18 DMG against each Hilichurl. Although the two Hilichurls weren’t affected by the Swirl reaction, they were affected by its AoE, and the VV resistance reduction was also applied afterward.
 
 **Significance:**  
-Viridescent Venerer continues to be a powerful set for Anemo supports. On 06/21/2021, the wiki stated that VV’s resistance reduction only affects the enemy hit by the Swirl reaction, but as I finished recording counterproof it had been changed, proving my findings.
+Viridescent Venerer continues to be a powerful set for Anemo supports. On 2021-06-21, the wiki stated that VV’s resistance reduction only affects the enemy hit by the Swirl reaction, but as I finished recording counterproof it had been changed, proving my findings.
 
 ### **4pc Viridescent Venerer can Simultaneously Stack Different Element Resist Debuffs**
 
@@ -1009,7 +1087,7 @@ Theory was confirmed. See video for evidence.
 ### **4pc Viridescent Venerer can Proc Two Debuffs in One Swirl**
 
 **By:** Faranight\#0001  
-**Added:** 4/20/2021  
+**Added:** 2021-04-20  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/834024269108477952/834325299373801492/transcript-vv-on-ec-and-frozen.html)
 
 **Theory:** Viridescent Venerer's 4-piece set effect can not only trigger multiple times for different elements, allowing you to stack debuffs, but it can also trigger two debuffs in a single anemo attack against Electro-Charged or Frozen targets.
@@ -1047,7 +1125,7 @@ The 4p bonus increases a lot Swirl damage. Despite the low base damage of Swirl,
 ### 4pc VV triggering mechanics
 
 **By:** sigurd\#3854  
-**Added:** 5/22/2021  
+**Added:** 2021-05-22  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/840514985667199006/845531794307547186/transcript-4pc-vv-mechanics.html)
 
 **Finding:** 4 piece Viridescent Venerer \(vv\) only shreds if the wearer is onfield during a swirl that they trigger.
@@ -1100,7 +1178,7 @@ List of tests:
 ### VV Duration Extended by Hitlag
 
 **By:** Greyhound\#7836  
-**Added:** 08/21/2021  
+**Added:** 2021-08-21  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/878612062195036220/878613567186825266/transcript-vv-extended-by-hitlag.html)
 
 **Theory:**  
@@ -1116,7 +1194,7 @@ VV use optimization.
 ### VV RES Shred Applies after Talent Damage
 
 **By:** NZPIEFACE\#8439  
-**Added:** 11/08/2021  
+**Added:** 2021-11-08  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/903474489038348329/907446935747715102/transcript-talent-damage-and-vv-debuff-pepega-stuff.html)
 
 **Theory:**  
@@ -1162,7 +1240,7 @@ For Sucrose, all this tells us there is some other stuff about, since we still d
 ### 4pc VV AoE Application Ping Dependency
 
 **By:** NZPIEFACE\#8439  
-**Added:** 12/21/2021  
+**Added:** 2021-12-21  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/917958422505345075/923108796522455050/transcript-4vv-application-ping-dependency.html)  
 
 **Finding:**  
@@ -1187,7 +1265,7 @@ In high ping circumstances, the debuff may apply late to enemies in an AoE and b
 ### Breakpoints for 2 WT Set Bonus vs +40% Reaction Damage From 4TF/CW Set Bonus
 
 **By:** ProfHugo\#6478  
-**Added:** 6/26/2021  
+**Added:** 2021-06-26  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/856901008667443211/858418320973365258/transcript-breakpoints-for-2inst2wt-vs-4tfcw.html)
 
 **Finding:**  
@@ -1207,7 +1285,7 @@ For characters building around triggering transformative reactions, if they do n
 ### Breakpoints for 2WT2Ins Set Bonus vs. 4VV Set Bonus
 
 **By:** elijam\#7142  
-**Added:** 07/15/2021  
+**Added:** 2021-07-15  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/860290744102158356/865148427524636672/transcript-breakpoints-for-2wt2ins-vs-4vv.html)
 
 **Finding:**  
@@ -1224,7 +1302,7 @@ Below 842 EM, 2WT2Ins will provide more value for swirl damage than 4VV before a
 
 ## **Artifact Substats Distribution**
 
-**By:SafconGalore\#9752**
+**By:** SafconGalore\#9752
 
 **TLDR; No, they seem to be skewed towards DEF in particular**
 
@@ -1253,7 +1331,7 @@ Substats are distributed evenly except for flat Def for some reason, which is si
 ## Uneven Substats Distribution
 
 **By:** Tsym\#2586  
-**Added:** 04/20/2021  
+**Added:** 2021-04-20  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/804854174910382120/834295144437645322/transcript-uneven-subs-distribution.html)
 
 **Theory:** Substats for artifacts are unevenly distributed, with flat substats weighted higher than other substats, and crit substats weighted lower than other substats.
@@ -1279,7 +1357,7 @@ More data would be needed to reach stronger conclusions. As of right now, there'
 ## Artifact Effects on Cast Interruption
 
 **By:** Tibo\#4309  
-**Added:** 11/5/2021  
+**Added:** 2021-11-05  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/905591237363507230/906363383505379348/transcript-interruption-can-cause-artifact-stacks.html)  
 
 **Finding:**  

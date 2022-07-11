@@ -12,6 +12,7 @@
   * Itto Skill, Normal Attacks, Combo Slash, and Final Slash all apply 1U Geo
 * ICDs
   * Normal Attacks follow the standard ICD and has a separate ICD counter from his Skill. - [CC\#5588](https://youtu.be/OJSMfjGhiGA)
+  * Elemental Skill has a 1s ICD. - [EE less than 1s apart](https://youtu.be/hAALkzc5VPs) / [EE more than 1s apart](https://youtu.be/8f1A22DHqnU) - Bobrokrot\#0111
 * Frames -
   * NA - [pai\#3602](https://youtu.be/L0IcjCtR6Jo)
     * N1: 23
@@ -69,6 +70,20 @@
 * Ushi still persists and gains stacks after teleporting. - [nxriaki\#6316](https://youtu.be/OLB4LVXzD-Q)
 * Ushi is able to use wall hacks and phase through this wall in Mondstadt. Ushi will still despawn and give stack, so it doesnt get destroyed due to wall. - [Ultimate Noob\#2955](https://youtu.be/XluSNFbqGrg)
 
+### Ushi Max Air Time
+
+**By:** Homura\#9806  
+**Added:** 2022-03-29  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/958523437255643187/transcript-ushi-max-air-time.html)  
+
+**Finding:**  
+Ushi lands in mid\-air after 2 seconds of air time.  
+
+**Evidence:**  
+[Video](https://youtu.be/gAx0NFQBl5w)  
+
+**Significance:**  
+Further understanding of Ushi as a Geo Construct.  
 
 ## Burst Mechanics
 
@@ -86,7 +101,7 @@
 
 ### Itto N1 Burst Cancel SS Stack
 **By:** Aftermath\#7658  
-**Added:** 1/13/2022  
+**Added:** 2022-01-13  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/929507146335408128/931064442861543434/transcript-itto-n1-burst-cancel-ss-stack.html)
 
 **Finding:**  
@@ -99,7 +114,24 @@ Itto gains Superlative Strength stacks on the frame that the damage numbers appe
 As this is ping-related, players with very low ping will only have a few frames in which to cancel into the burst.
 
 **Significance:**  
-There are several combo variants for Itto, a main category being first rotation 0 stack combos. With this tech, you can gain a stack early and go into the higher damage 1 stack combos without sacrificing dps from the extra non-Ult N1. It also serves as QoL to reduce the number of combo variants to remember.
+There are several combo variants for Itto, a main category being first rotation 0 stack combos. With this tech, you can gain a stack early and go into the higher damage 1 stack combos without sacrificing dps from the extra non-Ult N1. It also serves as QoL to reduce the number of combo variants to remember.  
+
+### Successful Itto DEF Conversion with Gorou
+**By:** Mr. Pillow\#0065  
+**Added:** 2022-01-29  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/934236008533360691/937034728031281162/transcript-successful-itto-def-conversion-w-gorou.html)  
+
+**Finding:**  
+If characters are directly switched to after Gorou casts his Elemental Burst, they can snapshot the flat DEF buff extremely consistently, if the ping isn’t high (<75ms).  
+
+**Evidence:**  
+Many different methods were tested to see when Itto could snapshot Gorou's flat DEF buff:
+1. Itto uses Alt + Num to use his Elemental Burst directly after Gorou uses his Elemental Burst. The ping was in the 25-75ms interval. The result was that Itto successfully snapshotted the flat DEF buff 47 times out of a total of 50 runs. Example showing a successful run: [YouTube](https://youtu.be/f7rYZ4MzrC8). When the ping was changed to 200-350ms, out of 10 additional runs, only 2 were successful at snapshotting the DEF buff.  
+2. Itto is manually switched to and directly uses his Elemental Burst directly after Gorou uses his Elemental Burst. The ping was in the 25-75ms interval. The result was that Itto successfully snapshotted the flat DEF buff 37 times out of a total of 40 runs. When the ping was changed to 200-350ms, out of 10 additional runs, only 3 were successful at snapshotting the DEF buff.  
+3. Itto is manually switched to and directly uses his Elemental Burst or uses Alt + Num **not** directly after Gorou uses his Elemental Burst. The ping was in the 25-75ms interval. The result was that Itto successfully snapshotted the flat DEF buff only 16 times out of a total of 30 runs, with manual switching being somewhat less inconsistent.  
+
+**Significance:**  
+The findings firstly disprove that Gorou’s paw symbol must fully appear before the buffs can be applied. Secondly, using Alt + Num to swap shortens Itto’s team rotation times, which he’d enjoy due to his rotation times already being longer than his Elemental Burst cooldown. Lastly, the findings give some insight into Gorou’s Elemental Burst mechanics, such as it being ping-dependent.  
 
 ## Utility Passive: Woodchuck Chucked
 

@@ -1,7 +1,7 @@
 # Bugs
 
 {% hint style="info" %}
-This page is for bugs, meaning they could get fixed by Mihoyo at any time. If you find that a bug has been patched out, but is still on this page, go to [\#server•site•feedback](https://discord.gg/keqing) on the KQM discord.
+This page is for bugs, meaning they could get fixed by Mihoyo at any time. If you find that a bug has been patched out, but is still on this page, go to [\#website-feedback](https://discord.gg/keqing) on the KQM Discord.
 {% endhint %}
 
 ## Abyss
@@ -9,6 +9,8 @@ This page is for bugs, meaning they could get fixed by Mihoyo at any time. If yo
 You can use your overworld team in the second half of abyss even if the same members are in the first half of the chamber by [selecting retry at the same time as you kill the last enemy.](../evidence/general-mechanics/bugs.md\#using-the-same-team-for-both-abyss-halves)
 
 When using the retry button in abyss your [elemental skill and burst will not reset its cooldown](../evidence/general-mechanics/bugs.md\#elemental-skills-and-bursts-dont-reset-when-using-retry-in-abyss) so if you are too fast at starting the new encounter you will not be able to execute your opening moves properly.
+
+Opening the exit menu in the Abyss does not pause the timer. This results in a bug wherein if you use the retry button in abyss as the last enemy in a chamber dies [you will encounter an error message and recieve 0 stars.](../evidence/general-mechanics/bugs.md\#retry-and-exit-menu-issues)
 
 ## Overworld
 
@@ -18,48 +20,19 @@ When using the retry button in abyss your [elemental skill and burst will not re
 * [You can jump higher than normal and travel long distances](../evidence/general-mechanics/bugs.md\#cooking-pot-super-jump) by repeatedly entering and exiting the cooking menu during an action that moves the character upwards, such as jump, Kazuha E, and Bennett Hold E. 
 * You take damage when you [plunge on a spot at Dainichi island bridge](../evidence/general-mechanics/bugs.md\#leg-break-bridge), this happens with any weapon type.
   * The damage is likely counted as from plunge, as it is close to the max plunge dmg, and Xiao is unaffected.
-
-## Lag
-
-[There are a lot of strange interactions with lag.](../evidence/general-mechanics/bugs.md\#high-ping-interactions). From these, we can deduce if certain stats are updated client or server side. The complete list of high ping interactions is documented below.
-
-Updated server side:
-* HP of characters and enemies
-* Enemy stats
-* Energy particles and character energy
-* Stamina
-
-Updated client side:
-* Elemental reactions
-* Character stats (including buffs)
-* Resistance shred
-* Constructs HP
-
-High ping interactions include: 
-* Elemental reactions still work, including superconduct's resistance shred.
-* Both player and enemy are granted immortality whilst under high ping but will be HP bar will be updated once switched back to normal latency.
-  * This can lead to Bennett's burst ignoring the HP threshold or Albedo's A1 not benefitting from enemies being below 50% HP.
-* Energy is not produced under high ping but will be generated when ping returns to normal. 
-* AA energy source is not refunded when back to low latency. 
-* Energy is not consumed when under high ping. 
-* When enemy is aggro-ed by player before high latency, it will remain aggressive.  
-* When enemy is aggro-ed during high latency, it will remain passive for the duration of high latency state. 
-* Taunts will turn aggressive enemies to passive enemies under high latency.
-* Character stat buffs still update normally, unless they are related to other stats that are updated server side, such has Hutao's passive from being below 50% HP.
-* Resistance shred works.
-* Fall damage is dealt.
-* ICD behaves normally aside from a few exceptions, so far only the [rainswords from XQ E](../evidence/general-mechanics/bugs.md\#netlimited-blade-works) have a different application rate than usual.
-* Healing is inaccessible during high latency. When returned to low latency, the healing will be applied, and healing like Bennett's Q will ignore the HP thresholds.
-* Character shields work normally under high latency
-* Stamina is not consumed under high ping, nor will it regenerate.
-* For conditional weapon passives (Lion's Roar, Dragon's Bane), if condition is true, the passive will be added into the damage calculation.
-* On-hit passives (Flute), sacrificial/favonius weapons cannot trigger under high latency, but Aquila Favonia seems to still work.
-* Taunts behave normally under high latency.
-* Geo construct HP work normally.
+* Sometimes [torches will become inextinguishable by Overload](../evidence/general-mechanics/bugs.md#infinite-torch), the cause is unknown.
+* [Lightning Struck Trees have a high chance of breaking](../evidence/general-mechanics/bugs.md#lightning-struck-tree-breaks-when-swapping-characters) if you swap characters near them as it keeps applying Electro on you.
+  * It is possible to fix it by relogging or drowning to force reload.  
+* [Fishing spot prompt can stay with the character](../evidence/general-mechanics/bugs.md#fishing-spot-prompt-bug) under specific circumstances, and it be extended beyond its normal area by repeatedly entering and exiting the menu.
 
 ## Artifacts
 
 There are inconsistencies in whether a character wielding 4NO can receive the 4-pc Set Bonus on their Elemental Burst or not.
+
+## Domains
+
+* Exiting or resetting a domain [will not reset a character's skill cooldown.](../evidence/general-mechanics/bugs.md#resetting-or-exiting-a-domain-does-not-reset-elemental-skill-cooldowns)
+* A domain’s door can be kept open by [disconnecting internet while the door is being opened](../evidence/general-mechanics/bugs.md#keeping-domain-doors-open).
 
 ## Miscellaneous
 
@@ -77,6 +50,8 @@ There are inconsistencies in whether a character wielding 4NO can receive the 4-
 
 * There is a bug that causes your character to [stop moving while sprinting](../evidence/general-mechanics/bugs.md\#sprinting-bug), while still consuming stamina.
   * You can "break free" from this state by performing any action such as jump, attacks, dash, aim, swap, and entering a menu.
+
+* Diona's proc rate on Sacrifical bow is [lower than its theoretical average.](../evidence/characters/cryo/diona.md\#diona-sacrifial-proc-inconsistency)
 
 ## Fixed Bugs
 

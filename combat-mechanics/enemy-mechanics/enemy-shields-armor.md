@@ -169,6 +169,7 @@ The following are tables consisting of different types of **Elemental Armor** as
 | Pyro Gunslinger | 4GU Hydro |
 | Geochanter | 5~7 Heavy Attacks OR Crystallize Reaction |
 {% endtab %}
+* Foreign auras can exist on these armor and there are some interesting interactions when trying to break said armor. See this [Vault Entry](../../evidence/combat-mechanics/enemy-mechanics/enemy-shields.md/#fatui-armor-and-aura-interactions) for more information.
 {% endtabs %}
 
 ### Whopperflowers
@@ -298,7 +299,7 @@ Total Shield Damage = Reaction Cost + Damage Cost + Poise Cost
 
 ![](../../.gitbook/assets/ShieldDamageFormulas.png)
 
-For an in-depth analysis on shield damage as of 6/5/2021, vibe checker\#5502 has written [An Extensive Look Into Shield Damage in Genshin Impact](https://docs.google.com/document/d/1SUc9A7O5C7CX0qYHmCqB44uhpHYY-Txgv6rdibM8Jw4/edit?usp=sharing)
+For an in-depth analysis on shield damage as of 2021-06-05, vibe checker\#5502 has written [An Extensive Look Into Shield Damage in Genshin Impact](https://docs.google.com/document/d/1SUc9A7O5C7CX0qYHmCqB44uhpHYY-Txgv6rdibM8Jw4/edit?usp=sharing)
 
 Additional notes on shield damage:
 * Transformative damage is also applied in the damage cost of shield damage, and is affected by elemental mastery.

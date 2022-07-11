@@ -13,7 +13,7 @@ search: false
 ### **Non-charged Aimed Shots share elemental application ICD with Charged Aimed Shots, despite not having an element themselves**
 
 **By:** EternalDream\#5503  
-**Added:** 11/19/2020
+**Added:** 2020-11-19
 
 **Evidence:**
 
@@ -26,7 +26,7 @@ For Diona, who's charged shot ICD is higher than the time it takes to fire a sec
 ### Diona Dash Aim Cancel
 
 **By:** BowTae#0141  
-**Added:** 10/17/2021
+**Added:** 2021-10-17
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/895937565956378625/899199225462657064/transcript-diona-dash-aim-cancel.html)
 
 **Finding:**  
@@ -60,7 +60,7 @@ Very fast way to shoot CAs with Diona while still retaining the ability to aim (
 ### **Diona Elemental Skill ICD analysis**
 
 **By:** Tractor\#9418  
-**Added:** 11/18/2020
+**Added:** 2020-11-18
 
 **Finding:**
 
@@ -114,7 +114,7 @@ Note: Diona cleansing Pyro aura is inconsistent and can be 1U, 1.5U or 2U depend
 ### Diona's Shield Deep-Dive
 
 **By:** EggsD\#9603  
-**Added:** 04/05/2021
+**Added:** 2021-04-05
 
 **Finding:** Detailed description and rundown of Diona's Icy Paws Shield. Which includes...
 
@@ -142,7 +142,7 @@ Note: Diona cleansing Pyro aura is inconsistent and can be 1U, 1.5U or 2U depend
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/898145871026348062/898800608826490900/transcript-dionas-skill-icy-paws-may-not-form-a-shield.html)
 
 **By:** D.....K#9002  
-**Added:** 10/15/2021  
+**Added:** 2021-10-15  
 
 **Finding:** Diona's Skill Icy Paws do not form a shield if all Icy Paws despawn before hitting something. 
 
@@ -156,26 +156,60 @@ At least 1 Icy Paw must hit something for a shield to form. Situations where Icy
 1. Standing on a cliff with no ground below
 2. Targetting an enemy without ever hitting it, including non-activated Ruin Guards
 
+### Diona’s Paws Home on Entities That Are Not Enemies
+
+**By:** Ultimate Noob\#2955 and Junolau#4337    
+**Added:** 2022-05-07  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/972570999696531457/transcript-dionas-paws-home-on-entities-that-are-not-enemies.html)  
+
+**Finding:**  
+Diona's paws can home on some entities that are not enemies.  
+
+**Evidence:**  
+[YouTube](https://youtu.be/gZnJG4kPziM)
+
+**Significance:**  
+Who needs to snipe birds when you have heat-seeking missiles?
+
+### Diona's Paws Don't Work Next to a Wall
+
+**By:** Ultimate Noob\#2955  
+**Added:** 2022-05-22  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/977693874942275594/transcript-dionas-paws-dont-work-next-to-a-wall.html)
+
+**Finding:**  
+Diona's paws appear behind Diona and then move forward during hold E. In the following clip the paws appear behind Diona inside the wall and explode before being able to travel forwards. Since no enemies got hit, no DMG got dealt and no particles were generated, however she still gets her shield up.
+
+**Evidence:**  
+[Hold E](https://youtu.be/yZ76CuHqXss)
+
+**Significance:**  
+Don't fire Diona's paws when there is a wall behind you.
+
 ## Burst Mechanics
 
 ### Diona Field Characteristics
 
 **By:** Monochrom9\#8058  
-**Added:** 06/02/2021
+**Added:** 2021-06-02  
 
-**Finding:** The Elemental Mastery bonus from Diona C6 will apply immediately on swap and linger for 2 seconds.
+**Finding:**  
+The Elemental Mastery bonus from Diona C6 will apply immediately on swap and linger for 2 seconds.  
 
-**Evidence:** [**GIF**](https://imgur.com/a/egHUnjV)
+**Evidence:**  
+[**GIF**](https://imgur.com/a/egHUnjV)  
 
-**Significance:** The healing pulse is separate from the buffs granted by Diona Burst.
+**Significance:**  
+The healing pulse is separate from the buffs granted by Diona Burst.  
 
 ### Diona Has Finite Vertical Range for Burst Healing
 
 **By:** Mehhh-yowww\#8236, Kourinn\#6001  
-**Added:** 10/30/2021  
+**Added:** 2021-10-30  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/903967252397834272/904154341714309141/transcript-diona-finite-vertical-range-for-burst-healing.html)
 
-**Finding:** Diona's Elemental Burst has a finite vertical range of healing, in contrast to known fields that have infinite vertical range (e.g., Bennett).
+**Finding:**  
+Diona's Elemental Burst has a finite vertical range of healing, in contrast to known fields that have infinite vertical range (e.g., Bennett).  
 
 **Evidence:**  
 Diona's Burst not healing compared to Bennett's Burst that will heal (in coop): [YouTube](https://youtu.be/3f1BOY5sd9s)  
@@ -187,4 +221,109 @@ Diona's Burst may not heal Xiao in his Burst because his jumping height is highe
 
 **Significance:**  
 Diona's Burst healing has a limited range in contrast to all other known healing fields that have infinite vertical range.  
-This has implications against Xiao (or for Xiao with Staff of Homa) because the height limit is lower than Xiao's jump height.
+This has implications against Xiao (or for Xiao with Staff of Homa) because the height limit is lower than Xiao's jump height.  
+
+### Diona's Burst Position Snapshot
+
+**By:** Ultimate Noob\#2955  
+**Added:** 2022-02-24  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/967852523027312751/transcript-dionas-burst-position-snapshot.html)  
+
+**Finding:**  
+Diona’s Burst snapshots position on cast, so if a enemy moves after you cast her Burst, it will go to the position of where the enemy was as you casted and miss.
+
+**Evidence:**  
+[Video](https://imgur.com/a/dU7nB0N) \(credit to ♡Maddie'soneandonlyPinkie♡\#0949\)
+
+**Significance:**  
+If you cast her Burst on a moving enemy you will miss, it could be good for long-ranged characters, bad for melee ones.
+
+## Ascension Mechanics
+
+### A1: Cat's Tail Secret Menu
+
+#### Diona's Stamina Reduction Stacks With Other Sources
+
+**By:** Ultimate Noob\#2955  
+**Added:** 2022-03-04  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/949479240284401744/transcript-bokuso-box-crit-scales-off-character.html)  
+
+**Finding:**  
+Diona's stamina reduction stacks with other sources.  
+
+**Evidence:**  
+* [Kazuha's sprinting stamina reduction](https://youtu.be/ILUq9dW4UvE) - credit to Charisma\#5567  
+* [Amber's gliding stamina reduction](https://youtu.be/kgxmV03nsxM) - credit to Spacebar\#7879  
+* [Beidou's swimming stamina reduction](https://youtu.be/eV71GHCVv5Y) - credit to Spacebar\#7879  
+* [Anemo Resonance](https://youtu.be/i7qrFnbywLo) - credit to Spacebar\#7879    
+
+**Significance:**  
+Previously, such effects didn't stack, but around patch 2.0 Mihoyo changed it so that they do stack. Mostly fluff.  
+
+## Constellation Mechanics
+
+### C1: A Lingering Flavor
+
+#### Diona C1 Range and Q Duration
+
+**By:** Yume\#2875  
+**Added:** 2022-05-12  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/974466651477127248/transcript-diano-c1-range-and-q-duration.html)  
+
+**Finding:**  
+Diona C1:  
+While doing tests for another ticket, I accidentally found out that Diona's C1 seems to have no range limit, I went to test it out and found out that it seemingly indeed have infinite range when on the same map, when teleporting to a different map such as Enkanomiya or Teapot, however, the C1 fails to proc, as can be seen in the evidence 2-5, where Diona does not gain the Energy from C1.
+
+Diona Q Duration:  
+We can also see that Diona's Q, Signature Mix, field duration starts when the paws disappear from the field, which in my tests happen at around ~17.5s timer on the Burst cooldown, this checks out due to the field having a 12s duration and Diona gaining the 15 Energy from her C1 at around ~5.5s timer on the Burst cooldown, 17.5 - 5.5 = 12.  
+
+**Evidence:**  
+* [Teyvat to Teyvat](https://imgur.com/a/hwBDyWk)
+* [Teyvat to Enkanomiya](https://imgur.com/a/l7rnEt0)
+* [Enkanomiya to Teyvat](https://imgur.com/a/mIszgm0)
+* [Teyvat to Teapot](https://imgur.com/a/kwTBxPO)
+* [Teapot to Teyvat](https://youtu.be/FE8Bh6zmkdk) \(credits to Puffin\#9920\)
+* [Logging out test](https://imgur.com/a/PWEOOt1)
+
+**Significance:**  
+More understanding of Diona's kit.  
+
+## Interactions  
+
+### Diona Sacrifial Proc Inconsistency
+
+**By:** Homura\#9806  
+**Added:** 2022-02-14  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/936983999581159454/942896166872440872/transcript-sac-procs-on-diona.html)  
+
+**Finding:**  
+Sacrifical Bow procs on Diona's hold E do not match the theoretical chances, the reason for this is currently not known, the scope of this entry is specifcally to identify and document this.  
+ 
+**Evidence:**  
+* Diona
+  * 92/100 R2 hold E in Abyss (theoretical 96.875%)
+  * 93/100 R2 hold E in Abyss
+  * 95/100 R2 hold E in Abyss
+  * 93/100 R2 hold E in Abyss
+  * 94/100 R3 hold E in Abyss (theoretical 98.976%) first 50 runs only, but it's 47/50 so same percentage at least: [YouTube](https://www.youtube.com/watch?v=113GE8yXMpc)
+  * 92/100 R3 hold E on Pyro Regisvine
+  * 78/100 R1 hold E (from friend) in Abyss (theoretical 92.224%)
+  * 280/300 R3 hold E in Abyss [YouTube](https://youtu.be/gNgc723WkO8)
+  * 49/50 R1 fav bow in Abyss, 89.4% crit rate (theoretical 97.859% from ItzSomebody\#0029's math) [YouTube](https://youtu.be/2vikaPLhSPo)
+* XQ
+  * 87/100 R3 in Abyss (theoretical 84%)
+* Sucrose
+  * 42/50 R2 5 enemies hit in Abyss from pai (theoretical 96.875%) [YouTube](https://youtu.be/dbYao5ego1Q)
+* Ayaka
+  * 97/100 R3 5 enemies hit in abyss (theoretical 98.976%)
+* EMC
+  * 47/50 R3 in Abyss (theoretical 93.6%) [YouTube](https://youtu.be/f0T14Pxa7uA)
+* Sara
+  * 49/50 R3 4-5 enemies hit in Abyss (theoretical between 97.44% and 98/976%) [YouTube](https://youtu.be/tHPgAaspY1U)
+
+**Explanation/Methodology:**  
+ To find out why diona is not proccing Sacrifical Bow correctly, both sac and fav bow were tested on diona to ensure that it was simply not diona's hold E being weird in general, sac weapons were tested on hitting multiple enemies to see if it triggered correctly, a sac weapon (sword) was tested on hitting one enemy multiple times with the same skill (emc e) to see if it triggered correctly, and sac bow specifically was tested on hitting multiple enemies to see if it triggered correctly.  
+ 
+**Significance:**  
+The results of the testing shows that everything works pretty much as expected except diona's hold E on sac bow. While we currently do not know the source of this anomaly, the scope of this entry is to record and document its existence. Since diona as a battery sometimes uses sac bow, knowing she doesn't proc it as well as math dictates means energy calculations with sac bow should change to reflect that she doesn't follow standard math.
+

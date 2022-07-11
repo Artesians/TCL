@@ -9,7 +9,7 @@
 
 | Attribute | Description |
 | :--- | :--- |
-| Byakuya Kougetsu | Healing Bonus increased by **10/12.5/15/17.5/20**%. SNormal Attack DMG is increased by **1/1.5/2/2.5/3**% of the Max HP of the character equipping this weapon. For 12s after using an Elemental Burst, Normal Attacks that hit opponents will restore 0.6 Energy. Energy can be restored this way once every 0.1s. |
+| Byakuya Kougetsu | Healing Bonus increased by **10/12.5/15/17.5/20**%. Normal Attack DMG is increased by **1/1.5/2/2.5/3**% of the Max HP of the character equipping this weapon. For 12s after using an Elemental Burst, Normal Attacks that hit opponents will restore 0.6 Energy. Energy can be restored this way once every 0.1s. |
 | Base ATK | 46 - 608 |
 | HP% | 10.8% - 49.6% |
 
@@ -29,6 +29,42 @@
 | 80+ | 563 | 45.3 |
 | 85 | 586 | 47.4 |
 | 90 | 608 | 49.6 |
+{% endtab %}
+{% endtabs %}
+
+### Kagura's Verity
+
+{% tabs %}
+{% tab title="Description" %}
+
+| Attribute | Description |
+| :--- | :--- |
+| Kagura Dance of the Sacred Sakura | Gains the Kagura Dance effect when using an Elemental Skill, causing the Elemental Skill DMG of the character wielding this weapon to increase by **12%/15%/18%/21%/24%** for 16s. Max 3 stacks. This character will gain **12%/15%/18%/21%/24%** All Elemental DMG Bonus when they possess 3 stacks. |
+| Base ATK | 46 - 608 |
+| CRIT DMG% | 14.4% - 66.2% |
+
+* Stacks refresh on stack gain and act as one.  
+* Stacks are gained upon initial input, not on hit.  
+* Stacks are dynamic and can't be snapshotted.  
+* The Elemental Skill that triggers a stack is also affected by it.  
+* Klee can gain 2 stacks by casting 1 E with a double tap and no other actions are performed within ~81 frames afterwards.
+
+{% endtab %}
+
+{% tab title="Details" %}
+
+| Level | Base Atk | CRIT DMG% |
+| :--- | :--- | :--- |
+| 60 | 382 | 48.7 |
+| 60+ | 414 | 48.7 |
+| 65 | 435 | 51.6 |
+| 70 | 457 | 54.5 |
+| 70+ | 488 | 54.5 |
+| 75 | 510 | 57.4 |
+| 80 | 532 | 60.3 |
+| 80+ | 563 | 60.3 |
+| 85 | 586 | 63.2 |
+| 90 | 608 | 66.2 |
 {% endtab %}
 {% endtabs %}
 
@@ -233,6 +269,7 @@
 | ER% | 10% - 45.9% |
 
 * Passive does not proc on shielded enemies - [Sakuno\#7950](../../evidence/equipment/weapons.md#favonius-weapons-do-not-proc-on-shielded-enemies)
+* See the [Favonius proc calculator](../../evidence/equipment/weapons.md#favonius-proc-calculator) for details on how to calculate the probability of the Passive.  
 {% endtab %}
 
 {% tab title="Details" %}
@@ -342,6 +379,40 @@
 {% endtab %}
 {% endtabs %}
 
+### Oathsworn Eye
+
+{% tabs %}
+{% tab title="Description" %}
+
+| Attribute | Description |
+| :--- | :--- |
+| People of the Faltering Light | Increases Energy Recharge by **24/30/36/42/48**% for 10s after using an Elemental Skill. |
+| Base ATK | 44 - 565 |
+| ATK% | 6\% - 27.6\% |
+
+{% endtab %}
+
+{% tab title="Details" %}
+
+| Level | Base ATK | ATK% |
+| :--- | :--- | :--- |
+| 60 | 361 | 20.3 |
+| 60+ | 387 | 20.3 |
+| 65 | 408 | 21.5 |
+| 70 | 429 | 22.7 |
+| 70+ | 455 | 22.7 |
+| 75 | 476 | 23.9 |
+| 80 | 497 | 25.1 |
+| 80+ | 523 | 25.1 |
+| 85 | 544 | 26.4 |
+| 90 | 565 | 27.6 |
+* The Passive does not stack when casting the Elemental Skill multiple times within 10s, but the duration is refreshed.
+* Works off-field.
+* Increases Hydro% from [Mona A4](../../characters/hydro/mona.md#ascension-passives).
+
+{% endtab %}
+{% endtabs %}
+
 ### Prototype Amber
 
 {% tabs %}
@@ -354,6 +425,8 @@
 | HP% | 9% - 41.3% |  
 
 * HP regeneration is based off the Max HP of the character being healed, not the max HP of the character equipped with **Prototype Amber** - [Reens#9389](../../evidence/equipment/weapons.md#prototype-amber-healing-clarification)
+* HP regeneration does not stack when multiple characters use Prototype Amber. The second one overrides the first one.
+* HP regeneration is affected by Healing Bonus and Incoming Healing Bonus - [RoaringMeow#2437](/evidence/equipment/artifacts#maiden-beloved)
 {% endtab %}
 
 {% tab title="Details" %}
@@ -421,6 +494,7 @@
 
 * Passive does not proc on shielded enemies - [Exuma\#1917](../../evidence/equipment/weapons.md#sacrificial-weapons-do-not-proc-on-shielded-enemies)
 * When a character with multiple charges of their elemental skill procs the sacrificial passive, the elemental skill cooldown shown on the timer is the cooldown that will be reset. - [mol\#3280 ](../../evidence/equipment/weapons.md#sacrificial-passive-with-multiple-e-stacks) 
+* The average ER gain from the Sacrifical passive has decreasing returns from increasing refinement - [Raladin\#3752](../../evidence/equipment/weapons.md#average-er-gains-from-sacrifical-weapons)  
 {% endtab %}
 
 {% tab title="Details" %}
@@ -479,7 +553,10 @@
 | Debut | When a character takes the field, they will gain a random theme song for 10s. This can only occur once every 30s. _Recitative_: ATK is increased by **60/75/90/105/120**%. _Aria_: Increases all Elemental DMG by **48/60/72/84/96**%. _Interlude_: Elemental Mastery is increased by **240/300/360/420/480**. |
 | Base ATK | 42 - 510 |
 | CRIT DMG% | 12% - 55.1% |
-{% endtab %}
+
+* The Passive remains active even when the character is swapped out.
+* When entering the second half of a Spiral Abyss chamber, if the wielder is in the first slot the buff timer will start during the loading screen.
+{% endtab %}  
 
 {% tab title="Details" %}
 
@@ -601,6 +678,8 @@
 | Energy Shower | Each Elemental Orb or Particle collected restores **1/1.25/1.5/1.75/2**% HP. |
 | Base ATK | 39 - 401 |
 | ER% | 8.5% - 39% |
+
+* HP restored is affected by Healing Bonus and Incoming Healing Bonus - [Daibangden#8410](/evidence/equipment/weapons.md#weapons-and-heals)
 {% endtab %}
 
 {% tab title="Details" %}
@@ -630,7 +709,9 @@
 | Legacy | When switching characters, the new character taking the field has their ATK increased by **24/30/36/42/48**% for 10s. This effect can only occur once every 20s. |
 | Base ATK | 39 - 401 |
 | HP% | 7.7% - 35.2% |
-{% endtab %}
+
+* The Passive remains active even when the character is swapped out.  
+{% endtab %}  
 
 {% tab title="Details" %}
 

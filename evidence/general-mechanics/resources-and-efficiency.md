@@ -8,10 +8,29 @@ description: For entries related to resources or resource efficiency
 
 {% page-ref page="../../general-mechanics/resources-and-efficiency.md" %}
 
-## Resin to Stardust Exchange Comparison
+## Resin
+
+### Maximum Original Resin  
+
+**By:** CQLQRS#7853  
+**Added:** 2021-10-18  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/896356040747122698/899839089124179968/transcript-maximum-original-resin.html)  
+
+**Finding:**  
+Original Resin can go past the cap of 160, capped at ~2000.  
+
+**Evidence:**  
+* Unable to go past 1993 Resin: [kimchihotpot#8630](https://imgur.com/a/gka5rSj)  
+* Unable to use 11 Fragile Resin (660 Resin) when at 1360 Resin, which would result in 2020 Resin: [Tibo#4309](https://i.imgur.com/kKl8sBo.png)  
+* Unable to use 1 Fragile Resin when at 2000 Resin: [Tibo#4309](https://i.imgur.com/Jl8wK1R.png)  
+
+**Significance:**  
+Better understanding of the Resin system.  
+
+### Resin to Stardust Exchange Comparison
 
 **By:** Mateng\#4507  
-**Added:** 4/14/2021
+**Added:** 2021-04-14
 
 **Findings**: Blue \(XP\) leylines are more stardust-efficient than Gold \(Mora\) leylines. They are 65.33 Stardust/Resin, while Gold leylines and Magic Crystal Ore conversion from the Blacksmiths are both 60 Stardust/Resin.
 
@@ -21,10 +40,12 @@ I used simple exchange rate math to relate XP materials, Magic Crystal Ores, and
 
 **Significance:** These findings identify that the most efficient use of Stardust \(outside of buying the 10 Fates, if the Traveler wishes to pay for them\) is to clear the limited amount of Mora, then the Magic Crystal Ores, then the Adventurer's Experience. Additionally, it is more Resin-efficient to be farming more Blue leylines than Gold ones.
 
-## Artifact EXP from Vendors Vs Domains
+## Artifacts
+
+### Artifact EXP from Vendors Vs Domains
 
 **By:** ceeeleste#3568  
-**Added:** 6/28/2021  
+**Added:** 2021-06-28  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/856083274458857493/858443928244322334/transcript-2-star-artifact-value.html)
 
 **Finding:**  
@@ -54,10 +75,10 @@ Best case: `1260/1005.9 = ~1.2526` (vendor 25.26% more worth)
 Buying out the 3 artifact vendors once a week is more worth than running a domain for artifact exp.
 Vendor is 70.99% more worth your resin on average, and 25.26% more worth for a best case domain run scenario.
 
-## Vendor Artifacts vs Housing Sanctifying Essence  
+### Vendor Artifacts vs Housing Sanctifying Essence  
 
-**By:** K \឵឵#4000  
-**Added:** 07/07/2021  
+**By:** K\឵឵#4000  
+**Added:** 2021-07-07  
   [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/855808417447804938/858443909838929940/transcript-the-two-star-artifacts-you-buy-from-the-npc-shops-is-actually-still-worth-it.html)  
   
 **Finding:**  
@@ -74,25 +95,35 @@ It's better to buy 3 10k mora with 360 realm currency than to buy 1 sanctifying 
 NPC shops sell 12.6K artifact XP worth of 2* artifacts for 30K Mora.  
 The mora cost of buying out the NPC shop is equal to 360 realm currency.  
 
-## Crafting refund vs increase passives
+### Artifact Probability Thesis
 
-**By:** jdeeyu\#9927  
-**Added:** 5/22/2021  
-[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/844202218369712199/845490580011352105/transcript-new-albedo-eula-crafting-passive-efficiency-vs-mona-xingqiu.html)
+**By:** tooflesswulf\#8456  
+**Added:** 2022-05-12  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/974477543161872455/transcript-artifact-probability-thesis.html)  
 
-**Finding:** Albedo's crafting passive isn't just straight 20% better than Mona's crafting passive \(as stated in KQM guide\) due to the fact that Mona's passive also allows for more subsequent crafting to be done, therefore more trials, therefore more chances of success.
+**Theory:**  
+Performed a thorough mathematical analysis of the artifact rolling system, deriving equations for:  
+1\. Exact probability that an artifact's substats upgrade beyond some threshold.  
+2\. Approximate probability than an artifact, once upgraded, will yield an increase in damage.  
+3a\. Approximate probability/expected time it takes to improve the overall damage of a build.  
+3b\. Expected damage increase per resin spent for farming an artifact domain.
 
-**Evidence:** Through simulating a large number of crafting trials, I will post a screenshot of my code below.  
-[Imgur](https://imgur.com/Fqkpwc2)
+**Evidence:**  
+See [ArtiSubMath-v10.pdf](../../.gitbook/assets/ArtiSubMath-v10.pdf) or the latest version on [Overleaf](https://www.overleaf.com/project/60f23ddaaf3de5719fa07f85).  
+There is also python demo code available at [artifact-math-demo-py.zip](../../.gitbook/assets/artifact-math-demo-py.zip).  
 
-**Significance:** Albedo/Eula passive isn't as good as it initially seems when compared to Xingqiu/Mona
+Significance:
+1. One form of the long-awaited artifact-substat-to-resin relation has been found.
+2. The theory can answer common questions such as:
+   * Which artifact should I upgrade? Should I fodder this artifact or keep it?
+   * Should I continue farming artifacts or should I focus on levels/talents?
 
-**Conclusion:** From the results of my simulation \(feel free to scrutinize my code, I have double checked it 3-4x myself\), it seems that Eula/Albedo is passive is actually 10% better than than Xingqiu/Mona instead of the initial 20%. If you take into account the initial talent books for the comparison then the difference is a whopping 1%.
+## Realm Currency
 
-## Realm Currency Exchange Rate Analysis
+### Realm Currency Exchange Rate Analysis
 
 **By:** Mateng\#4507  
-**Added:** 6/6/2021  
+**Added:** 2021-06-06  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/832668930580807750/851210889818669097/transcript-realm-currency-exchange-rate-analysis.html)
 
 **Theory**  
@@ -158,28 +189,80 @@ The most Resin-efficient purchase order at the Realm Depot is to claim the Magic
 
 For Travelers who wish to maximize Stardust and minimize RC: target MEOs -&gt; EXP -&gt; Mora at Paimon's Bargains in the Shop. Inverse this priority \(Mora -&gt; EXP -&gt; MEOs\) if Travelers wish to maximize RC and minimize Stardust.
 
-## BP Resin Value
+### Realm Currency Extended Analysis
 
-**By** Peekays#2722  
-**Added:** 09/14/2021  
-[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/882273258806849627/885691065707925514/transcript-battle-pass-value-for-resin.html)  
+**By:** chowr\#0522  
+**Added:** 2022-03-16  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/953734255110918204/transcript-realm-currency-extended-analysis.html)  
+
+**Abstract:**  
+I was looking at the library submissions for Realm Currency and found that I had completely different conclusions in my personal findings than what had been submitted \(specifically the submission above\).  
+
+My 2 main criticisms of the previous analysis is that it does not include artifact XP, and it does not take into account the "weekly budget" that a player receives from their teapot. Additionally, I wanted to analyze the actual value of Transient Resin in comparison to each shop item.  
+
+In my finding, I have come to the conclusion that Transient Resin is by far the most efficient item in the shop, by a substantial amount. In order for any item in the shop to achieve at or above the same Resin Value as Transient Resin \(equivalent to 60 Resin\), the other options must be bought either almost or completely out.  
+
+Regarding the other shop items, the three "main" resources: XP books, Mystic Enhancement Ores, and Mora, are roughly equivalent to each other \(though XP books are worth slightly less\). On the other hand, the Artifact XP Tinctures are notably more efficient than the main three, as buying them out costs less while still reaching over 60 Resin Value, as well as having two of them available.  
 
 **Finding:**  
-The $10 BP gives resources worth approximately 1800 resin = 45 condensed resin = 30 fragile resins in the form of exp books, mora, and talent books.  
-This does not include the weapon enhancement ores, fates, primogems, and bp exclusive weapon.
+Transient Resin and Artifact XP are the most resin efficient resources available for purchase in the Realm Shop.  
+
+RC/Resin for each resource is as follows:  
+* XP Book: 0.0272 Resin/RC \(Resin per RC\)
+* MEO: 0.0278 Resin/RC
+* Mora: 0.0278 Resin/RC
+* Artifact XP \(Small\): 0.0376 Resin/RC
+* Artifact XP \(Large\): 0.0376 Resin/RC
+* Transient Resin: 0.05 Resin/RC
+
+Order in efficiency is as follows: Transient Resin \> Artifact XP \> Mora = MEO \> \(very slightly\) XP Books.  
 
 **Evidence:**  
-[Spreadsheet](https://docs.google.com/spreadsheets/d/1Xe-9r2IQXVZ4E0-jl6xRvJEim-18n1pe7bcA-AjA6jQ)  
+\*All calculations are done assuming resin is being spent to obtain resources.  
 
-Also average talent domain rewards sheet (credit to carrier/Data Gathering): [Spreadsheet](https://docs.google.com/spreadsheets/d/14Y3aqKvnxSeuox3RF1Bg6kQwKzVDPEPqy8aXacSIHMs)
+![](https://media.discordapp.net/attachments/935563087526907904/935563322609238066/unknown.png)  
+
+Calculations: [Google Sheets](https://docs.google.com/spreadsheets/d/1u4rzrETXhqc6-hANK4icrdqIONc_ionePnjSaZCO2E0/edit?usp=sharing)  
+Extended version: [Pastebin](https://pastebin.com/tHCLxMcv)  
+
+**Significance:**  
+Buying out both of the Artifact XP options allows the player to essentially receive a full day's worth of resin from their Realm Shop, should they purchase all of the artifact XP tinctures, as well as the Transient Resin. It is entirely possible to do this, as the total cost comes out to 4800 RC, and the highest possible expediture each week is 5040 RC.  
+
+However, opting for a lower budget of buying out only one of the artifact options in order to save coins is also recommended.  
+
+There are other possible permutations of what to buy in the shop, but these are my recommendations if a person is looking to buy out the items as efficiently as possible.  
+
+**Closing Thoughts:**  
+There are extra factors to consider about why artifacts are worth more to buy. Primarily because there are often times that 5\* artifacts will not be used as fodder.  
+
+I also want to object to the idea that purchasing 360 RC of Mora to buy out the 2-star artifacts in all vendors is better than buying a 360 RC artifact tincture, made in the following library submission: ["Vendor Artifacts vs Housing Sanctifying Essence"](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/855808417447804938/858443909838929940/transcript-the-two-star-artifacts-you-buy-from-the-npc-shops-is-actually-still-worth-it.html).  
+
+Technically, it is true that, by following this method, it is more efficient to buy out the 2-star artifacts each week with Mora than to buy one tincture. There is a theoretical budget where someone buys all but one large tincture, and purchases Mora 3 times in order to buy out the artifact vendors. I object because there are alternate methods of obtaining Mora that would be more efficient and does not require the purchase of Mora with RC. Utilizing mob kills, daily random events, or even leylines to obtain the mora necessary instead would allow for the purchase of an extra Large Tincture. And if it is worthwhile to buy out the vendors instead of 1 Tincture, I argue it is more worthwhile to buy out the vendors, as well as the tincture. There is only a budget of 5040 Coins per week at the highest level, and so it is not possible to buy Transient Resin, Tinctures, and the 30,000 Mora necessary solely with coins. Therefore, I suggest the artifacts should be bought with Mora from a different source. Though with smaller budgets it certainly could be suggested that the 30,000 mora be purchased instead. 
+
+## Crafting Refund vs Increase Passives
+
+**By:** jdeeyu\#9927  
+**Added:** 2021-05-22  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/844202218369712199/845490580011352105/transcript-new-albedo-eula-crafting-passive-efficiency-vs-mona-xingqiu.html)
+
+**Finding:** Albedo's crafting passive isn't just straight 20% better than Mona's crafting passive \(as stated in KQM guide\) due to the fact that Mona's passive also allows for more subsequent crafting to be done, therefore more trials, therefore more chances of success.
+
+**Evidence:** Through simulating a large number of crafting trials, I will post a screenshot of my code below.  
+[Imgur](https://imgur.com/Fqkpwc2)
+
+**Significance:** Albedo/Eula passive isn't as good as it initially seems when compared to Xingqiu/Mona
+
+**Conclusion:** From the results of my simulation \(feel free to scrutinize my code, I have double checked it 3-4x myself\), it seems that Eula/Albedo is passive is actually 10% better than than Xingqiu/Mona instead of the initial 20%. If you take into account the initial talent books for the comparison then the difference is a whopping 1%.
 
 **Significance:**  
 Buy the BP if you have the money.
 
-## Overworld Farming Statistics
+## Overworld
+
+### Overworld Farming Statistics
 
 **By:** Bobrokrot#0111  
-**Added** 07/11/2021  
+**Added:** 2021-07-13  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/851577795868098600/864446326178447370/transcript-overworld-farming-statistics.html)
 
 **Finding:**
@@ -197,10 +280,25 @@ There are two types of artifact spots:
 
 **Significance:** Statistics for farming purposes 
 
+### Crabs Respawn  
+
+**By:** Mcpie#8672  
+**Added:** 2021-07-17  
+
+**Finding:**  
+Crabs that you approach and fail to pick up will respawn after leaving their render distances and coming back.
+
+**Evidence:**  
+[https://youtu.be/Z0VjSrFASLw](https://www.youtube.com/watch?v=Z0VjSrFASLw)  
+[https://youtu.be/Zx2MKX8Nv8E](https://www.youtube.com/watch?v=Zx2MKX8Nv8E)
+
+**Significance:**  
+[Video](https://youtu.be/LDU_Txk06tM?t=75)
+
 ### Random Event Cap
 
 **By:** derek\#9488  
-**Added** 12/22/2021  
+**Added:** 2021-12-22  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/922577467930202173/923407105925468190/transcript-random-event-cap.html)
 
 **Finding:**  
@@ -213,10 +311,51 @@ After the above, other random events also give no reward: [YouTube](https://www.
 **Significance:**  
 You can do 10 random events for mora, companionship exp, and enhancement ores everyday and its roughly about 15000-16000 mora a day and guaranteed 150 companionship exp a day. The easiest way to do this Is by repeating the warden of konda quest over and over again in that same spot as in the first video, scaring away the pigeons to do it quickly.
 
-## Food Costs
+### Bake-Danuki Respawn
+
+**By:** Mcpie\#8672  
+**Added:** 2021-08-08  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/868107312617889803/874106706328690778/transcript-inazuma-bake-danuki-respawn.html)
+
+**Finding:**  
+Some bake-danukis that end up with investigation spot respawn. They seem to follow common enemies respawn pattern (12h), however it's still unclear.
+
+**Evidence:**
+* 2021-07-21 18:42:25 - <https://youtu.be/RWUUFzwP2f0> - first video
+* 2021-07-23 11:38:29 - <https://youtu.be/QQDcTR_G04w> - second video (1 day 17h diff)
+* 2021-07-24 05:52:53 - <https://youtu.be/1WHudr-4wZ8> - third video  (~19h diff)
+* 2021-07-24 17:21:04 - <https://youtu.be/PghdzG1TlLc> - fourth video (~11h30min diff)
+
+**Significance:**  
+Some of them respawn artifacts so it might be a reliable way of getting more artifact fodder everyday.
+
+### Bush Droprates
+
+**By:** gideleon1\#2188  
+**Added:** 2021-04-11
+
+**Finding:** There is an 8% chance to get something from a broken bush.
+
+Out of 1,174 Bushes:
+
+* 30 Lizards
+* 32 Matsutakes
+* 32 Eggs
+
+It seems like the drop is chosen randomly. Testing was done during the day, because at night, fireflies are added to the pool. They do not replace anything in the loot table, because at night all four items were dropped. There has never been an instance of getting more than one drop out of a bush.
+
+**Evidence:** [Google Docs](https://docs.google.com/document/d/1-mopokLcAiOwz9I7NS8LZnmNUhz57RStiXdyYN_yNc8/edit)
+
+I didn't assume anyone would want a two hour video of me just breaking bushes, so I just compiled the results.
+
+**Significance:** Was curious about the drop rates, and I couldn't find anything about them in the TCL, online, or in the data gathering server, so I figured I'd just do it myself. I wanted exact percentages just for the sake of thoroughness.
+
+## Food
+
+### Food Costs
 
 **By:** Anmol43\#1917  
-**Added:** 4/20/2021  
+**Added:** 2021-04-20  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/833731587279028254/834272842425171978/transcript-all-food-cost-calcs.html)
 
 **Finding:** Documenting the cost, in mora, of all food items in Genshin Impact.
@@ -236,10 +375,10 @@ As other effects such as ATK buffs and Crit Rate buffs cannot be stacked, it is 
 
 **Significance:** players who frequently use food and are looking to save Mora can see which foods are cheapest/most Mora-efficient for their given effects.
 
-## Duplicate Special Dish  
+### Duplicate Special Dish  
 
 **By:** denmax#9293  
-**Added:** 07/11/2021  
+**Added:** 2021-07-11  
 
 **Finding:**  
 Characters with extra dish cooking bonus can double their special dishes.  
@@ -250,33 +389,295 @@ Characters with extra dish cooking bonus can double their special dishes.
 **Significance:**  
 Just something to keep in mind.
 
-## Crabs Respawn  
+### Crafted Food Items Limit  
 
-**By:** Mcpie#8672  
-**Added:** 07/17/2021  
+**By:** It3mUs3r#4778 and Creonalia#2818  
+**Added:** 2021-10-24  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/899016596054495253/902068304749944852/transcript-crafted-food-item-limit.html)  
 
 **Finding:**  
-Crabs that you approach and fail to pick up will respawn after leaving their render distances and coming back.
+Crafted items limit is 2000 per unique item. Both automatic cooking and manual cooking yield this result. Which character is cooking also does not change this limit.  
 
 **Evidence:**  
-[https://youtu.be/Z0VjSrFASLw](https://www.youtube.com/watch?v=Z0VjSrFASLw)  
-[https://youtu.be/Zx2MKX8Nv8E](https://www.youtube.com/watch?v=Zx2MKX8Nv8E)
+2000 of each kind of Fragrant Mashed Potatoes: [Imgur](https://imgur.com/ioIoAhw)  
+Unable to craft more Suspicious Fragrant Mashed Potatoes: [Imgur](https://imgur.com/xPdT6NG)  
+Unable to craft more Fragrant Mashed Potatoes: [Imgur](https://imgur.com/NMhB8L9)  
+Unable to craft more Delicious Fragrant Mashed Potatoes: [Imgur](https://imgur.com/DynpQAn)  
 
 **Significance:**  
-[Video](https://youtu.be/LDU_Txk06tM?t=75)
+Food is not infinite.  
 
-## Destroy Function Mechanics
+## Investigation Mechanics
+
+### Daily Investigation Limit  
+
+**By:** Mcpie#8672  
+**Added:** 2021-08-14  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/868135553764311051/876092967356629032/transcript-investigation-daily-limit.html)  
+
+**Theory:**  
+There exists an investigation daily limit of 100. It is possible to go beyond this number by not leaving the rendered zone after reaching 100. Bake-danukis that give investigation spots count towards this limit as well.
+
+**Evidence:**  
+Video shows me logging into genshin (Welkin, daily commissions displaying due to first login, 160 resin so I crafted condensed resin) and running through 100 investigation spots to showcase that if you investigate 100th spot then rerendering the zone WILL NOT display previously accessible investigation spots.  
+[Video](https://youtu.be/vW7O4U4MoJQ)  
+Above video contains timestamps of each spot and a counter on-screen. I also got artifacts from at least 4 bake-danukis that spawn artifact investiogation spot in the video and I increased the counter after each one of them.  
+
+Video showcasing that it is possible to go beyond the cap. There's on-screen counter present showing how many investigation spots I have already gathered. I managed to get a total of 174 investigation spots.  
+[Video](https://youtu.be/Uzs8yu6H1BI)
+
+**Significance:**  
+Since patch 2.0, if you're going to do artifact routes then you don't want to investigate every single spot there is due to this limit and the fact that there are over 100 investigation spots containing artifacts as of now.  
+Additionally, because it's possible to go beyond 100 by not leaving the zone on 100th spot, it's advised to leave places with high amount of investigation spots for last.
+
+### Daily Investigation Limit Reset  
+
+**By:** Mcpie#8672  
+**Added:** 2021-08-14  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/869052058752385034/876092976483418132/transcript-daily-investigation-limit-resets-at-daily-reset.html)  
+
+**Theory:**  
+Daily investigation limit resets at daily reset.
+
+**Evidence:**  
+[Video](https://youtu.be/JWCW9NjTL8A)  
+Video shows my character in 2 artifact spots that I have not picked on the previous day. Once I was in the Liyue cellar spot, daily reset happened - after teleporting far away and back, I was able to pick up investigation spots.  
+
+**Significance:**  
+Allows for early artifact route run if you still have uninvestigated spots.
+
+### Daily Investigation Spots Post Daily Cap  
+
+**By:** Mcpie#8672  
+**Added:** 2021-08-14  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/875747620621004800/876093025124761600/transcript-investigation-spots-post-daily-cap.html)  
+
+**Theory:**  
+We already know that the daily investigation cap is 100 and it's possible to go beyond that number by picking already rendered investigation spots.  
+If you're about to hit the daily cap and go too far from the place you are at right now without teleporting/relogging and then go back, the rendered investigation spot is lost. This would mean that all investigation spots are stored in your memory and they are strictly connected to your render distance.  
+
+**Evidence:**  
+Timestamped: [Video](https://youtu.be/Uzs8yu6H1BI?t=1778) - gathered 99th spot, going north to get 100th which is the cap. There are 2 spots visible here to gather.  
+Timestamped: [Video](https://youtu.be/Uzs8yu6H1BI?t=2780) - gathered 174 spots, no investigation spots present even though there was no teleport/relog happening.  
+Area covered by black thick border shows the vicinity of where I was past 100th spot, while the dot displays timestamped above locations.
+
+**Significance:**  
+A test whether already rendered investigation spots get removed from your memory if you go too far or not - if it was allowed then it would be possible to walk through the entire inazuma (if you're some freaking absolute minmaxer), render all investigation spots at least once and then pick all of them up because everything is stored in your memory.
+
+The above video displays that investigation spots are stored in your memory, and if you go too far then they are removed as it should be, because memory leaks are a horrible thing.
+
+### Multiple Artifact Clusters After 100
+
+**By:** makeway4pK\#3901  
+**Added:** 2022-03-16  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/953810490323255406/transcript-multiple-arti-clusters-after-100.html)  
+
+**Findings:**  
+* 'Co-op helps': Investigates \(Artifacts, Weapons, Iron, Energy, Veggies\) don't despawn after reaching daily cap as long as a watcher \(host or co-op teammate\) is near them \[1\].
+* 'Order matters': Which spots are included in a cluster can change depending on which spot is being watched when 100th investigate is done \[2\]\[5\].
+* 'Wide clusters': Clusters can extend pretty far \[3\].
+* 'Merged!': Tatarasuna and the nearby spots \#7, \#8 & BK6 can be merged into a single cluster by placing watchers at certain locations. Same goes for Koseki and Seiraimaru \(Kosekimaru?\) \[4\].
+* 'Hypothesis': Seems like there are pre-defined 'groups' of these spots that can be held in memory as long as a watcher is in a certain range of at least one or few of its spots. these groups can still despawn if they are left unwatched anytime after reaching the cap. 
+
+Notes:
+* Cluster is an area/set of spots that can be watched by a single watcher after reaching the daily investigation cap.
+* Spot numbers are referenced from the maps created in previous tickets:  
+  * [Liyue](https://raw.githubusercontent.com/mcpie87/gi-artifacts/master/liyue.jpg)
+  * [Inazuma](https://raw.githubusercontent.com/mcpie87/gi-artifacts/master/inazuma.jpg)
+
+**Evidence:**  
+\[1\] [Basic confirmation](https://youtu.be/8fFM7y-0otk)  
+\[2\] [4 clusters tested](https://youtu.be/7sOR_fM4sJQ), including a 22-spotted one in Seiraimaru \(Ship \+ \#6 \+ 2x BKs\)  
+\[3\] [11-spotted Hiraumi](https://youtu.be/iRlCp7XLBOA), Koseki \+ \#6 \+ 2x BKs
+and BK10 included in Tatara cluster  
+\[4\] [Post-cap run for 184 total spots](https://youtu.be/Y_YuIUWgCmQ)  
+\[5\] [Kosekimaru watchpoint](https://youtu.be/DDxtp-ik3_w), read description  
+
+**Significance:**  
+Allows collecting artifacts from more than \(the previous max of\) [129 spots](https://youtu.be/Tc8jvEdEeVk) in a day. Assuming you have friends with moderate patience stats \(max 20 mins afk\). Based on current knowledge, theoretical max is: `5\+99\+32\+30\+11\+7=184`.  
+
+## Trees
+
+### Tree Chopping Memory Mechanics
+
+**By:** mol\#3280  
+**Added:** 2021-06-06  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/838678429137633311/851309968694837268/transcript-tree-chopping-memory.html)
+
+**Finding:**  
+The game can only remember the 10 most recently-struck trees at a time. After the 11th tree is hit, the 1st tree's state is wiped from the memory and can be harvested again. However, if a previously harvested tree is struck again BEFORE this, it will be moved back into the sequence as the most recently updated item. Therefore, a loop in the following order where each number represents a specific tree will generate no wood on the second partial loop: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11. This is because trees 2-11 have become the recently updated set in memory, and only 1 has been dropped and reverted to "harvestable" state. In a typical 11 tree loop, hitting tree 1 again would provide wood, then remove the most recent last tree \(tree 2 in this case\) from memory. Partial harvests also count the same as full harvest or re-harvest.
+
+**Evidence:**  
+[Partial harvest evidence & 11 tree loop](https://imgur.com/a/WAz7Ubk) [Hitting tree 2 before 1 on second loop proves minimum loop is 11](https://imgur.com/mzky3xy), only the 11th tree is reset, and updating mechanics.
+
+**Significance:**  
+There is no quick method to reset tree resources beyond hitting an 11th tree and removing the 10th-previously-harvested tree from the memory. Aside from logging out of the game, these mechanics are key to quick farming of a targeted type of tree. Fast traveling has no effect, nor does entering a domain, nor does waiting several minutes. To keep farming trees efficiently, the loop must avoid all 10 trees already in memory. Adding a buffer of an additional 1 or 2 trees into the loop can help prevent accidentally updating depleted trees in memory and wasting time. Additionally, if your loop contains mixed tree types, you can exploit the partial harvest finding to farm one type faster by only striking the less-desired trees one time each before moving on.
+
+### Temporary Skill Targets: Enabling Unholy Harvesting Methods
+
+**By:** mol\#3280, wiremash\#0433, Aluminum\#5462  
+**Added:** 2021-06-06  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/839914390328573963/851314539345215509/transcript-marking-non-enemies-for-skill-hits.html)
+
+**Findings:**  
+Attacks that shake untouched trees, including enemy attacks, can allow them to be harvested using a small number of Elemental Skills in a short window. We explored this to find several things.
+
+* Shaking a tree marks it as a target for a wider variety of skills. Some attacks, like Mona's E, can only shake already-marked trees, and do nothing.
+* All physical damage sources & an odd assortment of character skills \(Jean's E, Kaeya's Q\) can shake/mark
+* Marks last a very short time
+* Some skills and Overloads can harvest. Characters like Bennett and Xingqiu can harvest using E skills, while Razor can harvest with E only if he uses Overload. 
+
+**Evidence:**  
+Summary post with multiple videos here [https://imgur.com/a/RnevAeW](https://imgur.com/a/RnevAeW)
+
+**Significance:**  
+Attacks are not equal in terms player-environment interaction. Most skills can never harvest nor shake tress; some can shake trees, others can harvest directly, while others can harvest indirectly via Overloading burning grass. Most importantly for combat, damage sources appear to be treated differently depending on the character, attack, and reaction source. Overloading via E to harvest a marked tree works for Razor and Beidou, but not Xiangling or Fischl's elemental arrow. Overload seems to work on burning grass but not self-overloads. Dealing phys damage with Xinyan harvests using a Normal Attack, but only shakes during her Burst. More broadly, the game appears to be conserving resources by limiting the player's kit unless certain enabling actions are taken. After enabling these attacks, the game shuts them down after a short window. Enemies appear to be permanently enabled for all attacks, but the player must fight enemies within a specific area, otherwise they will teleport back and reset.
+
+### Missed Attacks Still Mark Trees For Unholy Harvesting
+
+**By:** Aluminum\#5462  
+**Added:** 2021-12-12  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/903482500876210186/919141033718202388/transcript-trees-are-pepega.html)  
+
+**Finding:**  
+Missed attacks on trees due to a [bug](https://imgur.com/AiGbPmU) still mark the tree for unholy harvesting methods.  
+
+**Evidence:**  
+Xingqiu N1 \(miss\) into Xingqiu Skill: [YouTube](https://youtu.be/LInYdyJllms)  
+Qiqi N1 \(miss\) into Tartaglia Skill and Attacks: [YouTube](https://youtu.be/wf9qAnnBaFg)  
+Version 2.3 Bennett N1 \(whiff\) into Tartaglia Skill and Attacks: [Imgur](https://imgur.com/eKKGUnu)  
+* In Version 2.3, Mihoyo issued a supposed fix for the whiffed attacks on trees, as noted in their [patch notes](https://genshin.mihoyo.com/en/news/detail/17278). However, this issue can still sometimes occur post-patch, enabling this trick.  
+
+**Significance:**  
+I am the Lorax. I speak for the trees.  
+
+### Lumberjack Tier List
+
+**Contributors:** Aluminum\#5462, Green sabre\#0540, Kourinn\#6001, mol\#3280, Steph\#3614, JenjenJL\#6582, Greyhound\#7836  
+**Added:** 2021-06-06  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/836973979108769822/851323163400208404/transcript-lumberjack-tier-list.html)
+
+[Link to Tierlist](https://docs.google.com/spreadsheets/d/1Q4HKzkaw7YFNZyIJSjRINZJonFe1kiDwz1dEbpcZiNk/edit#gid=937070148)
+
+Summary of Results, most efficient units for tree chopping:
+
+* Xingqiu \(only if you manually time their attack string, spam clicking won't work\)
+* Keqing
+* Rosaria
+* Xiao
+
+### Wood Daily Drop Limit
+
+**By:** Creonalia\#2818  
+**Added:** 2021-05-21  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/842601710391787551/845506814519148574/transcript-2k-wood-daily-cap.html)
+
+**Finding:** You can only collect 2,000 of any specific wood per day. This limit resets at server reset and cannot be reset by relogging/teleporting.
+
+**Evidence:**
+
+* Inventory before and after farming wood over 3 days: [https://imgur.com/a/tNZP68q](https://imgur.com/a/tNZP68q)
+* Evidence that player cannot collect more bamboo, but can collect other wood: [https://youtu.be/f\_eQfp1FWLM](https://youtu.be/f_eQfp1FWLM) 
+* Same for pine wood: [https://youtu.be/yh4PodfeX7c](https://youtu.be/yh4PodfeX7c)
+* Hitting cap and testing teleport and logout/login \(and showing that neither reset the cap\): [https://youtu.be/pE-vHLpum6Q](https://youtu.be/pE-vHLpum6Q)
+* Collecting pine wood after server reset \(marked by new daily commission quest at 0:12\): [https://youtu.be/9WrYqapBFkU](https://youtu.be/9WrYqapBFkU) 
+
+Note that although I did need to teleport to get wood after reset, teleporting alone does not reset the cap, as shown above.
+
+**Significance:** Useful for players to know if they're farming a massive amount of wood.
+
+### Capped Wood Types Register In Chopping Memory
+
+**By:** Homura\#9806 and mol\#3280  
+**Added:** 2022-02-20  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/945134145506517052/transcript-capped-wood-types-register-in-chopping-memory.html)  
+
+**Finding:**  
+Even after farming one tree type to the cap, it will still register in the 11 tree chopping memory.
+
+**Evidence:**  
+
+[Youtube](https://youtu.be/IQjXqPlfX5M)  
+
+In the video, thoma hits 4 birch trees that do not drop wood, this is either caused by a.) being in memory as a tree 1-11 or b.) the daily wood cap was hit for birch specifically. Next, 5 fir trees and 2 cuihua trees were cut, all dropping wood. Going back to the birch trees resulted no new wood drops, and since those are 11 trees hit in total it is impossible for all of the birch trees to be "in memory", so the only reason they wouldn't drop wood is that birch daily limit has been reached. 2 additional fir trees were cut and dropped wood, so capped wood types do count in the tree chopping memory mechanics.  
+
+**Significance:**  
+Since capped trees do register in memory, this allows for hybrid routes (such as the one in the video), especially very unbalanced hybrid routes (like 1 cuihua to 10 cedar) to function even after you have farmed one wood type to completion. 
+
+## Battle Pass
+
+### BP Resin Value
+
+**By** Peekays\#2722  
+**Added:** 2021-09-14  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/882273258806849627/885691065707925514/transcript-battle-pass-value-for-resin.html)  
+
+**Finding:**  
+The $10 BP gives resources worth approximately 1800 resin = 45 condensed resin = 30 fragile resins in the form of exp books, mora, and talent books.  
+This does not include the weapon enhancement ores, fates, primogems, and bp exclusive weapon.
+
+**Evidence:**  
+[Spreadsheet](https://docs.google.com/spreadsheets/d/1Xe-9r2IQXVZ4E0-jl6xRvJEim-18n1pe7bcA-AjA6jQ)  
+
+Also average talent domain rewards sheet (credit to carrier/Data Gathering): [Spreadsheet](https://docs.google.com/spreadsheets/d/14Y3aqKvnxSeuox3RF1Bg6kQwKzVDPEPqy8aXacSIHMs)
+
+### Weekly BP Cap During Launch Week
+
+=======
+### Elemental Infusion Hampers Wood Cutting
+
+**By:** lapidibus#8146 and δανιελ#6040  
+**Added:** 2022-05-07  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/972595731611398154/transcript-elemental-infusion-hampers-wood-cutting.html)
+
+**Finding:**  
+Melee attacks infused with elements usually cannot chop wood from trees.
+
+**Evidence:**  
+Chongyun and Ayaka infusions prevent wood chopping - [YouTube](https://youtu.be/cJEkFctLa4g)  
+Ayato *can* chop wood during his skill's infusion *if* activated immediately after an uninfussed normal attack hit (see [Unholy Harvesting Methods](https://library.keqingmains.com/general-mechanics/resources-and-efficiency#unholy-harvesting-methods) for an explanation)  - [YouTube](https://youtu.be/Bs80TnoJMyI)
+
+**Significance:**  
+Characters that involuntarily infuse elements (e.g. Ayaka) are sub-par at chopping wood.
+
+## Weekly BP Cap During Launch Week
+
+**By:** Mcpie#8672  
+**Added:** 2022-01-10  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/928504588498272296/930045464001257522/transcript-weekly-bp-cap-during-launch-week.html)
+
+**Finding:** Reaching BP Weekly EXP limit during launch week requires sacrifices.  
+Possible sacrifices are:  
+* Spend a total of 500,000 Mora.
+  * It's easy to spend it if you're planning to level anything.
+* Purchase 2 items from the Teapot Traveling Salesman in another player's Serenitea Pot.
+  * Requires sacrificing possible resin gains from purchasing Mora/fodder/EXP for Realm Currency - it's 80 Realm Currency in order to reach it.
+* Use a total of 1200 Original Resin.
+  * Only NA is capable of doing this and not even by a huge margin - you can use up to 1237 resin assuming perfect server maintenance end and x2 Transient Resin.
+  * If you're not a hardcore player, you need to either make a refill with Primogems or utilize Fragile Resins.
+
+**Evidence:** 
+Sheet including options and calcs per server region: [Google Doc](https://docs.google.com/spreadsheets/d/1w3AzHkRcJPFLyonoEVQGJmNX4KCqfIewEH_1LQ55y4c)
+
+Note that **500,000 Mora** and **Purchase 2 item from the Teapot Traveling Salesman** have same value (450), which is the reason as to why there is no extra sheet for salesman / salesman + resin as same values are included in **500,000 Mora** sheets.
+
+**Significance:** People who wanted to reach BP Weekly EXP limit during launch week have to make additional sacrifices in order to do so.  
+
+## Inventory
+
+### Destroy Function Mechanics
 
 **By:** xf3\#3123  
-**Added:** 04/08/2021
+**Added:** 2021-04-08
 
 **Finding:**
 
 The destroy button in the inventory is the only way to mass delete/destroy items in the game other than the Parametric Transformer. However, the function itself is limited and the resources gained from destroying items are not worth compared to using them as fodder.
 
-**Evidence:** [Imgur](https://imgur.com/a/qRB1FWr)
+**Evidence:**  
+[Imgur](https://imgur.com/a/qRB1FWr)  
 
-By destroying artifacts, you either can get XP or Mora, it is the same for each. By destroying weapons, you obtain a number of 1\* enhancement ores based on the rarity of the weapon \(3 for 3 stars, 2 for 2 stars, 1 for 1 star\)
+By destroying artifacts, you either can get XP or Mora, it is the same for each. By destroying weapons, you obtain a number of 1\* enhancement ores based on the rarity of the weapon \(3 for 3 stars, 2 for 2 stars, 1 for 1 star\).  
 
 **Other Observations:**
 
@@ -290,52 +691,13 @@ By destroying artifacts, you either can get XP or Mora, it is the same for each.
 
 Destroying weapons is not efficient and causes you to lose weapon XP. Destroying artifacts although has no "real downside," the rewards given are lackluster and are better used as fodder. There is no reason to destroy items that give no rewards. Those items are better used for the Parametric Transformer if they need to be disposed of. The only upside is to mass clear inventory space, but due to the size of the inventory and the loss of XP, it does not warrant using the feature.
 
-## Bake-Danuki Respawn
-
-**By:** Mcpie\#8672  
-**Added:** 8/8/2021  
-[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/868107312617889803/874106706328690778/transcript-inazuma-bake-danuki-respawn.html)
-
-**Finding:**  
-Some bake-danukis that end up with investigation spot respawn. They seem to follow common enemies respawn pattern (12h), however it's still unclear.
-
-**Evidence:**
-* 2021-07-21 18:42:25 - <https://youtu.be/RWUUFzwP2f0> - first video
-* 2021-07-23 11:38:29 - <https://youtu.be/QQDcTR_G04w> - second video (1 day 17h diff)
-* 2021-07-24 05:52:53 - <https://youtu.be/1WHudr-4wZ8> - third video  (~19h diff)
-* 2021-07-24 17:21:04 - <https://youtu.be/PghdzG1TlLc> - fourth video (~11h30min diff)
-
-**Significance:**  
-Some of them respawn artifacts so it might be a reliable way of getting more artifact fodder everyday.
-
-## Bush Droprates
-
-**By:** gideleon1\#2188  
-**Added:** 04/11/2021
-
-**Finding:** There is an 8% chance to get something from a broken bush.
-
-Out of 1,174 Bushes:
-
-* 30 Lizards
-* 32 Matsutakes
-* 32 Eggs
-
-It seems like the drop is chosen randomly. Testing was done during the day, because at night, fireflies are added to the pool. They do not replace anything in the loot table, because at night all four items were dropped. There has never been an instance of getting more than one drop out of a bush.
-
-**Evidence:** [Google Docs](https://docs.google.com/document/d/1-mopokLcAiOwz9I7NS8LZnmNUhz57RStiXdyYN_yNc8/edit)
-
-I didn't assume anyone would want a two hour video of me just breaking bushes, so I just compiled the results.
-
-**Significance:** Was curious about the drop rates, and I couldn't find anything about them in the TCL, online, or in the data gathering server, so I figured I'd just do it myself. I wanted exact percentages just for the sake of thoroughness.
-
-## Capped Enhancement Ores  
+### Capped Enhancement Ores  
 
 **By:** Kgbeast#6738  
-**Added:** 10/09/2021  
+**Added:** 2021-10-09  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/893668250263633980/896141552135569438/transcript-capped-enhancement-ore.html)
 
-**Findings/Evidences**  
+**Findings/Evidence:**  
 Consequences of having capped (9999) Mystic Enhancement Ore:
 
 - Abyss rewards are sent to the mail and cannot be collected until there is enough room for ore to no longer exceed the 9999 mystic enhancement ore cap  
@@ -356,208 +718,34 @@ Consequences of having capped (9999) Mystic Enhancement Ore:
 **Significance:**  
 This will never happen to you though.  
 
-## Maximum Original Resin  
+### Crystal Chunk Inventory Cap
 
-**By:** CQLQRS#7853  
-**Added:** 10/18/2021  
-[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/896356040747122698/899839089124179968/transcript-maximum-original-resin.html)  
-
-**Finding:**  
-Original Resin can go past the cap of 160, capped at ~2000.  
-
-**Evidence:**  
-* Unable to go past 1993 Resin: [kimchihotpot#8630](https://imgur.com/a/gka5rSj)  
-* Unable to use 11 Fragile Resin (660 Resin) when at 1360 Resin, which would result in 2020 Resin: [Tibo#4309](https://i.imgur.com/kKl8sBo.png)  
-* Unable to use 1 Fragile Resin when at 2000 Resin: [Tibo#4309](https://i.imgur.com/Jl8wK1R.png)  
-
-**Significance:**  
-Better understanding of the Resin system.  
-
-## Crafted Food Items Limit  
-
-**By:** It3mUs3r#4778 and Creonalia#2818  
-**Added:** 10/24/2021  
-[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/899016596054495253/902068304749944852/transcript-crafted-food-item-limit.html)  
-
-**Finding:**  
-Crafted items limit is 2000 per unique item. Both automatic cooking and manual cooking yield this result. Which character is cooking also does not change this limit.  
-
-**Evidence:**  
-2000 of each kind of Fragrant Mashed Potatoes: [Imgur](https://imgur.com/ioIoAhw)  
-Unable to craft more Suspicious Fragrant Mashed Potatoes: [Imgur](https://imgur.com/xPdT6NG)  
-Unable to craft more Fragrant Mashed Potatoes: [Imgur](https://imgur.com/NMhB8L9)  
-Unable to craft more Delicious Fragrant Mashed Potatoes: [Imgur](https://imgur.com/DynpQAn)  
-
-**Significance:**  
-Food is not infinite.  
-
-## Investigation Mechanics
-
-### Daily Investigation Limit  
-
-**By:** Mcpie#8672  
-**Added:** 08/14/2021  
-[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/868135553764311051/876092967356629032/transcript-investigation-daily-limit.html)  
-
-**Theory:**  
-There exists an investigation daily limit of 100. It is possible to go beyond this number by not leaving the rendered zone after reaching 100. Bake-danukis that give investigation spots count towards this limit as well.
-
-**Evidence:**  
-Video shows me logging into genshin (Welkin, daily commissions displaying due to first login, 160 resin so I crafted condensated resin) and running through 100 investigation spots to showcase that if you investigate 100th spot then rerendering the zone WILL NOT display previously accessible investigation spots.  
-[Video](https://youtu.be/vW7O4U4MoJQ)  
-Above video contains timestamps of each spot and a counter on-screen. I also got artifacts from at least 4 bake-danukis that spawn artifact investiogation spot in the video and I increased the counter after each one of them.  
-
-Video showcasing that it is possible to go beyond the cap. There's on-screen counter present showing how many investigation spots I have already gathered. I managed to get a total of 174 investigation spots.  
-[Video](https://youtu.be/Uzs8yu6H1BI)
-
-**Significance:**  
-Since patch 2.0, if you're going to do artifact routes then you don't want to investigate every single spot there is due to this limit and the fact that there are over 100 investigation spots containing artifacts as of now.  
-Additionally, because it's possible to go beyond 100 by not leaving the zone on 100th spot, it's advised to leave places with high amount of investigation spots for last.
-
-### Daily Investigation Limit Reset  
-
-**By:** Mcpie#8672  
-**Added:** 08/14/2021  
-[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/869052058752385034/876092976483418132/transcript-daily-investigation-limit-resets-at-daily-reset.html)  
-
-**Theory:**  
-Daily investigation limit resets at daily reset.
-
-**Evidence:**  
-[Video](https://youtu.be/JWCW9NjTL8A)  
-Video shows my character in 2 artifact spots that I have not picked on the previous day. Once I was in the Liyue cellar spot, daily reset happened - after teleporting far away and back, I was able to pick up investigation spots.  
-
-**Significance:**  
-Allows for early artifact route run if you still have uninvestigated spots.
-
-### Daily Investigation Spots Post Daily Cap  
-
-**By:** Mcpie#8672  
-**Added:** 08/14/2021  
-[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/875747620621004800/876093025124761600/transcript-investigation-spots-post-daily-cap.html)  
-
-**Theory:**  
-We already know that the daily investigation cap is 100 and it's possible to go beyond that number by picking already rendered investigation spots.  
-If you're about to hit the daily cap and go too far from the place you are at right now without teleporting/relogging and then go back, the rendered investigation spot is lost. This would mean that all investigation spots are stored in your memory and they are strictly connected to your render distance.  
-
-**Evidence:**  
-Timestamped: [Video](https://youtu.be/Uzs8yu6H1BI?t=1778) - gathered 99th spot, going north to get 100th which is the cap. There are 2 spots visible here to gather.  
-Timestamped: [Video](https://youtu.be/Uzs8yu6H1BI?t=2780) - gathered 174 spots, no investigation spots present even though there was no teleport/relog happening.  
-Area covered by black thick border shows the vicinity of where I was past 100th spot, while the dot displays timestamped above locations.
-
-**Significance:**  
-A test whether already rendered investigation spots get removed from your memory if you go too far or not - if it was allowed then it would be possible to walk through the entire inazuma (if you're some freaking absolute minmaxer), render all investigation spots at least once and then pick all of them up because everything is stored in your memory.
-
-The above video displays that investigation spots are stored in your memory, and if you go too far then they are removed as it should be, because memory leaks are a horrible thing.
-
-## Tree Mechanics
-
-### Tree Chopping Memory Mechanics
-
-By: mol\#3280  
-Added: 6/6/2021  
-[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/838678429137633311/851309968694837268/transcript-tree-chopping-memory.html)
-
-**Finding:**  
-The game can only remember the 10 most recently-struck trees at a time. After the 11th tree is hit, the 1st tree's state is wiped from the memory and can be harvested again. However, if a previously harvested tree is struck again BEFORE this, it will be moved back into the sequence as the most recently updated item. Therefore, a loop in the following order where each number represents a specific tree will generate no wood on the second partial loop: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11. This is because trees 2-11 have become the recently updated set in memory, and only 1 has been dropped and reverted to "harvestable" state. In a typical 11 tree loop, hitting tree 1 again would provide wood, then remove the most recent last tree \(tree 2 in this case\) from memory. Partial harvests also count the same as full harvest or re-harvest.
-
-**Evidence:**  
-[Partial harvest evidence & 11 tree loop](https://imgur.com/a/WAz7Ubk) [Hitting tree 2 before 1 on second loop proves minimum loop is 11](https://imgur.com/mzky3xy), only the 11th tree is reset, and updating mechanics.
-
-**Significance:**  
-There is no quick method to reset tree resources beyond hitting an 11th tree and removing the 10th-previously-harvested tree from the memory. Aside from logging out of the game, these mechanics are key to quick farming of a targeted type of tree. Fast traveling has no effect, nor does entering a domain, nor does waiting several minutes. To keep farming trees efficiently, the loop must avoid all 10 trees already in memory. Adding a buffer of an additional 1 or 2 trees into the loop can help prevent accidentally updating depleted trees in memory and wasting time. Additionally, if your loop contains mixed tree types, you can exploit the partial harvest finding to farm one type faster by only striking the less-desired trees one time each before moving on.
-
-### Temporary Skill Targets: Enabling Unholy Harvesting Methods
-
-**By:** mol\#3280, wiremash\#0433, Aluminum\#5462  
-**Added:** 6/6/2021  
-[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/839914390328573963/851314539345215509/transcript-marking-non-enemies-for-skill-hits.html)
+**By:** Cypher130n\#6831  
+**Added:** 2022-03-29  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/958495995744894976/transcript-crystal-chunk-inventory-cap.html)  
 
 **Findings:**  
-Attacks that shake untouched trees, including enemy attacks, can allow them to be harvested using a small number of Elemental Skills in a short window. We explored this to find several things.
-
-* Shaking a tree marks it as a target for a wider variety of skills. Some attacks, like Mona's E, can only shake already-marked trees, and do nothing.
-* All physical damage sources & an odd assortment of character skills \(Jean's E, Kaeya's Q\) can shake/mark
-* Marks last a very short time
-* Some skills and Overloads can harvest. Characters like Bennett and Xingqiu can harvest using E skills, while Razor can harvest with E only if he uses Overload. 
+* The natural cap of Crystal Chunks able to be held in a player's inventory is 9999.
+* This can be overcapped by claiming Crystal Chunks as a reward from Expeditions at a maximum of 10006 \(9998+8\).
 
 **Evidence:**  
-Summary post with multiple videos here [https://imgur.com/a/RnevAeW](https://imgur.com/a/RnevAeW)
+[Natural cap](https://youtu.be/NXsOcKdUVls)  
+[Overcap](https://youtu.be/Fv2URPc_kaI)  
 
 **Significance:**  
-Attacks are not equal in terms player-environment interaction. Most skills can never harvest nor shake tress; some can shake trees, others can harvest directly, while others can harvest indirectly via Overloading burning grass. Most importantly for combat, damage sources appear to be treated differently depending on the character, attack, and reaction source. Overloading via E to harvest a marked tree works for Razor and Beidou, but not Xiangling or Fischl's elemental arrow. Overload seems to work on burning grass but not self-overloads. Dealing phys damage with Xinyan harvests using a Normal Attack, but only shakes during her Burst. More broadly, the game appears to be conserving resources by limiting the player's kit unless certain enabling actions are taken. After enabling these attacks, the game shuts them down after a short window. Enemies appear to be permanently enabled for all attacks, but the player must fight enemies within a specific area, otherwise they will teleport back and reset.
+Don't become an Ore Archon like me.  
 
-### Missed Attacks Still Mark Trees For Unholy Harvesting
+### Berry Max
 
-**By:** Aluminum\#5462  
-**Added:** 12/12/2021  
-[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/903482500876210186/919141033718202388/transcript-trees-are-pepega.html)  
+**By:** makeway4pK\#3901  
+**Added:** 2022-03-22  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/955999927236984862/transcript-berry-max.html)  
 
 **Finding:**  
-Missed attacks on trees due to a [bug](https://imgur.com/AiGbPmU) still mark the tree for unholy harvesting methods.  
+Inventory cap for berries is 9999 much like crystal chunks.  
 
 **Evidence:**  
-Xingqiu N1 \(miss\) into Xingqiu Skill: [YouTube](https://youtu.be/LInYdyJllms)  
-Qiqi N1 \(miss\) into Tartaglia Skill and Attacks: [YouTube](https://youtu.be/wf9qAnnBaFg)  
-Version 2.3 Bennett N1 \(whiff\) into Tartaglia Skill and Attacks: [Imgur](https://imgur.com/eKKGUnu)  
-* In Version 2.3, Mihoyo issued a supposed fix for the whiffed attacks on trees, as noted in their [patch notes](https://genshin.mihoyo.com/en/news/detail/17278). However, this issue can still sometimes occur post-patch, enabling this trick.  
+[YouTube](https://youtu.be/ACha1kLWHfQ)
 
 **Significance:**  
-I am the Lorax. I speak for the trees.  
-
-### Lumberjack Tier List
-
-**Contributors:** Aluminum\#5462, Green sabre\#0540, Kourinn\#6001, mol\#3280, Steph\#3614, JenjenJL\#6582, Greyhound\#7836  
-**Added:** 6/6/2021  
-[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/836973979108769822/851323163400208404/transcript-lumberjack-tier-list.html)
-
-[Link to Tierlist](https://docs.google.com/spreadsheets/d/1Q4HKzkaw7YFNZyIJSjRINZJonFe1kiDwz1dEbpcZiNk/edit#gid=937070148)
-
-Summary of Results, most efficient units for tree chopping:
-
-* Xingqiu \(only if you manually time their attack string, spam clicking won't work\)
-* Keqing
-* Rosaria
-* Xiao
-
-## Wood Daily Drop Limit
-
-**By:** Creonalia\#2818  
-**Added:** 5/21/2021  
-[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/842601710391787551/845506814519148574/transcript-2k-wood-daily-cap.html)
-
-**Finding:** You can only collect 2,000 of any specific wood per day. This limit resets at server reset and cannot be reset by relogging/teleporting.
-
-**Evidence:**
-
-* Inventory before and after farming wood over 3 days: [https://imgur.com/a/tNZP68q](https://imgur.com/a/tNZP68q)
-* Evidence that player cannot collect more bamboo, but can collect other wood: [https://youtu.be/f\_eQfp1FWLM](https://youtu.be/f_eQfp1FWLM) 
-* Same for pine wood: [https://youtu.be/yh4PodfeX7c](https://youtu.be/yh4PodfeX7c)
-* Hitting cap and testing teleport and logout/login \(and showing that neither reset the cap\): [https://youtu.be/pE-vHLpum6Q](https://youtu.be/pE-vHLpum6Q)
-* Collecting pine wood after server reset \(marked by new daily commission quest at 0:12\): [https://youtu.be/9WrYqapBFkU](https://youtu.be/9WrYqapBFkU) 
-
-Note that although I did need to teleport to get wood after reset, teleporting alone does not reset the cap, as shown above.
-
-**Significance:** Useful for players to know if they're farming a massive amount of wood.
-
-## Weekly BP Cap During Launch Week
-**By:** Mcpie#8672  
-**Added:** 1/10/2022  
-[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/928504588498272296/930045464001257522/transcript-weekly-bp-cap-during-launch-week.html)
-
-**Finding:** Reaching BP Weekly EXP limit during launch week requires sacrifices.  
-Possible sacrifices are:  
-* Spend a total of 500,000 Mora.
-  * It's easy to spend it if you're planning to level anything.
-* Purchase 2 items from the Teapot Traveling Salesman in another player's Serenitea Pot.
-  * Requires sacrificing possible resin gains from purchasing Mora/fodder/EXP for Realm Currency - it's 80 Realm Currency in order to reach it.
-* Use a total of 1200 Original Resin.
-  * Only NA is capable of doing this and not even by a huge margin - you can use up to 1237 resin assuming perfect server maintenance end and x2 Transient Resin.
-  * If you're not a hardcore player, you need to either make a refill with Primogems or utilize Fragile Resins.
-
-**Evidence:** 
-Sheet including options and calcs per server region: [Google Doc](https://docs.google.com/spreadsheets/d/1w3AzHkRcJPFLyonoEVQGJmNX4KCqfIewEH_1LQ55y4c)
-
-Note that **500,000 Mora** and **Purchase 2 item from the Teapot Traveling Salesman** have same value (450), which is the reason as to why there is no extra sheet for salesman / salesman + resin as same values are included in **500,000 Mora** sheets.
-
-**Significance:** People who wanted to reach BP Weekly EXP limit during launch week have to make additional sacrifices in order to do so.  
+Knowledge... and maybe a hint that all materials might be capped at 9999.  

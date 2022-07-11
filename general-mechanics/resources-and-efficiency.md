@@ -20,6 +20,7 @@ Blue \(XP\) leylines are more stardust-efficient than Gold \(Mora\) leylines.
 * NPC shops sell 12.6K artifact XP worth of 2* artifacts for 30K Mora.  
 * The mora cost of buying out the NPC shops is equal to 360 realm currency.  
 * NPC shop artifacts are more worth to buy than sanctifying essence.  
+* For a mathmatical analysis on the artifact rolling system, see the [artifact probability thesis](../evidence/general-mechanics/resources-and-efficiency.md#artifact-probability-thesis).
 
 ### Crafting refund vs increase passives
 
@@ -27,9 +28,29 @@ Eula and albedo's passive has a 10% chance to give more materials while Xingqiu 
 
 ### Realm Currency Exchange Rate
 
-The most Resin-efficient purchase order at the Realm Depot is to claim the Magic Enhancement Ores every week, then the Wits, and then the Mora \(assuming that the Traveler has already claimed the Transient Resin if they wish to\).
+#### Initial Analysis by Mateng\#4507
+[Vault Entry](../evidence/general-mechanics/resources-and-efficiency.md#realm-currency-exchange-rate-analysis)  
 
-For Travelers who wish to maximize Stardust and minimize Realm Currency: target Magic Enhancement Ores -&gt; EXP -&gt; Mora at Paimon's Bargains in the Shop. Inverse this priority \(Mora -&gt; EXP -&gt; Magic Enhancement Ores\) if Travelers wish to maximize Realm Currency and minimize Stardust.
+* 4 Wits / 1200 RC \(1 Wit = 120 RC\)
+* 100000 mora / 1200 RC \(1 mora = .012 RC\)
+* 20 MEOs / 1200 RC \(1 MEO = 60 RC\)
+* 60 resin / 1200 RC
+
+The most Resin-efficient purchase order at the Realm Depot is to claim the Magic Enhancement Ores every week, then the Wits, and then the Mora \(assuming that the Traveler has already claimed the Transient Resin if they wish to\).  
+
+For Travelers who wish to maximize Stardust and minimize Realm Currency: target Magic Enhancement Ores -&gt; EXP -&gt; Mora at Paimon's Bargains in the Shop. Inverse this priority \(Mora -&gt; EXP -&gt; Magic Enhancement Ores\) if Travelers wish to maximize Realm Currency and minimize Stardust.  
+
+#### Extended Analysis by chowr\#0522
+[Vault Entry](../evidence/general-mechanics/resources-and-efficiency.md#realm-currency-extended-analysis)  
+
+* XP Book: 0.0272 Resin/RC \(Resin per RC\)
+* MEO: 0.0278 Resin/RC
+* Mora: 0.0278 Resin/RC
+* Artifact XP \(Small\): 0.0376 Resin/RC
+* Artifact XP \(Large\): 0.0376 Resin/RC
+* Transient Resin: 0.05 Resin/RC
+
+Buying out both of the Artifact XP options allows the player to essentially receive a full day's worth of resin from their Realm Shop, should they purchase all of the artifact XP tinctures, as well as the Transient Resin. It is entirely possible to do this, as the total cost comes out to 4800 RC, and the highest possible expediture each week is 5040 RC.  
 
 ### Battle Pass Resin Value
 
@@ -95,7 +116,10 @@ Certain material items can be destroyed, but they don't give anything when destr
 * Crabs that you approach and fail to pick up will respawn after leaving their render distances and coming back.
 * There exists an investigation daily limit of 100. After that, you cannot "investigate" to pick up items anymore. This limit resets at daily reset.
   * It is possible to go beyond this number by not leaving the rendered zone after picking up the 100th investigation spot.
+  * As of Patch 2.5, the theoretical maximum is 184 investigation spots. For more information, see this [Vault Entry](../evidence/general-mechanics/resources-and-efficiency.md#multiple-artifact-clusters-after-100).
 * There is a random event daily limit of 10. After that, you receive no reward when completing random events that day.
+* The inventory cap for Crystal Chunks is 9999, but players can overcap and reach 10006 by claiming Crystal Chunks as an Expedition reward, with 9998 already in their inventory.
+* The inventory cap for berries is also 9999, it's very likely that all resources cap at 9999.
 
 ### Artifact Drop Spots
 There are two types of artifact spots:  
@@ -155,7 +179,11 @@ Details: [Google Doc](https://docs.google.com/spreadsheets/d/1Q4HKzkaw7YFNZyIJSj
 
 ### Tree Chopping Memory Mechanics
 
-The game can only remember the 10 most recently-struck trees at a time. After the 11th tree is hit, the 1st tree's state is wiped from the memory and can be harvested again. However, if a previously harvested tree is struck again **BEFORE** this, it will be moved back into the sequence as the most recently updated item. Partial harvests also count the same as full harvest or re-harvest.
+The game can only remember the 10 most recently-struck trees at a time. After the 11th tree is hit, the 1st tree's state is wiped from the memory and can be harvested again. However, if a previously harvested tree is struck again **BEFORE** this, it will be moved back into the sequence as the most recently updated item. Partial harvests also count the same as full harvest or re-harvest. Tree types that have been capped still contribute to the chopping memory, allowing for very unbalanced hybrid routes (like 1 cuihua to 10 cedar) to function even if one of the types have been capped.
+
+### Elemental Infusion Hampers Wood Cutting
+
+Elemental infusions will generally prevent chopping wood with normal attacks.
 
 ### Unholy Harvesting Methods
 

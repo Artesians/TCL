@@ -9,6 +9,14 @@
   * North of the Dragonspine Adventurer's Guild Camp (1 Rock): [Imgur](https://imgur.com/i7qX6Uq)
   * Cape Oath (2 groups of 4 Rocks each): [Imgur](https://imgur.com/EDNub8V) [Imgur](https://imgur.com/YuxAlNR)
 
+## Weird Blue Rocks
+
+### Basic Mechanics and Known Locations
+* A known cousin of the rock, these 2 blue rocks can be found in Enkanomiya, can be burned away with Pyro, do not respawn, and can absorb Cryo.
+* The current known locations for these rocks:
+  * Inside small square building behind Vishap Research Lab (2 rocks) 
+    *  [Map](https://imgur.com/a/WuQ1heh)   
+    *  [View](https://imgur.com/a/7wtHwnu)  
 ## Serenitea Pot
 
 ### Teapot Dog Abuse
@@ -82,25 +90,31 @@ Maps:
 * [Cannons](https://raw.githubusercontent.com/mcpie87/gi-artifacts/master/cannon-guide.jpg) (by Miin from Hoyolab).  
 It is advised to leave Tatarasuna for last due to the [investigation spot daily limit](../general-mechanics/resources-and-efficiency.md#overworld-farming).
 
-## Zone Levels:
+## Zone Levels
 
 The overworld map is split into multiple zones that affect enemy level and environmental reactions. There are "no level" zones which take on the level of the previous zone visited. 
-* [Teyvat](https://photos.google.com/share/AF1QipPGs6r8qfWVNVXlU7HwyFarhqqp1LACnDrB9Wp_qbfMP8VzZaInS7IK7zY4kJcUxg?key=TGFVX2hzUUoxQXdwd1g5WWY3SThCdTdCTkItVDJ3) 
-* [Mondstadt](https://photos.google.com/share/AF1QipNH_MBr8Dfh3fzm6_x4lQqb0bdzrV7tWi6JHaJlnwCElh7v5X4zIiLYp6_DHR5MBA?key=bTlnQXFPdDhLQlhsbDBlSEpVN2R3dWRJdjEtdnFB)  
-* [Liyue](https://photos.google.com/share/AF1QipPLmV3Pt5S9suJQSMm4rK6eVhIerzuS6VEMQmdlZJpI8IUMPjNM4FEeHvaG4BiJeA?key=eG1FUE82Mk92TUtxbUt2STUzNVlnbDdUYTQwUFJR)  
-* [Inazuma](https://photos.google.com/share/AF1QipO_e3CL7arfSKBptsr_IU5oLM6Bm73AukEONaqJ6Hazq95z7dENxRKpBall0_tsKA/photo/AF1QipO25Gcl-MjRfeYd7HSBbc5LBv3bllpEZUwjP3v3?key=cG1Ca25iRmtac0RtT0wtYk1laFRDbUMtOW0tTEhR)  
+* [Teyvat](https://photos.app.goo.gl/drcNqTHVym7Qvuvn9) 
+* [Mondstadt](https://photos.app.goo.gl/W3rm94eqxxaQBq4X6)  
+* [Liyue](https://photos.app.goo.gl/EjnAVMGtMHB6JHyz8)  
+* [The Chasm Underground](https://photos.app.goo.gl/9jAm8s5kKAJqQ5Na6)
+* [Inazuma](https://photos.app.goo.gl/6MJPiMXCELiiUTav6)  
 * [Enkanomiya](https://photos.app.goo.gl/PY1xLqPy8LKFJibC7)
+
+Some constructs take zone level damage, a list of those that have been documented can be found [here.](../evidence/general-mechanics/overworld.md#constructs-take-zone-level-damage)  
+
+Zone level damage is based on the players current location, not the location of whatever is [taking damage.](../evidence/general-mechanics/overworld.md#zone-level-damage-is-based-on-player-location)
 
 ## Artifacts
 
-- 4TF and 4CW set bonuses towards Overload and Superconduct do not apply to reactions involving objects or elementally modified terrain such as electrified and frozen water.
+* 4TF and 4CW set bonuses towards Overload and Superconduct do not apply to reactions involving objects or elementally modified terrain such as electrified and frozen water.
 
 ## Cursed Terrain 
 
-- The 1.6 EM buffs didn't increase the reaction damage caused by environmental sources, such as electro crystals.
-- Overworld entities like grass, water, flowers, and crystals have levels, and do damage depending on those levels.
-  - Flower stamens deal damage based on a static, pre-determined level assigned to them.
-  - Grass levels are dynamic and change under currently unknown circumstances.
+* The 1.6 EM buffs didn't increase the reaction damage caused by environmental sources, such as electro crystals.
+* Overworld entities like grass, water, flowers, and crystals have levels, and do damage depending on those levels.
+  * Flower stamens deal damage based on a static, pre-determined level assigned to them.
+  * Grass levels are dynamic and change under currently unknown circumstances.
+* When landing on the side of certain pillars in Enkanomiya, you will not take fall damage.
 
 ### Electro Crystals
 
@@ -118,6 +132,7 @@ The overworld map is split into multiple zones that affect enemy level and envir
 - Applying electro to water does not produce electro-charged, instead it creates an instance of Electrified.  
   - Some fountains and pools of water cannot create an instance of Electrified.
 - Overworld water applies hydro with an ICD of 0.25 seconds, a strength of 10 durability per tick, up to a max of 50, and a duration of 8 seconds, regardless of durability.
+- Not all graphically represented water in waterfalls will apply the Wet status to the active character. See this [Vault Entry](../evidence/general-mechanics/overworld.md#not-all-falls-water-is-false-water) for a complete map.
 
 ### Rain  
 
@@ -191,6 +206,41 @@ Interactions with the Thunder Fog in The Thundering Wilds daily commission.
 
 ## Stuff Can Infuse Cryo
 The Cryo element is able to be applied to many overworld objects, such as ores and animals. Additionally, it has been demonstrated that some overworld objects can hold cryo without said cryo being visible through elemental sight.
+
+## Electro Seelie Electro Application 
+
+* Electro seelie when on a mount, can apply electro at any vertical range, but not when it has yet to reach its final destination. [Vault Entry](../evidence/general-mechanics/overworld.md#electro-seelie-electro-application-vertical-range)
+
+## Phase Gates
+* During Daily Commissions, Phase Gates will be invisible but can still be used.
+
+## Flying Anemo Slimes
+
+* Flying Anemo Slimes and Bloaty Floaty bubbles have hitboxes that can move characters.
+
+## Map Boundries
+
+* After reaching a certain height in locations of The Chasm, Paimon will say [some lines](../evidence/general-mechanics/overworld.md#paimon-hates-climbing). Usually these are triggered when you try climbing up to a light source.  
+
+## Fishing Spots
+
+*  It is possible to view the prompt \(but not catch fish\) from far above and below the fishing spot.
+    * In addition to this, it is possible to catch fish from underwater.
+
+## Spoutrocks
+
+Regardless of the height difference, no fall damage will be taken after jumping from a spoutrock unless you:  
+* Glide 
+* Roll off a cliff \(counts as landing, you don't take damage for roll but the next landing won't be soft\) 
+* Use mid-air skills e. g. Xiao
+* Plunge \(normal reduced fall damage for plunge, capped at 40% max HP\)
+
+##  Eagles
+
+* Eagles can get stuck on terrain. Unlike other animals they do not have collision with players. They can be hit by melee attacks and at short range they attract auto\-aim.  
+
+## Highest Places in Teyvat
+* Some places in Teyvat are [high](../evidence/general-mechanics/overworld.md#highest-places-in-teyvat). Such as the hidden library in Enkanomiya having the highest Y-coordinate, followed up by the Dragonspine Skyfrost.
 
 ## Evidence Vault
 

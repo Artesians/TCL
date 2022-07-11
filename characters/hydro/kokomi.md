@@ -31,12 +31,14 @@ description: The Divine Priestess of Watatsumi Island. All of the island's affai
 **Normal Attacks**  
 Performs up to 3 consecutive attacks that take the form of swimming fish, dealing Hydro DMG.
 
-| String | Talent 6% | Frames | MV/s | GU |
-| :--- | :--- | :--- | :--- | :--- |
-| 1-Hit | 95.73% | 10 | 574.38%/s | 1A |
-| 2-Hit | 86.15% | 36 | 303.13%/s | 1A |
-| 3-Hit | 132.03% | 82 | 229.69%/s | 1A |
-| With Recovery | ~ | 122 | 154.38%/s | ~ |
+| String | Talent 9% | Frames | MV/s | GU | Poise Damage | Impulse Type |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 1-Hit | 116.24% | 10 | 697.44%/s | 1A | 12.82 | 1 / 3\* |
+| 2-Hit | 104.62% | 36 | 368.1%/s | 1A | 11.53 | 1 / 3\* |
+| 3-Hit | 160.32% | 82 | 278.65%/s | 1A | 17.68 | 1 / 3\* |
+| With Recovery | - | 122 | 141.8%/s | - | - | - |
+
+\* During her Elemental Burst, **Ceremonial Garment**.
 
 * Kokomi's Normal Attacks...
   * Apply hydro and share a 3 hit / 2.5s ICD.
@@ -47,20 +49,22 @@ Performs up to 3 consecutive attacks that take the form of swimming fish, dealin
 **Charged Attack**  
 Consumes 50 Stamina to deal AoE Hydro DMG after a short casting time.
 
-| String | Talent 6% | Frames | MV/s | GU |
-| :--- | :--- | :--- | :--- | :--- |
-| Charged Attack DMG | 207.65% | 45 | 276.87% | 1A |
+| String | Talent 9% | Frames | MV/s | GU | Poise Damage | Impulse Type |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Charged Attack DMG | 252.14% | 45 | 336.19% | 1A | 100 | 1 / Air, 0, 600\* |
+
+\* During her Elemental Burst, **Ceremonial Garment**.
 
 * Kokomi's Charged Attack applies hydro and has no ICD.
 
 **Plunge Attack**  
 Gathering the might of Hydro, Kokomi plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Hydro DMG upon impact with the ground.
 
-| Type | Talent 6% | GU |
-| :--- | :--- | :--- |
-| Plunge DMG | 82.6% | ~ |
-| Low Plunge DMG | 165.17% | 1A |
-| High Plunge DMG | 206.3% | 1A |
+| Type | Talent 9% | GU | Poise Damage | Impulse Type |
+| :--- | :--- | :--- | :--- | :--- |
+| Plunge DMG | 104.41% | - | 5 | 2 |
+| Low Plunge DMG | 208.77% | 1A | 50 | 3 |
+| High Plunge DMG | 260.76% | 1A | 100 | 4 |
 
 * Kokomi's Low/High Plunge Attacks apply hydro and have no ICD.
 
@@ -73,7 +77,7 @@ Deals Hydro DMG to surrounding opponents and heal nearby active characters once 
 
 | Attribute | Skill |
 | :--- | :--- |
-| Ripple DMG \(T6%\) | 152.87% |
+| Ripple DMG \(T9%\) | 185.62% |
 | Particles | 0~1 (1:2) |
 | Frames | 66 (51 with Dash Cancel) |
 | GU | 1A |
@@ -81,20 +85,24 @@ Deals Hydro DMG to surrounding opponents and heal nearby active characters once 
 | Snapshot | Snapshot |
 | Damage Element | Hydro |
 | Damage Type | Skill |
-| HP Regen \(T6%\) | 6.16% Max HP + 671 |
+| HP Regen \(T9%\) | 7.48% Max HP + 862 |
 | Duration | 12s |
 | Tick Rate | 2s |
 | Cooldown | 20s |
+| Poise Damage | 50 / 100\* |
+| Impulse Type | 1  |
+
+\* During her Elemental Burst, **Ceremonial Garment**.
 
 **Notes**
 * Does a 0~1 (1:2) check once on every instance of damage **Bake-Kurage** does as long as it stays on the field.
   * If **Bake-Kurage** disappears before its final tick hits an enemy, the game will not check for particle production on that hit.
 * **Bake-Kurage**'s range has a radius of ~2.5 tiles.
 * Kokomi is limited to one **Bake-Kurage** on-field at a time.
-* **Bake-Kurage** snapshots on **Kurage's Oath** cast and gets resnapshot upon **Nereid's Ascension** procing the duration refresh effect from her Ascension 1.
+* **Bake-Kurage** snapshots on **Kurage's Oath** cast and does not resnapshot upon **Nereid's Ascension** triggering the duration refresh effect from her Ascension 1.
 * In most cases, the damage bonus from **Ceremonial Garment** is a dynamic stat and thus does not get snapshot by **Bake-Kurage**. However, if Kokomi immediately switches after casting **Kurage's Oath**, the damage bonus from **Ceremonial Garment** is snapshot by **Bake-Kurage**.
 * Casting **Kurage's Oath**, even when interrupted, will still trigger Artifact set effects that trigger on Elemental Skill cast.
-
+* Tech: It is possible to snapshot the damage bonus from **Nereid's Ascension** for **Bake-Kurage** by casting E, being in Q, and swapping off before the first tick of the E. Using a simple application of this, it is possible to maintain 100% uptime on the Q bonus for E just by timing your rotations.
 {% endtab %}
 {% tab title="Nereid&apos;s Ascension" %}
 The might of Watatsumi descends, dealing Hydro DMG to surrounding opponents, before robing Kokomi in a **Ceremonial Garment** made from the flowing waters of Sangonomiya. 
@@ -108,8 +116,10 @@ These effects will be cleared once Sangonomiya Kokomi leaves the field.
 
 | Attribute | Burst |
 | :--- | :--- |
-| Skill DMG \(T6%\) | 14.58% Max HP |
-| Frames | 75 |
+| Skill DMG \(T9%\) | 17.71% Max HP |
+| Cast Frames | 75 |
+| Energy Frame | 57|
+| CD Frame | 48 |
 | GU | 2B |
 | ICD | None |
 | Snapshot | Snapshot |
@@ -117,13 +127,15 @@ These effects will be cleared once Sangonomiya Kokomi leaves the field.
 | Damage Type | Burst |
 | Energy Cost | 70 |
 | Cooldown | 18s |
+| Poise Damage | 250 |
+| Impulse Type | 3 |
 
-| Attribute | Buff (Talent 6%) |
+| Attribute | Buff (Talent 9%) |
 | :--- | :--- |
-| Normal Attack DMG Bonus | 6.78% Max HP |
-| Charged Attack DMG Bonus | 9.49% Max HP |
-| HP Regen Per Hit | 1.13% Max HP + 122 |
-| Bake-Kurage DMG Bonus | 9.93% Max HP |
+| Normal Attack DMG Bonus | 8.23% Max HP |
+| Charged Attack DMG Bonus | 11.52% Max HP |
+| HP Regen Per Hit | 1.37% Max HP + 157 |
+| Bake-Kurage DMG Bonus | 12.06% Max HP |
 | Duration | 10s |
 
 **Notes**
@@ -139,8 +151,8 @@ These effects will be cleared once Sangonomiya Kokomi leaves the field.
 {% tab title="Passive 1" %}
 ### **Princess of Watatsumi**
 
-Decreases swimming Stamina consumption for your own party members by 20%. Not stackable with Passive Talents that provide the exact same effects.
-
+Decreases swimming Stamina consumption for your own party members by 20%.
+Not stackable with Passive Talents that provide the exact same effects.
 {% endtab %}
 {% tab title="Passive 2" %}
 ### **Flawless Stategy**
@@ -154,8 +166,10 @@ Sangonomiya Kokomi has a 25% Healing Bonus, but a 100% decrease in CRIT Rate.
 If Sangonomiya Kokomi's own **Bake-Kurage** is on the field when she uses **Nereid's Ascension**, the **Bake-Kurage**'s duration will be refreshed.
 
 * The **Bake-Kurage** Duration refresh from A1 does not refresh Heart of Depths 4pc passive, because it does not count as a "using an Elemental Skill"
+* The actual refresh timing requires the **Bake-Kurage** to be on field the frame her burst animation finishes, or else you will lose the refresh.
 
 {% endtab %}
+
 {% tab title="Ascension 4" %}
 ### **Song of Pearls**
 
@@ -172,7 +186,8 @@ While donning the **Ceremonial Garment** created by **Nereid's Ascension**, the 
 {% tab title="C1" %}
 ### **At Water's Edge**
 
-While donning the **Ceremonial Garment** created by **Nereid's Ascension**, the final Normal Attack in Sangonomiya Kokomi's combo will unleash a **Swimming Fish** to deal 30% of her Max HP as Hydro DMG. This DMG is not considered Normal Attack DMG.
+While donning the **Ceremonial Garment** created by **Nereid's Ascension**, the final Normal Attack in Sangonomiya Kokomi's combo will unleash a **swimming fish** to deal 30% of her Max HP as **Hydro DMG**.
+This DMG is not considered Normal Attack DMG.
 
 * The **Swimming Fish** from **At Water's Edge** does not have ICD and isn't shared with her Normal Attack string.
 
@@ -181,36 +196,43 @@ While donning the **Ceremonial Garment** created by **Nereid's Ascension**, the 
 {% tab title="C2" %}
 ### **The Clouds Like Waves Rippling**
 
-Sangonomiya Kokomi gains the following Healing Bonuses with regard to characters with 50% or less HP via the following methods: 
+Sangonomiya Kokomi gains the following Healing Bonuses with regard to characters with 50% or less HP via the following methods:
 * **Kurage's Oath Bake-Kurage**: 4.5% of Kokomi's Max HP.
 * **Nereid's Ascension** Normal and Charged Attacks: 0.6% of Kokomi's Max HP.
+
+* This effect is considered flat healing, it is not applied to the heal bonus part of calculations.
 
 {% endtab %}
 
 {% tab title="C3" %}
 ### **The Moon, A Ship O'er the Seas**
 
-Increases the Level of **Nereid's Ascension** by 3.  
+Increases the Level of **Nereid's Ascension** by 3.
 Maximum upgrade level is 15.
+
 {% endtab %}
 
 {% tab title="C4" %}
 ### **The Moon Overlooks the Waters**
 
-While donning the **Ceremonial Garment** created by **Nereid's Ascension**, Sangonomiya Kokomi's Normal Attack SPD is increased by 10%, and Normal Attacks that hit opponents will restore 0.8 Energy for her. This effect can occur once every 0.2s.
+While donning the **Ceremonial Garment** created by **Nereid's Ascension**, Sangonomiya Kokomi's Normal Attack SPD is increased by 10%, and Normal Attacks that hit opponents will restore 0.8 Energy for her.
+This effect can occur once every 0.2s.
+
 {% endtab %}
 
 {% tab title="C5" %}
 ### **All Streams Flow to the Sea**
 
-Increases the Level of **Kurage's Oath** by 3.  
+Increases the Level of **Kurage's Oath** by 3.
 Maximum upgrade level is 15.
+
 {% endtab %}
 
 {% tab title="C6" %}
 ### **Sango Isshin**
 
-While donning the **Ceremonial Garment** created by **Nereid's Ascension**, Sangonomiya Kokomi gains a 40% Hydro DMG Bonus for 4s after her Normal and Charged Attacks heal a character with 80% or more HP.
+While donning the **Ceremonial Garment** created by **Nereid's Ascension**, Sangonomiya Kokomi gains a 40% **Hydro DMG Bonus** for 4s when her Normal and Charged Attacks heal, or would heal, any party member with 80% or more HP.
+
 {% endtab %}
 {% endtabs %}
 
@@ -220,53 +242,56 @@ While donning the **Ceremonial Garment** created by **Nereid's Ascension**, Sang
 {% tab title="The Shape of Water" %}
 ### Normal Attacks
 
-|  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1-Hit DMG | 95.73% | 102.56% | 109.4% | 116.24% | 123.08% | 129.91% |
-| 2-Hit DMG | 86.15% | 92.31% | 98.46% | 104.62% | 110.77% | 116.92% |
-| 3-Hit DMG | 132.03% | 141.46% | 150.89% | 160.32% | 169.75% | 179.18% |
+|  | Lv1 | Lv2 | Lv3 | Lv4 | Lv5 | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 1-Hit DMG | 68.38% | 73.50% | 78.63% | 85.47% | 90.60% | 95.73% | 102.56% | 109.40% | 116.24% | 123.08% | 129.91% |
+| 2-Hit DMG | 61.54% | 66.15% | 70.77% | 76.92% | 81.54% | 86.15% | 92.31% | 98.46% | 104.62% | 110.77% | 116.92% |
+| 3-Hit DMG | 94.31% | 101.38% | 108.45% | 117.88% | 124.95% | 132.03% | 141.46% | 150.89% | 160.32% | 169.75% | 179.18% |
 
 ### Charged Attack
 
-|  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Charged Attack DMG | 207.65% | 222.48% | 237.31% | 252.14% | 266.98% | 281.81% |
+|  | Lv1 | Lv2 | Lv3 | Lv4 | Lv5 | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Charged Attack DMG | 148.32% | 159.44% | 170.57% | 185.40% | 196.52% | 207.65% | 222.48% | 237.31% | 252.14% | 266.98% | 281.81% |
 
-**Stamina Cost:**  50
+**Stamina Cost**: 50
 
-### Plunge 
+### Plunge
 
-|  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Plunge DMG | 82.6% | 89.87% | 97.14% | 104.41% | 112.34% | 120.27% |
-| Low Plunge DMG | 165.17% | 179.7% | 194.23% | 208.77% | 224.62% | 240.48% |
-| High Plunge DMG | 206.3% | 224.45% | 242.61% | 260.76% | 280.57% | 300.37% |
+|  | Lv1 | Lv2 | Lv3 | Lv4 | Lv5 | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Plunge DMG | 56.83% | 61.45% | 66.08% | 72.69% | 77.31% | 82.60% | 89.87% | 97.14% | 104.41% | 112.34% | 120.27% |
+| Low Plunge DMG | 113.63% | 122.88% | 132.13% | 145.35% | 154.59% | 165.16% | 179.70% | 194.23% | 208.77% | 224.62% | 240.48% |
+| High Plunge DMG | 141.93% | 153.49% | 165.04% | 181.54% | 193.10% | 206.30% | 224.45% | 242.61% | 260.76% | 280.57% | 300.37% |
+
 {% endtab %}
 
 {% tab title="Kurage&apos;s Oath" %}
 
-|  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 | Lv12 | Lv13 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Ripple DMG | 152.87% | 163.79% | 174.7% | 185.62% | 196.54% | 207.46% | 218.38% | 232.03% |
-| HP Regen | 6.16% Max HP + 671 | 6.6% Max HP + 731 | 7.04% Max HP + 795 | 7.48% Max HP + 862 | 7.92% Max HP + 932 | 8.36% Max HP + 1006 | 8.8% Max HP + 1084 | 9.35% Max HP + 1165 |
+|  | Lv1 | Lv2 | Lv3 | Lv4 | Lv5 | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 | Lv12 | Lv13 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Ripple DMG | 109.19% | 117.38% | 125.57% | 136.49% | 144.68% | 152.87% | 163.79% | 174.70% | 185.62% | 196.54% | 207.46% | 218.38% | 232.03% |
+| Regeneration | 4.40% Max HP+424 | 4.73% Max HP+466 | 5.06% Max HP+512 | 5.50% Max HP+561 | 5.83% Max HP+614 | 6.16% Max HP+671 | 6.60% Max HP+731 | 7.04% Max HP+795 | 7.48% Max HP+862 | 7.92% Max HP+932 | 8.36% Max HP+1006 | 8.80% Max HP+1084 | 9.35% Max HP+1165 |
 
-**Duration:**  12s  
-**Cooldown:**  20s
+**Duration**: 12s  
+**Cooldown**: 20s
+
 {% endtab %}
 
 {% tab title="Nereid&apos;s Ascension" %}
 
-|  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 | Lv12 | Lv13 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Skill DMG | 14.58% Max HP | 15.62% Max HP | 16.67% Max HP | 17.71% Max HP | 18.75% Max HP | 19.79% Max HP | 20.83% Max HP | 22.13% Max HP |
-| Normal Attack DMG Bonus | 6.78% Max HP | 7.26% Max HP | 7.74% Max HP | 8.23% Max HP | 8.71% Max HP | 9.2% Max HP | 9.68% Max HP | 10.29% Max HP |
-| Charged Attack DMG Bonus | 9.49% Max HP | 10.16% Max HP | 10.84% Max HP | 11.52% Max HP | 12.2% Max HP | 12.87% Max HP | 13.55% Max HP | 14.4% Max HP |
-| Bake-Kurage DMG Bonus | 9.93% Max HP | 10.64% Max HP | 11.35% Max HP | 12.06% Max HP | 12.77% Max HP | 13.48% Max HP | 14.19% Max HP | 15.08% Max HP |
-| HP Regeneration Per Hit | 1.13% Max HP + 122 | 1.21% Max HP + 133 | 1.29% Max HP + 144 | 1.37% Max HP + 157 | 1.45% Max HP + 169 | 1.54% Max HP + 183 | 1.62% Max HP + 197 | 1.72% Max HP + 212 |
+|  | Lv1 | Lv2 | Lv3 | Lv4 | Lv5 | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 | Lv12 | Lv13 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Skill DMG | 10.42% Max HP | 11.20% Max HP | 11.98% Max HP | 13.02% Max HP | 13.80% Max HP | 14.58% Max HP | 15.62% Max HP | 16.67% Max HP | 17.71% Max HP | 18.75% Max HP | 19.79% Max HP | 20.83% Max HP | 22.13% Max HP |
+| Normal Attack DMG Bonus | 4.84% Max HP | 5.20% Max HP | 5.57% Max HP | 6.05% Max HP | 6.41% Max HP | 6.78% Max HP | 7.26% Max HP | 7.74% Max HP | 8.23% Max HP | 8.71% Max HP | 9.20% Max HP | 9.68% Max HP | 10.28% Max HP |
+| Charged Attack DMG Bonus | 6.78% Max HP | 7.28% Max HP | 7.79% Max HP | 8.47% Max HP | 8.98% Max HP | 9.49% Max HP | 10.16% Max HP | 10.84% Max HP | 11.52% Max HP | 12.20% Max HP | 12.87% Max HP | 13.55% Max HP | 14.40% Max HP |
+| Bake-Kurage DMG Bonus | 7.10% Max HP | 7.63% Max HP | 8.16% Max HP | 8.87% Max HP | 9.40% Max HP | 9.93% Max HP | 10.64% Max HP | 11.35% Max HP | 12.06% Max HP | 12.77% Max HP | 13.48% Max HP | 14.19% Max HP | 15.08% Max HP |
+| HP Regeneration Per Hit | 0.81% Max HP+77 | 0.87% Max HP+85 | 0.93% Max HP+93 | 1.01% Max HP+102 | 1.07% Max HP+112 | 1.13% Max HP+122 | 1.21% Max HP+133 | 1.29% Max HP+144 | 1.37% Max HP+157 | 1.45% Max HP+169 | 1.54% Max HP+183 | 1.62% Max HP+197 | 1.72% Max HP+212 |
 
-**Duration:**  10s  
-**Cooldown:**  18s  
-**Energy Cost:**  70  
+**Duration**: 10s  
+**Cooldown**: 18s  
+**Energy Cost**: 70
+
 {% endtab %}
 {% endtabs %}
 

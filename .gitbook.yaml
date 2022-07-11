@@ -10,6 +10,7 @@ redirects:
   sayu: ./characters/anemo/sayu.md
   sucrose: ./characters/anemo/sucrose.md
   traveler-anemo: ./characters/anemo/traveler-anemo.md
+  amc: ./characters/anemo/traveler-anemo.md
   venti: ./characters/anemo/venti.md
   xiao: ./characters/anemo/xiao.md
   aloy: ./characters/cryo/aloy.md
@@ -29,21 +30,30 @@ redirects:
   raiden: ./characters/electro/raiden.md
   razor: ./characters/electro/razor.md
   sara: ./characters/electro/sara.md
+  shinobu: ./characters/electro/shinobu.md
+  kuki: ./characters/electro/shinobu.md
+  kuki-shinobu: ./characters/electro/shinobu.md
   traveler-electro: ./characters/electro/traveler-electro.md
+  emc: ./characters/electro/traveler-electro.md
+  yae-miko: ./characters/electro/yae-miko.md
+  yae: ./characters/electro/yae-miko.md
   albedo: ./characters/geo/albedo.md
   gorou: ./characters/geo/gorou.md
   itto: ./characters/geo/itto.md
   ningguang: ./characters/geo/ningguang.md
   noelle: ./characters/geo/noelle.md
   traveler-geo: ./characters/geo/traveler-geo.md
+  gmc: ./characters/geo/traveler-geo.md
   yunjin: ./characters/geo/yunjin.md
   zhongli: ./characters/geo/zhongli.md
+  ayato: ./characters/hydro/ayato.md
   barbara: ./characters/hydro/barbara.md
   kokomi: ./characters/hydro/kokomi.md
   mona: ./characters/hydro/mona.md
   tartaglia: ./characters/hydro/tartaglia.md
   childe: ./characters/hydro/tartaglia.md
   xingqiu: ./characters/hydro/xingqiu.md
+  yelan: ./characters/hydro/yelan.md
   amber: ./characters/pyro/amber.md
   bennett: ./characters/pyro/bennett.md
   diluc: ./characters/pyro/diluc.md
@@ -58,4 +68,6 @@ redirects:
   damage: ./combat-mechanics/damage/damage-formula.md
   egt: ./combat-mechanics/elemental-effects/elemental-gauge-theory.md
   srp: ./combat-mechanics/elemental-effects/simultaneous-reaction-priority.md
+  common-terms: theorycrafting.md
+  newsletter: ./newsletter/patch-2.7.md
   

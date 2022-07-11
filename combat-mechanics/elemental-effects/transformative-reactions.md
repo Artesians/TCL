@@ -33,25 +33,37 @@ LevelMultiplier \approx &
 \end{align}
 $$
 
-Transformative reactions cannot crit and scale only on Elemental Mastery and character level. They are effected by elemental resistance to the type of damage the reaction deals.
+| Reaction | Type | Poise Damage | Impulse Type |
+| :--- | :--- | :--- | :--- |
+| Burning | AoE \(1 meter\) | 30 | 0 |
+| Electro-Charged | Direct Damage \(Main Target\) | 130 | 2 |
+| Electro-Charged | Direct Damage \(Secondary Ticks) | 130 | 2 |
+| Frozen | Duration Ends | 30 | 2 |
+| Overloaded | AoE \(5 meters\) | 90 | 5 |
+| Superconduct | AoE \(5 meters\) | 30 | Heavy, 240, 300 |
+| Shattered | Direct Damage | 30 | 3 |
+| Swirl | Direct Damage | 130 | 1 |
+| Swirl | AoE \(6 meters\) | 30 | 1 |
+
+Transformative Reactions cannot crit and scale only on Elemental Mastery and character level. They are effected by Elemental Resistance to the type of damage the Reaction deals.
 
 Shatter, Superconduct, and Swirl have internal cooldowns and can only deal damage twice within the span of 0.5 seconds. Overload can only deal damage once every 0.5 seconds.
 
-## **Overload**
+## Overloaded
 
-Overload is an elemental reaction triggered by applying Pyro on a target already afflicted by an Electro aura or vice versa. Overload will cause an explosion of Pyro damage to occur that will destroy Geo shields quickly. Triggering Overload in an AoE will only cause one instance of Overload damage.
+Overloaded, also known as Overload, is an elemental reaction triggered by applying Pyro on a target already afflicted by an Electro aura or vice versa. Overload will cause an explosion of Pyro damage to occur that will destroy Geo shields quickly. Triggering Overload in an AoE will only cause one instance of Overload damage.
 
 * You can trigger Overload on electrocuted bodies of water.
 
 Overload has a reaction specific ICD of 0.5 sec where enemies overloaded or hit by the aoe caused by an overload procced by one character are then immune to the damage caused by overload procced by that character for 0.5 seconds. They still suffer gauge reduction and stagger, even without taking damage.
 
-## **Superconduct**
+## Superconduct
 
-Superconduct is an elemental reaction triggered by applying Electro on a target already afflicted by a Cryo aura or vice versa. Superconduct **reduces an enemy's physical damage resistance by 40% by 12 seconds**. Triggering Superconduct in an AoE will only cause one instance of Superconduct damage.
+Superconduct is an elemental reaction triggered by applying Electro on a target already afflicted by a Cryo aura or vice versa, dealing Cryo damage. Superconduct **reduces an enemy's physical damage resistance by 40% by 12 seconds**. Triggering Superconduct in an AoE will result in two instances of Superconduct DMG on each enemy. It has an ICD of 0.5s, where the same enemy will take no more than 2 instances of Superconduct DMG within 0.5s. Despite what TikTok may tell you, Superconduct does not lower Cryo or Electro damage taken.
 
 ## Electro-Charged
 
-Electro-Charged is a special Transformative reaction that breaks the normal convention of “one elemental aura on an enemy at a time." When an enemy is Electro-Charged, both the Hydro and Electro aura lies underneath the Electro-Charged status. It follows that when applying a third element, like Pyro, you can trigger **both** Vaporize and Overload in the same damage instance. Electro-Charged continues to tick every second until there is 0.5 seconds worth of Electro and Hydro aura remaining. For a more detailed description of Electro-Charged, refer to the [Evidence Vault.](../../evidence/combat-mechanics/elemental-effects/transformative-reactions.md#electrocharged)
+Electro-Charged is a special Transformative reaction that deals Electro damage and breaks the normal convention of “one elemental aura on an enemy at a time". When an enemy is Electro-Charged, both the Hydro and Electro aura lies underneath the Electro-Charged status. It follows that when applying a third element, like Pyro, you can trigger **both** Vaporize and Overload in the same damage instance. Electro-Charged continues to tick every second until there is 0.5 seconds worth of Electro and Hydro aura remaining. For a more detailed description of Electro-Charged, refer to the [Evidence Vault.](../../evidence/combat-mechanics/elemental-effects/transformative-reactions.md#electrocharged)
 
 * Electro-Charged duration can be extended by hitlag, presumably by extending the aura duration.
   * With an excessive amount of Hydro application and a lot of hitlag, 4 Electro-Charged procs are possible with only one application of Electro.
@@ -69,15 +81,19 @@ Electro-Charged is a special Transformative reaction that breaks the normal conv
 * Electro-Charged ticks only consumes Hydro and Electro gauge when both Hydro and Electro are present.
 * Electro-Charged ticks only remove gauge when they deal damage. Both gauges will still decay naturally over time though, with or without damage.
 * 0 gauge Electro attacks don't change Electro-Charged ownership.
+* As of patch 2.5, there is a bug when using Electro as the trigger. The Electro aura will not persist after the Electro-Charged ticks, even when the Electro gauge is greater than the Hydro gauge. Refer to the [Evidence Vault](/evidence/combat-mechanics/elemental-effects/transformative-reactions.md#ec-hydro-aura-electro-trigger-interaction-is-bugged) for more details.
+* When applying Electro-Charged on enemies already affected by the same reaction, effects that are triggered on-reaction will be triggered.
 
 ## Shatter
 
 Blunt attacks \(such as Claymores, Geo, Klee's bombs, etc\) will apply Shatter on Frozen targets before any Elemental damage is dealt, preventing you from Melting or Vaporizing.
 
-Attacks that apply Shatter have different GU values, refer to the [Evidence Vault](../../evidence/combat-mechanics/elemental-effects/transformative-reactions.md#various-gu-values-of-shatter-based-on-different-types-of-attacks) for extended reading on Shatter GU by Bobrokrot#0111.
+Attacks that apply Shatter have different GU values, refer to the [Evidence Vault](../../evidence/combat-mechanics/elemental-effects/transformative-reactions.md#various-gu-values-of-shatter-based-on-different-types-of-attacks) for extended reading on Shatter GU by Bobrokrot\#0111.
 
 In some situations, Shattering a Frozen enemy removes less than the normal 8GU. This allows multiple Shatters to occur on a single Frozen, or Shatter + Melt at the same time.
 * This appears to be a bug and not a consistent reaction.
+
+Shatter does not trigger weapon, artifact, or character Passives.  
 
 ## Frozen
 
@@ -110,6 +126,21 @@ $$
 \end{align*}
 $$
 
+Multiple consecutive freezes have reduced duration. They follow the following kinematic rules:
+* Freeze aura decay starts off at a rate of 0.4 GU/s
+* It accelerates at a rate of 0.1 GU/s^2
+* When unfrozen, it accelerates at a rate of -0.2 GU/s^2 back down to the minimum rate of 0.4 GU/s
+
+Thus, extending the above freeze formula, the generalized freeze duration formula may be represented by the following:
+
+$$
+\begin{align*}
+&\mbox{Decay Time Modifier}=\sum{\max({0, \mbox{Time Spent Frozen} - 2*\mbox{Time Spent Unfrozen}})}\\\\
+&\mbox{For consecutive periods of Time Spent Frozen followed by Time Spent Unfrozen}\\\\
+&\mbox{Freeze Duration}=\sqrt{20*\mbox{Frozen aura gauge}+(\mbox{Decay Time Modifier} + 4)^2}-\mbox{Decay Time Modifier}-4\\\\
+\end{align*}
+$$
+
 
 ## Swirl
 
@@ -127,7 +158,7 @@ It is possible to simultaneously trigger two swirls on one target from the same 
 
 More detailed guides on Swirl:
 
-* [Swirl Guide](https://docs.google.com/document/d/1Tk-nSE8mnwrPadFVtpBcV3iAeiI6LFwBSwRwpOArOn8/edit?usp=sharing) by Terrapin\#8603 \(added 4/30/2021\)
+* [Swirl Guide](https://docs.google.com/document/d/1Tk-nSE8mnwrPadFVtpBcV3iAeiI6LFwBSwRwpOArOn8/edit?usp=sharing) by Terrapin\#8603 \(added 2021-04-30\)
 
 ## Crystallize
 
@@ -135,6 +166,7 @@ Crystallize is an elemental reaction triggered by applying Geo on a target affli
 
 * Triggering Crystallize on an Electro-Charged target will provide an Electro Crystal.
 * Picking up multiple crystals refreshes the duration of the shield and its element type.
+* Crystals will always spawn in front of the enemy when possible.
 
 ## Burning
 

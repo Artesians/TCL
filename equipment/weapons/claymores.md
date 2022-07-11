@@ -244,6 +244,7 @@
 | ER% | 13.3% - 61.3% |
 
 * Passive does not proc on shielded enemies - [Sakuno\#7950](../../evidence/equipment/weapons.md#favonius-weapons-do-not-proc-on-shielded-enemies)
+* See the [Favonius proc calculator](../../evidence/equipment/weapons.md#favonius-proc-calculator) for details on how to calculate the probability of the Passive.  
 {% endtab %}
 
 {% tab title="Details" %}
@@ -465,6 +466,7 @@
 
 * Passive does not proc on shielded enemies - [Exuma\#1917](../../evidence/equipment/weapons.md#sacrificial-weapons-do-not-proc-on-shielded-enemies)
 * When a character with multiple charges of their elemental skill procs the sacrificial passive, the elemental skill cooldown shown on the timer is the cooldown that will be reset. - [mol\#3280 ](../../evidence/equipment/weapons.md#sacrificial-passive-with-multiple-e-stacks) 
+* The average ER gain from the Sacrifical passive has decreasing returns from increasing refinement - [Raladin\#3752](../../evidence/equipment/weapons.md#average-er-gains-from-sacrifical-weapons)  
 {% endtab %}
 
 {% tab title="Details" %}
@@ -529,7 +531,7 @@
 
 | Attribute | Description |
 | :--- | :--- |
-| Frost Burial | Hitting an opponent with Normal and Charged Attacks has a **60/70/80/90/100**% chance of forming and dropping an Everfrost Icicle above them, dealing **80/95/110/125/140**% AoE ATK DMG. Opponents affected by Cryo are dealt **200/240360**% ATK DMG instead by the icicle. Can only occur once every 10s. |
+| Frost Burial | Hitting an opponent with Normal and Charged Attacks has a **60/70/80/90/100**% chance of forming and dropping an Everfrost Icicle above them, dealing **80/95/110/125/140**% AoE ATK DMG. Opponents affected by Cryo are dealt **200/240/360**% ATK DMG instead by the icicle. Can only occur once every 10s. |
 | Base ATK | 44 - 565 |
 | Phys DMG Bonus | 7.5% - 34.5% |
 {% endtab %}
@@ -744,6 +746,8 @@
 | Cull the Weak | Defeating an opponent restores **8/10/12/14/16**% HP. |
 | Base ATK | 39 - 401 |
 | DEF% | 9.6% - 43.9% |
+
+* HP restored is affected by Healing Bonus and Incoming Healing Bonus - [Daibangden#8410](/evidence/equipment/weapons.md#weapons-and-heals)
 {% endtab %}
 
 {% tab title="Details" %}
@@ -765,11 +769,7 @@
 
 ## Attack Speed Buffs on Claymores
 
-**By:** [EternalDream\#5503 ](../../evidence/equipment/weapons.md#attack-speed-buffs-on-claymores)
-
-Attack Speed buffs do not dynamically affect Claymore Charged Attacks. Meaning, the charged attack will have an attack speed increase for its entire duration when buffed, even if said buff wears off during charged attack.
-
-* Evidence: *Streamable link lost to the sands of time*
+As of patch 2.5, Charged Attack speed buffs do not dynamically increase claymore Charged Attack speed, but do dynamically decrease it if duration ends during the attack.
 
 ## External Links
 

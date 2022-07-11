@@ -13,7 +13,7 @@ search: false
 ### **Barbara E Animation Cancel**
 
 **By:** RoaringMeow\#2437  
-**Added:** 12/19/2020
+**Added:** 2020-12-19
 
 **Finding:**
 
@@ -33,6 +33,28 @@ Steps to Reproduce
 * Switch to Barbara
 * Press the button to swap to another character and immediately spam E
 
+### Barbara E Cancel Can Proc 4-Piece Set Bonuses
+
+**By:** Poro\#4695  
+**Added:** 2022-02-02  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/936984762726363136/938452706647998495/transcript-barbara-e-cancel-can-procstack-4pc-sets.html)  
+
+**Finding:**  
+Barbara has a small time window during her initial Elemental Skill cast that allows her to dash and cancel the Elemental Skill, while avoiding the cooldown and triggering 4-Piece set bonuses from artifacts.  
+
+**Evidence:**  
+[YouTube Video](https://youtu.be/HgPYkUIzl6A)  
+4-Piece Shimenawa's Reminiscence:  
+* Unbuffed: 93 DMG  
+* Buffed: 140 DMG  
+
+4-Piece Heart of Depth:  
+* Unbuffed: 98 DMG  
+* Buffed: 109 DMG  
+
+**Significance:**  
+Potential improvement for Main DPS Barbara as you can now avoid her long Elemental Skill cooldown.
+
 ## Constellation Mechanics
 
 ### C6: Dedicating Everything to You
@@ -40,7 +62,7 @@ Steps to Reproduce
 #### C6 Revive Can Be Canceled by Switching
 
 **By:** yolitme0\#0579  
-**Added:** 10/31/2021  
+**Added:** 2021-10-31  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/904016162382311484/904534494319607848/transcript-barbara-c6-revive-can-be-canceled-by-swapping.html)  
 
 **Finding:**  

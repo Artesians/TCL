@@ -13,7 +13,7 @@ search: false
 ### Lisa final AA has two different animations
 
 **By:** Sayline#5959  
-**Added**: 09/10/2021  
+**Added:**: 2021-09-10  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/882407170161922088/885681198775550042/transcript-lisa-aa-like-mona-aa.html)  
 
 **Findings:**  
@@ -29,8 +29,8 @@ Combat positioning for Lisa
 
 ### Violet Arc's Press variant AoE is passed to all affected targets
 
-By: ArchedNosi\#1484  
-Added: 4/18/2021
+**By:** ArchedNosi\#1484  
+**Added:** 2021-04-18
 
 **Findings:**  
 The description of Violet Arc clearly states that _opponents in a small AoE_ are additionally stacked with Conductive, and this is true. But it does not mention that enemies affected also will have their own radius, thus chaining more stacks of Conductive.  
@@ -49,7 +49,7 @@ Lisa can easily abuse this knowledge in tightly packed groups to quickly and eff
 ### Violet Arc's Hold Variant has a Cylindrical Hitbox
 
 **By:** ArchedNosi\#1484  
-**Added**: 4/18/2021
+**Added:**: 2021-04-18
 
 **Findings:**  
 The hitbox of Lisa's Hold E is a cylinder with the following dimensions/attributes:
@@ -69,7 +69,7 @@ No obvious and major significance in Spiral Abyss, but its extreme capabilities 
 ### Violet Arc's Conductive status can be passed with Overload and Superconduct
 
 **By:** ArchedNosi\#1484  
-**Added:** 4/18/2021
+**Added:** 2021-04-18
 
 **Findings:**  
 The amount of Conductive Stacks a single Press E produces on an enemy is dependent on how many produced radii it was within.
@@ -108,11 +108,60 @@ Can also work in conjunction with the effect described in a previous entry: Viol
 **Significance:**  
 Lisa can easily abuse this tech to quickly and efficiently stack Conductive. This allows for smoother and more rapid gameplay and very much opens up a Burst Carry archetype.
 
+### Lisa's Conductive Stack Mechanics
+
+**By:** ArchedNosi\#1484  
+**Added:** 2021-06-17  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/987339246136340570/transcript-lisa-conductive-information.html)
+
+**Findings:**  
+Any application of a Conductive Stack lasts for 15s until dissipation. This similarly applies to simultaneous sources of Stacks, like multi-stacking via an accompanying reaction (Overload or Superconduct) or in mass groups, as well as her C6 applying 3 Stacks at once.  
+Further application of Conductive Stacks when an enemy is already at 3 Stacks resets durations from the lowest back to 15s.  
+
+* Example 1  
+  * Tap E > Stack 1 applied at 00:00 (Stack 1 will dissipate at 00:15)  
+  * Tap E > Stack 2 applied at 00:02 (Stack 2 will dissipate at 00:17)  
+  * Tap E > Stack 3 applied at 00:04 (Stack 3 will dissipate at 00:19)  
+  * Tap E > Stack 1 reset at 00:06 (Stack 1 will dissipate at 00:21)  
+* Example 2  
+  * Tap E + OL/SC > Stack 1, 2 applied at 00:00 (Stack 1, 2 will dissipate at 00:15)  
+  * Tap E > Stack 3 applied at 00:02 (Stack 3 will dissipate at 00:17)  
+  * Tap E > Stack 1 reset at 00:04 (Stack 1 will dissipate at 00:19, but Stack 2 remains to dissipate at 00:15)  
+* Example 3  
+  * Tap E > Stack 1 applied at 00:00 (Stack 1 will dissipate at 00:15)  
+  * Tap E > Stack 2 applied at 00:02 (Stack 2 will dissipate at 00:17)  
+  * Tap E > Stack 3 applied at 00:04 (Stack 3 will dissipate at 00:19)  
+  * Swap In C6 > Stack 1, 2, 3 reset at 00:06 (Stack 1, 2, 3 will all dissipate at 00:21)  
+* Example 4  
+  * Swap In C6 > Stack 1, 2, 3 applied at 00:00 (Stack 1, 2, 3 will all dissipate at 00:15)  
+  * Tap E > Stack 1 reset at 00:02 (Stack 1 will disspate at 00:17, but Stack 2, 3 remain to dissipate at 00:15)  
+
+Additionally, since having Conductive Stacks is an enemy attribute, other Players who use Lisa in co-op may consume Conductive Stacks should there be any Stacks on a given enemy, regardless if it was them or another Lisa who applied such Stacks.
+
+**Evidence:**  
+* All sources of Conductive lasting for 15s:
+  * Tap E - [YouTube](https://youtu.be/eGUwH2pSPd8)
+  * CA - [YouTube](https://youtu.be/3x_4BzFHlDs)
+  * Rap E + OL/SC reaction - [YouTube](https://youtu.be/Ux_7QyaV83s)
+  * C6 - [YouTube](https://youtu.be/uH-oRuBlWZM)
+* Demonstration of Conductive Stacks having their own independent 15s durations:
+  * All singular applications - [YouTube](https://youtu.be/6ig3PJ_prKo)
+  * Multi-application and singular application - [YouTube](https://youtu.be/W91bPDaoiWQ)
+* Demonstration of the reset mechanic of Conductive Stacks:
+  * Four Tap Es, essentially Example 1 of above - [YouTube](https://youtu.be/87-8J5w01Y4)
+* Co-op Conductive Stacks:
+  * Another Lisa consuming Conductive Stacks - [YouTube](https://youtu.be/w1UlaR4aQC4)
+  * Another Lisa consuming Conductive Stacks (C6) - [YouTube](https://youtu.be/7hWTr4aXhPQ)
+  * Calculatory evidence for the above two videos - [YouTube](https://imgur.com/a/GIiGwVc)
+
+**Significance:**  
+Documentation for information on Lisa's Conductive Stacks; whereby it lasts for 15s individually, can be reset, and can be consumed in co-op (regardless of source).
+
 ## Burst Mechanics
 
 ### Lightning Rose Vertical Range
 **By:** ArchedNosi\#1484  
-**Added:** 1/2/2022  
+**Added:** 2022-01-02  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/926631413606912070/927179857354428446/transcript-lisa-lightning-rose-vertical-range.html)
 
 **Finding:** Lisa's Lightning Rose being a Cylindrical Tubular Hitbox  
@@ -131,7 +180,7 @@ The hitbox of Lisa's Lightning Rose is a cylinder with the following dimensions/
 ### Lisa's Lightning Rose Stagger/Knockback Mechanics
 
 **By:** ArchedNosi\#1484  
-**Added:** 11/07/2021  
+**Added:** 2021-11-07  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/906461616621641728/907097696148520990/transcript-lisa-stagger-knockback-mechanics-lightning-rose.html)
 
 **Findings:**  
@@ -161,7 +210,7 @@ Acts as clarification on the Knockback/Stagger Mechanics on Lightning Rose as we
 ### Lightning Rose's initial summon damage does not apply Electro Aura
 
 **By:** ArchedNosi\#1484  
-**Added:** 11/08/2021  
+**Added:** 2021-11-08  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/906462490110607400/907389926981644348/transcript-lisa-summon-lightning-rose-no-aura.html)
 
 **Finding:**  
@@ -181,7 +230,7 @@ For Lisa specifically, knowing this is more useful than not as she would be able
 
 ### Lightning Rose Summon DMG Range
 **By:** ArchedNosi#1484  
-**Added:** 1/13/2022  
+**Added:** 2022-01-13  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/926632362715017237/931066545940070470/transcript-lisa-lightning-rose-summon-dmg-range.html)
 
 **Finding:** Lisa's Initial Summon DMG Range/Area.  
@@ -207,7 +256,7 @@ For Lisa specifically, knowing this is more useful than not as she would be able
 ### Lisa's Lightning Rose is Random when Targeting Entities + Total Count
 
 **By:** ArchedNosi\#1484  
-**Added:** 11/09/2021  
+**Added:** 2021-11-09  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/906461792132284426/907623932083970088/transcript-lisa-lightning-rose-targeting-and-total-count.html)
 
 **Findings:**
@@ -231,7 +280,7 @@ Also acts as a better understanding of how Lightning Rose functions, which is mo
 ### Lightning Rose has Limited Quadratic Properties and Impact AoE
 
 **By:** ArchedNosi\#1484  
-**Added:** 11/10/2021  
+**Added:** 2021-11-10  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/906462271125995530/907915774545526834/transcript-lisa-aoe-properties-lightning-rose.html)  
 
 **Finding:**  
@@ -264,7 +313,7 @@ Proves that Lisa's Lightning Rose can have AoE properties as well as very limite
 ### Lisa's Initial Summon DMG Numerical/Formula Data
 
 **By:** ArchedNosi\#1484  
-**Added:** 1/10/2021  
+**Added:** 2021-01-10  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/926632036872102009/930022973472112670/transcript-lisa-lightning-rose-summon-dmg-numerical.html)
 
 **Findings:**  
@@ -295,8 +344,8 @@ By definition, this discovery technically invalidates/corrects all previous, pre
 #### The Mechanics of Lisa's C1
 
 **By:** ArchedNosi\#1484  
-**Added:** 4/18/2021  
-**Updated:** 9/10/2021
+**Added:** 2021-04-18  
+**Updated:** 2021-09-10
 
 **Findings:**
 
@@ -328,7 +377,7 @@ In knowing how C1 actually works, Lisa, when she is on-field, can effectively ru
 #### C4 Description and Actual Effects are Miscommunicated
 
 **By:** ArchedNosi\#1484  
-**Added:** 11/10/2021  
+**Added:** 2021-11-10  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/906461937536217088/907909745048944700/transcript-lisa-c4-actual-effects-miscommunicated.html)  
 
 **Finding:**  
@@ -361,3 +410,33 @@ Throughout all 3 and 3+ Entity Trials, all have showcased how the First Arc and 
 
 **Significance:**  
 Clears up what the actual effects are of Lisa's C4 and the frequencies of each occurance within 1, 2, and 3+ entity scenarios. Also, if one is attempting to calculate how much C4 impacts Lightning Rose, on average and without taking account for possible AoE hits, in 1 Entity scenarios, there is no effect, in 2 Entity scenarios, it is around an 82.5% effectiveness increase, and in 3 or 3+ Entity scenarios, it is around a 90% effectiveness increase `(0.30*1 + 0.50*2 + 0.20*3)`.  
+
+### C6: Pulsating Witch
+
+#### Lisa's C6 Mechanics
+
+**By:** ArchedNosi\#1484  
+**Added:** 2022-06-20  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/988442992786407464/transcript-lisa-c6-details.html)  
+
+**Finding:**  
+As the description implies, when Lisa swaps to become on-field, a radius will spawn around her applying 3 simulataneous Conductive Stacks onto nearby opponents, thus also resetting any concurrent Conductive durations to 15s.  
+As described, this effect does have a cooldown of 5s, however, the cooldown is only initiated if Lisa is in combat. Otherwise, if Lisa is not in combat, the mechanical effect (3 Conductive Stacks) will still produce, the visual effect (Radius VFX) will not be shown, and the cooldown for her C6 does not begin.
+
+Furthermore, the Radius of Lisa's C6 is 5m, both when in combat or not.
+
+**Evidence:**  
+No cooldown when not in combat:
+* [YouTube](https://youtu.be/M5hr4olV5ZE) - C6 is casted in succession twice, once at 00:04 and once more at 00:07 (the duration ends at 00:22, which follows its 15s implied duration).
+* [YouTube](https://youtu.be/Ycx6Z-Xld5M) - A more visual example.
+
+Has 5s Cooldown when in combat:
+* [YouTube](https://youtu.be/a1jjXU14Y-0) - C6 activated in combat at 00:04, 00:12, 00:18, and 00:26 in this quick example, and, there, each interval is greater than or equal to the 5s cooldown.
+* [YouTube](https://youtu.be/oFLaf-IE23E) - C6 activated when not in combat at 00:00, which does not begin the cooldown, and C6 further activates in combat at 00:03 and 00:11. 
+
+C6 Pulse has 5m Radius:
+* [YouTube](https://youtu.be/uY71LrsjPwo) - This video shows the radius of C6 to be around 2 abyss tiles, which is enough of a leading assumption for its radius to be considered 5m.
+* [YouTube](https://youtu.be/Q0Xusv_7WQc) - This video demonstrates a further testing of C6's radius, only possible due to the C6 not initiating its cooldown when not in combat. 
+
+**Significance:**  
+Information on Lisa's C6: Pulsating Witch. Namely, that it applies 3 Conductive Stacks to entities within a 5m radius around Lisa simultaneously, and that its visual and cooldown are not initiated when Lisa is not in combat. Otherwise, if Lisa is in combat upon swapping on-field, the 5s cooldown of her C6 is instigated along with the appropiate visual effect.

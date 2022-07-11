@@ -8,7 +8,7 @@ search: false
 
 {% page-ref page="../../../characters/hydro/xingqiu.md" %}
 
-## Skill Mechanics
+## Skill Mechanics  
 
 ### **Xingqiu E Double Vaporize**
 
@@ -29,7 +29,7 @@ For one-shot \(or two-shot\) compilations, although I’m not sure if this team 
 ### Xingqiu Rain Sword DMG Reduction is a conferrable attribute
 
 **By:** elijam#7142  
-**Added:** 07/18/2021  
+**Added:** 2021-07-18  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/864699490606514196/866103775408422962/transcript-xq-dr-is-a-conferrable-attribute.html)
 
 **Finding:**  
@@ -45,7 +45,7 @@ A team consists of Kazuha and Xingqiu may have marginally less survivability tha
 ### XQ rain sword shattering cooldown
 
 **By:** Lee Roy Leoncio#3769  
-**Added:** 09/06/2021  
+**Added:** 2021-09-06  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/881769328247177246/884456576075825162/transcript-xq-rain-sword-shattering-cooldown.html)
 
 **Finding:**  
@@ -77,10 +77,38 @@ While Xingqiu's burst Hydro Swords are dynamic, the damage reduction from the Ra
 
 Verified. Also, a similar instance occurs when using Streaming Essential Oil \(25% Hydro DMG% increase potion\), so we know it's not limited to just Barbara.
 
+### Xingqiu Damage Reduction is Affected By Omni Damage Bonus 
+**By:** Balakin1\#7545  
+**Added:** 2022-05-05  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/971892805431595069/transcript-xingqiu-dr-omni-damage-bonus.html)
+
+**Finding:**  
+Xingqiu's damage reduction is affected by omni-damage bonus effects such as the one from Mistsplitter's passive.
+
+**Evidence:**  
+* [No E](https://youtu.be/ivtT4KXG0uY)  
+* [Sac](https://youtu.be/a6Uxi_Fo4sk)  
+* [MSR 0 stacks](https://youtu.be/jm9nkfvgHy4)  
+* [MSR 2 stacks](https://youtu.be/DV35YuvwLao)  
+
+**Explanation/Math:**  
+For the "DR in theory" values, it was 26% + .2 * (81.6% + x), with x being 12% and (12 + 16)% being added for MSR0 and MSR2 respectively, otherwise 0  
+For the "DR in practice" values, it was 1-(largest number)/(No E's largest number)  
+Note: there are 3 damage numbers because I finished gathering clips vs a lawachurl before someone suggested using an electro crystal  
+TL7, 81.6% Damage bonus w/o weapon  
+
+No E: 771, 1543, 3086 (0% DR)  
+Sac : 445,  890, 1780 (42.32% DR in theory, 42.320% DR in practice)  
+MSR0: 426,  853, 1706 (44.72% DR in theory, 44.718% DR in practice)  
+MSR2: 414,  828, 1656 (47.92% DR in theory, 46.338% DR in practice)
+
+**Significance:**  
+Better understanding of Xingqiu's Damage Reduction and how it interacts with different sources of Elemental DMG Bonus.
+
 ### Xingqiu E Dash Cancel Animation
 
 **By:** Charliex3000\#9403  
-**Added:** 03/18/2021
+**Added:** 2021-03-18
 
 **Finding:**
 
@@ -99,7 +127,7 @@ Dash to swap is faster since it takes longer without a cancel to swap.
 ### Xingqiu actual Rain Sword ICD
 
 **By:** Tsym#2586  
-**Added:** 09/22/2021  
+**Added:** 2021-09-22  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/885155355020120134/890115391370698782/transcript-xingqiu-orbital-icd.html)
 
 **Finding:**  
@@ -137,7 +165,7 @@ XQ ult is dynamic and not a snapshot, buffs/value changes received after casting
 ### Xingqiu Sword Rain "Buffering"
 
 **By:** Charliex3000\#9403  
-**Added:** 03/21/2021
+**Added:** 2021-03-21
 
 **Theory/Finding/Bug:**
 
@@ -157,9 +185,10 @@ Clears up how exactly "XQ buffers." Additionally pending some extra tests about 
 ### Xingqiu Hydro Aura Persistence
 
 **By:** Sayline\#5959  
-**Added:** 04/05/2021
+**Added:** 2021-04-05
 
-**Finding:** After Xingqiu's burst ends, there is a period where you can still imbue a hydro aura even if the orbitals visually disappeared. Upon further investigation, XQ's orbitals don't disappear completely, rather, they degenerate into particles of hydro that still appear around XQ for a set duration of time \(about 47 frames from the moment the swords blink before exploding until the last bits of hydro particles disappear\).
+**Finding:**  
+After Xingqiu's burst ends, there is a period where you can still imbue a hydro aura even if the orbitals visually disappeared. Upon further investigation, XQ's orbitals don't disappear completely, rather, they degenerate into particles of hydro that still appear around XQ for a set duration of time \(about 47 frames from the moment the swords blink before exploding until the last bits of hydro particles disappear\).
 
 **Evidence:**
 
@@ -168,12 +197,13 @@ Clears up how exactly "XQ buffers." Additionally pending some extra tests about 
 * [GIF 1](https://imgur.com/8EDEVxu): Portion of Vid 2 where XQ orbitals break, magnified. Using this clip, I counted 47 frames for hydro particle persistence, starting from the moment the swords blink prior to shattering, and ending at the few frames when XQ imbues hydro on the ruin guard.
 * [GIF 2](https://imgur.com/cmsVCV9): Slowed down version of GIF 1. Here, the hydro particles are easier to observe.
 
-**Significance:** Limit testing of XQ.
+**Significance:**  
+Limit testing of XQ.
 
 ### Xingqiu Q's Rain Sword Damage Reduction Overrides E's
 
 **By:** Charliex3000#9403  
-**Added:** 10/17/2021  
+**Added:** 2021-10-17  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/890793989232529439/899126244615028867/transcript-xq-qe-dmg-reduction-interactions.html)
 
 **Finding:**  
@@ -196,6 +226,28 @@ Takes more recently cast E:
 **Significance:**  
 We understand more about how XQ's damage reduction works. Additionally, this means that doing Q-N1-E with Mistsplitter XQ gives better damage reduction than E-Q-N1, especially if using C6 Bennett or Chongyun.
 
+### Xingqiu Burst and Long Normal Attack Animation Interaction
+
+**By:** Kaya\#5005, Xandellicia\#4609, Dooners\#6709  
+**Added:** 2022-04-10  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/962750243403874374/transcript-xingqiu-q-and-long-na-animation-interaction.html)
+
+**Finding:**  
+It is possible to trigger Xingqiu Burst Sword Rain multiple times on a single Normal Attack if the animation is long enough.
+
+**Evidence:**  
+All Testing was done on 2.6 at 60 fps. Did on both high ping and low ping and seems that its not ping dependant. Looks like if the animation is longer than 1 second, it can proc 2 sets of waves. Although some animations take a long time they don't trigger it like Keqing's one.
+* Yae Low Ping - [Imgur](https://imgur.com/w26BRRB)
+* Yae High Ping - [YouTube](https://youtu.be/wZYb8-j8iMY)
+* Shenhe N3 and N5 - [Youtube](https://youtu.be/3e3_tKOwsg0)
+* Eula - [YouTube](https://www.youtube.com/watch?v=TC36SnaANUc)
+* Albedo - [YouTube](https://www.youtube.com/watch?v=MqG6k9aqlcw)
+* Fischl - [YouTube](https://www.youtube.com/watch?v=3VNqzUzLzaQ)
+* Keqing Not Triggering - [YouTube](https://www.youtube.com/watch?v=OTaLfaCvrvQ)
+
+**Significance:**  
+Documenting how on-normal-animation effects can actually trigger multiple times if the animation is long enough. Other units may exist or be added with normal animation triggers or super long animations that may take advantage of this.
+
 ## Constellation Mechanics
 
 ### C6: Hence, Call Them My Own Verses
@@ -203,10 +255,36 @@ We understand more about how XQ's damage reduction works. Additionally, this mea
 #### Xingqiu C6 3rd Wave Applies Hydro Twice
 
 **By:** gacha4life\#2525  
-**Added:** 03/17/2021
+**Added:** 2021-03-17
 
 **Evidence:**
 
 [Video](https://www.youtube.com/watch?v=Mgbi6X0TTxM)
 
 **Significance:** For vape comps with C6 XQ, every 3rd sword wave basically guarantees hydro aura. For EC comps, it makes it more likely for the electro to be the trigger. Generally speaking, it gives XQ greater hydro aura potential.
+
+## Miscellaneous
+
+### Xingqiu EQE vs QEE
+
+**By:** Steno\#0119  
+**Added:** 2022-03-16  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/953826281793933312/transcript-xq-eqe-vs-qee.html)  
+
+**Finding:**  
+Xingqiu EQE leads to about a 0.5 \- 1s longer rotation time on average compared to QEE or EEQ in teams where Xingqiu E CD gates the rotation time.  
+
+This is because when performing EQE, his E CD is not ticking down during Q cast, whereas with QEE, this problem is avoided.  
+
+Additional notes:
+* QEE has the highest damage from C4.
+* EEQ has the highest energy potential for Xingqiu due to him catching particles from both Es.
+* EQE is the easiest combo to perform since it does not require dash cancels. In terms of animation time, the three combos are close enough that human error renders the differences minimal.  
+
+**Evidence:**  
+[Video 1](https://youtu.be/A1DF98OHyIo): This clip compares EQE (left) and QEE (right) side by side with E CDs shown in the bottom right corners. The frame counter starts at the beginning of the first E press on both clips, and right clip starts to pull ahead by a larger margin for every rotation.  
+
+[Video 2](https://youtu.be/N_E4wFXDis0) \(evidence for additional notes\): Very rough comparison between the three combos, NOT FRAME PERFECT, this is meant to show how fast an average player would perform these combos.  
+
+**Significance:**  
+Optimizing rotation times on teams with Xingqiu.

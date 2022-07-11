@@ -10,10 +10,12 @@ search: false
 
 ## Skill Mechanics
 
+Tap E ICD: None - [Video](https://youtu.be/IiD4gj7NZZQ) - Bobrokrot\#0111  
+
 ### Venti autoattack after elemental skill faster switching
 
 **By:** sexyeboy69\#3215  
-**Added:** 05/23/2021  
+**Added:** 2021-05-23  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/834085780611137607/845831330662187028/transcript-venti-autoattack-after-skill-faster-switching.html)
 
 **Finding:** Doing an auto attack as soon as possible after using Venti's e allows the user to swap to a different character faster.
@@ -25,7 +27,7 @@ search: false
 ### Venti 10 Frame Elemental Skill
 
 **By:** Charliex3000#9403  
-**Added:** 10/18/2021  
+**Added:** 2021-10-18  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/894423798416310304/899832505866289192/transcript-10-frame-venti-e.html)
 
 **Finding:** Venti Elemental Skill can consistently be cancelled at 10 frames.
@@ -35,12 +37,38 @@ The inputs are: Hold E for 9 frames. Release E. Press Q.
 
 **Significance:** Saves around 10 frames on E-Q combo (20 frames E -> 10 frames E).  
 
+### Venti CA Skill Cancel
+
+**By:** BowTae\#0141  
+**Added:** 2022-04-16  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/964968100883726397/transcript-venti-ca-e-cancel.html)  
+
+**Finding:**  
+Using Venti Tap Elemental Skill immediately after shooting a non-ARCC Charged Attack will reduce essentially all of his Skill's animation frames.  
+
+**Evidence:**  
+[Original discovery by Turtlemaster3000 V.2](https://youtu.be/O587rUzfJao)  
+* You do not need to mash Skill to do this, you just need to tap Skill once immediately after Venti exits Aim mode.  
+
+This can be done with both hold M1 shots and Aim toggle shots.  
+* I couldn't get it to work with ARCC, probably because ARCC removes the shooting animation which is likely what allows this to happen.
+* With Aim toggle, it is possible to do this so that Venti does not need to stop walking: [YouTube](https://youtu.be/Pk8-6Mzg9cQ)  
+* With hold M1, Venti will stop walking to cast his Skill, but this can be canceled immediately with an action, such as dash, Skill, Burst, Attack, or Aim: [YouTube](https://youtu.be/IoL8v-aABos)  
+  * This is therefore just as good as the Aim toggle version, while also needing less time to shoot the CA.  
+  * The hold M1 version seems to rarely if ever work at 30fps, while it is consistent at 60fps.  
+* Proof that this shortened E does damage: [YouTube](https://youtu.be/rxja0bljcuk)  
+
+**Significance:**  
+Crescent Venti stonks. Allows Phys Venti to cast Skill without interrupting the CAs: [YouTube](https://youtu.be/UK556Tz22PA)  
+Can also let Venti do 4pc Shimenawa tax evasion at low ping.  
+In more serious terms, this has little practical use for the majority of Venti usage since it requires a CA.  
+
 ## Burst Mechanics
 
 ### Venti Q Absorbed Element ICD
 
 **By:** Charliex3000\#9403  
-**Added:** 04/05/2021
+**Added:** 2021-04-05
 
 **Finding:** Venti's Burst elemental infusion application follows the standard ICD rules of elemental application every 3rd hit.
 
@@ -51,7 +79,7 @@ The inputs are: Hold E for 9 frames. Release E. Press Q.
 ### Venti Q Late Absorption Bug
 
 **By:** soup420\#1634  
-**Added:** 04/23/2021  
+**Added:** 2021-04-23  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/829479729299193877/835390049503543336/transcript-venti-burst-absorption-bug.html)
 
 **Finding:**  
@@ -70,7 +98,7 @@ When elemental absorption happens late into a Venti Q, the damage from elemental
 ### Venti Burst Infusion Elemental Gauge Units
 
 **By:** Ayzel\#7399  
-**Added:** 5/2/2021  
+**Added:** 2021-05-02  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/837853360023011378/838536559040790608/transcript-venti-burst-1u-infusion.html)
 
 **Finding:** Venti's infusion elemental damage on his burst applies 1U of the element it absorbs.
@@ -84,7 +112,7 @@ The last tick of the hydro damage caused by Venti's burst elemental infusion is 
 ### Venti Burst Anemo Gauge Units
 
 **By:** Charliex3000#9403  
-**Added:** 09/17/2021  
+**Added:** 2021-09-17  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/887526029508354099/888246550936043610/transcript-venti-ult-anemo-gauge.html)
 
 **Finding:**  
@@ -103,7 +131,7 @@ Venti ult anemo gauge is 1U.
 
 ### Venti Elemental Absorption Proc Count Correction
 **By:** CC#5588  
-**Added:** 1/21/2022  
+**Added:** 2022-01-21  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/931544431885160499/933946366424670218/transcript-venti-elemental-absorption-proc-count-correction.html)
 
 **Finding:** The Additional Elemental DMG from Venti's Burst Procs 13-15 Times.
@@ -137,7 +165,7 @@ Venti ult anemo gauge is 1U.
 #### Venti C1 damage
 
 **By:** elijam#7142  
-**Added:** 08/07/2021  
+**Added:** 2021-08-07  
  [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/866108653634846780/873536676675338280/transcript-tcl-damage-type-completion.html)  
 
 **Finding:**  
@@ -155,7 +183,7 @@ Damage calculations for Venti.
 #### C6 Venti Resistance Down Duration
 
 **By:** Hishammm ♡\#0001  
-**Added:** 05/01/2021  
+**Added:** 2021-05-01  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/837587957828419594/838584790323298355/transcript-c6-venti-res-down-duration.html)
 
 **Finding:**  
@@ -199,7 +227,7 @@ Venti's late infusion bug still exists in 1.5: [Youtube](https://www.youtube.com
 ### Venti Burst On Top of Zhongli Pillar
 
 **By:** EdisonsMathsClub\#6469  
-**Added:** 6/3/2021
+**Added:** 2021-06-03
 
 **Finding:** Venti's Vortex can be fired on top of Zhongli's Pillar
 

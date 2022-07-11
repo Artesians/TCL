@@ -49,7 +49,7 @@ search: false
 ### Kazuha Hold E can cause fall DMG  
 
 **By:** CQLQRS#7853  
-**Added:** 09/25/2021  
+**Added:** 2021-09-25  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/885544421637120030/891166004669984848/transcript-kazuha-e-causes-fall-damage.html)
 
 **Finding:**  
@@ -73,7 +73,7 @@ This feature is most likely unintended, but not a bug due to the janky nature of
 
 ### Kazuha Tap E Air Time Can Be Shortened 
 **By:** Quark#7392  
-**Added:** 1/21/2022  
+**Added:** 2022-01-21  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/933053726711754882/934052086797172777/transcript-kazuha-tap-e-air-time-can-be-shortened.html)
 
 **Finding:**  
@@ -85,6 +85,77 @@ This video shows the tech first and a normal fall second. Note the elemental ski
 
 **Significance:**  
 This tech is useful if you only want to tap E with Kazuha without initiating a plunge attack. For example if you want to reapply VV shred to some frozen enemies but you don't want to shatter them.
+
+### Kazuha Land Cancel
+**By:** BowTae\#0141  
+**Added:** 2022-03-29  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/958505561622720512/transcript-kazuha-land-cancel.html)  
+
+**Finding:**  
+After using E, Kazuha's Special Plunge does not have a minimum height restriction, unlike regular Plunging Attacks. This means you can do a plunge very low to the ground. In fact, you can plunge so low to the ground that it cancels the initial rising motion of the plunge. The timing for this is probably either a 1 or 2 frame window.  
+
+Credit to Peekays\#2722 for the initial discovery.  
+
+**Evidence:**  
+* [30 FPS](https://imgur.com/OCZc4OE)
+* [60 FPS](https://imgur.com/MyBk6kp)
+* [From glider](https://imgur.com/ZufeK1Z)
+* [30 FPS comparison with normal EP](https://imgur.com/t8uRjxj)
+* [60 FPS comparison with normal EP](https://imgur.com/ZVsAXUs)
+
+**Significance:**  
+Kazuha Swag.  
+
+### Kazuha E Absorption Bug
+
+**By:** Charisma\#5567  
+**Added:** 2022-05-14  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/975073739207225414/transcript-kazuha-e-absorption-bug.html)
+
+**Finding:**  
+Kazuha E will, under certain conditions, fail to absorb self auras (particularly relevant with Bennett's Q field). It will still be able to absorb auras from enemies in his E range. 
+*credits to fragile💤#7777 for discovering the bug first*
+
+**How to reproduce this bug easily**:
+1) get a self aura infused onto Kazuha (Bennett burst is the most common method)
+2) hold forward
+3) input dash + jump then e immediately. You have to press dash + jump at the same time. 
+
+
+**Evidence:**  
+*Hydro Absorb*: 
+* [YouTube](https://youtu.be/ynUDLCXIhN0)
+
+*Cryo Absorb*:
+* [Imgur *(by Tibo\#4309)*]()
+
+*Nothing Absorbed*: 
+- [YouTube](https://youtu.be/lW7W-Gw26rk)
+- [YouTube *(by Scrungle Bepis\#8760)*](https://youtu.be/PFLLWK6oZlI)
+- [YouTube *(by dnhckch\#5211)*](https://youtu.be/hfB69S8VXxI)
+- [Imgur *(by Yume\#2875)*](https://imgur.com/a/RHLsjtj)
+
+**Significance:**  
+Kazuha's E aura check seems to be able to even ignore his own aura. Given that some rotations are tuned to Kazuha's E absorbing the expected element, one may want to avoid dashing+jumping before inputting his E. However, one might also be able to use this bug to intentionally avoid absorbing self auras onto his E. 
+
+As for an explanation to why this bug occurs, it's probably due to funky aura check mechanics in Kazuha's E. Perhaps the dash jump makes it so he can't detect his own aura due to the invincibility frames during the dash, with the jump allowing for E to be input while the invincibility frames are happening, although this is all just speculation.
+
+### Kazuha Keeps Midare Ranzan Bug
+
+**By:** Rathalos\#2875  
+**Added:** 06/14/2022  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/986310266688012378/transcript-kazuha-keeps-midare-ranzan.html)
+
+**Finding:**  
+Kazuha can keep his special plunge/Midare Ranzan either by getting frozen while ascending or getting hit by a bubble from a Hydro Abyss Mage on the way up. It lasts for about 10s, just like the original effect.
+
+**Evidence:**  
+Bubble interrupt - [Imgur](https://imgur.com/ZvSleVZ)  
+Frozen interrupt - [Imgur](https://imgur.com/Bt3O7NM)  
+10s expiry duration - [Imgur](https://imgur.com/Lcgy7gd)  
+
+**Significance:**  
+More understanding about how his Elemental Skill works. Probably fluff, but cool stuff.
 
 ## Burst Mechanics
 * Kazuha Slash snapshots. - [MysticalMerlin\#5020](https://imgur.com/a/MC9nEnq)
@@ -99,7 +170,22 @@ This tech is useful if you only want to tap E with Kazuha without initiating a p
 ### A4: Poetics of Fuubutsu
 
 * Kazuha's 4th ascension passive works off-field and only gives bonus damage on swirled elements. - [kingjohn23\#8694](https://youtu.be/3ryW4jG38y0)  
-* Kazuha's 4th ascension passive overrides&refreshes buff each swirl. - [kol\#1593](https://youtu.be/-D8IMtMAt48)  
+* Kazuha's 4th ascension passive overrides and refreshes buff each swirl of the same element. - [kol\#1593](https://youtu.be/-D8IMtMAt48)  
+
+### Kazuha's Dynamically Changing Buff
+**By:** Falafel\#5123  
+**Added:** 2022-04-09  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/962496151704182834/transcript-kazuhas-dynamically-changing-buff.html)  
+
+**Finding:**  
+Further evidence that Kazuha's A4 Passive buff dynamically changes it's value every new swirl depending on how much EM Kazuha has when the swirl happened.  
+
+**Evidence:**  
+Diona's C6 increases Kazuha's EM by 200 when he's standing on it, giving him stronger buffs and this persists the entire time the buff is up (as you can see, Ganyu's Cryo DMG Bonus is still 83.6% even when Ganyu steps out of Diona's burst) - [YouTube](https://youtu.be/hgQJzMLG8_w)  
+Again, Diona's C6 increases Kazuha's buff the first time he swirls, giving Ganyu 83.6% Cryo DMG bonus. But, when a new swirl happens the buff gets lower, back to the same value when Diona is not buffing Kazuha beforehand. - [YouTube](https://youtu.be/slRfL9ynIuA)  
+
+**Significance:**  
+This finding can potentially impact rotation planning. When using teams involving Diona and Kazuha, it is maybe in some cases a good idea to only use his skill when standing on Diona's burst and not trigger his burst at all. This can also include other EM-increasing characters like Albedo for example. The key is to only swirl once every time the EM increase is on Kazuha. Still, Kazuha's damage from his burst can easily make up for the loss of the extra Passive buff.  
 
 ## Constellation Mechanics  
 ### C2: Yamaarashi Tailwind

@@ -14,11 +14,12 @@
 | Phys DMG Bonus | 9% - 41.3% |
 
 * There is some inconsistency with shielded characters and **Falcon's Defiance** trigger. For more details, check the Vault Entry linked - [gvo#4200](../../evidence/equipment/weapons.md#aquila-favonia)
+* The healing is affected by Incoming and Outgoing Healing Bonuses.
 {% endtab %}
 
 {% tab title="Details" %}
 
-| Level | Base Atk | Phys DMG% |
+| Level | Base ATK | Phys DMG% |
 | :--- | :--- | :--- |
 | 60 | 423 | 30.4 |
 | 60+ | 455 | 30.4 |
@@ -43,11 +44,15 @@
 | Revolutionary Chorale | A part of the “Millennial Movement” that wanders amidst the winds. Increases DMG by **10/12.5/15/17.5/20**%. When the character wielding this weapon triggers Elemental Reactions, they gain a Sigil of Rebellion. This effect can be triggered once every 0.5s can be triggered even if said character is not on the field. When you possess 2 Sigils of Rebellion, all of them will be consumed and all nearby party members will obtain “Millennial Movement: Song of Resistance” for 12s. “Millennial Movement: Song of Resistance” increased Normal, Charged and Plunging Attack DMG by **16/20/24/28/32**% and increases ATK by **20/25/30/35/40**%. Once this effect is triggered, you will not gain Sigils of Rebellion for 20s. Of the many effects of the “Millennial Movement,” buffs of the same type will not stack.|
 | Base ATK | 46 - 608 |
 | Elemental Mastery | 43 - 198 |
+
+
+* The self swirl interaction of "[Sunfire](../../evidence/characters/anemo/jean.md#anemo-aura)" does not count as a reaction for Freedom Sworn passive stacks.
+* Stacks can't be gained from infusing the weapon with 2 different Elements.
 {% endtab %}
 
 {% tab title="Details" %}
 
-| Level | Base Atk | Elemental Mastery |
+| Level | Base ATK | Elemental Mastery |
 | :--- | :--- | :--- |
 | 60 | 382 | 146 |
 | 60+ | 414 | 146 |
@@ -62,6 +67,35 @@
 {% endtab %}
 {% endtabs %}
 
+### Haran Geppaku Futsu
+
+{% tabs %}
+
+{% tab title="Description" %}
+| Attribute | Description |
+| :--- | :--- |
+| Honed Flow | Obtain **12/15/18/21/24**% All Elemental DMG Bonus. When other nearby party members use Elemental Skills, the character equipping this weapon will gain 1 Wavespike stack. Max 2 stacks. This effect can be triggered once every 0.3s. When the character equipping this weapon uses an Elemental Skill, all stacks of Wavespike will be consumed to gain Rippling Upheaval: each stack of Wavespike consumed will increase Normal Attack DMG by **20/25/30/35/40**% for 8s.|
+| Base ATK | 46 - 608 |
+| CRIT Rate | 7.2% - 33.1% |
+{% endtab %}
+
+{% tab title="Details" %}
+| Level | Base ATK | CRIT Rate% |
+| :--- | :--- | :--- |
+| 60 | 382 | 24.4 |
+| 60+ | 414 | 24.4 |
+| 65 | 435 | 25.8 |
+| 70 | 457 | 27.3 |
+| 70+ | 488 | 27.3 |
+| 75 | 510 | 28.7 |
+| 80 | 532 | 30.2 |
+| 80+ | 563 | 30.2 |
+| 85 | 586 | 31.6 |
+| 90 | 608 | 33.1 |
+{% endtab %}
+
+{% endtabs %}
+
 ### Mistsplitter Reforged
 
 {% tabs %}
@@ -74,11 +108,12 @@
 | CRIT DMG% | 9.6% - 44.1% |
 
 * The number of Mistsplitter's Emblems gained from characters' Elemental Burst is character dependent, for more details, check the Vault Entry linked - [gtrain#9987](../../evidence/equipment/weapons.md#mistsplitter-reforged)
+* A Mistsplitter's Emblem stack that a character obtains when Normal Attack deals Elemental DMG can also be obtained when Charged Attack deals Elemental DMG as well.
 {% endtab %}
 
 {% tab title="Details" %}
 
-| Level | Base Atk | Crit DMG |
+| Level | Base ATK | Crit DMG |
 | :--- | :--- | :--- |
 | 60 | 423 | 32.5 |
 | 60+ | 455 | 32.5 |
@@ -107,7 +142,7 @@
 
 {% tab title="Details" %}
 
-| Level | Base Atk | CRIT Rate% |
+| Level | Base ATK | CRIT Rate% |
 | :--- | :--- | :--- |
 | 60 | 341 | 32.5 |
 | 60+ | 373 | 32.5 |
@@ -138,7 +173,7 @@
 
 {% tab title="Details" %}
 
-| Level | Base Atk | Energy Recharge% |
+| Level | Base ATK | Energy Recharge% |
 | :--- | :--- | :--- |
 | 60 | 382 | 40.6 |
 | 60+ | 414 | 40.6 |
@@ -169,7 +204,7 @@
 
 {% tab title="Details" %}
 
-| Level | Base Atk | ATK% |
+| Level | Base ATK | ATK% |
 | :--- | :--- | :--- |
 | 60 | 382 | 36.5 |
 | 60+ | 414 | 36.5 |
@@ -200,7 +235,7 @@
 
 {% tab title="Details" %}
 
-| Level | Base Atk | ATK% |
+| Level | Base ATK | ATK% |
 | :--- | :--- | :--- |
 | 60 | 293 | 40.6 |
 | 60+ | 319 | 40.6 |
@@ -233,7 +268,7 @@
 
 {% tab title="Details" %}
 
-| Level | Base Atk | CRIT DMG% |
+| Level | Base ATK | CRIT DMG% |
 | :--- | :--- | :--- |
 | 60 | 361 | 27.1 |
 | 60+ | 387 | 27.1 |
@@ -255,11 +290,13 @@
 | :--- | :--- |
 | Spotless Heart | Elemental Skill DMG is increased by **40/50/60/70/80**% of DEF. The effect will be triggered no more than once every 1.5s and will be cleared 0.1s after the Elemental Skill deals DMG. | 
 | Base ATK | 41 - 454 | 
-| DEF | 15% - 61.3% | 
+| DEF | 15% - 69% | 
+
+* As of Patch 2.5, there is a bug where the Passive will be deactivated if Albedo's [Transient Blossom](../../characters/geo/albedo.md#attacks) is triggered by a non-melee attack and hits a shield.
 {% endtab %}
 
 {% tab title="Details" %}
-| Level | Base Atk | DEF  |
+| Level | Base ATK | DEF  |
 |-------|----------|------|
 | 1     | 41       | 15   |
 | 5     | 54       | 17.4 |
@@ -301,11 +338,12 @@
 | ER% | 13.3% - 61.3% |
 
 * Passive does not proc on shielded enemies - [Sakuno\#7950](../../evidence/equipment/weapons.md#favonius-weapons-do-not-proc-on-shielded-enemies)
+* See the [Favonius proc calculator](../../evidence/equipment/weapons.md#favonius-proc-calculator) for details on how to calculate the probability of the Passive.  
 {% endtab %}
 
 {% tab title="Details" %}
 
-| Level | Base Atk | Energy Recharge% |
+| Level | Base ATK | Energy Recharge% |
 | :--- | :--- | :--- |
 | 60 | 293 | 45.1 |
 | 60+ | 319 | 45.1 |
@@ -334,7 +372,7 @@
 
 {% tab title="Details" %}
 
-| Level | Base Atk | Energy Recharge% |
+| Level | Base ATK | Energy Recharge% |
 | :--- | :--- | :--- |
 | 60 | 327 | 33.8 |
 | 60+ | 353 | 33.8 |
@@ -363,7 +401,7 @@
 
 {% tab title="Details" %}
 
-| Level | Base Atk | Elemental Mastery |
+| Level | Base ATK | Elemental Mastery |
 | :--- | :--- | :--- |
 | 60 | 327 | 122 |
 | 60+ | 353 | 122 |
@@ -396,7 +434,7 @@
 
 {% tab title="Details" %}
 
-| Level | Base Atk | ATK% |
+| Level | Base ATK | ATK% |
 | :--- | :--- | :--- |
 | 60 | 327 | 30.4 |
 | 60+ | 353 | 30.4 |
@@ -425,7 +463,7 @@
 
 {% tab title="Details" %}
 
-| Level | Base Atk | Phys DMG% |
+| Level | Base ATK | Phys DMG% |
 | :--- | :--- | :--- |
 | 60 | 361 | 25.4 |
 | 60+ | 387 | 25.4 |
@@ -460,7 +498,7 @@
 
 {% tab title="Details" %}
 
-| Level | Base Atk | ATK% |
+| Level | Base ATK | ATK% |
 | :--- | :--- | :--- |
 | 60 | 327 | 30.4 |
 | 60+ | 353 | 30.4 |
@@ -482,17 +520,18 @@
 
 | Attribute | Description |
 | :--- | :--- |
-| Composed | After dealing damage to an opponent with an Elemental Skill, the skill has a **40**~**80**% chance to end its own CD. Can only occur once every **30**~**16**s. |
+| Composed | After dealing damage to an opponent with an Elemental Skill, the skill has a **40/50/60/70/80**% chance to end its own CD. Can only occur once every **30/26/22/19/16**s. |
 | Base ATK | 41 - 454 |
 | ER% | 13.3% - 61.3% |
 
 * Passive does not proc on shielded enemies - [Exuma\#1917](../../evidence/equipment/weapons.md#sacrificial-weapons-do-not-proc-on-shielded-enemies)
 * When a character with multiple charges of their elemental skill procs the sacrificial passive, the elemental skill cooldown shown on the timer is the cooldown that will be reset. - [mol\#3280 ](../../evidence/equipment/weapons.md#sacrificial-passive-with-multiple-e-stacks) 
+* The average ER gain from the Sacrifical passive has decreasing returns from increasing refinement - [Raladin\#3752](../../evidence/equipment/weapons.md#average-er-gains-from-sacrifical-weapons)  
 {% endtab %}
 
 {% tab title="Details" %}
 
-| Level | Base Atk | Energy Recharge% |
+| Level | Base ATK | Energy Recharge% |
 | :--- | :--- | :--- |
 | 60 | 293 | 45.1 |
 | 60+ | 319 | 45.1 |
@@ -536,7 +575,7 @@
 
 {% tab title="Details" %}
 
-| Level | Base Atk | CRIT Rate% |
+| Level | Base ATK | CRIT Rate% |
 | :--- | :--- | :--- |
 | 60 | 327 | 20.3 |
 | 60+ | 353 | 20.3 |
@@ -567,7 +606,7 @@
 
 {% tab title="Details" %}
 
-| Level | Base Atk | ATK% |
+| Level | Base ATK | ATK% |
 | :--- | :--- | :--- |
 | 60 | 327 | 30.4 |
 | 60+ | 353 | 30.4 |
@@ -602,7 +641,7 @@
 
 {% tab title="Details" %}
 
-| Level | Base Atk | ATK% |
+| Level | Base ATK | ATK% |
 | :--- | :--- | :--- |
 | 60 | 263 | 25.9 |
 | 60+ | 282 | 25.9 |
@@ -614,6 +653,37 @@
 | 80+ | 375 | 32.1 |
 | 85 | 388 | 33.6 |
 | 90 | 401 | 35.2 |
+{% endtab %}
+{% endtabs %}
+
+### Dark Iron Sword
+
+{% tabs %}
+{% tab title="Description" %}
+
+| Attribute | Description |
+| :--- | :--- |
+| Overloaded | Upon causing an Overloaded, Superconduct, Electro-Charged, or an Electro-infused Swirl reaction, ATK is increased by 20% for 12s. |
+| Base ATK | 39 - 401 |
+| Elemental Mastery | 31 - 141 |
+
+* Can only be obtained from Chen the Sharp in Liyue Harbor.
+{% endtab %}
+
+{% tab title="Details" %}
+
+| Level | Base ATK | Elemental Mastery |
+| :--- | :--- | :--- |
+| 60 | 263 | 104 |
+| 60+ | 282 | 104 |
+| 65 | 296 | 110 |
+| 70 | 309 | 116 |
+| 70+ | 329 | 116 |
+| 75 | 342 | 122 |
+| 80 | 355 | 122 |
+| 80+ | 375 | 128 |
+| 85 | 388 | 134 |
+| 90 | 401 | 141 |
 {% endtab %}
 {% endtabs %}
 
@@ -631,7 +701,7 @@
 
 {% tab title="Details" %}
 
-| Level | Base Atk | ATK% |
+| Level | Base ATK | ATK% |
 | :--- | :--- | :--- |
 | 60 | 263 | 25.9 |
 | 60+ | 282 | 25.9 |
@@ -660,7 +730,7 @@
 
 {% tab title="Details" %}
 
-| Level | Base Atk | CRIT DMG% |
+| Level | Base ATK | CRIT DMG% |
 | :--- | :--- | :--- |
 | 60 | 263 | 34.5 |
 | 60+ | 282 | 34.5 |
@@ -689,7 +759,7 @@
 
 {% tab title="Details" %}
 
-| Level | Base Atk | Energy Recharge% |
+| Level | Base ATK | Energy Recharge% |
 | :--- | :--- | :--- |
 | 60 | 234 | 38.3 |
 | 60+ | 253 | 38.3 |
@@ -714,11 +784,13 @@
 | Journey | Each Elemental Orb or Particle collected restores **1/1.25/1.5/1.75/2**% HP. |
 | Base ATK | 40 - 448 |
 | DEF% | 6.4% - 27.5% |
+
+* HP restored is affected by Healing Bonus and Incoming Healing Bonus - [Daibangden#8410](/evidence/equipment/weapons.md#weapons-and-heals)
 {% endtab %}
 
 {% tab title="Details" %}
 
-| Level | Base Atk | DEF% |
+| Level | Base ATK | DEF% |
 | :--- | :--- | :--- |
 | 60 | 292 | 21.6 |
 | 60+ | 311 | 21.6 |

@@ -32,33 +32,31 @@ description: A maid who faithfully serves the Knights of Favonius. She dreams of
 **Normal Attacks**  
 Perform up to 4 consecutive strikes.
 
-| String | Talent 6% | Frames | MV/s |
-| :--- | :--- | :--- | :--- |
-| 1-Hit | 115% | 28 | 246%/s |
-| 2-Hit | 106.63% | 70 | 189%/s |
-| 3-Hit | 125.38% | 116 | 179%/s |
-| 4-Hit | 164.88% | 174 | 176%/s |
+| String | Talent 9% | Frames | MV/s | Poise Damage \(no Q/with Q\) | Impulse Type |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1-Hit | 145.36% | 28 | 311.49%/s | 105.8 / 132.25 | 3 |
+| 2-Hit | 134.77% | 70 | 240.11%/s | 98.1 / 122.82 | 3 |
+| 3-Hit | 158.47% | 116 | 226.86%/s | 115.34 / 144.87 | 3 |
+| 4-Hit | 208.4% | 174 | 223.1%/s | 151.68 / 189.75 | 6 |
 
 Optimal damage is a 4-hit cancel when hitting all targets or 3-hit cancel when the fourth hit won't hit all enemies.
 
 **Charged Attack**  
 Noelle consumes 40 stamina a second to keep spinning. At the end, perform a more powerful slash.
 
-| String | Talent 6% | Frames | MV/s |
-| :--- | :--- | :--- | :--- |
-| Spin | 73.75% | 311 | 142%/s |
-| Final hit | 131.5% | 40 | 148%/s |
-
-Enemies struck by Noelle's charged attack will be staggered or launched.
+| String | Talent 9% | Frames | MV/s | Poise Damage | Impulse Type |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Spinning DMG | 93.22% | 311 | 179.85%/s | 60 | 3 |
+| Final Attack DMG | 166.22% | 40 | 187.76%/s | 120 | 6 |
 
 **Plunge**  
 Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.
 
-| Damage Type | Talent 6% |
-| :--- | :--- |
-| Plunge Impact | 108.41% |
-| Low Plunge DMG | 216.78% |
-| High Plunge DMG | 270.77% |
+| Damage Type | Talent 9% | Poise Damage | Impulse Type |
+| :--- | :--- | :--- | :--- |
+| Plunge DMG | 137.03% | 35 | 2 |
+| Low Plunge DMG | 274.01% | 150 | 4 |
+| High Plunge DMG | 342.25% | 200 | 7 |
 
 Noelle is able to perform dragonstrike, but because of her model, it's difficult to perform by hand without movement speed buffs. However, the characters that increase movement speed do not synergize well with Noelle in normal play. Performing dragonstrike on Noelle via N1 + plunge nets on average, about a 27% increase in DPS compared to N3D.
 
@@ -75,7 +73,7 @@ The amount of HP healed when regeneration is triggered scales based on Noelle's 
 
 | Attribute | Skill |
 | :--- | :--- |
-| Skill DMG \(T6%\) | 168% DEF |
+| Skill DMG \(T9%\) | 204% DEF |
 | Particles | 0 \(-\) | 
 | Frames | - |
 | GU | 2U |
@@ -85,11 +83,14 @@ The amount of HP healed when regeneration is triggered scales based on Noelle's 
 | Damage Type | Skill |
 | Duration | 12s |
 | CD | 24s |
+| Poise Damage | 100 |
+| Impulse Type | 3 |
 
 | Attribute | Shield | 
 | :--- | :--- |
-| Base Scaling | 224% DEF + 1219 | 
-| Healing Chance | 55% |
+| Base Scaling \(T9%\) | 272% DEF + 1565 | 
+| Healing Chance | 58% |
+| Healing Scaling \(T9%\) | 36.18% DEF + 209 |
 | Elemental Type | Geo | 
 | Duration | 12s |
 
@@ -110,10 +111,12 @@ Afterwards, Noelle gains the following effects:
 
 | Attribute | Burst |
 | :--- | :--- |
-| Burst DMG (T6%) | 94.08% |
-| Skill DMG (T6%) | 129.925 |
-| ATK Bonus (T6%) | 56% DEF |
-| Frames | 111 |
+| Burst DMG (T9%) | 114.24% |
+| Skill DMG (T9%) | 157.76% |
+| ATK Bonus (T9%) | 68% DEF |
+| Cast Frames | 111 |
+| Energy Frame | 8 |
+| CD Frame | 2 |
 | GU | 1U |
 | ICD | 3 hit / 2.5s | 
 | Snapshot | Dynamic | 
@@ -121,6 +124,8 @@ Afterwards, Noelle gains the following effects:
 | Damage Type | Burst  |
 | Duration | 15s |
 | CD | 15s |
+| Poise Damage | 150 |
+| Impulse Type | 4 |
 
 **Notes**
 * Noelle's infused Normal and Charged Attacks apply 1GU and have standard 3 hit / 2.5s ICD.
@@ -134,7 +139,7 @@ Afterwards, Noelle gains the following effects:
 
 {% tabs %}
 {% tab title="Passive" %}
-### **Maid’s Knighthood**
+### **Maid's Knighthood**
 
 When a Perfect Cooking is achieved on a DEF-boosting dish, Noelle has a 12% chance to obtain double the product.
 {% endtab %}
@@ -142,9 +147,9 @@ When a Perfect Cooking is achieved on a DEF-boosting dish, Noelle has a 12% chan
 {% tab title="Ascension 1" %}
 ### **Devotion**
 
-When Noelle is in the party but not on field, this ability triggers automatically when your active character’s HP falls below 30%:  
-Creates a shield for your active character that lasts 20s and absorbs DMG equal to 400% of Noelle’s DEF.  
-This shield has a 150% DMG absorption effectiveness against all damage.  
+When Noelle is in the party but not on the field, this ability triggers automatically when your active character's HP falls below 30%:
+Creates a shield for your active character that lasts for 20s and absorbs DMG equal to 400% of Noelle's DEF.  
+The shield has a 150% DMG Absorption effectiveness against all Elemental and Physical DMG.  
 This effect can only occur once every 60s.
 
 | Attribute | Shield | 
@@ -159,7 +164,8 @@ This effect can only occur once every 60s.
 {% tab title="Ascension 4" %}
 ### **Nice and Clean**
 
-Every 4 Normal Attack or Charged Attack hits will decrease the CD of **Breastplate** by 1s.
+Noelle will decrease the CD of **Breastplate** by 1s for every 4 Normal or Charged Attack hits she scores on opponents.
+One hit may be counted every 0.1s.
 
 * Hitting multiple opponents with a single attack is only counted as one hit.
 {% endtab %}
@@ -171,13 +177,14 @@ Every 4 Normal Attack or Charged Attack hits will decrease the CD of **Breastpla
 {% tab title="C1" %}
 ### **I Got Your Back**
 
-While **Sweeping Time** and **Breastplate** are both in effect, the chance of Breastplate’s healing effects activating are increased to 100%.
+While **Sweeping Time** and **Breastplate** are both in effect, the chance of Breastplate's healing effects activating is increased to 100%.
+
 {% endtab %}
 
 {% tab title="C2" %}
 ### **Combat Maid**
 
-Decreases the Stamina Consumption of Noelle’s Charged Attacks by 20% and increases her Charged Attack DMG by 15%.
+Decreases the Stamina Consumption of Noelle's Charged Attacks by 20% and increases her Charged Attack DMG by 15%.
 
 * This is an additive DMG% bonus.
 
@@ -186,14 +193,15 @@ Decreases the Stamina Consumption of Noelle’s Charged Attacks by 20% and incre
 {% tab title="C3" %}
 ### **Invulnerable Maid**
 
-Increases the Level of **Breastplate** by 3.  
+Increases the Level of **Breastplate** by 3.
 Maximum upgrade level is 15.
+
 {% endtab %}
 
 {% tab title="C4" %}
 ### **To Be Cleaned**
 
-When **Breastplate**’s duration expires or it is destroyed, it will deal 400% ATK of Geo DMG to surrounding opponents.
+When **Breastplate**'s duration expires or it is destroyed by DMG, it will deal 400% ATK of **Geo DMG** to surrounding opponents.
 
 | Attribute | C4 |
 | :--- | :--- |
@@ -212,15 +220,16 @@ When **Breastplate**’s duration expires or it is destroyed, it will deal 400% 
 {% tab title="C5" %}
 ### **Favonius Sweeper Master**
 
-Increases the Level of **Sweeping Time** by 3.  
+Increases the Level of **Sweeping Time** by 3.
 Maximum upgrade level is 15.
+
 {% endtab %}
 
 {% tab title="C6" %}
 ### **Must Be Spotless**
 
-**Sweeping Time** increases Noelle’s ATK by an additional 50% of her DEF.  
-Additionally, every opponent defeated during the skill’s duration adds 1s to the duration, up to 10s.
+**Sweeping Time** increases Noelle's ATK by an additional 50% of her DEF.  
+Additionally, every opponent defeated during the skill's duration adds 1s to the duration, up to 10s.
 
 **Notes**
 * Noelle can extend her burst duration at C6 to maximum by being off field at the time it is supposed to expire
@@ -232,59 +241,64 @@ Additionally, every opponent defeated during the skill’s duration adds 1s to t
 ## **Full Talent Values**
 
 {% tabs %}
-{% tab title="Favonious Bladework - Maid" %}
+{% tab title="Favonius Bladework - Maid" %}
 ### Normal Attacks
 
-|  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1-Hit DMG | 115% | 125.12% | 135.24% | 145.36% | 156.40% | 167.44% |
-| 2-Hit DMG | 106.63% | 116.01% | 125.39% | 134.77% | 145.01% | 155.25% |
-| 3-Hit DMG | 125.38% | 136.41% | 147.44% | 158.47% | 170.51% | 182.55% |
-| 4-hit DMG | 164.88% | 179.38% | 193.89% | 208.40% | 224.23% | 240.06% |
+|  | Lv1 | Lv2 | Lv3 | Lv4 | Lv5 | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 1-Hit DMG | 79.12% | 85.56% | 92.00% | 101.20% | 107.64% | 115.00% | 125.12% | 135.24% | 145.36% | 156.40% | 167.44% |
+| 2-Hit DMG | 73.36% | 79.33% | 85.30% | 93.83% | 99.80% | 106.62% | 116.01% | 125.39% | 134.77% | 145.01% | 155.25% |
+| 3-Hit DMG | 86.26% | 93.28% | 100.30% | 110.33% | 117.35% | 125.37% | 136.41% | 147.44% | 158.47% | 170.51% | 182.55% |
+| 4-Hit DMG | 113.43% | 122.67% | 131.90% | 145.09% | 154.32% | 164.87% | 179.38% | 193.89% | 208.40% | 224.23% | 240.06% |
 
 ### Charged Attack
 
-|  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Charged Attack Spinning DMG | 73.75% | 80.24% | 86.73% | 93.22% | 100.30% | 107.38% |
-| Charged Attack Final DMG | 131.50% | 143.07% | 154.64% | 166.22% | 178.84% | 191.46% |
+|  | Lv1 | Lv2 | Lv3 | Lv4 | Lv5 | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Charged Attack Spinning DMG | 50.74% | 54.87% | 59.00% | 64.90% | 69.03% | 73.75% | 80.24% | 86.73% | 93.22% | 100.30% | 107.38% |
+| Charged Attack Final DMG | 90.47% | 97.84% | 105.20% | 115.72% | 123.08% | 131.50% | 143.07% | 154.64% | 166.22% | 178.84% | 191.46% |
 
-**Maximum Duration**: 40  
-**Stamina Cost**: 5
+**Stamina Cost**: 40/s  
+**Max Duration**: 5s
 
 ### Plunge
 
-|  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Plunge DMG | 108.41% | 117.95% | 127.49% | 137.03% | 147.44% | 157.85% |
-| Low Plunge DMG | 216.78% | 235.86% | 254.93% | 274.01% | 294.82% | 315.63% |
-| High Plunge DMG | 270.77% | 294.60% | 318.42% | 342.25% | 368.25% | 394.24% |
+|  | Lv1 | Lv2 | Lv3 | Lv4 | Lv5 | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Plunge DMG | 74.59% | 80.66% | 86.73% | 95.40% | 101.47% | 108.41% | 117.95% | 127.49% | 137.03% | 147.44% | 157.85% |
+| Low Plunge DMG | 149.14% | 161.28% | 173.42% | 190.77% | 202.91% | 216.78% | 235.86% | 254.93% | 274.01% | 294.82% | 315.63% |
+| High Plunge DMG | 186.29% | 201.45% | 216.62% | 238.28% | 253.44% | 270.77% | 294.60% | 318.42% | 342.25% | 368.25% | 394.24% |
+
 {% endtab %}
 
 {% tab title="Breastplate" %}
-|  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 | Lv12 | Lv13 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Skill DMG | 168% DEF | 180% DEF | 192% DEF | 204% DEF | 216% DEF | 228% DEF | 240% DEF | 255% DEF |
-| DMG Absorption Scaling | 224% DEF | 240% DEF | 256% DEF | 272% DEF | 288% DEF | 304% DEF | 320% DEF | 340% DEF |
-| DMG Absorption Additive | 1219 | 1328 | 1443 | 1565 | 1694 | 1828 | 1970 | 2117 |
-| Healing Scaling | 29.79% DEF | 31.92% DEF | 34.05% DEF | 36.18% DEF | 38.3% DEF | 40.43% DEF | 42.56% DEF | 45.22% DEF |
-| Healing Additive | 163 | 177 | 193 | 209 | 226 | 244 | 263 | 282 |
-| Healing Triggering Chance | 55% | 56% | 57% | 58% | 59% | 59% | 60% | 60% |
+
+|  | Lv1 | Lv2 | Lv3 | Lv4 | Lv5 | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 | Lv12 | Lv13 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Skill DMG | 120% DEF | 129% DEF | 138% DEF | 150% DEF | 159% DEF | 168% DEF | 180% DEF | 192% DEF | 204% DEF | 216% DEF | 228% DEF | 240% DEF | 255% DEF |
+| DMG Absorption Scaling | 160% DEF | 172% DEF | 184% DEF | 200% DEF | 212% DEF | 224% DEF | 240% DEF | 256% DEF | 272% DEF | 288% DEF | 304% DEF | 320% DEF | 340% DEF |
+| DMG Absorption Additive | 770 | 847 | 930 | 1020 | 1116 | 1219 | 1328 | 1443 | 1565 | 1694 | 1828 | 1970 | 2117 |
+| Healing Scaling | 21.28% DEF | 22.88% DEF | 24.47% DEF | 26.60% DEF | 28.20% DEF | 29.79% DEF | 31.92% DEF | 34.05% DEF | 36.18% DEF | 38.30% DEF | 40.43% DEF | 42.56% DEF | 45.22% DEF |
+| Healing Additive | 103 | 113 | 124 | 136 | 149 | 163 | 177 | 193 | 209 | 226 | 244 | 263 | 282 |
+| Healing Triggering Chance | 50% | 51% | 52% | 53% | 54% | 55% | 56% | 57% | 58% | 59% | 59% | 60% | 60% |
 
 **Duration**: 12s  
 **Cooldown**: 24s
+
 {% endtab %}
 
 {% tab title="Sweeping Time" %}
-|  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 | Lv12 | Lv13 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Burst DMG | 94.08% | 100.80% | 107.52% | 114.24% | 120.96% | 127.68% | 134.40% | 142.80% |
-| Skill DMG | 129.92% | 139.20% | 148.48% | 157.76% | 167.04% | 176.32% | 185.60% | 197.20% |
-| ATK Bonus | 56% DEF | 60% DEF| 64% DEF | 68% DEF | 72% DEF | 76% DEF | 80% DEF | 85% DEF |
 
-**Energy Cost**: 60  
+|  | Lv1 | Lv2 | Lv3 | Lv4 | Lv5 | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 | Lv12 | Lv13 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Burst DMG | 67.20% | 72.24% | 77.28% | 84.00% | 89.04% | 94.08% | 100.80% | 107.52% | 114.24% | 120.96% | 127.68% | 134.40% | 142.80% |
+| Skill DMG | 92.80% | 99.76% | 106.72% | 116.00% | 122.96% | 129.92% | 139.20% | 148.48% | 157.76% | 167.04% | 176.32% | 185.60% | 197.20% |
+| ATK Bonus | 40.00% DEF | 43.00% DEF | 46.00% DEF | 50.00% DEF | 53.00% DEF | 56.00% DEF | 60.00% DEF | 64.00% DEF | 68.00% DEF | 72.00% DEF | 76.00% DEF | 80.00% DEF | 85.00% DEF |
+
 **Duration**: 15s  
-**Cooldown**: 15s
+**Cooldown**: 15s  
+**Energy Cost**: 60
+
 {% endtab %}
 {% endtabs %}
 

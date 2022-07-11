@@ -13,7 +13,7 @@ search: false
 ### Interrupting Enemies Causes Phantom Attacks
 
 **By:** Iron IV\#3832  
-**Added:** 6/14/2021  
+**Added:** 2021-06-14  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/849182058525229056/854018708397752332/transcript-interrupting-enemies-causes-phantom-attacks.html)
 
 **Bug:**  
@@ -21,8 +21,8 @@ Interrupting enemies during an attack can cause them to produce phantom attacks,
 
 **Evidence:**
 
-* <https://youtu.be/SVo7ZOlVnEw>
-* <https://youtu.be/O_ciBM2wgZE>
+* [Video 1](https://youtu.be/SVo7ZOlVnEw)
+* [Video 2](https://youtu.be/O_ciBM2wgZE)
 
 **Significance:**  
 Watch out for enemy attacks if they were interrupted.
@@ -30,7 +30,7 @@ Watch out for enemy attacks if they were interrupted.
 ### Enemies Actually Burrow
 
 **By:** Asaki\#9139, ShampooBrain\#9583, and MeCrush14\#2271  
-**Added:** 12/21/2021  
+**Added:** 2021-12-21  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/920541455452340284/923102157065056346/transcript-enemies-actually-burrow.html)  
 
 **Finding:**  
@@ -116,12 +116,94 @@ Characters’ marks \(Riptide, Talisman, Blood Blossom, etc.\) show that some en
 
 4. Geovishap Hatchlings are confirmed to be enemies from hell or purgatory or something. 
 
+### Marks And Statuses
+**By:** Asaki#9139  
+**Added:** 2022-01-27  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/930683788307087360/936213305717035038/transcript-marks-and-statuses.html)
+
+**Finding:**  
+The visual indicator of the Conductive status does not behave similar to character-produced marks.
+
+**Evidence:**   
+[Imgur](https://imgur.com/a/QVQfrHQ)  
+Lisa’s Conductive mark did not travel down to purgatory along with the Geovishap Hatchling while character-produced marks do burrow with them, as seen in [Enemy Actually Burrow](enemy-interactions.md#enemy-actually-burrow)  
+
+**Significance:**  
+This may or may not imply that Marks & Statuses are different, in that the visual indicator of character-produced statuses (Implode, Conductive, etc.) does not behave similar to character-produced marks (Riptide, Blood Blossom, etc.)  
+Further testing should be done on the Implode status (Xiangling C2) but that requires strict timing to determine whether the trend is probable.
+
+### De-Aggro Distances  
+**By:** ep1k\#3678  
+**Added:** 2022-01-27  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/927244617441751060/936434058165121114/transcript-de-aggro-distances-vary-among-enemies.html)  
+
+**Theory:**  
+The de-aggro distance for Overworld enemies differs between them and is not a specific number, but rather a range from their spawn.  
+
+**Evidence:**  
+The distances are calculated using all 3 axis of the Genshin coordinate system from [this Vault Entry](https://library.keqingmains.com/evidence/general-mechanics/overworld#coordinates).  
+Testing method: [Video](https://youtu.be/fkoYcMKGYNg)  
+1. Use the Adventure Handbook to identify enemy spawn.  
+2. Get coordinates of the spawn location.  
+3. Take note of the location at which the enemy de-aggros (involves stopping to attack and going back to spawn).  
+4. Get coordinates of the current location.  
+
+Distances: [Images](https://imgur.com/a/I2EZ2Lw)  
+Summary: [Google Sheet](https://docs.google.com/spreadsheets/d/1s_A_RhVCkLn07XMWDMNMylLiJqhDERxAETmksI7B2Jg/edit#gid=1378246326)  
+
+**Significance:**  
+Insight into the behavior and mechanics of enemies in the Overworld.  
+
+### Elemental Reactions Effects on Buried Dendro Slime
+
+**By:** Pablos\#1142  
+**Added:** 2022-05-12  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/974471796734705694/transcript-elemental-reactions-effects-on-buried-dendro-slime.html)  
+
+**Finding:**  
+Underground Dendro Slimes don't take damage from non-Pyro based Elemental Reactions. Those Reactions still occur and effects associated with them like Viridescent Venerer debuff, Superconduct debuff, Frozen and Crystallize still apply.  
+
+**Evidence:**  
+* [Frozen, Superconduct, Electro-Charged](https://imgur.com/a/pZprbk9) 
+* [Crystallize](https://imgur.com/a/5BlntzD) 
+* [Shatter (Geo and Claymore)](https://imgur.com/a/camZM7r) 
+* [Superconduct debuff](https://youtu.be/vm-OJXWH1K4) by Puffin#9920 
+* [VV debuff](https://imgur.com/a/9QyUkYN)
+
+Significance: Documentation of enemy mechanics.  
+
+### Some Enemy CC is Level Dependent
+
+**By:** elijam\#7142  
+**Added:** 2022-05-12  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/974425599466668032/transcript-some-enemy-cc-is-level-dependent.html)  
+
+**Finding:**  
+Some enemy CC, notably Hydro bubbles from large Slimes, enemy aura disorders, and Abyss Mages, and Cryo ice cages from enemy aura disorders, do not apply to characters over 20 levels higher than the enemy. Some CC, notably succ from Anemo Samachurls, Mirror Maiden Traps, and Dendro barriers, apply regardless of character and enemy level.  
+
+**Evidence:**  
+Level dependent \(Xiao/Sucrose/Kazuha Lvl. 90 free, Fischl/Yun Jin Lvl. 70/40 trapped\):  
+* [Hydro Slime (bubble)](https://youtu.be/9X1Sjo7FN2w)
+* [Hydro Abyss Mage (bubble)](https://youtu.be/P_AuTXI9sPU)
+* [Cryo Slime (cage)](https://youtu.be/lBCfvE42-KQ)
+
+Level independent \(Sucrose Lvl. 90 trapped or affected, Yun Jin Lvl. 40 trapped or affected\):  
+* [Mirror Maide (cage)](https://youtu.be/TEjsBpsv3GM)
+* [Dendro Samachurl (vine)](https://youtu.be/pH4oe-BI3JE)
+* [Anemo Samachurl (tornado)](https://youtu.be/tXuW6ISx5Sk)
+
+20 levels higher:
+* [19, 20, and 21 level difference](https://youtu.be/RVpgOohc2ic)
+
+**Significance:**  
+Even more Ws for when you're absolutely carrying your low AR friends. Maybe helpful for revisiting lower Abyss floors when achievement grinding.  
+
 ## General Boss Interactions
 
 ### Freeze Interaction on Boss Enemies
 
 **By:** Yukarix\#6534  
-**Added:** 5/11/2021  
+**Added:** 2021-05-11  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/840784074842046504/841877418103799808/transcript-freeze-interaction-on-boss-entities.html)
 
 **Finding:**  
@@ -137,7 +219,7 @@ Freeze teams and melt/vape teams that function off the freeze aura will perform 
 ### Weekly Boss Animation Skipping
 
 **By:** yolitme0\#0579 and BowTae\#0141  
-**Added:** 12/16/2021  
+**Added:** 2021-12-16  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/905296096794902578/920219066747203654/transcript-boss-animations-can-be-cancelled-by-swapping.html)  
 
 **Finding:**  
@@ -175,7 +257,7 @@ This may assist in shortening the time required to kill weekly bosses, as well a
 #### How to skip Phase 2 transformation
 
 **By:** Baezal\#0868  
-**Added:** 12/22/2020  
+**Added:** 2020-12-22  
 
 **Finding:**  
 Andrius wolf boss Phase 2 HP cut-off is at 60% - HOWEVER, Andrius will keep staying in Phase 1 if you manage to burst him down below 30%.  
@@ -193,7 +275,7 @@ If you dread Andrius phase 2 and you have the ability to skip it, now you can do
 #### Azhdaha in his Tail Form has Two Independent Hitboxes
 
 **By:** ArchedNosi\#1484  
-**Added:** 10/09/2021  
+**Added:** 2021-10-09  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/891904835862020127/896133877683351662/transcript-azhdaha-has-two-independent-hitboxes.html)
 
 **Finding:**  
@@ -208,7 +290,7 @@ Abilities that have large verticality and the property of being able to tag mult
 
 #### Azhdaha's Element Is The Same For All Regions
 **By:** xSil3nt\#0961  
-**Added:** 1/13/2022  
+**Added:** 2022-01-13  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/924709157163122729/931057558175748157/transcript-azhdaha-elements-same-for-all-regions.html)
 
 **Finding:**  
@@ -222,12 +304,31 @@ Data was collected using google forms, all submissions were checked with the scr
 **Significance:**  
 Co-op cannot be used to have a more favorable/easier elemental matchup against azhdaha as the his infused elements in a given week are the same for all players.
 
+### La Signora
+
+#### You can't melt signora off field
+
+**By:** Puffin\#9920  
+**Added:** 2022-04-04  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/960711833520570378/transcript-you-cant-melt-signora-from-off-field.html)
+
+**Finding:**  
+When Signora is in her ice cocoon phase, the character dealing damage must be on-field for the Crimson Lotus Moth's effect to melt Signora's cocoon.
+
+**Evidence:**  
+Shown here with Xiangling (Guoba) and Fischl (Oz): [YouTube](https://www.youtube.com/watch?v=8vw8IF845A0)  
+Shown here with Kaeya burst: [YouTube](https://youtu.be/MpfNRduI1Ig)  
+Shown here with Zhongli Pillar: [YouTube](https://youtu.be/HrjIBJ52od0)
+
+**Significance:**  
+Better understanding of La Signora's Crimson Lotus Moth mechanic.
+
 ### Stormterror  
 
 #### Stormterror DoT Damage Cap
 
 **By:** ᗪᗩᖇᛕ ᕼᗴᖇᗩᒪᗪ\#0209  
-**Added:** 11/5/2021  
+**Added:** 2021-11-05  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/904754824304787466/906425965872291860/transcript-the-dmg-increase-dvalins-dot-does-will-eventually-stop-increasing.html)  
 
 **Finding:**  
@@ -251,12 +352,46 @@ Stormterror's DoT floor attack has a damage cap. The damage is not based on the 
 **Significance:**  
 Better understanding of Dvalin's DoT attack and how it calculates damage.
 
+### The Shogun / Magatsu Mitake Narukami no Mikoto
+
+#### Raiden Boss Oneshot Mechanics
+**By:** Luno\#1337, Trosalio\#0420, and addicted2reading\#7262  
+**Added:** 2022-05-22  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/978118765076156416/transcript-raiden-boss-oneshot-mechanics.html)
+
+**Finding &amp; Evidence:**  
+Oneshot ignores shields - [YouTube](https://youtu.be/P77v66oXhfg)  
+Oneshot can not be parried - [YouTube](https://youtu.be/v9RGPc2ka7I)  
+Oneshot can not be dash i-framed - [YouTube #1](https://youtu.be/N2CxwCyj_0E), [YouTube #2](https://youtu.be/MeHqO7vBNRo), [YouTube #3](https://youtu.be/zDV-d6j7k0s)  
+Oneshot can be burst I-framed - [YouTube](https://youtu.be/wD7pgFGhPvc)  
+100% damage reduction does not reduce damage taken by oneshot - [YouTube](https://www.youtube.com/watch?v=gd_DmaXBE_I)  
+Some skills with I-frames can dodge the oneshot (mona hold E) - [YouTube](https://youtu.be/Ht_yDNwAihQ)  
+Taunts can not be marked by oneshot - [YouTube](https://youtu.be/r4Wwpv6XFYE)  
+Unmarked oneshot damage can be absorbed by shields - [YouTube](https://youtu.be/Iz6P-7AZRp4)  
+Marked target is not affected by Proximity - [YouTube #1](https://youtu.be/SBQ95dMyNtA), [YouTube #2](https://youtu.be/giHeChuMfoY), [YouTube #3](https://youtu.be/5VuGjdqyqh0)  
+Marked target for oneshot seems to be based on number of hits or amount of damage done to Shogun in some timeframe (more testing needed) - [YouTube #1](https://youtu.be/Fm5JplQqXX8), [YouTube #2](https://youtu.be/CjNrzmnhCXA), [YouTube #3](https://youtu.be/b1Oa5r3mZ6Y)  
+Taunts do not sustain damage from the oneshot - [YouTube](https://youtu.be/Yim5xJQOMYw)  
+Oneshot can be burst I-framed - [YouTube #1](https://youtu.be/vWNEixVX0CM), [YouTube #2](https://youtu.be/HHfmRlAXgoo)  
+Always does a fixed 1 damage to targets in bubble shield - [YouTube](https://youtu.be/giHeChuMfoY)  
+Damage does *not* ignore shields when in bubble shield - [YouTube](https://youtu.be/G3CWmzznhlM)  
+Parry instance gets staggered mid-animation, but shield prevents fixed 1 damage - [YouTube](https://youtu.be/RXzvG3WSvro)  
+Dash I-frame in bubble shield does not prevent fixed 1 damage - [YouTube #1](https://youtu.be/elO4so9SK9E), [YouTube #2](https://youtu.be/pC7qTs_azx4)  
+Bubble shield must be triggered before oneshot slash animation - [YouTube](https://youtu.be/S1JSJT05kWY)  
+
+**Significance:**  
+The person who gets marked is not rng and is instead based on either number of hits or damage contribution in a non-specified set of time. Requires more testing.  
+On marked targets, the usage of shields, taunts, parries, damage reduction, and dashes will not prevent/reduce oneshot damage. Other forms of invincibility frames from both bursts and skills can prevent oneshot damage.  
+On other unmarked co-op targets, a shield does help absorb oneshot damage.  
+Inside the bubble barrier, the fixed 1 damage makes 1hp runs hard or impossible on some characters.  
+The oneshot in and out of shield share different mechanics. Parries will not work but the shields created can absorb the “1” damage taken.  
+Other evidence suggests that dash invincibility frames either do not work at all against Raiden boss oneshot, or are not animation dependant.  
+
 ## Overworld Bosses
 
 ### Anemo Hypostasis
 #### Anemo Hypostasis self-Swirl in rain
 **By:** CrazyWeke123\#9720  
-**Added:** 12/21/2021  
+**Added:** 2021-12-21  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/921660671836438558/922624867973619802/transcript-anemo-cube-self-swirl-in-rain.html)  
 
 **Finding:** Adequately getting rid of overworld Hydro on the Anemo Hypostasis results in it continuously Swirling itself, this damages the cube and applies Hydro to nearby characters. This can be easily done with 2U Cryo application, as seen in the evidence. Non-sufficent Cryo application does not result in this occcuring.  
@@ -280,7 +415,7 @@ Better understanding of Dvalin's DoT attack and how it calculates damage.
 #### Pyronado and Cryo Regisvine Hurtbox Interaction  
 
 **By:** CQLQRS\#7853  
-**Added:** 10/30/2021  
+**Added:** 2021-10-30  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/902502466942287892/903460815556984862/transcript-xl-cryo-regisvine-pepega.html)  
 
 **Finding:**  
@@ -303,7 +438,7 @@ Genshin spaghetti at its finest.
 #### Geo Traveler's E can break Geo Hypostasis Pillar  
 
 **By:** TarZ\#6365  
-**Added:** 17/10/2021  
+**Added:** 2021-10-17  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/897646550963093554/898812202541281320/transcript-geo-mc-boulder-can-break-pillar-and-cause-hammer-attack-to-occur-with-geo-hypostasis.html)  
 
 **Finding:**  
@@ -319,7 +454,7 @@ This speeds up the fight by making the Geo Hypostasis vulnerable, without having
 
 #### Rifthound Skulls Charging
 **By:** EtoPashka\#0690  
-**Added:** 1/13/2022  
+**Added:** 2022-01-13  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/908382648710348840/931069122559766528/transcript-resistances-and-elem-obj-durability-table.html)
 
 **Finding:**  
@@ -336,7 +471,7 @@ For those that enjoy suffering.
 #### Maguu Kenki Hitlag Audio Desync
 
 **By:** Santoryu\#4495  
-**Added:** 12/14/2021  
+**Added:** 2021-12-14  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/904928198888939550/920204559543042058/transcript-kenkis-attacks-are-affected-by-hitlag.html)  
 
 **Finding:**  
@@ -348,12 +483,28 @@ Kenki's Attacks can be desynced from the Audio Cue present with his slashes, and
 **Significance:**  
 This makes it way harder to dodge because the Audio Cue is now early, tricking the player into dodging early. In addition, the Clone Attack will also be faster than the Kenki Attack, resulting in an almost impossible to dodge attack since both Slashes are at different timings and the sprint i-frame is not long enough.  
 
+#### Maguu Kenki Phase Change HP Threshold Update
+
+**By:** Mr. Pillow\#0065  
+**Added:** 2022-04-16  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/964937426567061554/transcript-mango-kenki-phase-change-hp-treshold-update.html)  
+
+**Finding:**  
+Maguu Kenki's 2nd phase doesn't start at 75% HP, but at 70%.  
+
+**Evidence:**  
+[YouTube](https://youtu.be/ha2SvAc3YoY) - Maguu Kenki HP (lvl. 91, WL7) is 498640 according to the Genshin Impact Mob HP and Particle Threshold Database. In the video, Itto deals 55766 + 55766 + 19044 = 130576 total DMG, which translates to 26.2% of Maguu Kenki's total HP. Yet, the boss doesn't shift phases before more dmg is dealt, proving that the current threshold is incorrect. This is further supported by the fact that Maguu Kenki releases a Clear Orb at 75% HP in the video, but doesn't change phases then.  
+[Imgur](https://imgur.com/a/aUEjWE0) - The correct threshold calculations: Looking at the HP bar, we see that the boss changes phases at approximately 713/1012 = 70.5% HP according to the attached image. In-game, the threshold is most likely exactly 70%.  
+
+**Significance:**  
+Updating the boss info.  
+
 ### Perpetual Mechanical Array  
 
 #### PMA and Polearm CA interactions  
 
 **By:** CQLQRS\#7853 and Akarin\#8270  
-**Added:** 31/10/2021  
+**Added:** 2021-10-31  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/897314204451762206/903464868055756850/transcript-perpetual-polearm-ca-hitbox.html)  
 
 **Finding:**  
@@ -370,10 +521,10 @@ If your main DPS relies on Charged Attacks for damage and has the bullet-like an
 
 ### Primo Geovishap
 
-#### Shield Reflection Mechanic
+#### Shield Reflection Mechanics
 
 **By:** Mcpie\#8672  
-**Added:** 6/25/2021  
+**Added:** 2021-06-25  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/846126762165272666/858192389344854067/transcript-shield-reflection-damage.html)
 
 **Finding:**  
@@ -435,13 +586,27 @@ Legend of the Vagabond Sword:
 **Significance:**  
 Might play a major role if at any point we'll have Primo Geovishaps inside the abyss and people will struggle with it.  
 
+#### Reflecting Primo Geovishap Shower can be Swap Cancelled
+**By:** yolitme0\#0579  
+**Added:** 2022-02-10  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/939977342724477008/941440886649270332/transcript-reflecting-primo-geovishap-shower-can-be-swap-cancelled.html)  
+
+**Finding:**  
+When attempting to reflect the Primo Geovishap's Primordial Shower with a shield, swapping at the right time can cause the shower attack to not be reflected.  
+
+**Evidence:**  
+[Video](https://youtu.be/sX5WStcOOjM)  
+
+**Singificance:**  
+Better understanding of the Primordial Shower.
+
 ## Elite Enemies
 ### Abyss Herald
 
 #### Abyss Herald Cooldown Mechanics
 
 **By:** Monado\#9922  
-**Added:** 6/4/2021  
+**Added:** 2021-06-04  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/836294244434968646/850588687544614992/transcript-abyss-herald-cooldown-mechanic.html)
 
 **Finding:**  
@@ -484,7 +649,7 @@ Better understanding of Abyss Herald mechanics, and which attacks in particular 
 #### Hydro Abyss Mage bubble persists on swap
 
 **By:** snorting salt\#3888  
-**Added:** 07/17/2021  
+**Added:** 2021-07-17  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/865014289025466392/865729755093008415/transcript-bubble-persists-on-swap.html)
 
 **Finding:**  
@@ -501,10 +666,44 @@ Dash iframes do not always work against the bubbles, especially for the abyss ma
 
 ### Rifthounds
 
-#### Corrosion Damage Mechanics
+#### Rifthound Knockdown Mechanics  
+
+**By:** Charisma\#5567  
+**Added:** 2022-01-27  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/931703610918731796/936429690812522496/transcript-rifthound-knockdown-ways.html)
+
+**Theory:**
+In order for an attack to knock down the rifthounds, the attack needs to apply a sufficient amount of vertical knock up.   
+
+**Findings:**  
+Rifthounds (big ones, not the whelps) can be forced into a state where they are prone or "knocked down". Here are the current interactions that consistently do so.  
+
+**Evidence:**  
+* Jean CA  
+   [Youtube](https://www.youtube.com/watch?v=fp-zPYJBDBk)  
+
+* Jean Hold E (Credits to Kolibri\#7675)  
+   *Note: Need to aim skill upwards.*  
+   [Youtube](https://youtu.be/4UxuWv0AzGs)  
+
+* Klee CA (Credits to pai\#3602)  
+   [Youtube](https://youtu.be/Zu83De-4sV4)  
+
+* Bennett Skill (Level 2-Hold)  
+   *Note: Hold E Level 1 will not work. (Shown in Video)*  
+   [Youtube](https://youtu.be/u1EDD74pHs8)  
+
+* Diluc Burst (Credits to Kolibri#7675)  
+   *Note: Only the final hit will work.*  
+   [Youtube](https://youtu.be/cT1HZcx5TW0)  
+
+**Significance:**  
+Better understanding of enemy interactions.  
+
+#### Corrosion Damage Mechanics  
 
 **By:** Dooners\#6709  
-**Added:** 10/17/2021  
+**Added:** 2021-10-17  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/898253461924249600/899178914545532958/transcript-corrosion-damage-mechanics.html)
 
 **Finding:**  
@@ -559,7 +758,7 @@ These values are total loss per stack, for damage per tick simply divide each nu
 #### Corrosion damage mechanics update
 
 **By:** Dooners\#6709  
-**Added:** 11/01/2021  
+**Added:** 2021-11-01  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/904216944394256414/904866160300933151/transcript-corrosion-update.html)
 
 **Finding:**  
@@ -580,7 +779,7 @@ Better understanding of Corrosion status.
 #### Mirror Maiden Mechanics
 
 **By:** Hatsuharufag\#4291  
-**Added:** 08/09/2021  
+**Added:** 2021-08-09  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/872854146838061086/874259494719324210/transcript-mirror-maiden-mechanics.html)
 
 **Finding:**  
@@ -610,7 +809,7 @@ Don't be an ape. Don't get hit by attacks with clear visual indication and clear
 #### Escape Mirror Maiden trap
 
 **By:** gengar\#8426  
-**Added:** 10/09/2021  
+**Added:** 2021-10-09  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/888324080648982558/896137220493299802/transcript-escape-mirror-maiden-trap.html)
 
 **Finding:**  
@@ -647,7 +846,7 @@ Helpful for Spiral Abyss floor 12.
 #### Standing on Geo MC E skill Restricts Mitachurls to Slime-Throwing Attacks Only  
 
 **By:** maxtrouble\#3719  
-**Added:** 12/19/2020  
+**Added:** 2020-12-19  
 
 **Finding:**  
 Standing on top of a construct restricts Mitachurls to slime throwing attack only.  
@@ -661,34 +860,54 @@ Ai manipulation.
 ### Ruin Guard
 
 #### Melee Can Stun Ruin Guards 
-**By:** CQLQRS\#7853  
-**Addded:** 1/1/2021  
-[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/922442421604843542/926773041697013830/transcript-melee-can-stun-ruin-guards.html)
+**By:** CQLQRS\#7853 and HowLxxxx\#4676  
+**Added:** 2022-01-01  
+[Discussion 1](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/922442421604843542/926773041697013830/transcript-melee-can-stun-ruin-guards.html)  
+**Updated:** 2022-03-16  
+[Discussion 2](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/953769086163230870/transcript-ruin-guard-melee-stun-ft-geomc-skill.html)  
 
-**Finding:** Some attacks other than fully-charged bow CAs can stun ruin guards. This includes various skills, bursts and melee attacks.
+**Finding:**  
+Some attacks other than fully-charged bow CAs can stun Ruin Guards. This includes various Skills, Bursts, and other melee attacks. Some attacks can only stun Ruin Guards when the character is standing on something \(e.g. GMC Skill\).  
 
 **Evidence:**  
-1\. Melee CAs:  
+1\. Melee NAs:
+* Beidou \(elevated by GMC Skill\): [YouTube](https://youtu.be/clkGV50v2a0)
+* Diluc \(elevated by GMC Skill\): [YouTube](https://youtu.be/jWI5CK0FPL0) \(Kawaii Muffin\#2158\)
+* Chongyun \(elevated by GMC Skill\): [YouTube](https://youtu.be/FXOsAaJlVFU)
+
+2\. Melee CAs:  
 * Itto: [Imgur](https://imgur.com/a/uVmiOHL)
 * Raiden: [Imgur](https://imgur.com/a/rrHZ1hx)
 * Bullet-like CAs: [Imgur](https://imgur.com/a/HWd1rrd)
 
-2\. Elemental Skills:  
-* EMC: [Youtube](https://youtu.be/4X6tBV3Z34Q) (Bobrokrot\#0111)
+3\. Elemental Skills:  
+* EMC: [YouTube](https://youtu.be/4X6tBV3Z34Q) \(Bobrokrot\#0111\)
+* Jean: [YouTube](https://youtu.be/mOQK_FaoFP4)
+* Razor \(Hold\): [YouTube](https://youtu.be/6uQEuFE56kU)
+* Bennett \(Charge Level 2\): [YouTube](https://youtu.be/RM_2udfbO0M)
+* Kaeya \(without GMC Skill\): [YouTube](https://youtu.be/oKUAQi1XaZA)
+* GMC \(elevated by GMC Skill\): [YouTube](https://youtu.be/iV7OIYsgHec)
+* Xingqiu \(elevated by GMC Skill\): [YouTube](https://youtu.be/Ik8bDUhuYk8)
+* Kaeya \(elevated by GMC Skill\): [YouTube](https://youtu.be/Gjzts7mojSA)
 
-3\. Elemental Bursts:  
-* Yoimiya: [Youtube](https://youtu.be/2KfdFoQu8bQ) (BowTae\#0141)
-* Bennett: [Imgur](https://imgur.com/a/nCKGHus) (ShampooBrain\#9583)
-* Diluc: [Imgur](https://imgur.com/a/IQpZkSa) (ShampooBrain\#9583)
+4\. Elemental Bursts:  
+* Yoimiya: [YouTube](https://youtu.be/2KfdFoQu8bQ) \(BowTae\#0141\)
+* Bennett: [Imgur](https://imgur.com/a/nCKGHus) \(ShampooBrain\#9583\)
+* Diluc: [Imgur](https://imgur.com/a/IQpZkSa) \(ShampooBrain\#9583\)
+* Kazuha: [YouTube](https://youtu.be/J852HxmDIaM)
+
+5\. Ascension Passives:
+* Chongyun A4: [YouTube](https://youtu.be/6wwf1LnfIbI)
 
 This list is not exhaustive and any attack can theoretically stun the ruin guard if its core is low enough for the attack to reach it.
 
-**Significance:** Limited practical usage, mostly fluff.
+**Significance:**  
+Limited practical usage, mostly fluff.
 
 #### Polearm Charge Attacks Don't Register On Stunned Ruin Guards
 
 **By:** itskhoi\#0013  
-**Added:** 5/7/2021  
+**Added:** 2021-05-07  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/839754434870509598/840070100143964170/transcript-polearm-ca-doesnt-register-on-stunned-ruin-guard.html)
 
 **Finding:**  
@@ -710,21 +929,45 @@ If you stun a Ruin Guard and your main carry is a spear user, you might want to 
 #### Ruin Guard Jump Blocking
 
 **By:** Terrapin\#8603  
-**Added:** 5/9/2021  
+**Added:** 2021-05-09  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/840424651569758218/840817827254501386/transcript-blocking-ruin-guard-jump.html)
 
-**Finding:** Ruin Guards can jump over Geo Traveller's Wake of Earth walls, but cannot jump over Geo MC's Starfell Sword meteorites. However, while Wake of Earth's walls cannot block the Ruin Guard, they can sometimes interfere with its jump, making it land farther away from the player than it normally should.
+**Finding:**  
+Ruin Guards can jump over Geo Traveller's Wake of Earth walls, but cannot jump over Geo MC's Starfell Sword meteorites. However, while Wake of Earth's walls cannot block the Ruin Guard, they can sometimes interfere with its jump, making it land farther away from the player than it normally should.  
 
-**Evidence:** [https://www.youtube.com/watch?v=n9YoN7Q\_Ouc](https://www.youtube.com/watch?v=n9YoN7Q_Ouc)
+**Evidence:**  
+[YouTube video](https://www.youtube.com/watch?v=n9YoN7Q_Ouc)  
 
-**Significance:** Better knowledge of Ruin Guard combat through enemy movement manipulation with Geo MC  
+**Significance:**  
+Better knowledge of Ruin Guard combat through enemy movement manipulation with Geo MC    
+
+#### Swap Dodge Confused Missiles
+
+**By:** Kourinn\#6001  
+**Added:** 2022-02-21  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/945492158708871219/transcript-swap-dodge-confused-missiles.html)  
+
+**Finding:**  
+When at least 25m (5 Abyss tiles) away from a Ruin Guard using its seeking-missile attack, a well-timed character swap during the 400+ ms targeting animation will remove missile target seeking. Within 24m, Ruin Guards, Ruin Destroyers, and Ruin Defenders targeted attacks can be dodged with a well-timed character swap in the 16-64 ms targeting window.  
+
+**Evidence:**  
+* Beyond 25m, you can dodge Ruin Guard missiles by swapping as soon as the target reticle animation starts: [Imgur](https://imgur.com/8kdat3v)  
+* Within 24m, the missiles still target seek if swapped after the target reticle animation starts: [Imgur](https://imgur.com/eMR2ZjD)  
+* Within 24m, you can dodge Ruin Guard missiles by swapping just before the 4th missile pulse: [Imgur](https://www.youtube.com/watch?v=0hriYyKEr6Y)  
+* Within 24m, you can dodge Ruin Defender jump by swapping just as it starts jumping upwards: [Imgur](https://imgur.com/J60pQrM)  
+* Within 24m, you can dodge Ruin Destroyer tunnel explosion by swapping just as it fully disappears: [Imgur](https://imgur.com/5PAmgmm)  
+
+**Significance:**  
+For Ruin Guards in the open world beyond 25m, the timing is quite generous. This may be useful when running away in open world or when fighting multiple ruin guards spread across a large area (Guyun Stone Forest).  
+
+The other cases have minimal real-world usage due to very tight timing while affected by reaction speed, input lag, network latency, dropped frames, etc.  
 
 ### Ruin Hunter  
 
 #### Ruin Hunter Weakspot&Artillery mode Analysis   
 
 **By:** RoaringMeow\#2437  
-**Added:** 7/12/2020  
+**Added:** 2020-12-07  
 
 **Finding:** Ruin Hunter's Weak spots; How to trigger Ruin Hunter's artillery mode.  
 Context: The Ruin Hunter does not reveal a weak spot until it enters artillery mode.  
@@ -741,7 +984,7 @@ God forbid, a ruin hunter in the abyss but with this mechanic learned he's the e
 #### Ruin Hunter Weakspot abuse   
 
 **By:** deRykcihC\#0621  
-**Added:** 08/28/2020  
+**Added:** 2021-08-28  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/878715141431115796/880934050624327800/transcript-abyss-map-time-delay-bug.html)
 
 **Finding:**  
@@ -758,7 +1001,7 @@ Might be useful for people who can't follow up Ruin Hunter agile attack pattern 
 #### Dendro Slime Plucking  
 
 **By:** Way\#0001  
-**Added:** 11/19/2020  
+**Added:** 2020-11-19  
 
 **Finding:**  
 Some Anemo Units can Suck Mini-Dendro Slimes even if they are Hidden.
@@ -776,7 +1019,7 @@ Provides an alternative method for eliminating annoying mini-dendro slimes.
 #### Anemo Slimes get one shot in the air
 
 **By:** Daybreak\#0584  
-**Added:** 07/24/2021  
+**Added:** 2021-07-24  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/867117609450340392/868287985743970314/transcript-anemo-slime-one-shot-in-air.html)
 
 **Finding:**  
@@ -793,7 +1036,7 @@ If anemo slimes are ever introduced to the abyss, this information could be usef
 #### Hydro Slimes Apply Wet to Surroundings  
 
 **By:** Rainfury\#8343  
-**Added:** 10/25/2021  
+**Added:** 2021-10-25  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/883264842931257425/902081518808203324/transcript-hydro-slimes-apply-wet-to-surrounding-in-certain-situations.html)
 
 **Finding:**  
@@ -812,7 +1055,7 @@ Better understanding of enemy and character aura management in combat with hydro
 #### Slime Balloon  
 
 **By:** ariose\#3891  
-**Added:** 08/31/2021  
+**Added:** 2021-08-31  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/881262532914974720/882077997841133618/transcript-slime-balloon-mechanics.html)
 
 **Finding:**  
@@ -834,7 +1077,7 @@ With this knowledge you can finish your commissions 2 seconds faster.
 #### Specter Defeat Interaction
 
 **By:** Rathalos\#2875  
-**Added:** 11/5/2021  
+**Added:** 2021-11-05  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/905809922913079327/906340038013493248/transcript-specter-defeat-interactions.html)  
 
 **Finding:**  

@@ -49,7 +49,7 @@ search: false
 ### Frost Field Tick Rate
 
 **By:** Monochrom9\#8058  
-**Added:** 2/12/2021  
+**Added:** 2021-02-12  
 
 **Finding:**  
 Chongyun's E applies its effects on eligible units once EVERY second, and that second is perfectly aligned with the CD of the skill such that it ticks on EXACTLY XX.0 for every second of the field duration.  
@@ -70,7 +70,7 @@ If you re-enter a buff field or swap to a new character immediately after this X
 ### **Chongyun E and A4 interactions**  
 
 **By:** DeFault\#1802  
-**Added:** 6/26/2021  
+**Added:** 2021-06-26  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/856905392633151528/858349517241450536/transcript-chongyun-e-and-a4-interactions.html)  
 
 **Findings:**  
@@ -92,6 +92,25 @@ The various interactions between Chongyun’s A4 and E have been looked at and t
 2. As Chongyun’s A4 snapshots any buffs received by E skill, new rotations can be made that allow Chongyun’s E to snapshot buffs first to make the most of E and A4 skill damage.  
 3. Due to the actual large area of Chongyun’s E field, it can be noted in the future that leaving the ground will not deactivate the effects of the field as long as you stay within its radius. Useful for characters that can use their E skill in the air such as Xiao. Also, less practical and more meme-y (and fun), Chongyun’s A4 can be used to snipe unsuspecting enemies near high cliffs and ravines.
 
+## Burst Mechanics
+
+### Chongyun Burst Maximum Range
+
+**By:** mando.\#1646  
+**Added:** 2022-04-16  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/964970527120834560/transcript-chongyuns-burst-maximum-range.html)  
+
+**Finding:**  
+The maximum casting range for Chongyun's Burst is 17.85m \(7 Abyss tiles\).  
+
+**Evidence:**  
+* In [this video](https://youtu.be/_j1p5ZHGqzw) Chongyun is standing 8 tiles away from the actual target and the Burst doesn't cast on it.  
+
+* In [this video](https://youtu.be/gNlBX5BQp1U) Chongyun is standing 7 tiles away from the target and the Burst does target it.  
+
+**Significance:**  
+Expansion in understanding of Chongyun's kit.  
+
 ## Constellation Mechanics
 
 ### C1: Ice Unleashed
@@ -99,7 +118,7 @@ The various interactions between Chongyun’s A4 and E have been looked at and t
 #### **Chongyun C1 damage**  
 
 **By:** elijam#7142  
-**Added:** 08/07/2021  
+**Added:** 2021-08-07  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/866108653634846780/873536676675338280/transcript-tcl-damage-type-completion.html)  
 
 **Findings:**  
@@ -119,7 +138,7 @@ Damage calculations for Chongyun
 #### C2 CDR Based on Original Cooldown
 
 **By:** Sparko53557\#7010 and LazyGeniusMan\#6252  
-**Added:** 4/13/2021
+**Added:** 2021-04-13
 
 **Finding:** Chongyun C2 reduces your cooldown based on your original cooldown instead of the increased cooldown while affected by Slowing Waters.
 
@@ -171,14 +190,12 @@ Bennett’s E CD w/ A1, A4, Slowing Waters and CY C2: 3.7 seconds
 
 **Findings:**
 
-C6 Chongyun’s “Spirit Blade - Cloud-parting Star deals 15% more DMG to enemies with a lower percentage of their Max HP” is an additive bonus.
+C6 Chongyun’s “Spirit Blade - Cloud-Parting Star deals 15% more DMG to enemies with a lower percentage of their Max HP” is an additive bonus.
 
 **Evidence:**
 
-* Video with the enemy not having a lower percentage of his Max HP than Chongyun:
-  * [https://streamable.com/u9n1r4](https://streamable.com/u9n1r4) 
-* Video with the enemy having a lower percentage of his Max HP than Chongyun:
-  * [https://streamable.com/7hec30](https://streamable.com/7hec30)
+* Video with the enemy not having a lower percentage of his Max HP than Chongyun: [YouTube](https://youtu.be/4m_kOq4O_SA)  
+* Video with the enemy having a lower percentage of his Max HP than Chongyun: [YouTube](https://youtu.be/XauKRunGPG4)  
 
 \(1+0.15+0.223\)/\(1+0.223\) = 320/285 math by **Robin**  
 Testing was done with a Lv. 70 Chongyun & 22.3% Cryo DMG Goblet.

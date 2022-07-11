@@ -32,7 +32,9 @@ The ranking from fastest to slowest is:
 8. CW Teen Female  
 9. JW Child Female  
 10. CW Child Female  
- 
+
+Note that picking a taller character of the same skeleton model will not increase the velocity or distance covered.
+
 ## Push/Pull Effects
 
 Push/pull effects are dynamic across team members
@@ -81,9 +83,13 @@ Double dashing with a pause inbetween to regain stamina can allow for a faster w
 
 Dashing off of cliffs can speed up fall speed.  
 
-## Jump extension  
+## Jump Extension  
 
 Getting hit while jumping adds extra velocity if not staggered.  
+
+## Elevators
+
+When riding an elevator up and jumping just at the right moment before it stops, we can build up enough upwards momentum to momentarily jump higher than usual and reach sufficient height to open a wind glider. Conversely the same principle applies when riding an elevator on the way down, going down builds enough downwards momentum to visibly diminish the height of jump. This technique works for all character models.
 
 ## Evidence Vault
 

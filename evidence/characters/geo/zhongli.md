@@ -8,12 +8,18 @@ search: false
 
 {% page-ref page="../../../characters/geo/zhongli.md" %}
 
+## Basic Mechanics
+
+* Elemental Skill gauges:
+  * [Press E](https://imgur.com/a/eTkLPB9): 2U
+  * [Hold E](https://imgur.com/a/8QO4f8V): 1U
+
 ## Skill Mechanics
 
 ### Construct Resonance Mechanics
 
 **By:** TunaPotato\#9114  
-**Added:** 9/24/2021  
+**Added:** 2021-09-24  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/891048091225038888/891127648288383026/transcript-zhongli-pillar-mechanics.html)
 
 **Finding 1:**  
@@ -36,9 +42,9 @@ This is further shown in the [example with a target](https://youtu.be/naC-dy0jEC
 This shows that with c1 Zhongli or during co-op, the presence of more than one Zhongli pillar allows more resonance damage within a given window. With b being the resonance damage with one seele in one 2s window and n being the number of steeles, the total resonance damage would be nb.
 In other words having two pillars from c1 will double the damage from resonance.
 
-### Zhongli Shred Lingers
+### Zhongli RES Shred Lingers
 **By:** clrE\#6290  
-**Added:** 1/14/2022  
+**Added:** 2022-01-14  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/928609238002053131/931322938953728050/transcript-zhongli-shred-linger.html)
 
 **Finding:**  
@@ -50,6 +56,105 @@ Zhongli's shield RES shred lingers for a bit after it breaks/ends.
 **Significance:**  
 Zhongli's shred can last for more hits of Xingqiu's rainswords/Beidou procs/Fischl, etc. if it breaks/ends early
 
+### Zhongli RES Shred Range
+**By:** Xreejan\#1180  
+**Added:** 2022-03-09  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/951176607496806440/transcript-zhongli-res-shred-range.html)  
+
+**Finding:**  
+The range of Zhongli's Resistance Shred is approximately 3 Abyss tiles.  
+
+**Evidence:**  
+[YouTube video](https://youtu.be/9m2c0-QHkbQ)  
+
+**Significance:**  
+Can help players prevent DPS loss when playing ranged units.
+
+### Zhongli Pillar Snapshot
+
+**By:** Xreejan\#1180 and Latiwings\#3308  
+**Added:** 2022-03-22  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/955608390418186290/transcript-zhongli-pillar-snapshot.html)  
+
+**Finding:**   
+Zhongli Stele Snapshot Mechanics.
+1. At C0, holding E after getting the buff does not update the snapshot state of an existing pillar on the field. 
+\(eg. Pillar exists \> Gets buffed \> Hold E \> Doesn't update the state of pillar with buffed stats\).
+2. At C1, steles are snapshotted upon cast, thus snapshots individually. It is possible to have two steles that are buffed and unbuffed at the same time. 
+
+**Evidence:**
+* [C0](https://imgur.com/a/gQp2fMb)
+* [C1](https://imgur.com/a/yVSFjmC)
+
+**Significance:**  
+Further understanding of Stone Steles.
+
+### Zhongli E and Tenacity Snapshot Shenanigans
+
+**By:** Latiwings\#3308, Potade\#9775, and Xreejan\#1180  
+**Added:** 2022-03-29  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/958519117839757373/transcript-zhonglis-e-and-tenacity-snapshot-shenanigans.html)  
+
+**Finding:**  
+4TotM \(+20% ATK\) does not affect the Tap E or Hold E that procs it, because Zhongli E Snapshots. Neither the Stone Stele nor the Resonance DMG is buffed by 4TotM.  
+
+Tenacity's effect states that:  
+When an Elemental Skill hits an opponent, the ATK of all nearby party members is increased by 20% and their Shield Strength is increased by 30% for 3s. This effect can be triggered once every 0.5s. This effect can still be triggered even when the character who is using this artifact set is not on the field.  
+
+**Evidence:**  
+Zhongli Stats \(without 4TotM\):  
+* ATK: 431
+* HP: 35407
+* Geo DMG: 28.8%
+* Level 80 ZL, Level 85 enemy 10% RES  
+  * Hold E damage: \(431\*136%\+1.9%\*35407\)\*\(1\+28.8%\)\*0.9\*0.49 = 719.7
+  * Tap E damage: \(431\*27.20%\+1.9%\*35407\)\*\(1\+28.8%\)\*0.9\*0.49 = 451.6
+  * Resonance damage: \(431\*54.40%\+1.9%\*35407\)\*\(1\+28.8%\)\*0.9\*0.49 = 518.6
+  * Resonance w/RES shred damage: \(431\*54.40%\+1.9%\*35407\)\*\(1\+28.8%\)\*1.05\*0.49 = 605.0
+
+4TotM didn't apply to either of these:  
+* [Tap E](https://imgur.com/a/3EakN4l)
+* [Hold E](https://imgur.com/a/CJtEawi)
+
+**Significance:**  
+Understand how Zhongli E and Tenacity interact, which affects the calculation for rotations, specifically microwave comps.  
+
+### Geo Construct Test
+
+**By:** Rathalos\#2875  
+**Added:** 2022-03-29  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/958503937697275984/transcript-geo-construct-test.html)  
+
+**Finding:**  
+Zhongli's Stone Stele can resonate with the Rock Pillars created by a Geo Samachurl, but it does not resonate with the Rock Spikes they use to attack.  
+
+Rock Pillars refer to the pillars Geo Samachurls use to gain higher ground and create shockwaves. Rock Spikes refer to the Geo attack channeled by a Geo Samachurl that looks like a construct.  
+
+**Evidence:**  
+* [Resonates with the Rock Pillars](https://imgur.com/eSiYfAM)
+* [Does not resonante with the Rock Spikes](https://youtu.be/85zd6TJu36M)
+
+**Significance:**  
+1. Zhongli's Stone Stele can resonate with enemy Geo Constructs. This mechanic can be used to test whether an object is a Geo Construct regardless of whether it's an allied or enemy construct.
+2. Rock Spikes are not Geo Constructs. This ability cannot be abused to extend the resonance from Zhongli's Stone Stele.
+
+### Zhongli Construct Height Placement Shenanigans
+
+**By:** Empyress\#9451  
+**Added:** 2022-04-08  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/962026867236417586/transcript-zl-and-ganyu-construct-height-placement-shenanigans.html)  
+
+**Finding:**  
+Zhongli's Geo Construct placement seems to have a specific height difference past which it will not place the pillar at the lower level and instead just destroy it.  
+
+**Evidence:**  
+* [Video demonstration](https://www.youtube.com/watch?v=jha55PFx5iQ)  
+* [Testing location](https://imgur.com/OkrAhHn)  
+* [Height reference](https://imgur.com/RvbWdsJ)  
+
+**Significance:**  
+Knowing more about Geo Construct spawn conditions at different heights.  
+
 ## Ascension Mechanics
 
 ### A1: Resonant Waves
@@ -57,7 +162,7 @@ Zhongli's shred can last for more hits of Xingqiu's rainswords/Beidou procs/Fisc
 #### Zhongli's Ascension 1 broken down
 
 **By:** 3b00d\_09\#2235  
-**Added:** 4/28/2021  
+**Added:** 2021-04-28  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/837172595202719794/837181219086401536/transcript-zhongli-a1-exploration.html)
 
 Credits to JonahFarc\#7056 for helping me figure out how this works.
@@ -99,7 +204,7 @@ This allows for more accurate Zhongli shield calculations, as well as any future
 #### Zhongli A1 Has No/Negligible ICD
 
 **By:** JonahFarc\#7056  
-**Added:** 4/26/2021  
+**Added:** 2021-04-26  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/836279063760732201/836642776217026620/transcript-zhongli-a1-no-icd.html)
 
 **Finding:** Zhongli's A1 passive has either no ICD or an extremely negligible one
@@ -113,7 +218,7 @@ Zhongli's shield is ridiculously effective against DoT as it stacks immediately 
 #### Zhongli A1 Persists on Swap
 
 **By:** Latiwings\#3308  
-**Added:** 10/16/2021  
+**Added:** 2021-10-16  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/893176410301141012/899029975208964147/transcript-zhongli-shield-tech.html)
 
 **Finding:**  
@@ -140,7 +245,7 @@ Shield management.
 #### Zhongli C2 Mechanics
 
 **By:** Midori\#2173  
-**Added:** 04/21/2021  
+**Added:** 2021-04-21  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/834400006948782090/834658055391150150/transcript-zhongli-c2-mechanics.html)
 
 **Finding:** Zhongli c2 affects his own burst when casting as do the 15% DMG bonus from Geo resonance but not the Geo resistance down unless it is applied first.
@@ -163,7 +268,7 @@ For the highest damage apply the Geo res down before pressing Burst.
 ### Fischl C6 does not always Proc on Zhongli's first Normal Attack
 
 **By:** muakasan\#2792  
-**Added:** 01/07/2021
+**Added:** 2021-01-07
 
 **Bug/Finding:**  
 Fischl C6 does not always proc on Zhongli's first normal attack. When chaining multiple Zhongli attack sequences together, after the first sequence, the c6 does not proc on the first normal of the subsequent sequences.
@@ -179,7 +284,7 @@ Allows for more accurate DPS calculations when using Zhongli and c6 fischl toget
 ### 4 TOM Passive on Zhongli Procs With Other Geo Constructs
 
 **By:** Lowy\#7647  
-**Added:** 5/6/2021  
+**Added:** 2021-05-06  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/839089619743539230/840068304864280586/transcript-4pc-tom-zhongli-interaction.html)
 
 **Finding:**  

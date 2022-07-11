@@ -31,6 +31,35 @@
 {% endtab %}
 {% endtabs %}
 
+### Aqua Simulacra
+
+{% tabs %}
+{% tab title="Description" %}
+
+| Attribute | Description |
+| :--- | :--- |
+| The Cleansing Form | HP is increased by **16/20/24/28/32**%. When there are opponents nearby, the DMG dealt by the wielder of this weapon is increased by **20/25/30/35/40**%. This will take effect whether the character is on-field or not. |
+| Base ATK | 44 - 542 |
+| CRIT DMG | 19.2% - 88.2% |
+{% endtab %}
+
+{% tab title="Details" %}
+
+| Level | Base ATK | CRIT DMG% |
+| :--- | :--- | :--- |
+| 60 | 341 | 65 |
+| 60+ | 373 | 65 |
+| 65 | 390 | 68.8 |
+| 70 | 408 | 72.7 |
+| 70+ | 439 | 72.7 |
+| 75 | 457 | 76.6 |
+| 80 | 475 | 80.4 |
+| 80+ | 506 | 80.4 |
+| 85 | 524 | 84.3 |
+| 90 | 542 | 88.2 |
+{% endtab %}
+{% endtabs %}
+
 ### Elegy for the End
 
 {% tabs %}
@@ -43,6 +72,7 @@
 | ER% | 12% - 55.1% |
 
 * Different weapons with the Millennial Movement effect can stack, however effects of the same buff-type will override each other. - [rakka\#0099](../../evidence/equipment/weapons.md#millennial-movement-stack-mechanics)
+* Stacking is inconsistent depending on ping, FPS, and the specific character. - [Wüolf\#3334](../../evidence/equipment/weapons.md#elegy-stack-inconsistencies) 
 {% endtab %}
 
 {% tab title="Details" %}
@@ -71,7 +101,7 @@
 | :--- | :--- |
 | Daylight's Augury | Elemental Skill and Elemental Burst DMG increased by **12/15/18/21/24**%. After a Normal Attack, Charged Attack, Elemental Skill or Elemental Burst hits an opponent, 1 stack of Ashen Nightstar will be gained for 12s. When 1/2/3/4 stacks of Ashen Nightstar are present, ATK is increased by **(10/20/30/48)/(12.5/25/37.5/60)/(15/30/45/72)/(17.5/35/52.5/84)/(20/40/60/96)**%. The stack of Ashen Nightstar created by the Normal Attack, Charged Attack, Elemental Skill or Elemental Burst will be counted independently of the others. |
 | Base ATK | 46 - 608 |
-| CR% | 7.2% - 3.1% |
+| CR% | 7.2% - 33.1% |
 
 * **Polar Star** has no ICD for gaining independent stacks.
 {% endtab %}
@@ -243,6 +273,35 @@
 {% endtab %}
 {% endtabs %}
 
+### Fading Twilight
+
+{% tabs %}
+{% tab title="Description" %}
+
+| Attribute | Description |
+| :--- | :--- |
+| Radiance of the Deeps | Has three states, Evengleam, Afterglow, and Dawnblaze, which increase DMG dealt by **6/7.5/9/10.5/12**%, **10/12.5/15/17.5/20**%, and **14/17.5/21/24.5/28**% respectively. When attacks hit opponents, this weapon will switch to the next state. This weapon can change states once every 7s. The character equipping this weapon can still trigger the state switch while not on the field. |
+| Base ATK | 44 - 565 |
+| Energy Recharge | 6.7% - 30.6% |
+{% endtab %}
+
+{% tab title="Details" %}
+
+| Level | Base ATK | ER% |
+| :--- | :--- | :--- |
+| 60 | 361 | 22.6 |
+| 60+ | 387 | 22.6 |
+| 65 | 408 | 23.9 |
+| 70 | 429 | 25.2 |
+| 70+ | 455 | 25.5 |
+| 75 | 476 | 26.6 |
+| 80 | 497 | 27.9 |
+| 80+ | 523 | 27.9 |
+| 85 | 544 | 29.3 |
+| 90 | 565 | 30.6 |
+{% endtab %}
+{% endtabs %}
+
 ### Favonius Warbow
 
 {% tabs %}
@@ -255,6 +314,7 @@
 | ER% | 13.3% - 61.3% |
 
 * Passive does not proc on shielded enemies - [Sakuno\#7950](../../evidence/equipment/weapons.md#favonius-weapons-do-not-proc-on-shielded-enemies)
+* See the [Favonius proc calculator](../../evidence/equipment/weapons.md#favonius-proc-calculator) for details on how to calculate the probability of the Passive.  
 {% endtab %}
 
 {% tab title="Details" %}
@@ -499,6 +559,7 @@
 
 * Passive does not proc on shielded enemies - [Exuma\#1917](../../evidence/equipment/weapons.md#sacrificial-weapons-do-not-proc-on-shielded-enemies)
 * When a character with multiple charges of their elemental skill procs the sacrificial passive, the elemental skill cooldown shown on the timer is the cooldown that will be reset. - [mol\#3280 ](../../evidence/equipment/weapons.md#sacrificial-passive-with-multiple-e-stacks) 
+* The average ER gain from the Sacrifical passive has decreasing returns from increasing refinement - [Raladin\#3752](../../evidence/equipment/weapons.md#average-er-gains-from-sacrifical-weapons)  
 {% endtab %}
 
 {% tab title="Details" %}
@@ -679,6 +740,8 @@
 | Cull the Weak | Defeating an opponent restores **8/10/12/14/16**% HP. |
 | Base ATK | 38 - 354 |
 | HP% | 10.2% - 46.9% |
+
+* HP restored is affected by Healing Bonus and Incoming Healing Bonus - [Daibangden#8410](/evidence/equipment/weapons.md#weapons-and-heals)
 {% endtab %}
 
 {% tab title="Details" %}

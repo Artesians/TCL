@@ -32,35 +32,35 @@ description: A Yaksha Adeptus who defends Liyue. Also heralded as the "Conquer o
 **Normal Attacks**  
 Xiao performs up to six consecutive spear strikes.
 
-| String | Talent 6 DMG% | Frames | MV/s |
-| :--- | :--- | :--- | :--- |
-| 1-Hit | 37.87% x2 \(75.74%\) | 16 | 284%/s |
-| 2-Hit | 78.29% | 42 | 220%/s |
-| 3-Hit | 94.26% | 68 | 219.1%/s |
-| 4-Hit | 51.79% x2 \(103.58%\) | 115 | 183.6%/s |
-| 5-Hit | 98.37% | 145 | 186.3%/s |
-| 6-Hit | 131.77% | 197 | 177.3%/s |
+| String | Talent 9 DMG% | Frames | MV/s | Poise Damage \(no Q/with Q\) | Impulse Type |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1-Hit | 46.32% x2 \(92.64%\) | 16 | 347.4%/s | 25.08 x2 / 37.62 x2 | 3 + 2 |
+| 2-Hit | 95.76% | 42 | 269.14%/s | 51.76 / 77.64 | 3 |
+| 3-Hit | 115.29% | 68 | 267.96%/s | 62.32 / 93.48 | 3 |
+| 4-Hit | 63.34% x2 \(126.68%\) | 115 | 224.54%/s | 34.28 x2 / 51.42 x2 | 2 x2 |
+| 5-Hit | 120.32% | 145 | 227.87%/s | 65.05 / 97.56 | 3 |
+| 6-Hit | 161.17% | 197 | 216.81%/s | 87.12 / 130.68 | 6 |
 
 **Charged Attack**  
 Consumes 25 Stamina to perform an upward thrust.
 * Xiao's Charged Attacks share an ICD on Anemo application with his Normal Attacks when under the effects of Bane of All Evil.
 
-| String | Talent 6 DMG% | Frames | MV/s |
-| :--- | :--- | :--- | :--- |
-| Charged Attack | 166.5% | - | - |
-| N1C | 242.24% | 80 | 181.7%/s |
-| N3C | 414.79% | 157 | 158.5%/s |
-| N4C | 518.37% | 190 | 163.7%/s |
+| String | Talent 9 DMG% | Frames | MV/s | Poise Damage \(no Q/with Q\) | Impulse Type |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Charged Attack | 203.65% | - | - | 120 / 180 | 7 |
+| N1C | 296.29% | 80 | 222.22%/s | - | - |
+| N3C | 507.34% | 157 | 193.89%/s | - | - |
+| N4C | 634.02% | 190 | 200.22%/s | - | - |
 
 **Plunge**  
-Plunges from mid-air to strike the ground below, damaging opponents along the patch and dealing AoE DMG upon impact.  
+Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.  
 Xiao does not take DMG from performing Plunge Attacks.
 
-| Plunge Type | Talent 6 DMG% | Frames | MV/s |
-| :--- | :--- | :--- | :--- |
-| Plunge DMG | 118.94% | - | - |
-| Low Plunge DMG | 237.84% | 65 | 219.5%/s |
-| High Plunge DMG | 297.07% | 75 | 237.7%/s |
+| Plunge Type | Talent 9 DMG% | Frames | MV/s | Poise Damage \(no Q/with Q\) | Impulse Type |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Plunge DMG | 150.35% | - | - | 25 / 37.5 | 2 |
+| Low Plunge DMG | 300.63% | 65 | 277.5%/s | 100 / 150 | 4 |
+| High Plunge DMG | 375.5% | 75 | 300.4%/s | 150 / 225 | 7 |
 
 * All frame counts are done against Ruin Guards.
 * All of the stated Talent DMG% doesn't include the Normal Attack Modifier from Q.
@@ -73,7 +73,7 @@ Starts with 2 charges.
 
 | Attribute | Skill |
 | :--- | :--- |
-| Skill DMG \(T6%\) | 353.92% | 36 |
+| Skill DMG \(T9%\) | 429.76% | 36 |
 | Particles | 3 |
 | Frames | 36 | 
 | GU | 2B |
@@ -82,6 +82,8 @@ Starts with 2 charges.
 | Damage Element | Anemo |
 | Damage Type | Skill |
 | CD | 10s |
+| Poise Damage | 100 |
+| Impulse Type | 3 |
 
 **Notes**
 * A double E Cast is only 60 frames long.
@@ -100,9 +102,11 @@ The effects of this skill end when Xiao leaves the field.
 
 | Attribute | Burst |
 | :--- | :--- |
-| Normal, Charged, Plunge DMG bonus \(T6%\) | 77% |
-| Life Drain \(T6%\) | 2.5% Current HP/s |
-| Frames | 58 |  
+| Normal, Charged, Plunge DMG bonus \(T9%\) | 90.65% |
+| Life Drain \(T9%\) | 2% Current HP/s |
+| Cast Frames | 58 |
+| Energy Frame | 39 |
+| CD Frame | 31 |
 | Energy Cost | 70 |
 | Duration | 15s |
 | CD | 18s |
@@ -110,6 +114,7 @@ The effects of this skill end when Xiao leaves the field.
 **Notes**
 * Xiao's attacks will be infused with 1GU Anemo.  
 * While the effects of **Elemental Burst: Bane of All Evil** are active, the energy particle generation of **Elemental Skill: Lemniscatic Wind Cycling** is disabled.  
+* Xiao can keep his mask on if his Burst is canceled.
 
 {% endtab %}
 {% endtabs %}
@@ -120,19 +125,22 @@ The effects of this skill end when Xiao leaves the field.
 {% tab title="Passive" %}
 ### **Transcension: Gravity Defier**
 
-Decreases climbing Stamina consumption for your own party members by 20%. Not stackable with Passive Talents that provide the exact same effects.
+Decreases climbing Stamina consumption for your own party members by 20%.
+Not stackable with Passive Talents that provide the exact same effects.
 {% endtab %}
 
 {% tab title="Ascension 1" %}
 ### **Conqueror of Evil: Tamer of Demons**
 
-While under the effects of **Bane of All Evil**, all DMG dealt by Xiao is increased by 5%. DMG is increased by an additional 5% for every 3s the ability persists. The maximum DMG Bonus is 25%
+While under the effects of **Bane of All Evil**, all DMG dealt by Xiao increases by 5%. DMG increases by a further 5% for every 3s the ability persists.
+The maximum DMG Bonus is 25%.
 {% endtab %}
 
 {% tab title="Ascension 4" %}
 ### **Dissolution Eon: Heaven Fall**
 
-Using **Lemniscatic Wind Cycling** increases the DMG of subsequent uses of **Lemniscatic Wind Cycling** by 15%. This effect lasts for 7s and has a maximum of 3 stacks. Gaining a new stack refreshes the duration of this effect.
+Using **Lemniscatic Wind Cycling** increases the DMG of subsequent uses of **Lemniscatic Wind Cycling** by 15%.
+This effect lasts for 7s, and has a maximum of 3 stacks. Gaining a new stack refreshes the effect's duration.
 {% endtab %}
 {% endtabs %}
 
@@ -143,36 +151,44 @@ Using **Lemniscatic Wind Cycling** increases the DMG of subsequent uses of **Lem
 ### **Dissolution Eon: Destroyer of Worlds**
 
 Increases **Lemniscatic Wind Cycling**'s charges by 1.
+
 {% endtab %}
 
 {% tab title="C2" %}
 ### **Annihilation Eon: Blossom of Kaleidos**
 
-When in the party and not on the field, Xiao's Energy Recharge is increased by 25%
+When in the party and not on the field, Xiao's Energy Recharge is increased by 25%.
+
 {% endtab %}
 
 {% tab title="C3" %}
 ### **Conqueror of Evil: Wrath Deity**
 
-Increases the level of **Lemniscatic Wind Cycling** by 3.
+Increases the Level of **Lemniscatic Wind Cycling** by 3.
+Maximum upgrade level is 15.
+
 {% endtab %}
 
 {% tab title="C4" %}
 ### **Transcension: Extinction of Suffering**
 
-When Xiao's HP falls below 50%, he gains a 100% DEF Boost.
+When Xiao's HP falls below 50%, he gains a 100% DEF Bonus.
+
 {% endtab %}
 
 {% tab title="C5" %}
 ### **Evolution Eon: Origin of Ignorance**
 
-Increases the level of **Bane of All Evil** by 3.
+Increases the Level of **Bane of All Evil** by 3.
+Maximum upgrade level is 15.
+
 {% endtab %}
 
 {% tab title="C6" %}
 ### **Conqueror of Evil: Guardian Yaksha**
 
-While under the effect of **Bane of All Evil**, hitting at least 2 opponents with Xiao's Plunge Attack will immediately grant him 1 charge of **Lemniscatic Wind Cycling**, and for the next 1s, he may use **Lemniscatic Wind Cycling** while ignoring its CD.
+While under the effects of **Bane of All Evil**, hitting at least 2 opponents with Xiao's Plunging Attack will immediately grant him 1 charge of **Lemniscatic Wind Cycling**, and for the next 1s, he may use **Lemniscatic Wind Cycling** while ignoring its CD.
+
 {% endtab %}
 {% endtabs %}
 
@@ -180,49 +196,55 @@ While under the effect of **Bane of All Evil**, hitting at least 2 opponents wit
 
 {% tabs %}
 {% tab title="Whirlwind Thrust" %}
-### **Normal Attacks**
+### Normal Attacks
 
-|  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1-Hit DMG \(x2\) | 37.87% | 40.69% | 43.51% | 46.32% | 49.14% | 51.96% |
-| 2- Hit DMG | 78.29% | 84.11% | 89.93% | 95.76% | 101.58% | 107.4% |
-| 3-Hit DMG | 94.26% | 101.27% | 108.28% | 115.29% | 122.3% | 129.31% |
-| 4-Hit DMG \(x2\) | 51.79% | 55.64% | 59.49% | 63.34% | 67.2% | 71.05% |
-| 5-Hit DMG | 98.37% | 105.69% | 113.01% | 120.32% | 127.64% | 134.96% |
-| 6-Hit DMG | 131.77% | 141.57% | 151.37% | 161.17% | 170.97% | 180.77% |
+|  | Lv1 | Lv2 | Lv3 | Lv4 | Lv5 | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 1-Hit DMG  \(x2\) | 27.54% | 29.42% | 31.30% | 33.80% | 35.68% | 37.87% | 40.69% | 43.51% | 46.32% | 49.14% | 51.96% |
+| 2-Hit DMG | 56.94% | 60.82% | 64.70% | 69.88% | 73.76% | 78.29% | 84.11% | 89.93% | 95.76% | 101.58% | 107.40% |
+| 3-Hit DMG | 68.55% | 73.23% | 77.90% | 84.13% | 88.81% | 94.26% | 101.27% | 108.28% | 115.29% | 122.30% | 129.31% |
+| 4-Hit DMG  \(x2\) | 37.66% | 40.23% | 42.80% | 46.22% | 48.79% | 51.79% | 55.64% | 59.49% | 63.34% | 67.20% | 71.05% |
+| 5-Hit DMG | 71.54% | 76.42% | 81.30% | 87.80% | 92.68% | 98.37% | 105.69% | 113.01% | 120.32% | 127.64% | 134.96% |
+| 6-Hit DMG | 95.83% | 102.37% | 108.90% | 117.61% | 124.15% | 131.77% | 141.57% | 151.37% | 161.17% | 170.97% | 180.77% |
 
 ### Charged Attack
 
-|  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Charged Attack DMG | 166.5% | 178.88% | 191.26% | 203.65% | 216.03% | 228.42% |
+|  | Lv1 | Lv2 | Lv3 | Lv4 | Lv5 | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Charged Attack DMG | 121.09% | 129.34% | 137.60% | 148.61% | 156.86% | 166.50% | 178.88% | 191.26% | 203.65% | 216.03% | 228.42% |
 
-### Plunge Attacks
+**Stamina Cost**: 25.0
 
-|  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Plunge DMG | 118.94% | 129.41% | 139.88% | 150.35% | 161.76% | 173.18% |
-| Low Plunge DMG | 237.84% | 258.77% | 279.7% | 300.63% | 323.46% | 346.29% |
-| High Plunge DMG | 297.07% | 323.21% | 349.36% | 375.5% | 404.24% | 432.54% |
+### Plunge
+
+|  | Lv1 | Lv2 | Lv3 | Lv4 | Lv5 | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Plunge DMG | 81.83% | 88.49% | 95.16% | 104.67% | 111.33% | 118.94% | 129.41% | 139.88% | 150.35% | 161.76% | 173.18% |
+| Low Plunge DMG | 163.63% | 176.95% | 190.27% | 209.30% | 222.62% | 237.84% | 258.77% | 279.70% | 300.63% | 323.46% | 346.29% |
+| High Plunge DMG | 204.39% | 221.02% | 237.66% | 261.42% | 278.06% | 297.07% | 323.21% | 349.36% | 375.50% | 404.02% | 432.54% |
+
 {% endtab %}
 
 {% tab title="Lemniscatic Wind Cycling" %}
-|  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 | Lv12 | Lv13 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Skill DMG % | 353.92% | 379.2% | 404.48% | 429.76% | 455.04% | 480.32% | 505.6% | 537.2% |
 
-**Cooldown:** 10s
+|  | Lv1 | Lv2 | Lv3 | Lv4 | Lv5 | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 | Lv12 | Lv13 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Skill DMG | 252.80% | 271.76% | 290.72% | 316.00% | 334.96% | 353.92% | 379.20% | 404.48% | 429.76% | 455.04% | 480.32% | 505.60% | 537.20% |
+
+**Cooldown**: 10.0s
+
 {% endtab %}
 
 {% tab title="Bane of All Evil" %}
-|  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 | Lv12 | Lv13 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Normal, Charged, Plunge Attack DMG Bonus | 77% | 81.55% | 86.1% | 90.65% | 95.2% | 99.75% | 104.3% | 108.85% |
-| Current HP% Drain per second | 2.5% | 2% | 2% | 2% | 2% | 2% | 2% | 2% |
 
-**Duration:** 15s  
-**Cooldown:** 18s  
-**Energy Cost:** 70
+|  | Lv1 | Lv2 | Lv3 | Lv4 | Lv5 | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 | Lv12 | Lv13 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Normal/Charged/Plunging Attack DMG Bonus | 58.45% | 61.95% | 65.45% | 70.00% | 73.50% | 77.00% | 81.55% | 86.10% | 90.65% | 95.20% | 99.75% | 104.30% | 108.85% |
+| Current HP% Life Drain per second | 3.0% | 3.0% | 3.0% | 2.5% | 2.5% | 2.5% | 2.0% | 2.0% | 2.0% | 2.0% | 2.0% | 2.0% | 2.0% |
+
+**Duration**: 15s  
+**Cooldown**: 18s  
+**Energy Cost**: 70
 
 {% endtab %}
 {% endtabs %}

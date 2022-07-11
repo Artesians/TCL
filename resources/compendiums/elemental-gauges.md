@@ -14,18 +14,20 @@ Anemo & Geo do not apply auras and are instead denoted with U.
 A more in-depth explanation can be found at [Elemental Gauge Theory](../../combat-mechanics/elemental-effects/elemental-gauge-theory.md).
 
 ## Elemental Gauges
-*Updated for Patch 2.3.*
+*Updated for Patch 2.7.*
 
 {% tabs %}
 {% tab title="Hydro" %}
 
 | Character | Normal Attack | Charged Attack | Skill Press | Skill Hold | Burst | Misc |
 | :---      | :--- | :--- | :--- | :--- | :--- | :--- |
+| Ayato     | - | - | 1A | 1A | 1A | Shunsuiken Attacks: 1A<br /> C6: 1A|
 | Barbara   | 1A | 1A | 1A | - | - | - |
 | Kokomi    | 1A | 1A | 1A | - | Initial Cast: 2B | - |
 | Mona      | 1A | 1A | DoT: 1A <br />Explosion: 1A | - | On Cast: 1A<br />On Pop: 2B | Dash: 1A |
 | Tartaglia <br />\(Childe\) | Riptide Flash: 1A<br />Riptide Burst: 2B | 1A | Entering Melee Stance: 2B<br />Basic Attack: 1A<br />Riptide Slash: 1A | - | Havoc: 2B<br />Obliteration: 2B <br /> Riptide Blast: 2B | - | 
 | Xingqiu   | - | - | Skill Damage: 1A<br />Rain Sword orbitals: 1A | - | 1A | - |
+| Yelan     | - | 1A <br /> Breakthrough Barb: 1A | 1A | 1A | Initial Hit: 2B <br /> Exquisit Throw: 1A | - |
 
 {% endtab %}
 {% tab title="Pyro" %}  
@@ -72,6 +74,7 @@ A more in-depth explanation can be found at [Elemental Gauge Theory](../../comba
 | Raiden    | - | - | Initial Cast: 1A <br />Proc: 1A | - | Initial Hit: 2B <br />Infused Attacks: 1A | - 
 | Sara      | - | 1A | Skill Damage: 1A <br /> C2: 1A | - | 1A | - |
 | Traveler <br />\(Electro\) | - | - | 1A | - | On Cast: 1A <br />On-Hit Thunder: 1A | - |
+| Yae Miko | 1A | 1A | 1A | 1A | 1A | - |
 
 {% endtab %}
 {% tab title="Anemo" %}
@@ -96,9 +99,9 @@ A more in-depth explanation can be found at [Elemental Gauge Theory](../../comba
 | Itto      | Infused Attack: 1U | Infused Combo Slash: 1U <br />Infused Final Slash: 1U | 1U | - | - | - |
 | Ningguang | 1U | 1U | 1U | - | 1U | - |
 | Noelle    | - | - | 2U | - | On Cast: 1U <br />Infused Attacks: 1U | - |
-| Traveler <br />(Geo) | Frenzied Rockslide \(A4\): 1U | - | On Cast: 2U <br />Rockcore Meltdown \(C2\): 1U | 2U | - |
-| Yunjin  | - | - | 2U | Level 1: 2U <br />Level 2: 4U | 4U | - | 
-| Zhongli | - | - | On Cast: 2U <br />Pulse: 1U | 1U | 4U | - |
+| Traveler <br />(Geo) | Frenzied Rockslide \(A4\): 1U | - | On Cast: 2U <br />Rockcore Meltdown \(C2\): 1U | 2U | 2U | - |
+| Yun Jin  | - | - | 2U | Level 1: 2U <br />Level 2: 4U | 4U | - | 
+| Zhongli | - | - | 2U | On Cast: 1U<br />Pulse: 1U  | 4U | - |
 
 {% endtab %}
 {% endtabs %}

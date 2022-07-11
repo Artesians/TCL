@@ -8,11 +8,29 @@ search: false
 
 {% page-ref page="../../../characters/geo/ningguang.md" %}
 
+## Charged Attack Mechanics
+
+### Star Jades Have The Charged Attack Tag  
+**By:** Asaki\#9139  
+**Added:** 2022-02-20  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/940671732979757087/945067939927826443/transcript-star-jades-have-ca-tag.html)  
+
+**Finding:**   
+Ningguang's Star Jades are considered Charged ATK DMG  
+
+**Evidence:**    
+*credit to Zafiast\#0327 and andru\#1175*   
+1) Non C6 Ningguang [Imgur](https://imgur.com/gallery/fMo7va7)  
+2) C6 Ningguang [Imgur](https://imgur.com/62azWJq)  
+
+**Significance:**  
+Star Jades benefit from Charged Attack DMG Bonuses.
+
 ## Skill Mechanics
 
 ### Jade Screen ICD
 **By:** Goden\#2155  
-**Added:** 1/13/2022  
+**Added:** 2022-01-13  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/929477312284618822/931062924217315359/transcript-jade-screen-icd.html)
 
 **Finding:**  
@@ -30,7 +48,7 @@ Combining the demonstrations of both of these tests, it can be concluded that Ni
 ### Ningguang Burst Does Snapshot
 
 **By:** elijam\#7142, Isu\#6867, Ai\#7362, Bobrokrot\#0111  
-**Added:** 6/26/2021  
+**Added:** 2021-06-26  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/857491520109543444/858198283566186516/transcript-ningguang-e-q-snapshot.html)
 
 **Finding:**  
@@ -55,6 +73,20 @@ Both videos show Ningguang with a 100% crit rate from a fully stacked Royal Grim
 **Significance:**  
 Better rotation and team building for Ningguang surrounding setting up buffs for her E and her Q to snapshot.
 
+### Ningguang Burst Wall Destroy Range
+**By:** borderline\#3100  
+**Added:** 2022-03-29  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/958507759026982932/transcript-ning-burst-wall-destroy-range.html)  
+
+**Finding:**  
+Ningguang's Burst can destroy her Jade Screen from any range, assuming that the Jade Screen exists.  
+
+**Evidence:**  
+In [this video](https://youtu.be/6w9Juht5doU), Ningguang teleports from her wall at the max construct range, and her wall was destroyed successfully when her Burst was used.  
+
+**Significance:**  
+Where there's a wall, there's a way \(to destroy it\).  
+
 ## Constellation Mechanics
 
 ### C2: Shock Effect
@@ -62,7 +94,7 @@ Better rotation and team building for Ningguang surrounding setting up buffs for
 #### Ningguang C2 and Sacrificial Passive Interaction
 
 **By:** Terrapin\#8603  
-**Added:** 4/26/2021  
+**Added:** 2021-04-26  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/836144484189732905/836630945624752189/transcript-ningguang-e-reset-c2-sacrificial-weapon.html)
 
 **Finding:**  

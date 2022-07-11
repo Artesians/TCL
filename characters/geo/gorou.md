@@ -26,33 +26,35 @@ description: The great general of Watatsumi Island's forces. He is deeply truste
 **Normal Attacks**  
 Perform up to 4 consecutive shots with a bow.
 
-| String | Talent 6% | Frames | MV/s |
-| :--- | :--- | :--- | :--- |
-| 1-Hit | 54.88% | 18 | 182.93%/s |
-| 2-Hit | 54% | 37 | 176.56%/s |
-| 3-Hit | 71.88% | 85 | 127.60%/s |
-| 4-Hit | 85.75% | 132 | 121.14%/s |
-| Recovery | - | 162 | 98.10%/s | 
+| String | Talent 9% | Frames | MV/s | Poise Damage | Impulse Type |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1-Hit | 69.36% | 18 | 231.2%/s | 13.17 | 1 |
+| 2-Hit | 68.26% | 37 | 223.17%/s | 12.96 | 1 |
+| 3-Hit | 90.85% | 85 | 161.27%/s | 17.25 | 1 |
+| 4-Hit | 108.39% | 132 | 153.12%/s | 20.58 | 1 |
+| With Recovery | ~ | 162 | 124.76%/s | - | - |
 
 **Charged Attack**  
 Perform a more precise Aimed Shot with increased DMG.  
 While aiming, stone crystals will accumulate on the arrowhead. A fully charged crystalline arrow will deal Geo DMG.
 
-| String | Talent 6% | Frames | MV/s | GU | 
-| :--- | :--- | :--- | :--- | :--- |
-| Aimed Shot | 63.75% | 23 | 166.30%/s | - |
-| Fully-Charged Aimed Shot | 173.6% | 86 | 121.12%/s | 1U |
-
-* Fully-Charged Aimed Shot has no ICD.
+| Type | Talent 9% | Frames | MV/s | GU | Poise Damage | Impulse Type |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Aimed Shot | 80.58% | 15 | 322.32%/s | - | 10 \(Headshot: 30\) | 2 \(Headshot: 5\)
+| With Recovery | - | 23 | 210.21%/s | - | - | - |
+| Fully Charged | 210.8% | 86 | 147.07%/s | 1U | 20 \(Headshot: 60\) | 2 \(Headshot: 5\) |
+| With Recovery | - | 94 | 134.55%/s | - | - | - |
+* Charged Attack frame counts are done using by holding and releasing the Normal Attack button.
+* Fully Charged Charged Attack has no ICD.
 
 **Plunge**  
 Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.
 
-| Damage Type | Talent 6% |
-| :--- | :--- |
-| Plunge Impact | 82.6% |
-| Low Plunge DMG | 165.17% |
-| High Plunge DMG | 206.3% |
+| Damage Type | Talent 9% | Poise Damage | Impulse Type |
+| :--- | :--- | :--- | :--- |
+| Plunge DMG | 104.41% | 10 | 2 |
+| Low Plunge DMG | 208.77% | 50 | 2 |
+| High Plunge DMG | 260.76% | 100 | 3 |
 {% endtab %}
 
 {% tab title="Inuzaka All-Round Defense" %}  
@@ -71,18 +73,20 @@ Adjust the location of the skill.
 
 | Attribute | War Banner | 
 | :--- | :--- |
-| Skill DMG \(T6%\) | 150.08% |
-| DEF Increase \(T6%\) | 289 |
+| Skill DMG \(T9%\) | 182.24% |
+| DEF Increase \(T9%\) | 350 |
 | Geo DMG Bonus | 15% |
 | Particles | 2 \(-\) | 
 | Frames | 46 \(Press\)<br />62-649 \(Hold\) |
 | GU | 1U |
-| ICD | - | 
+| ICD | 1s | 
 | Snapshot | - | 
 | Damage Element | Geo | 
 | Damage Type | Skill |
 | Duration | 10s |
 | CD | 10s |
+| Poise Damage | 80 |
+| Impulse Type | 4 |
 
 **Notes**
 * Gorou counts as one of the Geo characters for **General's War Banner**'s buff condition.
@@ -106,8 +110,10 @@ If Gorou falls, the effects of **General's Glory** will be cleared.
 
 | Attribute | Burst | Crystal Collapse | 
 | :--- | :--- | :--- |
-| Skill DMG \(T6%\) | 137.5% DEF | 85.82% DEF | 
-| Frames | 56 | - |
+| Skill DMG \(T9%\) | 166.97% DEF | 104.21% DEF | 
+| Cast Frames | 56 | - |
+| Energy Frame | 8 | - |
+| CD Frame | 1 | - |
 | GU | 1U | 1U |
 | ICD | - | 3 hit / 2.5s | 
 | Snapshot | - | Dynamic | 
@@ -116,6 +122,8 @@ If Gorou falls, the effects of **General's Glory** will be cleared.
 | Energy Cost | 80 | - |
 | Duration | 9s | - |
 | CD | 20s | - |
+| Poise Damage | 40 | 20 |
+| Impulse Type | 4 | 1 |
 
 **Notes**
 * The initial hit of **Juuga: Forward Unto Victory** does not benefit from its own buff.
@@ -130,7 +138,7 @@ If Gorou falls, the effects of **General's Glory** will be cleared.
 {% tab title="Passive" %}
 ### **Seeker of Shinies**
 
-Displays the location of nearby resources unique to Inazuma on the mini-map.
+Displays the location of nearby **resources unique to Inazuma** on the mini-map.
 {% endtab %}
 
 {% tab title="Ascension 1" %}
@@ -144,9 +152,9 @@ After using **Juuga: Forward Unto Victory**, all nearby party members' DEF is in
 {% tab title="Ascension 4" %}
 ### **A Favor Repaid**
 
-Gorou receives the following DMG Bonuses to his attacks based on his DEF:  
-• **Inuzaka All-Round Defense**: Skill DMG increased by 156% of DEF  
-• **Juuga: Forward Unto Victory**: Skill DMG and Crystal Collapse DMG increased by 15.6% of DEF
+Gorou receives the following DMG Bonuses to his attacks based on his DEF:
+* **Inuzaka All-Round Defense**: Skill DMG increased by 156% of DEF
+* **Juuga: Forward Unto Victory**: Skill DMG and Crystal Collapse DMG increased by 15.6% of DEF
 {% endtab %}
 {% endtabs %}
 
@@ -156,16 +164,17 @@ Gorou receives the following DMG Bonuses to his attacks based on his DEF:
 {% tab title="C1" %}
 ### **Rushing Hound: Swift as the Wind**
 
-When characters (other than Gorou) within the AoE of Gorou's **General's War Banner** or **General's Glory** deal Geo DMG to opponents, the CD of Gorou's **Inuzaka All-Round Defense** is decreased by 2s.  
+When characters (other than Gorou) within the AoE of Gorou's **General's War Banner** or **General's Glory** deal Geo DMG to opponents, the CD of Gorou's **Inuzaka All-Round Defense** is decreased by 2s.
 This effect can occur once every 10s.
 
 * The effect of **Rushing Hound: Swift as the Wind** can be snapshotted along with the buffs of **General's War Banner**. 
+
 {% endtab %}
 
 {% tab title="C2" %}
 ### **Sitting Hound: Steady as a Clock**
 
-While **General's Glory** is in effect, its duration is extended by 1s when a nearby active character obtains an Elemental Shard from a Crystallize reaction.  
+While **General's Glory** is in effect, its duration is extended by 1s when a nearby active character obtains an Elemental Shard from a Crystallize reaction. 
 This effect can occur once every 0.1s. Max extension is 3s.
 
 {% endtab %}
@@ -174,6 +183,8 @@ This effect can occur once every 0.1s. Max extension is 3s.
 ### **Mauling Hound: Fierce as Fire**
 
 Increases the Level of **Inuzaka All-Round Defense** by 3.
+Maximum upgrade level is 15.
+
 {% endtab %}
 
 {% tab title="C4" %}
@@ -182,18 +193,21 @@ Increases the Level of **Inuzaka All-Round Defense** by 3.
 When **General's Glory** is in the "**Impregnable**" or "**Crunch**" states, it will also heal active characters within its AoE by 50% of Gorou's own DEF every 1.5s.
 
 * The healing is dynamic and does not snapshot Gorou's DEF on cast.
+
 {% endtab %}
 
 {% tab title="C5" %}
 ### **Striking Hound: Thunderous Force**
 
 Increases the Level of **Juuga: Forward Unto Victory** by 3.
+Maximum upgrade level is 15.
+
 {% endtab %}
 
 {% tab title="C6" %}
 ### **Valiant Hound: Mountainous Fealty**
 
-For 12s after using **Inuzaka All-Round Defense** or **Juuga: Forward Unto Victory**, increases the CRIT DMG of all nearby party members' Geo DMG based on the buff level of the skill's field at the time of use:
+For 12s after using **Inuzaka All-Round Defense** or **Juuga: Forward Unto Victory**, increases the CRIT DMG of all nearby party members' **Geo DMG** based on the buff level of the skill's field at the time of use:
 * "**Standing Firm**": +10%
 * "**Impregnable**": +20%
 * "**Crunch**": +40%
@@ -210,50 +224,55 @@ This effect cannot stack and will take reference from the last instance of the e
 {% tab title="Ripping Fang Fletching" %}
 ### Normal Attacks
 
-|  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1-Hit DMG | 54.88% | 59.70% | 64.53% | 69.36% | 74.63% | 79.90% |
-| 2-Hit DMG | 54% | 58.75% | 63.50% | 68.26% | 73.44% | 78.62% |
-| 3-Hit DMG | 71.88% | 78.20% | 84.53% | 90.85% | 97.75% | 104.65% |
-| 4-Hit DMG | 85.75% | 93.30% | 100.84% | 108.39% | 116.62% | 124.85% |
+|  | Lv1 | Lv2 | Lv3 | Lv4 | Lv5 | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 1-Hit DMG | 37.75% | 40.83% | 43.90% | 48.29% | 51.36% | 54.87% | 59.70% | 64.53% | 69.36% | 74.63% | 79.90% |
+| 2-Hit DMG | 37.15% | 40.18% | 43.20% | 47.52% | 50.54% | 54.00% | 58.75% | 63.50% | 68.26% | 73.44% | 78.62% |
+| 3-Hit DMG | 49.45% | 53.47% | 57.50% | 63.25% | 67.27% | 71.88% | 78.20% | 84.53% | 90.85% | 97.75% | 104.65% |
+| 4-Hit DMG | 59.00% | 63.80% | 68.60% | 75.46% | 80.26% | 85.75% | 93.30% | 100.84% | 108.39% | 116.62% | 124.85% |
 
-### Charged Attack
+### Aimed Shot
 
-|  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Aimed Shot | 63.75% | 69.36% | 74.97% | 80.58% | 86.70% | 92.82% |
-| Fully-Charged Aimed Shot | 173.60% | 186% | 198.40% | 210.80% | 223.20% | 235.60% |
+|  | Lv1 | Lv2 | Lv3 | Lv4 | Lv5 | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Aimed Shot | 43.86% | 47.43% | 51.00% | 56.10% | 59.67% | 63.75% | 69.36% | 74.97% | 80.58% | 86.70% | 92.82% |
+| Fully-Charged Aimed Shot | 124.00% | 133.30% | 142.60% | 155.00% | 164.30% | 173.60% | 186.00% | 198.40% | 210.80% | 223.20% | 235.60% |
+
 
 ### Plunge
 
-|  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Plunge DMG | 82.60% | 89.87% | 97.14% | 104.41% | 112.34% | 120.27% |
-| Low Plunge DMG 165.17% | 179.7% | 194.23% | 208.77% | 224.62% | 240.48% |
-| High Plunge DMG | 206.3% | 224.45% | 242.61% | 260.76% | 280.57% | 300.37% |
+|  | Lv1 | Lv2 | Lv3 | Lv4 | Lv5 | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Plunge DMG | 56.83% | 61.45% | 66.08% | 72.69% | 77.31% | 82.60% | 89.87% | 97.14% | 104.41% | 112.34% | 120.27% |
+| Low Plunge DMG | 113.63% | 122.88% | 132.13% | 145.35% | 154.59% | 165.16% | 179.70% | 194.23% | 208.77% | 224.62% | 240.48% |
+| High Plunge DMG | 141.93% | 153.49% | 165.04% | 181.54% | 193.10% | 206.30% | 224.45% | 242.61% | 260.76% | 280.57% | 300.37% |
 
 {% endtab %}
 
 {% tab title="Inuzaka All-Round Defense" %}
-|  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 | Lv12 | Lv13 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Skill DMG | 150.08% | 160.80% | 171.52% | 182.24% | 192.96% | 203.68% | 214.40% | 227.80% |
-| DEF Increase | 289 | 309 | 330 | 350 | 371 | 392 | 412 | 438 |
 
-**Geo Damage Bonus**: 15%  
+|  | Lv1 | Lv2 | Lv3 | Lv4 | Lv5 | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 | Lv12 | Lv13 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Skill DMG | 107.20% | 115.24% | 123.28% | 134.00% | 142.04% | 150.08% | 160.80% | 171.52% | 182.24% | 192.96% | 203.68% | 214.40% | 227.80% |
+| DEF Increase | 206 | 222 | 237 | 258 | 273 | 289 | 309 | 330 | 350 | 371 | 392 | 412 | 438 |
+
+**Geo DMG Bonus**: 15%  
 **Duration**: 10s  
 **Cooldown**: 10s
+
 {% endtab %}
 
 {% tab title="Juuga: Forward Unto Victory" %}
-|  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 | Lv12 | Lv13 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Skill DMG | 137.5% DEF | 147.32% DEF | 157.15% DEF | 166.97% DEF | 176.79% DEF | 186.61% DEF | 196.43% DEF | 208.71% DEF |
-| Crystal Collapse DMG | 85.82% DEF | 91.95% DEF | 98.08% DEF | 104.21% DEF | 110.34% DEF | 116.47% DEF | 122.6% DEF | 130.26% DEF |
 
-**Energy Cost**: 80  
+|  | Lv1 | Lv2 | Lv3 | Lv4 | Lv5 | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 | Lv12 | Lv13 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Skill DMG | 98.22% DEF | 105.58% DEF | 112.95% DEF | 122.77% DEF | 130.14% DEF | 137.50% DEF | 147.32% DEF | 157.15% DEF | 166.97% DEF | 176.79% DEF | 186.61% DEF | 196.43% DEF | 208.71% DEF |
+| Crystal Collapse DMG | 61.30% DEF | 65.90% DEF | 70.49% DEF | 76.63% DEF | 81.22% DEF | 85.82% DEF | 91.95% DEF | 98.08% DEF | 104.21% DEF | 110.34% DEF | 116.47% DEF | 122.60% DEF | 130.26% DEF |
+
 **Duration**: 9s  
 **Cooldown**: 20s  
+**Energy Cost**: 80
+
 {% endtab %}
 {% endtabs %}
 

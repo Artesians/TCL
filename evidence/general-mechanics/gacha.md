@@ -9,7 +9,7 @@ search: false
 ## Soft Pity on Banners
 
 **By:** vibe checker\#5502  
-**Added:** 6/3/2021  
+**Added:** 2021-06-03  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/843094700441206844/849939262229315644/transcript-char-and-weapon-banner-pities.html)
 
 **Finding:** Soft pity is 74 on the featured character/standard banner, and 63 on the weapon banner.
@@ -23,7 +23,7 @@ The second link shows that the probability of rolling a 5 star massively increas
 ## Estimated 5 star pulls for weapons/characters
 
 **By:** KBphan\#0001  
-**Added:** 04/19/2021
+**Added:** 2021-04-19
 
 **Finding:** It takes approximately 12.5 5 star pulls to R5 a specific weapon
 
@@ -48,7 +48,7 @@ Average 5 stars pulled for rate up 5 star character
 ## Resin Efficiency of Acquaint Fates from Character Levelling  
 
 **By:** Moonrobin\#2608  
-**Added:** 12/19/2020  
+**Added:** 2020-12-19  
 
 **Finding:**  
 Level all characters to 20/40 for the Fate.  
@@ -68,7 +68,7 @@ Note that this is for WL7 drop rates, and only includes permanent sources of mat
 ## Weapon banner Gacha Rates with Epitomized Path
 
 **By:** Tim\#5259, Mcpie\#8672  
-**Added:** 11/11/2021  
+**Added:** 2021-11-11  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/884585841270329415/908323794622492742/transcript-weapon-banner-gacha-rates-with-epitomized-path.html)
 
 **Finding:**  
@@ -93,7 +93,7 @@ r5, no epi path, pity: 12.25
 ## Number of Wishes on Weapon Banner to Fully Level a 5 Star Weapon
 
 **By:** hanpw\#5824  
-**Added:** 12/16/2021  
+**Added:** 2021-12-16  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/906138978208604210/919065570257813514/transcript-weapon-as-fodder-wish-count.html)  
 
 **Finding:**  
@@ -108,3 +108,42 @@ How many wishes on the weapon banner does it take to fully level a 5 star weapon
 
 **Significance:**  
 Average number of wishes needed on weapon banner to level a 5 star weapon to 90 is 855 wishes.  
+
+## Gacha Calculator
+
+**By:** Tibo\#4809  
+**Added:** 2022-02-19  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/935286904679710741/944727977445445632/transcript-gacha-rate-calculator.html)   
+
+**Finding 1:** 
+Statistical model for Genshin Impact's droprates.    
+
+**Evidence:**   
+*Source*: Cgg and [Genshin Wishes](https://genshin-wishes.com/) (posted with permission)  
+
+The soft-pity system starts at pull 74 (5\* char), pull 63 (5\* weapon) and at pull 9 (4\*). At soft-pity, the drop rate increases with (the base rate \* 10) every pull  
+
+For more details/graphs/data, see their [HoYoLAB post](https://www.hoyolab.com/article/497840)  
+
+**Significance**:  
+Better understanding of how the soft-pity system works.
+
+**Finding 2:**
+Gacha rate calculator  
+
+**Evidence:** Based on this statistical model, I've made a [rate calculator](https://hutaobot.moe/tools/gachacalc) for a specific rate-up 5* char/weapon and 4* char.  
+
+Some percentile/pulls needed:  
+| Item | 50th Percentile | 95th Percentile | 99th Percentile |  
+| :--- | :--- | :--- | :--- |   
+| C0 of a rate-up 5\* character | 80  | 158 | 161 |    
+| C6 of a rate-up 5\* character | 654 | 843 | 917 | 
+| R1 of a rate-up 5\* weapon    | 99  | 199 | 204 |  
+| R5 of a rate-up 5\* weapon    | 527 | 731 | 811 |   
+| C0 of a rate-up 4\* character | 26  | 93  | 141 |  
+| C6 of a rate-up 4\* character | 231 | 384 | 464 |  
+
+Small note with these calculations: to keep the amount of calculations/paths to explore down in the 4\* char calcs, there's assumed to be no 5\*'s to eat up/delay guaranteed 4\* char. This will make the required 4\* count slightly lower than needed. I've assumed that the difference is negligible.  
+
+**Significance**:  
+Better budgeting/planning if users want to be X% sure to get char Y at CZ. Especially more useful for budgeting of higher constellations as averaging of low/high pity pulls. A calculator has the advantage that people can enter their current situation (pity/guaranteed).  

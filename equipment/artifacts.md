@@ -68,6 +68,22 @@
 {% endtab %}
 {% endtabs %}
 
+### Echoes of an Offering
+
+{% tabs %}
+{% tab title="Description" %}
+* 2 Piece Set: ATK +18%.
+* 4 Piece Set Bonus: When Normal Attacks hit opponents, there is a 36% chance that it will trigger Valley Rite, which will increase Normal Attack DMG by 70% of ATK.  
+This effect will be dispelled 0.05s after a Normal Attack deals DMG.
+If a Normal Attack fails to trigger Valley Rite, the odds of it triggering the next time will increase by 20%.  
+This trigger can occur once every 0.2s.
+{% endtab %}
+
+{% tab title="Findings" %}
+* Coming soon.  
+{% endtab %}
+{% endtabs %}
+
 ### Emblem of Severed Fate
 
 {% tabs %}
@@ -112,8 +128,7 @@
 {% endtab %}
 
 {% tab title="Findings" %}  
-* The 4p set bonus generates stack off-field passively even if the character does not deal Geo damage.
-* The 4p set bonus only loses stacks while the equipped character is on field.
+* The stacking mechanics are exactly as described, meaning stacks can be lost on-field and off-field, following the 6s timer.
 * Stacks from the 4p set bonus are gained when hitting an opponent with a Geo attack even when no damage is dealt (vs. Shielded or Immune targets).
 {% endtab %}  
 {% endtabs %}
@@ -172,12 +187,14 @@ This effect can still be triggered even when the character who is using this art
 {% endtab %}
 
 {% tab title="Findings" %}
-* The 4p set bonus Bubble Damage is considered Physical Damage and can be boosted by Physical Resistance Reduction (eg: Superconduct).
+* The 4p set bonus Bubble Damage is considered Physical Damage and can be boosted by Physical Resistance Reduction (eg: Superconduct).  
+* The 4p set bonus Bubble Damage is not a blunt hit and does not shatter frozen enemies.
 * The 4p set bonus Bubble Damage is independent of enemy defense.
 * All healing from the 4p set holder gets calculated for the Bubble Damage including overflow heals.
   * The 4p set bonus counts initial heal as part of the Sea-Dyed Foam bubble damage.
   * Revives such as Barbara C6 and Qiqi C6 count for Sea-Dyed Foam bubble healing.
   * Heals (and overheals) from Black Sword will activate Ocean-Hued Clam.
+  * A more extensive list of what dose and does not activate Ocean-Hued Clam can be found [here.](../evidence/equipment/artifacts.md#extensive-look-at-what-heals-count-for-ohc)
 * The 4p set bonus has a 1 bubble limit on field for single-player mode, shared by all 4p set holders.
   * The 3.5s bubble formation ICD is not shared by all 4p set holders.
 * The 4p set bonus only counts healing from the 4p set holder. This is also the case with multiple Ocean Hued sets on the same team.
@@ -272,6 +289,15 @@ This effect can still be triggered even when the character who is using this art
 
 {% tab title="Findings" %}
 * The 4p set holder does not have to be on-field to receive the 35% damage bonus. 
+{% endtab %}
+{% endtabs %}
+
+### Vermillion Hereafter
+
+{% tabs %}
+{% tab title="Description" %}
+* 2 Piece Set Bonus: ATK +18%.
+* 4 Piece Set Bonus: After using an Elemental Burst, this character will gain the Nascent Light effect, increasing their ATK by 8% for 16s. When the character's HP decreases, their ATK will further increase by 10%. This increase can occur this way maximum of 4 times. This effect can be triggered once every 0.8s. Nascent Light will be dispelled when the character leaves the field. If an Elemental Burst is used again during the duration of Nascent Light, the original Nascent Light will be dispelled.
 {% endtab %}
 {% endtabs %}
 

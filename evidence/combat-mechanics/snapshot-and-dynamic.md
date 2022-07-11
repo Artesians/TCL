@@ -11,7 +11,7 @@ search: false
 ## Summons are Not Dynamic and Snapshot on Cast
 
 **By:** Comfy Seaweed\#3841, Pleinair\#8321  
-**Added:** 11/22/2020
+**Added:** 2020-11-22
 
 **Comfy’s Findings** \(Comfy Seaweed\#3841\)
 
@@ -44,7 +44,7 @@ To add to Seaweed I tested this with Xiangling Pyronado along with c6 Diona Q. W
 ## Stats not in details stat page are not snapshot
 
 **By:** Kidz\#8667, Charliex3000\#9403  
-**Added:** 10/16/2021  
+**Added:** 2021-10-16  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/872757681826435132/899103401432989736/transcript-stats-not-in-details-stat-page-are-not-snapshot.html)  
 
 **Finding:**  
@@ -65,7 +65,7 @@ Vape/Melt Reaction%: From [4CWF](https://youtu.be/LTuTDhRyZZw), From [EM](../gen
 
 The following stats were tested/known to not snapshot:
 
-OL/EC/SC/Swirl%: From [4CWF](https://imgur.com/a/bYtzhH9) \(assumed to be the same for 4TF\), From [EM](https://youtu.be/YkdpSYT9ut0)
+OL/EC/SC/Swirl%: From [4CWF](https://imgur.com/a/bYtzhH9) \(assumed to be the same for 4TF\), From [EM](https://youtu.be/YkdpSYT9ut0)  
 Burst DMG%: From [4EoSF](../../equipment/weapons/polearms.md#engulfing-lightning), From [2NO](https://youtu.be/b0qlPkzjqX0), another [2NO](https://youtu.be/kZ6yBFfnO5M), [Raiden E](https://youtu.be/gNfQm_RQO84), [Solar Pearl](https://youtu.be/5yfQaDVafT8), and [Stringless](https://youtu.be/eG-zOxwdzHw)  
 Burst CRIT Rate: From [The Catch](https://youtu.be/e5TM7PlOeDw)  
 Skill DMG%: From [Solar Pearl](https://youtu.be/5yfQaDVafT8), and [Stringless](https://youtu.be/vhm1OAFgGA4)  
@@ -81,7 +81,7 @@ More extensive knowledge on what does and does not snapshot.
 ## Healing over time is snapshot on cast
 
 **By:** Dooners#6709  
-**Added:** 10/17/2021  
+**Added:** 2021-10-17  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/894400995554127882/899195834686636073/transcript-healing-over-time-is-snapshot-on-cast.html)  
 
 **Finding:**  
