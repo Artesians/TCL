@@ -6,8 +6,9 @@
 
 ## Newsletter
 
-* [Patch 2.4](newsletter/patch-2.4.md)
+* [Patch 2.7](newsletter/patch-2.7.md)
 * [Archive](newsletter/archive/README.md)
+  * [Patch 2.4](newsletter/patch-2.4.md)
   * [Patch 2.3b](newsletter/patch-2.3b.md)
   * [Patch 2.3](newsletter/patch-2.3.md)
   * [Patch 2.2a](newsletter/patch-2.2a.md)
@@ -23,6 +24,7 @@
 ## Characters
 
 * [Anemo](characters/anemo/README.md)
+  * [Heizou](characters/anemo/heizou.md)
   * [Jean](characters/anemo/jean.md)
   * [Kazuha](characters/anemo/kazuha.md)
   * [Sayu](characters/anemo/sayu.md)
@@ -279,6 +281,7 @@
 * [Evidence Vault](evidence/README.md)
   * [Characters](evidence/characters/README.md)
     * [Anemo](evidence/characters/anemo/README.md)
+      * [Heizou](evidence/characters/anemo/heizou.md)
       * [Jean](evidence/characters/anemo/jean.md)
       * [Kazuha](evidence/characters/anemo/kazuha.md)
       * [Sayu](evidence/characters/anemo/sayu.md)
