@@ -1,8 +1,32 @@
+---
+search: false
+---
+
 # Keqing
 
 **Main Page:**
 
 {% page-ref page="../../../characters/electro/keqing.md" %}
+
+## Ascension Mechanics
+
+### A4: Aristocratic Dignity
+
+#### A4 Crit Rate and ER Buff Duration
+
+**By:** r.rei\#2844  
+**Added:** 2021-11-10  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/907135831649685504/907902798795014194/transcript-keqing-crit-buff-duration.html)  
+
+**Finding:**  
+Keqing's Crit Rate and ER buff duration from A4 includes burst animation time.  
+
+**Evidence:**  
+[Stats page on Burst cast, and 8 seconds after cast](https://youtu.be/5nZrQLy9QDk)  
+* Buff duration ends around 5 seconds after Burst animation.
+
+**Significance:**  
+Keqing's A4 is often misunderstood because the buff duration starts at the beginning of her burst animation, and therefore only lasts 5 seconds after as her burst animation is 3 seconds long.  
 
 ## Constellation Mechanics
 
@@ -12,46 +36,25 @@
 
 **By:** Cola\#6861, ZΛNTO\#4984, Ryser\#6516
 
-Editor’s note: We are having inconsistent findings of whether or not the C1 damage applies twice if cast at point-blank range. This inconsistency could be due to varying mob sizes. See the evidence below.
+**Finding:**  
+We are having inconsistent findings of whether or not the C1 damage applies twice if cast at point-blank range. This inconsistency could be due to varying mob sizes. See the evidence below.
 
-#### Cola’s Findings
+**Evidence:**  
+Cola’s Findings: Against Treasure Hoarders, only 3 damage numbers occur: from the stilleto \(E1\), the blink damage \(C1\) and the AoE slash attack \(E2\). Thus C1 only damaged the enemy once. [YouTube](https://www.youtube.com/watch?v=PSAN5E4_ft4&feature=youtu.be)
 
-Her C1 works by you triggering her blink skill \(pressing E a second time to activate the blink\). When you do this, you deal electro damage in your starting position equal to 50% of your attack and another 50% at the location of your blink.
+ZANTO's Findings: Due to hitboxes, tests were conducted on both Bosses and Mobs. Delayed E2 tests were done to ensure the E1 damage was not being confused with C1 damage. Even with instant recasting of E2, 4 damage numbers are shown as expected, working on small mobs as well. [imgur](https://imgur.com/a/4OUutUU)
 
-In the [video](https://www.youtube.com/watch?v=PSAN5E4_ft4&feature=youtu.be) was a demonstration on if the C1 damage can proc twice since you're blinking basically in the same spot to a close by enemy.
+Rhyser’s Findings: Confirmed ZANTO’s Findings. [YouTube](https://youtu.be/gCb-AMa5cdA)
 
-Only three numbers popped up: from the stilleto \(E1\), the blink damage \(C1\) and the AoE slash attack \(E2\).
-
-Therefore, we can conclude that her C1 can only damage an opponent once, and not twice. This wasn't explained to us in the description of the constellation and it's easy to mistake that you can deal double the damage if you blinked in the same spot.
-
-Conclusions
-
-* No, Constellation 1, Thundering Might, can only deal damage to a nearby enemy once.
-
-#### ZANTO’s Findings
-
-**Finding:**
-
+**Significance:**  
 Keqing's C1 damage CAN be applied twice to the same enemy, provided that the Blink and Stiletto location of E2 are relatively the same. C1 does have a small hitbox, but will generally get 2 hits against a point blank target that your Stiletto is on top of.
 
-Testing:
-
-Due to hitboxes, tests were conducted on both Bosses and Mobs. Delayed E2 tests were done to ensure the E1 damage was not being confused with C1 damage. Even with instant recasting of E2, 4 damage numbers are shown as expected, working on small mobs as well.
-
-**Evidence:** [https://imgur.com/a/4OUutUU](https://imgur.com/a/4OUutUU)
-
-**Significance:** In perfect conditions, C1 essentially adds 100% damage to her E2, which can be beneficial for Electro Builds.
-
-#### Rhyser’s Findings
-
-Confirms ZANTO’s Findings
-
-[https://youtu.be/gCb-AMa5cdA](https://youtu.be/gCb-AMa5cdA)
+In perfect conditions, C1 essentially adds 100% damage to her E2, which can be beneficial for Electro Builds.
 
 ### Keqing C1 damage
 
 **By:** elijam#7142  
-**Added:** 08/07/2021  
+**Added:** 2021-08-07  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/866108653634846780/873536676675338280/transcript-tcl-damage-type-completion.html)
 
 **Finding:**  
@@ -64,12 +67,34 @@ Damage is consistent with and without 4HoD, 2gambler, and 2NO bonuses - [Video](
 **Significance:**  
 Damage calculations for Keqing.
 
+### C2: Keen Extraction  
+
+### Keqing C2 Procs Inconsistently  
+
+**By:** Sayline#5959  
+**Added:** 2021-10-24  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/880450784465129492/902064461525975080/transcript-c2-keqing-proc-consistency.html)  
+
+**Finding:**  
+Keqing's C2 procs inconsistently.  
+
+**Evidence:**  
+20 trials of Keqing hitting Ruin Guard: [YouTube](https://youtu.be/Yut7TBCd_GU)  
+Sample video of how hit counting was done: [YouTube](https://youtu.be/LQuXtesnT-8)  
+Table showing when C2 procs were observed: [Imgur](https://imgur.com/a/paATz9q)  
+
+Hypothesis on how C2 currently works by Isu#6867:  
+* Even when Keqing's C2 has generated a particle within the last 5 seconds, any subsequent NA/CA hit on an electro-aura enemy has a 50% chance to reset the cooldown back to 5 seconds by reapplying the same modifier that was used to generate the particle.  
+
+**Significance:**  
+Calculating Keqing energy needs with C2 in mind is hard to do with its inconsistent nature.  
+
 ## Interactions/Synergies
 
 ### Keqing Pale Flame Set Bonus
 
 **By:** Ayzel\#7399  
-**Added:** 05/01/2021  
+**Added:** 2021-05-01  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/836981654962569267/838582070044655616/transcript-keqing-pale-flame-set-bonus.html)
 
 **Finding:** Keqing triggering the second hit of her E with a charged attack will add a stack for Pale Flame's set bonus.
@@ -148,7 +173,7 @@ PS:
 * N3C : 15 Rotations
 * N4C : Near enough infinite, you lose stamina over time but it's so slow there's really no point finding out how many you'll get because whatever you're fighting should be dead.
 
-User Submission Update \(12/15/2020\)
+### User Submission Update \(2020-12-15\)
 
 **Finding:**
 
@@ -156,7 +181,7 @@ User Submission Update \(12/15/2020\)
 
 Blinking with 「Stellar Restoration」does less damage than doing an E-&gt;N1C, so the only time you might consider it for Physical Keqing is as a gap closer however the DPS loss of no longer getting Phys bonuses may not be worth it. For Electro Keqing as it enables Normal and Charge attacks to be converted to Electro this is a no brainer.
 
-Evidence and Methodology.
+**Evidence and Methodology:**
 
 By use of the graying of the character bench, elemental skill, and elemental burst as keyframes, total frames and MV/s are calculated.
 
@@ -187,7 +212,7 @@ All Talent % Taken at T6
   * 401.9 MV/s
   * [https://youtu.be/DuFRto4rY\_Q](https://youtu.be/DuFRto4rY_Q)
 
-Editor’s Significance
+**Significance:**
 
 * When comparing 4N1C to Q, 4N1C has superior DPS against a singular opponent, whereas Q has superior DPS against multiple opponents. The reason why these 2 combos are compared is because they take up nearly the same number of frames.
 * Therefore, AutoKeq should level Q and autoattacks \(Yunlai Swordsmanship\) together and leave E at level 6.

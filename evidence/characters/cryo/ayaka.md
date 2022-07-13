@@ -1,12 +1,14 @@
+---
+search: false
+---
+
 # Ayaka
 
 **Main Page:**
 
 {% page-ref page="../../../characters/cryo/ayaka.md" %}
 
-## Basic Ayaka Mechanics
-
-### Basic Attributes
+## Basic Mechanics
 
 * Gauges
   * E (2B), Dash (1A), Infused Normals (1A) - [sexyeboy69#6969](https://youtu.be/LxqjepdKwAU)
@@ -19,43 +21,12 @@
 * Ayaka's infusion is only applied once on cast - [2ri\#0945](https://imgur.com/2SQMtbU)  
 * Ayaka's Dash follows the standard 3-hit, 2.5s ICD rule. - [Ayzel/#7399](https://www.youtube.com/watch?v=grYqUp_JJRM&ab_channel=TenTen)  
 
-### Skill Mechanics
-
-* Energy Generation: 4~5 (1:1) particles per E - [Daybreak#0584](https://youtu.be/oXHoYUs6d6U) and Steph#3614
-* Ayaka's E has a vertical hitbox that can reach a Ruin Guard's weakpoint. - [2ri#0945](https://imgur.com/a/yB126Ja)
-
-### Burst Mechanics
-
-* Ayaka's burst is 20 ticks of damage - [Sitri#9504](https://youtu.be/viS7Nim4yMM)
-  * 19 ticks of Cutting DMG
-    * which follow standard ICD rules - [Sitri#9504](https://youtu.be/0zRg5PCF7dw)
-    * which apply 1A Cryo - [Sitri#9504](https://youtu.be/obmfOaYGjis)
-  * And 1 tick of Bloom DMG at the end
-* Ayaka's burst snapshots. - [JenjenJL#6582](https://youtu.be/maB6T_h8Rnc)
-* Ayaka's burst stays in place against...
-  * Large enemies - [2ri#0945](https://imgur.com/a/yB126Ja)
-  * Frozen enemies
-    * Hydro Slime - [2ri#0945](https://imgur.com/ea0mhSl)
-    * Hilichurl - [2ri#0945](https://imgur.com/WB4b1ej)
-* The vertical hitbox is tall enough to hit Oceanid Birds - [Lowy#0119](https://imgur.com/a/gw47yBc)
-
-### Constellation Mechanics
-
-#### C2: Blizzard Blade Seki no To
-
-* The two additional Frostflake Seki no To formed can hit the same target. - [HailCorporate#2970](https://imgur.com/a/nlOHZBU)
-* The additional whirls have their own separate ICD that follows standard ICD rules. - [Phana#0420](https://imgur.com/a/NPQFhPn)
-
-#### C6: Dance of Suigetsu
-
-* C6 is additive - [ClawofBeta#4125](https://cdn.discordapp.com/attachments/866109693101211648/867518314337927239/unknown.png)
-
-## Attack Mechanics
+## Normal Attack Mechanics
 
 ### Ayaka CA Hitscan  
 
 **By:** Knospmoht\#9211 , Mcpie\#8672, LittleFox\#0906, Greyhound\#7836  
-**Added:** 08/09/2021  
+**Added:** 2021-08-09  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/870326929893515314/874088594778771476/transcript-ayaka-hitscan-ca.html)  
 
 **Theory:** Ayaka's CA have a unique hitscan mechanic and is not technically an AOE attack. If an enemy is visible within range on the single first frame of ayaka's CA, she will create a gadget on said enemy. This gadget has various properties:  
@@ -82,7 +53,7 @@ For example, the gadget is smaller than Geovishap's large collision box which me
 ### Ayaka CA Conclusion  
 
 **By:** wiremash#0433  
-**Added:** 09/05/2021  
+**Added:** 2021-09-05  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/883962129919655976/884148507999604746/transcript-ayaka-ca.html)  
 
 **Finding:**  
@@ -109,12 +80,82 @@ Because the gadget stops following the enemy when it begins its hitscans, it may
 
 In addition, because enemies can exit the hitscan area early, using her charged attack right as an enemy is about to jump, dash or teleport away can also result in potential damage loss.
 
+### Ayaka’s CA hitscan also has negative vertical reach.  
+**By:** Asaki\#9139  
+**Added:** 2021-12-21  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/920526901016150056/922629903579508797/transcript-ayaka-ca-below-feet.html)  
+
+**Finding:** Apart from being able to reach enemies above Ayaka’s ground level (due to Venti’s lift, or Jean’s CA, etc.), Ayaka’s CA can also reach enemies below her ground level, thanks to the mechanics of her subsequent hitscans from the intial one.
+
+**Evidence:** 
+* [Youtube](https://youtu.be/0KrA4O_esPo)  
+There are timestamps in the comment if you want to skip quicker or instantly replay but the whole video was an attempt at recording this.
+
+* It’s important to note that only the subsequent slashes have this property. If the initial hit does not register onto an enemy, the following slashes will simply appear at around the same vertical height Ayaka used to be right before the animation of the subsequent slashes start. As seen here (provided by Nass008#8577) when she falls down, a few of the secondary slashes hit:   
+[Imgur](https://imgur.com/uF4UEnm)
+
+**Significance:**  
+* Overworld fluff: Being lifted by Albedo’s elevator may not be as devastating, if you decide to pair them up. One of these scenarios can happen:  
+a) N1 spawns hitscan, locked on, Albedo suddenly lifts, initial slash still hit (prolly in the head or sth), subsequent hitscans spawn around the first slash as the current CA gadget theory suggests, everything else still gets hit by the CA. No video evidence on this currently.  
+b) Ayaka is already lifted, Venti’s ult is right in front, but there’s exactly one enemy right on the ground that can’t be picked up. The height range is definitely shorter than the cliff so it’s guaranteed to hit.
+
+* These evidence suggests that the subsequent (or secondary) hitscans cover a larger AoE compared to the initial scan (check torch). If someone else can properly investigate the AoE width of the subsequent hitscans, it’d be much appreciated.
+
+## Skill Mechanics
+
+* Energy Generation: 4~5 (1:1) particles per E - [Daybreak#0584](https://youtu.be/oXHoYUs6d6U) and Steph#3614
+* Ayaka's E has a vertical hitbox that can reach a Ruin Guard's weakpoint. - [2ri#0945](https://imgur.com/a/yB126Ja)
+
+## Burst Mechanics
+
+* Ayaka's burst is 20 ticks of damage - [Sitri#9504](https://youtu.be/viS7Nim4yMM)
+  * 19 ticks of Cutting DMG
+    * which follow standard ICD rules - [Sitri#9504](https://youtu.be/0zRg5PCF7dw)
+    * which apply 1A Cryo - [Sitri#9504](https://youtu.be/obmfOaYGjis)
+  * And 1 tick of Bloom DMG at the end
+* Ayaka's burst snapshots. - [JenjenJL#6582](https://youtu.be/maB6T_h8Rnc)
+* Ayaka's burst stays in place against...
+  * Large enemies - [2ri#0945](https://imgur.com/a/yB126Ja)
+  * Frozen enemies
+    * Hydro Slime - [2ri#0945](https://imgur.com/ea0mhSl)
+    * Hilichurl - [2ri#0945](https://imgur.com/WB4b1ej)
+* The vertical hitbox is tall enough to hit Oceanid Birds - [Lowy#0119](https://imgur.com/a/gw47yBc)
+
+### Ayaka Q Pushes Away Enemies  
+
+**By:** Tsym#2586  
+**Added:** 2021-10-17  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/890817514794266664/899133874968354866/transcript-ayaka-q-pushing-away-enemies-of-different-weights.html)  
+
+**Finding:**  
+Upon cast, Ayaka Q pushes away all nearby enemies. It appears through several tests (see video), that the extent to which enemies are pushed away are dependent upon their weight and/or their size. Light/small enemies are pushed away the most, and heavy/big enemies are pushed away the least (relative to the size of their overall hitbox). There also appear to be some instances where enemies are not pushed away at all (see the last clip), which I believe can occur when enemies are stuck within an animation.
+
+Two additional notes about the pushing effect:  
+1) The distance of the pushing effect appears to be lessened if the enemies are pushed against the wall (see the first clip), so you can stand a little ways away from the wall so small enemies aren't pushed as far.  
+2) The pushing effect occurs equally in all directions away from Ayaka's character model, so you really don't want to stand in the middle of a pack of enemies while casting her Q. Repositioning to one side is generally a better idea.
+
+**Evidence:**  
+[Video](https://www.youtube.com/watch?v=oFTAa9vMehw)  
+
+**Significance:**  
+Better understanding of Ayaka Q's mechanics to land more hits from her burst. 
+
+## Constellation Mechanics
+### C2: Blizzard Blade Seki no To
+
+* The two additional Frostflake Seki no To formed can hit the same target. - [HailCorporate#2970](https://imgur.com/a/nlOHZBU)
+* The additional whirls share ICD with the main one. - [Phana#0420](https://imgur.com/a/NPQFhPn)
+
+### C6: Dance of Suigetsu
+
+* C6 is additive - [ClawofBeta#4125](https://cdn.discordapp.com/attachments/866109693101211648/867518314337927239/unknown.png)
+
 ## Dash Mechanics
 
 ### Ayaka Dash Iframe  
 
 **By:** aui#3690  
-**Added:** 09/17/2021  
+**Added:** 2021-09-17  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/885753886823055421/888239660407599134/transcript-alt-vs-dash-iframe.html)  
 
 **Finding:**  

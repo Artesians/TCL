@@ -1,0 +1,6 @@
+---
+search: false
+---
+
+# Tech
+

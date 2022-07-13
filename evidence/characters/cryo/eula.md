@@ -1,3 +1,7 @@
+---
+search: false
+---
+
 # Eula
 
 **Main Page:**
@@ -101,7 +105,7 @@
 ### Eula Swap Buff
 
 **By:** Sir_pick_the_prick#2209 & Senovit#8237 & Greyhound#7836  
-**Added:** 6/14/2021  
+**Added:** 2021-06-14  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/845173856271597578/854016900095016960/transcript-eula-swap-buff.html)
 
 **Finding:**  
@@ -120,7 +124,7 @@ Allows for better burst cycles.
 ### Eula Burst Buffs Catalog
 
 **By:** Artesians#0002  
-**Added:** 6/26/2021  
+**Added:** 2021-06-26  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/845526724984963072/858445059292266536/transcript-eula-buff-catalog.html)
 
 **Theory:**   
@@ -139,7 +143,7 @@ Cataloging Eula's buffs will be helpful for TC'ing possible one-shot rotations.
 ### Eula 15 stack bug  
 
 **By:** GOKU\#8808  
-**Added:** 07/05/2021  
+**Added:** 2021-07-05  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/851120552323055636/861598862111932416/transcript-15-stacks-on-c0-eula.html)  
 
 **Bug:**  
@@ -152,3 +156,53 @@ At high ping Eula's elemental burst does not properly lock stacks in on time, al
 
 **Significance:**  
 Eula is stronger under high ping.  
+
+### Eula Burst Animation Cancel
+
+**By:** TWICE\#9958  
+**Added:** 2022-04-24  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/967821800463556658/transcript-eula-burst-animation-cancel.html)  
+
+
+**Original Credit:**  
+Concept by [frenchtutor_ on YouTube](https://www.youtube.com/watch?v=bcIuwY4mC34).  
+
+**Finding:**  
+By holding down walk \(W\) during Eula's Burst animation, you are actionable ~4 frames earlier compared to not holding it down.  
+
+**Evidence:**  
+* [Cancel](https://youtu.be/yVweQd57Uv4)
+* [No cancel](https://youtu.be/uFZfWpSS1rQ)
+
+All testing was done on 2\.5 Abyss 12\-3\-1 at 60 FPS (in game and in recording). Eula has Song of Broken Pines, but the buff is not in effect. You can verify this both with the timer \(too soon\) and the fact that Sigils appear in the NAs after the Burst.  
+Results over 10 trials each: the Burst animation takes 116-117 frames if inputting walk, and 120-121 frames if not.
+
+**Significance:**  
+The sweatiest of gamers can save up to ~4 frames of Eula's initial Burst animation. This gives a sliver of more leeway in building stacks for Eula's Lightfall, and for spacing out Eula's A1 and second N4 sequence. In the vast majority of cases/reaction times, there will be a negligible difference. 
+
+## Synergies/Interactions
+
+* Shenhe E applies A4 buff fast enough to buff Eula's Lightfall explosion via the "swap trick".  
+* [Video](https://youtu.be/SiiOtS8mtMc) - TWICE\#9958
+
+### Rosaria A4 Eula Burst Inconsistency
+
+**By:** TWICE\#9958  
+**Added:** 2021-01-10  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/925652715894358046/930016341086335027/transcript-rosaria-a4-eula-burst-inconsistencies.html)
+
+**Finding:**  
+The duration of Rosaria's A4 buff does not consistently last to the end of Eula's burst \(Lightfall explosion\). 
+
+**Evidence:**  
+* [Tree](https://youtu.be/gW9VMLKl1n8)
+* [Ruin Guard](https://youtu.be/pz_a7xnjB2w)
+* [Ruin Guard (TCL)](https://imgur.com/z49kY0s)
+* [Ruin Guard (Pines)](https://youtu.be/CCyULYIrCHc)
+
+Game setting at 60 fps, recorded in 60 fps.
+
+In each of the videos, the rotation is Rosaria Q > Eula Q N4 hold E N4 (pop). Alt-swap is used for Eula's burst. In the first two videos, we see that Rosaria's A4 burst does not last through Eula's Lightfall sword popping while using Rainslasher. However in the TCL, there is evidence that Rosaria's A4 burst can last through the pop. Both the currently-submitted videos and TCL video have a stable ping of roughly 50 ms. When tested using R1 Song of Broken Pines (which has an attack speed buff), A4 lasted through the pop.
+
+**Significance:**  
+Rosaria's A4 on Eula's burst is inconsistent at best, and should generally **not** be assumed to apply when calculating team rotations. This changes with attack speed buffs (e.g. Song of Broken Pines, Jean C2), as Eula also has ample time to swap "early" after the second N4 to trigger the explosion while the A4 buff is still active

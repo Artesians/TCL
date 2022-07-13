@@ -2,9 +2,15 @@
 description: 'The tycoon of a winery empire in Mondstadt, unmatched in every possible way.'
 ---
 
+## **Resources**
+
+* [Diluc: The Dark Side of the Dawn (In-Depth Written Guide)](https://keqingmains.com/diluc/)
+* [3 Minute Guide to Diluc](https://www.youtube.com/watch?v=KdBdeGvtyUM)
+* [Diluc Mains Discord](https://discord.gg/af9MWyd)
+
 # Diluc
 
-## ![](../../.gitbook/assets/element_pyro.png)Diluc
+## ![](../../.gitbook/assets/element_pyro.png) Diluc
 
 ![](../../.gitbook/assets/character_diluc_wish.png)
 
@@ -27,68 +33,88 @@ description: 'The tycoon of a winery empire in Mondstadt, unmatched in every pos
 **Normal Attacks**  
 Diluc performs up to 4 consecutive attacks.
 
-| String | Talent 6% | Frames | Motion Value |
-| :--- | :--- | :--- | :--- |
-| 1-Hit | 130.38% | 24 | 326%/s |
-| 2-Hit | 127.38% | 77 | 200.9%/s |
-| 3-Hit | 143.63% | 115 | 209.42%/s |
-| 4-Hit | 194.75% | 181 | 197.61%/s |
+| String | Talent 9% | Frames | MV/s | Poise Damage | Impulse Type |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1-Hit | 164.79% | 24 | 411.98%/s | 108.1 | 3 |
+| 2-Hit | 161% | 77 | 253.86%/s | 105.57 | 3 |
+| 3-Hit | 181.54% | 115 | 264.69%/s | 119.03 | 3 |
+| 4-Hit | 246.16% | 181 | 249.78%/s | 161.46 | 6 |
 
 **Charged Attack**  
-Diluc consumes 40 stamina a second to perform continuous slashes. At the end of the sequence, perform a more powerful slash.
+Drains 40 stamina a second to perform continuous slashes.  
+At the end of the sequence, perform a more powerful slash.
 
-| String | Talent 6% | Frames | Motion Value |
+| String | Talent 9% | Frames | MV/s | Poise Damage | Impulse Type |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Slash | 126.4% | 30 | 252.8%/s | 60 | 3 |
+| Final Slash | 229.1% | 29 | 474%/s | 120 | 6 |
+
+**Plunge**  
+Plunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.
+
+| Damage Type | Talent 9% | Poise Damage | Impulse Type |
 | :--- | :--- | :--- | :--- |
-| Slash | 100.00% | 30 | 200%/s |
-| Final Slash | 181.25% | 29 | 375%/s |
-
-**Plunge**
-
-| Damage Type | Talent 6% |
-| :--- | :--- |
-| Plunge Impact | 130.1% |
-| Low Plunge DMG | 260.13% |
-| High Plunge DMG | 324.92% |
+| Plunge DMG | 164.44% | 35 | 2 |
+| Low Plunge DMG | 328.81% | 150 | 4 |
+| High Plunge DMG | 410.7% | 200 | 7 |
 {% endtab %}
 
 {% tab title="Searing Onslaught" %}
-Diluc performs a forward slash, dealing Pyro DMG
+Diluc performs a forward slash, dealing Pyro DMG.  
+This skill can be consecutively used 3 times. Enters CD if not cast again within 4s.
 
-This skill can be cast up to 3 times consecutively, with different effects. Enters CD if not cast again within 4s.
+| Attribute | Skill (1-Hit) | Skill (2-Hit) | Skill (3-Hit) |
+| :--- | :--- | :--- | :--- |
+| Skill DMG \(T9%\) | 160.48% | 165.92% | 218.96% |
+| MV/s \(T9%\) | 213.97%/s | 191.45%/s | 162.19%/s | 
+| Particles | 1~2 \(3:1\) | 1~2 \(3:1\) | 1~2 \(3:1\) | 
+| Frames | 45 | 52 | 81 |
+| GU | 1A | 1A | 1A |
+| ICD | None | None | None | 
+| Snapshot | Dynamic | Dynamic | Dynamic |
+| Damage Element | Pyro | Pyro | Pyro |
+| Damage Type | Skill | Skill | Skill | 
+| Cooldown | 10s | - | - |
+| Poise Damage | 120 | 120 | 120 |
+| Impulse Type | 4 | 5 | 6 |
 
-| Type | Talent 6% | Cooldown | GU | Particles | Frames | Motion Value |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1-Hit DMG | 132.16% | 10s | 1A | 1~2 \(3:1\) | 45 | 176.2%/s |
-| 2-Hit DMG | 136.64% |  | 1A | 1~2 \(3:1\) | 52 | 157.7%/s |
-| 3-Hit DMG | 180.32% |  | 1A | 1~2 \(3:1\) | 81 | 133.6%/s |
-| N1-E-N1-E-N1-E-N1 | 970.64% |  |  |  | 257 | 226.6%/s |
-
+**Notes**
 * The cooldown starts after the first cast.
-* Each cast is considered a unique Pyro source and they do not share an ICD.
 * Each cast adds a stack to the 4pc Crimson Witch of Flames artifact set.
 * When Searing Onslaught hits a frozen target, it will shatter before reacting with any underlying auras.
 * Getting frozen in the middle of **Searing Onslaught**'s second attack's animation allows for the skill to be briefly recasted when unfrozen.
 {% endtab %}
 
 {% tab title="Dawn" %}
-Diluc slashes in front of himself and releases a Phoenix, dealing Pyro DMG. The Phoenix flies forward dealing DoT Pyro DMG. Once the Phoenix reaches its destination, it explodes, dealing Pyro DMG.
+Releases intense flames to knock back nearby opponents, dealing Pyro DMG. The flames then converge into the weapon, summoning a **Phoenix** that flies forward and deals massive Pyro DMG to all opponents in its path. The Phoenix explodes upon reaching its destination, causing a large amount of AoE Pyro DMG.
 
-After the slash, Diluc infuses his weapon with Pyro.
+The searing flames that run down his blade cause it to be infused with Pyro.
 
-| Effect | Talent 6% / Data | GU |
-| :--- | :--- | :--- |
-| Slashing DMG | 286.6% | 2B |
-| DoT DMG | 84.0% | 1A |
-| Explosion DMG | 285.6% | -- |
-| Infusion Duration | 8s | 1A |
-| Cooldown | 12s | -- |
-| Energy Cost | 40 | -- |
-| Frames | 145 | -- |
-| Total Talent Value \(3 DoT procs\) | 824% | -- |
-| Motion Value | 341%/s | -- |
+| Attribute | Slashing DMG | DoT DMG | Explosion DMG |
+| :--- | :--- | :--- | :--- |
+| Skill DMG \(T9%\) | 346.8% | 102% | 346.8% |
+| MV/s | 413.63%/s | - | - |
+| Cast Frames | 145 | - | - |
+| Energy Frame | 24 | - | - |
+| CD Frame | 16 | - | - |
+| GU | 2B | 1A | ? |
+| ICD | 5 hits/5s* | 5 hits/5s* | 5 hits/5s* |
+| Snapshot | Dynamic | Snapshot | Snapshot |
+| Damage Element | Pyro | Pyro | Pyro | 
+| Damage Type | Burst | Burst | Burst |
+| Energy Cost | 40 | - | - |
+| Duration | 12s | - | - |
+| CD | 12s | - | - | 
+| Poise Damage | Cast: 400 <br> 1st Part: 100 <br> 2nd Part: 100 | 100 | 100 |
+| Impulse Type | Cast: 3 <br> 1st Part: 4 <br> 2nd Part: 5 | Heavy, 900, 0 | 8 |
 
-* The ICD for **Dawn** follows a 5-hit rule on elemental application rather than the standard 3-hit rule.   
-* Pyro infused autos have 1U worth of Pyro application.  
+| Attribute | Field |
+| :--- | :--- |
+| Infuse GU | 1A |
+| Duration | 8s | 
+
+**Notes**
+* The ICD for **Dawn** is shared between Slashing DMG, DoT DMG, and Explosions DMG.
 {% endtab %}
 {% endtabs %}
 
@@ -96,128 +122,139 @@ After the slash, Diluc infuses his weapon with Pyro.
 
 {% tabs %}
 {% tab title="Passive" %}
-#### Tradition of the Dawn Knight
+### **Tradition of the Dawn Knight**
 
 Refunds 15% of the ore used when crafting Claymore-type weapons.
 {% endtab %}
 
 {% tab title="Ascension 1" %}
-#### Relentless
+### **Relentless**
 
-Diluc's Charged Attack stamina cost is decreased by 50%, and its duration is increased by 3s.
+Diluc's Charged Attack Stamina Cost is decreased by 50%, and its duration is increased by 3s.
 {% endtab %}
 
 {% tab title="Ascension 4" %}
-#### Blessing of the Phoenix
+### **Blessing of Phoenix**
 
-The Pyro Infusion granted by Dawn lasts 4s longer. Additionally, Diluc gains 20% Pyro DMG Bonus for duration of the effect.
+The **Pyro Infusion** provided by **Dawn** lasts for 4s longer. Additionally, Diluc gains 20% **Pyro DMG Bonus** during the duration of this effect.
+
+**Note**
+* The Pyro DMG Bonus is also applied to **Dawn**'s Slashing, DoT, and Explosion DMG.
 {% endtab %}
 {% endtabs %}
 
-## Constellations
+## **Constellations**
 
 {% tabs %}
 {% tab title="C1" %}
-#### Conviction
+### **Conviction**
 
-Diluc deals 15% increased DMG to opponents whose HP is above 50%.
+Diluc deals 15% more DMG to opponents whose HP is above 50%.
+
 {% endtab %}
 
 {% tab title="C2" %}
-#### Searing Ember
+### **Searing Ember**
 
-When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Last for 10s. This effect can stack up to 3 times and can only occur once every 1.5s.
+When Diluc takes DMG, his ATK increases by 10% and his ATK SPD increases by 5%. Lasts for 10s.  
+This effect can stack up to 3 times and can only occur once every 1.5s.
+
 {% endtab %}
 
 {% tab title="C3" %}
-#### Fire and Steel
+### **Fire and Steel**
 
-Increases the level of Searing Onslaught by 3.
+Increases the Level of **Searing Onslaught** by 3.
+Maximum upgrade level is 15.
+
 {% endtab %}
 
 {% tab title="C4" %}
-#### Flowing Flame
+### **Flowing Flame**
 
-If Searing Onslaught is recast more than 2s after the previous cast, it deals 40% additional DMG.
+Casting **Searing Onslaught** in rhythm greatly increases damage dealt.
+2s after casting **Searing Onslaught**, casting the next Searing Onslaught in the combo deals 40% additional DMG. This effect lasts for 2s.
+
 {% endtab %}
 
 {% tab title="C5" %}
-#### Phoenix, Harbinger of Dawn
+### **Phoenix, Harbinger of Dawn**
 
-Increases the Level of Dawn by 3.
+Increases the Level of **Dawn** by 3.
+Maximum upgrade level is 15.
+
 {% endtab %}
 
 {% tab title="C6" %}
-#### **Flaming Sword, Nemesis of the Dark**
+### **Flaming Sword, Nemesis of the Dark**
 
-After casting Searing Onslaught, the next 2 Normal Attacks within the next 6s will have their DMG and ATK SPD increased by 30%. Additionally, Searing Onslaught will not interrupt the Normal Attack combo.
+After casting **Searing Onslaught**, the next 2 Normal Attacks within the next 6s will have their DMG and ATK SPD increased by 30%.  
+Additionally, Searing Onslaught will not interrupt the Normal Attack combo.
+
 {% endtab %}
 {% endtabs %}
 
-## Full Talent Values
+## **Full Talent Values**
 
 {% tabs %}
 {% tab title="Tempered Sword" %}
 ### Normal Attacks
 
-|  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1-Hit DMG | 130.38 | 141.85 | 153.32 | 164.79 | 177.31 | 191.65 |
-| 2-Hit DMG | 127.38 | 138.58 | 149.79 | 161 | 173.23 | 187.24 |
-| 3-Hit DMG | 143.63 | 156.26 | 168.90 | 181.54 | 195.33 | 211.13 |
-| 4-hit DMG | 194.75 | 211.89 | 229.03 | 246.16 | 264.86 | 286.28 |
+|  | Lv1 | Lv2 | Lv3 | Lv4 | Lv5 | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 1-Hit DMG | 89.70% | 97.00% | 104.30% | 114.73% | 122.03% | 130.38% | 141.85% | 153.32% | 164.79% | 177.31% | 191.65% |
+| 2-Hit DMG | 87.63% | 94.77% | 101.90% | 112.09% | 119.22% | 127.37% | 138.58% | 149.79% | 161.00% | 173.23% | 187.24% |
+| 3-Hit DMG | 98.81% | 106.86% | 114.90% | 126.39% | 134.43% | 143.62% | 156.26% | 168.90% | 181.54% | 195.33% | 211.13% |
+| 4-Hit DMG | 133.99% | 144.89% | 155.80% | 171.38% | 182.29% | 194.75% | 211.89% | 229.03% | 246.16% | 264.86% | 286.28% |
 
 ### Charged Attack
 
-|  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Charged Attack Spinning DMG | 100 | 108.80 | 117.60 | 126.40 | 136 | 147 |
-| Charged Attack Final DMG | 181.25 | 197.20 | 213.15 | 229.10 | 246.50 | 266.44 |
+|  | Lv1 | Lv2 | Lv3 | Lv4 | Lv5 | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Charged Attack Spinning DMG | 68.80% | 74.40% | 80.00% | 88.00% | 93.60% | 100.00% | 108.80% | 117.60% | 126.40% | 136.00% | 147.00% |
+| Charged Attack Final DMG | 124.70% | 134.85% | 145.00% | 159.50% | 169.65% | 181.25% | 197.20% | 213.15% | 229.10% | 246.50% | 266.44% |
 
-**Maximum Duration**: 5s
-
-**Stamina Cost**: 40
+**Stamina Cost**: 40/s  
+**Max Duration**: 5s
 
 ### Plunge
 
-|  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Plunge DMG | 130.10 | 141.54 | 152.99 | 164.44 | 176.93 | 189.42 |
-| Low Plunge DMG | 260.13 | 283.03 | 305.92 | 328.81 | 353.78 | 378.76 |
-| High Plunge DMG | 324.92 | 353.52 | 382.11 | 410.70 | 441.89 | 473.09 |
+|  | Lv1 | Lv2 | Lv3 | Lv4 | Lv5 | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Plunge DMG | 89.51% | 96.79% | 104.08% | 114.48% | 121.77% | 130.10% | 141.54% | 152.99% | 164.44% | 176.93% | 189.42% |
+| Low Plunge DMG | 178.97% | 193.54% | 208.11% | 228.92% | 243.49% | 260.13% | 283.03% | 305.92% | 328.81% | 353.78% | 378.76% |
+| High Plunge DMG | 223.55% | 241.74% | 259.94% | 285.93% | 304.13% | 324.92% | 353.52% | 382.11% | 410.70% | 441.89% | 473.09% |
+
 {% endtab %}
 
 {% tab title="Searing Onslaught" %}
-|  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 | Lv12 | Lv13 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1-Hit DMG | 132.16 | 141.60 | 151.04 | 160.48 | 169.92 | 179.36 | 188.80 | 200.60 |
-| 2-Hit DMG | 136.64 | 146.40 | 156.16 | 165.92 | 175.68 | 185.44 | 195.20 | 207.40 |
-| 3-hit DMG | 180.32 | 193.20 | 206.08 | 218.96 | 231.84 | 244.72 | 257.60 | 273.70 |
+
+|  | Lv1 | Lv2 | Lv3 | Lv4 | Lv5 | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 | Lv12 | Lv13 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 1-Hit DMG | 94.40% | 101.48% | 108.56% | 118.00% | 125.08% | 132.16% | 141.60% | 151.04% | 160.48% | 169.92% | 179.36% | 188.80% | 200.60% |
+| 2-Hit DMG | 97.60% | 104.92% | 112.24% | 122.00% | 129.32% | 136.64% | 146.40% | 156.16% | 165.92% | 175.68% | 185.44% | 195.20% | 207.40% |
+| 3-Hit DMG | 128.80% | 138.46% | 148.12% | 161.00% | 170.66% | 180.32% | 193.20% | 206.08% | 218.96% | 231.84% | 244.72% | 257.60% | 273.70% |
 
 **Cooldown**: 10s
+
 {% endtab %}
 
 {% tab title="Dawn" %}
-|  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 | Lv12 | Lv13 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Slashing DMG | 285.60 | 306 | 326.40 | 346.80 | 367.20 | 387.60 | 408 | 433.50 |
-| DoT | 84 | 90 | 96 | 102 | 108 | 114 | 120 | 127.50 |
-| Explosion DMG | 285.60 | 306 | 326.40 | 346.80 | 367.20 | 387.60 | 408 | 433.50 |
 
+|  | Lv1 | Lv2 | Lv3 | Lv4 | Lv5 | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 | Lv12 | Lv13 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Slashing DMG | 204.0% | 219.3% | 234.6% | 255.0% | 270.3% | 285.6% | 306.0% | 326.4% | 346.8% | 367.2% | 387.6% | 408.0% | 433.5% |
+| DoT | 60.0% | 64.5% | 69.0% | 75.0% | 79.5% | 84.0% | 90.0% | 96.0% | 102.0% | 108.0% | 114.0% | 120.0% | 127.5% |
+| Explosion DMG | 204.0% | 219.3% | 234.6% | 255.0% | 270.3% | 285.6% | 306.0% | 326.4% | 346.8% | 367.2% | 387.6% | 408.0% | 433.5% |
+
+**Cooldown**: 12s  
+**Infusion Duration**: 8s  
 **Energy Cost**: 40
 
-**Infusion Duration**: 8s
-
-**Cooldown**: 12s
 {% endtab %}
 {% endtabs %}
 
-## **External Links**
-
-* [Genshin Impact Fandom](https://genshin-impact.fandom.com/wiki/Diluc)
-* [Diluc Mains Discord](https://discord.gg/af9MWyd)
-
-**Evidence Vault:**
+## Evidence Vault
 
 {% page-ref page="../../evidence/characters/pyro/diluc.md" %}
 

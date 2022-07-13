@@ -4,13 +4,21 @@ description: A member of the decentralized criminal organization that has footpr
 
 # Treasure Hoarders
 
-## Treasure Hoarder Marksman
+## Treasure Hoarders: Marksman
 
 Though they are called "marksmen," this name has an undercurrent of mockery to it, as they use crossbows instead of bows, which require a long period of training to use. It must be said that even hilichurls know how to operate a crossbow. Just point the wider end at the enemy, pull the trigger, and bam — that's all there is to it.
 
 ## Weakspot Details
 
-> todo
+Head.
+
+## Energy drops
+
+| HP Threshold | Type | Element |
+| :--- | :--- | :--- |
+| 66% HP | 1 particle | common   
+| 33% HP | 1 particle | common   
+| Death | 1 particle | common  
 
 ## Resistance Table
 
@@ -41,3 +49,4 @@ Though they are called "marksmen," this name has an undercurrent of mockery to i
 
 ## Attacks
 
+* Shoots an arrow at the player.

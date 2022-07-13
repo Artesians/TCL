@@ -1,0 +1,6 @@
+---
+search: false
+---
+
+# Gameplay Mechanics
+

@@ -1,10 +1,14 @@
+---
+search: false
+---
+
 # Raiden
 
 **Main Page:**
 
 {% page-ref page="../../../characters/electro/raiden.md" %}  
 
-## Basic Mechanic Findings  
+## Basic Mechanics 
 
 ### Basic Attributes
  * The Raiden Shogun is unable to cook. - [2ri#0945](https://imgur.com/a/OSfIIXH)  
@@ -26,8 +30,7 @@
   * Raiden's normal attacks and chaged attacks during Elemental Burst share ICD. - [Nass008#8577](https://imgur.com/V7isJR3)  
   * Raiden's initial Elemental Burst slash does not share ICD with her following attacks. - [Nass008#8577](https://imgur.com/V7isJR3)  
 
-
-### Skill Mechanics  
+## Skill Mechanics  
 * Raiden's Elemental Skill does not activate on non damaging hits (ex. against shielded targets). - [CC\#5588](https://youtu.be/YVLOA4FfV4M)  
 * Raiden's Elemental Skill buff affects herself. - [CC\#5588](https://youtu.be/8-xxU5jRaI0)  
 * Raiden's Elemental Skill buff works on off field characters. - [CC\#5588](https://youtu.be/DbXfGVQvY-M)  
@@ -39,9 +42,53 @@
    * Pyro Swirl - [Nass008#8577](https://imgur.com/HooDf8l)
 * Raiden's Elemental Skill cannot be triggered by:
    * Electro-charged
-   * Cryo/Hydro swirls
+   * Hydro swirls
+   
+### Raiden E Transformative Interactions  
 
-### Burst Mechanics  
+**By:** Tech#6257  
+**Added:** 2021-09-28  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/885440525438685204/891171141287297095/transcript-raiden-e-transformative-interaction.html)  
+
+**Finding:**  
+Raiden's elemental skill will trigger on transformative reactions if 2 condition are met:  
+1. Inflicting damage to an enemy.  
+2. The damaging reaction has AOE.  
+This means that only superconduct, overload, and all AOE swirls except for hydro will activate it, while electro-charged, shatter, single target and hydro swirl won't.
+
+**Evidence:**  
+Working:  
+[superconduct](https://imgur.com/l8HTpLS), [overload](https://imgur.com/BFp3mF7), [pyro swirl](https://imgur.com/HooDf8l), [cyro swirl](https://imgur.com/3KwFiLr), [electro swirl](https://imgur.com/ElVwEd6), [multi-target swirls](https://imgur.com/ocEzBjq)  
+Not Working:  
+[hydro swirl](https://imgur.com/Bqk9QQB), [single target swirl](https://imgur.com/IIXvCca), [aoe hydro swirl](https://imgur.com/Fa9YZgL), [shatter](https://imgur.com/vExbdig), [electro-charged](https://imgur.com/qnuieNX)  
+
+**Significance:**  
+Better understanding of Raiden's elemental skill.  
+
+### Raiden Coordinated Attack Cooldown
+
+**By:** TWICE\#9958  
+**Added:** 2021-12-26  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/923751322178715709/924638774284124200/transcript-raiden-coordinated-attack-cd.html)   
+
+**Finding:**  
+Raiden's E coordinated attack CD starts with the triggering move's damage, *not* with the coordinated attack's.
+
+**Evidence:**  
+[Youtube](https://youtu.be/CfIZRJLvjNc)  
+Frames tracked using kdenlive, recorded in 60 fps with game setting at 60 fps.  
+* Initial setup: Raiden E beforehand, Zhongli shield to avoid staggers and such.  
+  * Frame 827: Raiden E's damage appears, triggers coordinated attack from the Raiden E in the setup.  
+  * Frame 838: First coordinated attack's damage appears.  
+  * Frame 886: Raiden N3's damage appears, triggers coordinated attack.  
+  * Frame 897: Second coordinated attack's damage appears.    
+
+There are only 48 frames between the damage of the first Raiden coordinated attack and the next triggering move's damage, and 59 frames between the damage of the two triggering moves. If the cooldown started with the coordinated attack's damage, the next triggering move would have to do damage at earliest frame 838+54=892, which is a fair bit after the damage of the N3.  
+
+**Significance:**  
+This suggests the 0.9 second (54 frame) cooldown of Raiden's coordinated attacks starts with the triggering move's damage, not the coordinated attack's. When making team calcs/simulations based on frame counts, the cooldown should begin with the triggering move's damage. Raiden's coordinated attacks could trigger several more times per rotation than if the CD was assumed from coordinated attack's damage, adding extra damage and applying electro at different timings.   
+
+## Burst Mechanics  
 * Raiden's Elemental Burst restores flat energy to herself. - [CC\#5588](https://youtu.be/__PPdiQqMx4)  
 * Raiden's attacks during Elemental Burst can trigger XQ's rainswords. - [KDK#1322](https://www.youtube.com/watch?v=b7ER4BwAzHY)  
 * Raiden's attacks duing Elemental Burst can trigger Fichl C6. - [Nass008#8577](https://youtu.be/gzDB8TpAtrQ)
@@ -53,14 +100,87 @@
 * Raiden's attacks during Elemental Burst, except for N5 can hit within Venti's vortex. - [LittleFox#0906](https://youtu.be/hQaK8AjIq7k) & [Sayline#5959](https://youtu.be/byDltFQ2X2I)  
 * Raiden's Resolve Stacks apply to each damage instance of her multi strings during Elemental burst (N4 & CA) - Reens#9389 & Greyhound#7836 [1](https://i.imgur.com/L4Ysc1f.png) [2](https://imgur.com/6bXq47R) [3](https://imgur.com/l9mGtEj) [4](https://imgur.com/0ADt5yQ)  
 
+### Raiden Energy Generation Against Shielded and Immune Enemies
+
+**By:** Tsuki\#8993  
+**Added:** 2022-04-08  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/962011374282739832/transcript-raiden-energy-gen-against-shielded-and-immune-enemies.html)  
+
+**Finding:**  
+Raiden can generate Flat Energy during her Burst even when hitting immune and shielded enemies.  
+
+**Evidence:**  
+* [Electro Slimes](https://imgur.com/a/UIpRXeT)
+* [Geo Slime Shield](https://imgur.com/a/zKVmOQr)
+* [Kenki Start](https://imgur.com/a/UOlDvZJ)
+* [Kenki "Immune"](https://imgur.com/a/szl3CqU)
+* [Herald Shield](https://imgur.com/a/lYtgK6Y)
+* [Abyss Mage Shield](https://imgur.com/a/PK3KyKV)
+* [Cicin Mage Shield](https://imgur.com/a/vVPZxtl)
+* [Mitachurl Shield](https://imgur.com/a/zjYWFnU)
+* [Hypostasis "Immune"](https://imgur.com/a/fEa2vNp)
+* [Dvalin Shield](https://imgur.com/a/KrLfZiB)
+* [PMA Unkillable Minions](https://imgur.com/a/aCye3tW)
+* [Fatui Skirmisher Armor](https://imgur.com/a/ZgKKx9n)
+* [Signora Ice Cocoon](https://imgur.com/a/1GmWsLD)
+
+**Significance:**  
+Using Raiden's Burst against those enemies is not a total waste because you still bennefit from her Energy generation.  
+
+### Raiden Normals and Burst do not share ICD
+
+**By:** Charisma\#5567  
+**Added:** 2022-04-10  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/962722091747123210/transcript-raiden-normals-and-burst-do-not-share-icd.html)  
+
+**Finding:**  
+Raiden's tachi attacks during Elemental Burst do *not* share ICD with her out-of-burst polearm attacks.  
+
+**Evidence:**  
+Near the end of the video, Raiden's Burst N1 applied Electro Aura to the enemy and the N1 after also applied Cryo for Superconduct. - [YouTube](https://youtu.be/36nspMTqRIE)  
+
+**Significance:**  
+More documented knowledge about the mechanics of Raiden's kit.  
+
+### Raiden Resolve Decimal Stacks
+
+**By:** elijam\#7142  
+**Added:** 2022-04-16  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/964951851663503452/transcript-raiden-resolve-decimal-stacks.html)  
+
+**Finding:**  
+When Raiden gains Resolve from other characters' Bursts such that her Resolve stacks count would have a decimal value, Resolve is not rounded to the nearest whole number and the partial stack is expressed in the final damage.  
+
+**Evidence:**  
+In [this video](https://youtu.be/qckAai6xyvU) Raiden is C2, and C1 additional Resolve gain and C2 DEF Ignore are accounted for.
+
+```
+ATK * (1 + DMG%) * (1-RES) * ((Char LVL + 100)/((1-DEF Shred) * (1-DEF Ignore) * (Enemy LVL + 100) + Char LVL + 100)  
+= 381 * (1 + .155) * (1 - .1) * ((90 + 100) / ((1 - 0) * (1 - .6) * (85 + 100) + 90 + 100)  
+= 285.035625  
+
+Burst cost * Resolve per energy * C1 Bonus  
+= 90 * .19 * 1.8  
+= 30.78  
+
+Burst initial multiplier + Resolve stack count * Resolve initial hit multiplier  
+= 6.81 + 30.78 * .0661  
+= 8.844558  
+
+Final damage = 285.035625 * 8.844558 = 2521.01411738  
+Damage shown in video is 2521  
+```
+
+**Significance:**  Raiden guide mechanics details, also marginally useful for calcing and simming teams.  
+
 ## Constellation Mechanics
 
 ### C2: Steelbreaker
 
 #### C2 defense ignore is multiplicative
 
-**Added:** 09/11/2021  
 **By:** Javier#1000  
+**Added:** 2021-09-11  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/882822147012198440/886299222633250816/transcript-raiden-c2-stacking.html)  
 
 **Finding:**  
@@ -74,4 +194,26 @@ Raiden's DEF ignore effect does not stack additively with other sources of DEF s
 
 **Significance:**  
 Better understanding of Raiden C2, less gain from stacking defense shred.  
+
+## Energy findings:
+
+### Raiden self energy recharge formula  
+
+**By:** Sir_pick_the_prick#2209  
+**Added:** 2021-09-28  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/883997943387029504/892422852458983474/transcript-raiden-minimum-er-formula.html)  
+
+**Finding:**  
+Formula that describes minimum ER% for Raiden to use elemental burst off cooldown.  
+
+**Evidence:**  
+Y = Raiden's total ER%  
+Z = Flat energy gained (NOT INCLUDING RAIDEN'S Q ENERGY)  
+W = talent level (THE NUMBER NOT VALUE, ex. 1-13)  
+X = energy gained (before ER calculations)  
+Formula:  
+Y = (87-0.2W-Z)/(X+4.5+0.3W)  
+
+**Significance:**  
+Calculating Raiden's self energy requirements.  
 

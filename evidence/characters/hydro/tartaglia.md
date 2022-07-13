@@ -1,3 +1,7 @@
+---
+search: false
+---
+
 # Tartaglia
 
 **Main Page:**
@@ -41,12 +45,31 @@ Childe's stance switch from ranged to melee triggers shatter on frozen targets a
 **Evidence:** [https://youtu.be/-JP-hYcHons](https://youtu.be/-JP-hYcHons)
 
 **Significance:**  
-Potential interference in niche party combo situations.
+Potential interference in niche party combo situations.  
+
+### Childe Ranged to Melee NA Combo
+
+**By:** Poro\#4695  
+**Added:** 2022-01-29  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/930377454068064266/936802993200848906/transcript-childe-ranged-to-melee-na-combo.html)  
+
+**Finding:**  
+After doing N# in bow stance, if you walk, use skill, then do a normal attack all in a short timeframe you can continue the normal attack string as if he was in melee stance from the start.  
+
+**Evidence:**  
+[Bow N1 up to N5 into melee combo](https://youtu.be/NSPn0ro3bl8)  
+[Slowed version](https://youtu.be/DGFcaMFa0Uc)  
+
+I think its similar in nature to this [video](https://youtu.be/0wcvXkElNJQ)  
+For bow characters, usually you shouldn't be able to continue their normal attack string after walking, but since Childe is now treated as a melee character after using his skill he will have a short window to continue his normal attack string shortly after walking.  
+
+**Significance:**  
+Better understanding of how melee combos work.
 
 ### Childe E can reset on revive  
 
 **By:** yourmom\#9901  
-**Added:** 08/01/2021  
+**Added:** 2021-08-01  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/870347001961799680/871413502487691354/transcript-childe-e-cooldown-resets-upon-death.html)  
 
 **Finding:**  
@@ -57,6 +80,64 @@ Potential interference in niche party combo situations.
  [And one more to show that its only skill, not burst.](https://www.youtube.com/watch?v=qr2DRNzU2-o)  
 
  **Significance:** You could die, and extend melee duration. probably not that useful tho.  
+
+### Elemental Skill and Attack or Burst on the Same Frame 
+
+**By:** BowTae\#0141  
+**Added:** 2022-01-31
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/934193183104049242/937185816462110740/transcript-childe-stance-change-shenanigans.html)  
+
+**Finding:**  
+By pressing Skill \(E\) and either Attack or Burst \(Q\) on the same frame while moving, you can do some weird things.
+In other words, hold W, then press EQ, or E and LMB, at the same exact time. 
+
+**Evidence:**  
+Skill and Attack on the Same Frame \(I will call this \[EN1\]\):  
+1\. Starting in Ranged Stance, [EN1] puts Childe in Melee Stance while performing a ranged N1 \(rN1\).
+  * In most cases, Childe will start the rN1, and then suddenly stop before the arrow can come out: [YouTube](https://youtu.be/GJEcmFXpu5k)
+  * With a frame-perfect Attack input \(press and release Attack in 1 frame\), Childe can finish the rN1: [YouTube](https://youtu.be/Ly7gjnvqAWo)
+    * Childe will do Melee Attacks after rN1, notably skipping mN1 and going straight into mN2.
+
+2\. Starting in Melee Stance, \[EN1\] puts Childe in Ranged Stance while performing a melee N1 \(mN1\).
+  * Childe will do Ranged Normal Attacks after mN1, notably skipping rN1 and going straight into rN2: [YouTube](https://youtu.be/0P6YqW7q-4c)
+    * Holding Attack for longer doesn't let him do mN1C, he simply does nothing after the mN1.
+  * Childe can also cancel the mN1 with Aim mode, allowing him to do mN1-ARCC \(useless but cool\): [YouTube](https://youtu.be/wVWK7DdlaSs)
+  * The mN1 does not trigger Riptide Slash, even though it is a melee attack. This likely indicates that melee attacks cannot trigger Riptide Slash while in Ranged Stance: [YouTube](https://youtu.be/5CXPj0nINAU)
+  * Using this tech, Childe is able to perform a legitimate Dragonstrike \(using ranged Plunge\), no longer needing to rely on footstool: [YouTube](https://youtu.be/y25mfT2FLFc)
+  * It is possible to do this tech on mN2 and higher using a walk extension: [YouTube](https://youtu.be/zqrRInaUuy8)
+
+Skill and Burst on the Same Frame \(I will call this \[EQ\]\):
+1\. Starting in Ranged Stance, \[EQ\] puts Childe in Melee Stance while casting Ranged Burst: [YouTube](https://youtu.be/wwCpati1azQ)
+  * The burst camera angle is messed up.
+  * C6 does NOT trigger upon returning to ranged stance: [YouTube](https://youtu.be/rPKLcXQN7Oc) - Mystathi\#9705
+  * Doing this with 4pc Shimenawa's allows Childe to activate the 4pc effect while avoiding the energy tax: [YouTube](https://youtu.be/3fHjMaCtjz0)  
+2\. Starting in Melee Stance, \[EQ\] puts Childe in Ranged Stance while casting Melee Burst: [YouTube](https://youtu.be/Qgcjw5w1e2E)
+  * The burst camera angle is messed up.
+  * C6 does NOT trigger on the inital return to ranged stance: [YouTube](https://youtu.be/_NR07r1MZT0) - Mystathi\#9705
+  * However, the next time that Childe uses skill and then returns to ranged, C6 DOES trigger: [YouTube](https://youtu.be/7rY5yFc3LLQ) - Mystathi\#9705
+  * Doing this with 4pc Shimenawa's allows Childe to activate the 4pc effect while avoiding the energy tax: [YouTube](https://youtu.be/lAM1Z2QLilE) - yolitme0\#0579 
+
+**Significance:**  
+* \[EN1\] is mostly fluff right now, can enable some cool looking attack strings.
+* \[ErQ\] can potentially improve 4pc Shime Childe usability. Let's you tax evade with Ranged Burst which also refunds Energy, puts you into melee stance, and doesn't rely on high ping.
+* \[EmQ\] activates C6 on second skill rotation, which can allow for new potential setups.  
+
+### Childe E Cooldown is 6 Seconds When Immediately Swapped
+
+**By:** yolitme0\#0579 and BowTae\#0141  
+**Added:** 2022-05-23  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/978312827905396806/transcript-childe-e-cooldown-is-6-seconds-when-immediately-swapping.html)  
+
+**Finding:**  
+Childe's Skill cooldown duration appears discrete. If Childe is swapped off within 1 second of Elemental Skill activation, you get a 6 second cooldown duration. Likewise, swapping after 1.3 and 1.5 seconds both have same 7s cooldown duration.
+
+**Evidence:**  
+6s cooldown on fast swap - [YouTube](https://youtu.be/x7z6cIrNfjM)  
+7s cooldown after 1.3s and 1.5s - [Youtube](https://youtu.be/-_YDfE3XYB8) and [YouTube](https://youtu.be/YaCT5owns_w)
+
+**Significance:**  
+Understanding cooldowns can allow more acurate theorycrafting and rotation building.  
+Swapping off of Childe as soon as possible will minimize his cooldown if you made a mistake.
 
 ## Riptide Mechanics
 
@@ -83,7 +164,7 @@ Childe can provide additional damage even without C4 when he's off-field.
 ### Riptide Slash Particle Gen ICD
 
 **By:** Zeitraffer\#1074  
-**Added:** 03/19/2021
+**Added:** 2021-03-19
 
 **Finding:**  
 As multiple players had pointed out, Childe seems to have a fixed 3-second ICD on his particle generation on Riptide Slash. This disproved my previous claim of it generating a particle every proc.
@@ -99,7 +180,7 @@ Just a clarification on how his particle generation works.
 ### Riptide does not snapshot
 
 **By:** Daybreak#0584  
-**Added:** 7/10/2021  
+**Added:** 2021-07-10  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/862748539826339860/863314591437029416/transcript-riptide-does-not-snapshot.html)
 
 **Finding:**  
@@ -124,12 +205,35 @@ Childe C4, while in Benny Q and off-field: 323 in field, 119 off field
 **Significance:**   
 Many of Childe’s comps revolve around using Bennet as a healer. Being aware of whether his riptide effects snapshot or not can affect how you play him. It also keeps the consistent theory that all “mark” abilities do not snapshot.
 
+### Aimed Shot Riptide Slash
+
+**By:** MidnightMax.Thai\#7849, GottaGoFast\#7876, and BowTae\#0141  
+**Added:** 2021-12-13  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/916458832723574835/920135102216958032/transcript-childe-phys-shot-riptide-mark.html)
+
+**Finding:**  
+Tartaglia can apply Riptide and trigger Riptide Slash with his Aimed Shot (AS), both Physical and Hydro, by firing an AS and switching to melee stance before the arrow hits an enemy.  
+
+**Evidence:**  
+* [Initial discovery](https://youtu.be/wdSSGM_H4wQ)
+* Works for both [standing Skill](https://imgur.com/goOZ58a) and [moving Skill](https://imgur.com/amzhvQU) activation.
+  * Also note that Riptide Slash counts as Skill damage and can trigger Sacrificial Bow effect.
+* Works using Hydro AS, as you can see Riptide Slash damage: [Imgur](https://imgur.com/b6X1BQs)
+* Using Hydro AS E on an enemy already affected by Riptide will trigger both Slash and Flash: [Imgur](https://imgur.com/1NP2oX8)
+* This tech can be done at close range using animation cancel techniques: [Imgur](https://imgur.com/Vrf2HYm)
+* If you switch from melee stance back to bow stance before the arrow hits, this tech does not occur.
+  * [Hydro AS E at long range](https://imgur.com/k3Z94mT) - Riptide Slash triggers
+  * [Hydro AS E E at long range](https://imgur.com/C9Mb1hO) - Riptide Slash does not trigger
+
+**Significance:**  
+Can be used to apply Riptide and Hydro onto to ranged enemies very quickly, which has uses in speedrunning.
+
 ## Interactions/Synergies
 
 ### **Chongyun C2 E field affects Childe’s melee stance cooldown**
 
 **By:** ibvfteh\#6658  
-**Added:** 12/19/2020
+**Added:** 2020-12-19
 
 **Finding:**
 
@@ -147,7 +251,7 @@ No matter where Childe is entering his Melee Stance, if he's staying inside of C
  ### Childe C4 can proc Beidou Q  
 
 **By:** Daybreak#0584  
-**Added:** 09/04/2021  
+**Added:** 2021-09-04  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/883202269938610226/883489841524924456/transcript-beidou-q-on-childe-riptides.html)  
 
 **Finding:**  
@@ -184,7 +288,7 @@ Refrain from attacking slimes in your melee form. An obvious fact, but not obvio
 ### Childe Can Proc Prototype Crescent's Passive in Melee Form
 
 **By:** SaosKreator\#2700  
-**Added:** 5/29/2020  
+**Added:** 2021-05-29  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/847145221426642985/848318293931589662/transcript-childe-melee-proc-prototype-crescent.html)
 
 **Finding:**  
@@ -201,7 +305,7 @@ Hopefully, by knowing this, people can start twiddling around this and find much
 ### Childe's Riptide Procs 4 Pale Flame 
 
 **By:** tenten#1010  
-**Added:** 6/20/2021  
+**Added:** 2021-06-20  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/846872744032469012/856371265799716864/transcript-childe-4pf.html)
 
 **Finding:**  
@@ -216,7 +320,7 @@ Childe can stack the 4-piece Pale Flame passive in his melee form with riptides.
 ### Childe Melee Charged Attack Misses Stunned Ruin Guard
 
 **By:** EdisonsMathsClub\#6469  
-**Added:** 5/10/2021  
+**Added:** 2021-05-10  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/840462878556684308/841458714170884116/transcript-childe-melee-attack-missing-ruin-guard.html)
 
 **Finding:**  
@@ -240,7 +344,7 @@ When using Childe's melee CA against stunned ruin guards, go to the side to reli
 ### Childe Consistent Normal Attack Forward Vape
 
 **By:** Rainfury#8343  
-**Added:** 6/21/2021  
+**Added:** 2021-06-21  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/845700747176837171/856663221296168960/transcript-childe-aa-vape.html)
 
 **Finding:**  
@@ -260,7 +364,7 @@ Just a fun little finding. Can be made into meme builds for a full atk% childe (
 ### Childe Double Forward Vape
 
 **By:** Daybreak\#0584  
-**Added:** 07/07/2021  
+**Added:** 2021-07-07  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/859464550046367764/862447773059252224/transcript-childe-double-forward-vape.html)
 
 **Finding:**  

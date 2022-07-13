@@ -1,28 +1,18 @@
+---
+search: false
+---
+
 # Diluc
 
 **Main Page:**
 
 {% page-ref page="../../../characters/pyro/diluc.md" %}
 
-## Diluc Burst ICD
-
-**By:** Isu\#6867  
-**Added:** 5/29/2021  
-[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/845447638719266826/848323323459928085/transcript-diluc-burst-icd.html)
-
-**Finding:**  
-Diluc's elemental burst follows a 5-hit rule on elemental application rather than the standard 3-hit rule.
-
-**Evidence:**  
-[Video](https://youtu.be/BaBQi0GZOEU)
-
-**Significance:**  
-The vape damage potential of Diluc's burst is lower than one might expect based on the usual 3-hit rule of elemental application. In the above clip, the last hit with higher MV would have also vaped if the 3-hit rule were followed, but instead, only the 1st and 6th hit were vaped. On the other hand, due to the nature of Diluc's burst and how it often does not get its maximum hits anyway, the silver lining is that the longer ICD makes it less likely to result in an unwanted pyro aura.
-
-## Searing Onslaught Extension via Freeze
+## **Skill Mechanics**
+### Searing Onslaught Extension via Freeze
 
 **By:** xf3\#3123  
-**Added:** 6/7/2021
+**Added:** 2021-06-07
 
 **Finding:**  
 Getting frozen mid Searing Onslaught 2 will allow you to extend the skill. This allows you to use the skill multiple times for one rotation.
@@ -37,10 +27,28 @@ Other testing was done with other characters with multi-use skills and none of t
 **Significance:**  
 When running Barbara or Xingqiu, self freeze can be an upside in certain situations \(i.e. waiting for XQ's Q to come off CD or regain energy\) allowing you to get bonus damage off for free if done correctly.
 
-## Diluc Q initial hit is 2U
+{% page-ref page="../../../characters/pyro/diluc.md" %}
+
+## **Burst Mechanics**
+### Diluc Burst ICD
+
+**By:** Isu\#6867  
+**Added:** 2021-05-29  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/845447638719266826/848323323459928085/transcript-diluc-burst-icd.html)
+
+**Finding:**  
+Diluc's elemental burst follows a 5-hit rule on elemental application rather than the standard 3-hit rule.
+
+**Evidence:**  
+[Video](https://youtu.be/BaBQi0GZOEU)
+
+**Significance:**  
+The vape damage potential of Diluc's burst is lower than one might expect based on the usual 3-hit rule of elemental application. In the above clip, the last hit with higher MV would have also vaped if the 3-hit rule were followed, but instead, only the 1st and 6th hit were vaped. On the other hand, due to the nature of Diluc's burst and how it often does not get its maximum hits anyway, the silver lining is that the longer ICD makes it less likely to result in an unwanted pyro aura.
+
+### Diluc Q initial hit is 2U
 
 **By:** ceeeleste#3568  
-**Added:** 08/20/2021  
+**Added:** 2021-08-20  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/877477456519512064/878178628079353886/transcript-diluc-q-gauge-is-2u-and-not-1u-on-the-initial-hit.html)
 
 **Finding:**  
@@ -66,3 +74,25 @@ Their combo instead has them start the NA animation then cancel it with E, so it
 
 **Significance:**  
 Better Diluc rotation.
+
+## Ascension Mechanics
+
+### A4: Blessing of the Phoenix
+
+#### Diluc Burst Damage Benefits from A4
+
+**By:** elijam\#7142  
+**Added:** 2021-12-12  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/917975114987999382/919073580216643584/transcript-diluc-burst-benefits-from-a4.html)  
+
+**Finding:**  
+Diluc's Burst damage will benefit from his A4 talent, Blessing of the Phoenix, which grants Pyro DMG% for the duration of the Pyro infusion granted by his Burst.  
+
+**Evidence:**  
+[YouTube](https://youtu.be/kgvoO5fdECw)
+* Diluc has 443 Attack, Level 8 Dawn has 326.40% Slashing Damage
+* `326.40 * 443 * (1 + .5) * (1 + .2) * .9 * (81 + 100)/(85 + 100 + 81 + 100) = 1158`
+* Damage in game = 1159, which is within rounding error.
+
+**Significance:**  
+More damage for Diloog.  

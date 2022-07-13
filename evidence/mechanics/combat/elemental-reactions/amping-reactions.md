@@ -1,2 +1,0 @@
-# Amping Reactions
-

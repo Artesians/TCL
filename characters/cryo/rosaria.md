@@ -1,10 +1,12 @@
 ---
-description: >-
-  A sister of the church, though you wouldn't know it if it weren't for her
-  attire. Known for her sharp, cold words and manner, she often works alone.
+description: A sister of the church, though you wouldn't know it if it weren't for her attire. Known for her sharp, cold words and manner, she often works alone.
 ---
 
 # Rosaria
+
+## **Resources**
+* [Full Written Rosaria Guide](https://keqingmains.com/rosaria/)  
+* [7 Minute Quick Guide to Rosaria](https://youtu.be/JQ01_OKxdbs)
 
 ## ![](../../.gitbook/assets/element_cryo.png) Rosaria
 
@@ -29,68 +31,78 @@ description: >-
 **Normal Attack**  
 Rosaria performs up to five consecutive spear strikes.
 
-| String | Talent 6 DMG% | Frames | Motion Value |
-| :--- | :--- | :--- | :--- |
-| 1-Hit | 76.25% | 10 | 457.5%/s |
-| 2-Hit | 75% | 36 | 252.08%/s |
-| 3-Hit | 46.25% x2 \(92.5%\) | 81 | 180.56%/s |
-| 4-Hit | 101.25% | 115 | 180%/s |
-| 5-Hit | 60.5% + 62.5% \(123%\) | 175 | 160.46%/s |
+| String | Talent 9% | Frames | MV/s | Poise Damage | Impulse Type |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1-Hit | 96.38% | 10 | 578.28%/s | 48.8 | 3 |
+| 2-Hit | 94.8% | 36 | 318.63%/s | 48 | 3 |
+| 3-Hit | 58.46% x 2 | 71 + 81 | 228.22%/s | 29.6 x2 | 3 x2|
+| 4-Hit | 127.98% | 115 | 227.52%/s | 64.8 | 4 |
+| 5-Hit | 76.47% + 79% | 159 + 175 | 202.82%/s | 39.36 x2 | 3 + 6 |
 
 **Charged Attack**  
 Rosaria consumes 25 stamina to lunge forward, dealing damage to opponents along the way.
 
-| String | Talent 6 DMG% | Frames | Motion Value |
-| :--- | :--- | :--- | :--- |
-| N1C | 275% | 89 | 185.39%/s |
+| String | Talent 9% | Frames | MV/s | Poise Damage | Impulse Type |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Charged Attack | 251.22% | - | - | 120 | 5 |
+| N1C | 347.6% | 89 | 234.34%/s | - | - |
 
 **Plunge Attack**  
 Rosaria plunges to the ground from mid-air, damaging opponents along the way and dealing AoE damage upon impact.
 
-| Plunge Type | Talent 6 DMG% |
-| :--- | :--- |
-| Plunge Attack | 92.93% |
-| Low Plunge DMG | 185.81% |
-| High Plunge DMG | 232.09% |
+| Type | Talent 9% | Poise Damage | Impulse Type |
+| :--- | :--- | :--- | :--- |
+| Plunge DMG | 117.46% | 25 | 2 |
+| Low Plunge DMG | 234.86% | 100 | 4 |
+| High Plunge DMG | 293.36% | 150 | 7 |
 {% endtab %}
 
 {% tab title="Ravaging Confession" %}
 Rosaria swiftly shifts her position to appear behind her opponent, then stabs and slashes them with her polearm, dealing **Cryo** DMG.  
 This ability cannot be used to travel behind opponents of a larger build.
 
-| Type | Talent 6 Data |
+| Type | Skill |
 | :--- | :--- |
-| Skill DMG | 81.76% + 190.4% \(272.16%\) |
-| Cooldown | 6s |
+| Skill DMG \(T9%\) | 99.28% + 231.2% |
 | Particles | 3 |
-| GU | 1A |
 | Frames | 65 |
-| Motion Value | 251.22%/s |
+| GU | 1A |
+| ICD | None |
+| Snapshot | Snapshot |
+| Damage Element | Cryo |
+| Damage Type | Skill |
+| CD | 6s |
+| Poise Damage | 50 + 100 |
+| Impulse Type | 3 + \(Air, 260, 600\) |
 
-* Both hits of **Ravaging Confession** apply cryo and have no ICD, allowing both hits of **Ravaging Confession** to be melted.
+**Notes**
 * Will only grant one stack of the Pale Flame artifact 4pc bonus per cast.
 {% endtab %}
 
 {% tab title="Rites of Termination" %}
-Rosaria swings her weapon to slash surrounding opponents, then she summons a frigid **Ice Lance** that strikes the ground. Both actions deal **Cryo** DMG.  
+Rosaria's unique take on this prayer ritual: First, she swings her weapon to slash surrounding opponents; then, she summons a frigid **Ice Lance** that strikes the ground. Both actions deal Cryo DMG.  
 While active, the **Ice Lance** periodically releases a blast of cold air, dealing **Cryo** DMG to surrounding opponents.
 
-| Effect | Talent 6 Data |
+| Effect | Burst |
 | :--- | :--- |
-| Skill DMG | 145.6% + 212.8% \(358.4%\) |
-| Ice Lance DoT | 184.8% |
+| Skill DMG \(T9%\) | 176.8% + 258.4% |
+| Ice Lance DoT \(T9%\) | 224.4% |
+| Cast Frames | 74 |
+| Energy Frame | 12 |
+| CD Frame | 2 |
 | GU | 1A |
-| Duration | 8s |
-| Cooldown | 15s |
+| ICD | None |
+| Snapshot | Snapshot |
+| Damage Element | Cryo |
+| Damage Type |  Burst |
 | Energy Cost | 60 |
-| Frames | 74 |
-| Motion Value | 290.59%/s |
-
-* **Rites of Termination** snapshots buffs.
-* The Cryo application of **Rites of Termination** has no ICD
-  * **Rites of Termination** will apply 1A cryo on both damage instances on cast
-  * **Rites of Termination** will apply 1A cryo on every damage tick, which occur every 2 seconds
-  
+| Duration | 8s |
+| Tick Rate | 2s |
+| Cooldown | 15s |
+| Cast Poise Damage | 100 |
+| Cast Impulse Type | Air, 260, 650 |
+| Ice Lance Poise Damage | 50 |
+| Ice Lance Impulse Type | 2 |
 
 {% endtab %}
 {% endtabs %}
@@ -101,20 +113,22 @@ While active, the **Ice Lance** periodically releases a blast of cold air, deali
 {% tab title="Passive" %}
 ### **Night Walk**
 
-At night \(18:00-6:00\), increases the Movement Speed of your own party members by 10%. Does not take effect in Domains, Trounce Domains, or Spiral Abyss.  
-Not stackable with Passive Talents that provide the exact same effect.  
-* The passive also doesn't work in the Serenitea Pot.
+At night (18:00–6:00), increases the Movement SPD of your own party members by 10%.
+Does not take effect in Domains, Trounce Domains, or Spiral Abyss. Not stackable with Passive Talents that provide the exact same effects.
+
+* The passive does not work in the Serenitea Pot.
 {% endtab %}
 
 {% tab title="Ascension 1" %}
 ### **Regina Probationum**
 
-When Rosaria strikes an opponent from behind using **Ravaging Confession**, Rosaria's CRIT RATE increases by 12% for 5s.
+When Rosaria strikes an opponent from behind using **Ravaging Confession**, Rosaria's CRIT Rate increases by 12% for 5s.
 
+**Notes**
 * Either damage instance of **Ravaging Confession** can trigger this passive.
-* This CRIT RATE increase shows up in her stat screen, meaning it can be snapshotted by her A4, **Shadow Samaritan**, and included in the crit sharing.
-* Rosaria doesn't gain the CRIT RATE bonus unless the use of **Ravaging Confession** lands her behind the enemy.
-  * If Rosaria starts her skill behind an enemy, but that enemy turns around to face her before the two hits, she won't get the CRIT RATE bonus.  
+* This CRIT Rate increase shows up in her stat screen, meaning it can be snapshotted by her A4, **Shadow Samaritan**, and included in the CRIT RATE sharing.
+* Rosaria doesn't gain the CRIT Rate bonus unless the use of **Ravaging Confession** lands her behind the enemy.
+  * If Rosaria starts her skill behind an enemy, but that enemy turns around to face her before the two hits, she won't get the CRIT Rate bonus.  
   * For enemies who don’t have visual distinction between front and behind, Rosaria can still activate her A1 by hitting them from certain angles.
 
 {% endtab %}
@@ -122,52 +136,65 @@ When Rosaria strikes an opponent from behind using **Ravaging Confession**, Rosa
 {% tab title="Ascension 4" %}
 ### **Shadow Samaritan**
 
-Casting **Rites of Termination** increases CRIT RATE of all nearby party members, excluding Rosaria herself, by 15% of Rosaria's CRIT RATE for 10s. CRIT RATE bonus gained this way cannot exceed 15%.
+Casting **Rites of Termination** increases CRIT Rate of all nearby party members (except Rosaria herself) by 15% of Rosaria's CRIT Rate for 10s.
+CRIT Rate Bonus gained this way cannot exceed 15%.
 
-* The CRIT RATE shared by **Shadow Samaritan** can be stacked with external CRIT buffs that show up in a character's stat sheet
-  * For example, the CRIT RATE shared by **Shadow Samaritan** stacks with both Hu Tao's A1 talent and Geo MC C1.
+* The CRIT Rate shared by **Shadow Samaritan** can be stacked with external CRIT buffs that show up in a character's stat sheet
+  * For example, the CRIT Rate shared by **Shadow Samaritan** stacks with both Hu Tao's A1 talent and Geo MC C1.
 
 {% endtab %}
 {% endtabs %}
 
-## Constellations
+## **Constellations**
 
 {% tabs %}
 {% tab title="C1" %}
-### Unholy Revelation
+### **Unholy Revelation**
 
-When Rosaria deals a CRIT Hit, her ATK Speed increase by 10% and her Normal Attack DMG increases by 10% for 4s (can trigger vs shielded enemies)
+When Rosaria deals a CRIT Hit, her ATK SPD increases by 10% and her Normal Attack DMG increases by 10% for 4s.
+
+**Note**
+* Can trigger against shielded enemies
+
 {% endtab %}
 
 {% tab title="C2" %}
-### Land Without Promise
+### **Land Without Promise**
 
-The duration of the **Ice Lance** created by Rites of Termination is increased by 4s.
+The duration of the **Ice Lance** created by **Rites of Termination** is increased by 4s.
+
 {% endtab %}
 
 {% tab title="C3" %}
-### The Wages of Sin
+### **The Wages of Sin**
 
-Increases the level of **Ravaging Confession** by 3.
+Increases the Level of **Ravaging Confession** by 3.
+Maximum upgrade level is 15.
+
 {% endtab %}
 
 {% tab title="C4" %}
-### Painful Grace
+### **Painful Grace**
 
-**Ravaging Confession**'s CRIT Hits regenerate 5 Energy for Rosaria. Can only be triggered once each time **Ravaging Confession** is cast.
+**Ravaging Confession**'s CRIT Hits regenerate 5 Energy for Rosaria.
+Can only be triggered once each time **Ravaging Confession** is cast.
+
 {% endtab %}
 
 {% tab title="C5" %}
-### Last Rites
+### **Last Rites**
 
-Increases the level of **Rites of Termination** by 3.
+Increases the Level of **Rites of Termination** by 3.
+Maximum upgrade level is 15.
+
 {% endtab %}
 
 {% tab title="C6" %}
-### Divine Retribution
+### **Divine Retribution**
 
-**Rites of Termination**'s attack decreases opponent's Physical RES by 20% for 10s.
+**Rites of Termination**'s attack decreases opponents' Physical RES by 20% for 10s.
 
+**Note**
 * This effect can also be triggered by the lance DoT.
 {% endtab %}
 {% endtabs %}
@@ -178,62 +205,59 @@ Increases the level of **Rites of Termination** by 3.
 {% tab title="Spear of the Church" %}
 ### Normal Attacks
 
-|  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1-Hit DMG | 76.25% | 82.96% | 89.67% | 96.38% | 103.70% | 111.02% |
-| 2-Hit DMG | 75% | 81.60% | 88.20% | 94.80% | 102% | 109.20% |
-| 3-Hit DMG | 46.25% ×2 | 50.32% ×2 | 54.39% ×2 | 58.46% ×2 | 62.9% ×2 | 67.34% ×2 |
-| 4-Hit DMG | 101.25% | 110.16% | 119.07% | 127.98% | 137.70% | 147.42% |
-| 5-Hit DMG | 60.5% + 62.5% | 65.82% + 68% | 71.15% + 73.5% | 76.47% + 79% | 82.28% + 85% | 88.09% + 91% |
+|  | Lv1 | Lv2 | Lv3 | Lv4 | Lv5 | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 1-Hit DMG | 52.46% | 56.73% | 61.00% | 67.10% | 71.37% | 76.25% | 82.96% | 89.67% | 96.38% | 103.70% | 111.02% |
+| 2-Hit DMG | 51.60% | 55.80% | 60.00% | 66.00% | 70.20% | 75.00% | 81.60% | 88.20% | 94.80% | 102.00% | 109.20% |
+| 3-Hit DMG (×2) | 31.82% | 34.41% | 37.00% | 40.70% | 43.29% | 46.25% | 50.32% | 54.39% | 58.46% | 62.90% | 67.34% |
+| 4-Hit DMG | 69.66% | 75.33% | 81.00% | 89.10% | 94.77% | 101.25% | 110.16% | 119.07% | 127.98% | 137.70% | 147.42% |
+| 5-Hit DMG | 41.62%+43.00% | 45.01%+46.50% | 48.40%+50.00% | 53.24%+55.00% | 56.63%+58.50% | 60.50%+62.50% | 65.82%+68.00% | 71.15%+73.50% | 76.47%+79.00% | 82.28%+85.00% | 88.09%+91.00% |
 
 ### Charged Attack
 
-|  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Charged Attack DMG | 198.75% | 216.24% | 233.73% | 251.22% | 270.30% | 289.38% |
+|  | Lv1 | Lv2 | Lv3 | Lv4 | Lv5 | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Charged Attack DMG | 136.74% | 147.87% | 159.00% | 174.90% | 186.03% | 198.75% | 216.24% | 233.73% | 251.22% | 270.30% | 289.38% |
 
 **Stamina Cost**: 25
 
 ### Plunge
 
-|  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Plunge Impact | 92.93% | 101.10% | 109.28% | 117.46% | 126.38% | 135.30% |
-| Low Plunge DMG | 185.81% | 202.16% | 218.51% | 234.86% | 252.7% | 270.54% |
-| High Plunge DMG | 232.09% | 252.51% | 272.93% | 293.36% | 315.64% | 337.92% |
+|  | Lv1 | Lv2 | Lv3 | Lv4 | Lv5 | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Plunge DMG | 63.93% | 69.14% | 74.34% | 81.77% | 86.98% | 92.93% | 101.10% | 109.28% | 117.46% | 126.38% | 135.30% |
+| Low Plunge DMG | 127.84% | 138.24% | 148.65% | 163.51% | 173.92% | 185.81% | 202.16% | 218.51% | 234.86% | 252.70% | 270.54% |
+| High Plunge DMG | 159.68% | 172.67% | 185.67% | 204.24% | 217.23% | 232.09% | 252.51% | 272.93% | 293.36% | 315.64% | 337.92% |
+
 {% endtab %}
 
 {% tab title="Ravaging Confession" %}
-|  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 | Lv12 | Lv13 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Skill 1 DMG | 81.76% | 87.6% | 93.44% | 99.28% | 105.12% | 110.96% | 116.8% | 124.1% |
-| Skill 2 DMG | 190.4% | 204% | 217.6% | 231.2% | 244.8% | 258.4% | 272% | 289% |
+
+|  | Lv1 | Lv2 | Lv3 | Lv4 | Lv5 | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 | Lv12 | Lv13 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Skill 1 DMG | 58.40% | 62.78% | 67.16% | 73.00% | 77.38% | 81.76% | 87.60% | 93.44% | 99.28% | 105.12% | 110.96% | 116.80% | 124.10% |
+| Skill 2 DMG | 136.0% | +146.2% | +156.4% | +170.0% | +180.2% | +190.4% | +204.0% | +217.6% | +231.2% | +244.8% | +258.4% | +272.0% | +289.0% |
 
 **Cooldown**: 6s
+
 {% endtab %}
 
 {% tab title="Rites of Termination" %}
-|  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 | Lv12 | Lv13 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Skill 1 DMG | 145.6% | 156% | 166.4% | 176.8% | 187.2% | 197.6% | 208% | 221% |
-| Skill 2 DMG | 212.8% | 228% | 243.2% | 258.4% | 273.6% | 288.8% | 304% | 323% |
-| Ice Lance DoT | 184.80% | 198% | 211.20% | 224.40% | 237.60% | 250.80% | 264% | 280.50% |
 
+|  | Lv1 | Lv2 | Lv3 | Lv4 | Lv5 | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 | Lv12 | Lv13 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Skill 1 DMG | 104.0% | 111.8% | 119.6% | 130.0% | 137.8% | 145.6% | 156.0% | 166.4% | 176.8% | 187.2% | 197.6% | 208.0% | 221.0% |
+| Skill 2 DMG | 152.0% | 163.4% | 174.8% | 190.0% | 201.4% | 212.8% | 228.0% | 243.2% | 258.4% | 273.6% | 288.8% | 304.0% | 323.0% |
+| Ice Lance DoT | 132.0% | 141.9% | 151.8% | 165.0% | 174.9% | 184.8% | 198.0% | 211.2% | 224.4% | 237.6% | 250.8% | 264.0% | 280.5% |
+
+**Duration**: 8s  
+**Cooldown**: 15s  
 **Energy Cost**: 60
 
-**Duration**: 8s
-
-**Cooldown**: 15s
 {% endtab %}
 {% endtabs %}
 
-## **External Links**
-
-* [Genshin Impact Fandom](https://genshin-impact.fandom.com/wiki/Rosaria)
-* [Full Written Rosaria Guide](https://keqingmains.com/rosaria/)
-* [7 Minute Quick Guide to Rosaria](https://youtu.be/JQ01_OKxdbs)
-
-**Evidence Vault:**
+## Evidence Vault
 
 {% page-ref page="../../evidence/characters/cryo/rosaria.md" %}
 

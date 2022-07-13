@@ -1,3 +1,7 @@
+---
+search: false
+---
+
 # Qiqi
 
 **Main Page:**
@@ -9,7 +13,7 @@
 ### Talisman Healing Conditions
 
 **By:** Ayzel\#7399  
-**Added:** 04/23/2021  
+**Added:** 2021-04-23  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/832474168297259028/835378635598594058/transcript-qiqi-talisman-healing-conditions.html)
 
 **Finding:**
@@ -33,7 +37,7 @@ Shows how Qiqi's talisman interacts with sources of damage.
 ### Talisman Does Not Snapshot
 
 **By:** Dooners#6709  
-**Added:** 09/22/2021  
+**Added:** 2021-09-22  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/889381442432409630/890102971847815228/transcript-qiqi-talisman-healing-doesnt-snapshot.html)
 
 **Finding:**  
@@ -50,12 +54,64 @@ Buffed and wait for bonus to wear off: 2598 hp healed
 **Significance:**  
 The timing of applying the talisman does not matter at all, all that matters is how much atk your character has when hitting the enemy
 
+### Talisman Heals Regardless Dealing DMG Or Not
+
+**By:** Nass008#8577  
+**Added:** 2021-10-17  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/895729399729623060/899174324060192798/transcript-qiqi-talisman-0-damage-healing.html)
+
+**Finding:**  
+Even moves that deal 0 damage (therefore no scaling with stats) can still trigger Qiqi’s talisman healing
+
+This behavior is different compared to Albedo E and Raiden E (both of them have similarly worded conditions for in-game tooltips)
+
+**Evidence:**  
+1. Mona/Ayaka alternate sprints: [Imgur](https://imgur.com/WuUAXcA)  
+2. Xingqiu/Barbara E hydro application: [Imgur](https://imgur.com/NWOh0qL)  
+3. Jean Q self hydro swirls: [Imgur](https://imgur.com/vS8ueTt)  
+4. Mona Q cast: [Imgur](https://imgur.com/3Qzy2My)  
+5. Xingqiu Q activation: [Imgur](https://imgur.com/6FlHxOk)  
+6. Hutao E activation: [Youtube](https://youtu.be/NHXlZiXdHhg) (credit to ItzSomebody#0029)  
+7. Yoimiya E activation: [Youtube](https://youtu.be/O23CJGQtlCU) (credit to ItzSomebody#0029) 
+
+**Significance:**
+Additional insight on how game consider to be "taking damage" (which is not consistent between characters)
+
+### Qiqi Talisman ICD
+
+**By:** Nass008\#8577, NZPIEFACE\#8439  
+**Added:** 2021-10-16  
+[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/895389894145355836/899122969400475648/transcript-qiqi-talisman-healing-icd.html)  
+
+**Finding:**  
+Healing from Fortune-Preserving Talisman (Qiqi Q) has cooldown (approximately 1 second).
+In-game tooltip only mention the target taking damage as condition. However the talisman has cooldown on how fast it can heal.
+
+The healing from talisman only occurs every ~1 seconds and healing ticks will not increase against multiple targets (suggesting cooldown is shared between targets).
+
+To add to this, the healing cooldown appears to be shared across the team.
+
+**Evidence:**  
+
+[Single target](https://youtu.be/ryLga9DRUD0)
+
+[Single target frame count](https://imgur.com/grbH8Qz)
+
+[Multi target](https://youtu.be/X4P8ay0Cv14) 
+
+[Multi target frame count](https://imgur.com/FrqMFZe) 
+
+[Across team members](https://www.youtube.com/watch?v=OWTu6zEjH5A)
+
+**Significance:**  
+Clarification on Qiqi's healing mechanics
+
 ## Calculations/Resources
 
 ### Qiqi driver frame counting
 
 **By:** Sir_pick_the_prick#2209, Nass008#8577, denmax#9293, Creepah#9480  
-**Added:** 09/06/2021  
+**Added:** 2021-09-06  
 [Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/864092495369338900/884489611034890280/transcript-qiqi-copium-overdrive.html)
 
 **Finding:**  

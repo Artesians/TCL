@@ -1,10 +1,13 @@
 ---
-description: >-
-  The righteous and rigorous Dandelion Knight, and Acting Grand Master of the
-  Knights of Favonius of Mondstadt.
+description: The righteous and rigorous Dandelion Knight, and Acting Grand Master of the Knights of Favonius of Mondstadt.
 ---
 
 # Jean
+
+## **Resources**
+
+* [Jean Mains Discord](https://discord.gg/fSw9xXSyTe)
+* [Jean Written Guide: Commanding the Dandelion Knight](https://keqingmains.com/jean/)
 
 ## ![](../../.gitbook/assets/element_anemo.png) Jean
 
@@ -14,13 +17,13 @@ description: >-
 
 | Lv | Base HP | Base ATK | Base DEF | Healing Bonus% |
 | :--- | :--- | :--- | :--- | :--- |
-| 60 | 9533 | 155 | 499 | 11.10 |
-| 60+ | 10230 | 166 | 535 | 11.10 |
-| 70 | 11243 | 183 | 588 | 11.10 |
-| 70+ | 11940 | 194 | 624 | 16.60 |
-| 80 | 12965 | 211 | 678 | 16.60 |
-| 80+ | 13662 | 222 | 715 | 22.20 |
-| 90 | 14695 | 239 | 769 | 22.20 |
+| 60 | 9533 | 155 | 499 | 11.10% |
+| 60+ | 10230 | 166 | 535 | 11.10% |
+| 70 | 11243 | 183 | 588 | 11.10% |
+| 70+ | 11940 | 194 | 624 | 16.60% |
+| 80 | 12965 | 211 | 678 | 16.60% |
+| 80+ | 13662 | 222 | 715 | 22.20% |
+| 90 | 14695 | 239 | 769 | 22.20% |
 
 ## **Attacks**
 
@@ -29,76 +32,105 @@ description: >-
 **Normal Attacks**  
 Jean performs up to 5 consecutive attacks.
 
-| String | Talent 6% | Frames | Motion Value |
-| :--- | :--- | :--- | :--- |
-| 1-Hit | 70.25% | 14 | 301%/s |
-| 2-Hit | 66.25% | 37 | 221.35%/s |
-| 3-Hit | 87.63% | 66 | 203.7%/s |
-| 4-Hit | 95.75% | 124 | 154.7%/s |
-| 5-Hit | 115.13% | 159 | 164.1%/s |
+| String | Talent 9% | Frames | MV/s | Poise Damage | Impulse Type |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1-Hit | 88.80% | 14 | 380.57%/s | 37.8 | 3 |
+| 2-Hit | 83.74% | 37 | 279.79%/s | 35.1 | 3 |
+| 3-Hit | 110.76% | 66 | 257.55%/s | 48.6 | 3 |
+| 4-Hit | 121.03% | 124 | 195.64%/s | 54 | 3 |
+| 5-Hit | 145.52% | 159 | 207.49%/s | 60.3 | 6 |
 
 **Charged Attack**  
 Consumes 20 stamina to strike upwards and knocks up enemies that will then fall down slowly.
 
-| String | Talent 6% | Frames | Motion Value |
-| :--- | :--- | :--- | :--- |
-| CA | 235.50% | 73 | 196.2%/s |
+| String | Talent 9% | Frames | MV/s | Poise Damage | Impulse Type |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| CA | 297.67% | 73 | 244.66%/s | 200 | Air, 0, 1050 |
+* The Charged Attack visual and audio effect will appear on more than just enemies, as well as even appearing on enemies that don't get lifted at all.
 
 **Plunge**
 
-| Damage Type | Talent 6% |
-| :--- | :--- |
-| Plunge Impact | 92.93% |
-| Low Plunge DMG | 185.81% |
-| High Plunge DMG | 232.09% |
+| Damage Type | Talent 9% | Poise Damage | Impulse Type |
+| :--- | :--- | :--- | :--- |
+| Plunge DMG | 117.46% | 25 | 2 |
+| Low Plunge DMG | 234.86% | 100 | 4 |
+| High Plunge DMG | 293.36% | 150 | 7 |
 {% endtab %}
 
 {% tab title="Gale Blade" %}
 **Press**  
-Jean quickly thrusts forward knocking light enemies away and dealing Anemo DMG.
-
-* Enemies launched by **Gale Blade** can incur fall damage against the ground or walls.
-* Fall damage is based on a percentage of enemy health making it very useful against enemies with high health and low interruption resistance.
+Focusing the might of the formless wind around her blade, Jean releases a miniature storm, launching opponents in the direction she aims at, dealing massive Anemo DMG.
 
 **Hold**  
-Creates a vaccum that lifts enemies and moves them towards the blade.
+At the cost of continued stamina consumption, Jean can command the whirlwind to pull surrounding opponents and objects towards her front.  
+Direction can be adjusted.  
+Character is immobile during skill duration. 
 
+| Attribute | Skill |
+| :--- | :--- |
+| Skill DMG \(T9%\) | 496.40% | 
+| Particles | 2~3 \(1:2\) | 
+| Frames | 46 |
+| GU | 2U |
+| ICD | None | 
+| Snapshot | Dynamic | 
+| Damage Element | Anemo | 
+| Damage Type | Skill |
+| Max Duration | 5s |
+| CD | 6s | 
+| Poise Damage | 250 |
+| Impulse Type | 9 |
+
+**Notes**
 * Costs 20 stamina per second to hold.
-* You cannot move Jean but you can move the camera to change where you are aiming with the blade.
-* To be able to lift an enemy, Jean's level cannot be more than 20 levels below the enemy's level.
+* Enemies launched by **Gale Blade** can incur fall damage against the ground or walls.
+  * Fall damage is based on a percentage of enemy health making it very useful against enemies with high health and low interruption resistance.
+* While Jean cannot move you can move the camera to change where you are aiming with the blade.
+* To be able to lift an enemy, Jean's level must be no more than 20 levels below the enemy's level.
 * Fall damage for the hold variant can vary somewhat arbitrarily, as enemies held in **Gale Blade** will not be held completely still. 
 * If **Gale Blade** \(E\) is held while looking down on falling enemies, they can take fall damage before being launched up again for a second instance of fall damage.
 
-| Type | Talent 6% |
-| :--- | :--- |
-| Skill DMG | 408.80% |
-| Max duration | 5s |
-| Particles | 2~3 \(1:2\) |
-| GU | 2U |
-| Cooldown | 6s |
-| Cast frames | 46 |
 {% endtab %}
 
 {% tab title="Dandelion Breeze" %}
-Jean creates **Dandelion field** dealing AoE Anemo DMG and heals the party instantly.
+Calling upon the wind's protection, Jean creates a swirling **Dandelion Field**, launching surrounding opponents and dealing Anemo DMG.  
+At the same time, she instantly regenerates a large amount of HP for all party members. The amount of HP restored scales off Jean's ATK.
 
+**Dandelion Field**
+* Continuously regenerates HP of characters within the AoE and continuously imbues them with Anemo.
+* Deals Anemo DMG to opponents entering or exiting the **Dandelion Field**.
+
+| Attribute | Burst |
+| :--- | :--- |
+| Burst DMG \(T9%\) | 722.16% | 
+| Field Enter/Exit DMG \(T9%\) | 133.28% | 
+| Burst Healing \(T9%\) | 427.04% ATK + 3132 |
+| Continuous Healing \(T9%\) | 42.7% ATK + 313 |
+| Cast Frames | 88 |
+| Energy Frame | 46 |
+| CD Frame | 40 |
+| GU | 2U |
+| ICD | None | 
+| Snapshot | Snapshots | 
+| Damage Element | Anemo | 
+| Damage Type | Burst |
+| Energy Cost | 80 |
+| Duration | 10s |
+| CD | 20s | 
+| Burst Poise Damage | 400 | 4 |
+| Burst Impulse Type | 4 |
+| Field Enter/Exit Poise Damage | 50 |
+| Field Enter/Exit Impulse Type | 2 |
+
+**Notes**
 * Cast also knocks away light enemies.
-* The **Dandelion field** deals Anemo damage to enemies crossing the border of the field.
+* The **Dandelion Field** deals Anemo damage to enemies crossing the border of the field.
+* **Dandelion Breeze** deals Field Enter/Exit DMG to enemies within its AOE on initial cast and when the duration of the **Dandelion Field** ends.
 * Heals and applies Anemo continuously to the active character inside the field cleansing debuffs.
   * The continuous swirling of auras allows elements to spread to surrounding opponents when self-afflicted with an element.
-    * With precise timing, anemo can be the aura for self-swirls occasionally. 
-
-| Effect | Talent 6% / Data |
-| :--- | :--- |
-| Burst DMG | 594.72% |
-| Border DMG | 109.76% |
-| Burst Healing | 351.68% ATK + 2439 |
-| Continous Healing | 35.17% ATK + 244 |
-| GU | 2U |
-| Duration | 10s |
-| Cooldown | 20s |
-| Energy Cost | 80 |
-| Cast frames | 88 |
+  * With precise timing, Anemo can be the aura for self-swirls occasionally.  
+  * This self-swirl interaction does not count as a reaction for Freedom\-Sworn Passive stacks and 4pc Instructor set effect.
+  * In Sunfire \(when Jean's Burst and Bennett's Burst overlap\), if Jean triggers Overload the Freedom\-Sworn Passive will be activated.
 {% endtab %}
 {% endtabs %}
 
@@ -106,35 +138,36 @@ Jean creates **Dandelion field** dealing AoE Anemo DMG and heals the party insta
 
 {% tabs %}
 {% tab title="Passive" %}
-### Guiding Breeze
+### **Guiding Breeze**
 
-When a Perfect Cooking is achieved on a dish with restorative effects, Jean has a 12% chance to obtain double the product.
+When a Perfect Cooking is achieved on a dish with restorative effects, there is a 12% chance to obtain double the product.
 {% endtab %}
 
 {% tab title="Ascension 1" %}
-### Wind Companion
+### **Wind Companion**
 
-Hits by Jean's Normal Attacks have a 50% chance to regenerate HP equal to 15% of Jean's ATK for all party members.
+On hit, Jean's Normal Attacks have a 50% chance to regenerate HP equal to 15% of Jean's ATK for all party members.
 {% endtab %}
 
 {% tab title="Ascension 4" %}
-### Let the Wind Lead
+### **Let the Wind Lead**
 
 Using **Dandelion Breeze** will regenerate 20% of its Energy.
 {% endtab %}
 {% endtabs %}
 
-## Constellations
+## **Constellations**
 
 {% tabs %}
 {% tab title="C1" %}
-### Spiraling Tempest
+### **Spiraling Tempest**
 
 Increases the pulling speed of **Gale Blade** after holding for more than 1s, and increases the DMG dealt by 40%.
+
 {% endtab %}
 
 {% tab title="C2" %}
-### People's Aegis
+### **People's Aegis**
 
 When Jean picks up an Elemental Orb/Particle, all party members have their Movement SPD and ATK SPD increased by 15% for 15s.
 
@@ -142,27 +175,33 @@ When Jean picks up an Elemental Orb/Particle, all party members have their Movem
 {% endtab %}
 
 {% tab title="C3" %}
-### When the West Wind Arises
+### **When the West Wind Arises**
 
-Increases the level of **Dandelion Breeze** by 3.
+Increases the Level of **Dandelion Breeze** by 3.
+Maximum upgrade level is 15.
+
 {% endtab %}
 
 {% tab title="C4" %}
-### Lands of Dandelion
+### **Lands of Dandelion**
 
 Within the **Field** created by **Dandelion Breeze**, all opponents have their Anemo RES decreased by 40%.
+
 {% endtab %}
 
 {% tab title="C5" %}
-### Outbursting Gust
+### **Outbursting Gust**
 
 Increases the Level of **Gale Blade** by 3.
+Maximum upgrade level is 15.
+
 {% endtab %}
 
 {% tab title="C6" %}
-### Lion's Fang, Fair Protector of Mondstadt
+### **Lion's Fang, Fair Protector of Mondstadt**
 
 Incoming DMG is decreased by 35% within the Field created by **Dandelion Breeze**. Upon leaving the **Dandelion Field**, this effect lasts for 3 attacks or 10s.
+
 {% endtab %}
 {% endtabs %}
 
@@ -172,68 +211,63 @@ Incoming DMG is decreased by 35% within the Field created by **Dandelion Breeze*
 {% tab title="Favonius Bladework" %}
 ### Normal Attacks
 
-|  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1-Hit DMG | 70.25 | 76.43 | 82.61 | 88.80 | 95.54 | 103.27 |
-| 2-Hit DMG | 66.25 | 72.08 | 77.91 | 83.74 | 90.10 | 97.39 |
-| 3-Hit DMG | 87.63 | 95.34 | 103.05 | 110.76 | 119.17 | 128.81 |
-| 4-Hit DMG | 95.75 | 104.18 | 112.60 | 121.03 | 130.22 | 140.75 |
-| 5-Hit DMG | 115.13 | 125.26 | 135.39 | 145.52 | 156.57 | 169.23 |
+|  | Lv1 | Lv2 | Lv3 | Lv4 | Lv5 | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 1-Hit DMG | 48.33% | 52.27% | 56.20% | 61.82% | 65.75% | 70.25% | 76.43% | 82.61% | 88.80% | 95.54% | 103.27% |
+| 2-Hit DMG | 45.58% | 49.29% | 53.00% | 58.30% | 62.01% | 66.25% | 72.08% | 77.91% | 83.74% | 90.10% | 97.39% |
+| 3-Hit DMG | 60.29% | 65.19% | 70.10% | 77.11% | 82.02% | 87.63% | 95.34% | 103.05% | 110.76% | 119.17% | 128.81% |
+| 4-Hit DMG | 65.88% | 71.24% | 76.60% | 84.26% | 89.62% | 95.75% | 104.18% | 112.60% | 121.03% | 130.22% | 140.75% |
+| 5-Hit DMG | 79.21% | 85.65% | 92.10% | 101.31% | 107.76% | 115.13% | 125.26% | 135.39% | 145.52% | 156.57% | 169.23% |
 
 ### Charged Attack
 
-|  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Charged Attack DMG | 235.50 | 256.22 | 276.95 | 297.67 | 320.28 | 346.19 |
+|  | Lv1 | Lv2 | Lv3 | Lv4 | Lv5 | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Charged Attack DMG | 162.02% | 175.21% | 188.40% | 207.24% | 220.43% | 235.50% | 256.22% | 276.95% | 297.67% | 320.28% | 346.18% |
 
 **Stamina Cost**: 20
 
 ### Plunge
 
-|  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Plunge DMG | 92.93 | 101.10 | 109.28 | 117.46 | 126.38 | 135.30 |
-| Low Plunge DMG | 185.81 | 202.16 | 218.51 | 234.86 | 252.70 | 270.54 |
-| High Plunge DMG | 232.09 | 252.51 | 272.93 | 293.36 | 315.64 | 337.92 |
+|  | Lv1 | Lv2 | Lv3 | Lv4 | Lv5 | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Plunge DMG | 63.93% | 69.14% | 74.34% | 81.77% | 86.98% | 92.93% | 101.10% | 109.28% | 117.46% | 126.38% | 135.30% |
+| Low Plunge DMG | 127.84% | 138.24% | 148.65% | 163.51% | 173.92% | 185.81% | 202.16% | 218.51% | 234.86% | 252.70% | 270.54% |
+| High Plunge DMG | 159.68% | 172.67% | 185.67% | 204.24% | 217.23% | 232.09% | 252.51% | 272.93% | 293.36% | 315.64% | 337.92% |
+
 {% endtab %}
 
 {% tab title="Gale Blade" %}
-|  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 | Lv12 | Lv13 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Skill DMG | 408.80 | 438 | 467.20 | 496.40 | 525.60 | 554.80 | 584 | 620.50 |
 
-**Stamina Consumption per Second**: 20
+|  | Lv1 | Lv2 | Lv3 | Lv4 | Lv5 | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 | Lv12 | Lv13 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Skill DMG | 292.00% | 313.90% | 335.80% | 365.00% | 386.90% | 408.80% | 438.00% | 467.20% | 496.40% | 525.60% | 554.80% | 584.00% | 620.50% |
 
-**Maximum Duration**: 5s
-
+**Stamina Consumption per Second**: 20  
+**Maximum Duration**: 5s  
 **Cooldown**: 6s
+
 {% endtab %}
 
 {% tab title="Dandelion Breeze" %}
-|  | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 | Lv12 | Lv13 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Elemental Burst DMG | 594.72 | 637.20 | 679.68 | 722.16 | 764.64 | 807.12 | 849.60 | 902.70 |
-| Field Entering/Exiting DMG | 109.76 | 117.60 | 125.44 | 133.28 | 141.12 | 148.96 | 156.80 | 166.60 |
-| Field Activation Healing Scaling | 351.68 | 376.8 | 401.92 | 427.04 | 452.16 | 477.28 | 502.4 | 533.8 |
-| Field Activation Healing Additive | 2439 | 2657 | 2888 | 3132 | 3389 | 3659 | 3941 | 4236 |
-| Continuous Regeneration Scaling | 35.17 | 37.68 | 40.19 | 42.7 | 45.22 | 47.73 | 50.24 | 53.38 |
-| Continuous Regeneration Additive | 244 | 266 | 289 | 313 | 339 | 366 | 394 | 424 |
 
-**Energy Cost**: 80
+|  | Lv1 | Lv2 | Lv3 | Lv4 | Lv5 | Lv6 | Lv7 | Lv8 | Lv9 | Lv10 | Lv11 | Lv12 | Lv13 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Elemental Burst DMG | 424.80% | 456.66% | 488.52% | 531.00% | 562.86% | 594.72% | 637.20% | 679.68% | 722.16% | 764.64% | 807.12% | 849.60% | 902.70% |
+| Field Entering/Exiting DMG | 78.40% | 84.28% | 90.16% | 98.00% | 103.88% | 109.76% | 117.60% | 125.44% | 133.28% | 141.12% | 148.96% | 156.80% | 166.60% |
+| Field Activation Healing Scaling | 251.20% | 270.04% | 288.88% | 314.00% | 332.84% | 351.68% | 376.80% | 401.92% | 427.04% | 452.16% | 477.28% | 502.40% | 533.80% |
+| Field Activation Healing Additive | 1540 | 1694 | 1861 | 2041 | 2234 | 2439 | 2657 | 2888 | 3132 | 3389 | 3659 | 3941 | 4236 |
+| Continuous Regeneration Scaling | 25.12% AT | 27.00% | 28.89% | 31.40% | 33.28% | 35.17% | 37.68% | 40.19% | 42.70% | 45.22% | 47.73% | 50.24% | 53.38% |
+| Continuous Regeneration Additive | 154 | 169 | 186 | 204 | 223 | 244 | 266 | 289 | 313 | 339 | 366 | 394 | 424 |
 
-**Duration**: 10s
-
+**Energy Cost**: 80  
+**Duration**: 10s  
 **Cooldown**: 20s
+
 {% endtab %}
 {% endtabs %}
 
-## **External Links**
-
-* [Genshin Impact Fandom](https://genshin-impact.fandom.com/wiki/Jean)
-* [Jean Mains Discord](https://discord.gg/fSw9xXSyTe)
-* [Jean Written Guide: Commanding the Dandelion Knight](https://keqingmains.com/jean/)
-
-**Evidence Vault:**
+## Evidence Vault
 
 {% page-ref page="../../evidence/characters/anemo/jean.md" %}
 
