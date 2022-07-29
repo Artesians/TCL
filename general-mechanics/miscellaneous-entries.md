@@ -109,7 +109,7 @@ description: For entries that have little practical use.
 
 ## Perilous Trail
 
-* Kuki Shinobu's melons, and the campfire she uses to roast them in particular, have some [odd properties](../evidence/general-mechanics/miscellaneous-entries.md\#kuki-shinobus-melons)
+* Kuki Shinobu's melons, and the campfire she uses to roast them in particular, have some [odd properties](../evidence/general-mechanics/miscellaneous-entries.md\#kuki-shinobus-melons).
 
 ## Evidence Vault
 
