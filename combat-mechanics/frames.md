@@ -18,4 +18,9 @@ There are some skills, namely deployables, unable to be extended by hitlag, know
 * Chongyun's [Chonghua Frost Field](../characters/cryo/chongyun.md#attacks)
 * Xiangling's [Pyronado](../characters/pyro/xiangling.md#attacks)
 
+## Burst Idle iFrames
+
+Certain characters' elemental bursts provide iFrames far beyond the first cancellable frame. However, these iFrames are only active until the player inputs any action, after which they are immediately cancelled.  
+* [Spreadsheet of data](https://docs.google.com/spreadsheets/d/13vaZDoydPxFwy3Z0Sq8gMuuVVauE6rQWI3CivfquHaw/edit?usp=sharing)
+
 {% page-ref page="../evidence/combat-mechanics/frames.md" %}
