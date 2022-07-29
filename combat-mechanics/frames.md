@@ -18,4 +18,9 @@ There are some skills, namely deployables, unable to be extended by hitlag, know
 * Chongyun's [Chonghua Frost Field](../characters/cryo/chongyun.md#attacks)
 * Xiangling's [Pyronado](../characters/pyro/xiangling.md#attacks)
 
+## Catalyst N1 Buffer
+
+All catalyst characters have 3 distinct lengths for their n1. Under normal circumstances, they will always use their regular (short) version. However, inputting a Normal Attack immediately out of a dash or sometimes on the first few frames of a walk input will lead to the N1 having significantly increased animation frames (long version). Inputting a Normal Attack out of a previous Normal Attack string leads to a slightly lengthened animation (medium version). 
+* For more detailed information and specific frame counts, see the [vault entry](../evidence/combat-mechanics/frames.md#catalyst-n1-buffer).
+
 {% page-ref page="../evidence/combat-mechanics/frames.md" %}
