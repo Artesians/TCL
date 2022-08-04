@@ -150,7 +150,7 @@ The findings firstly disprove that Gorou’s paw symbol must fully appear before
 #### C1 Stack Timing
 
 **By:** Mr. Pillow\#0065 and AluMantis\#7870  
-**Added:** 2022-07-28  
+**Added:** 2022-08-03 
 [Discussion](https://tickets.deeznuts.moe/transcripts/itto-c1-mechanics)  
 
 **Finding:**  
