@@ -14,7 +14,7 @@ search: false
 
 **By:** Ayzel\#7399  
 **Added:** 2021-05-22  
-[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/845440342446571550/845488049831542784/transcript-kaeya-e-energy-trials.html)
+[Discussion](https://tickets.deeznuts.moe/ticket-archive/attachments_845440342446571550_845488049831542784_transcript-kaeya-e-energy-trials.html)
 
 **Finding:** Kaeya generates particles between 2-3 \(4-5 if accounting for ascension talent\) at a 1:2 ratio, not a 1:1 ratio.
 
@@ -30,7 +30,7 @@ search: false
 
 **By:** Visc\#5095, Raf\#7220, CQLQRS\#7853, and phaZ\#6461  
 **Added:** 2022-01-05  
-[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/906802193846398977/923113252932710420/transcript-pyronado-and-glacial-waltz-frame-count-vs-cryo-regisvine.html)  
+[Discussion](https://tickets.deeznuts.moe/ticket-archive/attachments_906802193846398977_923113252932710420_transcript-pyronado-and-glacial-waltz-frame-count-vs-cryo-regisvine.html)  
 
 **Finding:**  
 Kaeya’s Glacial Waltz (non-c6) has an enemy-independent lock that lasts at least 75f or 1.2s. I constantly observe the icicles proccing about 75-100f since their last proc. This is true regardless if the hitboxes come from the same enemy (B-1) or different (B-2). This means that the locks are specific to icicles and independent of enemy. The timing is more variable than Xiangling’s Pyrnado, but this could be due to funky Glacial Waltz hitboxes, which is beyond the scope of what I’m trying to do.  
@@ -78,7 +78,7 @@ These data sheds light onto Glacial Waltz mechanics and how to maximize their bu
 
 **By:** rot#5883  
 **Added:** 2022-02-20  
-[Discussion](https://tickettool.xyz/direct?url=https://cdn.discordapp.com/attachments/945097851195777054/945132041203224607/transcript-kaeya-a4-vs-enemies-that-cant-be-frozen.html)  
+[Discussion](https://tickets.deeznuts.moe/ticket-archive/attachments_945097851195777054_945132041203224607_transcript-kaeya-a4-vs-enemies-that-cant-be-frozen.html)  
 
 **Finding:**  
 Kaeya’s A4 does not work on Boss and Trounce Domain enemies, works on Cryo Abyss Mage.
@@ -90,5 +90,22 @@ Kaeya’s Elemental Skill generates 2-3 particles when hitting Boss and Trounce 
 **Significance:**  
 Further understanding of particle generation.
 
+## Constellation Mechanics
 
+### C2: Never-Ending Performance
+
+#### Anyone can Trigger C2 Extension
+
+**By:** yeow\#5090  
+**Added:** 2022-07-29  
+[Discussion](https://tickets.deeznuts.moe/transcripts/kaeya-c2-anyone-trigger)  
+
+**Finding:**  
+Unlike how it is worded, Kaeya C2 does not care if his burst or himself that deals the final blow; Anyone can deal the final blow, and the extension still happens.  
+
+**Evidence:**  
+[YouTube](https://www.youtube.com/watch?v=oVOcNeMFqb0)  
+
+**Significance:**  
+Clarification for C2 trigger condition. C2 is easier to trigger than the ingame wording suggests.
 
