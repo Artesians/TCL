@@ -38,7 +38,7 @@ Performs up to 5 consecutive shots with a bow.
 | 3-Hit DMG | 149.49% | 81 | 262.07%/s | 19.98 | 1 / 2 |
 | 4-Hit DMG | 78.07% ×2 (156.14%) | 106 + 121 | 253.36%/s | 10.66 | 1 / 2 |
 | 5-Hit DMG | 178.04% | 154 | 262.88%/s | 23.84 | 1 / 2 |
-| With Recovery | - | 200 | 215.57%/s | - | - |
+| With Recovery | - | 186 | 215.57%/s | - | - |
 
 * The auto-aim range for her normals is around 6 abyss tiles (~15.3 meters)
 
