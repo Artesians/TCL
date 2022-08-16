@@ -24,6 +24,12 @@ search: false
  
 ## Skill Mechanics
  
+* Particles - [Video](https://www.youtube.com/watch?v=VIy9dJp-JUQ) - Zakharov\#5645
+  * 36 particles generated out of 88 tries.
+  * 40% generation rate on every E tick.
+* Skill hitbox extends slightly above the visual effect. - [Video](https://www.youtube.com/watch?v=ENhVQtSF8VQ) - emmaus\#9072
+* Skill Initial Cast DMG and Tick DMG share the same ICD. - [Video](https://www.youtube.com/watch?v=ztZgTo3ugUw) - Akane\#0926
+ 
 ## Burst Mechanics
  
 ## Constellation Mechanics
