@@ -117,6 +117,7 @@ Transformative Reactions include: [Overload](elemental-effects/transformative-re
 | | Elemental Burst: Kamisato Art: Suiyuu | Bloomwater DMG |
 | [![Diluc](https://keqingmains.com/wp-content/uploads/2022/07/diluc_face_70.png)<br>Diluc](/characters/pyro/diluc.md) | Elemental Burst: Dawn | DoT and Explosion DMG |
 | [![Ganyu](https://keqingmains.com/wp-content/uploads/2022/07/ganyu_face_70.png)<br>Ganyu](/characters/cryo/ganyu.md) | Elemental Burst: Celestial Shower | Ice Shard DMG | 
+| [![Heizou](https://keqingmains.com/wp-content/uploads/2022/08/heizou_face_70.png)<br>Heizou](/characters/anemo/heizou.md) | Elemental Burst: Windmuster Kick | Fudou Style Vacuum Slugger and Windmuster Iris DMG |
 | | Elemental Skill: Trail of the Qilin | Skill DMG | 
 | [![Jean](https://keqingmains.com/wp-content/uploads/2022/07/jean_face_70.png)<br>Jean](/characters/anemo/jean.md) | Elemental Burst: Dandelion Breeze | Field Entering/Exiting DMG |
 | [![Kazuha](https://keqingmains.com/wp-content/uploads/2022/07/kazuha_face_70.png)<br>Kazuha](/characters/anemo/kazuha.md) | Elemental Burst: Kazuha Slash | DoT and Additional Elemental DMG |
