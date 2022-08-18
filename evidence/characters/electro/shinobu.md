@@ -30,7 +30,7 @@ search: false
 * Skill Initial Cast DMG and Tick DMG share the same ICD. - [Video](https://www.youtube.com/watch?v=ztZgTo3ugUw) - Akane\#0926
  
 ## Burst Mechanics
-* Elemental Burst hits 7 times when above 50% HP - [Video](https://www.youtube.com/watch?v=SGuHpV_gGQk) - TWICE\#9958
+* Elemental Burst hits 7 times when above 50% HP. - [Video](https://www.youtube.com/watch?v=SGuHpV_gGQk) - TWICE\#9958
 * The number of hits from the Elemental Burst below 50% HP is affected by FPS. - MGR\#5268
   * 30 FPS - 11 hits - [Video](https://www.youtube.com/watch?v=g1M5aBp8F90)
   * 30 FPS - 12 hits - [Video](https://www.youtube.com/watch?v=Rh2aHifxL64)
@@ -53,6 +53,11 @@ search: false
 
 
 ## Constellation Mechanics
- 
- 
+
+### C4: To Server Sealing
+* Elemental Skill and C4 have separate ICD. - [Video](https://www.youtube.com/watch?v=KXMqiHhOr1w) - BlueBery\#9054
+* C4 damage scales with Elemental Skill Damage. - [Video](https://www.youtube.com/watch?v=stbDCK_i0lI) - BlueBery\#9054
+* C4 can generate particles. - [Video](https://www.youtube.com/watch?v=08wZg7eMZZw) - BlueBery\#9054
+* There is no cooldown for particle generation between Skill and C4. [Video](https://www.youtube.com/watch?v=5Vj_mTyL4e8) - BlueBery\#9054
+
 
