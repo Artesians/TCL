@@ -18,7 +18,7 @@ description: Energy particle generation by character.
 | Off-field, 2 man party, different element | 0.8 | 2.4 | 1.6 | 4.8 |
 
 ## Elemental Skill Particles
-*Updated for Patch 2.7.*
+*Updated for Patch 2.8.*
 
 Production ratio shows the rate of the amount of particle that will be produced \(for example 2~3 \(1:2\) means 33.33% chance of producing 2 particles and 66.67% chance of producing 3 particles\).
 
@@ -27,6 +27,7 @@ Production ratio shows the rate of the amount of particle that will be produced 
 
 | Character | Notes | Cooldown \(s\) | Particles \(ratio\) | Average Particles | Particles/min |
 | --------- | :--- | :--- | :--- | :--- | :--- | 
+| Heizou    | Skill produces particles based on Declension Stacks consumed. 0-1 stacks produces 2 particles. 2-3 stacks produces 2~3 (1:1) particles. 4 stacks produces 3 particles. 4 stacks assumed | 10 | 3 \(-\) | 3 \(-\) | 18.0 |
 | Venti     |  | 6 | 3 \(-\) | 3.00 | 30.0 |
 | Venti     | Skill Hold | 15 | 4 \(-\) | 4.00 | 16.0 |
 | Kazuha    | C1 (**Scarlet Hills**) | 5.4 | 3 \(-\) | 3.00 | 33.3 |
@@ -103,6 +104,9 @@ Production ratio shows the rate of the amount of particle that will be produced 
 | Keqing    | Produce particle on leap connect or Thunderclap Slash connect. Both produce same amount of particle | 7.5 | 2~3 \(1:1\) | 2.50 | 20.0 |
 | Lisa      | Skill Hold | 16 | 5 \(-\) | 5.00 | 18.8 | 
 | Sara      | Particle produced on **Tengu Juurai: Ambush** connect | 10 | 3 \(-\) | 3.00 | 18.0 |
+| Shinobu | C4 "To Sever Sealing". Does a 0~1 check check every time Thundergrass Mark deals Electro DMG. No CD. | 15 | 0~1 \(9:20\) | 6.00 | 24.00 |
+| Shinobu | C2 "To Forsake Fortune". Does a 0~1 (45%) check every time Grass Ring of Sanctification deals Electro DMG. 1.5s ICD. | 15 | 0~1 \(9:20\) | 4.50 | 18.00 |
+| Shinobu | Does a 0~1 (45%) check every time Grass Ring of Sanctification deals Electro DMG. 1.5s ICD. | 15 | 0~1 (9:20)| 3.60 | 14.4
 | Traveler <br />\(Electro\) | Multiple Thunder Shadow connect doesn't change the result | 13.5 | 1 \(-\) | 1.00 | 4.4 |
 | Yae Miko | Skill itself doesn't produce particles. 1 particle is produced every time a Sesshou Sakura hits. When multiple Sesshou Sakuras are present, only one of them will produce particles | 4 | 1 \(-\) | 1.00 | 15.0 |
 
