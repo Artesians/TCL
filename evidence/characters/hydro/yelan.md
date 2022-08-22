@@ -9,7 +9,7 @@ search: false
 {% page-ref page="../../../characters/hydro/yelan.md" %}
 
 ## Basic Mechanics
-[Discussion]()  
+[Discussion](https://tickets.deeznuts.moe/transcripts/yelan-basic-mechanics)  
 
 * Gauges - [Video](https://youtu.be/kVB-pt8txps) - CC\#5588
     * Breakthrough Barb: 1A
