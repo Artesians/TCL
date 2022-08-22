@@ -10,10 +10,7 @@ search: false
  
 ## Basic Mechanics
 
-<!--
-for whenever the discussion link becomes available
-[Discussion]()
--->
+[Discussion](https://tickets.deeznuts.moe/transcripts/heizou-basic-mechanics)  
 
 * Gauges:
     * NA: 1U. - [Video](https://youtu.be/6qH0JVJY-O0) -  emmaus\#9072
