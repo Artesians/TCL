@@ -9,7 +9,7 @@ search: false
 {% page-ref page="../../../characters/electro/shinobu.md" %}
  
 ## Basic Mechanics
-[Discussion]()  
+[Discussion](https://tickets.deeznuts.moe/transcripts/shinobu-basic-mechanics)  
 
 * ICDs:
   * E and Q: 3-hit/2.5s - [Video](https://www.youtube.com/watch?v=ztZgTo3ugUw) - Akane\#0926
