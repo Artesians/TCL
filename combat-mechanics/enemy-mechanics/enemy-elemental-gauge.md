@@ -36,5 +36,13 @@ Enemies apply Elemental Auras that use the same system as Elemental Gauge Theory
   </tbody>
 </table>
 
+Some enemies have Geo "auras", and when petrified by Zhongli's Elemental Burst they have the following properties:
+
+* These enemies have a Geo symbol above them, which can appear above their health bars.
+* The aura is completely inert, not even Crystallize can be triggered. But it can co-exist with other Elements.
+* It is still possible to trigger Crystallize if the player applies Cryo, Electro, Hydro, or Electro followed by Geo.
+* Geo attacks cannot apply this Geo aura.
+* Zhongli Hold E doesn't deplete this Geo aura from Petrification.
+
 {% page-ref page="../../evidence/combat-mechanics/enemy-mechanics/enemy-elemental-gauge.md" %}
 
