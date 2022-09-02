@@ -394,7 +394,7 @@ The Archer class really is made up of archers!
 
 ## Enemies 
 
-### Disappearing Fatui When They Shouldnt
+### Disappearing Fatui When They Shouldn't
 
 **By:** Asaki\#9139  
 **Added:** 2022-08-24  
