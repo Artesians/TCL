@@ -36,7 +36,7 @@ Production ratio shows the rate of the amount of particle that will be produced 
 | Sayu      | Hold E > tap E to cancel roll immediately (roll connect produce 1 particle, Fuufuu Whirlwind kick produce 2 particle) | 6.5 | 3 \(-\) | 3.00 | 27.7 | 
 | Sayu      |  | 6 | 2 \(-\) | 2.00 | 20.0 | 
 | Sayu      | Skill Hold \[Roll connect produce 1 particle, Fuufuu Whirlwind Kick produce 2 particle, 3s icd, 10s full duration \(4 procs on 0s, 3s, 6s, 9s)\, cd only starts after skill ends\] | 21 | 6 \(-\) | 6.00 | 17.1 | 
-| Sucrose   |  | 15 | 4 \(-\) | 4.00 | 16.0 |
+| Sucrose   | C0 | 15 | 4 \(-\) | 4.00 | 16.0 |
 | Traveler <br />(Anemo) |  | 5 | 2 \(-\) | 2.00 | 24.0 | 
 | Traveler <br />(Anemo)  | Skill Hold | 8 | 3~4 \(2:1\) | 3.33 | 25.0 | 
 | Venti     |  | 6 | 3 \(-\) | 3.00 | 30.0 |
@@ -72,7 +72,7 @@ Production ratio shows the rate of the amount of particle that will be produced 
 
 | Character | Notes | Cooldown \(s\) | Particles \(ratio\) | Average Particles | Particles/min |
 | --------- | :--- | :--- | :--- | :--- | :--- | 
-| Amber     | C4 \(**It's not just any doll...**\) \(Decrease CD 20%, +1 charge\) | 12 | 4 \(-\) | 4.00 | 20.0 |
+| Amber     | C4, extra charge not used \(**It's not just any doll...**\) \(Decrease CD 20%, +1 charge\) | 12 | 4 \(-\) | 4.00 | 20.0 |
 | Amber     | Off-field \(Baron Bunny\) | 15 | 4 \(-\) | 4.00 | 16.0 |
 | Bennett   | A4 \(**Fearnaught**\), Burst off CD \(80% uptime\), always on-field, particle/min assumes 6 E cast per burst cycle | 2 | 2~3 \(3:1\) | 2.25 | 54.0 |
 | Bennett   | A2 \(**Rekindle**\) | 4 | 2~3 \(3:1\) | 2.25 | 33.8 |
@@ -102,13 +102,13 @@ Production ratio shows the rate of the amount of particle that will be produced 
 | Fischl    | Doesn't have to stay on field \(Oz\). Does a 0~1 \(2:3\) check on every Oz's non-constellation 6 non-talent attack, 1s icd interval | 25 | 0~9 \(-\) | 6.00 | 14.4 |
 | Keqing    | Produce particle on leap connect or Thunderclap Slash connect. Both produce same amount of particle | 7.5 | 2~3 \(1:1\) | 2.50 | 20.0 |
 | Lisa      | Skill Hold | 16 | 5 \(-\) | 5.00 | 18.8 | 
-| Raiden    | Skill itself produces no particles, every type of damage \(including reaction triggered by skill\) triggers coordinated attack, which produce particle \(0~1 \(1:1\) check, 0.9s icd, does not buffer\), doesn't have to stay on field | 0.9 | 0~1 \(1:1\) | 0.50 | 35.0 |
+| Raiden    | Skill itself produces no particles, every type of damage \(including non-EC reaction triggered by skill\) triggers coordinated attack, which produce particle \(0~1 \(1:1\) check, 0.9s icd, does not buffer\), doesn't have to stay on field | 0.9 | 0~1 \(1:1\) | 0.50 | 33.3 |
 | Razor     |  | 6 | 3 \(-\) | 3.00 | 30.0 |
 | Razor     | Skill Hold  | 10 | 4 \(-\) | 4.00 | 24.0 |
 | Sara      | Particle produced on **Tengu Juurai: Ambush** connect | 10 | 3 \(-\) | 3.00 | 18.0 |
-| Shinobu | C4 "To Sever Sealing". Does a 0~1 check check every time Thundergrass Mark deals Electro DMG. No CD. | 15 | 0~1 \(9:20\) | 6.00 | 24.00 |
+| Shinobu | C4 "To Sever Sealing". Does a 0~1 check check every time Thundergrass Mark deals Electro DMG. No CD. | 15 | 0~1 \(9:20\) | 5.85 | 24.00 |
 | Shinobu | C2 "To Forsake Fortune". Does a 0~1 (45%) check every time Grass Ring of Sanctification deals Electro DMG. 1.5s ICD. | 15 | 0~1 \(9:20\) | 4.50 | 18.00 |
-| Shinobu | Does a 0~1 (45%) check every time Grass Ring of Sanctification deals Electro DMG. 1.5s ICD. | 15 | 0~1 (9:20)| 3.60 | 14.4
+| Shinobu | Does a 0~1 (45%) check every time Grass Ring of Sanctification deals Electro DMG. 1.5s ICD. | 15 | 0~1 \(9:20\)| 3.60 | 14.4
 | Traveler <br />\(Electro\) | Multiple Thunder Shadow connect doesn't change the result | 13.5 | 1 \(-\) | 1.00 | 4.4 |
 | Yae Miko | Skill itself doesn't produce particles. 1 particle is produced every time a Sesshou Sakura hits. When multiple Sesshou Sakuras are present, only one of them will produce particles | 4 | 1 \(-\) | 1.00 | 15.0 |
 
