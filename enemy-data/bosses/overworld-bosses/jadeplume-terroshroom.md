@@ -12,7 +12,11 @@ Unknown.
 
 ## Energy Drops
 
-Unknown.  
+| HP Threshold | Type | Element |
+| :--- | :--- | :--- |
+| 66% HP | 1 Orb | Dendro |
+| 33% HP | 1 Orb | Dendro |
+| Death | 1 Particle + 1 Orb | Dendro |
 
 ## Resistance Table
 

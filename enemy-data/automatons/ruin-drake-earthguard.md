@@ -13,9 +13,13 @@ From this ability, one can glimpse the scale of the ambition that the civilizati
 
 Cores.  
 
-## Energy drops
+## Energy Drops
 
-Unknown.  
+| HP Threshold | Type | Element |
+| :--- | :--- | :--- |
+| 66% HP | 1 Orb | Common |
+| 33% HP | 1 Orb | Common |
+| Death | 2 Particles | Common |
 
 ## Resistance Table
 

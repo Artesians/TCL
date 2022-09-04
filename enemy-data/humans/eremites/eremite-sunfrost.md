@@ -15,7 +15,11 @@ Head.
 
 ## Energy Drops
 
-Unknown.  
+| HP Threshold | Type | Element |
+| 75% HP | 1 Particle | Cryo | 
+| 50% HP | 1 Particle | Cryo | 
+| 25% HP | 1 Particle | Cryo | 
+| Death | 2 Particles | Cryo |
 
 ## Resistance Table
 
@@ -34,15 +38,15 @@ Unknown.
 
 | Level | HP |
 | :--- | :--- |
-| 60 | 14174 |
-| 65 | 18635 |
-| 70 | 23443 |
-| 75 | 29334 |
-| 80 | 37819 |
-| 85 | 48317 |
-| 90 | 59360 |
-| 95 | 72686 |
-| 100 | 88736 |
+| 60 | 31892 |
+| 65 | 41929 |
+| 70 | 52748 |
+| 75 | 66002 |
+| 80 | 85092 |
+| 85 | 108713 |
+| 90 | 133561 |
+| 95 | 163543 |
+| 100 | 199656 |
 
 ## Attacks 
 

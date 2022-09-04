@@ -13,9 +13,13 @@ How, you wonder, did a civilization that could make such frightening machines of
 
 Cores.  
 
-## Energy drops
+## Energy Drops
 
-Unknown.  
+| HP Threshold | Type | Element |
+| :--- | :--- | :--- |
+| 66% HP | 1 Orb | Common |
+| 33% HP | 1 Orb | Common |
+| Death | 2 Particles | Common |
 
 ## Resistance Table
 

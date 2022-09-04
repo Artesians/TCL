@@ -14,9 +14,9 @@ Regisvine will only have a weakspot on their corolla after being stunned twice.
 
 | HP Threshold | Type | Element |
 | :--- | :--- | :--- |
-| 75% HP | 1 Particle | Own Element |  
-| 50% HP | 1 Particle | Own Element | 
-| 50% HP | 1 Particle| Own Element |
+| 75% HP | 1 Orb | Own Element |  
+| 50% HP | 1 Orb | Own Element |
+| 25% HP | 1 Orb | Own Element | 
 | Death | 1 Orb | Own Element |
 
 ## Resistance Table
