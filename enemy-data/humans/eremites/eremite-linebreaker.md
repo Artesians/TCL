@@ -14,7 +14,9 @@ Head.
 
 ## Energy Drops
 
-Unknown.  
+| HP Threshold | Type | Element |
+| 60% HP | 1 Particle | Common | 
+| Death | 1 Particle | Common |
 
 ## Resistance Table
 
