@@ -96,10 +96,10 @@ Production ratio shows the rate of the amount of particle that will be produced 
 | Character | Notes | Cooldown \(s\) | Particles \(ratio\) | Average Particles | Particles/min |
 | --------- | :--- | :--- | :--- | :--- | :--- | 
 | Beidou    | **Tidecaller** produce 2 particle at baseline, increase particle by 1 every time a hit is received while holding, max 2. Particle/min assumes always full charge | 7.5 | 2~4 \(-\) | 4.00 | 32.0 | 
-| Fischl    | C6 \(**Evernight Raven**\) Oz, Oz duration doubled with well timed burst | 25 | 0~11 \(-\) | 7.20 | 35.0 |
-| Fischl    | Off-field \(Oz\) \(Oz duration doubled with well timed burst\) | 25 | 0~9 \(-\) | 6.00 | 28.8 |
-| Fischl    | C6 \(**Evernight Raven**\) Oz | 25 | 0~11 \(-\) | 7.20 | 17.3 |
-| Fischl    | Doesn't have to stay on field \(Oz\). Does a 0~1 \(2:3\) check on every Oz's non-constellation 6 non-talent attack, 1s icd interval | 25 | 0~9 \(-\) | 6.00 | 14.4 |
+| Fischl    | C6 \(**Evernight Raven**\) Oz, Oz duration doubled with well timed burst | 25 | 0~12 \(-\) | 8.04 | 38.6 |
+| Fischl    | Off-field \(Oz\) \(Oz duration doubled with well timed burst\) | 25 | 0~10 \(-\) | 6.70 | 32.2 |
+| Fischl    | C6 \(**Evernight Raven**\) Oz | 25 | 0~12 \(-\) | 8.04 | 19.3 |
+| Fischl    | Doesn't have to stay on field \(Oz\). Does a 0~1 \(1:2\) check on every Oz's non-constellation 6 non-talent attack, 1s icd interval | 25 | 0~10 \(-\) | 6.70 | 16.1 |
 | Keqing    | Produce particle on leap connect or Thunderclap Slash connect. Both produce same amount of particle | 7.5 | 2~3 \(1:1\) | 2.50 | 20.0 |
 | Lisa      | Skill Hold | 16 | 5 \(-\) | 5.00 | 18.8 | 
 | Raiden    | Skill itself produces no particles, every type of damage \(including non-EC reaction triggered by skill\) triggers coordinated attack, which produce particle \(0~1 \(1:1\) check, 0.9s icd, does not buffer\), doesn't have to stay on field | 0.9 | 0~1 \(1:1\) | 0.50 | 33.3 |
