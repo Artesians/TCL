@@ -106,7 +106,7 @@ Production ratio shows the rate of the amount of particle that will be produced 
 | Razor     |  | 6 | 3 \(-\) | 3.00 | 30.0 |
 | Razor     | Skill Hold  | 10 | 4 \(-\) | 4.00 | 24.0 |
 | Sara      | Particle produced on **Tengu Juurai: Ambush** connect | 10 | 3 \(-\) | 3.00 | 18.0 |
-| Shinobu | C4 "To Sever Sealing". Does a 0~1 check check every time Thundergrass Mark deals Electro DMG. No CD. | 15 | 0~1 \(9:20\) | 5.85 | 24.00 |
+| Shinobu | C4 "To Sever Sealing". Does a 0~1 check check every time Thundergrass Mark deals Electro DMG. No CD. | 15 | 0~1 \(9:20\) | 5.85 | 23.40 |
 | Shinobu | C2 "To Forsake Fortune". Does a 0~1 (45%) check every time Grass Ring of Sanctification deals Electro DMG. 1.5s ICD. | 15 | 0~1 \(9:20\) | 4.50 | 18.00 |
 | Shinobu | Does a 0~1 (45%) check every time Grass Ring of Sanctification deals Electro DMG. 1.5s ICD. | 15 | 0~1 \(9:20\)| 3.60 | 14.4
 | Traveler <br />\(Electro\) | Multiple Thunder Shadow connect doesn't change the result | 13.5 | 1 \(-\) | 1.00 | 4.4 |
