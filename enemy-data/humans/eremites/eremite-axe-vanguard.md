@@ -16,6 +16,7 @@ Head.
 ## Energy Drops
 
 | HP Threshold | Type | Element |
+| :--- | :--- | :--- |
 | 60% HP | 1 Particle | Common | 
 | Death | 1 Particle | Common |
 
