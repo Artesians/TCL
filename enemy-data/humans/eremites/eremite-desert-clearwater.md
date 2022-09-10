@@ -16,6 +16,7 @@ Head.
 ## Energy Drops
 
 | HP Threshold | Type | Element |
+| :--- | :--- | :--- |
 | 75% HP | 1 Particle | Hydro | 
 | 50% HP | 1 Particle | Hydro | 
 | 25% HP | 1 Particle | Hydro | 
