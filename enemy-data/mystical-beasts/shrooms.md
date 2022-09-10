@@ -14,6 +14,7 @@ Unknown.
 ## Energy Drops
 
 | HP Threshold | Type | Element |
+| :--- | :--- | :--- |
 | 60% | 1 Particle | Own Element |
 | Death | 1 Particle | Own Element |
 
