@@ -66,3 +66,18 @@ Other remarks:
   
 **Significance:**  
 Better understanding of the Elements.
+
+## Elemental Node Infusion Has ICD
+
+**By:** vinsette\#0293  
+**Added:** 2022-08-24  
+[Discussion](https://tickets.deeznuts.moe/transcripts/elemental-node-infusion-has-icd)  
+
+**Finding:**  
+Elemental Nodes and Infusion Stones have a 3-Hit ICD per target.  
+
+**Evidence:**  
+[YouTube](https://m.youtube.com/watch?v=nMFPDOb3z24) \(credit to Kaleamaranth\#6687\)
+
+**Significance:**  
+Adding this mechanic into the TCL from the wiki. Prolonged fights with Elemental Nodes and Infusion Stones won't require you to repeatedly purge off their infusion if you can clear it.  
