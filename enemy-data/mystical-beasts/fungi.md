@@ -13,6 +13,7 @@ Unknown.
 ## Energy Drops
 
 | HP Threshold | Type | Element |
+| :--- | :--- | :--- |
 | Death | 1 Particle | Common |
 
 ## Resistance Table
