@@ -15,7 +15,8 @@ Head.
 
 ## Energy Drops
 
-| HP Threshold | Type | Element |
+| HP Threshold | Type | Element 
+| :--- | :--- | :--- |
 | 75% HP | 1 Particle | Cryo | 
 | 50% HP | 1 Particle | Cryo | 
 | 25% HP | 1 Particle | Cryo | 
